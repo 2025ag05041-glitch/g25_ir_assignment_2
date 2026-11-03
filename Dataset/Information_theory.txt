@@ -1,0 +1,1340 @@
+﻿Information theory
+Information theory is the mathematical study of the quantification, storage, and communication of a
+particular type of mathematically defined information. The field was established and formalized by
+Claude Shannon in the 1940s,[1] though early contributions were made in the 1920s through the works of
+Harry Nyquist and Ralph Hartley.
+
+Information theory was initially formed in the context of telecommunication but soon found a wide range
+of other applications. It is now at the intersection of mathematics, statistics and computer science, and has
+applications in diverse fields ranging from electrical engineering and physics to neurobiology.[2][3][4]
+
+As a simple example of the concept, if one flips a fair coin and does not yet know the outcome (heads or
+tails), then one lacks a certain amount of information. After looking at the coin, one gains information
+about the outcome. For a fair coin, the probability of either heads or tails is 1/2 and the amount of
+information is expressed as  = 1 bit of information.
+
+A key concept in information theory is entropy. In Shannon's formulation, entropy is equal to the lack of
+information about an event. In the above coin flip example, the entropy in the case where you don't know
+the outcome is 1 bit. When you know the outcome after the coin has landed, the entropy is zero because
+you have gained one bit.
+
+Information theory has been used in a wide range of applications, such as source coding/data compression
+(e.g. for ZIP files), and channel coding/error detection and correction (e.g. for DSL). Its impact has been
+crucial to the success of the Voyager missions to deep space,[5] the invention of the compact disc, the
+feasibility of mobile phones and the development of the Internet and artificial intelligence.[6][7][4] The
+theory has also found applications in other areas, including statistical inference,[8] cryptography,
+neurobiology,[9] perception,[10] signal processing,[2] linguistics, the evolution[11] and function[12] of
+molecular codes (bioinformatics), thermal physics,[3][13] molecular dynamics,[14] black holes, quantum
+computing, information retrieval, intelligence gathering, plagiarism detection,[15] pattern recognition,
+anomaly detection,[16] the analysis of music,[17][18] art creation,[19] imaging system design,[20] study of
+outer space,[21] the dimensionality of space,[22] and epistemology.[23]
+
+Overview
+Information theory, as conceived by Claude Shannon, studies the processing and utilization of
+information within a probabilistic context. Abstractly, in this approach information can be thought of as
+the resolution of uncertainty. In the case of communication of information over a noisy channel, this
+abstract concept was formalized in 1948 by Claude Shannon in a paper entitled A Mathematical Theory of
+Communication, in which information is thought of as a set of possible messages, and the goal is to send
+these messages over a noisy channel, and to have the receiver reconstruct the message with low
+probability of error, in spite of the channel noise. Shannon's main result, the noisy-channel coding
+
+
+
+theorem, showed that, in the limit of many channel uses, the rate of information that is asymptotically
+achievable is equal to the channel capacity, a quantity dependent merely on the statistics of the channel
+over which the messages are sent.[9]
+
+Coding theory is concerned with finding explicit methods, called codes, for increasing the efficiency and
+reducing the error rate of data communication over noisy channels to near the channel capacity. These
+codes can be roughly subdivided into data compression (source coding) and error-correction (channel
+coding) techniques. In the latter case, it took many years to find the methods Shannon's work proved were
+possible.[24][25]
+
+A third class of information theory codes are cryptographic algorithms (both codes and ciphers).
+Concepts, methods and results from coding theory and information theory are widely used in
+cryptography and cryptanalysis,[26] such as the unit ban.
+
+Historical background
+The landmark event establishing the discipline of information theory and bringing it to immediate
+worldwide attention was the publication of Claude Shannon's classic paper "A Mathematical Theory of
+Communication" in the Bell System Technical Journal in July and October 1948. Historian James Gleick
+rated the paper as the most important development of 1948, noting that the paper was "even more
+profound and more fundamental" than the transistor.[27] He came to be known as the "father of
+information theory".[28][29][30] Shannon outlined some of his initial ideas of information theory as early
+as 1939 in a letter to Vannevar Bush.[30]
+
+Prior to this paper, limited information-theoretic ideas had been developed at Bell Labs, all implicitly
+assuming events of equal probability. Harry Nyquist's 1924 paper, Certain Factors Affecting Telegraph
+Speed, contains a theoretical section quantifying "intelligence" and the "line speed" at which it can be
+transmitted by a communication system, giving the relation W = K log m (recalling the Boltzmann
+constant), where W is the speed of transmission of intelligence, m is the number of different voltage
+levels to choose from at each time step, and K is a constant. Ralph Hartley's 1928 paper, Transmission of
+Information, uses the word information as a measurable quantity, reflecting the receiver's ability to
+distinguish one sequence of symbols from any other, thus quantifying information as
+H = log Sn = n log S, where S was the number of possible symbols, and n the number of symbols in a
+transmission. The unit of information was therefore the decimal digit, which since has sometimes been
+called the hartley in his honor as a unit or scale or measure of information. Alan Turing in 1940 used
+similar ideas as part of the statistical analysis of the breaking of the German second world war Enigma
+ciphers.
+
+Much of the mathematics behind information theory with events of different probabilities were developed
+for the field of thermodynamics by Ludwig Boltzmann and J. Willard Gibbs. Connections between
+information-theoretic entropy and thermodynamic entropy, including the important contributions by Rolf
+Landauer in the 1960s, are explored in Entropy in thermodynamics and information theory.[31]
+
+In Shannon's revolutionary and groundbreaking paper, the work for which had been substantially
+completed at Bell Labs by the end of 1944, Shannon for the first time introduced the qualitative and
+quantitative model of communication as a statistical process underlying information theory, opening with
+the assertion:[32]
+
+
+
+"The fundamental problem of communication is that of reproducing at one point, either
+exactly or approximately, a message selected at another point."
+
+With it came the ideas of:
+
+The information entropy and redundancy of a source, and its relevance through the source
+coding theorem;
+The mutual information, and the channel capacity of a noisy channel, including the promise
+of perfect loss-free communication given by the noisy-channel coding theorem;
+The practical result of the Shannon–Hartley law for the channel capacity of a Gaussian
+channel; as well as
+The bit—a new way of seeing the most fundamental unit of information.[33]
+
+Quantities of information
+Information theory is based on probability theory and statistics, where quantified information is usually
+described in terms of bits. Information theory often concerns itself with measures of information of the
+distributions associated with random variables. One of the most important measures is called entropy,
+which forms the building block of many other measures. Entropy allows quantification of measure of
+information in a single random variable.[34]
+
+Another useful concept is mutual information defined on two random variables, which quantifies the
+dependence between those variables, which is done by comparing the conditional and unconditional
+distributions.[35] The former quantity is a property of the probability distribution of a random variable and
+gives a limit on the rate at which data generated by independent samples with the given distribution can
+be reliably compressed. The latter is a property of the joint distribution of two random variables and is the
+maximum rate of reliable communication across a noisy channel in the limit of long block lengths, when
+the channel statistics are determined by the joint distribution.
+
+The choice of logarithmic base in the following formulae determines the unit of information entropy that
+is used. A common unit of information is the bit or shannon, based on the binary logarithm. Other units
+include the nat, which is based on the natural logarithm, and the decimal digit, which is based on the
+common logarithm.[32]
+
+In what follows, an expression of the form p log p is considered by convention to be equal to zero
+whenever p = 0. This is justified because  for any logarithmic base.
+
+Entropy of an information source
+Based on the probability mass function of a source, the Shannon entropy H, in units of bits per symbol, is
+defined as the expected value of the information content of the symbols.[36][37]
+
+The amount of information conveyed by an individual source symbol  with probability  is known as
+its self-information or surprisal, . This quantity is defined as:[38][39]
+
+
+
+A less probable symbol has a larger surprisal, meaning its occurrence provides more information.[38] The
+entropy  is the weighted average of the surprisal of all possible symbols from the source's probability
+distribution:[40][41]
+
+Intuitively, the entropy  of a discrete random variable X is a measure of the amount of uncertainty
+associated with the value of  when only its distribution is known.[36] A high entropy indicates the
+outcomes are more evenly distributed, making the result harder to predict.[42]
+
+For example, if one transmits 1000 bits (0s and 1s), and the value of each of these bits is known to the
+receiver (has a specific value with certainty) ahead of transmission, no information is transmitted. If,
+however, each bit is independently and equally likely to be 0 or 1, 1000 shannons of information (more
+often called bits) have been transmitted.[43]
+
+Properties
+A key property of entropy is that it is maximized when all the
+messages in the message space are equiprobable. For a source with n
+possible symbols, where  for all , the entropy is given by:[44]
+
+This maximum value represents the most unpredictable state.[40]
+
+For a source that emits a sequence of  symbols that are independent The entropy of a Bernoulli trial as
+and identically distributed (i.i.d.), the total entropy of the message is a function of success probability,
+
+ bits. If the source data symbols are identically distributed but often called the binary entropy
+function, Hb(p). The entropy is
+
+not independent, the entropy of a message of length  will be less
+than .[45][46] maximized at 1 bit per trial when
+
+the two possible outcomes are
+equally probable, as in an
+
+Units unbiased coin toss.
+
+The choice of the logarithmic base in the entropy formula determines
+the unit of entropy used:[38][40]
+
+A base-2 logarithm (as shown in the main formula) measures entropy in bits per symbol.
+This unit is also sometimes called the shannon in honor of Claude Shannon.[36]
+
+A Natural logarithm (base e) measures entropy in nats per symbol. This is often used in
+theoretical analysis as it avoids the need for scaling constants (like ln 2) in derivations.[47]
+
+Other bases are also possible. A base-10 logarithm measures entropy in decimal digits, or
+hartleys, per symbol.[37] A base-256 logarithm measures entropy in bytes per symbol,
+since 28 = 256.[48]
+
+
+
+Binary Entropy Function
+The special case of information entropy for a random variable with two outcomes (a Bernoulli trial) is the
+binary entropy function. This is typically calculated using a base-2 logarithm, and its unit is the
+shannon.[49] If one outcome has probability p, the other has probability 1 − p. The entropy is given
+by:[50]
+
+This function is depicted in the plot shown above, reaching its maximum of 1 bit when p = 0.5,
+corresponding to the highest uncertainty.
+
+Joint entropy
+The joint entropy of two discrete random variables X and Y is merely the entropy of their pairing: (X, Y).
+This implies that if X and Y are independent, then their joint entropy is the sum of their individual
+entropies.
+
+For example, if (X, Y) represents the position of a chess piece—X the row and Y the column, then the
+joint entropy of the row of the piece and the column of the piece will be the entropy of the position of the
+piece.
+
+Despite similar notation, joint entropy should not be confused with cross-entropy.
+
+The joint entropy of  discrete random variables  is
+
+This can also be represented as a summation of their joint probability mass function:
+
+Thus, joint entropy is just a subcase of entropy where the random variable is a vector giving values in the
+product space.[35]
+
+Conditional entropy (equivocation)
+The conditional entropy or conditional uncertainty of X given random variable Y (also called the
+equivocation of X about Y) is the average conditional entropy over Y:[51]
+
+
+
+Because entropy can be conditioned on a random variable or on that random variable being a certain
+value, care should be taken not to confuse these two definitions of conditional entropy, the former of
+which is in more common use. A basic property of this form of conditional entropy is that:
+
+Mutual information (transinformation)
+Mutual information measures the amount of information that can be obtained about one random variable
+by observing another. It is important in communication where it can be used to maximize the amount of
+information shared between sent and received signals. The mutual information of X relative to Y is given
+by:
+
+where SI (Specific mutual Information) is the pointwise mutual information.
+
+A basic property of the mutual information is that:
+
+That is, knowing , we can save an average of I(X; Y) bits in encoding  compared to not knowing .
+
+Mutual information is symmetric:
+
+Mutual information can be expressed as the average Kullback–Leibler divergence (information gain)
+between the posterior probability distribution of  given the value of  and the prior distribution on :
+
+In other words, this is a measure of how much, on the average, the probability distribution on  will
+change if we are given the value of . This is often recalculated as the divergence from the product of the
+marginal distributions to the actual joint distribution:
+
+
+
+Mutual information is closely related to the log-likelihood ratio test in the context of contingency tables
+and the multinomial distribution and to Pearson's χ2 test: mutual information can be considered a statistic
+for assessing independence between a pair of variables, and has a well-specified asymptotic distribution.
+
+Kullback–Leibler divergence (information gain)
+The Kullback–Leibler divergence (or information divergence, information gain, or relative entropy) is a
+way of comparing two distributions: a "true" probability distribution ⁠ ⁠, and an arbitrary probability
+distribution ⁠ ⁠. If we compress data in a manner that assumes ⁠ ⁠ is the distribution underlying
+some data, when, in reality, ⁠ ⁠ is the correct distribution, the Kullback–Leibler divergence is the
+number of average additional bits per datum necessary for compression. It is thus defined
+
+Although it is sometimes used as a 'distance metric', KL divergence is not a true metric since it is not
+symmetric and does not satisfy the triangle inequality (making it a semi-quasimetric).
+
+Another interpretation of the KL divergence is the "unnecessary surprise" introduced by a prior from the
+truth: suppose a number  is about to be drawn randomly from a discrete set with probability distribution
+
+⁠. If Alice knows the true distribution ⁠ ⁠, while Bob believes (has a prior) that the distribution is
+⁠, then Bob will be more surprised than Alice, on average, upon seeing the value of . The KL
+
+divergence is the (objective) expected value of Bob's (subjective) surprisal minus Alice's surprisal,
+measured in bits if the log is in base 2. In this way, the extent to which Bob's prior is "wrong" can be
+quantified in terms of how "unnecessarily surprised" it is expected to make him.
+
+The Kullback–Leibler information provides a link between information theory and hypothesis testing, as
+it is the optimal error exponent in asymmetric hypothesis testing.
+
+Directed Information
+Directed information, , is an information theory measure that quantifies the information
+flow from the random process  to the random process
+
+. The term directed information was coined by James Massey and is defined as:
+
+where  is the conditional mutual information .
+
+In contrast to mutual information, directed information is not symmetric. The  measures
+the information bits that are transmitted causally from  to . The Directed information has many
+applications in problems where causality plays an important role such as capacity of channel with
+
+
+
+feedback,[52][53] capacity of discrete memoryless networks with feedback,[54] gambling with causal side
+information,[55] compression with causal side information,[56] real-time control communication
+settings,[57][58] and in statistical physics.[59]
+
+Other quantities
+Other important information theoretic quantities include the Rényi entropy and the Tsallis entropy
+(generalizations of the concept of entropy), differential entropy (a generalization of quantities of
+information to continuous distributions), and the conditional mutual information. Also, pragmatic
+information has been proposed as a measure of how much information has been used in making a
+decision.
+
+Coding theory
+Coding theory is one of the most important and direct
+applications of information theory. It can be subdivided into
+source coding theory and channel coding theory. Using a
+statistical description for data, information theory quantifies
+the number of bits needed to describe the data, which is the
+information entropy of the source.[60]
+
+A picture showing scratches on the
+Data compression (source coding): There are two readable surface of a CD-R. Music and
+formulations for the compression problem: data CDs are coded using error
+
+Lossless data compression: the data must be correcting codes and thus can still be
+
+reconstructed exactly;[61] read even if they have minor scratches
+using error detection and correction.
+
+Lossy data compression: allocates bits needed
+to reconstruct the data, within a specified fidelity
+level measured by a distortion function. This subset of information theory is called rate–
+distortion theory.[60]
+
+Error-correcting codes (channel coding): While data compression removes as much
+redundancy as possible, an error-correcting code adds just the right kind of redundancy
+(i.e., error correction) needed to transmit the data efficiently and faithfully across a noisy
+channel.[60]
+
+This division of coding theory into compression and transmission is justified by the information
+transmission theorems, or source–channel separation theorems that justify the use of bits as the universal
+currency for information in many contexts. However, these theorems only hold in the situation where one
+transmitting user wishes to communicate to one receiving user. In scenarios with more than one
+transmitter (the multiple-access channel), more than one receiver (the broadcast channel) or intermediary
+"helpers" (the relay channel), or more general networks, compression followed by transmission may no
+longer be optimal. For general sources and channels that are not necessarily stationary or ergodic,
+information-spectrum methods characterize coding limits using asymptotic distributions of information
+density rather than only single-letter entropies or mutual information.[62] A related problem, channel
+resolvability, asks what rate is required for channel inputs to approximate a target output distribution; Han
+and Sergio Verdú connected this approximation problem to coding theorems for general channels.[63]
+
+Hayashi later derived general nonasymptotic and asymptotic formulas connecting channel resolvability
+and identification capacity, and applied these formulas to secrecy analysis for the wiretap channel.[64]
+
+
+
+Source theory
+Any process that generates successive messages can be considered a source of information. A
+memoryless source is one in which each message is an independent identically distributed random
+variable. All such sources are stochastic. These terms are well studied in their own right outside
+information theory.[65]
+
+Rate
+Information rate is the average entropy per symbol. For memoryless sources, this is merely the entropy of
+each symbol, while, in the case of a stationary stochastic process, it is:
+
+that is, the conditional entropy of a symbol given all the previous symbols generated. For the more
+general case of a process that is not necessarily stationary, the average rate is:
+
+that is, the limit of the joint entropy per symbol. For stationary sources, these two expressions give the
+same result.[66]
+
+The information rate is defined as:
+
+It is common in information theory to speak of the "rate" or "entropy" of a language. This is appropriate,
+for example, when the source of information is English prose. The rate of a source of information is
+related to its redundancy and how well it can be compressed, the subject of source coding.
+
+Channel capacity
+Communications over a channel is the primary motivation of information theory. However, channels
+often fail to produce exact reconstruction of a signal; noise, periods of silence, and other forms of signal
+corruption often degrade quality.
+
+Consider the communications process over a discrete channel. A simple model of the process is shown
+below:
+
+Here  represents the space of messages transmitted, and  the space of messages received during a unit
+time over our channel. Let p(y|x) be the conditional probability distribution function of  given . We
+will consider p(y|x) to be an inherent fixed property of our communications channel (representing the
+nature of the noise of our channel). Then the joint distribution of  and  is completely determined by
+
+
+
+our channel and by our choice of f(x), the marginal distribution of messages we choose to send over the
+channel. Under these constraints, we would like to maximize the rate of information, or the signal, we
+can communicate over the channel. The appropriate measure for this is the mutual information, and this
+maximum mutual information is called the channel capacity and is given by:
+
+This capacity has the following property related to communicating at information rate R (where R is
+usually bits per symbol). For any information rate R < C and coding error ε > 0, for large enough N, there
+exists a code of length N and rate ≥ R and a decoding algorithm, such that the maximal probability of
+block error is ≤ ε; that is, it is always possible to transmit with arbitrarily small block error. In addition,
+for any rate R > C, it is impossible to transmit with arbitrarily small block error.
+
+Channel coding is concerned with finding such nearly optimal codes that can be used to transmit data
+over a noisy channel with a small coding error at a rate near the channel capacity.
+
+Capacity of particular channel models
+A continuous-time analog communications channel subject to Gaussian noise—see
+Shannon–Hartley theorem.
+A binary symmetric channel (BSC) with crossover probability p is a binary input, binary
+output channel that flips the input bit with probability p. The BSC has a capacity of
+1 − Hb(p) bits per channel use, where Hb is the binary entropy function to the base-2
+logarithm:
+
+A binary erasure channel (BEC) with erasure probability p is a binary input, ternary output
+channel. The possible channel outputs are 0, 1, and a third symbol 'e' called an erasure.
+The erasure represents complete loss of information about an input bit. The capacity of the
+BEC is 1 − p bits per channel use.
+
+
+
+Channels with memory and directed information
+In practice many channels have memory. Namely, at time  the channel is given by the conditional
+probability . It is often more comfortable to use the
+notation  and the channel become . In such a case the
+capacity is given by the mutual information rate when there is no feedback available and the Directed
+information rate in the case that either there is feedback or not[52][67] (if there is no feedback the directed
+information equals the mutual information).
+
+Fungible information
+Fungible information is the information for which the means of encoding is not important.[68] Classical
+information theorists and computer scientists are mainly concerned with information of this sort. It is
+sometimes referred as speakable information.[69]
+
+Applications to other fields
+
+Network physiology
+Information theory concepts, methods and approaches have broad applications in network
+physiology,[70][71][72] a field which provides a quantitative framework, based on adaptive networks of
+dynamical systems, to investigate how physiological systems exchange, process, and integrate
+information as a network to (i) coordinate their functions across levels and scales (from sub-cellular to
+organs and organism level) and (ii) generate distinct physiological states in health and disease. Through
+measures such as mutual information, transfer entropy, and co-information, information theory enables
+the detection of coupling strength, directionality, synergy/redundancy and higher-order interactions
+among physiological systems and sub-systems, revealing how network cross-communication and
+regulation occur within the organism. Applications of information-theoretic approaches span from
+analyzing information transfer between brain and body networks during various states;[73][74][75] cardio-
+respiratory interactions;[76][77][78] cardio-muscular interactions;[79] cortico-muscular interactions;[80][81]
+
+brain wave interactions and brain functional networks;[82][83][84][85][86] network physiology in extreme
+environments.[87]
+
+Intelligence uses and secrecy applications
+Information theoretic concepts apply to cryptography and cryptanalysis. Turing's information unit, the
+ban, was used in the Ultra project, breaking the German Enigma machine code and hastening the end of
+World War II in Europe. Shannon himself defined an important concept now called the unicity distance.
+Based on the redundancy of the plaintext, it attempts to give a minimum amount of ciphertext necessary
+to ensure unique decipherability.
+
+Information theory leads us to believe it is much more difficult to keep secrets than it might first appear.
+A brute force attack can break systems based on asymmetric key algorithms or on most commonly used
+methods of symmetric key algorithms (sometimes called secret key algorithms), such as block ciphers.
+The security of all such methods comes from the assumption that no known attack can break them in a
+practical amount of time.
+
+
+
+Information theoretic security refers to methods such as the one-time pad that are not vulnerable to such
+brute force attacks. In such cases, the positive conditional mutual information between the plaintext and
+ciphertext (conditioned on the key) can ensure proper transmission, while the unconditional mutual
+information between the plaintext and ciphertext remains zero, resulting in absolutely secure
+communications. In other words, an eavesdropper would not be able to improve his or her guess of the
+plaintext by gaining knowledge of the ciphertext but not of the key. However, as in any other
+cryptographic system, care must be used to correctly apply even information-theoretically secure
+methods; the Venona project was able to crack the one-time pads of the Soviet Union due to their
+improper reuse of key material.
+
+Pseudorandom number generation
+Pseudorandom number generators are widely available in computer language libraries and application
+programs. They are, almost universally, unsuited to cryptographic use as they do not evade the
+deterministic nature of modern computer equipment and software. A class of improved random number
+generators is termed cryptographically secure pseudorandom number generators, but even they require
+random seeds external to the software to work as intended. These can be obtained via extractors, if done
+carefully. The measure of sufficient randomness in extractors is min-entropy, a value related to Shannon
+entropy through Rényi entropy; Rényi entropy is also used in evaluating randomness in cryptographic
+systems. Although related, the distinctions among these measures mean that a random variable with high
+Shannon entropy is not necessarily satisfactory for use in an extractor and so for cryptography uses.
+
+Seismic exploration
+One early commercial application of information theory was in the field of seismic oil exploration. Work
+in this field made it possible to strip off and separate the unwanted noise from the desired seismic signal.
+Information theory and digital signal processing offer a major improvement of resolution and image
+clarity over previous analog methods.[88]
+
+Semiotics
+Semioticians Doede Nauta and Winfried Nöth both considered Charles Sanders Peirce as having created a
+theory of information in his works on semiotics.[89]: 171 [90]: 137  Nauta defined semiotic information theory
+as the study of "the internal processes of coding, filtering, and information processing."[89]: 91 
+
+Concepts from information theory such as redundancy and code control have been used by semioticians
+such as Umberto Eco and Ferruccio Rossi-Landi to explain ideology as a form of message transmission
+whereby a dominant social class emits its message by using signs that exhibit a high degree of
+redundancy such that only one message is decoded among a selection of competing ones.[91]
+
+Integrated process organization of neural information
+Quantitative information theoretic methods have been applied in cognitive science to analyze the
+integrated process organization of neural information in the context of the binding problem in cognitive
+neuroscience.[92] In this context, either an information-theoretical measure, such as functional clusters
+(Gerald Edelman and Giulio Tononi's functional clustering model and dynamic core hypothesis
+(DCH)[93]) or effective information (Tononi's integrated information theory (IIT) of
+
+
+
+consciousness[94][95][96]), is defined (on the basis of a reentrant process organization, i.e. the
+synchronization of neurophysiological activity between groups of neuronal populations), or the measure
+of the minimization of free energy on the basis of statistical methods (Karl J. Friston's free energy
+principle (FEP), an information-theoretical measure which states that every adaptive change in a self-
+organized system leads to a minimization of free energy, and the Bayesian brain
+hypothesis[97][98][99][100][101]).
+
+Miscellaneous applications
+Information theory also has applications in the search for extraterrestrial intelligence,[102] black
+holes,[103] bioinformatics,[104] and gambling.[105][106]
+
+See also
+Algorithmic probability
+Bayesian inference Mathematics portal
+
+Communication theory
+Constructor theory – a generalization of information theory that
+includes quantum information
+Formal science
+Inductive probability
+Info-metrics
+Minimum message length
+Minimum description length
+Philosophy of information
+
+Applications
+Active networking
+Cryptanalysis
+Cryptography
+Cybernetics
+Entropy in thermodynamics and information theory
+Gambling
+Intelligence (information gathering)
+Seismic exploration
+
+History
+Hartley, R.V.L.
+History of information theory
+Shannon, C.E.
+Timeline of information theory
+Yockey, H.P.
+Andrey Kolmogorov
+
+
+
+Theory
+Coding theory Information theory and measure theory
+Detection theory Kolmogorov complexity
+Estimation theory List of unsolved problems in information
+Fisher information theory
+Information algebra Logic of information
+Information asymmetry Network coding
+Information field theory Philosophy of information
+Information geometry Quantum information science
+
+Source coding
+
+Concepts
+Ban (unit) Joint entropy
+Channel capacity Kullback–Leibler divergence
+Communication channel Mutual information
+Communication source Pointwise mutual information (PMI)
+Conditional entropy Receiver (information theory)
+Covert channel Redundancy
+Data compression Rényi entropy
+Decoder Self-information
+Differential entropy Unicity distance
+Fungible information Variety
+Information fluctuation complexity Hamming distance
+Information entropy Perplexity
+
+References
+1. Schneider, Thomas D. (2006). "Claude Shannon: Biologist" (https://www.ncbi.nlm.nih.gov/p
+
+mc/articles/PMC1538977). IEEE Engineering in Medicine and Biology Magazine. 25 (1): 30–
+33. doi:10.1109/memb.2006.1578661 (https://doi.org/10.1109%2Fmemb.2006.1578661).
+ISSN 0739-5175 (https://search.worldcat.org/issn/0739-5175). PMC 1538977 (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC1538977). PMID 16485389 (https://pubmed.ncbi.nlm.nih.g
+ov/16485389).
+
+2. Cruces, Sergio; Martín-Clemente, Rubén; Samek, Wojciech (2019-07-03). "Information
+Theory Applications in Signal Processing" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7
+515149). Entropy. 21 (7): 653. Bibcode:2019Entrp..21..653C (https://ui.adsabs.harvard.edu/
+abs/2019Entrp..21..653C). doi:10.3390/e21070653 (https://doi.org/10.3390%2Fe21070653).
+ISSN 1099-4300 (https://search.worldcat.org/issn/1099-4300). PMC 7515149 (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC7515149). PMID 33267367 (https://pubmed.ncbi.nlm.nih.g
+ov/33267367).
+
+3. Cao, F. J.; Feito, M. (2009-04-10). "Thermodynamics of feedback controlled systems" (http
+s://link.aps.org/doi/10.1103/PhysRevE.79.041118). Physical Review E. 79 (4) 041118.
+arXiv:0805.4824 (https://arxiv.org/abs/0805.4824). Bibcode:2009PhRvE..79d1118C (https://
+ui.adsabs.harvard.edu/abs/2009PhRvE..79d1118C). doi:10.1103/PhysRevE.79.041118 (http
+s://doi.org/10.1103%2FPhysRevE.79.041118). ISSN 1539-3755 (https://search.worldcat.org/
+issn/1539-3755). PMID 19518184 (https://pubmed.ncbi.nlm.nih.gov/19518184).
+
+
+
+4. Baleanu, D.; Balas, Valentina Emilia; Agarwal, Praveen, eds. (2023). Fractional Order
+Systems and Applications in Engineering (https://books.google.com/books?id=TNpVEAAAQ
+BAJ&pg=PA23). Advanced Studies in Complex Systems. London, United Kingdom:
+Academic Press. p. 23. ISBN 978-0-323-90953-2. OCLC 1314337815 (https://search.worldc
+at.org/oclc/1314337815).
+
+5. Horgan, John (2016-04-27). "Claude Shannon: Tinkerer, Prankster, and Father of
+Information Theory" (https://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father
+-of-information-theory). IEEE. Archived (https://web.archive.org/web/20241110233848/http
+s://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father-of-information-theory)
+from the original on 2024-11-10. Retrieved 2024-11-08.
+
+6. Shi, Zhongzhi (2011). Advanced Artificial Intelligence (https://books.google.com/books?id=x
+MTFCgAAQBAJ). World Scientific Publishing. p. 2. doi:10.1142/7547 (https://doi.org/10.114
+2%2F7547). ISBN 978-981-4291-34-7. Archived (https://web.archive.org/web/20241110202
+013/https://books.google.com/books?id=xMTFCgAAQBAJ) from the original on 2024-11-10.
+Retrieved 2024-11-09.
+
+7. Sinha, Sudhi; Al Huraimel, Khaled (2020-10-20). Reimagining Businesses with AI (https://bo
+oks.google.com/books?id=2pb-DwAAQBAJ) (1 ed.). Wiley. p. 4.
+doi:10.1002/9781119709183 (https://doi.org/10.1002%2F9781119709183). ISBN 978-1-119-
+70915-2.
+
+8. Burnham, K. P.; Anderson, D. R. (2002). Model Selection and Multimodel Inference: A
+Practical Information-Theoretic Approach (Second ed.). New York: Springer Science.
+ISBN 978-0-387-95364-9.
+
+9. F. Rieke; D. Warland; R Ruyter van Steveninck; W Bialek (1997). Spikes: Exploring the
+Neural Code (https://archive.org/details/spikesexploringn0000unse). The MIT press.
+ISBN 978-0-262-68108-7.
+
+10. Delgado-Bonal, Alfonso; Martín-Torres, Javier (2016-11-03). "Human vision is determined
+based on information theory" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5093619).
+Scientific Reports. 6 (1) 36038. Bibcode:2016NatSR...636038D (https://ui.adsabs.harvard.e
+du/abs/2016NatSR...636038D). doi:10.1038/srep36038 (https://doi.org/10.1038%2Fsrep360
+38). ISSN 2045-2322 (https://search.worldcat.org/issn/2045-2322). PMC 5093619 (https://w
+ww.ncbi.nlm.nih.gov/pmc/articles/PMC5093619). PMID 27808236 (https://pubmed.ncbi.nlm.
+nih.gov/27808236).
+
+11. cf; Huelsenbeck, J. P.; Ronquist, F.; Nielsen, R.; Bollback, J. P. (2001). "Bayesian inference
+of phylogeny and its impact on evolutionary biology" (https://archive.org/details/sim_science
+_2001-12-14_294_5550/page/2310). Science. 294 (5550): 2310–2314.
+Bibcode:2001Sci...294.2310H (https://ui.adsabs.harvard.edu/abs/2001Sci...294.2310H).
+doi:10.1126/science.1065889 (https://doi.org/10.1126%2Fscience.1065889).
+PMID 11743192 (https://pubmed.ncbi.nlm.nih.gov/11743192). S2CID 2138288 (https://api.se
+manticscholar.org/CorpusID:2138288).
+
+12. Allikmets, Rando; Wasserman, Wyeth W.; Hutchinson, Amy; Smallwood, Philip; Nathans,
+Jeremy; Rogan, Peter K. (1998). "Thomas D. Schneider], Michael Dean (1998) Organization
+of the ABCR gene: analysis of promoter and splice junction sequences" (http://alum.mit.edu/
+www/toms/). Gene. 215 (1): 111–122. doi:10.1016/s0378-1119(98)00269-8 (https://doi.org/1
+0.1016%2Fs0378-1119%2898%2900269-8). PMID 9666097 (https://pubmed.ncbi.nlm.nih.go
+v/9666097). Archived (https://web.archive.org/web/20080821124201/http://alum.mit.edu/ww
+w/toms) from the original on 2008-08-21. Retrieved 2010-10-18.
+
+13. Jaynes, E. T. (1957). "Information Theory and Statistical Mechanics" (http://bayes.wustl.ed
+u/). Phys. Rev. 106 (4): 620. Bibcode:1957PhRv..106..620J (https://ui.adsabs.harvard.edu/a
+bs/1957PhRv..106..620J). doi:10.1103/physrev.106.620 (https://doi.org/10.1103%2Fphysrev.
+106.620). S2CID 17870175 (https://api.semanticscholar.org/CorpusID:17870175). Archived
+(https://web.archive.org/web/20110830215943/http://bayes.wustl.edu/) from the original on
+2011-08-30. Retrieved 2008-03-13.
+
+
+
+14. Talaat, Khaled; Cowen, Benjamin; Anderoglu, Osman (2020-10-05). "Method of information
+entropy for convergence assessment of molecular dynamics simulations" (https://doi.org/10.
+1063%2F5.0019078). Journal of Applied Physics. 128 (13): 135102.
+Bibcode:2020JAP...128m5102T (https://ui.adsabs.harvard.edu/abs/2020JAP...128m5102T).
+doi:10.1063/5.0019078 (https://doi.org/10.1063%2F5.0019078). OSTI 1691442 (https://ww
+w.osti.gov/biblio/1691442). S2CID 225010720 (https://api.semanticscholar.org/CorpusID:22
+5010720).
+
+15. Bennett, Charles H.; Li, Ming; Ma, Bin (2003). "Chain Letters and Evolutionary Histories" (htt
+ps://web.archive.org/web/20071007041539/http://www.sciamdigital.com/index.cfm?fa=Prod
+ucts.ViewIssuePreview&ARTICLEID_CHAR=08B64096-0772-4904-9D48227D5C9FAC75).
+Scientific American. 288 (6): 76–81. Bibcode:2003SciAm.288f..76B (https://ui.adsabs.harvar
+d.edu/abs/2003SciAm.288f..76B). doi:10.1038/scientificamerican0603-76 (https://doi.org/10.
+1038%2Fscientificamerican0603-76). PMID 12764940 (https://pubmed.ncbi.nlm.nih.gov/127
+64940). Archived from the original (http://sciamdigital.com/index.cfm?fa=Products.ViewIssue
+Preview&ARTICLEID_CHAR=08B64096-0772-4904-9D48227D5C9FAC75) on 2007-10-07.
+Retrieved 2008-03-11.
+
+16. David R. Anderson (November 1, 2003). "Some background on why people in the empirical
+sciences may want to better understand the information-theoretic methods" (https://web.arc
+hive.org/web/20110723045720/http://aicanderson2.home.comcast.net/~aicanderson2/home.
+pdf) (PDF). Archived from the original (http://aicanderson2.home.comcast.net/~aicanderson
+2/home.pdf) (PDF) on July 23, 2011. Retrieved 2010-06-23.
+
+17. Loy, D. Gareth (2017), "Music, Expectation, and Information Theory" (https://link.springer.co
+m/chapter/10.1007/978-3-319-47337-6_17), in Pareyon, Gabriel; Pina-Romero, Silvia;
+Agustín-Aquino, Octavio A.; Lluis-Puebla, Emilio (eds.), The Musical-Mathematical Mind:
+Patterns and Transformations, Computational Music Science, Cham: Springer International
+Publishing, pp. 161–169, doi:10.1007/978-3-319-47337-6_17 (https://doi.org/10.1007%2F97
+8-3-319-47337-6_17), ISBN 978-3-319-47337-6, retrieved 2024-09-19
+
+18. Rocamora, Martín; Cancela, Pablo; Biscainho, Luiz (2019-04-05). "Information Theory
+Concepts Applied to the Analysis of Rhythm in Recorded Music with Recurrent Rhythmic
+Patterns" (http://www.aes.org/e-lib/browse.cfm?elib=20449). Journal of the Audio
+Engineering Society. 67 (4): 160–173. doi:10.17743/jaes.2019.0003 (https://doi.org/10.1774
+3%2Fjaes.2019.0003) (inactive 28 January 2026). hdl:20.500.12008/47508 (https://hdl.hand
+le.net/20.500.12008%2F47508).
+
+19. Marsden, Alan (2020). "New Prospects for Information Theory in Arts Research" (https://dire
+ct.mit.edu/leon/article/53/3/274-280/96875). Leonardo. 53 (3): 274–280.
+doi:10.1162/leon_a_01860 (https://doi.org/10.1162%2Fleon_a_01860). ISSN 0024-094X (htt
+ps://search.worldcat.org/issn/0024-094X).
+
+20. Pinkard, Henry; Kabuli, Leyla; Markley, Eric; Chien, Tiffany; Jiao, Jiantao; Waller, Laura
+(2024). "Universal evaluation and design of imaging systems using information estimation".
+arXiv:2405.20559 (https://arxiv.org/abs/2405.20559) [physics.optics (https://arxiv.org/archiv
+e/physics.optics)].
+
+21. Wing, Simon; Johnson, Jay R. (2019-02-01). "Applications of Information Theory in Solar
+and Space Physics" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7514618). Entropy. 21
+(2): 140. Bibcode:2019Entrp..21..140W (https://ui.adsabs.harvard.edu/abs/2019Entrp..21..1
+40W). doi:10.3390/e21020140 (https://doi.org/10.3390%2Fe21020140). ISSN 1099-4300 (ht
+tps://search.worldcat.org/issn/1099-4300). PMC 7514618 (https://www.ncbi.nlm.nih.gov/pm
+c/articles/PMC7514618). PMID 33266856 (https://pubmed.ncbi.nlm.nih.gov/33266856).
+
+22. Kak, Subhash (2020-11-26). "Information theory and dimensionality of space" (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC7693271). Scientific Reports. 10 (1) 20733.
+doi:10.1038/s41598-020-77855-9 (https://doi.org/10.1038%2Fs41598-020-77855-9).
+ISSN 2045-2322 (https://search.worldcat.org/issn/2045-2322). PMC 7693271 (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC7693271). PMID 33244156 (https://pubmed.ncbi.nlm.nih.g
+ov/33244156).
+
+
+
+23. Harms, William F. (1998). "The Use of Information Theory in Epistemology" (https://www.jsto
+r.org/stable/188281). Philosophy of Science. 65 (3): 472–501. doi:10.1086/392657 (https://d
+oi.org/10.1086%2F392657). ISSN 0031-8248 (https://search.worldcat.org/issn/0031-8248).
+JSTOR 188281 (https://www.jstor.org/stable/188281).
+
+24. Berrou, C.; Glavieux, A.; Thitimajshima, P. (May 1993). "Near Shannon limit error-correcting
+coding and decoding: Turbo-codes. 1". Proceedings of ICC '93 - IEEE International
+Conference on Communications. Vol. 2. pp. 1064–1070 vol.2. doi:10.1109/ICC.1993.397441
+(https://doi.org/10.1109%2FICC.1993.397441). ISBN 0-7803-0950-2.
+
+25. MacKay, D.J.C. (March 1999). "Good error-correcting codes based on very sparse
+matrices". IEEE Transactions on Information Theory. 45 (2): 399–431.
+Bibcode:1999ITIT...45..399M (https://ui.adsabs.harvard.edu/abs/1999ITIT...45..399M).
+doi:10.1109/18.748992 (https://doi.org/10.1109%2F18.748992). ISSN 1557-9654 (https://se
+arch.worldcat.org/issn/1557-9654).
+
+26. Menezes, Alfred J.; van Oorschot, Paul C.; Vanstone, Scott A. (2018-12-07). Handbook of
+Applied Cryptography (https://www.taylorfrancis.com/books/9780429881329) (1 ed.). CRC
+Press. doi:10.1201/9780429466335 (https://doi.org/10.1201%2F9780429466335).
+ISBN 978-0-429-46633-5.
+
+27. Gleick 2011, pp. 3–4.
+28. Horgan, John (2016-04-27). "Claude Shannon: Tinkerer, Prankster, and Father of
+
+Information Theory" (https://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father
+-of-information-theory). IEEE. Archived (https://web.archive.org/web/20230928150930/http
+s://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father-of-information-theory)
+from the original on 2023-09-28. Retrieved 2023-09-30.
+
+29. Roberts, Siobhan (2016-04-30). "The Forgotten Father of the Information Age" (https://www.
+newyorker.com/tech/annals-of-technology/claude-shannon-the-father-of-the-information-age
+-turns-1100100). The New Yorker. ISSN 0028-792X (https://search.worldcat.org/issn/0028-7
+92X). Archived (https://web.archive.org/web/20230928150930/https://www.newyorker.com/t
+ech/annals-of-technology/claude-shannon-the-father-of-the-information-age-turns-1100100)
+from the original on 2023-09-28. Retrieved 2023-09-30.
+
+30. Tse, David (2020-12-22). "How Claude Shannon Invented the Future" (https://www.quantam
+agazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/).
+Quanta Magazine. Archived (https://web.archive.org/web/20231215165308/https://www.qua
+ntamagazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/)
+from the original on 2023-12-15. Retrieved 2023-09-30.
+
+31. Zorich, V. A. (April 2022). "Entropy in Thermodynamics and in Information Theory" (https://lin
+k.springer.com/10.1134/S0032946022020016). Problems of Information Transmission. 58
+(2): 103–110. doi:10.1134/S0032946022020016 (https://doi.org/10.1134%2FS00329460220
+20016). ISSN 0032-9460 (https://search.worldcat.org/issn/0032-9460) – via Open Athens.
+Retrieved 2026-01-11.
+
+32. Shannon, Claude E. (July 1948). "A Mathematical Theory of Communication" (https://web.ar
+chive.org/web/20190215102750/http://www.math.harvard.edu/~ctm/home/text/others/shann
+on/entropy/entropy.pdf) (PDF). Bell System Technical Journal. 27 (3 & 4): 379–423, 623–
+656. Bibcode:1948BSTJ...27..379S (https://ui.adsabs.harvard.edu/abs/1948BSTJ...27..379
+S). doi:10.1002/j.1538-7305.1948.tb01338.x (https://doi.org/10.1002%2Fj.1538-7305.1948.t
+b01338.x). Archived from the original (http://math.harvard.edu/~ctm/home/text/others/shann
+on/entropy/entropy.pdf) (PDF) on 2019-02-15. Retrieved 2019-08-16.
+
+33. "Bits and Binary Digits" (https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-
+00/information-theory/channel_capacity_7.html?). cs.stanford.edu. Retrieved 2026-06-15.
+
+34. Braverman, Mark (September 19, 2011). "Information Theory in Computer Science" (https://
+www.cs.princeton.edu/courses/archive/fall11/cos597D/L01.pdf) (PDF). Archived (https://web.
+archive.org/web/20240520124543/https://www.cs.princeton.edu/courses/archive/fall11/cos5
+97D/L01.pdf) (PDF) from the original on May 20, 2024. Retrieved May 25, 2024.
+
+
+
+35. Polyanskiy, Yury; Wu, Yihong (2025). Information theory: from coding to learning.
+Cambridge, United Kingdom ; New York, NY: Cambridge University Press. ISBN 978-1-108-
+83290-8.
+
+36. Cover, Thomas M.; Thomas, Joy A. (2006). Elements of Information Theory (2nd ed.).
+Wiley-Interscience. p. 14. ISBN 978-0-471-24195-9.
+
+37. Arndt, C. (2004). Information Measures: Information and its Description in Science and
+Engineering. Springer. p. 5. ISBN 978-3-540-40855-0.
+
+38. MacKay, David J.C. (2003). Information Theory, Inference and Learning Algorithms.
+Cambridge University Press. p. 29. ISBN 978-0-521-64298-9.
+
+39. Carter, Tom (2009). " "Entropy" at the Clausius-Shannon Interface" (http://www.mdpi.com/10
+99-4300/11/3/388/pdf). Entropy. pp. 394–438. doi:10.3390/e11030388 (https://doi.org/10.33
+90%2Fe11030388) (inactive 8 June 2026). Retrieved 2025-07-06.
+
+40. Reza, Fazlollah M. (1994). An Introduction to Information Theory. Dover Publications. p. 66.
+ISBN 978-0-486-68210-5.
+
+41. Stone, James V. (2015). Information Theory: A Tutorial Introduction. Sebtel Press. p. 7.
+ISBN 978-0-9563728-5-7.
+
+42. Schneider, Tom D. (2007-03-22). "Information Theory Primer" (https://web.archive.org/web/2
+0120829010323/http://www.lecb.ncifcrf.gov/~toms/paper/primer/). Archived from the original
+(http://www.lecb.ncifcrf.gov/~toms/paper/primer/) on 2012-08-29. Retrieved 2025-07-06.
+
+43. Cover, Thomas M.; Thomas, Joy A. (2006). Elements of Information Theory (2nd ed.).
+Wiley-Interscience. p. 1. ISBN 978-0-471-24195-9.
+
+44. Cover, Thomas M.; Thomas, Joy A. (2006). Elements of Information Theory (2nd ed.).
+Wiley-Interscience. p. 27. ISBN 978-0-471-24195-9. "Theorem 2.6.2: H(X) ≤ log|X|, with
+equality if and only if X has a uniform distribution over X."
+
+45. Cover, Thomas M.; Thomas, Joy A. (2006). Elements of Information Theory (2nd ed.).
+Wiley-Interscience. p. 63. ISBN 978-0-471-24195-9.
+
+46. MacKay, David J.C. (2003). Information Theory, Inference and Learning Algorithms.
+Cambridge University Press. p. 75. ISBN 978-0-521-64298-9.
+
+47. Leung, K. (2011). "Information Theory and the Central Limit Theorem" (https://www.stat.purd
+ue.edu/~kyle/InformationTheory.pdf) (PDF). Purdue University. Retrieved 2025-07-06. "The
+unit of information is determined by the base of the logarithm. If the base is 2, the unit is
+bits. If the base is e, the unit is nats."
+
+48. MacKay, David J.C. (2003). Information Theory, Inference and Learning Algorithms.
+Cambridge University Press. p. 30. ISBN 978-0-521-64298-9. "If we use logarithms to the
+base b, we are measuring information in units of logb 2 bits. We can call a quantity of
+information of log2 256 = 8 bits one byte."
+
+49. Cover, Thomas M.; Thomas, Joy A. (2006). Elements of Information Theory (2nd ed.).
+Wiley-Interscience. p. 15. ISBN 978-0-471-24195-9.
+
+50. MacKay, David J.C. (2003). Information Theory, Inference and Learning Algorithms.
+Cambridge University Press. p. 145. ISBN 978-0-521-64298-9.
+
+51. Ash 1990.
+52. Massey, James (1990), "Causality, Feedback And Directed Information", Proc. 1990 Intl.
+
+Symp. on Info. Th. and its Applications, CiteSeerX 10.1.1.36.5688 (https://citeseerx.ist.psu.e
+du/viewdoc/summary?doi=10.1.1.36.5688) {{citation}}: Cite uses deprecated
+parameter |citeseerx= (help)
+
+53. Permuter, Haim Henry; Weissman, Tsachy; Goldsmith, Andrea J. (February 2009). "Finite
+State Channels With Time-Invariant Deterministic Feedback". IEEE Transactions on
+Information Theory. 55 (2): 644–662. arXiv:cs/0608070 (https://arxiv.org/abs/cs/0608070).
+Bibcode:2009ITIT...55..644P (https://ui.adsabs.harvard.edu/abs/2009ITIT...55..644P).
+doi:10.1109/TIT.2008.2009849 (https://doi.org/10.1109%2FTIT.2008.2009849).
+S2CID 13178 (https://api.semanticscholar.org/CorpusID:13178).
+
+
+
+54. Kramer, G. (January 2003). "Capacity results for the discrete memoryless network". IEEE
+Transactions on Information Theory. 49 (1): 4–21. Bibcode:2003ITIT...49....4K (https://ui.ads
+abs.harvard.edu/abs/2003ITIT...49....4K). doi:10.1109/TIT.2002.806135 (https://doi.org/10.11
+09%2FTIT.2002.806135).
+
+55. Permuter, Haim H.; Kim, Young-Han; Weissman, Tsachy (June 2011). "Interpretations of
+Directed Information in Portfolio Theory, Data Compression, and Hypothesis Testing". IEEE
+Transactions on Information Theory. 57 (6): 3248–3259. arXiv:0912.4872 (https://arxiv.org/a
+bs/0912.4872). Bibcode:2011ITIT...57.3248P (https://ui.adsabs.harvard.edu/abs/2011ITIT...5
+7.3248P). doi:10.1109/TIT.2011.2136270 (https://doi.org/10.1109%2FTIT.2011.2136270).
+S2CID 11722596 (https://api.semanticscholar.org/CorpusID:11722596).
+
+56. Simeone, Osvaldo; Permuter, Haim Henri (June 2013). "Source Coding When the Side
+Information May Be Delayed". IEEE Transactions on Information Theory. 59 (6): 3607–3618.
+arXiv:1109.1293 (https://arxiv.org/abs/1109.1293). Bibcode:2013ITIT...59.3607S (https://ui.a
+dsabs.harvard.edu/abs/2013ITIT...59.3607S). doi:10.1109/TIT.2013.2248192 (https://doi.org/
+10.1109%2FTIT.2013.2248192). S2CID 3211485 (https://api.semanticscholar.org/CorpusID:
+3211485).
+
+57. Charalambous, Charalambos D.; Stavrou, Photios A. (August 2016). "Directed Information
+on Abstract Spaces: Properties and Variational Equalities". IEEE Transactions on
+Information Theory. 62 (11): 6019–6052. arXiv:1302.3971 (https://arxiv.org/abs/1302.3971).
+Bibcode:2016ITIT...62.6019C (https://ui.adsabs.harvard.edu/abs/2016ITIT...62.6019C).
+doi:10.1109/TIT.2016.2604846 (https://doi.org/10.1109%2FTIT.2016.2604846).
+S2CID 8107565 (https://api.semanticscholar.org/CorpusID:8107565).
+
+58. Tanaka, Takashi; Esfahani, Peyman Mohajerin; Mitter, Sanjoy K. (January 2018). "LQG
+Control With Minimum Directed Information: Semidefinite Programming Approach" (http://res
+olver.tudelft.nl/uuid:d9db1c11-fbfd-4c0c-b66f-f341b49fa61a). IEEE Transactions on
+Automatic Control. 63 (1): 37–52. arXiv:1510.04214 (https://arxiv.org/abs/1510.04214).
+Bibcode:2018ITAC...63...37T (https://ui.adsabs.harvard.edu/abs/2018ITAC...63...37T).
+doi:10.1109/TAC.2017.2709618 (https://doi.org/10.1109%2FTAC.2017.2709618).
+S2CID 1401958 (https://api.semanticscholar.org/CorpusID:1401958). Archived (https://web.
+archive.org/web/20240412014101/https://repository.tudelft.nl/islandora/object/uuid:d9db1c11
+-fbfd-4c0c-b66f-f341b49fa61a/datastream/OBJ/download) from the original on Apr 12, 2024
+– via TU Delft Repositories.
+
+59. Vinkler, Dror A; Permuter, Haim H; Merhav, Neri (20 April 2016). "Analogy between gambling
+and measurement-based work extraction". Journal of Statistical Mechanics: Theory and
+Experiment. 2016 (4) 043403. arXiv:1404.6788 (https://arxiv.org/abs/1404.6788).
+Bibcode:2016JSMTE..04.3403V (https://ui.adsabs.harvard.edu/abs/2016JSMTE..04.3403
+V). doi:10.1088/1742-5468/2016/04/043403 (https://doi.org/10.1088%2F1742-5468%2F201
+6%2F04%2F043403). S2CID 124719237 (https://api.semanticscholar.org/CorpusID:124719
+237).
+
+60. Cover, Thomas M.; Thomas, Joy A. (2006). Elements of Information Theory (2nd ed.).
+Wiley-Interscience. ISBN 978-0-471-24195-9.
+
+61. "Unit 4 Lab 4: Data Representation and Compression, Page 6" (https://bjc.edc.org/bjc-r/cur/
+programming/4-internet/4-representation-compression/6-compression.html?topic=nyc_bjc/4-
+internet.topic&course=bjc4nyc.html&novideo&noassignment). bjc.edc.org. Retrieved
+2026-10-22.
+
+62. Han, Te Sun (2003). Information-Spectrum Methods in Information Theory. Stochastic
+Modelling and Applied Probability. Vol. 50. Springer. doi:10.1007/978-3-662-12066-8 (https://
+doi.org/10.1007%2F978-3-662-12066-8). ISBN 978-3-540-43581-5.
+
+63. Han, Te Sun; Verdú, Sergio (May 1993). "Approximation theory of output statistics". IEEE
+Transactions on Information Theory. 39 (3): 752–772. Bibcode:1993ITIT...39..752H (https://u
+i.adsabs.harvard.edu/abs/1993ITIT...39..752H). doi:10.1109/18.256486 (https://doi.org/10.11
+09%2F18.256486).
+
+
+
+64. Hayashi, Masahito (April 2006). "General nonasymptotic and asymptotic formulas in channel
+resolvability and identification capacity and their application to the wiretap channel". IEEE
+Transactions on Information Theory. 52 (4): 1562–1575. Bibcode:2006ITIT...52.1562H (http
+s://ui.adsabs.harvard.edu/abs/2006ITIT...52.1562H). doi:10.1109/TIT.2006.871040 (https://d
+oi.org/10.1109%2FTIT.2006.871040).
+
+65. "Information Theory" (https://byjus.com/physics/information-theory/). BYJUS. Retrieved
+2026-10-22.
+
+66. Jerry D. Gibson (1998). Digital Compression for Multimedia: Principles and Standards (http
+s://books.google.com/books?id=aqQ2Ry6spu0C&q=entropy-rate+conditional&pg=PA56).
+Morgan Kaufmann. ISBN 1-55860-369-7.
+
+67. Permuter, Haim Henry; Weissman, Tsachy; Goldsmith, Andrea J. (February 2009). "Finite
+State Channels With Time-Invariant Deterministic Feedback". IEEE Transactions on
+Information Theory. 55 (2): 644–662. arXiv:cs/0608070 (https://arxiv.org/abs/cs/0608070).
+Bibcode:2009ITIT...55..644P (https://ui.adsabs.harvard.edu/abs/2009ITIT...55..644P).
+doi:10.1109/TIT.2008.2009849 (https://doi.org/10.1109%2FTIT.2008.2009849).
+S2CID 13178 (https://api.semanticscholar.org/CorpusID:13178).
+
+68. Bartlett, Stephen D.; Rudolph, Terry; Spekkens, Robert W. (April–June 2007). "Reference
+frames, superselection rules, and quantum information". Reviews of Modern Physics. 79 (2):
+555–606. arXiv:quant-ph/0610030 (https://arxiv.org/abs/quant-ph/0610030).
+Bibcode:2007RvMP...79..555B (https://ui.adsabs.harvard.edu/abs/2007RvMP...79..555B).
+doi:10.1103/RevModPhys.79.555 (https://doi.org/10.1103%2FRevModPhys.79.555).
+
+69. Peres, A.; P. F. Scudo (2002b). A. Khrennikov (ed.). Quantum Theory: Reconsideration of
+Foundations. Växjö University Press, Växjö, Sweden. p. 283.
+
+70. Bashan, Amir; Bartsch, Ronny P.; Kantelhardt, Jan W.; Havlin, Shlomo; Ivanov, Plamen Ch
+(2012-02-28). "Network physiology reveals relations between network topology and
+physiological function" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3518900). Nature
+Communications. 3 (1): 702. arXiv:1203.0242 (https://arxiv.org/abs/1203.0242).
+Bibcode:2012NatCo...3..702B (https://ui.adsabs.harvard.edu/abs/2012NatCo...3..702B).
+doi:10.1038/ncomms1705 (https://doi.org/10.1038%2Fncomms1705). ISSN 2041-1723 (http
+s://search.worldcat.org/issn/2041-1723). PMC 3518900 (https://www.ncbi.nlm.nih.gov/pmc/a
+rticles/PMC3518900). PMID 22426223 (https://pubmed.ncbi.nlm.nih.gov/22426223).
+
+71. Ivanov, Plamen Ch.; Bartsch, Ronny P. (2014), "Network Physiology: Mapping Interactions
+Between Networks of Physiologic Networks" (https://doi.org/10.1007/978-3-319-03518-5_1
+0), in D'Agostino, Gregorio; Scala, Antonio (eds.), Networks of Networks: The Last Frontier
+of Complexity, Cham: Springer International Publishing, pp. 203–222,
+Bibcode:2014nnlf.book..203I (https://ui.adsabs.harvard.edu/abs/2014nnlf.book..203I),
+doi:10.1007/978-3-319-03518-5_10 (https://doi.org/10.1007%2F978-3-319-03518-5_10),
+ISBN 978-3-319-03518-5, retrieved 2025-12-22
+
+72. Ivanov, Plamen Ch. (2021-06-30). "The New Field of Network Physiology: Building the
+Human Physiolome" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10013018). Frontiers in
+Network Physiology. 1 711778. doi:10.3389/fnetp.2021.711778 (https://doi.org/10.3389%2Ff
+netp.2021.711778). ISSN 2674-0109 (https://search.worldcat.org/issn/2674-0109).
+PMC 10013018 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10013018).
+PMID 36925582 (https://pubmed.ncbi.nlm.nih.gov/36925582).
+
+73. Candia-Rivera, Diego; de Vico Fallani, Fabrizio; Boehme, Rebecca; Salamone, Paula C.
+(2025-01-14). "Linking heartbeats with the cortical network dynamics involved in self-social
+touch distinction" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11733256).
+Communications Biology. 8 (1): 52. doi:10.1038/s42003-024-07448-z (https://doi.org/10.103
+8%2Fs42003-024-07448-z). ISSN 2399-3642 (https://search.worldcat.org/issn/2399-3642).
+PMC 11733256 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11733256). PMID 39809818
+(https://pubmed.ncbi.nlm.nih.gov/39809818).
+
+
+
+74. Faes, L; Marinazzo, D; Jurysta, F; Nollo, G (2015-04-01). "Linear and non-linear brain–heart
+and brain–brain interactions during sleep" (https://iopscience.iop.org/article/10.1088/0967-3
+334/36/4/683). Physiological Measurement. 36 (4): 683–698. Bibcode:2015PhyM...36..683F
+(https://ui.adsabs.harvard.edu/abs/2015PhyM...36..683F). doi:10.1088/0967-3334/36/4/683
+(https://doi.org/10.1088%2F0967-3334%2F36%2F4%2F683). ISSN 0967-3334 (https://sear
+ch.worldcat.org/issn/0967-3334). PMID 25799205 (https://pubmed.ncbi.nlm.nih.gov/257992
+05).
+
+75. Antonacci, Yuri; Astolfi, Laura; Nollo, Giandomenico; Faes, Luca (2020-07-01). "Information
+Transfer in Linear Multivariate Processes Assessed through Penalized Regression
+Techniques: Validation and Application to Physiological Networks" (https://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC7517272). Entropy. 22 (7): 732. Bibcode:2020Entrp..22..732A (https://
+ui.adsabs.harvard.edu/abs/2020Entrp..22..732A). doi:10.3390/e22070732 (https://doi.org/1
+0.3390%2Fe22070732). ISSN 1099-4300 (https://search.worldcat.org/issn/1099-4300).
+PMC 7517272 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7517272). PMID 33286504
+(https://pubmed.ncbi.nlm.nih.gov/33286504).
+
+76. Valenza, Gaetano; Faes, Luca; Citi, Luca; Orini, Michele; Barbieri, Riccardo (May 2018).
+"Instantaneous Transfer Entropy for the Study of Cardiovascular and Cardiorespiratory
+Nonstationary Dynamics". IEEE Transactions on Biomedical Engineering. 65 (5): 1077–
+1085. Bibcode:2018ITBE...65.1077V (https://ui.adsabs.harvard.edu/abs/2018ITBE...65.1077
+V). doi:10.1109/TBME.2017.2740259 (https://doi.org/10.1109%2FTBME.2017.2740259).
+hdl:11568/915451 (https://hdl.handle.net/11568%2F915451). ISSN 1558-2531 (https://searc
+h.worldcat.org/issn/1558-2531). PMID 28816654 (https://pubmed.ncbi.nlm.nih.gov/2881665
+4).
+
+77. Morandotti, Cecilia; Wikner, Matthew; Li, Qijun; Ito, Emily; Oyelade, Tope; Tan, Calix; Chen,
+Pin-Yu; Cawthorn, Anika; Lilaonitkul, Watjana; Mani, Ali R. (Jan 2025). "Decreased cardio-
+respiratory information transfer is associated with deterioration and a poor prognosis in
+critically ill patients with sepsis" (https://doi.org/10.1152%2Fjapplphysiol.00642.2024).
+Journal of Applied Physiology. 138 (1): 289–300. doi:10.1152/japplphysiol.00642.2024 (http
+s://doi.org/10.1152%2Fjapplphysiol.00642.2024). ISSN 8750-7587 (https://search.worldcat.o
+rg/issn/8750-7587). PMID 39679499 (https://pubmed.ncbi.nlm.nih.gov/39679499).
+
+78. Cairo, Beatrice; Pernice, Riccardo; Radovanović, Nikola N.; Faes, Luca; Porta, Alberto;
+Platiša, Mirjana M. (2025-07-20). "State Space Correspondence and Cross-Entropy
+Methods in the Assessment of Bidirectional Cardiorespiratory Coupling in Heart Failure" (htt
+ps://www.ncbi.nlm.nih.gov/pmc/articles/PMC12294321). Entropy. 27 (7): 770.
+Bibcode:2025Entrp..27..770C (https://ui.adsabs.harvard.edu/abs/2025Entrp..27..770C).
+doi:10.3390/e27070770 (https://doi.org/10.3390%2Fe27070770). ISSN 1099-4300 (https://s
+earch.worldcat.org/issn/1099-4300). PMC 12294321 (https://www.ncbi.nlm.nih.gov/pmc/artic
+les/PMC12294321). PMID 40724486 (https://pubmed.ncbi.nlm.nih.gov/40724486).
+
+79. Garcia-Retortillo, Sergi; Ch Ivanov, Plamen (2025). "Dynamics of cardio-muscular networks
+in exercise and fatigue" (https://onlinelibrary.wiley.com/doi/abs/10.1113/JP286963). The
+Journal of Physiology. 603 (18): 5121–5147. doi:10.1113/JP286963 (https://doi.org/10.111
+3%2FJP286963). ISSN 1469-7793 (https://search.worldcat.org/issn/1469-7793).
+PMID 39392864 (https://pubmed.ncbi.nlm.nih.gov/39392864).
+
+80. Chen, Xiaoling; Zhang, Yuanyuan; Cheng, Shengcui; Xie, Ping (May 2019). "Transfer
+Spectral Entropy and Application to Functional Corticomuscular Coupling". IEEE
+Transactions on Neural Systems and Rehabilitation Engineering. 27 (5): 1092–1102.
+Bibcode:2019ITNSR..27.1092C (https://ui.adsabs.harvard.edu/abs/2019ITNSR..27.1092C).
+doi:10.1109/TNSRE.2019.2907148 (https://doi.org/10.1109%2FTNSRE.2019.2907148).
+ISSN 1558-0210 (https://search.worldcat.org/issn/1558-0210). PMID 30908233 (https://pub
+med.ncbi.nlm.nih.gov/30908233).
+
+
+
+81. Cheng, Shengcui; Chen, Xiaoling; Zhang, Yuanyuan; Wang, Ying; Li, Xin; Li, Xiaoli; Xie,
+Ping (2023-12-01). "Multiscale information interaction at local frequency band in functional
+corticomuscular coupling" (https://doi.org/10.1007/s11571-022-09895-y). Cognitive
+Neurodynamics. 17 (6): 1575–1589. doi:10.1007/s11571-022-09895-y (https://doi.org/10.10
+07%2Fs11571-022-09895-y). ISSN 1871-4099 (https://search.worldcat.org/issn/1871-4099).
+PMC 10640559 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10640559).
+PMID 37974587 (https://pubmed.ncbi.nlm.nih.gov/37974587).
+
+82. Vicente, Raul; Wibral, Michael; Lindner, Michael; Pipa, Gordon (2011-02-01). "Transfer
+entropy—a model-free measure of effective connectivity for the neurosciences" (https://doi.o
+rg/10.1007/s10827-010-0262-3). Journal of Computational Neuroscience. 30 (1): 45–67.
+Bibcode:2011JCoN...30...45V (https://ui.adsabs.harvard.edu/abs/2011JCoN...30...45V).
+doi:10.1007/s10827-010-0262-3 (https://doi.org/10.1007%2Fs10827-010-0262-3).
+ISSN 1573-6873 (https://search.worldcat.org/issn/1573-6873). PMC 3040354 (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC3040354). PMID 20706781 (https://pubmed.ncbi.nlm.nih.g
+ov/20706781).
+
+83. Lobier, Muriel; Siebenhühner, Felix; Palva, Satu; Palva, J. Matias (2014-01-15). "Phase
+transfer entropy: A novel phase-based measure for directed connectivity in networks
+coupled by oscillatory interactions" (https://www.sciencedirect.com/science/article/pii/S1053
+811913009191). NeuroImage. New Horizons for Neural Oscillations. 85: 853–872.
+doi:10.1016/j.neuroimage.2013.08.056 (https://doi.org/10.1016%2Fj.neuroimage.2013.08.05
+6). ISSN 1053-8119 (https://search.worldcat.org/issn/1053-8119). PMID 24007803 (https://p
+ubmed.ncbi.nlm.nih.gov/24007803).
+
+84. Menesse, Gustavo; Torres, Joaquín J. (2024-09-05). "Information dynamics of in silico EEG
+Brain Waves: Insights into oscillations and functions" (https://www.ncbi.nlm.nih.gov/pmc/artic
+les/PMC11407780). PLOS Computational Biology. 20 (9) e1012369.
+doi:10.1371/journal.pcbi.1012369 (https://doi.org/10.1371%2Fjournal.pcbi.1012369).
+ISSN 1553-7358 (https://search.worldcat.org/issn/1553-7358). PMC 11407780 (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC11407780). PMID 39236071 (https://pubmed.ncbi.nlm.ni
+h.gov/39236071).
+
+85. Scagliarini, Tomas; Sparacino, Laura; Faes, Luca; Marinazzo, Daniele; Stramaglia,
+Sebastiano (2024-01-09). "Gradients of O-information highlight synergy and redundancy in
+physiological applications" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10803408).
+Frontiers in Network Physiology. 3 1335808. doi:10.3389/fnetp.2023.1335808 (https://doi.or
+g/10.3389%2Ffnetp.2023.1335808). ISSN 2674-0109 (https://search.worldcat.org/issn/2674
+-0109). PMC 10803408 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10803408).
+PMID 38264338 (https://pubmed.ncbi.nlm.nih.gov/38264338).
+
+86. Vergara, Valeria Rosalia; Barà, Chiara; Zaccaro, Andrea; Ferri, Francesca; Jurysta, Fabrice;
+Faes, Luca; Antonacci, Yuri (2025). "Information-Theoretic Analysis of EEG Wave Amplitude
+and Heart Rate Variability Reveals the Time Scale-Dependent Nature of Brain–Heart
+Interactions" (https://doi.org/10.1109%2FOJEMB.2025.3590598). IEEE Open Journal of
+Engineering in Medicine and Biology. 6: 499–506. Bibcode:2025IOJEM...6..499V (https://ui.
+adsabs.harvard.edu/abs/2025IOJEM...6..499V). doi:10.1109/OJEMB.2025.3590598 (https://
+doi.org/10.1109%2FOJEMB.2025.3590598). hdl:10447/686224 (https://hdl.handle.net/1044
+7%2F686224). ISSN 2644-1276 (https://search.worldcat.org/issn/2644-1276).
+
+87. Morandotti, Cecilia; Rigny, Louise; Williams, Thomas B.; Badariotti, Juan I.; Miller-Dicks,
+Matt; Bhogal, Amar S.; Han, Shachula; Corbett, Jo; Tipton, Michael J.; Costello, Joseph T.;
+Mani, Ali R. (2025). "Non-invasive assessment of integrated cardiorespiratory network
+dynamics after physiological stress in humans" (https://doi.org/10.1113%2FJP288939). The
+Journal of Physiology. n/a (n/a) JP288939. doi:10.1113/JP288939 (https://doi.org/10.1113%
+2FJP288939). ISSN 1469-7793 (https://search.worldcat.org/issn/1469-7793).
+PMID 40623438 (https://pubmed.ncbi.nlm.nih.gov/40623438).
+
+
+
+88. Haggerty, Patrick E. (1981). "The corporation and innovation" (https://archive.org/details/sim
+_strategic-management-journal_april-june-1981_2_2/page/97). Strategic Management
+Journal. 2 (2): 97–118. doi:10.1002/smj.4250020202 (https://doi.org/10.1002%2Fsmj.42500
+20202).
+
+89. Nauta, Doede (1972). The Meaning of Information. The Hague: Mouton. ISBN 978-90-279-
+1996-0.
+
+90. Nöth, Winfried (January 2012). "Charles S. Peirce's theory of information: a theory of the
+growth of symbols and of knowledge" (https://edisciplinas.usp.br/mod/resource/view.php?id
+=2311849). Cybernetics and Human Knowing. 19 (1–2): 137–161.
+
+91. Nöth, Winfried (1981). "Semiotics of ideology (https://kobra.uni-kassel.de/bitstream/handle/1
+23456789/2014122246977/semi_2004_002.pdf?sequence=1&isAllowed=y)". Semiotica,
+Issue 148.
+
+92. Maurer, H. (2021). "Chapter 10: Systematic Class of Information Based Architecture Types".
+Cognitive Science: Integrative Synchronization Mechanisms in Cognitive Neuroarchitectures
+of the Modern Connectionism. Boca Raton/FL: CRC Press. doi:10.1201/9781351043526 (ht
+tps://doi.org/10.1201%2F9781351043526). ISBN 978-1-351-04352-6.
+
+93. Edelman, G.M.; Tononi, G. (2000). A Universe of Consciousness: How Matter Becomes
+Imagination. New York: Basic Books. ISBN 978-0-465-01377-7.
+
+94. Tononi, G.; Sporns, O. (2003). "Measuring information integration" (https://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC331407). BMC Neuroscience. 4 31: 1–20. doi:10.1186/1471-2202-4-
+31 (https://doi.org/10.1186%2F1471-2202-4-31). PMC 331407 (https://www.ncbi.nlm.nih.go
+v/pmc/articles/PMC331407). PMID 14641936 (https://pubmed.ncbi.nlm.nih.gov/14641936).
+
+95. Tononi, G. (2004a). "An information integration theory of consciousness" (https://www.ncbi.n
+lm.nih.gov/pmc/articles/PMC543470). BMC Neuroscience. 5 42: 1–22. doi:10.1186/1471-
+2202-5-42 (https://doi.org/10.1186%2F1471-2202-5-42). PMC 543470 (https://www.ncbi.nl
+m.nih.gov/pmc/articles/PMC543470). PMID 15522121 (https://pubmed.ncbi.nlm.nih.gov/155
+22121).
+
+96. Tononi, G. (2004b). "Consciousness and the brain: theoretical aspects" (https://web.archive.
+org/web/20231202031406/https://www.jsmf.org/meetings/2003/nov/consciousness_encyclo
+pedia_2003.pdf) (PDF). In Adelman, G.; Smith, B. (eds.). Encyclopedia of Neuroscience
+(3rd ed.). Amsterdam, Oxford: Elsevier. ISBN 0-444-51432-5. Archived from the original (htt
+ps://www.researchgate.net/publication/265238140) on 2023-12-02.
+
+97. Friston, K.; Stephan, K.E. (2007). "Free-energy and the brain" (https://www.ncbi.nlm.nih.gov/
+pmc/articles/PMC2660582). Synthese. 159 (3): 417–458. doi:10.1007/s11229-007-9237-y (h
+ttps://doi.org/10.1007%2Fs11229-007-9237-y). PMC 2660582 (https://www.ncbi.nlm.nih.go
+v/pmc/articles/PMC2660582). PMID 19325932 (https://pubmed.ncbi.nlm.nih.gov/19325932).
+
+98. Friston, K. (2010). "The free-energy principle: a unified brain theory". Nature Reviews
+Neuroscience. 11 (2): 127–138. doi:10.1038/nrn2787 (https://doi.org/10.1038%2Fnrn2787).
+PMID 20068583 (https://pubmed.ncbi.nlm.nih.gov/20068583).
+
+99. Friston, K.; Breakstear, M.; Deco, G. (2012). "Perception and self-organized instability" (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC3390798). Frontiers in Computational
+Neuroscience. 6: 1–19. doi:10.3389/fncom.2012.00044 (https://doi.org/10.3389%2Ffncom.2
+012.00044). PMC 3390798 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3390798).
+PMID 22783185 (https://pubmed.ncbi.nlm.nih.gov/22783185).
+
+100. Friston, K. (2013). "Life as we know it" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3730
+701). Journal of the Royal Society Interface. 10 (86) 20130475.
+Bibcode:2013JRSI...1030475F (https://ui.adsabs.harvard.edu/abs/2013JRSI...1030475F).
+doi:10.1098/rsif.2013.0475 (https://doi.org/10.1098%2Frsif.2013.0475). PMC 3730701 (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC3730701). PMID 23825119 (https://pubmed.ncbi.
+nlm.nih.gov/23825119).
+
+
+
+101. Kirchhoff, M.; Parr, T.; Palacios, E.; Friston, K.; Kiverstein, J. (2018). "The Markov blankets
+of life: autonomy, active inference and the free energy principle" (https://www.ncbi.nlm.nih.g
+ov/pmc/articles/PMC5805980). Journal of the Royal Society Interface. 15 (138) 20170792.
+Bibcode:2018JRSI...1570792K (https://ui.adsabs.harvard.edu/abs/2018JRSI...1570792K).
+doi:10.1098/rsif.2017.0792 (https://doi.org/10.1098%2Frsif.2017.0792). PMC 5805980 (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC5805980). PMID 29343629 (https://pubmed.ncbi.
+nlm.nih.gov/29343629).
+
+102. Doyle, Laurance R.; McCowan, Brenda; Johnston, Simon; Hanser, Sean F. (February 2011).
+"Information theory, animal communication, and the search for extraterrestrial intelligence".
+Acta Astronautica. 68 (3–4): 406–417. Bibcode:2011AcAau..68..406D (https://ui.adsabs.harv
+ard.edu/abs/2011AcAau..68..406D). doi:10.1016/j.actaastro.2009.11.018 (https://doi.org/10.
+1016%2Fj.actaastro.2009.11.018).
+
+103. Bekenstein, Jacob D (2004). "Black holes and information theory" (https://www.tandfonline.c
+om/doi/abs/10.1080/00107510310001632523). Contemporary Physics. 45 (1): 31–43.
+arXiv:quant-ph/0311049 (https://arxiv.org/abs/quant-ph/0311049).
+Bibcode:2004ConPh..45...31B (https://ui.adsabs.harvard.edu/abs/2004ConPh..45...31B).
+doi:10.1080/00107510310001632523 (https://doi.org/10.1080%2F0010751031000163252
+3). ISSN 0010-7514 (https://search.worldcat.org/issn/0010-7514).
+
+104. Vinga, Susana (2014-05-01). "Information theory applications for biological sequence
+analysis" (https://academic.oup.com/bib/article/15/3/376/183705). Briefings in
+Bioinformatics. 15 (3): 376–389. doi:10.1093/bib/bbt068 (https://doi.org/10.1093%2Fbib%2F
+bbt068). ISSN 1467-5463 (https://search.worldcat.org/issn/1467-5463). PMC 7109941 (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109941). PMID 24058049 (https://pubmed.ncbi.
+nlm.nih.gov/24058049). Archived (https://web.archive.org/web/20220212065704/https://aca
+demic.oup.com/bib/article/15/3/376/183705) from the original on 2022-02-12. Retrieved
+2025-01-20.
+
+105. Thorp, Edward O. (2008-01-01), "The kelly criterion in blackjack sports betting, and the
+stock market*" (https://linkinghub.elsevier.com/retrieve/pii/B9780444532480500150), in
+Zenios, S. A.; Ziemba, W. T. (eds.), Handbook of Asset and Liability Management, San
+Diego: North-Holland, pp. 385–428, doi:10.1016/b978-044453248-0.50015-0 (https://doi.or
+g/10.1016%2Fb978-044453248-0.50015-0), ISBN 978-0-444-53248-0, archived (https://we
+b.archive.org/web/20250125115443/https://linkinghub.elsevier.com/retrieve/pii/B978044453
+2480500150) from the original on 2025-01-25, retrieved 2025-01-20
+
+106. Haigh, John (2000). "The Kelly Criterion and Bet Comparisons in Spread Betting" (https://rs
+s.onlinelibrary.wiley.com/doi/10.1111/1467-9884.00251). Journal of the Royal Statistical
+Society, Series D (The Statistician). 49 (4): 531–539. doi:10.1111/1467-9884.00251 (https://
+doi.org/10.1111%2F1467-9884.00251). ISSN 1467-9884 (https://search.worldcat.org/issn/14
+67-9884).
+
+Further reading
+
+The classic work
+Shannon, C.E. (1948), "A Mathematical Theory of Communication", Bell System Technical
+Journal, 27, pp. 379–423 & 623–656, July & October, 1948. PDF. (http://math.harvard.edu/~
+ctm/home/text/others/shannon/entropy/entropy.pdf) Archived (https://web.archive.org/web/2
+0190215102750/http://www.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entro
+py.pdf) 2019-02-15 at the Wayback Machine
+Notes and other formats. (https://web.archive.org/web/20150409204946/http://cm.bell-labs.c
+om/cm/ms/what/shannonday/paper.html)
+
+
+
+R.V.L. Hartley, "Transmission of Information" (http://www.dotrose.com/etext/90_Miscellaneo
+us/transmission_of_information_1928b.pdf) Archived (https://web.archive.org/web/20111004
+200852/http://www.dotrose.com/etext/90_Miscellaneous/transmission_of_information_1928
+b.pdf) 2011-10-04 at the Wayback Machine, Bell System Technical Journal, July 1928
+Andrey Kolmogorov (1968), "Three approaches to the quantitative definition of information
+(https://www.tandfonline.com/doi/pdf/10.1080/00207166808803030)" in International Journal
+of Computer Mathematics, 2, pp. 157–168.
+
+Other journal articles
+J. L. Kelly Jr., Princeton (http://www.princeton.edu/~wbialek/rome/refs/kelly_56.pdf) Archived
+(https://web.archive.org/web/20200801180142/http://www.princeton.edu/~wbialek/rome/refs/
+kelly_56.pdf) 2020-08-01 at the Wayback Machine, "A New Interpretation of Information
+Rate" Bell System Technical Journal, Vol. 35, July 1956, pp. 917–26.
+R. Landauer, IEEE.org[link removed], "Information is Physical" Proc. Workshop on Physics and
+Computation PhysComp'92 (IEEE Comp. Sci.Press, Los Alamitos, 1993) pp. 1–4.
+Landauer, R. (1961). "Irreversibility and Heat Generation in the Computing Process" (http://
+www.research.ibm.com/journal/rd/441/landauerii.pdf) (PDF). IBM J. Res. Dev. 5 (3): 183–
+191. doi:10.1147/rd.53.0183 (https://doi.org/10.1147%2Frd.53.0183). Archived (https://web.a
+rchive.org/web/20090327151835/http://www.research.ibm.com/journal/rd/441/landauerii.pdf)
+(PDF) from the original on 2009-03-27. Retrieved 2005-12-01.
+Timme, Nicholas; Alford, Wesley; Flecker, Benjamin; Beggs, John M. (2012). "Multivariate
+information measures: an experimentalist's perspective". arXiv:1111.6857 (https://arxiv.org/a
+bs/1111.6857) [cs.IT (https://arxiv.org/archive/cs.IT)].
+
+Textbooks on information theory
+Alajaji, F. and Chen, P.N. An Introduction to Single-User Information Theory. Singapore:
+Springer, 2018 ISBN 978-981-10-8000-5; Second Edition 2026 ISBN 978-981-92-1548-5.
+Arndt, C. Information Measures, Information and its Description in Science and Engineering
+(Springer Series: Signals and Communication Technology), 2004, ISBN 978-3-540-40855-0
+Ash, Robert B. (1990) [1965]. Information Theory (https://books.google.com/books?id=ngZh
+vUfF0UIC&q=intitle:information+intitle:theory+inauthor:ash+conditional+uncertainty&pg=PA1
+6). New York: Dover Publications, Inc. ISBN 0-486-66521-6.
+Gallager, R. Information Theory and Reliable Communication. New York: John Wiley and
+Sons, 1968. ISBN 0-471-29048-3
+Goldman, S. Information Theory. New York: Prentice Hall, 1953. New York: Dover 1968
+ISBN 0-486-62209-6, 2005 ISBN 0-486-44271-3
+Cover, Thomas; Thomas, Joy A. (2006). Elements of information theory (2nd ed.). New York:
+Wiley-Interscience. ISBN 0-471-24195-4.
+Csiszar, I, Korner, J. Information Theory: Coding Theorems for Discrete Memoryless
+Systems Akademiai Kiado: 2nd edition, 1997. ISBN 963-05-7440-3
+MacKay, David J. C. Information Theory, Inference, and Learning Algorithms (http://www.infe
+rence.phy.cam.ac.uk/mackay/itila/book.html) Archived (https://web.archive.org/web/2016021
+7105359/http://www.inference.phy.cam.ac.uk/mackay/itila/book.html) 2016-02-17 at the
+Wayback Machine Cambridge: Cambridge University Press, 2003. ISBN 0-521-64298-1
+Mansuripur, M. Introduction to Information Theory. New York: Prentice Hall, 1987. ISBN 0-
+13-484668-0
+McEliece, R. The Theory of Information and Coding. Cambridge, 2002. ISBN 978-
+0521831857
+
+
+
+Pierce, JR. "An introduction to information theory: symbols, signals and noise". Dover (2nd
+Edition). 1961 (reprinted by Dover 1980).
+Reza, Fazlollah M. (1994) [1961]. An Introduction to Information Theory (https://books.googl
+e.com/books?id=RtzpRAiX6OgC&q=intitle:%22An+Introduction+to+Information+Theory%22
+++%22entropy+of+a+simple+source%22&pg=PA8). New York: Dover Publications, Inc.
+ISBN 0-486-68210-2.
+Shannon, Claude; Weaver, Warren (1949). The Mathematical Theory of Communication (htt
+ps://monoskop.org/images/b/be/Shannon_Claude_E_Weaver_Warren_The_Mathematical_
+Theory_of_Communication_1963.pdf) (PDF). Urbana, Illinois: University of Illinois Press.
+ISBN 0-252-72548-4. LCCN 49-11922 (https://lccn.loc.gov/49-11922).
+Stone, JV. Chapter 1 of book "Information Theory: A Tutorial Introduction" (https://jamesston
+e.sites.sheffield.ac.uk/books/information-theory-2nd-edition), University of Sheffield,
+England, 2014. ISBN 978-0956372857.
+Yeung, RW. A First Course in Information Theory (http://iest2.ie.cuhk.edu.hk/~whyeung/boo
+k/) Archived (https://web.archive.org/web/20060615074602/http://iest2.ie.cuhk.edu.hk/~why
+eung/book/) 2006-06-15 at the Wayback Machine Kluwer Academic/Plenum Publishers,
+2002. ISBN 0-306-46791-7.
+Yeung, RW. Information Theory and Network Coding (http://iest2.ie.cuhk.edu.hk/~whyeung/
+book2/) Springer 2008, 2002. ISBN 978-0-387-79233-0
+
+Other books
+Leon Brillouin, Science and Information Theory, Mineola, N.Y.: Dover, [1956, 1962] 2004.
+ISBN 0-486-43918-6
+Gleick, James (2011). The Information: A History, a Theory, a Flood (1st ed.). New York:
+Pantheon Books. ISBN 978-1-4000-9623-7. OCLC 607975727 (https://search.worldcat.org/
+oclc/607975727).
+A. I. Khinchin, Mathematical Foundations of Information Theory, New York: Dover, 1957.
+ISBN 0-486-60434-9
+H. S. Leff and A. F. Rex, Editors, Maxwell's Demon: Entropy, Information, Computing,
+Princeton University Press, Princeton, New Jersey (1990). ISBN 0-691-08727-X
+Robert K. Logan. What is Information? - Propagating Organization in the Biosphere, the
+Symbolosphere, the Technosphere and the Econosphere, Toronto: DEMO Publishing.
+Tom Siegfried, The Bit and the Pendulum, Wiley, 2000. ISBN 0-471-32174-5
+Charles Seife, Decoding the Universe, Viking, 2006. ISBN 0-670-03441-X
+Jeremy Campbell, Grammatical Man, Touchstone/Simon & Schuster, 1982, ISBN 0-671-
+44062-4
+Henri Theil, Economics and Information Theory, Rand McNally & Company - Chicago, 1967.
+Escolano, Suau, Bonev, Information Theory in Computer Vision and Pattern Recognition (htt
+ps://www.springer.com/computer/image+processing/book/978-1-84882-296-2), Springer,
+2009. ISBN 978-1-84882-296-2
+Vlatko Vedral, Decoding Reality: The Universe as Quantum Information, Oxford University
+Press 2010. ISBN 0-19-923769-7
+
+External links
+"Information" (https://www.encyclopediaofmath.org/index.php?title=Information),
+Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+
+
+
+Lambert F. L. (1999), "Shuffled Cards, Messy Desks, and Disorderly Dorm Rooms -
+Examples of Entropy Increase? Nonsense! (http://jchemed.chem.wisc.edu/Journal/Issues/1
+999/Oct/abs1385.html)", Journal of Chemical Education
+IEEE Information Theory Society (http://www.itsoc.org/) Archived (https://web.archive.org/we
+b/20190801085524/http://www.itsoc.org/) 2019-08-01 at the Wayback Machine and ITSOC
+Monographs, Surveys, and Reviews (https://www.itsoc.org/resources/surveys) Archived (htt
+ps://web.archive.org/web/20180612144016/https://www.itsoc.org/resources/surveys) 2018-
+06-12 at the Wayback Machine
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Information_theory&oldid=1382439351"

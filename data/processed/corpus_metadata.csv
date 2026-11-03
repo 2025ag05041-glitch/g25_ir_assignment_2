@@ -1,0 +1,74 @@
+doc_id,title,category,file_name,source,source_url,revision_id,char_count,word_count
+DOC001,Agent (economics),Finance & Economics,Agent_(economics).txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Agent_(economics)&oldid=1375861756,1375861756,5104,618
+DOC002,Amazon Web Services,Computing & Infrastructure,Amazon_Web_Services.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Amazon_Web_Services&oldid=1380525157,1380525157,95498,10443
+DOC003,Autoencoder,Machine Learning,Autoencoder.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Autoencoder&oldid=1375973936,1375973936,44853,5405
+DOC004,Backpropagation,Machine Learning,Backpropagation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Backpropagation&oldid=1381710221,1381710221,42010,5653
+DOC005,Carlos Lehder,General (Off-domain),Carlos_Lehder.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Carlos_Lehder&oldid=1378592613,1378592613,56405,6408
+DOC006,ChatGPT,AI Systems & Cognition,ChatGPT.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=ChatGPT&oldid=1383144094,1383144094,141056,14642
+DOC007,Cloud computing,Computing & Infrastructure,Cloud_computing.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Cloud_computing&oldid=1382131775,1382131775,64592,7645
+DOC008,Computer network,Computing & Infrastructure,Computer_network.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Computer_network&oldid=1382055874,1382055874,89938,11554
+DOC009,Computer science,Computing & Infrastructure,Computer_science.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Computer_science&oldid=1380596843,1380596843,58932,7103
+DOC010,Conversation,AI Systems & Cognition,Conversation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Conversation&oldid=1376234489,1376234489,15282,2190
+DOC011,Convolutional neural network,Machine Learning,Convolutional_neural_network.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Convolutional_neural_network&oldid=1379323106,1379323106,137001,15882
+DOC012,Cryptocurrency and crime,Finance & Economics,Cryptocurrency_and_crime.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Cryptocurrency_and_crime&oldid=1380781033,1380781033,112755,12141
+DOC013,Cyberattack,Computing & Infrastructure,Cyberattack.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Cyberattack&oldid=1381415132,1381415132,36069,4963
+DOC014,Data center,Computing & Infrastructure,Data_center.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Data_center&oldid=1382990003,1382990003,158969,17418
+DOC015,Data structure,Computing & Infrastructure,Data_structure.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Data_structure&oldid=1377666699,1377666699,15463,1995
+DOC016,Decision tree learning,Machine Learning,Decision_tree_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Decision_tree_learning&oldid=1373673315,1373673315,42052,5553
+DOC017,Deep learning,Machine Learning,Deep_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Deep_learning&oldid=1383144667,1383144667,165637,17957
+DOC018,Financial crisis,Finance & Economics,Financial_crisis.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Financial_crisis&oldid=1380219663,1380219663,56503,7882
+DOC019,Foreign exchange market,Finance & Economics,Foreign_exchange_market.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Foreign_exchange_market&oldid=1376667604,1376667604,68209,9278
+DOC020,Generative adversarial network,Machine Learning,Generative_adversarial_network.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Generative_adversarial_network&oldid=1380981582,1380981582,79880,9754
+DOC021,Generative AI,AI Systems & Cognition,Generative_AI.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Generative_AI&oldid=1382528980,1382528980,137596,14809
+DOC022,Goldmines Telefilms,Finance & Economics,Goldmines_Telefilms.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Goldmines_Telefilms&oldid=1382593100,1382593100,65696,8804
+DOC023,Gradient descent,Machine Learning,Gradient_descent.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Gradient_descent&oldid=1373673523,1373673523,29342,3869
+DOC024,Hallucination (artificial intelligence),AI Systems & Cognition,Hallucination_(artificial_intelligence).txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Hallucination_(artificial_intelligence)&oldid=1383170963,1383170963,84948,9730
+DOC025,Hippopotamuses in Colombia,General (Off-domain),Hippopotamuses_in_Colombia.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Hippopotamuses_in_Colombia&oldid=1379483209,1379483209,23858,2575
+DOC026,Human intelligence,AI Systems & Cognition,Human_intelligence.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Human_intelligence&oldid=1380982983,1380982983,84915,10099
+DOC027,Information retrieval,Language & Search Technology,Information_retrieval.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Information_retrieval&oldid=1375036430,1375036430,41119,5081
+DOC028,Information technology in India,Computing & Infrastructure,Information_technology_in_India.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Information_technology_in_India&oldid=1382352103,1382352103,51846,5002
+DOC029,Information theory,Computing & Infrastructure,Information_theory.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Information_theory&oldid=1382439351,1382439351,80898,9037
+DOC030,Intelligent agent,AI Systems & Cognition,Intelligent_agent.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Intelligent_agent&oldid=1382429285,1382429285,30049,3728
+DOC031,Large language model,AI Systems & Cognition,Large_language_model.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Large_language_model&oldid=1382610955,1382610955,116538,14062
+DOC032,Layoff,Finance & Economics,Layoff.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Layoff&oldid=1382996958,1382996958,27465,3423
+DOC033,Lemmatization,Language & Search Technology,Lemmatization.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Lemmatization&oldid=1317890829,1317890829,5834,760
+DOC034,Long short-term memory,Machine Learning,Long_short-term_memory.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Long_short-term_memory&oldid=1380313689,1380313689,45812,5041
+DOC035,Machine learning,Machine Learning,Machine_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Machine_learning&oldid=1382314933,1382314933,148808,17007
+DOC036,Machine translation,Language & Search Technology,Machine_translation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Machine_translation&oldid=1381969024,1381969024,57238,6854
+DOC037,Markov decision process,Machine Learning,Markov_decision_process.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Markov_decision_process&oldid=1381688772,1381688772,30367,4198
+DOC038,Money market fund,Finance & Economics,Money_market_fund.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Money_market_fund&oldid=1376556943,1376556943,39323,5653
+DOC039,Named-entity recognition,Language & Search Technology,Named-entity_recognition.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Named-entity_recognition&oldid=1368156295,1368156295,24499,3182
+DOC040,Natural language processing,Language & Search Technology,Natural_language_processing.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Natural_language_processing&oldid=1383133655,1383133655,51683,6510
+DOC041,Neural machine translation,Language & Search Technology,Neural_machine_translation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Neural_machine_translation&oldid=1381663222,1381663222,28774,3525
+DOC042,Neural network (machine learning),Machine Learning,Neural_network_(machine_learning).txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Neural_network_(machine_learning)&oldid=1382090148,1382090148,159572,17153
+DOC043,Part-of-speech tagging,Language & Search Technology,Part-of-speech_tagging.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Part-of-speech_tagging&oldid=1379008450,1379008450,15239,2244
+DOC044,Pattern recognition,Machine Learning,Pattern_recognition.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Pattern_recognition&oldid=1377099525,1377099525,32051,3962
+DOC045,Philosophy of artificial intelligence,AI Systems & Cognition,Philosophy_of_artificial_intelligence.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Philosophy_of_artificial_intelligence&oldid=1379195331,1379195331,61056,8504
+DOC046,Random forest,Machine Learning,Random_forest.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Random_forest&oldid=1373673788,1373673788,39453,4994
+DOC047,Recurrent neural network,Machine Learning,Recurrent_neural_network.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Recurrent_neural_network&oldid=1383085501,1383085501,83090,9428
+DOC048,Regression analysis,Machine Learning,Regression_analysis.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Regression_analysis&oldid=1378914971,1378914971,31486,4300
+DOC049,Regulation of cryptocurrency,Finance & Economics,Regulation_of_cryptocurrency.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Regulation_of_cryptocurrency&oldid=1382599606,1382599606,29245,2968
+DOC050,Reinforcement learning,Machine Learning,Reinforcement_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Reinforcement_learning&oldid=1382044619,1382044619,70538,8246
+DOC051,Representative agent,Finance & Economics,Representative_agent.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Representative_agent&oldid=1380336478,1380336478,8214,1117
+DOC052,Search engine,Language & Search Technology,Search_engine.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Search_engine&oldid=1383170733,1383170733,62041,8329
+DOC053,Search engine optimization,Language & Search Technology,Search_engine_optimization.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Search_engine_optimization&oldid=1376765228,1376765228,44043,5116
+DOC054,Sentiment analysis,Language & Search Technology,Sentiment_analysis.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Sentiment_analysis&oldid=1383135688,1383135688,58785,7212
+DOC055,Software agent,AI Systems & Cognition,Software_agent.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Software_agent&oldid=1380799947,1380799947,22562,3049
+DOC056,Speaker recognition,Language & Search Technology,Speaker_recognition.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Speaker_recognition&oldid=1380225450,1380225450,16914,2032
+DOC057,Speech recognition,Language & Search Technology,Speech_recognition.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Speech_recognition&oldid=1380060991,1380060991,107444,11766
+DOC058,Speech translation,Language & Search Technology,Speech_translation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Speech_translation&oldid=1358233380,1358233380,9966,1309
+DOC059,Statistical classification,Machine Learning,Statistical_classification.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Statistical_classification&oldid=1371193792,1371193792,13186,1814
+DOC060,Statistical machine translation,Language & Search Technology,Statistical_machine_translation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Statistical_machine_translation&oldid=1380276019,1380276019,17611,2446
+DOC061,Stemming,Language & Search Technology,Stemming.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Stemming&oldid=1369011809,1369011809,29917,3971
+DOC062,Stock market,Finance & Economics,Stock_market.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Stock_market&oldid=1380471496,1380471496,66720,8753
+DOC063,Supervised learning,Machine Learning,Supervised_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Supervised_learning&oldid=1379881854,1379881854,19233,2759
+DOC064,Support vector machine,Machine Learning,Support_vector_machine.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Support_vector_machine&oldid=1377218945,1377218945,50928,6422
+DOC065,Technical analysis,Finance & Economics,Technical_analysis.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Technical_analysis&oldid=1380669334,1380669334,54137,7439
+DOC066,Text mining,Language & Search Technology,Text_mining.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Text_mining&oldid=1383033720,1383033720,39028,4587
+DOC067,Tokenization,Language & Search Technology,Tokenization.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Tokenization&oldid=1380787624,1380787624,313,39
+DOC068,Transfer learning,Machine Learning,Transfer_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Transfer_learning&oldid=1360633829,1360633829,13015,1446
+DOC069,Turing test,AI Systems & Cognition,Turing_test.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Turing_test&oldid=1383151209,1383151209,100208,13400
+DOC070,Unsupervised learning,Machine Learning,Unsupervised_learning.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Unsupervised_learning&oldid=1364965375,1364965375,26512,3469
+DOC071,Virtual assistant,AI Systems & Cognition,Virtual_assistant.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Virtual_assistant&oldid=1381468724,1381468724,48922,6238
+DOC072,Weak supervision,Machine Learning,Weak_supervision.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Weak_supervision&oldid=1375992650,1375992650,20737,2642
+DOC073,Word-sense disambiguation,Language & Search Technology,Word-sense_disambiguation.txt,Wikipedia,https://en.wikipedia.org/w/index.php?title=Word-sense_disambiguation&oldid=1367045748,1367045748,55362,6684

@@ -1,0 +1,1573 @@
+﻿Amazon Web Services
+Amazon Web Services, Inc. (AWS) is a subsidiary of
+Amazon that provides on-demand cloud computing Amazon Web Services, Inc.
+platforms and APIs to individuals, companies, and
+governments, on a metered, pay-as-you-go basis.
+
+Clients often use this in combination with autoscaling
+(a process that allows a client to use more computing
+in times of high application usage, and then scale down
+to reduce costs when there is less traffic). These cloud Type Subsidiary
+
+computing web services provide various services Industry Web services, cloud
+related to networking, compute, storage, middleware, computing
+IoT and other processing capacity, as well as software Founded July 2002[a] (Web services)
+tools via AWS server farms. This frees clients from March 2006[b] (Cloud
+managing, scaling, and patching hardware and computing)
+operating systems.
+
+Key people Matt Garman (CEO)[3][4]
+
+One of the foundational services is Amazon Elastic C. J. Moses (CISO)[5]
+
+Compute Cloud (EC2), which allows users to have at
+their disposal a virtual cluster of computers, with Revenue  US$128.7 billion (2025)[6]
+
+extremely high availability, which can be interacted Operating  US$45.6 billion (2025)[6]
+
+with over the Internet via REST APIs, a CLI or the income
+
+AWS console. AWS's virtual computers emulate most Parent Amazon
+of the attributes of a real computer, including hardware Subsidiaries Annapurna Labs
+central processing units (CPUs) and graphics AWS Elemental
+processing units (GPUs) for processing; local/RAM NICE Software[7]
+memory; hard-disk (HDD)/SSD storage; a choice of
+operating systems; networking; and pre-loaded AWS Wickr
+
+application software such as web servers, databases, DuckLabs[8]
+
+and customer relationship management (CRM). ASN 16509 (https://bgp.tools/as/1
+6509)
+
+AWS services are delivered to customers via a network
+of AWS server farms located throughout the world. Website aws.amazon.com (https://aw
+
+Fees are based on a combination of usage (known as a s.amazon.com/)
+
+"Pay-as-you-go" model), hardware, operating system,
+software, and networking features chosen by the subscriber requiring various degrees of availability,
+redundancy, security, and service options. Subscribers can pay for a single virtual AWS computer, a
+dedicated physical computer, or clusters of either.[9] Amazon provides select portions of security for
+subscribers (e.g. physical security of the data centers) while other aspects of security are the
+responsibility of the subscriber (e.g. account management, vulnerability scanning, patching). AWS
+operates from many global geographical regions, including nine in North America.[10]
+
+
+
+Amazon markets AWS to subscribers as a way of obtaining large-scale computing capacity more quickly
+and cheaply than building an actual physical server farm.[11] All services are billed based on usage, but
+each service measures usage in varying ways. As of 2023 Q1, AWS has 31% market share for cloud
+infrastructure while the next two competitors Microsoft Azure and Google Cloud have 25%, and 11%
+respectively, according to Synergy Research Group.[12][13] AWS was the first cloud provider to build
+infrastructure specifically for U.S. government with respect to security and compliance requirements
+(2011; launched AWS GovCloud), accredited to support classified workloads (2014; launched AWS Top
+Secret), and achieve accreditation across all U.S. government data classifications (2017; launched AWS
+Secret).[14][15]
+
+Services
+As of 2025 AWS comprises over 200[16] products and services including computing, storage, networking,
+database, analytics, application services, deployment, management, machine learning,[17] mobile,
+developer tools, RobOps and tools for the Internet of Things. The most popular include Amazon Elastic
+Compute Cloud (EC2), Amazon Simple Storage Service (Amazon S3), Amazon Connect, and AWS
+Lambda (a serverless function that can perform arbitrary code written in any language that can be
+configured to be triggered by hundreds of events, including HTTP calls).[18]
+
+Services expose functionality through APIs for clients to use in their applications. These APIs are
+accessed over HTTP, using the REST architectural style and SOAP protocol for older APIs and
+exclusively JSON for newer ones. Clients can interact with these APIs in various ways, including from
+the AWS console (a website), by using SDKs written in various languages (such as Python, Java, and
+JavaScript), or by making direct REST calls.
+
+History
+
+Founding (2000–2005)
+The genesis of AWS came in the early 2000s. After building
+Merchant.com, Amazon's e-commerce-as-a-service platform that offers
+third-party retailers a way to build their own web-stores, Amazon
+pursued service-oriented architecture as a means to scale its engineering
+operations,[19][20][21][22][23][24][25] led by then CTO Allan Vermeulen.[26]
+
+Around the same time frame, Amazon was frustrated with the speed of
+its software engineering, and sought to implement various
+recommendations put forth by Matt Round, an engineering leader at the
+time, including maximization of autonomy for engineering teams, Early AWS "building blocks"
+adoption of REST, standardization of infrastructure, removal of gate- logo
+keeping decision-makers (bureaucracy), and continuous deployment. He
+also called for increasing the percentage of the time engineers spent
+building the software rather than doing other tasks.[27] Amazon created "a shared IT platform" so its
+engineering organizations, which were spending 70% of their time on "undifferentiated heavy-lifting"
+
+
+
+such as IT and infrastructure problems, could focus on customer-facing innovation instead.[28][29]
+
+Besides, in dealing with unusual peak traffic patterns, especially during the holiday season, by migrating
+services to commodity Linux hardware and relying on open source software, Amazon's Infrastructure
+team, led by Tom Killalea,[30] Amazon's first CISO,[31] had already run its data centers and associated
+services in a "fast, reliable, cheap" way.[30]
+
+In July 2002 Amazon.com Web Services, managed by Colin Bryar,[32] launched its first web services,
+opening up the Amazon.com platform to all developers.[33] Over one hundred applications were built on
+top of it by 2004.[34] This unexpected developer interest took Amazon by surprise and convinced them
+that developers were "hungry for more".[29]
+
+By the summer of 2003, Andy Jassy had taken over Bryar's portfolio[35] at Rick Dalzell's behest, after
+Vermeulen, who was Bezos' first pick, declined the offer.[26] Jassy subsequently mapped out the vision
+for an "Internet OS"[19][21][23][36] made up of foundational infrastructure primitives that alleviated key
+impediments to shipping software applications faster.[19][20][21][23][25] By fall 2003,[19][21] databases,
+storage, and compute were identified as the first set of infrastructure pieces that Amazon should
+launch.[19][21][29]
+
+Jeff Barr, an early AWS employee, credits himself, Vermeulen, Jassy, Bezos, and a few others for coming
+up with the idea that would evolve into EC2, S3, and RDS;[37] Jassy recalls the idea was the result of
+brainstorming for about a week with "ten of the best technology minds and ten of the best product
+management minds" on about ten different Internet applications and the most primitive building blocks
+required to build them.[23] Werner Vogels cites Amazon's desire to make the process of "invent, launch,
+reinvent, relaunch, start over, rinse, repeat" as fast as it could was leading them to break down
+organizational structures with "two-pizza teams"[c] and application structures with distributed systems;[d]
+
+and that these changes ultimately paved way for the formation of AWS[25] and its mission "to expose all
+of the atomic-level pieces of the Amazon.com platform".[39] According to Brewster Kahle, co-founder of
+Alexa Internet, which was acquired by Amazon in 1999, his start-up's compute infrastructure helped
+Amazon solve its big data problems and later informed the innovations that underpinned AWS.[40]
+
+Jassy assembled a founding team of 57 employees from a mix of engineering and business backgrounds
+to kick-start these initiatives,[23][22] with a majority of the hires coming from outside the company.[23]
+
+They included Jeff Lawson, the Twilio CEO;[41] Adam Selipsky, the Tableau CEO;[42][43] and Mikhail
+Seregine,[44] a co-founder at Outschool.
+
+In late 2003, the concept for compute,[e] which would later launch as EC2, was reformulated when Chris
+Pinkham and Benjamin Black presented a paper internally describing a vision for Amazon's retail
+computing infrastructure that was completely standardized, completely automated, and would rely
+extensively on web services for services such as storage and would draw on internal work already
+underway. Near the end of their paper, they mentioned the possibility of selling access to virtual servers
+as a service, proposing the company could generate revenue from the new infrastructure investment.[46]
+
+Thereafter Pinkham, Willem van Biljon, and lead developer Christopher Brown developed the Amazon
+EC2 service, with a team in Cape Town, South Africa.[47]
+
+In October 2004, Amazon released Alexa Web Information Service (AWIS) as beta.[48] In November
+2004, AWS launched its first infrastructure service, as beta: Simple Queue Service (SQS).[49][50][51], and
+officially launched in July 2006.[52][53]
+
+
+
+S3, EC2, and other first-generation services (2006–2010)
+On March 14, 2006, AWS launched Amazon S3 cloud storage[54], and that
+was the first AWS' IaaS that was generally available,[53] followed by EC2 in
+August 2006.[55][56] Pi Corporation, a startup Paul Maritz co-founded, was
+the first beta-user of EC2 outside of Amazon,[23] while Microsoft was among
+EC2's first enterprise customers.[57] Later that year SmugMug, one of the
+early AWS adopters, attributed savings of around US$400,000 in storage
+costs to S3.[58] According to Vogels, S3 was built with 8 microservices when
+it launched in 2006 and had over 300 microservices by 2022.[59]
+
+Amazon Elastic Block
+Store
+
+In September 2007, AWS announced its annual Start-up Challenge, a contest
+with prizes worth $100,000 for entrepreneurs and software developers in the
+US using AWS services such as S3 and EC2 to build their businesses.[60] The first edition saw
+participation from Justin.tv,[61] which Amazon later acquired in 2014.[62] Ooyala, an online media
+company,[63] was the eventual winner.[61]
+
+AWS offers, as of June 16, 2022, two block-storage options: the EC2 Instance Store and the Elastic Block
+Store (EBS).[64] Some Amazon EBS features that help with data management, backups, and performance
+tuning include:
+
+EBS volume tagging to allow the user to find and filter EBS resources on the Amazon
+Console and CLI.[65]
+
+Software-level RAID arrays to enable creation of groups of EBS volumes with high
+performance network throughput between them, using the standard RAID protocol.[66]
+
+Additional AWS services from this period include SimpleDB, Mechanical Turk, Elastic Beanstalk,
+Relational Database Service, DynamoDB, CloudWatch, Simple Workflow, CloudFront, and Availability
+Zones.
+
+Growth (2010–2015)
+In November 2010, it was reported that all of Amazon.com's
+retail sites had migrated to AWS.[67] Prior to 2012, AWS was
+considered a part of Amazon.com and so its revenue was not
+delineated in Amazon financial statements. In that year
+industry watchers for the first time estimated AWS revenue to
+be over $1.5 billion.[68]
+
+On November 27, 2012, AWS hosted its first major annual
+conference, re:Invent with a focus on AWS's partners and AWS Summit 2013 event in NYC
+ecosystem,[69] with over 150 sessions.[70] The three-day event
+was held in Las Vegas because of its relatively cheaper
+connectivity with locations across the United States and the rest of the world.[71] Andy Jassy and Werner
+Vogels presented keynotes, with Jeff Bezos joining Vogels for a fireside chat.[72] AWS opened early
+registrations at US$1,099 per head for their customers[70] from over 190 countries.[73] On stage with
+Andy Jassy at the event which saw around 6000 attendees, Reed Hastings, CEO at Netflix, announced
+plans to migrate 100% of Netflix's infrastructure to AWS.[72]
+
+
+
+To support industry-wide training and skills standardization, AWS began offering a certification program
+for computer engineers, on April 30, 2013, to highlight expertise in cloud computing.[74] Later that year,
+in October, AWS launched Activate, a program for start-ups worldwide to leverage AWS credits, third-
+party integrations, and free access to AWS experts to help build their business.[75]
+
+In 2014, AWS launched its partner network, AWS Partner Network (APN), which is focused on helping
+AWS-based companies grow and scale the success of their business with close collaboration and best
+practices.[76][77]
+
+In October 2014, Amazon Aurora was launched.[78]
+
+In January 2015, Amazon Web Services acquired Annapurna Labs, an Israel-based microelectronics
+company for a reported US$350–370M.[79][80]
+
+In April 2015, Amazon.com reported AWS was profitable, with sales of $1.57 billion in the first quarter
+of the year and $265 million of operating income. Founder Jeff Bezos described it as a fast-growing $5
+billion business; analysts described it as "surprisingly more profitable than forecast".[81] In October,
+Amazon.com said in its Q3 earnings report that AWS's operating income was $521 million, with
+operating margins at 25 percent. AWS's 2015 Q3 revenue was $2.1 billion, a 78% increase from 2014's
+Q3 revenue of $1.17 billion.[82] 2015 Q4 revenue for the AWS segment increased 69.5% y/y to $2.4
+billion with a 28.5% operating margin, giving AWS a $9.6 billion run rate. In 2015, Gartner estimated
+that AWS customers are deploying 10x more infrastructure on AWS than the combined adoption of the
+next 14 providers.[83]
+
+Since 2016
+In 2016 Q1, revenue was $2.57 billion with net income of $604 million, a 64% increase over 2015 Q1
+that resulted in AWS being more profitable than Amazon's North American retail business for the first
+time.[84] Jassy was thereafter promoted to CEO of the division.[85] Around the same time, Amazon
+experienced a 42% rise in stock value as a result of increased earnings, of which AWS contributed 56% to
+corporate profits.[86]
+
+AWS had $17.46 billion in annual revenue in 2017.[87] By the end of 2020, the number had grown to $46
+billion.[88] Reflecting the success of AWS, Jassy's annual compensation in 2017 hit nearly $36
+million.[89]
+
+In January 2018, Amazon launched a unified autoscaling service on AWS.[90][91] This new service unifies
+and builds on AWS existing, service-specific, scaling features like EC2 Auto Scaling groups, that was
+launched in August 2006.[92]
+
+In November 2018, AWS announced customized ARM cores for use in its servers.[93] Also in November
+2018, AWS announced AWS Ground Stations to communicate with customers' satellites.[94]
+
+In 2019, AWS reported 37% yearly growth and accounted for 12% of Amazon's revenue (up from 11% in
+2018).[95]
+
+In April 2021, AWS reported 32% yearly growth and accounted for 32% of $41.8 billion cloud market in
+Q1 2021.[96]
+
+
+
+In January 2022, AWS joined the MACH Alliance, a non-profit enterprise technology advocacy group.[97]
+
+In June 2022, it was reported that in 2019 Capital One had not secured their AWS resources properly, and
+was subject to a data breach by a former AWS employee. The employee was convicted of hacking into
+the company's cloud servers to steal customer data and use computer power to mine cryptocurrency. The
+ex-employee was able to download the personal information of more than 100 million Capital One
+customers.[98]
+
+In June 2022, AWS announced they had launched the AWS Snowcone, a small computing device, to the
+International Space Station on the Axiom Mission 1.[99]
+
+In September 2023, AWS announced it would become AI startup Anthropic's primary cloud provider.
+Amazon has committed to investing up to $4 billion in Anthropic and will have a minority ownership
+position in the company.[100] AWS also announced the GA of Amazon Bedrock, a fully managed service
+that makes foundation models (FMs) from leading AI companies available through a single application
+programming interface (API).[101]
+
+In April 2024, AWS announced a new service called Deadline Cloud, which lets customers set up, deploy
+and scale up graphics and visual effects rendering pipelines on AWS cloud infrastructure.[102]
+
+In July 2024, AWS won a $1.3 billion (A$2 billion) contract with Australia's government to build a top-
+secret cloud service. The service included a partnership with the Australian Signals Directorate (ASD).
+The ASD director general Rachel Noble said the service would "provide a state-of-the-art collaborative
+space for our intelligence and defense community to store and access top-secret data”.[103]
+
+In December 2024, AWS announced Amazon Nova, its own family of foundation models. These models,
+offered through Amazon Bedrock, are designed for various tasks including content generation, video
+understanding, and building agentic applications. They are available in six different sizes.[104] At the end
+of 2024, AWS announced Project Rainier, a massive one-of-a-kind machine "designed to usher in the next
+generation of AI."[105]
+
+In February 2026, India's National Informatics Centre (NIC), a department under the Ministry of
+Electronics and Information Technology, announced deployment of AWS Outposts within its data centers
+as part of the government's Meghraj 2.0 hybrid cloud initiative, working with Indian data center provider
+Yotta Data Services. The deployment enables sensitive government workloads to remain within NIC's
+physical infrastructure while accessing AWS cloud services including Amazon EKS, Amazon RDS, and
+Amazon S3.[106]
+
+In March and April of 2026, during the 2026 Iran War, Iranian drone and missile strikes damaged AWS
+data centers in the United Arab Emirates (me-central-1) and Bahrain (me-south-1) regions, in the first
+deliberate military targeting of a commercial data center. Iran claimed the data centers hosted US military
+workloads. AWS advised customers to migrate to other regions.[107][108]
+
+On 30 June 2026, AWS Secret Cloud for Industry (ASCI) was made generally available. It holds a
+Provisional Authorization at Impact Level 6 from the Defense Information Systems Agency and uses the
+same Defense Counterintelligence and Security Agency (DCSA) compliance framework that cleared
+defense contractors already use for on-premises classified systems. Northrop Grumman was the first
+defense contractor to deploy classified workloads on ASCI. To speed up the migration and to attract
+customers AWS launched ASCI Accelerator Initiative.[14] The U.S. Intelligence Community (IC)
+
+
+
+launched IC Accelerated Modernization Framework (ICAMF) which subsidizes transfer to AWS from on-
+site systems. ASCI provides physically and logically isolated environment purpose-built to meet the most
+demanding security and compliance requirements.[109] They also created AWS Forward Deployed
+Engineering (FDE) organization. It embeds AWS frontier teams[110]—working with purpose-built agents
+—directly inside customer teams (business, engineering, and security teams) to build and deploy
+production AI systems with their data, governance, and processes.[111]
+
+Customer base
+In October 2013, AWS was awarded a $600M contract with the CIA.[112]
+
+By 2019, it was reported that more than 80% of Germany's listed DAX companies used AWS.[113] In
+August 2019, the U.S. Navy said it moved 72,000 users from six commands to an AWS cloud system as a
+first step toward pushing all of its data and analytics onto the cloud.[114]
+
+In January 2021, Amazon announced that it would suspend Parler from Amazon Web Services, stating
+Parler hosted “violent content” that violates its terms of service.[115] Later in 2021, DISH Network
+announced it would develop and launch its 5G network on AWS.[116] It was also reported that spy
+agencies and government departments in the UK, such as GCHQ, MI5, MI6, and the Ministry of
+Defence, contracted AWS to host their classified materials.[117]
+
+In 2022, Amazon shared a $9 billion contract from the United States Department of Defense for cloud
+computing with Google, Microsoft, and Oracle.[118]
+
+AWS won a $581 million contract from the U.S. Air Force in January 2026 to provide cloud services and
+specific Amazon data centers as part of the Cloud One Program, the Air Force's enterprise cloud
+environment.[119]
+
+Multiple financial services firms have shifted to AWS in some form.[120][121][122] Notable customers
+include NASA[123] and the Obama presidential campaign of 2012.[124]
+
+Significant service outages
+On April 20, 2011, AWS suffered a major outage. Parts of the Elastic Block Store service
+became "stuck" and could not fulfill read/write requests. It took at least two days for the
+service to be fully restored.[125]
+
+On June 29, 2012, several websites that rely on Amazon Web Services were taken offline
+due to a severe storm in Northern Virginia, where AWS's largest data center cluster is
+located.[126]
+
+On October 22, 2012, a major outage occurred, affecting many sites including Reddit,
+Foursquare, and Pinterest. The cause was a memory leak bug in an operational data
+collection agent.[127]
+
+On December 24, 2012, AWS suffered another outage causing websites such as Netflix to
+be unavailable for customers in the Northeastern United States.[128] AWS cited their Elastic
+Load Balancing service as the cause.[129]
+
+On February 28, 2017, AWS experienced a massive outage of S3 services in its Northern
+Virginia region. A majority of websites that relied on AWS S3 either hung or stalled, and
+Amazon reported within five hours that AWS was fully online again.[130] No data has been
+reported to have been lost due to the outage. The outage was caused by a human error
+
+
+
+made while debugging, that resulted in removing more server capacity than intended, which
+caused a domino effect of outages.[131]
+
+On November 25, 2020, AWS experienced several hours of outage on the Kinesis service in
+North Virginia (US-East-1) region. Other services relying on Kinesis were also
+affected.[132][133]
+
+On December 7, 2021, an outage mainly affected the Eastern United States, disrupting
+delivery service and streaming.[134]
+
+On October 20, 2025, AWS suffered a major outage, resulting in platforms including
+Duolingo, Snapchat, Canva,[135] Reddit, Canvas,[136] Coinbase, Roblox, Fortnite, and
+Amazon being down.[137][138][139]
+
+From March 1, 2026, UAE and Bahrain regions are unavailable following attacks by the
+Islamic Revolutionary Guard Corps.[108]
+
+Availability and topology
+As of October  2025, AWS has distinct operations in 38 geographical "regions":[10] nine in North
+America, two in South America, nine in Europe, four in the Middle East, one in Africa, thirteen in the
+Asia–Pacific, and three in Australia and New Zealand.
+
+Most AWS regions are enabled by default for AWS accounts. Regions introduced after 20 March 2019 are
+considered to be opt-in regions, requiring a user to explicitly enable them in order for the region to be
+usable in the account. For opt-in regions, Identity and Access Management (IAM) resources such as users
+and roles are only propagated to the regions that are enabled.[140]
+
+Each region is wholly contained within a single country and all of its data and services stay within the
+designated region.[9] Each region has multiple "Availability Zones",[10] which consist of one or more
+discrete data centers, each with redundant power, networking, and connectivity, housed in separate
+facilities. Availability Zones do not automatically provide additional scalability or redundancy within a
+region, since they are intentionally isolated from each other to prevent outages from spreading between
+zones. Several services can operate across Availability Zones (e.g., S3, DynamoDB) while others can be
+configured to replicate across zones to spread demand and avoid downtime from failures.
+
+As of December 2014, Amazon Web Services operated an estimated 1.4 million servers across 11 regions
+and 28 availability zones.[141] The global network of AWS Edge locations consists of over 700 points of
+presence worldwide, including locations in North America, Europe, Asia, Australia and New Zealand,
+Africa, and South America.The AWS Cloud spans 120 Availability Zones within 38 Geographic Regions,
+with announced plans for 10 more Availability Zones and 3 more AWS Regions in the Kingdom of Saudi
+Arabia, Chile, and the AWS European Sovereign Cloud.[10]
+
+As of March  2024, AWS had announced the planned launch of six additional regions in Malaysia,
+Mexico, New Zealand, Thailand, Saudi Arabia, and the European Union.[10] In mid March 2023, Amazon
+Web Services signed a cooperation agreement with the New Zealand Government to build large data
+centers in New Zealand.[142]
+
+
+
+Pop-up lofts
+AWS also has "pop-up lofts" in different locations around the
+world.[143] These market AWS to entrepreneurs and startups
+in different tech industries in a physical location. Visitors can
+work or relax inside the loft, or learn more about what they
+can do with AWS. In June 2014, AWS opened their first
+temporary pop-up loft in San Francisco.[144] In May 2015
+they expanded to New York City,[145][146] and in September
+2015 expanded to Berlin.[147] AWS opened its fourth
+location, in Tel Aviv from March 1, 2016, to March 22,
+2016.[148] A pop-up loft was open in London from September AWS Loft in SoHo, New York City
+10 to October 29, 2015.[149] The pop-up lofts in New
+York[150] and San Francisco[151] are indefinitely closed due to
+the COVID-19 pandemic while Tokyo has remained open in a limited capacity.[152]
+
+Charitable work
+In 2017, AWS launched AWS re/Start in the United Kingdom to help young adults and military veterans
+retrain in technology-related skills. In partnership with the Prince's Trust and the Ministry of Defence
+(MoD), AWS will help to provide re-training opportunities for young people from disadvantaged
+backgrounds and former military personnel. AWS is working alongside a number of partner companies
+including Cloudreach, Sage Group, EDF Energy, and Tesco Bank.[153]
+
+In April 2022, AWS announced that the organization had committed more than $30 million over three
+years to early-stage start-ups led by Black, Latino, LGBTQIA+, and women founders as part of its AWS
+impact Accelerator. The Initiative offers qualifying start-ups up to $225,000 in cash, credits, extensive
+training, mentoring, technical guidance and includes up to $100,000 in AWS service credits.[154]
+
+Reception
+
+Environmental footprint
+In 2014, AWS claimed its aim was to achieve 100% renewable energy usage in the future.[155] In the
+United States, AWS's partnerships with renewable energy providers include Community Energy of
+Virginia, to support the US East region;[156] Pattern Development, in January 2015, to construct and
+operate Amazon Wind Farm Fowler Ridge;[157] Iberdrola Renewables, LLC, in July 2015, to construct
+and operate Amazon Wind Farm US East; EDP Renewables North America, in November 2015, to
+construct and operate Amazon Wind Farm US Central;[158] and Tesla Motors, to apply battery storage
+technology to address power needs in the US West (Northern California) region.[156]
+
+
+
+In 2016, Greenpeace assessed major tech companies—including cloud services providers like AWS,
+Microsoft, Oracle, Google, IBM, Salesforce and Rackspace—based on their level of "clean energy"
+usage. Greenpeace evaluated companies on their mix of renewable-energy sources; transparency;
+renewable-energy commitment and policies; energy efficiency and greenhouse-gas mitigation;
+renewable-energy procurement; and advocacy. The group gave AWS an overall "C" grade. Greenpeace
+credited AWS for its advances toward greener computing in recent years and its plans to launch multiple
+wind and solar farms across the United States. The organization stated that Amazon is opaque about its
+carbon footprint.[159]
+
+In January 2021, AWS joined an industry pledge to achieve climate neutrality of data centers by 2030, the
+Climate Neutral Data Centre Pact.[160] As of 2023, Amazon as a whole is the largest corporate purchaser
+of renewable energy in the world, a position it has held since 2020, and has a global portfolio of over 20
+GW of renewable energy capacity.[161] In 2022, 90% of all Amazon operations, including data centers,
+were powered by renewables.[162] In 2024, AWS paid $650 million for a data center[163] at the 2.5 GW
+Susquehanna nuclear power plant, connected at 300 MW. In 2025, AWS signed an $18 billion power
+purchase agreement with the station for 840—1,200 MW in 2029 and 1,680—1,920 MW in 2032,
+continuing to 2042. The power increase depends on Amazon's expansion of the data center.[164]
+
+Denaturalization protest
+US Department of Homeland Security has employed the software ATLAS, which runs on Amazon Cloud.
+It scanned more than 16.5 million records of naturalized Americans and flagged approximately 124,000
+of them for manual analysis and review by USCIS officers regarding denaturalization.[165][166] Some of
+the scanned data came from the Terrorist Screening Database and the National Crime Information Center.
+The algorithm and the criteria for the algorithm were secret. Amazon faced protests from its own
+employees and activists for the anti-migrant collaboration with authorities.[167]
+
+Israeli–Palestinian conflict
+The contract for Project Nimbus drew rebuke and condemnation from the companies' shareholders as
+well as their employees, over concerns that the project would lead to abuses of Palestinians' human rights
+in the context of the ongoing occupation and the Israeli–Palestinian conflict.[168][169][170][171]
+
+Specifically, they voice concern over how the technology will enable further surveillance of Palestinians
+and unlawful data collection on them as well as facilitate the expansion of Israel's illegal settlements on
+Palestinian land.[170] A government procurement document featuring 'obligatory customers' of Nimbus,
+including "two of Israel’s leading state-owned weapons manufacturers" Israel Aerospace Industries and
+Rafael Advanced Defense Systems, was published in 2021 with periodic updates since (up to Oct
+2023).[172]
+
+Work with sanctioned companies
+AWS has been noted to work with Chinese companies under varying degrees of U.S. government
+sanctions, such as Hikvision and Dahua Technology, which have been accused to enabling mass
+surveillance and human rights abuses in China and elsewhere.[173][174]
+
+
+
+Security incidents
+
+Amazon Q Developer Extension supply-chain vulnerability (2025)
+In July 2025, a security researcher disclosed a supply-chain vulnerability in the Amazon Q Developer
+Extension (version 1.84) for Visual Studio Code.[175] The issue involved a malicious pull request to the
+project's GitHub repository, which introduced a prompt instructing the AI assistant to delete local files
+and AWS resources.[176][175] AWS acknowledged the issue in Security Bulletin AWS‑2025‑015 and
+released version 1.85 to remove the injected prompt. The company stated that no customer systems or
+data were affected.[177] However, critics including Corey Quinn, writing in Last Week in AWS,
+questioned the transparency of the response, noting the absence of a changelog entry, a CVE assignment,
+or a public statement beyond the bulletin.[176]
+
+Log4Shell Hot Patch vulnerability
+In response to the Log4Shell vulnerability, AWS released hot patch solutions to mitigate risks in Java
+applications across various environments, including standalone servers, Kubernetes clusters, and Elastic
+Container Service (ECS). These patches were designed for both AWS and non-AWS environments.
+However, researchers from Unit 42 at Palo Alto Networks identified critical security flaws in these
+patches that could be exploited for container escape and privilege escalation, potentially granting
+attackers unauthorized root-level access to the host system. AWS addressed these vulnerabilities by
+releasing updated patches on April 19, 2022. Users who deployed the initial patches were advised to
+upgrade to the latest versions to mitigate security risks.[178]
+
+Application Load Balancer security issue
+In April 2024, security researchers from Miggo security identified a configuration vulnerability in AWS
+Application Load Balancer (ALB) that could allow attackers to bypass access controls and compromise
+web applications. The issue stemmed from how some users configured ALB's authentication handoff to
+third-party services, potentially enabling unauthorized access to application data. On July 11, 2024, AWS
+confirmed the issue affecting its customers, and on July 19, 2024, AWS updated its documentation
+accordingly to recommend more secure implementation practices.[179][180]
+
+In 2026, Amazon Web Services (AWS) data center infrastructure in the United Arab Emirates and
+Bahrain experienced service disruptions following reported drone strikes in the region. According to
+Datacenter Dynamics and Reuters, some facilities were affected, resulting in partial damage to physical
+infrastructure and temporary reductions in service availability for enterprise customers. reports indicated
+that full recovery of services in the affected regions could take several months, with some services being
+moved to other cloud regions.[181][182][183]
+
+Issues
+
+
+
+Some AWS customers have complained about receiving unexpectedly large bills, commonly referred to
+as "surprise bills." This can occur due to various reasons, including but not limited to misconfigurations,
+security breaches, complex pricing—especially when multiple AWS services are used together—and
+unexpected data transfer charges.[184][185][186]
+
+Pricing
+
+Data transfer charges
+AWS applies charges for data transferred both between Availability Zones within the same region (inter-
+AZ) and across different geographic regions (inter-region). The pricing structure is influenced by several
+factors, including the source and destination of the data, the specific AWS services in use, and the
+underlying networking architecture.[187][188] Various services implement different data transfer models,
+and the choice of communication method—such as VPC Peering,[189] Transit Gateway,[190] or AWS
+PrivateLink[191]—can also affect the overall cost.[188]
+
+See also
+Cloud-computing comparison
+Comparison of file hosting services
+James Gosling – Canadian computer scientist (born 1955)
+Tim Bray – Canadian software developer (born 1955)
+
+Explanatory notes
+a. Launched in July 2002, the Amazon Web Services platform exposes technology and
+
+product data from Amazon and its affiliates, enabling developers to build innovative and
+entrepreneurial applications on their own.[1]
+
+b. In 2006, Amazon Web Services (AWS) began offering IT infrastructure services to
+businesses in the form of web services — now commonly known as cloud computing.[2]
+
+c. A team should not be any bigger than could be fed with two pizzas.[38]
+
+d. Larger software applications broken down in to smaller services.[27]
+
+e. code-named Amazon Execution Service in the pre-launch phase.[45]
+
+References
+1. "Amazon – Press Room – Press Release" (https://web.archive.org/web/20151015165250/ht
+
+tp://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=830816).
+phx.corporate-ir.net. Archived from the original (https://phx.corporate-ir.net/phoenix.zhtml?c=
+176060&p=irol-newsArticle&ID=830816) on October 15, 2015. Retrieved June 8, 2017.
+
+2. "About AWS" (https://web.archive.org/web/20121005123855/http://aws.amazon.com/about-
+aws/). September 2011. Archived from the original (http://aws.amazon.com/about-aws/) on
+October 5, 2012. Retrieved May 16, 2012.
+
+
+
+3. Udinmwen, Efosa (October 6, 2026). " "US could be writing its own losing ticket": Amazon
+warns against 100+ AI data center bans as it pledges $1 billion to defuse AI backlash" (http
+s://www.techradar.com/pro/u-s-could-be-writing-its-own-losing-ticket-amazon-warns-against-
+100-ai-data-center-bans-as-it-pledges-usd1b-to-defuse-ai-backlash). TechRadar Pro.
+Retrieved October 10, 2026.
+
+4. "AWS announces next CEO" (https://www.aboutamazon.com/news/company-news/leadersh
+ip-update-aws-adam-selipsky-matt-garman). aboutamazon.com (Press release). May 14,
+2024. Archived (https://web.archive.org/web/20240514215357/https://www.aboutamazon.co
+m/news/company-news/leadership-update-aws-adam-selipsky-matt-garman) from the
+original on May 14, 2024. Retrieved May 14, 2024.
+
+5. Haranas, Mark (August 1, 2022). "AWS CISO On Why Its Security Strategy Tops Microsoft,
+Google" (https://www.crn.com/news/cloud/aws-ciso-on-why-its-security-strategy-tops-micros
+oft-google). CRN. Archived (https://web.archive.org/web/20230428030936/https://www.crn.c
+om/news/cloud/aws-ciso-on-why-its-security-strategy-tops-microsoft-google) from the
+original on April 28, 2023. Retrieved April 28, 2023.
+
+6. "Amazon.com Announces Fourth Quarter Results" (https://ir.aboutamazon.com/news-releas
+e/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/) (Press
+release). Amazon. February 5, 2026. Archived (https://web.archive.org/web/2026020715402
+9/https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Annou
+nces-Fourth-Quarter-Results/) from the original on February 7, 2026.
+
+7. "NICE – an AWS Company" (https://www.nice-software.com/). nice-software.com. Retrieved
+January 4, 2019.
+
+8. Bishop, Todd (August 26, 2026). "Amazon to acquire DuckLabs, adding the team behind
+DuckDB amid broader shakeup in cloud data" (https://www.geekwire.com/2026/amazon-acq
+uires-ducklabs-adding-the-team-behind-duckdb-amid-broader-shakeup-in-cloud-data/).
+GeekWire. Retrieved August 26, 2026.
+
+9. "AWS Customer Agreement" (https://aws.amazon.com/agreement/). Amazon Web Services,
+Inc. Archived (https://web.archive.org/web/20070330043501/https://aws.amazon.com/agree
+ment/) from the original on March 30, 2007. Retrieved April 6, 2016.
+
+10. "AWS Global Infrastructure" (https://aws.amazon.com/about-aws/global-infrastructure/).
+Archived (https://web.archive.org/web/20131228053523/https://aws.amazon.com/about-aw
+s/global-infrastructure/) from the original on December 28, 2013. Retrieved October 20,
+2025. Updated as required.
+
+11. "What is Cloud Computing by Amazon Web Services | AWS" (http://aws.amazon.com/what-i
+s-cloud-computing/). Archived (https://web.archive.org/web/20181225020202/https://aws.am
+azon.com/what-is-cloud-computing/) from the original on December 25, 2018. Retrieved
+July 17, 2013.
+
+12. "Huge Cloud Market Sees a Strong Bounce in Growth Rate for the Second Consecutive
+Quarter" (https://www.srgresearch.com/articles/huge-cloud-market-sees-a-strong-bounce-in-
+growth-rate-for-the-second-consecutive-quarter). Synergy Research Group. April 30, 2024.
+Archived (https://web.archive.org/web/20240515125047/https://www.srgresearch.com/article
+s/huge-cloud-market-sees-a-strong-bounce-in-growth-rate-for-the-second-consecutive-quart
+er) from the original on May 15, 2024. Retrieved May 21, 2024.
+
+13. Richter, Felix (May 2, 2024). "Amazon Maintains Cloud Lead as Microsoft Edges Closer" (htt
+ps://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-s
+ervice-providers/). Statista Daily Data. Archived (https://web.archive.org/web/202101041550
+08/https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastruct
+ure-service-providers/) from the original on January 4, 2021. Retrieved October 12, 2020.
+
+14. Staff, Amazon (June 30, 2026). "AWS Secret Cloud for Industry gives defense contractors a
+faster, more secure path to classified innovation" (https://www.aboutamazon.com/news/aws/
+aws-secret-cloud-for-industry-defense-contractors). Amazon News.
+
+
+
+15. Staff, Amazon (November 24, 2025). "Amazon to invest up to $50 billion to expand AI and
+supercomputing infrastructure for US government agencies" (https://www.aboutamazon.co
+m/news/company-news/amazon-ai-investment-us-federal-agencies). Amazon News.
+
+16. "Cloud computing with AWS - section Products" (https://aws.amazon.com/what-is-aws/).
+aws.amazon.com. Archived (https://web.archive.org/web/20220526073248/https://aws.amaz
+on.com/what-is-aws/) from the original on May 26, 2022. Retrieved October 20, 2025.
+
+17. Mosca, David (April 14, 2021). "Jersey City's ElectrifAi a leader in artificial intelligence
+software for business" (https://www.nj.com/hudson/2021/04/jersey-citys-electrifai-a-leader-in
+-artificial-intelligence-software-for-business.html). nj. Archived (https://web.archive.org/web/2
+0220430045718/https://www.nj.com/hudson/2021/04/jersey-citys-electrifai-a-leader-in-artifici
+al-intelligence-software-for-business.html) from the original on April 30, 2022. Retrieved
+April 21, 2021.
+
+18. "Top 10 AWS Services according to popularity" (https://medium.com/faun/top-10-aws-servic
+es-according-to-popularity-bd78eea2f7a9). medium.com. August 31, 2019. Archived (https://
+web.archive.org/web/20201012110202/https://medium.com/faun/top-10-aws-services-accor
+ding-to-popularity-bd78eea2f7a9) from the original on October 12, 2020. Retrieved
+October 5, 2020.
+
+19. "Forum for Growth & Innovation: Overcoming the Capitalist's Dilemma, with Andy Jassy,
+CEO of Amazon Web Services" (https://www.hbs.edu/forum-for-growth-and-innovation/podc
+asts/disruptive-voice/Pages/podcast-details.aspx?episode=15834284). Harvard Business
+School. September 1, 2020.
+
+20. Furrier, John (January 28, 2015). "Exclusive Profile: Andy Jassy of Amazon Web Service
+(AWS) And His Trillion Dollar Cloud Ambition" (https://www.forbes.com/sites/siliconangle/201
+5/01/28/andy-jassy-aws-trillion-dollar-cloud-ambition/?sh=2afd0029321e). Forbes. Retrieved
+February 3, 2021.
+
+21. Miller, Rob (July 2, 2016). "How AWS came to be" (https://techcrunch.com/2016/07/02/andy-
+jassys-brief-history-of-the-genesis-of-aws/). TechCrunch. Retrieved February 1, 2021.
+
+22. McLaughlin, Kevin (August 4, 2015). "Andy Jassy: Amazon's $6 Billion Man" (http://www.crn.
+com/news/cloud/300077657/andy-jassy-amazons-6-billion-man.htm). CRN. Retrieved
+October 12, 2017.
+
+23. Fireside Chat with Michael Skok and Andy Jassy: The History of Amazon Web Services (htt
+ps://www.youtube.com/watch?v=d2dyGDqrXLo). youtube.com. Harvard Business School.
+October 21, 2013. Archived (https://ghostarchive.org/varchive/youtube/20211028/d2dyGDqr
+XLo) from the original on October 28, 2021. Retrieved February 9, 2021.
+
+24. Vogels, Werner (January 18, 2012). "Amazon DynamoDB – a Fast and Scalable NoSQL
+Database Service Designed for Internet Scale Applications" (http://www.allthingsdistributed.c
+om/2012/01/amazon-dynamodb.html). allthingsdistributed.com. Retrieved March 15, 2021.
+
+25. Vogels, Werner (August 28, 2019). "Modern applications at AWS" (https://www.allthingsdistri
+buted.com/2019/08/modern-applications-at-aws.html). allthingsdistributed.com. Retrieved
+March 9, 2021.
+
+26. Stone, Brad (2013). The Everything Store: Jeff Bezos and the Age of Amazon (https://books.
+google.com/books?id=yG3PAK6ZOucC). Transworld. ISBN 9781448127511. Archived (http
+s://web.archive.org/web/20230908060425/https://books.google.com/books?id=yG3PAK6ZO
+ucC) from the original on September 8, 2023. Retrieved February 5, 2021 – via
+books.google.com.
+
+27. Killalea, Tom (July 29, 2019). "Velocity in Software Engineering" (https://queue.acm.org/deta
+il.cfm?id=3352692). ACM Queue. Vol. 17, no. 3. Retrieved March 9, 2021.
+
+28. Barr, Jeff (September 27, 2006). "We Build Muck, So You Don't Have To" (https://aws.amazo
+n.com/blogs/aws/we_build_muck_s/). AWS News Blog. Archived (https://web.archive.org/we
+b/20240202161507/https://aws.amazon.com/blogs/aws/we_build_muck_s/) from the original
+on February 2, 2024. Retrieved February 2, 2024.
+
+
+
+29. Adam Selipsky (September 6, 2013). Amazon Web Services - Adam Selipsky at USI (http
+s://youtube.com/watch?v=6PiyzyWXiIk&t=300). USI Events. Event occurs at 5m. Archived
+(https://ghostarchive.org/varchive/youtube/20211028/6PiyzyWXiIk) from the original on
+October 28, 2021. Retrieved March 9, 2021 – via youtube.com.
+
+30. Cowley, Stacy (January 21, 2004). "LinuxWorld: Amazon's two faces present IT challenge"
+(https://www.networkworld.com/article/2329864/linuxworld--amazon-s-two-faces-present-it-c
+hallenge.html). IDG News. Retrieved March 14, 2021 – via networkworld.com.
+
+31. "Former Amazon CISO Tom Killalea Joins Carbon Black Board" (https://www.carbonblack.co
+m/press-releases/former-amazon-ciso-tom-killalea-joins-carbon-black-board/).
+carbonblack.com (Press release). Retrieved March 9, 2021.
+
+32. "Colin Bryar" (https://www.linkedin.com/in/colinbryar/). linkedin.com. Retrieved February 5,
+2021. "Director, Amazon Associates and Amazon Web Services Programs. Dates Employed
+Mar 1998 – Jul 2003. Owned the overall P&L for the Amazon Associates (affiliate marketing)
+and one of the first public facing Amazon web service for developers, now called the
+Amazon Product API. Managed the software development, product management, and
+customer service teams for these two programs, spanning five countries. The Amazon
+Product API launch in July 2002 was the first commercial Amazon sdk that targeted third
+party developers to build applications on top of Amazon software platform."
+
+33. "Amazon.com Launches Web Services; Developers Can Now Incorporate Amazon.com
+Content and Features into Their Own Web Sites; Extends "Welcome Mat" for Developers" (h
+ttps://press.aboutamazon.com/news-releases/news-release-details/amazoncom-launches-w
+eb-services) (Press release). Amazon, Inc. July 16, 2002. Retrieved February 5, 2021.
+
+34. Cowley, Stacy (January 22, 2004). "Amazon lauds Linux infrastructure" (https://www.comput
+erweekly.com/news/2240054229/Amazon-lauds-Linux-infrastructure). IDG News. Retrieved
+March 14, 2021 – via computerweekly.com.
+
+35. Bryar, Colin; Carr, Bill (2021). Working Backwards: Insights, Stories, and Secrets from
+Inside Amazon (https://books.google.com/books?id=jgn5DwAAQBAJ). Pan MacMillan.
+ISBN 9781529033854. Archived (https://web.archive.org/web/20230908060426/https://book
+s.google.com/books?id=jgn5DwAAQBAJ) from the original on September 8, 2023.
+Retrieved February 5, 2021 – via books.google.com.
+
+36. Rushton, Katherine (December 30, 2012). "Goliath vs Goliath...Amazon takes on Apple and
+Google" (http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/9770827/Goli
+ath-vs-Goliath...Amazon-takes-on-Apple-and-Google.html). The Daily Telegraph. Retrieved
+February 4, 2021.
+
+37. Barr, Jeff (November 11, 2019). "15 Years of AWS Blogging!" (https://aws.amazon.com/blog
+s/aws/15-years-of-aws-blogging/). aws.amazon.com. Retrieved February 5, 2021.
+
+38. Hern, Alex (April 24, 2018). "The two-pizza rule and the secret of Amazon's success" (http
+s://www.theguardian.com/technology/2018/apr/24/the-two-pizza-rule-and-the-secret-of-ama
+zons-success). theguardian.com. Retrieved March 9, 2021.
+
+39. Vogels, Werner (March 13, 2006). "S3 - The Amazon Simple Storage Service" (https://www.
+allthingsdistributed.com/2006/03/s3.html). allthingsdistributed.com. Retrieved March 9,
+2021.
+
+
+
+40. "What I Learned from Jeff Bezos: How to Bring Millions of Books to Billions of People" (http
+s://web.archive.org/web/20170802040741/https://www.macfound.org/press/semifinalist-pers
+pectives/what-i-learned-jeff-bezos-aka-how-bring-millions-books-billions-people/). August 1,
+2017. Archived from the original (https://www.macfound.org/press/semifinalist-perspectives/
+what-i-learned-jeff-bezos-aka-how-bring-millions-books-billions-people/) on August 2, 2017.
+
+Kahle, Brewster (August 2, 2017). "What I Learned from Jeff Bezos: aka–How to Bring
+Millions of Books to Billions of People" (https://macfound.medium.com/what-i-learned-fro
+m-jeff-bezos-aka-how-to-bring-millions-of-books-to-billions-of-people-445a89ebd7fb).
+Medium. Archived (https://web.archive.org/web/20210415144216/https://macfound.medi
+um.com/what-i-learned-from-jeff-bezos-aka-how-to-bring-millions-of-books-to-billions-of-
+people-445a89ebd7fb) from the original on April 15, 2021. Retrieved March 14, 2021.
+
+41. Ray, Tiernan (March 1, 2017). "Twilio CEO Lawson: A Lesson From Amazon's Bezos" (http
+s://www.barrons.com/articles/twilio-ceo-lawson-a-lesson-from-amazons-bezos-148842464
+0). barrons.com. Retrieved March 14, 2021.
+
+42. Richman, Dan (August 15, 2016). "Adam Selipsky, sales and marketing head at Amazon
+Web Services, leaving company" (https://www.geekwire.com/2016/adam-selipsky-sales-mar
+keting-head-amazon-web-services-reportedly-leaving-company/). geekwire.com. Retrieved
+March 14, 2021.
+
+43. Coombs, Casey (November 7, 2016). "Tableau CEO lured from Amazon AWS with millions
+in cash, stock options" (https://www.bizjournals.com/seattle/news/2016/11/07/tableau-ceo-a
+mazon-adam-selipsky-cloud-computing.html). Puget Sound Business Journal. Retrieved
+March 14, 2021 – via bizjournals.com.
+
+44. Gregory, Huang (October 29, 2008). "Startups Aren't Dead, Says ClayValet Founder in
+Wake of Shutdown" (https://xconomy.com/seattle/2008/10/29/startups-arent-dead-says-clay
+valet-founder-in-wake-of-shutdown/). xconomy.com. Seattle. Retrieved March 9, 2021.
+
+45. Jeff, Barr (August 23, 2021). "Happy 15th Birthday Amazon EC2" (https://aws.amazon.com/
+blogs/aws/happy-15th-birthday-amazon-ec2/). AWS News Blog.
+
+46. "Benjamin Black– EC2 Origins" (http://blog.b3k.us/2009/01/25/ec2-origins.html).
+Blog.b3k.us. January 25, 2009. Archived (https://web.archive.org/web/20130603051226/htt
+p://blog.b3k.us/2009/01/25/ec2-origins.html) from the original on June 3, 2013. Retrieved
+July 17, 2013.
+
+47. Bort, Julie (March 28, 2012). "Amazon's Game-Changing Cloud Was Built By Some Guys In
+South Africa". Business Insider. {{cite web}}: |access-date= requires |url= (help)
+
+48. "Introducing the Alexa Web Information Service - AWS" (https://aws.amazon.com/about-aw
+s/whats-new/2004/10/04/introducing-the-alexa-web-information-service/). Amazon Web
+Services, Inc.
+
+49. "Amazon Web Services Blog: Amazon Simple Queue Service Beta" (https://web.archive.org/
+web/20041217191947/http://aws.typepad.com/aws/2004/11/amazon_simple_q.html).
+aws.typepad.com. November 9, 2004. Archived from the original (http://aws.typepad.com/a
+ws/2004/11/amazon_simple_q.html) on December 17, 2004. Retrieved July 17, 2013.
+
+50. Barr, Jeff (August 19, 2014). "My First 12 Years at Amazon.com" (http://jeff-barr.com/2014/0
+8/19/my-first-12-years-at-amazon-dot-com/). jeff-barr.com. Retrieved January 11, 2021.
+
+51. "Introducing the Amazon Simple Queue Service - AWS" (https://aws.amazon.com/about-aw
+s/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/). Amazon Web
+Services, Inc.
+
+52. "Amazon Simple Queue Service Released" (https://aws.amazon.com/blogs/aws/amazon_si
+mple_q/). Amazon Web Services. July 13, 2006. Retrieved October 29, 2021.
+
+53. "AWS History and Timeline regarding Amazon Simple Queue Service - Overview, Functions,
+Features, Summary of Updates, and Introduction to SQS" (https://hidekazu-konishi.com/entr
+y/aws_history_and_timeline_amazon_sqs.html). hidekazu-konishi.com. May 14, 2024.
+
+
+
+54. "Amazon Web Services Launches" (https://press.aboutamazon.com/news-releases/news-rel
+ease-details/amazon-web-services-launches-amazon-s3-simple-storage-service) (Press
+release). Amazon, Inc. Retrieved February 5, 2021.
+
+55. "Jeff Bezos' Risky Bet" (https://www.bloomberg.com/news/articles/2006-11-12/jeff-bezos-risk
+y-bet). Bloomberg.
+
+56. Barr, Jeff (August 25, 2006). "Amazon EC2 Beta" (https://aws.amazon.com/blogs/aws/amaz
+on_ec2_beta/). aws.amazon.com. Retrieved February 5, 2021.
+
+57. Gralla, Preston (December 26, 2006). "Computing in the cloud" (https://www.computerworld.
+com/article/2549084/computing-in-the-cloud.html). Computer World. Retrieved March 9,
+2021.
+
+58. Kelleher, Kevin (March 15, 2007). "Amazon's New Direction" (https://archive.fortune.com/ma
+gazines/business2/business2_archive/2006/10/01/8387086/index.htm). Retrieved March 9,
+2021.
+
+59. Hemsoth, Nicole (April 22, 2021). "Amazon CTO on Past, Present, Future of S3" (https://ww
+w.nextplatform.com/2021/04/22/amazon-cto-on-past-present-future-of-s3/). The Next
+Platform.
+
+60. Barr, Jeff (September 12, 2007). "Announcing the Amazon Web Services Start-up
+Challenge" (https://aws.amazon.com/blogs/aws/announcing-the-2/). aws.amazon.com.
+Retrieved March 25, 2021.
+
+61. Vogels, Werner (December 6, 2007). "And the Winner is..." (https://www.allthingsdistributed.
+com/2007/12/and_the_winner_is.html) allthingsdistributed.com. Retrieved March 25, 2021.
+
+62. Weinberger, Matt (March 17, 2016). "Amazon's $970 million purchase of Twitch makes so
+much sense now - it's all about the cloud" (https://www.businessinsider.in/amazons-970-milli
+on-purchase-of-twitch-makes-so-much-sense-now-its-all-about-the-cloud/articleshow/51434
+468.cms). Business Insider. Retrieved March 9, 2021.
+
+63. Lashinsky, Adam (May 12, 2008). "Where does Google go next?" (http://money.cnn.com/200
+8/05/09/technology/where_does_google_go.fortune/index.htm). CNN. Retrieved March 25,
+2021.
+
+64. "EC2 Instance Store vs EBS" (https://web.archive.org/web/20220616144124/https://riyanchr
+isty.goseeq.net/ec2-instance-store-vs-ebs/). RiyanChristy.GoSeeq.net. May 31, 2022.
+Archived from the original (https://riyanchristy.goseeq.net/ec2-instance-store-vs-ebs/) on
+June 16, 2022. Retrieved June 16, 2022.
+
+65. "7 Little-Known Amazon EBS Features You Should Be Using" (https://sandhill.com/article/7-l
+ittle-known-amazon-ebs-features-you-should-be-using/). Sand Hill. January 17, 2020.
+Archived (https://web.archive.org/web/20200127200915/http://sandhill.com:80/article/7-little-
+known-amazon-ebs-features-you-should-be-using/) from the original on January 27, 2020.
+Retrieved September 11, 2020.
+
+66. "AWS EBS: A Complete Guide and Five Functions You Should Start Using" (https://cloud.net
+app.com/blog/ebs-volumes-5-lesser-known-functions). Cloud Central Blog. June 4, 2019.
+Archived (https://web.archive.org/web/20170726122530/https://cloud.netapp.com/blog/ebs-v
+olumes-5-lesser-known-functions) from the original on July 26, 2017. Retrieved
+September 11, 2020.
+
+67. "2011 AWS Tour Australia, Closing Keynote: How Amazon.com migrated to AWS, by Jon
+Jenkins" (https://www.slideshare.net/AmazonWebServices/2011-aws-tour-australia-closing-k
+eynote-how-amazoncom-migrated-to-aws-by-jon-jenkins). Amazon Web Services. July 14,
+2011. Archived (https://web.archive.org/web/20200830043536/https://www.slideshare.net/A
+mazonWebServices/2011-aws-tour-australia-closing-keynote-how-amazoncom-migrated-to-
+aws-by-jon-jenkins) from the original on August 30, 2020. Retrieved December 16, 2013.
+
+
+
+68. "Cloud Computing 2013: The Amazon Gorilla Invades The Enterprise" (http://wikibon.org/wik
+i/v/Cloud_Computing_2013%3A_The_Amazon_Gorilla_Invades_the_Enterprise). Wikibon.
+Archived (https://web.archive.org/web/20201112023829/http://wikibon.org/wiki/v/Cloud_Com
+puting_2013:_The_Amazon_Gorilla_Invades_the_Enterprise) from the original on
+November 12, 2020. Retrieved July 17, 2013.
+
+69. "Amazon CEO Jeff Bezos Will Address Cloud Partners at AWS re:Invent" (https://www.chan
+nelfutures.com/business-models/amazon-ceo-jeff-bezos-will-address-cloud-partners-at-aws-
+reinvent). channelfutures.com. November 19, 2012. Retrieved March 9, 2021.
+
+70. Barr, Jeff (July 17, 2012). "Get Ready to Register for AWS re:Invent" (https://aws.amazon.co
+m/blogs/aws/get-ready-to-register-for-aws-reinvent/). aws.amazon.com. Retrieved
+March 10, 2021.
+
+71. "AWS re:Invent - Why Attend?" (http://awsmedia.s3.amazonaws.com/AWS_re_Invent_Why_
+Attend.pdf) (PDF). awsmedia.s3.amazonaws.com. Retrieved March 10, 2021.
+
+72. Crockcroft, Adrian (December 3, 2012). "AWS Re:Invent was Awesome!" (https://netflixtechb
+log.com/aws-re-invent-was-awesome-280c29ec00cc). netflixtechblog.com. Retrieved
+March 9, 2021.
+
+73. Vogels, Werner (May 9, 2012). "AWS re:Invent" (https://www.allthingsdistributed.com/2012/0
+5/aws-reinvent.html). allthingsdistributed.com. Retrieved March 10, 2021.
+
+74. "AWS began offering a certification program for computer engineers with expertise in cloud
+computing" (http://www.pcworld.com/article/2036960/amazon-web-services-launches-new-c
+ertification-program.html). www.pcworld.com. May 1, 2013. Archived (https://web.archive.or
+g/web/20201125025109/https://www.pcworld.com/article/2036960/amazon-web-services-lau
+nches-new-certification-program.html) from the original on November 25, 2020. Retrieved
+November 8, 2013.
+
+75. O'Dell, J (October 11, 2013). " 'The first one's free, kid.' Amazon launches AWS Activate to
+get startups hooked" (https://venturebeat.com/2013/10/11/the-first-ones-free-kid-amazon-lau
+nches-aws-activate-to-get-startups-hooked/). Venture Beat. Retrieved March 25, 2021.
+
+76. "Announcing the Launch of the AWS Partner Network (APN) Blog" (https://aws.amazon.co
+m/blogs/apn/apn-blog-launch/). Amazon Web Services. November 21, 2014. Archived (http
+s://web.archive.org/web/20200817120126/https://aws.amazon.com/blogs/apn/apn-blog-laun
+ch/) from the original on August 17, 2020. Retrieved February 5, 2020.
+
+77. "EdgeIQ Orchestration for AWS" (https://aws.amazon.com/iot/partner-solutions/edgeiq-orch
+estration/). Amazon Web Services, Inc. Archived (https://web.archive.org/web/20201101003
+943/https://aws.amazon.com/iot/partner-solutions/edgeiq-orchestration/) from the original on
+November 1, 2020. Retrieved October 9, 2020.
+
+78. "Amazon Aurora – New Cost-Effective MySQL-Compatible Database Engine for Amazon
+RDS" (https://aws.amazon.com/blogs/aws/highly-scalable-mysql-compat-rds-db-engine/).
+Amazon Web Services. November 12, 2014.
+
+79. "Amazon to buy Israeli start-up Annapurna Labs" (https://www.reuters.com/article/us-annapu
+rna-m-a-amazon-com-idUSKBN0KV0SG20150122). Reuters. January 22, 2015. Archived (h
+ttps://web.archive.org/web/20150915065319/http://www.reuters.com/article/2015/01/22/us-a
+nnapurna-m-a-amazon-com-idUSKBN0KV0SG20150122) from the original on September
+15, 2015. Retrieved January 24, 2015.
+
+80. "Amazon buys secretive chip maker Annapurna Labs for $350 million" (http://www.extremete
+ch.com/computing/198140-amazon-buys-secretive-chip-maker-annapurna-labs-for-350-milli
+on). ExtremeTech. January 23, 2015. Archived (https://web.archive.org/web/2020121409012
+6/https://www.extremetech.com/computing/198140-amazon-buys-secretive-chip-maker-ann
+apurna-labs-for-350-million) from the original on December 14, 2020. Retrieved January 24,
+2015.
+
+
+
+81. "Amazon web services 'growing fast' " (https://www.bbc.co.uk/news/business-32442268).
+BBC News. April 24, 2015. Archived (https://web.archive.org/web/20201108100958/https://w
+ww.bbc.co.uk/news/business-32442268) from the original on November 8, 2020. Retrieved
+June 21, 2018.
+
+82. Get Used to Amazon Being a Profitable Company (https://www.wired.com/2015/10/get-used
+-to-amazon-being-a-profitable-company/) Archived (https://web.archive.org/web/202012242
+30830/https://www.wired.com/2015/10/get-used-to-amazon-being-a-profitable-company/)
+December 24, 2020, at the Wayback Machine Wired. October 22, 2015.
+
+83. "Gartner Reprint" (https://www.gartner.com/doc/reprints?id=1-2G2O5FC&ct=150519&st=sb).
+www.gartner.com. Archived (https://web.archive.org/web/20201119135425/https://www.gartn
+er.com/doc/reprints?id=1-2G2O5FC&ct=150519&st=sb) from the original on November 19,
+2020. Retrieved April 6, 2016.
+
+84. Amazon's earnings soar as its hardware takes the spotlight (https://www.theverge.com/201
+6/4/28/11530336/amazon-q1-first-quarter-2016-earnings) Archived (https://web.archive.org/
+web/20201112194106/https://www.theverge.com/2016/4/28/11530336/amazon-q1-first-quart
+er-2016-earnings) November 12, 2020, at the Wayback Machine The Verge, Retrieved April
+28, 2016.
+
+85. Jordan, Novet (April 7, 2016). "Andy Jassy is finally named CEO of Amazon Web Services"
+(https://venturebeat.com/2016/04/07/andy-jassy-is-finally-named-ceo-of-amazon-web-servic
+es/). venturebeat.com. Retrieved July 26, 2016.
+
+86. Roberts, Daniel (May 24, 2016). "Here's why Amazon stock is up 42% in just 3 months" (http
+s://finance.yahoo.com/news/why-amazon-stock-is-up-42-percent-in-just-3-months-web-servi
+ces-and-profitability-181247737.html). Yahoo Finance. Archived (https://web.archive.org/we
+b/20200725042900/https://finance.yahoo.com/news/why-amazon-stock-is-up-42-percent-in-j
+ust-3-months-web-services-and-profitability-181247737.html) from the original on July 25,
+2020. Retrieved January 15, 2017.
+
+87. Novet, Jordan (February 1, 2018). "Amazon cloud revenue jumps 45 percent in fourth
+quarter" (https://www.cnbc.com/2018/02/01/aws-earnings-q4-2017.html). CNBC. Archived (h
+ttps://web.archive.org/web/20201112184852/https://www.cnbc.com/2018/02/01/aws-earning
+s-q4-2017.html) from the original on November 12, 2020. Retrieved February 25, 2018.
+
+88. Furrier, John (November 30, 2020). "Exclusive with AWS chief Andy Jassy: The wakeup call
+for cloud adoption" (https://siliconangle.com/2020/11/30/exclusive-aws-chief-andy-jassy-wak
+eup-call-cloud-adoption/). Retrieved February 18, 2021.
+
+89. Balakrishnan, Anita (April 12, 2017). "AWS CEO Andrew Jassy's 2016 pay hits $35.6
+million" (https://www.cnbc.com/2017/04/12/aws-ceo-andrew-jassys-2016-pay-hits-35-6-millio
+n.html). cnbc.com. Archived (https://web.archive.org/web/20200224062814/https://www.cnb
+c.com/2017/04/12/aws-ceo-andrew-jassys-2016-pay-hits-35-6-million.html) from the original
+on February 24, 2020. Retrieved June 8, 2017.
+
+90. Miller, Ron. "Amazon launches autoscaling service on AWS" (https://techcrunch.com/2018/0
+1/17/amazon-launches-autoscaling-service-on-aws/). TechCrunch. Archived (https://web.arc
+hive.org/web/20200817200137/https://techcrunch.com/2018/01/17/amazon-launches-autosc
+aling-service-on-aws/) from the original on August 17, 2020. Retrieved January 18, 2018.
+
+91. "New AWS Auto Scaling – Unified Scaling For Your Cloud Applications | Amazon Web
+Services" (https://aws.amazon.com/blogs/aws/aws-auto-scaling-unified-scaling-for-your-clou
+d-applications/). Amazon Web Services. January 16, 2018. Archived (https://web.archive.or
+g/web/20201119163531/https://aws.amazon.com/blogs/aws/aws-auto-scaling-unified-scalin
+g-for-your-cloud-applications/) from the original on November 19, 2020. Retrieved
+January 18, 2018.
+
+92. Cubrilovic, Nik (August 24, 2006). "Almost Exclusive: Amazon Readies Utility Computing
+Service" (https://techcrunch.com/2006/08/24/exclusive-amazon-readies-utility-computing-ser
+vice/). TechCrunch. Archived (https://web.archive.org/web/20190925091239/https://techcrun
+ch.com/2006/08/24/exclusive-amazon-readies-utility-computing-service/) from the original
+on September 25, 2019. Retrieved December 4, 2016.
+
+
+
+93. "AWS launches Arm-based servers for EC2" (https://techcrunch.com/2018/11/27/aws-launch
+es-arm-based-servers-for-ec2/). TechCrunch. Archived (https://web.archive.org/web/202012
+04091200/https://techcrunch.com/2018/11/27/aws-launches-arm-based-servers-for-ec2/)
+from the original on December 4, 2020. Retrieved November 27, 2018.
+
+94. "AWS launches a base station for satellites as a service" (https://techcrunch.com/2018/11/2
+7/aws-launches-a-base-station-for-satellites-as-a-service/). TechCrunch. Archived (https://w
+eb.archive.org/web/20201110112631/https://techcrunch.com/2018/11/27/aws-launches-a-ba
+se-station-for-satellites-as-a-service/) from the original on November 10, 2020. Retrieved
+November 28, 2018.
+
+95. Sparks, Daniel (February 6, 2020). "Amazon's Record 2019 in 7 Metrics" (https://www.fool.c
+om/investing/2020/02/06/amazons-record-2019-in-7-metrics.aspx). The Motley Fool.
+Archived (https://web.archive.org/web/20201201033432/https://www.fool.com/investing/202
+0/02/06/amazons-record-2019-in-7-metrics.aspx) from the original on December 1, 2020.
+Retrieved February 11, 2020.
+
+96. Bicheno, Scott (April 30, 2021). "AWS accounted for a third of $42 billion cloud market in Q1
+2021" (https://telecoms.com/509588/aws-accounted-for-a-third-of-42-billion-cloud-market-in-
+q1-2021/). telecoms.com. Archived (https://web.archive.org/web/20210430103715/https://tel
+ecoms.com/509588/aws-accounted-for-a-third-of-42-billion-cloud-market-in-q1-2021/) from
+the original on April 30, 2021. Retrieved May 1, 2021.
+
+97. Edwards, Roy (January 21, 2022). "AWS Joins MACH Alliance" (https://www.enterprisetime
+s.co.uk/2022/01/21/aws-joins-mach-alliance/). enterprise times. Archived (https://web.archiv
+e.org/web/20230205122514/https://www.enterprisetimes.co.uk/2022/01/21/aws-joins-mach-
+alliance/) from the original on February 5, 2023. Retrieved January 26, 2023.
+
+98. Burnson, Robert (June 18, 2022). "Ex-Amazon Cloud Worker Convicted of Massive Capital
+One Hack" (https://www.bloomberg.com/news/articles/2022-06-18/ex-amazon-cloud-worker-
+convicted-of-massive-capitol-one-hack). Bloomberg. Archived (https://web.archive.org/web/2
+0220704101452/https://www.bloomberg.com/news/articles/2022-06-18/ex-amazon-cloud-wo
+rker-convicted-of-massive-capitol-one-hack) from the original on July 4, 2022. Retrieved
+June 20, 2022.
+
+99. Lardinois, Frederic (June 23, 2022). "AWS sent a Snowcone to space" (https://techcrunch.c
+om/2022/06/23/aws-sent-a-snowcone-to-space/). TechCrunch. Archived (https://web.archiv
+e.org/web/20220625212451/https://techcrunch.com/2022/06/23/aws-sent-a-snowcone-to-sp
+ace/) from the original on June 25, 2022. Retrieved June 25, 2022.
+
+100. "Amazon and Anthropic Announce Strategic Collaboration to Advance Generative AI" (http
+s://press.aboutamazon.com/2023/9/amazon-and-anthropic-announce-strategic-collaboration
+-to-advance-generative-ai). Amazon Press Center (Press release). September 25, 2023.
+Archived (https://web.archive.org/web/20231013044659/https://press.aboutamazon.com/20
+23/9/amazon-and-anthropic-announce-strategic-collaboration-to-advance-generative-ai)
+from the original on October 13, 2023. Retrieved October 12, 2023.
+
+101. "AWS announces the general availability of Amazon Bedrock and powerful new offerings to
+accelerate generative AI innovation" (https://www.aboutamazon.com/news/aws/aws-amazon
+-bedrock-general-availability-generative-ai-innovations). Amazon Press Center (Press
+release). September 28, 2023. Archived (https://web.archive.org/web/20240424022502/http
+s://www.aboutamazon.com/news/aws/aws-amazon-bedrock-general-availability-generative-
+ai-innovations) from the original on April 24, 2024. Retrieved October 12, 2023.
+
+102. Wiggers, Kyle (April 2, 2024). "AWS Unveils New Service For Cloud Based Rendering
+Projects" (https://techcrunch.com/2024/04/02/aws-unveils-new-service-for-cloud-based-rend
+ering-projects/). Tech Crunch. Archived (https://web.archive.org/web/20240403102415/http
+s://techcrunch.com/2024/04/02/aws-unveils-new-service-for-cloud-based-rendering-project
+s/) from the original on April 3, 2024. Retrieved April 3, 2024.
+
+103. Cherney, Mike (July 4, 2024). "Amazon to Build $1.3 Billion Top-Secret Cloud for Australia's
+Government" (https://www.wsj.com/tech/amazon-to-build-1-3-billion-top-secret-cloud-for-aus
+tralias-government-699ec515). The Wall Street Journal. Retrieved April 29, 2026.
+
+
+
+104. "Introducing Amazon Nova, our new generation of foundation models" (https://www.aboutam
+azon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws). Amazon. December
+3, 2024. Retrieved December 23, 2024.
+
+105. "Meet Project Rainier, Amazon's one-of-a-kind machine ushering in the next generation of
+AI" (https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute
+-cluster). www.aboutamazon.com. June 24, 2025. Retrieved July 10, 2025.
+
+106. Butler, Georgia (February 17, 2026). "Indian gov't tech department to deploy AWS Outposts
+for hybrid cloud infrastructure" (https://www.datacenterdynamics.com/en/news/indian-govt-te
+ch-department-to-deploy-aws-outposts-for-hybrid-cloud-infrastructure/). Data Center
+Dynamics. Retrieved July 7, 2026.
+
+107. published, Luke James (March 7, 2026). "Iranian drone strikes hit three AWS data centers in
+the UAE and Bahrain — Iran confirms it targeted Amazon cloud infrastructure" (https://www.t
+omshardware.com/tech-industry/drone-strikes-hit-three-aws-data-centers-in-the-uae-and-ba
+hrain). Tom's Hardware. Retrieved April 6, 2026.
+
+108. Morales, Jowi (April 4, 2026). "Iranian missile blitz takes down AWS data centers in Bahrain
+and Dubai — Amazon reportedly declares "hard down" status for multiple zones" (https://ww
+w.tomshardware.com/tech-industry/iranian-missile-blitz-takes-down-aws-data-centers-in-bah
+rain-and-dubai-amazon-declares-hard-down-status-for-multiple-zones). Tom's Hardware.
+Retrieved April 6, 2026.
+
+109. Staff, Amazon (June 30, 2026). "AWS is investing billions to put AI into production for the
+public sector" (https://www.aboutamazon.com/news/aws/aws-summit-dc-2026-ai-cloud-publi
+c-sector). Amazon News.
+
+110. "How frontier teams are reinventing AI-native development | Artificial Intelligence" (https://aw
+s.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-develop
+ment/). aws.amazon.com. June 10, 2026.
+
+111. AWS, Francessca Vasquez, Vice President of Frontier AI Engineering and Services (June
+30, 2026). "AWS invests $1 billion to embed AI forward deployed engineers with customers"
+(https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers).
+Amazon News.
+
+112. "US court rules for Amazon.com in CIA cloud contract dispute" (https://www.reuters.com/arti
+cle/amazon-ibm-ciacontract-idUSL4N0HY0IS20131008). Reuters. October 8, 2013.
+Archived (https://web.archive.org/web/20210114011320/https://www.reuters.com/article/ama
+zon-ibm-ciacontract-idUSL4N0HY0IS20131008) from the original on January 14, 2021.
+Retrieved April 6, 2016.
+
+113. Benrath, Bastian (March 3, 2019). "Cloudsparte AWS: Die Sonne hinter Amazons Wolken"
+(https://www.faz.net/aktuell/wirtschaft/digitec/cloudsparte-aws-die-sonne-hinter-amazons-wo
+lken-16067635.html?printPagedArticle=true) [AWS Cloud Services: The sun behind
+Amazon's clouds]. Frankfurter Allgemeine Zeitung (in German). ISSN 0174-4909 (https://se
+arch.worldcat.org/issn/0174-4909). Archived (https://web.archive.org/web/20211204114636/
+https://www.faz.net/aktuell/wirtschaft/digitec/cloudsparte-aws-die-sonne-hinter-amazons-wol
+ken-16067635.html?printPagedArticle=true) from the original on December 4, 2021.
+Retrieved June 24, 2021.
+
+114. Hitchens, Theresa (August 23, 2019). "Navy Takes First Big Step To Cloud, Pushing
+Logistics To Amazon's Service" (https://breakingdefense.com/2019/08/navy-takes-first-big-st
+ep-to-cloud-pushing-logistics-to-amazons-service/). Breaking Defense. Archived (https://we
+b.archive.org/web/20201031123558/https://breakingdefense.com/2019/08/navy-takes-first-bi
+g-step-to-cloud-pushing-logistics-to-amazons-service/) from the original on October 31,
+2020. Retrieved August 26, 2019.
+
+115. Palmer, Annie (January 10, 2021). "Amazon drops Parler from its web hosting service, citing
+violent posts" (https://www.cnbc.com/2021/01/09/amazon-drops-parler-from-its-web-hosting-
+service.html). CNBC. Retrieved January 16, 2026.
+
+
+
+116. Smith, Connor. "Why DISH Was the Best-Performing Stock in the S&P 500 Today" (https://w
+ww.barrons.com/articles/dish-teams-up-with-amazon-web-services-on-5g-collaboration-dish
+-stock-is-up-11-51619044988). Barron's. Archived (https://web.archive.org/web/2021042122
+5035/https://www.barrons.com/articles/dish-teams-up-with-amazon-web-services-on-5g-coll
+aboration-dish-stock-is-up-11-51619044988) from the original on April 21, 2021. Retrieved
+April 21, 2021.
+
+117. Warrell, Helen; Fildes, Nic. "Amazon strikes deal with UK spy agencies to host top-secret
+material" (https://www.irishtimes.com/business/technology/amazon-strikes-deal-with-uk-spy-
+agencies-to-host-top-secret-material-1.4710597). The Irish Times. Archived (https://web.arc
+hive.org/web/20211026103230/https://www.irishtimes.com/business/technology/amazon-stri
+kes-deal-with-uk-spy-agencies-to-host-top-secret-material-1.4710597) from the original on
+October 26, 2021. Retrieved October 26, 2021.
+
+118. Farrell, Maureen (December 7, 2022). "Pentagon Divides Big Cloud-Computing Deal Among
+4 Firms" (https://www.nytimes.com/2022/12/07/business/pentagon-cloud-contracts-jwcc.htm
+l). The New York Times.
+
+119. MARK HARANAS (January 27, 2026). "AWS Wins $581M Cloud Deal From U.S. Air Force's
+Cloud One Program" (https://www.crn.com/news/cloud/2026/aws-wins-581m-cloud-deal-fro
+m-u-s-air-force-s-cloud-one-program-1). CRN. Retrieved January 28, 2026.
+
+120. "Bloomberg Adds Data License Content to AWS Cloud" (https://a-teaminsight.com/bloomber
+g-adds-data-license-content-to-aws-cloud/). December 13, 2021. Archived (https://web.archi
+ve.org/web/20211214160831/https://a-teaminsight.com/bloomberg-adds-data-license-conte
+nt-to-aws-cloud/) from the original on December 14, 2021. Retrieved May 29, 2022.
+
+121. "Tradeweb teams up with Amazon Web Services to expand access to closing price data -
+The TRADE" (https://www.thetradenews.com/tradeweb-teams-up-with-amazon-web-service
+s-to-expand-access-to-closing-price-data/). www.thetradenews.com. April 13, 2021.
+Archived (https://web.archive.org/web/20220527115102/https://www.thetradenews.com/trad
+eweb-teams-up-with-amazon-web-services-to-expand-access-to-closing-price-data/) from
+the original on May 27, 2022. Retrieved May 27, 2022.
+
+122. "AWS battle of the titans continues as Itiviti begins cloud transformation of its entire trading
+infrastructure" (https://financefeeds.com/aws-battle-of-the-titans-continues-as-itiviti-begins-cl
+oud-transformation-of-its-entire-trading-infrastructure/). October 27, 2020. Archived (https://
+web.archive.org/web/20220927210355/https://financefeeds.com/aws-battle-of-the-titans-con
+tinues-as-itiviti-begins-cloud-transformation-of-its-entire-trading-infrastructure/) from the
+original on September 27, 2022. Retrieved May 29, 2022.
+
+123. John Breeden II (January 4, 2013). "The tech behind NASA's Martian chronicles" (https://we
+b.archive.org/web/20210125042123/https://gcn.com/articles/2013/01/04/tech-behind-nasa-
+martian-chronicles.aspx). GCN. Archived from the original (http://gcn.com/articles/2013/01/0
+4/tech-behind-nasa-martian-chronicles.aspx) on January 25, 2021. Retrieved November 8,
+2013.
+
+124. Lohr, Steve (November 8, 2012). "The Obama Campaign's Technology Is a Force
+Multiplier". The New York Times. {{cite news}}: |access-date= requires |url=
+(help)
+
+125. "Summary of outage occurring April 20–22, 2011" (http://aws.amazon.com/message/6564
+8/). April 29, 2011. Archived (https://web.archive.org/web/20201204050133/https://aws.amaz
+on.com/message/65648/) from the original on December 4, 2020. Retrieved July 17, 2013.
+
+126. "Summary of the AWS Service Event in the US East Region" (https://aws.amazon.com/mes
+sage/67457/). July 2, 2012. Archived (https://web.archive.org/web/20201202235556/https://
+aws.amazon.com/message/67457/) from the original on December 2, 2020. Retrieved
+July 17, 2013.
+
+127. "Summary of the October 22, 2012 AWS Service Event in the US-East Region" (https://web.
+archive.org/web/20130905042206/https://aws.amazon.com/message/680342/). October 22,
+2012. Archived from the original (https://aws.amazon.com/message/680342/) on September
+5, 2013. Retrieved July 17, 2013.
+
+
+
+128. Bishop, Bryan (December 24, 2012). "Netflix streaming down on some devices due to
+Amazon issues" (https://www.theverge.com/2012/12/24/3801978/netflix-streaming-down-on-
+some-devices-thanks-to-amazon-issues). The Verge. Archived (https://web.archive.org/web/
+20200725045641/https://www.theverge.com/2012/12/24/3801978/netflix-streaming-down-on
+-some-devices-thanks-to-amazon-issues) from the original on July 25, 2020. Retrieved
+February 5, 2013.
+
+129. "Summary of the December 24, 2012 Amazon ELB Service Event in the US-East Region" (h
+ttp://aws.amazon.com/message/680587/). December 24, 2012. Archived (https://web.archiv
+e.org/web/20130807032646/http://aws.amazon.com/message/680587/) from the original on
+August 7, 2013. Retrieved July 17, 2013.
+
+130. "Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1)
+Region" (https://aws.amazon.com/message/41926/). amazon.com. Archived (https://web.arc
+hive.org/web/20210112002452/https://aws.amazon.com/message/41926/) from the original
+on January 12, 2021. Retrieved March 2, 2017.
+
+131. A typo blew up part of the internet Tuesday (https://www.cnet.com/news/aws-s3-service-disr
+uption-a-typo-blew-up-part-of-the-internet-tuesday/) Archived (https://web.archive.org/web/2
+0201112035227/https://www.cnet.com/news/aws-s3-service-disruption-a-typo-blew-up-part-
+of-the-internet-tuesday/) November 12, 2020, at the Wayback Machine CNET, Retrieved
+March 2, 2017
+
+132. Speed, Richard. "AWS admits to 'severely impaired' services in US-EAST-1, can't even post
+updates to Service Health Dashboard" (https://www.theregister.com/2020/11/25/aws_dow
+n/). www.theregister.com. Archived (https://web.archive.org/web/20201219181712/https://w
+ww.theregister.com/2020/11/25/aws_down/) from the original on December 19, 2020.
+Retrieved November 25, 2020.
+
+133. Canales, Katie; Dean, Grace. "Amazon Web Services is back up after a massive outage
+that hit sites including Roku, Adobe, and Target-owned Shipt" (https://www.businessinsider.c
+om/amazon-web-services-outage-websites-not-working-2020-11). Business Insider.
+Archived (https://web.archive.org/web/20201215145943/https://www.businessinsider.com/a
+mazon-web-services-outage-websites-not-working-2020-11) from the original on December
+15, 2020. Retrieved November 26, 2020.
+
+134. Palmer, Annie (December 7, 2021). "Amazon Web Services outage brings some delivery
+operations to a standstill" (https://www.cnbc.com/2021/12/07/amazon-web-services-outage-
+causes-issues-at-disney-netflix-coinbase.html). CNBC. Archived (https://web.archive.org/we
+b/20220521123937/https://www.cnbc.com/2021/12/07/amazon-web-services-outage-causes
+-issues-at-disney-netflix-coinbase.html) from the original on May 21, 2022. Retrieved
+December 9, 2021.
+
+135. "Canva Innovator Hub" (https://aws.amazon.com/solutions/case-studies/innovators/canva/).
+Amazon Web Services. October 17, 2025.
+
+136. "Is Canvas website down for college, school students from AWS outage? | FOX 29
+Philadelphia" (https://www.fox29.com/news/canvas-website-down-students-after-aws-outag
+e.amp).
+
+137. Weatherbed, Jess (October 20, 2025). "Major AWS outage takes down Fortnite, Alexa,
+Snapchat, and more" (https://www.theverge.com/news/802486/aws-outage-alexa-fortnite-sn
+apchat-offline). The Verge. Archived (https://web.archive.org/web/20251020082424/https://w
+ww.theverge.com/news/802486/aws-outage-alexa-fortnite-snapchat-offline) from the original
+on October 20, 2025. Retrieved October 20, 2025.
+
+138. Griffin, Andrew (October 20, 2025). "Snapchat, Ring, Roblox, Fortnite and more go down in
+huge internet outage" (https://www.independent.co.uk/tech/snapchat-roblox-duolingo-fortnite
+-down-not-working-b2848289.html). The Independent. Retrieved October 20, 2025.
+
+139. Ghinea, Alexandru. "AWS Outage October 2025: A Comprehensive Breakdown of the
+Global Cloud Disruption" (https://www.fxradar.live/market-news/aws-outage-october-2025-a-
+comprehensive-breakdown-of-the-glo.html). www.fxradar.live. Retrieved October 21, 2025.
+
+
+
+140. "Setting permissions to enable accounts for upcoming AWS Regions | AWS Security Blog"
+(https://aws.amazon.com/blogs/security/setting-permissions-to-enable-accounts-for-upcomi
+ng-aws-regions/). aws.amazon.com. March 21, 2019. Archived (https://web.archive.org/web/
+20240311000127/https://aws.amazon.com/blogs/security/setting-permissions-to-enable-acc
+ounts-for-upcoming-aws-regions/) from the original on March 11, 2024. Retrieved March 10,
+2024.
+
+141. "Just how big is Amazon's AWS business? (hint: it's absolutely massive)" (https://web.archiv
+e.org/web/20191223045710/https://www.geek.com/chips/just-how-big-is-amazons-aws-busi
+ness-hint-its-absolutely-massive-1610221/). Geek.com. Archived from the original (http://ww
+w.geek.com/chips/just-how-big-is-amazons-aws-business-hint-its-absolutely-massive-16102
+21/) on December 23, 2019. Retrieved December 22, 2014.
+
+142. "Amazon group's web services signs cooperation agreement with New Zealand" (https://ww
+w.rnz.co.nz/news/business/486571/amazon-group-s-web-services-signs-cooperation-deal-w
+ith-new-zealand-government). Radio New Zealand. March 23, 2023. Archived (https://web.a
+rchive.org/web/20230325224954/https://www.rnz.co.nz/news/business/486571/amazon-gro
+up-s-web-services-signs-cooperation-deal-with-new-zealand-government) from the original
+on March 25, 2023. Retrieved April 8, 2023.
+
+143. "AWS Pop-up Lofts" (https://aws.amazon.com/start-ups/loft/). Amazon Web Services, Inc.
+Archived (https://web.archive.org/web/20201203213711/https://aws.amazon.com/startups/lo
+fts/) from the original on December 3, 2020. Retrieved March 22, 2018.
+
+144. "Head in the cloud: Amazon Web Services' SoMa pop-up now permanent" (http://www.sfgat
+e.com/business/article/Head-in-the-cloud-Amazon-Web-Services-SoMa-6418734.php).
+August 2015. Archived (https://web.archive.org/web/20200727023636/https://www.sfgate.co
+m/business/article/Head-in-the-cloud-Amazon-Web-Services-SoMa-6418734.php) from the
+original on July 27, 2020. Retrieved February 16, 2016.
+
+145. Zipkin, Nina (August 19, 2015). "Why Amazon Added a Pop-Up Loft in NYC" (http://www.ent
+repreneur.com/video/248574). Archived (https://web.archive.org/web/20200727022934/http
+s://www.entrepreneur.com/video/248574) from the original on July 27, 2020. Retrieved
+February 16, 2016.
+
+146. "Like Target and Porsche, Amazon Web Services opens pop-up shop in NYC" (http://fortun
+e.com/2015/05/19/amazon-nyc-pop-up/). May 19, 2015. Archived (https://web.archive.org/w
+eb/20200727040647/https://fortune.com/2015/05/19/amazon-nyc-pop-up/) from the original
+on July 27, 2020. Retrieved February 16, 2016.
+
+147. "Amazon Web Services opens Pop-up Loft in Berlin" (https://web.archive.org/web/20160205
+003426/http://venturevillage.eu/amazon-web-services-opens-pop-up-loft-in-berlin).
+September 22, 2015. Archived from the original (http://venturevillage.eu/amazon-web-servic
+es-opens-pop-up-loft-in-berlin) on February 5, 2016. Retrieved February 16, 2016.
+
+148. "Amazon's Pop-up loft heading to Tel Aviv" (https://www.jpost.com/Business-and-Innovation/
+Tech/Amazons-Pop-up-loft-heading-to-Tel-Aviv-445078). February 16, 2016. Archived (http
+s://web.archive.org/web/20200727022658/https://www.jpost.com/Business-and-Innovation/T
+ech/Amazons-Pop-up-loft-heading-to-Tel-Aviv-445078) from the original on July 27, 2020.
+Retrieved February 16, 2016.
+
+149. Tung, Liam. "Amazon gets startup-friendly with AWS Loft space in London" (https://www.zdn
+et.com/article/amazon-pop-up-loft-london/). ZDNet. Archived (https://web.archive.org/web/2
+0200809150856/https://www.zdnet.com/article/amazon-pop-up-loft-london/) from the original
+on August 9, 2020. Retrieved January 31, 2017.
+
+150. "New York" (https://aws.amazon.com/start-ups/loft/ny-loft/). Amazon Web Services, Inc.
+Archived (https://web.archive.org/web/20200921233704/https://aws.amazon.com/start-ups/l
+oft/ny-loft/) from the original on September 21, 2020. Retrieved June 8, 2020.
+
+151. "AWS Loft San Francisco" (https://aws.amazon.com/start-ups/loft/sf-loft/). Amazon Web
+Services, Inc. Archived (https://web.archive.org/web/20201216055411/https://aws.amazon.c
+om/start-ups/loft/sf-loft/) from the original on December 16, 2020. Retrieved June 8, 2020.
+
+
+
+152. "AWS Loft Tokyo 〜 挑戦をカタチにする場所へ 〜 | AWS" (https://aws.amazon.com/jp/start-
+ups/loft/tokyo/). Amazon Web Services, Inc. (in Japanese). Archived (https://web.archive.or
+g/web/20201120090346/https://aws.amazon.com/jp/start-ups/loft/tokyo/) from the original on
+November 20, 2020. Retrieved June 8, 2020.
+
+153. "AWS re:Start to teach digital skills to young people and military veterans" (http://www.itpro.c
+o.uk/strategy/27902/aws-restart-to-teach-digital-skills-to-young-people-and-military-veteran
+s). itpro.co.uk. January 12, 2017. Archived (https://web.archive.org/web/20210125203658/ht
+tps://www.itpro.co.uk/strategy/27902/aws-restart-to-teach-digital-skills-to-young-people-and-
+military-veterans) from the original on January 25, 2021. Retrieved February 21, 2017.
+
+154. "AWS commits $30 million to startups led by underrepresented founders" (https://philanthrop
+ynewsdigest.org/news/aws-commits-30-million-to-startups-led-by-underrepresented-founder
+s). Philanthropy News Digest. April 22, 2022. Archived (https://web.archive.org/web/202204
+22201526/https://philanthropynewsdigest.org/news/aws-commits-30-million-to-startups-led-
+by-underrepresented-founders) from the original on April 22, 2022. Retrieved May 5, 2022.
+
+155. Pomerantz, David. "AWS and Sustainable Energy" (https://aws.amazon.com/about-aws/sust
+ainable-energy/). Amazon. Archived (https://web.archive.org/web/20201214143008/https://s
+ustainability.aboutamazon.com/environment/the-cloud) from the original on December 14,
+2020. Retrieved June 15, 2015.
+
+156. Burt, Jeffrey (June 10, 2015). "AWS to Build Solar Farm to Help Power Cloud Data Centers"
+(http://www.eweek.com/cloud/aws-to-build-solar-farm-to-help-power-cloud-data-centers.htm
+l). eWeek.
+
+157. "Pattern Development Completes Financing and Starts Construction of Amazon Wind Farm
+Project in Indiana" (https://web.archive.org/web/20200918063831/https://patterndev.com/en/
+media/press-releases/pattern-development-completes-financing-and-starts-construct/).
+Pattern Energy Group LP. Archived from the original (http://patterndev.com/en/media/press-r
+eleases/pattern-development-completes-financing-and-starts-construct/) on September 18,
+2020. Retrieved July 27, 2017.
+
+158. "AWS & Sustainability" (http://aws.amazon.com/about-aws/sustainability/). Amazon Web
+Services, Inc. Archived (https://web.archive.org/web/20160407162619/http://aws.amazon.co
+m/about-aws/sustainability/) from the original on April 7, 2016. Retrieved April 6, 2016.
+
+159. "Carbon Footprint of Cloud Service Providers" (https://web.archive.org/web/2021122915162
+9/http://www.clickclean.org/downloads/ClickClean2016%20HiRes.pdf) (PDF). Archived from
+the original (http://www.clickclean.org/downloads/ClickClean2016%20HiRes.pdf) (PDF) on
+December 29, 2021. Retrieved October 26, 2016.
+
+160. "AWS, Google Cloud, Equinix among Europe climate neutral data centre pact founders" (htt
+ps://cloudcomputing-news.net/news/2021/jan/21/aws-google-cloud-equinix-among-europe-c
+limate-neutral-data-centre-pact-founders/). January 21, 2021. Archived (https://web.archive.
+org/web/20210128161525/https://cloudcomputing-news.net/news/2021/jan/21/aws-google-cl
+oud-equinix-among-europe-climate-neutral-data-centre-pact-founders/) from the original on
+January 28, 2021. Retrieved January 29, 2021.
+
+161. "Amazon Sets a New Record for Most Renewable Energy Purchased by a Single Company"
+(https://press.aboutamazon.com/2023/1/amazon-sets-a-new-record-for-most-renewable-ene
+rgy-purchased-by-a-single-company). Press Center. January 31, 2023. Archived (https://we
+b.archive.org/web/20240123062305/https://press.aboutamazon.com/2023/1/amazon-sets-a-
+new-record-for-most-renewable-energy-purchased-by-a-single-company) from the original
+on January 23, 2024. Retrieved January 23, 2024.
+
+162. "9 takeaways from Amazon's 2022 Sustainability Report" (https://www.aboutamazon.com/ne
+ws/sustainability/amazon-sustainability-report-2022). US About Amazon. July 18, 2023.
+Archived (https://web.archive.org/web/20240123062304/https://www.aboutamazon.com/new
+s/sustainability/amazon-sustainability-report-2022) from the original on January 23, 2024.
+Retrieved January 23, 2024.
+
+
+
+163. "AWS acquires Talen's nuclear data center campus in Pennsylvania" (https://www.datacente
+rdynamics.com/en/news/aws-acquires-talens-nuclear-data-center-campus-in-pennsylvani
+a/). Data Center Dynamics. March 4, 2024. Retrieved June 23, 2024.
+
+164. Patel, Sonal (June 12, 2025). "Talen, Amazon Launch $18B Nuclear PPA—A Grid-
+Connected IPP Model for the Data Center Era" (https://www.powermag.com/talen-amazon-l
+aunch-18b-nuclear-ppa-a-grid-connected-ipp-model-for-the-data-center-era/). POWER
+Magazine.
+
+165. Biddle, Sam; Saleh, Maryam (August 25, 2021). "Little-Known Federal Software Can Trigger
+Revocation of Citizenship" (https://theintercept.com/2021/08/25/atlas-citizenship-denaturaliz
+ation-homeland-security/). The Intercept. Archived (https://web.archive.org/web/2021092119
+1424/https://theintercept.com/2021/08/25/atlas-citizenship-denaturalization-homeland-securi
+ty/) from the original on September 21, 2021.
+
+166. "Cuccinelli Announces USCIS' FY 2019 Accomplishments and Efforts to Implement
+President Trump's Goals" (https://www.uscis.gov/news/news-releases/cuccinelli-announces-
+uscis-fy-2019-accomplishments-and-efforts-to-implement-president-trumps-goals).
+www.uscis.gov. October 16, 2019. Archived (https://web.archive.org/web/20210921204355/
+https://www.uscis.gov/news/news-releases/cuccinelli-announces-uscis-fy-2019-accomplish
+ments-and-efforts-to-implement-president-trumps-goals) from the original on September 21,
+2021. Retrieved September 21, 2021.
+
+167. "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization:
+Report" (https://gizmodo.com/u-s-government-is-using-an-algorithm-to-flag-american-18475
+65703). Gizmodo. Archived (https://web.archive.org/web/20210921211100/https://gizmodo.c
+om/u-s-government-is-using-an-algorithm-to-flag-american-1847565703) from the original
+on September 21, 2021. Retrieved September 21, 2021.
+
+168. Biddle, Sam (May 18, 2022). "Google and Amazon face shareholder revolt over Israeli
+defense work" (https://theintercept.com/2022/05/18/google-amazon-israel-military-nimbus/).
+The Intercept. Archived (https://web.archive.org/web/20231221150051/https://theintercept.c
+om/2022/05/18/google-amazon-israel-military-nimbus/) from the original on December 21,
+2023. Retrieved May 21, 2024.
+
+169. "Google and Amazon shareholders to oppose Israel's Project Nimbus in resolutions" (https://
+www.newarab.com/news/google-amazon-shareholders-oppose-israeli-project-nimbus). The
+New Arab. May 19, 2022. Archived (https://web.archive.org/web/20240521122815/https://ww
+w.newarab.com/news/google-amazon-shareholders-oppose-israeli-project-nimbus) from the
+original on May 21, 2024. Retrieved May 21, 2024.
+
+170. Anonymous (October 12, 2021). "We are Google and Amazon workers. We condemn
+Project Nimbus" (https://www.theguardian.com/commentisfree/2021/oct/12/google-amazon-
+workers-condemn-project-nimbus-israeli-military-contract). The Guardian. Archived (https://
+web.archive.org/web/20230518020549/https://www.theguardian.com/commentisfree/2021/o
+ct/12/google-amazon-workers-condemn-project-nimbus-israeli-military-contract) from the
+original on May 18, 2023. Retrieved May 21, 2024.
+
+171. " 'No Tech for Apartheid': Google Workers Push for Cancellation of Secretive $1.2B Project
+with Israel" (https://www.democracynow.org/2022/9/1/google_project_nimbus_israeli_militar
+y_unionizing). Democracy Now!. September 1, 2022. Archived (https://web.archive.org/web/
+20231021165758/https://www.democracynow.org/2022/9/1/google_project_nimbus_israeli_
+military_unionizing) from the original on October 21, 2023. Retrieved May 21, 2024.
+
+172. Biddle, Sam (May 1, 2024). "Israeli weapons firms required to buy cloud services from
+Google and Amazon" (https://theintercept.com/2024/05/01/google-amazon-nimbus-israel-we
+apons-arms-gaza/). Archived (https://web.archive.org/web/20240518193945/https://theinterc
+ept.com/2024/05/01/google-amazon-nimbus-israel-weapons-arms-gaza/) from the original
+on May 18, 2024. Retrieved May 21, 2024.
+
+
+
+173. Healy, Conor (September 26, 2022). "Amazon Powers Dahua and Hikvision Sales and
+Cloud Services" (https://ipvm.com/reports/amazon-powers-hikua). IPVM. Archived (https://w
+eb.archive.org/web/20220928013940/https://ipvm.com/reports/amazon-powers-hikua) from
+the original on September 28, 2022. Retrieved September 28, 2022.
+
+174. Ghosal, Aniruddha; Kang, Dake (December 20, 2025). "US tech enabled China's
+surveillance empire. Now Tibetan refugees in Nepal are paying the price" (https://apnews.co
+m/article/china-tibet-nepal-surveillance-technology-silicon-valley-eadac8211c5d0ca88374afe
+cfbba00d5). Associated Press. Retrieved December 21, 2025.
+
+175. Cox, Joseph (July 23, 2025). "Hacker Plants Computer 'Wiping' Commands in Amazon's AI
+Coding Agent" (https://www.404media.co/hacker-plants-computer-wiping-commands-in-ama
+zons-ai-coding-agent/). 404 Media. Retrieved August 7, 2025.
+
+176. Quinn, Corey (July 23, 2025). "Amazon Q: Now with Helpful AI-Powered Self-Destruct
+Capabilities - Last Week in AWS Blog" (https://www.lastweekinaws.com/blog/amazon-q-now
+-with-helpful-ai-powered-self-destruct-capabilities/). Last Week in AWS. Retrieved August 7,
+2025.
+
+177. "Security Update for Amazon Q Developer Extension for Visual Studio Code (Version
+#1.84)" (https://aws.amazon.com/security/security-bulletins/AWS-2025-015/). Amazon Web
+Services, Inc. Retrieved August 7, 2025.
+
+178. "AWS's Log4Shell Hot Patch Vulnerable to Container Escape and Privilege Escalation" (http
+s://unit42.paloaltonetworks.com/aws-log4shell-hot-patch-vulnerabilities/). April 19, 2022.
+
+179. Newman, Lily Hay. "An AWS Configuration Issue Could Expose Thousands of Web Apps" (h
+ttps://www.wired.com/story/aws-application-load-balancer-implementation-compromise/).
+Wired. ISSN 1059-1028 (https://search.worldcat.org/issn/1059-1028). Retrieved January 29,
+2026.
+
+180. "ALBeast Vulnerability: AWS ALB Auth Flaw Explained" (https://www.miggo.io/post/uncoveri
+ng-auth-vulnerability-in-aws-alb-albeast). www.miggo.io. Retrieved January 29, 2026.
+
+181. say, Sebastian Moss Have your (May 6, 2026). "Amazon confirms two UAE data centers hit
+by drone strikes, third in Bahrain damaged" (https://www.datacenterdynamics.com/en/news/
+amazon-confirms-two-uae-data-centers-hit-by-drone-strikes-third-in-bahrain-damaged/).
+www.datacenterdynamics.com. Retrieved May 8, 2026.
+
+182. "AWS outages in Middle East highlight importance of disaster recovery | CIO Dive" (https://w
+ww.ciodive.com/news/aws-outages-bahrain-UAE-drone-strikes/813705/). www.ciodive.com.
+Retrieved May 8, 2026.
+
+183. "Amazon says restoring damaged Middle East cloud operations to take months" (https://ww
+w.reuters.com/world/middle-east/amazon-says-damaged-uae-cloud-region-recovery-take-se
+veral-months-2026-04-30/).
+
+184. Sbarski, Peter (April 17, 2017). Serverless Architectures on AWS With Examples Using
+AWS Lambda. Manning Publications. ISBN 9781638351146.
+
+185. Nishimura, Hiroko (December 13, 2022). AWS for Non-Engineers. Manning Publications.
+ISBN 9781633439948.
+
+186. Oswalt, Matt; Adell, Christian; Lowe, Scott S.; Edelman, Jason (June 23, 2022). Network
+Programmability and Automation Skills for the Next-Generation Network Engineer. O'Reilly
+Media. ISBN 9781098110789.
+
+187. "Understanding data transfer charges - AWS Data Exports" (https://docs.aws.amazon.com/c
+ur/latest/userguide/cur-data-transfers-charges.html). docs.aws.amazon.com. Retrieved
+August 7, 2025.
+
+188. "Overview of Data Transfer Costs for Common Architectures | AWS Architecture Blog" (http
+s://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-archite
+ctures/). aws.amazon.com. June 30, 2021. Retrieved August 7, 2025.
+
+189. "EC2 On-Demand Instance Pricing" (https://aws.amazon.com/ec2/pricing/on-demand/).
+Amazon Web Services, Inc. Retrieved August 7, 2025.
+
+
+
+190. "AWS Transit Gateway pricing" (https://aws.amazon.com/transit-gateway/pricing/). Amazon
+Web Services, Inc. Retrieved August 7, 2025.
+
+191. "AWS PrivateLink Pricing" (https://aws.amazon.com/privatelink/pricing/). Amazon Web
+Services, Inc. Retrieved August 7, 2025.
+
+External links
+Official website (https://aws.amazon.com/)
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Amazon_Web_Services&oldid=1380525157"

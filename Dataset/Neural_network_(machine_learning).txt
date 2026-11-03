@@ -1,0 +1,2597 @@
+﻿Neural network (machine learning)
+In machine learning, a neural network (NN) or artificial
+neural network (ANN) is a computational model inspired by
+the structure and functions of biological neural networks.[1][2]
+
+A neural network consists of connected units or nodes called
+artificial neurons, which loosely model the neurons in the
+brain. These are connected by edges, which model the
+synapses in the brain. Each artificial neuron receives signals
+from connected neurons, then processes them and sends a
+signal to other connected neurons. The "signal" is a real
+number, and the output of each neuron is computed by some
+non-linear function of the totality of its inputs, called the
+activation function. The strength of the signal at each
+connection is determined by a weight, which adjusts as part of
+the training process.
+
+A neural network is an interconnected
+Groups of neurons are aggregated into layers. Each layer group of nodes, inspired by a
+performs a transformation on its inputs. Signals travel from simplification of neurons in a brain. Here,
+the first layer (the input layer) to the last layer (the output each blue/green circular node in the
+layer), typically passing through multiple intermediate layers hidden and output layers represents an
+
+(hidden layers). A network is typically called a deep neural artificial neuron and each red circular
+node in the far left layer represents an
+
+network if it has at least two hidden layers. Deep neural input data value. An arrow represents a
+networks are capable of learning sophisticated hierarchical connection from the output of one neuron
+representations.[3] (or data node) to the input of another.
+
+Training neural networks is a compute-intensive process,
+accelerated by the use of graphics processing units (GPUs), and large datasets.
+
+
+
+  
+
+Simplified example of The resulting model Subsequent run of the model on an
+training a neural network in contains weighted input image (left):[4] The network
+
+object detection: The associations between correctly detects the starfish.
+network is trained by visual features and However, the weak association
+
+multiple images known to output categories. between ringed texture and sea
+depict starfish and sea Because one training urchin also gives a weak signal to
+
+urchins, which are image depicts a ring- the latter from one of two
+correlated with "nodes" textured sea urchin, the intermediate nodes. In addition, a
+
+representing visual model also develops a shell not included in the training
+features. Starfish match weak association gives a weak signal for the oval
+with a ringed texture and between ringed texture shape, also resulting in a weak
+
+star outline, whereas most and sea urchin. signal for the sea urchin output.
+sea urchins match with a These weak signals may result in a
+striped texture and oval false positive result for sea urchin.
+
+shape.
+
+In reality, such textures and outlines would not be represented by single nodes, but rather by associated
+weight patterns of multiple nodes.
+
+Architectural innovations such as convolutional neural networks (CNNs) significantly improved
+performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of
+sequential data such as speech and time-series information. Transformer architectures introduced
+attention mechanisms that allow neural networks to model long-range dependencies in data and have
+been the basis of large language models.[5][6]
+
+Artificial neural networks are used for myriad tasks including chatbots, large-scale text, image, and video
+generation, and robotics.
+
+History
+
+Mathematical foundations
+Deep neural networks are based on statistics developed over 200 years ago. The simplest kind of
+feedforward neural network (FNN) is a linear network, which consists of a single layer of output nodes
+with linear activation functions; the inputs are fed directly to the outputs via weights. The sum of the
+products of the weights and the inputs is calculated at each node. The mean squared errors between these
+
+
+
+calculated outputs and the given target values are minimized by adjusting to the weights. This technique
+is the method of least squares or linear regression. It was used to find a rough linear fit to a set of points
+by Legendre (1805) and Gauss (1795) for the prediction of planetary movement.[7][8][9]
+
+Perceptrons
+Computers are based on John von Neumann's model. They execute explicit lists of instructions with
+access to memory to record their changing state. Neural networks instead originated from efforts to model
+information processing in biological systems via connectionism. Unlike the von Neumann model,
+connectionist computing does not separate memory and processing.[10]
+
+Warren McCulloch and Walter Pitts[11] (1943) considered a non-learning computational model for neural
+networks.[12] This model paved the way for research to split into one branch focused on biological
+processes and another focused on artificial intelligence. McCulloch and Pitts also developed
+mathematical models of artificial neurons capable of representing logical functions.[11]
+
+In the late 1940s, D. O. Hebb[13] proposed a learning hypothesis based on neural plasticity that became
+known as Hebbian learning. It was used in many early neural network experiments, such as Rosenblatt's
+perceptron and the Hopfield network. Farley and Clark[14] (1954) used computational machines to
+simulate a Hebbian network. Other neural networks computational machines were created by Rochester,
+Holland, Habit and Duda (1956).[15]
+
+In 1958, psychologist Frank Rosenblatt described the perceptron, one of the first implemented neural
+networks,[16][17][18][19] funded by the United States Office of Naval Research.[20] R. D. Joseph (1960)[21]
+
+mentioned an earlier perceptron-like device by B. G. Farley and W. A. Clark of the MIT Lincoln
+Laboratory;[8] however, according to Joseph, "they dropped the subject."[21]
+
+The first perceptrons did not have adaptive hidden units. However, Joseph (1960)[21] discussed multilayer
+that did. Rosenblatt (1962)[22]: section 16  cited and adopted these ideas, crediting work by H. D. Block and
+B. W. Knight. However, these early efforts did not lead to a working learning algorithm for hidden units,
+i.e., deep learning.
+
+The perceptron raised public excitement in neural networks, causing the US government to drastically
+increase funding. This contributed to "the Golden Age of AI", fueled by the optimistic claims made by
+computer scientists regarding the ability of perceptrons to emulate human intelligence.[23]
+
+Historical foundations and the Dartmouth proposal
+Artificial neural networks were identified as a promising direction for artificial intelligence research in
+the 1955 proposal for the Dartmouth Summer Research Project on Artificial Intelligence.[24] Neural
+network models initially faced major limitations. Hardware constraints limited network size and training
+efficiency, while theoretical understanding of learning algorithms remained incomplete. Many models
+used single-layer perceptrons, which were restricted to solving linearly separable problems. These
+limitations were highlighted in the book Perceptrons by Marvin Minsky and Seymour Papert, which
+deflated interest during the late 1960s and 1970s.[25]
+
+
+
+1960s and 1970s
+Fundamental research was conducted on NNs in the 1960s and 1970s. The first working deep learning
+algorithm was the group method of data handling, a method to train arbitrarily deep neural networks,
+published by Alexey Ivakhnenko and Valentin Lapa in the Soviet Union (1965). They regarded it as a
+form of polynomial regression,[26] generalizing Rosenblatt's perceptron.[27] A 1971 paper described a
+deep network with eight layers trained by this method,[28] training layer by layer via regression analysis.
+Superfluous hidden units were pruned using a separate validation set. The activation functions of the
+nodes were Kolmogorov-Gabor polynomials, the first deep networks with multiplicative units or
+"gates".[8]
+
+The first deep learning multilayer perceptron (MLP) trained by stochastic gradient descent[29] was
+published in 1967 by Shun'ichi Amari.[30] In computer experiments conducted by Amari's student S.
+Saito, a five layer MLP with two modifiable layers learned internal representations to classify non-
+linearily separable pattern classes.[8] Subsequent developments in hardware and hyperparameter tuning
+made end-to-end stochastic gradient descent the dominant technique for reducing loss (error).
+
+In 1969, Kunihiko Fukushima introduced the ReLU (rectified linear unit) activation function.[8][31][32]
+
+ReLU is the most common activation function.[33]
+
+Nevertheless, research stagnated in the United States after Minsky and Papert (1969),[34] who
+emphasized that perceptrons were incapable of processing the exclusive-or circuit. However, this insight
+was irrelevant for the deep networks of Ivakhnenko (1965) and Amari (1967).
+
+In 1976, transfer learning was introduced.[35]
+
+Backpropagation
+Interest in neural networks revived during the 1980s because of the novel backpropagation algorithm,
+which allowed multi-layer neural networks to be trained efficiently by propagating error gradients
+backward (from output back to input) through network layers.[36] Backpropagation is an efficient
+application of the chain rule derived by Gottfried Wilhelm Leibniz in 1673[37] to networks of
+differentiable nodes. The terminology "back-propagating errors" was introduced in 1962 by
+Rosenblatt,[22] but he did not describe how to implement this. Henry J. Kelley developed a precursor of
+backpropagation in 1960 in the context of control theory.[38] In 1970, Seppo Linnainmaa published the
+modern form of backpropagation in his master's thesis (1970).[39][40][8] G.M. Ostrovski et al. republished
+it in 1971.[41][42] Paul Werbos applied backpropagation to neural networks in 1982[43][44] (his 1974 PhD
+thesis, reprinted in a 1994 book,[45] did not describe the algorithm).[42] In 1986, David E. Rumelhart, et
+al., popularized backpropagation but did not cite the original work.[46]
+
+Convolutional neural networks
+Deep learning architectures for convolutional neural networks (CNNs) with convolutional layers and
+downsampling layers and weight replication began with the neocognitron introduced by Kunihiko
+Fukushima in 1979.[47][48][49] Fukushima's CNN architecture also introduced max pooling,[50] a popular
+downsampling procedure for CNNs. CNNs have become an essential tool for computer vision.
+
+
+
+The time delay neural network (TDNN) was introduced in 1987 by Alex Waibel to apply CNNs to
+phoneme recognition. It used convolutions, weight sharing, and backpropagation.[51][52] In 1988, Wei
+Zhang applied a backpropagation-trained CNN to recognizing individual letters.[53] In 1989, Yann LeCun
+et al. created a CNN called LeNet for recognizing handwritten ZIP codes on mail. Training required 3
+days.[54] In 1990, Wei Zhang implemented a CNN on optical computing hardware.[55] In 1991, a CNN
+was applied to medical image object segmentation[56] and breast cancer detection in mammograms.[57]
+
+LeNet-5 (1998), a 7-level CNN by Yann LeCun et al. that classifies hand-written digits, was applied by
+banks to recognize numbers on checks digitized in 32×32 pixel images.[58]
+
+From 1988 onward,[59][60] the use of neural networks transformed the field of protein structure
+prediction, in particular when the first cascading networks were trained on profiles (matrices) produced
+by multiple sequence alignments.[61]
+
+Recurrent neural networks
+One source of RNN was statistical mechanics. In 1972, Shun'ichi Amari proposed to modify the weights
+of an Ising model by Hebbian learning rule as a model of associative memory, adding in learning.[62] This
+was popularized as the Hopfield network by John Hopfield (1982).[63] Another origin of RNN was
+neuroscience. The word "recurrent" is used to describe loop-like structures in anatomy. In 1901, Cajal
+observed "recurrent semicircles" in the cerebellar cortex.[64] Hebb considered "reverberating circuit" as
+an explanation for short-term memory.[65] The McCulloch and Pitts paper (1943) considered neural
+networks that contain cycles, and noted that the current activity of such networks can be affected by
+activity indefinitely far in the past.[11]
+
+In 1982 Crossbar Adaptive Array, a recurrent neural network with an array architecture (rather than a
+multilayer perceptron architecture),[66][67] used direct recurrent connections from the output to the
+supervisor (teaching) inputs. In addition to computing actions (decisions), it computed internal state
+evaluations (emotions) of consequence situations. Eliminating the external supervisor, it introduced the
+self-learning method in neural networks.
+
+In cognitive psychology, the American Psychologist journal in the early 1980s debated the relation
+between cognition and emotion. Social psychologist Robert Zajonc in 1980 stated that emotion is
+computed first and is independent from cognition, while Richard Lazarus in 1982 stated that cognition is
+computed first and is inseparable from emotion.[68][69][70] It was an example of a debate where an RNN
+contributed to an issue and also addressed cognitive psychology.
+
+The Jordan network (1986) and the Elman network (1990) applied RNN to study cognitive
+psychology.[71] A distinct computationally efficient recurrent neural model, the Random neural network
+was introduced by Erol Gelenbe (1989)[72][73] and used over several decades in numerous applications
+including tumor detection from MR images, video compression, network routing, and cyberattack
+detection.
+
+In the 1980s, backpropagation did not work well for deep RNNs. In 1991, Jürgen Schmidhuber proposed
+the "neural sequence chunker" or "neural history compressor"[74][75] which introduced self-supervised
+pre-training (the "P" in ChatGPT) and neural knowledge distillation.[8] In 1993, a neural history
+compressor system solved a "Very Deep Learning" task that required more than 1000 layers in an RNN
+unfolded in time.[76]
+
+
+
+In 1991, Sepp Hochreiter's diploma thesis identified and analyzed the vanishing gradient problem[77][78]
+
+and proposed recurrent residual connections to solve it. He and Schmidhuber introduced long short-term
+memory (LSTM), which set accuracy records in multiple application domains.[79][80] This was not the
+ultimate version of LSTM, which required the forget gate, and was introduced in 1999.[81] It became the
+default choice for RNN architecture.[82]
+
+During 1985–1995, inspired by statistical mechanics, several architectures and methods were developed
+by Terry Sejnowski, Peter Dayan, Geoffrey Hinton, and others, including the Boltzmann machine,[83]
+
+restricted Boltzmann machine,[84] Helmholtz machine,[85] and the wake-sleep algorithm.[86] These were
+designed for unsupervised learning of deep generative models.[87]
+
+Modern deep learning
+Between 2009 and 2012, NNs began winning prizes in image recognition contests, approaching human
+performance on various tasks, initially in pattern recognition and handwriting recognition.[88][89] In 2011,
+DanNet,[90][91] a CNN by Dan Ciresan, Ueli Meier, Jonathan Masci, Luca Maria Gambardella, and
+Schmidhuber achieved for the first time superhuman performance in a visual pattern recognition contest,
+outperforming traditional methods by a factor of 3.[49] It then won more contests.[92][93] They also
+showed how max-pooling CNNs on GPU improved performance.[94]
+
+In October 2012, AlexNet by Alex Krizhevsky, Ilya Sutskever, and Hinton[95] won the large-scale
+ImageNet competition by a significant margin over shallow machine learning methods. Further
+incremental improvements included the VGG-16 network by Karen Simonyan and Andrew Zisserman[96]
+
+and Google's Inceptionv3.[97]
+
+In 2012, Ng and Dean created a network that learned to recognize higher-level concepts, such as cats,
+from training only on unlabeled images.[98] Unsupervised pre-training and increased computing power
+from GPUs and distributed computing allowed the use of larger networks, particularly in image and
+visual recognition problems, which became known as "deep learning".[99]
+
+Radial basis function and wavelet networks were introduced in 2013. These can be shown to offer best
+approximation properties and have been applied in nonlinear system identification and classification
+applications.[100]
+
+Generative adversarial networks (GANs) (Ian Goodfellow et al., 2014)[101] became state of the art in
+generative modeling from 2014–2018. GAN was originally published in 1991 by Schmidhuber, who
+called it "artificial curiosity": two neural networks contest with each other in the form of a zero-sum
+game, where one network's gain is the other network's loss.[102][103] The first network is a generative
+model that models a probability distribution over output patterns. The second network learns by gradient
+descent to predict the reactions of the environment to these patterns. Excellent image quality was
+achieved by Nvidia's StyleGAN (2018)[104] based on the Progressive GAN by Tero Karras et al.[105]
+
+Here, the GAN generator is grown from small to large scale in a pyramidal fashion. Image generation by
+GAN reached popular success, and provoked discussions concerning deepfakes.[106] Diffusion models
+(2015)[107] eclipsed GANs in generative modeling thereafter, with systems such as DALL·E 2 (2022) and
+Stable Diffusion (2022).
+
+
+
+In 2014, the state of the art was training "[a] very deep neural network" with 20 to 30 layers.[108]
+
+Stacking too many layers led to a steep reduction in training accuracy,[109] known as the "degradation"
+problem.[110] In 2015, training very deep networks advanced with the highway network, published in
+May,[111] and the residual neural network (ResNet) in December.[112][113] ResNet behaves like an open-
+gated Highway Net.
+
+Transformers
+During the 2010s, the seq2seq model was developed, and attention mechanisms were added. This led to
+the modern transformer architecture in 2017 in "Attention Is All You Need".[5] It requires computation
+time that is quadratic in the size of the context window. Schmidhuber's fast weight controller (1992)[114]
+
+scales linearly and was later shown to be equivalent to the unnormalized linear transformer.[115][116][8]
+
+Transformers have increasingly become the model of choice for natural language processing.[117] Many
+modern large language models such as GPT, Gemini, Grok, DeepSeek, and Qwen use this architecture.
+
+Elements
+NNs began as an attempt to replicate the architecture of the
+brain in the digital realm. It immediately showed promise for
+handling non-linear relationships, but encountered obstacles.
+Models soon reoriented to applying mathematical insights to
+improve empirical results, at the expense of biological
+fidelity.
+
+Neuron and myelinated axon, with signal
+Neuron flow from inputs at dendrites to outputs at
+NNs are composed of digital neurons, conceptually derived axon terminals
+
+from biological neurons. Each neuron has one or
+more numerical inputs and produces a single
+numerical output.[118] An input (e.g., an image) is
+typically parceled across the set of input neurons
+(each getting a piece of the image). Each neuron's
+inputs, weighted by the weights of the connections
+from each of those inputs are summed. A bias term is
+added to this sum.[119] The result is then passed
+through a nonlinear activation function to produce
+the neuron's output. Small enough outputs may be Structure of an artificial neuron
+
+zeroed out (ignored).[120][121][122]
+
+Network
+NNs connect neurons to each other, using the output of some neurons as the input of others, akin to
+biological axon-synapse-dendrite connections.[123] The network forms a directed, weighted graph. The
+weights apply to both the graph's nodes and edges.[124]
+
+
+
+Nodes are arranged in layers, with the bottom layers directly addressing raw data, while the top layers
+reveal the final results. Intermediate layers gradually increase the level of abstraction, so what began as
+for example, pixels in an image, gradually resolves into things such as object boundaries, and then into
+real-world objects such as letters and faces.[124][120] Single layer and unlayered networks are also used.
+
+Multiple connection patterns have been used. Traditionally,
+they are fully connected, with every neuron in one layer
+connecting to every neuron in the next layer.[125] However, in
+convolutional neural networks, some layers are convolutional,
+meaning each neuron in one layer is connected to a subset of
+neurons in the previous layer, such as those representing one
+section of an image.[126][127] Structure of a feedforward neural network
+
+with four layers
+In most neural networks, the outputs of the neurons in one
+layer are connected only to neurons in the immediately
+following layer (directed acyclic graph), meaning information only flows forward from one layer to the
+next. These are known as feedforward networks.[128] In contrast, networks that allow connections
+between neurons in the same or previous layers are known as recurrent networks.[129]
+
+Learning
+Training/learning involves adjusting the weights of the network to improve the accuracy of the result.
+NNs typically require vast numbers of sample inputs (far more than biological brains) to achieve a given
+level of function. This is done by minimizing the observed errors among sample observations. Training
+takes place before a network is deployed, and (unlike brains) does not continue thereafter. Instead, the
+network may be retrained from scratch as more sample data becomes available.
+
+Empirical risk minimization adjusts node and link weights to minimize the difference (empirical risk),
+between the predicted output and the known values in the training samples.[130] A defined loss function
+measures the degree of error.[99] Backpropagation spreads the error (adjusts the weights) from the output
+nodes across the network to the input nodes.[130] The intent is to allow the network to process data that is
+not included in the training samples.
+
+As long as the value of the loss function (its cost) continues to decline, the network is continuing to
+improve. The function typically produces a statistic whose value is only approximate. When the cost is
+low, the difference between the output (e.g. almost certainly a cat) and the correct answer (a cat) is small.
+Most learning models can be viewed as a straightforward application of optimization theory and
+statistical estimation.[124][131]
+
+Learning typically ends when additional observations do not usefully reduce the cost. The cost typically
+approaches, but does not reach, 0. If no feasible amount of sample data yields a low cost, training is
+labeled a failure.
+
+Loss function
+
+
+
+A loss function measures the discrepancy between a model's predictions and the desired values, usually as
+a non-negative number where smaller values are better and a perfect prediction incurs a loss of 0.[132] The
+choice of loss function depends on the type of problem.[133] In regression tasks, where the output is a
+continuous value, common choices are mean squared error and mean absolute error, which penalize the
+squared error and the absolute error respectively.[134] In classification tasks, the standard choice is cross-
+entropy, which treats the model's output as a probability distribution over classes and is equivalent to
+maximizing the likelihood of the data under the model. Margin-based losses such as hinge loss are also
+used.[134][133] Not all losses require labeled targets: self-supervised methods train on augmented views of
+unlabeled data, and generative models such as variational autoencoders combine a reconstruction loss
+with a Kullback–Leibler divergence term.[134]
+
+Backpropagation
+Backpropagation is a method used to adjust the connection weights to compensate for errors found during
+learning. The error amount is essentially divided among the connections. Technically, backpropagation
+calculates the gradient (the derivative) of the loss function associated with a given state with respect to
+the weights. The weight updates can be done via stochastic gradient descent or other methods, such as
+extreme learning machines,[135] "no-prop" networks,[136] training without backtracking,[137] "weightless"
+networks,[138] and non-connectionist neural networks.
+
+Hyperparameters
+A hyperparameter is a parameter defining any configurable part of the network and learning process
+whose value is set prior to training.[139] Examples of hyperparameters include learning rate, sample batch
+size, number of nodes and layers, etc .[140] The performance of a neural network is strongly influenced by
+hyperparameter choices, and thus may be adjusted during training (typically between training runs), a
+process called hyperparameter tuning or hyperparameter optimization.[141]
+
+Learning rate
+The learning rate defines the size of the corrective steps that the model takes to adjust for errors in each
+observation.[142] A high learning rate shortens training time, but with lower ultimate accuracy, while a
+lower learning rate takes longer, but with the potential for greater accuracy. Optimizations such as
+quickprop are primarily aimed at accelerating learning. In order to avoid oscillations such as connection
+weights that cycle between high and low values, and to improve the rate of convergence, refinements use
+an adaptive learning rate that increases or decreases as appropriate.[143] The concept of momentum
+allows the balance between the gradient and the previous change to be weighted such that the weight
+adjustment depends to some degree on the previous change. A momentum close to 0 emphasizes the
+gradient, while a value close to 1 emphasizes the last change.[144]
+
+Learning paradigms
+Machine learning has involved a variety of approaches to training models, including supervised
+learning,[145] unsupervised learning,[146] reinforcement learning,[147] and self-supervised learning.
+
+
+
+Supervised learning
+Supervised learning pairs inputs and desired outputs. The learning task is to produce the desired output
+for each input. In this case, the cost is related to eliminating incorrect outputs.[148] A commonly used cost
+is the mean-squared error, which tries to minimize the average squared error between the network's
+output and the desired output. Tasks suited for supervised learning include pattern recognition
+(classification) and regression (function approximation). Supervised learning is applicable to sequential
+data (e.g., for handwriting, speech and gesture recognition). This can be thought of as learning with a
+"teacher", in the form of a function that provides continuous feedback.
+
+Unsupervised learning
+In unsupervised learning, input data is given along with the cost function for the data  and the output,
+without an "answer sheet". The cost function is dependent on the task (the model domain) and reflects a
+priori assumptions (implicit model properties, its parameters and the observed variables). For example,
+the model  treats  as a constant and the cost . Minimizing this cost
+produces a value of  that is equal to the mean of the data. The cost function can be much more
+complicated. Its form depends on the application: for example, in compression it could be related to the
+mutual information between  and , whereas in statistical modeling, it could be related to the
+posterior probability (in both examples, those quantities are maximized). Unsupervised learning is
+typically applied to estimation problems; applications include clustering, the estimation of statistical
+distributions, compression, and filtering.
+
+Self-supervised learning
+Self-supervised learning (SSL) is a paradigm in machine learning where a model is trained on a task
+using the data itself to generate supervisory signals, rather than relying on externally-provided labels. In
+the context of neural networks, self-supervised learning aims to leverage inherent structures or
+relationships within the input data to create meaningful training signals. SSL tasks are designed so that
+solving them requires capturing essential features or relationships in the data. The input data is typically
+augmented or transformed in a way that creates pairs of related samples, where one sample serves as the
+input, and the other is used to formulate the supervisory signal. This augmentation can involve
+introducing noise, cropping, rotation, or other transformations. Self-supervised learning more closely
+imitates the way humans learn to classify objects.[149]
+
+During SSL, the model learns in two steps. First, the task is solved based on an auxiliary or pretext
+classification task using pseudo-labels, which help to initialize the model parameters.[150][151] Next, the
+actual task is performed with supervised or unsupervised learning.[152][153][154]
+
+Self-supervised learning has produced promising results in recent years, and has found practical
+application in fields such as audio processing, and is being used by Facebook and others for speech
+recognition.[155]
+
+Reinforcement learning
+In applications such as playing video games, an actor takes a string of actions, receiving a generally
+unpredictable response from the environment (the game) after each one. The goal is to win the game (get
+the highest score). The cost is the inverse of the score. In reinforcement learning, the aim is to weight the
+network to increase the score. After each action the game generates an observation and an instantaneous
+
+
+
+cost, according to its rules. The rules and the long-term cost can only be estimated. At any juncture, the
+agent decides whether to explore new actions to uncover their costs or to exploit prior learning to proceed
+more quickly.
+
+Formally, the environment is modeled as a Markov decision process (MDP) with states 
+and actions . Because the state transitions (policies) are not known, probability
+distributions are used instead: the instantaneous cost distribution , the observation distribution
+
+ and the transition distribution , while a policy is defined as the conditional
+distribution over actions given the observations. Taken together, the two define a Markov chain (MC).
+The aim is to discover the lowest-cost MC.
+
+NNs serve as the learning component.[156][157] Dynamic programming coupled with NNs (giving
+neurodynamic programming)[158] has been applied to problems such as vehicle routing,[159] video games,
+natural resource management[160][161] and medicine[162] because of NNs' ability to mitigate cost even
+when reducing the discretization grid density for numerically approximating control tasks.
+
+Self-learning
+Self-learning was introduced in 1982 along with a crossbar adaptive array (CAA) NN that could teach
+itself.[163] It is a system with only one input, situation s, and only one output, action (or behavior) a. It has
+neither external advice input nor external reinforcement from the environment. The CAA computes, in a
+crossbar fashion, both decisions about actions and emotions (feelings) about encountered situations. The
+system is driven by the interaction between cognition and emotion.[164] Given the memory matrix, W
+=||w(a,s)||, the crossbar self-learning algorithm in each iteration performs the following computation:
+
+ In situation s perform action a;
+
+ Receive consequence situation s';
+
+ Compute emotion of being in consequence situation v(s');
+
+ Update crossbar memory w'(a,s) = w(a,s) + v(s').
+
+The backpropagated value (secondary reinforcement) is the emotion toward the consequence situation.
+The CAA exists in two environments, its behavioral environment, and its genetic environment, from
+which it receives initial emotions (only once) about to be encountered situations in the behavioral
+environment. Having received the genome vector (species vector) from the genetic environment, the
+CAA will learn a goal-seeking behavior, in the behavioral environment that contains both desirable and
+undesirable situations.[165]
+
+Neuroevolution
+Neuroevolution can create NN topologies and weights using evolutionary computation. It is competitive
+with gradient descent approaches.[166][167] Neuroevolution may be less prone to get caught in "dead
+ends".[168]
+
+Stochastic neural network
+Stochastic neural networks originating from Sherrington–Kirkpatrick models are a type of neural
+network built by introducing random variations into the network, either by giving neurons stochastic
+transfer functions,[169] or by giving them stochastic weights. This makes them useful tools for
+
+
+
+optimization problems, since the random fluctuations help the network escape from local minima.[170]
+
+Stochastic neural networks trained using a Bayesian approach are known as Bayesian neural
+networks.[171]
+
+Topological deep learning
+Topological deep learning, introduced in 2017,[172] integrates topology with deep neural networks to
+address high-order data. Initially rooted in algebraic topology, TDL evolved into a versatile framework
+incorporating tools from mathematical disciplines such as differential topology and geometric topology.
+
+Other
+In a Bayesian framework, a distribution over the set of allowed models is chosen to minimize cost.
+Evolutionary methods,[173] gene expression programming,[174] simulated annealing,[175] expectation–
+maximization, non-parametric methods and particle swarm optimization[176] are other learning
+algorithms. Convergent recursion is a learning algorithm for cerebellar model articulation controller
+(CMAC) neural networks.[177][178]
+
+Modes
+Learning can be either stochastic or batch. Stochastic learning creates a weight adjustment for each
+sample. In batch learning, weights are adjusted based on a batch of inputs, accumulating errors over the
+batch. Stochastic learning introduces "noise" into the process, using the local gradient calculated from
+one data point; this reduces the chance of the network getting stuck in local minima. However, batch
+learning typically yields a faster, more stable descent to a local minimum, since each update is performed
+in the direction of the batch's average error. A common compromise is to use "mini-batches", small
+batches with samples in each batch selected stochastically from the entire data set.
+
+Types
+Types of neural networks (NN) include a family of techniques. The simplest types have static
+components, including number of units, number of layers, unit weights and topology. Dynamic NNs
+evolve via learning. Some types allow/require learning to be "supervised" by the operator, while others
+operate independently. Some types operate purely in hardware, while others are purely software and run
+on general purpose computers.
+
+While there are dozens of different types of neural network architecture, the four most commonly used
+architectures are as follows:
+
+Feedforward neural networks (FNN): Also called a Multi-Layer Perceptron (MLP), these are
+basic neural networks with an unidirectional information flow. They lack memory and any
+sense of spatial or temporal data; however their simple architecture is useful for basic
+pattern recognition.
+Convolutional neural networks (CNN): Uses convolutional filters (small sliding windows) to
+scan across input data, detecting local features like edges, textures, or shapes. They are
+typically used to analyze visual and other two-dimensional data. They are spatially aware,
+but lack in sequential or variable-length dependencies.[179][180]
+
+
+
+Recurrent neural networks (RNN): Contains loops that allow information to persist. The
+network has a "hidden state" that acts as memory, updated at each time step. RNNs and
+their variants (e.g. LSTM or Gated recurrent unit) naturally handles sequential data of
+variable length (time-series, speech, text).
+Transformers: These use attention to analyze every token in the input stream against every
+other token in the stream. Transformers were developed by Google engineers in their
+landmark paper titled "Attention Is All You Need" and they form the main backbone of
+modern chatbots and Large Language Model applications such as ChatGPT and
+DeepSeek.
+
+Network design
+The choice of model depends on the data and the application. Models that work well with textual data are
+typically not the best choice for image data, etc. An important element is which training/learning the
+model uses.[181]
+
+Neural architecture search (NAS) uses machine learning to automate NN design. NAS has yielded
+networks that compare well with hand-designed systems. The basic algorithm is to propose a candidate
+model, evaluate it against a dataset, and use the results as feedback to teach the NAS network.[182] Efforts
+include AutoML and AutoKeras.[183] scikit-learn library provides functions to help with building a deep
+network from scratch.
+
+Hyperparameters are design choices (they are not learned).[184]
+
+Theoretical properties
+
+Computational power
+The multilayer perceptron is a universal function approximator, as proven by the universal approximation
+theorem. However, the proof does not specify the number of neurons required, the network topology, the
+weights or the learning parameters.
+
+A recurrent architecture with rational-valued weights (as opposed to full precision real number-valued
+weights) has the power of a universal Turing machine,[185] using a finite number of neurons and linear
+connections. Further, the use of irrational values for weights results in a machine with super-Turing
+power.[186][187]
+
+Capacity
+A model's "capacity" property is its ability to model any given function. It is related to the amount of
+information that can be stored in the network and to the notion of complexity. Information capacity and
+the VC dimension are two metrics. The capacity of a network of standard neurons (not convolutional) can
+be derived by four rules[188] that derive from considering a neuron as an electrical element.
+
+The information capacity captures the functions that the network can model given any data as input. The
+VC dimension uses the principles of measure theory and finds the maximum capacity under optimal
+circumstances, given input data in a specific form. The VC Dimension for arbitrary inputs is half the
+
+
+
+information capacity of a perceptron. The VC Dimension for arbitrary points is sometimes referred to as
+Memory Capacity.[189][190]
+
+Convergence
+Models may not consistently converge on a single solution, because the system may get stuck in a local
+minima. Alternatively, the optimization method used might not guarantee to converge should it begin far
+from any local minima. Thirdly, for sufficiently large data or parameters, some methods are impractically
+slow/expensive. Training may also cross some saddle point that may then prevent access to the solution.
+
+When the width of a network approaches infinity, it is well described by its first order Taylor expansion
+throughout training, and so inherits the convergence behavior of affine models.[191][192] When parameter
+numbers are small, NNs often fit target functions from low to high frequencies. This behavior is referred
+to as spectral bias, or the frequency principle.[193][194][195] This phenomenon is the opposite of the
+behavior of some well-studied iterative numerical schemes such as the Jacobi method. Deeper neural
+networks are more biased towards low frequency functions.[196]
+
+Generalization and statistics
+Applications that must generalize well to unseen examples must avoid over-training. This arises in
+convoluted or over-specified systems when the network capacity is much larger than needed.
+
+Two approaches address over-training. Cross-validation and similar techniques can check for over-
+training and select appropriate hyperparameters to minimize generalization error. Regularization in a
+probabilistic (Bayesian) framework can be performed by selecting a larger prior probability over simpler
+models; but also in statistical learning theory, where the goal is to minimize two quantities: the 'empirical
+risk' and the 'structural risk', which roughly corresponds to the error over the training set and the predicted
+error in unseen data due to overfitting.
+
+Supervised neural networks that use a mean squared error
+(MSE) cost function can use formal statistical methods to
+determine the confidence of the trained model. The MSE on a
+validation set can be used as an estimate for variance. This
+value can then be used to calculate the confidence interval of
+network output, assuming a normal distribution. A confidence
+analysis made this way is statistically valid as long as the
+output probability distribution stays the same and the network
+is not modified.
+
+By adopting a softmax activation function, a generalization of Confidence analysis of a neural network
+the logistic function, on the output layer of the neural network
+(or a softmax component in a component-based network) for
+categorical target variables, the outputs can be interpreted as posterior probabilities. This is useful in
+classification as it gives a certainty measure.
+
+The softmax activation function is:
+
+
+
+Applications
+Neural networks support a broad range of applications in image processing, speech recognition, natural
+language processing, finance, and medicine. Because of their ability to model and reproduce nonlinear
+processes, neural networks have found applications in many disciplines. These include:
+
+Function approximation,[197] or regression analysis,[198] (including time series prediction,
+fitness approximation,[199] and modeling)
+Data processing[200] (including filtering, clustering, blind source separation,[201] and
+compression)
+Nonlinear system identification[100] and control (including vehicle control, trajectory
+prediction,[202] adaptive control, process control, and natural resource management)
+Pattern recognition (including radar systems, face identification, signal classification,[203]
+
+novelty detection, 3D reconstruction,[204] object recognition, and sequential decision
+making[205])
+Sequence recognition (including gesture, speech, and handwritten and printed text
+recognition[206])
+Sensor data analysis[207] (including image analysis)
+Robotics (including directing manipulators and prostheses)
+Data mining (including knowledge discovery in databases)
+Finance[208] (such as ex-ante models for specific financial long-run forecasts and artificial
+financial markets)
+Quantum chemistry[209]
+
+General game playing[210]
+
+Generative AI[211]
+
+Data visualization
+Machine translation
+Social network filtering[212]
+
+E-mail spam filtering
+Medical diagnosis[213]
+
+Disaster response[214]
+
+NNs have been used to diagnose cancers[215][216] and to distinguish highly invasive cancer cell lines from
+less invasive lines using only cell shape data.[217][218]
+
+NNs have been used to accelerate reliability analysis of infrastructures subject to natural
+disasters[219][220] and to predict settling in building foundations.[221] They are used to mitigate flooding
+by modelling rainfall-runoff.[222] NNs have been used for building black-box models in geoscience:
+hydrology,[223][224] ocean modelling and coastal engineering,[225][226] and geomorphology.[227] NNs
+have been employed in cybersecurity, with the objective to discriminate between legitimate and malicious
+activities. For example, machine learning has been used for classifying Android malware,[228] for
+
+
+
+identifying domains belonging to threat actors and for detecting URLs posing a security risk.[229]
+
+Research is underway on penetration testing, for detecting botnets,[230] credit cards frauds,[231] and
+network intrusions.
+
+NNs have been proposed as a tool to solve partial differential equations in physics[232][233][234] and
+simulate the properties of many-body open quantum systems.[235][236][237] In brain research NNs have
+studied short-term behavior of individual neurons,[238] the dynamics of neural circuitry arise from
+interactions between individual neurons and how behavior can arise from abstract neural modules that
+represent complete subsystems. Studies considered long-and short-term plasticity of neural systems and
+their relation to learning and memory from the individual neuron to the system level.
+
+NNs show promise in profiling a user's interests from photos[239] and discovering new stable materials by
+efficiently predicting the total energy of crystals.[240]
+
+Image processing
+NNs are employed in computer vision tasks such as image classification, object and facial recognition,
+and image segmentation. They have been applied to automated surveillance medical imaging for
+diagnosis.[241]
+
+Speech recognition
+NNs are used for speaker identification, speech-to-text, and text-to-speech conversion. NNs have
+conquered large vocabulary continuous speech recognition, outperforming traditional techniques.[241][242]
+
+These advancements have enabled the development of more accurate and efficient voice-activated
+systems, enhancing user interfaces in technology products.[243][244]
+
+Natural language processing
+In natural language processing, NNs are used for tasks such as text classification, sentiment analysis,
+machine translation, to answer free-form questions, act as chatbots, and to summarize and analyze
+texts.[241][242] This has implications for automated customer service, content moderation, and language
+understanding technologies.[245]
+
+Control systems
+NNs are used to model dynamic systems for tasks such as system identification, control design,
+autonomous vehicles, and optimization.[246]
+
+Finance
+The use of AI in applications such as online trading and decision-making has changed major economic
+theories.[247] For example, AI-based buying and selling platforms estimate personalized demand and
+supply curves, thus enabling individualized pricing. AI systems reduce information asymmetry in the
+market and thus make markets more efficient.[248] The application of AI in the financial industry can help
+alleviate financing constraints of non-state-owned enterprises, especially for smaller and more innovative
+enterprises.[249]
+
+
+
+Large financial institutions use AI to assist with their investment practices.[250] BlackRock's AI engine,
+Aladdin, is used both within the company and by clients to help with investment decisions. Its functions
+include the use of natural language processing to analyze text such as news, broker reports, and social
+media feeds. It then gauges the sentiment on the companies mentioned and assigns a score. Banks such as
+UBS and Deutsche Bank use SQREEM (Sequential Quantum Reduction and Extraction Model) to mine
+data to develop consumer profiles and match them with wealth management products.[251]
+
+Medicine
+NNs analyze medical datasets. They enhance diagnostic accuracy, especially by interpreting complex
+medical imaging for early disease detection, and by predicting patient outcomes for personalized
+treatment planning.[242] In drug discovery, NNs speed up the identification of potential drug candidates
+and predict their efficacy and safety, significantly reducing development time and costs.[241] Additionally,
+their application in personalized medicine and healthcare data analysis allows tailored therapies and
+efficient patient care management.[242]
+
+Cybersecurity
+Neural networks are widely applied in cybersecurity for anomaly detection, malware classification, and
+intrusion detection. By learning patterns of normal system or network behavior, NNs can identify
+deviations that indicate malicious activity.[252]
+
+Content creation
+Transformers are used for content creation across numerous industries.[253] They can analyze samples
+and produce outputs that match the style of an artist or musician. For instance, DALL-E trained on 650
+million pairs of images and texts and can create artworks based on user text.[254] Companies such as
+AIVA and Jukedeck have used transformers to create original music.[255] NNs have been used to create
+personalized advertisements.[253] Film production companies have used NNs to analyze the financial
+success of a film.[256] NNs have found uses in video game creation.[257]
+
+Issues
+
+Training
+NNs require millions of training samples to become functional. As of 2026, training a commercial LLM
+(GPT, Grok, Gemini) typically required hundreds of thousands of computers, and cost 10s of millions of
+dollars.[258][177]
+
+Theory
+A key hypothesis of NNs is that they use statistical long-developed methods.
+
+
+
+Hardware
+Neural networks require enormous computing resources for training.[259] While the brain requires only 20
+watts of power,[260] training commercial transformers requires (2026) data centers with hundreds of
+megawatts.[261]
+
+From 1991 to 2015, computing power, especially as delivered by GPGPUs (on GPUs), increased around
+a million-fold, enabling the use of the backpropagation algorithm.[49]
+
+Neuromorphic engineering or a physical neural network constructed non-von-Neumann chips to directly
+implement neural networks in circuitry. For example, Alphabet introduced custom chips (Tensor
+Processing Unit).[262]
+
+Concept drift
+The statistical properties of input data may change over time, a phenomenon known as concept drift or
+non-stationarity. Drift can reduce predictive accuracy and lead to unreliable or biased decisions if it is not
+detected and corrected. In practice, this means that the model's accuracy in deployment may differ
+substantially from levels observed during training.
+
+Several strategies have been developed to monitor neural networks for drift and degradation:
+
+Error-based monitoring: comparing current predictions against ground-truth labels. This
+approach directly quantifies predictive performance but may be impractical when labels are
+delayed or impractical to obtain.
+Data distribution monitoring: detecting changes in the input data distribution using
+statistical tests, divergence measures, or density-ratio estimation.
+Representation monitoring: tracking the distribution of internal embeddings or hidden-
+layer features. Shifts in the latent representation can indicate nonstationarity even when
+labels are unavailable. Statistical methods such as statistical process control charts have
+been adapted for this purpose.[263]
+
+Dataset bias
+Neural networks are dependent on the quality of their training data; low quality data can lead the model to
+product poor results.[264][265] Biased data produces biased results, requiring trainers to detect and correct
+them. For example, data that underrepresents some demographic groups may prevent cause errors, e.g., in
+facial recognition and law enforcement.[265][266] In 2018, Amazon scrapped a recruiting tool because the
+model favored men over women for jobs in software engineering due to the larger number of male
+workers in the field.[266] The system penalized resumes with the word "woman" or the name of a
+women's college. One corrective is to add synthetic data to offset the bias.[267]
+
+Lack of interpretability
+NNs are "black box" systems that have complicated understanding of their decision-making processes.
+NNs are further vulnerable to adversarial examples ("poison"), that can cause incorrect predictions.
+
+
+
+These concerns have led to increased research in explainable artificial intelligence (XAI), robust machine
+learning, and hybrid AI approaches that combine neural learning with symbolic reasoning.[268] Advocates
+of hybrid models also say that such a mixture can better capture the mechanisms of the human
+mind.[269][270]
+
+Progress has included local vs. non-local learning and shallow vs. deep architectures.[271]
+
+Analyzing human thought (a biological neural network) has also proven difficult.
+
+Gallery
+ 
+
+A single-layer feedforward neural A two-layer feedforward neural
+network. Arrows originating from network
+are omitted for clarity. There are p
+inputs to this network and q outputs.
+In this system, the value of the qth
+output, , is calculated as
+
+ 
+
+A visually simplified neural network An NN dependency graph
+
+
+
+ 
+
+A single-layer feedforward neural A two-layer feedforward neural
+network with 4 inputs, 6 hidden nodes network with 8 inputs, 2x8 hidden
+and 2 outputs. Given position state nodes and 2 outputs. Given position
+and direction, it outputs wheel based state, direction and other environment
+control values. values, it outputs thruster based
+
+control values.
+
+Parallel pipeline structure of CMAC
+neural network. This learning
+algorithm can converge in one step.
+
+See also
+ADALINE Large width limits of neural networks
+Autoencoder List of machine learning concepts
+Bio-inspired computing Memristor
+Blue Brain Project Mind uploading
+Catastrophic interference Neural gas
+Cognitive architecture Neural network software
+Connectionist expert system Optical neural network
+Connectomics Parallel distributed processing
+Deep image prior Philosophy of artificial intelligence
+Digital morphogenesis Predictive analytics
+Efficiently updatable neural network Quantum neural network
+Evolutionary algorithm Support vector machine
+Family of curves Spiking neural network
+Genetic algorithm Stochastic parrot
+Hyperdimensional computing Tensor product network
+In situ adaptive tabulation Topological deep learning
+
+Notes
+
+
+
+References
+1. Hardesty L (14 April 2017). "Explained: Neural networks" (https://news.mit.edu/2017/explain
+
+ed-neural-networks-deep-learning-0414). MIT News Office. Archived (https://web.archive.or
+g/web/20240318120205/https://news.mit.edu/2017/explained-neural-networks-deep-learnin
+g-0414) from the original on 18 March 2024. Retrieved 2 June 2022.
+
+2. Yang Z, Yang Z (2014). Comprehensive Biomedical Physics (https://www.sciencedirect.com/
+topics/neuroscience/artificial-neural-network). Karolinska Institute, Stockholm, Sweden:
+Elsevier. p. 1. ISBN 978-0-444-53633-4. Archived (https://web.archive.org/web/2022072818
+3237/https://www.sciencedirect.com/topics/neuroscience/artificial-neural-network) from the
+original on 28 July 2022. Retrieved 28 July 2022.
+
+3. Bishop CM (17 August 2006). Pattern Recognition and Machine Learning (https://www.micro
+soft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Mac
+hine-Learning-2006.pdf) (PDF). New York: Springer. ISBN 978-0-387-31073-2.
+
+4. Image by Mikael Häggström, MD. Reference: Ferrie, C., & Kaiser, S. (2019). Neural
+Networks for Babies. Sourcebooks. ISBN 978-1492671206.
+
+5. Vaswani A, Shazeer N, Parmar N (2017). "Attention Is All You Need" (https://proceedings.ne
+urips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+(PDF). Advances in Neural Information Processing Systems. 30. arXiv:1706.03762 (https://a
+rxiv.org/abs/1706.03762).
+
+6. "Attention Is All You Need" (https://arxiv.org/html/1706.03762v7). arxiv.org. Retrieved 22 July
+2026.
+
+7. Stigler SM (1981). "Gauss and the Invention of Least Squares" (https://doi.org/10.1214%2F
+aos%2F1176345451). Ann. Stat. 9 (3): 465–474. Bibcode:1981AnSta...945451S (https://ui.a
+dsabs.harvard.edu/abs/1981AnSta...945451S). doi:10.1214/aos/1176345451 (https://doi.or
+g/10.1214%2Faos%2F1176345451).
+
+8. Schmidhuber J (29 December 2025). "Annotated History of Modern AI and Deep Learning".
+arXiv:2212.11279 (https://arxiv.org/abs/2212.11279) [cs.NE (https://arxiv.org/archive/cs.NE)].
+
+9. Stigler SM (1986). The History of Statistics: The Measurement of Uncertainty before 1900 (h
+ttps://archive.org/details/historyofstatist00stig). Cambridge: Harvard. ISBN 0-674-40340-1.
+
+10. Scellier B (2021). "A deep learning theory for neural networks grounded in physics".
+arXiv:2103.09985 (https://arxiv.org/abs/2103.09985) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+11. McCulloch WS, Pitts W (December 1943). "A logical calculus of the ideas immanent in
+nervous activity" (http://link.springer.com/10.1007/BF02478259). The Bulletin of
+Mathematical Biophysics. 5 (4): 115–133. Bibcode:1943BMaB....5..115M (https://ui.adsabs.h
+arvard.edu/abs/1943BMaB....5..115M). doi:10.1007/BF02478259 (https://doi.org/10.1007%2
+FBF02478259). ISSN 0007-4985 (https://search.worldcat.org/issn/0007-4985). Retrieved
+7 August 2024.
+
+12. Kleene S (1956). "Representation of Events in Nerve Nets and Finite Automata" (https://ww
+w.degruyter.com/view/books/9781400882618/9781400882618-002/9781400882618-002.xm
+l). Annals of Mathematics Studies. No. 34. Princeton University Press. pp. 3–41. Archived (h
+ttps://web.archive.org/web/20240519081121/https://www.degruyter.com/view/books/978140
+0882618/9781400882618-002/9781400882618-002.xml) from the original on 19 May 2024.
+Retrieved 17 June 2017.
+
+13. Hebb D (2005) [1st Pub. 1949]. The Organization of Behavior (https://books.google.com/boo
+ks?id=ddB4AgAAQBAJ). Taylor & Francis. ISBN 978-1-135-63190-1.
+
+14. Farley B, W.A. Clark (1954). "Simulation of Self-Organizing Systems by Digital Computer".
+IRE Transactions on Information Theory. 4 (4): 76–84. Bibcode:1954TIPIT...4...76F (https://u
+i.adsabs.harvard.edu/abs/1954TIPIT...4...76F). doi:10.1109/TIT.1954.1057468 (https://doi.or
+g/10.1109%2FTIT.1954.1057468).
+
+
+
+15. Rochester N, J.H. Holland, L.H. Habit, W.L. Duda (1956). "Tests on a cell assembly theory
+of the action of the brain, using a large digital computer". IRE Transactions on Information
+Theory. 2 (3): 80–93. Bibcode:1956IRTIT...2...80R (https://ui.adsabs.harvard.edu/abs/1956I
+RTIT...2...80R). doi:10.1109/TIT.1956.1056810 (https://doi.org/10.1109%2FTIT.1956.105681
+0).
+
+16. Haykin (2008) Neural Networks and Learning Machines, 3rd edition
+17. Rosenblatt F (1958). "The Perceptron: A Probabilistic Model For Information Storage And
+
+Organization in the Brain" (https://archive.org/details/sim_psychological-review_1958-11_65
+_6/page/386). Psychological Review. 65 (6): 386–408. doi:10.1037/h0042519 (https://doi.or
+g/10.1037%2Fh0042519). PMID 13602029 (https://pubmed.ncbi.nlm.nih.gov/13602029).
+S2CID 12781225 (https://api.semanticscholar.org/CorpusID:12781225).
+
+18. Werbos P (1975). Beyond Regression: New Tools for Prediction and Analysis in the
+Behavioral Sciences (https://books.google.com/books?id=z81XmgEACAAJ).
+
+19. Rosenblatt F (1957). "The Perceptron—a perceiving and recognizing automaton". Report
+85-460-1. Cornell Aeronautical Laboratory.
+
+20. Olazaran M (1996). "A Sociological Study of the Official History of the Perceptrons
+Controversy". Social Studies of Science. 26 (3): 611–659.
+doi:10.1177/030631296026003005 (https://doi.org/10.1177%2F030631296026003005).
+JSTOR 285702 (https://www.jstor.org/stable/285702). S2CID 16786738 (https://api.semantic
+scholar.org/CorpusID:16786738).
+
+21. Joseph RD (1961). Contributions to perceptron theory (https://www.proquest.com/openview/
+f305deb1a2b1624b59a0321efb5b810d/1?pq-origsite=gscholar&cbl=18750&diss=y) (PhD
+thesis). Cornell University.
+
+22. Rosenblatt F (1962). Principles of Neurodynamics: Perceptrons and the Theory of Brain
+Mechanisms (https://archive.org/details/principlesofneur0000fran). Spartan Books.
+
+23. Russel S, Norvig, Peter (2010). Artificial Intelligence A Modern Approach (https://people.eng
+r.tamu.edu/guni/csce625/slides/AI.pdf) (PDF) (3rd ed.). United States of America: Pearson
+Education. pp. 16–28. ISBN 978-0-13-604259-4. Retrieved 9 December 2023.
+
+24. McCarthy J, Minsky M, Rochester N, Shannon C (1955). "A Proposal for the Dartmouth
+Summer Research Project on Artificial Intelligence" (http://www-formal.stanford.edu/jmc/hist
+ory/dartmouth/dartmouth.html). Stanford University. Retrieved 15 March 2026.
+
+25. Minsky M, Papert S (1969). Perceptrons: An Introduction to Computational Geometry (http
+s://direct.mit.edu/books/monograph/3132/PerceptronsAn-Introduction-to-Computational).
+MIT Press. doi:10.7551/mitpress/11301.001.0001 (https://doi.org/10.7551%2Fmitpress%2F1
+1301.001.0001). ISBN 978-0-262-34393-0.
+
+26. Ivakhnenko AG, Lapa VG (1967). Cybernetics and Forecasting Techniques (https://books.go
+ogle.com/books?id=rGFgAAAAMAAJ). American Elsevier Publishing Co. ISBN 978-0-444-
+00020-0.
+
+27. Ivakhnenko A (March 1970). "Heuristic self-organization in problems of engineering
+cybernetics" (https://linkinghub.elsevier.com/retrieve/pii/0005109870900920). Automatica. 6
+(2): 207–219. Bibcode:1970Autom...6..207I (https://ui.adsabs.harvard.edu/abs/1970Autom...
+6..207I). doi:10.1016/0005-1098(70)90092-0 (https://doi.org/10.1016%2F0005-1098%287
+0%2990092-0). Archived (https://web.archive.org/web/20240812123448/https://linkinghub.el
+sevier.com/retrieve/pii/0005109870900920) from the original on 12 August 2024. Retrieved
+7 August 2024.
+
+28. Ivakhnenko A (1971). "Polynomial theory of complex systems" (http://gmdh.net/articles/histo
+ry/polynomial.pdf) (PDF). IEEE Transactions on Systems, Man, and Cybernetics. SMC-1 (4):
+364–378. Bibcode:1971ITSMC...1..364I (https://ui.adsabs.harvard.edu/abs/1971ITSMC...1..
+364I). doi:10.1109/TSMC.1971.4308320 (https://doi.org/10.1109%2FTSMC.1971.4308320).
+Archived (https://web.archive.org/web/20170829230621/http://www.gmdh.net/articles/histor
+y/polynomial.pdf) (PDF) from the original on 29 August 2017. Retrieved 5 November 2019.
+
+
+
+29. Robbins H, Monro S (1951). "A Stochastic Approximation Method" (https://doi.org/10.1214%
+2Faoms%2F1177729586). The Annals of Mathematical Statistics. 22 (3): 400.
+doi:10.1214/aoms/1177729586 (https://doi.org/10.1214%2Faoms%2F1177729586).
+
+30. Amari S (1967). "A theory of adaptive pattern classifiers" (https://people.idsia.ch/~juergen/a
+mari1967.pdf) (PDF). IEEE Transactions. EC (16): 279–307.
+
+31. Fukushima K (1969). "Visual feature extraction by a multilayered network of analog
+threshold elements". IEEE Transactions on Systems Science and Cybernetics. 5 (4): 322–
+333. Bibcode:1969ITSSC...5..322F (https://ui.adsabs.harvard.edu/abs/1969ITSSC...5..322
+F). doi:10.1109/TSSC.1969.300225 (https://doi.org/10.1109%2FTSSC.1969.300225).
+
+32. Sonoda S, Murata N (2017). "Neural network with unbounded activation functions is
+universal approximator". Applied and Computational Harmonic Analysis. 43 (2): 233–268.
+arXiv:1505.03654 (https://arxiv.org/abs/1505.03654). doi:10.1016/j.acha.2015.12.005 (http
+s://doi.org/10.1016%2Fj.acha.2015.12.005). S2CID 12149203 (https://api.semanticscholar.o
+rg/CorpusID:12149203).
+
+33. Ramachandran P, Barret Z, Quoc VL (16 October 2017). "Searching for Activation
+Functions". arXiv:1710.05941 (https://arxiv.org/abs/1710.05941) [cs.NE (https://arxiv.org/arc
+hive/cs.NE)].
+
+34. Minsky M, Papert S (1969). Perceptrons: An Introduction to Computational Geometry (http
+s://books.google.com/books?id=Ow1OAQAAIAAJ). MIT Press. ISBN 978-0-262-63022-1.
+
+35. Bozinovski S (15 September 2020). "Reminder of the First Paper on Transfer Learning in
+Neural Networks, 1976" (https://www.informatica.si/index.php/informatica/article/view/2828).
+Informatica. 44 (3). doi:10.31449/inf.v44i3.2828 (https://doi.org/10.31449%2Finf.v44i3.282
+8). ISSN 1854-3871 (https://search.worldcat.org/issn/1854-3871).
+
+36. Rumelhart D, Hinton G, Williams R (1986). "Learning representations by back-propagating
+errors". Nature. 323 (6088): 533–536. Bibcode:1986Natur.323..533R (https://ui.adsabs.harv
+ard.edu/abs/1986Natur.323..533R). doi:10.1038/323533a0 (https://doi.org/10.1038%2F3235
+33a0).
+
+37. Leibniz GW (1920). The Early Mathematical Manuscripts of Leibniz: Translated from the
+Latin Texts Published by Carl Immanuel Gerhardt with Critical and Historical Notes (Leibniz
+published the chain rule in a 1676 memoir) (https://books.google.com/books?id=bOIGAAAA
+YAAJ&q=leibniz+altered+manuscripts&pg=PA90). Open court publishing Company.
+ISBN 978-0-598-81846-1.
+
+38. Kelley HJ (1960). "Gradient theory of optimal flight paths" (https://archive.org/details/sim_am
+erican-rocket-society-ars-journal_1960-10_30_10/page/947). ARS Journal. 30 (10): 947–
+954. doi:10.2514/8.5282 (https://doi.org/10.2514%2F8.5282).
+
+39. Linnainmaa S (1970). The representation of the cumulative rounding error of an algorithm
+as a Taylor expansion of the local rounding errors (Masters) (in Finnish). University of
+Helsinki. p. 6–7.
+
+40. Linnainmaa S (1976). "Taylor expansion of the accumulated rounding error". BIT Numerical
+Mathematics. 16 (2): 146–160. doi:10.1007/bf01931367 (https://doi.org/10.1007%2Fbf0193
+1367). S2CID 122357351 (https://api.semanticscholar.org/CorpusID:122357351).
+
+41. Ostrovski, G.M., Volin, Y.M., and Boris, W.W. (1971). On the computation of derivatives.
+Wiss. Z. Tech. Hochschule for Chemistry, 13:382–384.
+
+42. Schmidhuber J (25 October 2014). "Who Invented Backpropagation?" (https://people.idsia.c
+h/~juergen/who-invented-backpropagation.html). IDSIA, Switzerland. Archived (https://web.a
+rchive.org/web/20240730110408/https://people.idsia.ch/~juergen/who-invented-backpropag
+ation.html) from the original on 30 July 2024. Retrieved 14 September 2024.
+
+
+
+43. Werbos PJ (1982), "Applications of advances in nonlinear sensitivity analysis" (https://web.a
+rchive.org/web/20160414055503/http://werbos.com/Neural/SensitivityIFIPSeptember1981.p
+df) (PDF), in Drenick RF, Kozin F (eds.), System Modeling and Optimization, Lecture Notes
+in Control and Information Sciences, vol. 38, Berlin/Heidelberg: Springer-Verlag, pp. 762–
+770, doi:10.1007/bfb0006203 (https://doi.org/10.1007%2Fbfb0006203), ISBN 978-3-540-
+11691-2, archived from the original (https://werbos.com/Neural/SensitivityIFIPSeptember198
+1.pdf) (PDF) on 14 April 2016, retrieved 27 March 2026
+
+44. Anderson JA, Rosenfeld E, eds. (2000). Talking Nets: An Oral History of Neural Networks (h
+ttps://direct.mit.edu/books/book/4886/Talking-NetsAn-Oral-History-of-Neural-Networks). The
+MIT Press. doi:10.7551/mitpress/6626.003.0016 (https://doi.org/10.7551%2Fmitpress%2F6
+626.003.0016). ISBN 978-0-262-26715-1. Retrieved 7 August 2024.
+
+45. Werbos PJ (1994). The Roots of Backpropagation: From Ordered Derivatives to Neural
+Networks and Political Forecasting. New York: John Wiley & Sons. ISBN 0-471-59897-6.
+
+46. Rumelhart DE, Hinton GE, Williams RJ (October 1986). "Learning representations by back-
+propagating errors" (https://www.nature.com/articles/323533a0). Nature. 323 (6088): 533–
+536. Bibcode:1986Natur.323..533R (https://ui.adsabs.harvard.edu/abs/1986Natur.323..533
+R). doi:10.1038/323533a0 (https://doi.org/10.1038%2F323533a0). ISSN 1476-4687 (https://
+search.worldcat.org/issn/1476-4687). Archived (https://web.archive.org/web/202103080456
+30/https://www.nature.com/articles/323533a0) from the original on 8 March 2021. Retrieved
+17 March 2021.
+
+47. Fukushima K (1979). "Neural network model for a mechanism of pattern recognition
+unaffected by shift in position—Neocognitron" (http://ci.nii.ac.jp/naid/40000025975/). Trans.
+IECE (In Japanese). J62-A (10): 658–665. doi:10.1007/bf00344251 (https://doi.org/10.100
+7%2Fbf00344251). PMID 7370364 (https://pubmed.ncbi.nlm.nih.gov/7370364).
+S2CID 206775608 (https://api.semanticscholar.org/CorpusID:206775608).
+
+48. Fukushima K (1980). "Neocognitron: A self-organizing neural network model for a
+mechanism of pattern recognition unaffected by shift in position" (http://ci.nii.ac.jp/naid/4000
+0025975/). Biol. Cybern. 36 (4): 193–202. doi:10.1007/bf00344251 (https://doi.org/10.100
+7%2Fbf00344251). PMID 7370364 (https://pubmed.ncbi.nlm.nih.gov/7370364).
+S2CID 206775608 (https://api.semanticscholar.org/CorpusID:206775608).
+
+49. Schmidhuber J (2015). "Deep Learning in Neural Networks: An Overview". Neural Networks.
+61: 85–117. arXiv:1404.7828 (https://arxiv.org/abs/1404.7828). Bibcode:2015NN.....61...85S
+(https://ui.adsabs.harvard.edu/abs/2015NN.....61...85S). doi:10.1016/j.neunet.2014.09.003
+(https://doi.org/10.1016%2Fj.neunet.2014.09.003). PMID 25462637 (https://pubmed.ncbi.nl
+m.nih.gov/25462637). S2CID 11715509 (https://api.semanticscholar.org/CorpusID:1171550
+9).
+
+50. Fukushima K, Miyake S (1 January 1982). "Neocognitron: A new algorithm for pattern
+recognition tolerant of deformations and shifts in position" (https://www.sciencedirect.com/sc
+ience/article/abs/pii/0031320382900243). Pattern Recognition. 15 (6): 455–469.
+Bibcode:1982PatRe..15..455F (https://ui.adsabs.harvard.edu/abs/1982PatRe..15..455F).
+doi:10.1016/0031-3203(82)90024-3 (https://doi.org/10.1016%2F0031-3203%2882%299002
+4-3). ISSN 0031-3203 (https://search.worldcat.org/issn/0031-3203). Retrieved 9 September
+2024.
+
+51. Waibel A (December 1987). Phoneme Recognition Using Time-Delay Neural Networks (http
+s://isl.anthropomatik.kit.edu/pdf/Waibel1987a.pdf) (PDF). Meeting of the Institute of
+Electrical, Information and Communication Engineers (IEICE). Tokyo, Japan. Archived (http
+s://web.archive.org/web/20240917173146/https://isl.anthropomatik.kit.edu/pdf/Waibel1987a.
+pdf) (PDF) from the original on 17 September 2024. Retrieved 20 September 2024.
+
+52. Alexander Waibel et al., Phoneme Recognition Using Time-Delay Neural Networks (http://w
+ww.inf.ufrgs.br/~engel/data/media/file/cmp121/waibel89_TDNN.pdf) Archived (https://web.ar
+chive.org/web/20241211184304/https://www.inf.ufrgs.br/~engel/data/media/file/cmp121/waib
+el89_TDNN.pdf) 11 December 2024 at the Wayback Machine IEEE Transactions on
+Acoustics, Speech, and Signal Processing, Volume 37, No. 3, pp. 328. – 339 March 1989.
+
+
+
+53. Zhang W (1988). "Shift-invariant pattern recognition neural network and its optical
+architecture" (https://drive.google.com/file/d/1nN_5odSG_QVae54EsQN_qSz-0ZsX6wA0/vie
+w?usp=sharing). Proceedings of Annual Conference of the Japan Society of Applied
+Physics. Archived (https://web.archive.org/web/20200623051222/https://drive.google.com/fil
+e/d/1nN_5odSG_QVae54EsQN_qSz-0ZsX6wA0/view?usp=sharing) from the original on 23
+June 2020. Retrieved 12 April 2023.
+
+54. LeCun Y, Boser B, Denker JS, Henderson D, Howard RE, Hubbard W, et al. (1989).
+"Backpropagation Applied to Handwritten Zip Code Recognition" (https://archive.org/details/
+sim_neural-computation_winter-1989_1_4/page/541). Neural Computation. 1 (4): 541–551.
+doi:10.1162/neco.1989.1.4.541 (https://doi.org/10.1162%2Fneco.1989.1.4.541).
+S2CID 41312633 (https://api.semanticscholar.org/CorpusID:41312633).
+
+55. Zhang W (1990). "Parallel distributed processing model with local space-invariant
+interconnections and its optical architecture" (https://drive.google.com/file/d/0B65v6Wo67Tk
+5ODRzZmhSR29VeDg/view?usp=sharing). Applied Optics. 29 (32): 4790–7.
+Bibcode:1990ApOpt..29.4790Z (https://ui.adsabs.harvard.edu/abs/1990ApOpt..29.4790Z).
+doi:10.1364/AO.29.004790 (https://doi.org/10.1364%2FAO.29.004790). PMID 20577468 (htt
+ps://pubmed.ncbi.nlm.nih.gov/20577468). Archived (https://web.archive.org/web/201702061
+11407/https://drive.google.com/file/d/0B65v6Wo67Tk5ODRzZmhSR29VeDg/view?usp=shari
+ng) from the original on 6 February 2017. Retrieved 12 April 2023.
+
+56. Zhang W (1991). "Image processing of human corneal endothelium based on a learning
+network" (https://drive.google.com/file/d/0B65v6Wo67Tk5cm5DTlNGd0NPUmM/view?usp=s
+haring). Applied Optics. 30 (29): 4211–7. Bibcode:1991ApOpt..30.4211Z (https://ui.adsabs.h
+arvard.edu/abs/1991ApOpt..30.4211Z). doi:10.1364/AO.30.004211 (https://doi.org/10.136
+4%2FAO.30.004211). PMID 20706526 (https://pubmed.ncbi.nlm.nih.gov/20706526).
+Archived (https://web.archive.org/web/20240619084309/https://drive.google.com/file/d/0B65
+v6Wo67Tk5cm5DTlNGd0NPUmM/view?usp=sharing) from the original on 19 June 2024.
+Retrieved 20 September 2024.
+
+57. Zhang W (1994). "Computerized detection of clustered microcalcifications in digital
+mammograms using a shift-invariant artificial neural network" (https://drive.google.com/file/
+d/0B65v6Wo67Tk5Ml9qeW5nQ3poVTQ/view?usp=sharing). Medical Physics. 21 (4): 517–
+24. Bibcode:1994MedPh..21..517Z (https://ui.adsabs.harvard.edu/abs/1994MedPh..21..517
+Z). doi:10.1118/1.597177 (https://doi.org/10.1118%2F1.597177). PMID 8058017 (https://pub
+med.ncbi.nlm.nih.gov/8058017). Archived (https://web.archive.org/web/20240620055642/htt
+ps://drive.google.com/file/d/0B65v6Wo67Tk5Ml9qeW5nQ3poVTQ/view?usp=sharing) from
+the original on 20 June 2024. Retrieved 20 September 2024.
+
+58. LeCun Y, Léon Bottou, Yoshua Bengio, Patrick Haffner (1998). "Gradient-based learning
+applied to document recognition" (https://web.archive.org/web/20231030100650/http://yann.l
+ecun.com/exdb/publis/pdf/lecun-01a.pdf) (PDF). Proceedings of the IEEE. 86 (11): 2278–
+2324. Bibcode:1998IEEEP..86.2278L (https://ui.adsabs.harvard.edu/abs/1998IEEEP..86.227
+8L). doi:10.1109/5.726791 (https://doi.org/10.1109%2F5.726791). S2CID 14542261 (https://
+api.semanticscholar.org/CorpusID:14542261). Archived from the original (http://yann.lecun.c
+om/exdb/publis/pdf/lecun-01a.pdf) (PDF) on 30 October 2023. Retrieved 7 October 2016.
+
+59. Qian, Ning, and Terrence J. Sejnowski. "Predicting the secondary structure of globular
+proteins using neural network models." Journal of molecular biology 202, no. 4 (1988): 865–
+884.
+
+60. Bohr, Henrik, Jakob Bohr, Søren Brunak, Rodney MJ Cotterill, Benny Lautrup, Leif Nørskov,
+Ole H. Olsen, and Steffen B. Petersen. "Protein secondary structure and homology by
+neural networks The α-helices in rhodopsin." FEBS letters 241, (1988): 223–228
+
+61. Rost, Burkhard, and Chris Sander: "Prediction of protein secondary structure at better than
+70% accuracy." Journal of molecular biology 232, no. 2 (1993): 584–599.
+
+
+
+62. Amari SI (November 1972). "Learning Patterns and Pattern Sequences by Self-Organizing
+Nets of Threshold Elements" (https://teikyo-u.repo.nii.ac.jp/records/2067638). IEEE
+Transactions on Computers. C-21 (11): 1197–1206. Bibcode:1972ITCmp.100.1197A (https://
+ui.adsabs.harvard.edu/abs/1972ITCmp.100.1197A). doi:10.1109/T-C.1972.223477 (https://d
+oi.org/10.1109%2FT-C.1972.223477). ISSN 0018-9340 (https://search.worldcat.org/issn/001
+8-9340).
+
+63. Hopfield JJ (1982). "Neural networks and physical systems with emergent collective
+computational abilities" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC346238).
+Proceedings of the National Academy of Sciences. 79 (8): 2554–2558.
+Bibcode:1982PNAS...79.2554H (https://ui.adsabs.harvard.edu/abs/1982PNAS...79.2554H).
+doi:10.1073/pnas.79.8.2554 (https://doi.org/10.1073%2Fpnas.79.8.2554). PMC 346238 (htt
+ps://www.ncbi.nlm.nih.gov/pmc/articles/PMC346238). PMID 6953413 (https://pubmed.ncbi.n
+lm.nih.gov/6953413).
+
+64. Espinosa-Sanchez JM, Gomez-Marin A, de Castro F (5 July 2023). "The Importance of
+Cajal's and Lorente de Nó's Neuroscience to the Birth of Cybernetics" (http://journals.sagep
+ub.com/doi/10.1177/10738584231179932). The Neuroscientist. 31 (1): 14–30.
+doi:10.1177/10738584231179932 (https://doi.org/10.1177%2F10738584231179932).
+hdl:10261/348372 (https://hdl.handle.net/10261%2F348372). ISSN 1073-8584 (https://searc
+h.worldcat.org/issn/1073-8584). PMID 37403768 (https://pubmed.ncbi.nlm.nih.gov/3740376
+8). Retrieved 7 August 2024.
+
+65. "reverberating circuit" (https://www.oxfordreference.com/display/10.1093/oi/authority.201108
+03100417461). Oxford Reference. Retrieved 27 July 2024.
+
+66. Bozinovski, S. (1982). "A self-learning system using secondary reinforcement". In Trappl,
+Robert (ed.). Cybernetics and Systems Research: Proceedings of the Sixth European
+Meeting on Cybernetics and Systems Research. North-Holland. pp. 397–402. ISBN 978-0-
+444-86488-8
+
+67. Bozinovski S. (1995) "Neuro genetic agents and structural theory of self-reinforcement
+learning systems". CMPSCI Technical Report 95-107, University of Massachusetts at
+Amherst (https://web.cs.umass.edu/publication/docs/1995/UM-CS-1995-107.pdf) Archived
+(https://web.archive.org/web/20241008120651/https://web.cs.umass.edu/publication/docs/1
+995/UM-CS-1995-107.pdf) 8 October 2024 at the Wayback Machine
+
+68. Zajonc R (1980). "Feeling and thinking: Preferences need no inferences" (https://repositorio.
+unal.edu.co/handle/unal/77993). American Psychologist. 35 (2): 151–175.
+doi:10.1037/0003-066X.35.2.151 (https://doi.org/10.1037%2F0003-066X.35.2.151).
+
+69. Lazarus RS (November 1982). "Thoughts on the relations between emotion and cognition"
+(https://doi.apa.org/doi/10.1037/0003-066X.37.9.1019). American Psychologist. 37 (9):
+1019–1024. Bibcode:1982AmPsy..37.1019L (https://ui.adsabs.harvard.edu/abs/1982AmPs
+y..37.1019L). doi:10.1037/0003-066X.37.9.1019 (https://doi.org/10.1037%2F0003-066X.37.
+9.1019). ISSN 1935-990X (https://search.worldcat.org/issn/1935-990X).
+
+70. Bozinovski S (2014). "Modeling Mechanisms of Cognition-emotion Interaction in Artificial
+Neural Networks, since 1981" (https://web.archive.org/web/20190323204838/https://core.ac.
+uk/download/pdf/81973924.pdf) (PDF). Procedia Computer Science. 41: 255–263.
+doi:10.1016/j.procs.2014.11.111 (https://doi.org/10.1016%2Fj.procs.2014.11.111). Archived
+from the original (https://linkinghub.elsevier.com/retrieve/pii/S1877050914015567) on 23
+March 2019.
+
+71. Elman JL (1990). "Finding Structure in Time". Cognitive Science. 14 (2): 179–211.
+doi:10.1207/s15516709cog1402_1 (https://doi.org/10.1207%2Fs15516709cog1402_1).
+
+72. Gelenbe E (1989). "Random neural networks with negative and positive signals and product
+form solution" (https://doi.org/10.1162/neco.1989.1.4.502). Neural Computation. 1 (4): 502–
+510. Bibcode:1989NeCom...1..502G (https://ui.adsabs.harvard.edu/abs/1989NeCom...1..50
+2G). doi:10.1162/neco.1989.1.4.502 (https://doi.org/10.1162%2Fneco.1989.1.4.502).
+
+
+
+73. Gelenbe E (1993). "Learning in the Recurrent Random Neural Network" (https://doi.org/10.1
+162/neco.1993.5.1.154). Neural Computation. 5 (1): 154–164.
+doi:10.1162/neco.1993.5.1.154 (https://doi.org/10.1162%2Fneco.1993.5.1.154).
+
+74. Schmidhuber J (April 1991). "Neural Sequence Chunkers" (https://people.idsia.ch/~juergen/
+FKI-148-91ocr.pdf) (PDF). TR FKI-148, TU Munich. Archived (https://web.archive.org/web/2
+0240914162750/https://people.idsia.ch/~juergen/FKI-148-91ocr.pdf) (PDF) from the original
+on 14 September 2024. Retrieved 21 September 2024.
+
+75. Schmidhuber J (1992). "Learning complex, extended sequences using the principle of
+history compression (based on TR FKI-148, 1991)" (https://sferics.idsia.ch/pub/juergen/chun
+ker.pdf) (PDF). Neural Computation. 4 (2): 234–242. doi:10.1162/neco.1992.4.2.234 (https://
+doi.org/10.1162%2Fneco.1992.4.2.234). S2CID 18271205 (https://api.semanticscholar.org/
+CorpusID:18271205). Archived (https://web.archive.org/web/20240914162750/https://sferic
+s.idsia.ch/pub/juergen/chunker.pdf) (PDF) from the original on 14 September 2024.
+Retrieved 21 September 2024.
+
+76. Schmidhuber J (1993). Habilitation thesis: System modeling and optimization (https://sferics.
+idsia.ch/pub/juergen/habilitation.pdf) (PDF). Archived (https://web.archive.org/web/2024080
+7084323/https://sferics.idsia.ch/pub/juergen/habilitation.pdf) (PDF) from the original on 7
+August 2024. Retrieved 21 September 2024. Page 150 ff demonstrates credit assignment
+across the equivalent of 1,200 layers in an unfolded RNN.
+
+77. S. Hochreiter., "Untersuchungen zu dynamischen neuronalen Netzen (http://people.idsia.ch/
+~juergen/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf)", Archived (https://web.archiv
+e.org/web/20150306075401/http://people.idsia.ch/~juergen/SeppHochreiter1991ThesisAdvi
+sorSchmidhuber.pdf) 6 March 2015 at the Wayback Machine, Diploma thesis. Institut f.
+Informatik, Technische Univ. Munich. Advisor: J. Schmidhuber, 1991.
+
+78. Hochreiter S, et al. (15 January 2001). "Gradient flow in recurrent nets: the difficulty of
+learning long-term dependencies" (https://books.google.com/books?id=NWOcMVA64aAC).
+In Kolen JF, Kremer SC (eds.). A Field Guide to Dynamical Recurrent Networks. John Wiley
+& Sons. ISBN 978-0-7803-5369-5. Archived (https://web.archive.org/web/20240519081124/
+https://books.google.com/books?id=NWOcMVA64aAC) from the original on 19 May 2024.
+Retrieved 26 June 2017.
+
+79. Hochreiter SJ, Schmidhuber J (21 August 1995), Long Short Term Memory (ftp://ftp.idsia.ch/
+pub/juergen/fki-207-95.ps.gz), Wikidata Q98967430
+
+80. Hochreiter S, Schmidhuber J (1 November 1997). "Long Short-Term Memory". Neural
+Computation. 9 (8): 1735–1780. doi:10.1162/neco.1997.9.8.1735 (https://doi.org/10.1162%2
+Fneco.1997.9.8.1735). PMID 9377276 (https://pubmed.ncbi.nlm.nih.gov/9377276).
+S2CID 1915014 (https://api.semanticscholar.org/CorpusID:1915014).
+
+81. Gers F, Schmidhuber J, Cummins F (1999). "Learning to forget: Continual prediction with
+LSTM". 9th International Conference on Artificial Neural Networks: ICANN '99. Vol. 1999.
+pp. 850–855. doi:10.1049/cp:19991218 (https://doi.org/10.1049%2Fcp%3A19991218).
+ISBN 0-85296-721-7.
+
+82. Jiang J, Stamp M (2025). "Multimodal Techniques for Malware Classification".
+arXiv:2501.10956 (https://arxiv.org/abs/2501.10956) [cs.CR (https://arxiv.org/archive/cs.C
+R)].
+
+83. Ackley DH, Hinton GE, Sejnowski TJ (1 January 1985). "A learning algorithm for boltzmann
+machines" (https://www.sciencedirect.com/science/article/pii/S0364021385800124).
+Cognitive Science. 9 (1): 147–169. doi:10.1016/S0364-0213(85)80012-4 (https://doi.org/10.
+1016%2FS0364-0213%2885%2980012-4). ISSN 0364-0213 (https://search.worldcat.org/iss
+n/0364-0213). Archived (https://web.archive.org/web/20240917124802/https://www.scienced
+irect.com/science/article/pii/S0364021385800124) from the original on 17 September 2024.
+Retrieved 7 August 2024.
+
+
+
+84. Smolensky P (1986). "Chapter 6: Information Processing in Dynamical Systems:
+Foundations of Harmony Theory" (https://stanford.edu/~jlmcc/papers/PDP/Volume%201/Ch
+ap6_PDP86.pdf) (PDF). In Rumelhart DE, McLelland JL (eds.). Parallel Distributed
+Processing: Explorations in the Microstructure of Cognition, Volume 1: Foundations. MIT
+Press. pp. 194–281 (https://archive.org/details/paralleldistribu00rume/page/194). ISBN 0-
+262-68053-X. Archived (https://web.archive.org/web/20230714174222/https://stanford.edu/~
+jlmcc/papers/PDP/Volume%201/Chap6_PDP86.pdf) (PDF) from the original on 14 July
+2023. Retrieved 7 August 2024.
+
+85. Peter D, Hinton GE, Neal RM, Zemel RS (1995). "The Helmholtz machine". Neural
+Computation. 7 (5): 889–904. doi:10.1162/neco.1995.7.5.889 (https://doi.org/10.1162%2Fne
+co.1995.7.5.889). hdl:21.11116/0000-0002-D6D3-E (https://hdl.handle.net/21.11116%2F000
+0-0002-D6D3-E). PMID 7584891 (https://pubmed.ncbi.nlm.nih.gov/7584891).
+S2CID 1890561 (https://api.semanticscholar.org/CorpusID:1890561). 
+
+86. Hinton GE, Dayan P, Frey BJ, Neal R (26 May 1995). "The wake-sleep algorithm for
+unsupervised neural networks". Science. 268 (5214): 1158–1161.
+Bibcode:1995Sci...268.1158H (https://ui.adsabs.harvard.edu/abs/1995Sci...268.1158H).
+doi:10.1126/science.7761831 (https://doi.org/10.1126%2Fscience.7761831). PMID 7761831
+(https://pubmed.ncbi.nlm.nih.gov/7761831). S2CID 871473 (https://api.semanticscholar.org/
+CorpusID:871473).
+
+87. Mohd Noor MH, Ige AO (2025). "A survey on state-of-the-art deep learning applications and
+challenges". Engineering Applications of Artificial Intelligence. 159 111225.
+arXiv:2403.17561 (https://arxiv.org/abs/2403.17561). doi:10.1016/j.engappai.2025.111225 (h
+ttps://doi.org/10.1016%2Fj.engappai.2025.111225).
+
+88. Schmidhuber J. "How bio-inspired deep learning keeps winning competitions « the Kurzweil
+Library" (https://web.archive.org/web/20180831075249/http://www.kurzweilai.net/how-bio-in
+spired-deep-learning-keeps-winning-competitions). Archived from the original (https://www.t
+hekurzweillibrary.com/how-bio-inspired-deep-learning-keeps-winning-competitions) on 31
+August 2018. Retrieved 19 May 2026.
+
+89. "How bio-inspired deep learning keeps winning competitions" (https://web.archive.org/web/2
+0180831075249/http://www.kurzweilai.net/how-bio-inspired-deep-learning-keeps-winning-co
+mpetitions). kurzweilai.net. Archived from the original (http://www.kurzweilai.net/how-bio-ins
+pired-deep-learning-keeps-winning-competitions) on 31 August 2018. Retrieved 16 June
+2017.
+
+90. Cireşan DC, Meier U, Gambardella LM, Schmidhuber J (21 September 2010). "Deep, Big,
+Simple Neural Nets for Handwritten Digit Recognition". Neural Computation. 22 (12): 3207–
+3220. arXiv:1003.0358 (https://arxiv.org/abs/1003.0358). Bibcode:2010NeCom..22.3207C (h
+ttps://ui.adsabs.harvard.edu/abs/2010NeCom..22.3207C). doi:10.1162/neco_a_00052 (http
+s://doi.org/10.1162%2Fneco_a_00052). ISSN 0899-7667 (https://search.worldcat.org/issn/0
+899-7667). PMID 20858131 (https://pubmed.ncbi.nlm.nih.gov/20858131). S2CID 1918673
+(https://api.semanticscholar.org/CorpusID:1918673).
+
+91. Ciresan DC, Meier U, Masci J, Gambardella L, Schmidhuber J (2011). "Flexible, High
+Performance Convolutional Neural Networks for Image Classification" (http://ijcai.org/papers
+11/Papers/IJCAI11-210.pdf) (PDF). International Joint Conference on Artificial Intelligence.
+doi:10.5591/978-1-57735-516-8/ijcai11-210 (https://doi.org/10.5591%2F978-1-57735-516-
+8%2Fijcai11-210). Archived (https://web.archive.org/web/20140929094040/http://ijcai.org/pa
+pers11/Papers/IJCAI11-210.pdf) (PDF) from the original on 29 September 2014. Retrieved
+13 June 2017.
+
+
+
+92. Ciresan D, Giusti A, Gambardella LM, Schmidhuber J (2012). Pereira F, Burges CJ, Bottou
+L, Weinberger KQ (eds.). Advances in Neural Information Processing Systems 25 (http://pap
+ers.nips.cc/paper/4741-deep-neural-networks-segment-neuronal-membranes-in-electron-mi
+croscopy-images.pdf) (PDF). Curran Associates, Inc. pp. 2843–2851. Archived (https://web.
+archive.org/web/20170809081713/http://papers.nips.cc/paper/4741-deep-neural-networks-s
+egment-neuronal-membranes-in-electron-microscopy-images.pdf) (PDF) from the original
+on 9 August 2017. Retrieved 13 June 2017.
+
+93. Ciresan D, Giusti A, Gambardella L, Schmidhuber J (2013). "Mitosis Detection in Breast
+Cancer Histology Images with Deep Neural Networks". Medical Image Computing and
+Computer-Assisted Intervention – MICCAI 2013. Lecture Notes in Computer Science.
+Vol. 7908. pp. 411–418. doi:10.1007/978-3-642-40763-5_51 (https://doi.org/10.1007%2F978
+-3-642-40763-5_51). ISBN 978-3-642-38708-1. PMID 24579167 (https://pubmed.ncbi.nlm.ni
+h.gov/24579167).
+
+94. Ciresan D, Meier U, Schmidhuber J (2012). "Multi-column deep neural networks for image
+classification". 2012 IEEE Conference on Computer Vision and Pattern Recognition.
+pp. 3642–3649. arXiv:1202.2745 (https://arxiv.org/abs/1202.2745).
+doi:10.1109/cvpr.2012.6248110 (https://doi.org/10.1109%2Fcvpr.2012.6248110). ISBN 978-
+1-4673-1228-8. S2CID 2161592 (https://api.semanticscholar.org/CorpusID:2161592).
+
+95. Krizhevsky A, Sutskever I, Hinton G (2012). "ImageNet Classification with Deep
+Convolutional Neural Networks" (https://www.cs.toronto.edu/~kriz/imagenet_classification_w
+ith_deep_convolutional.pdf) (PDF). NIPS 2012: Neural Information Processing Systems,
+Lake Tahoe, Nevada. Archived (https://web.archive.org/web/20170110123024/http://www.cs.
+toronto.edu/~kriz/imagenet_classification_with_deep_convolutional.pdf) (PDF) from the
+original on 10 January 2017. Retrieved 24 May 2017.
+
+96. Simonyan K, Andrew Z (2014). "Very Deep Convolution Networks for Large Scale Image
+Recognition". arXiv:1409.1556 (https://arxiv.org/abs/1409.1556) [cs.CV (https://arxiv.org/arc
+hive/cs.CV)].
+
+97. Szegedy C (2015). "Going deeper with convolutions" (https://static.googleusercontent.com/
+media/research.google.com/en//pubs/archive/43022.pdf) (PDF). Cvpr2015. arXiv:1409.4842
+(https://arxiv.org/abs/1409.4842). Archived (https://web.archive.org/web/20240930225513/ht
+tps://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf)
+(PDF) from the original on 30 September 2024. Retrieved 7 August 2024.
+
+98. Ng A, Dean J (2012). "Building High-level Features Using Large Scale Unsupervised
+Learning". arXiv:1112.6209 (https://arxiv.org/abs/1112.6209) [cs.LG (https://arxiv.org/archive/
+cs.LG)].
+
+99. Ian Goodfellow and Yoshua Bengio and Aaron Courville (2016). Deep Learning (http://www.
+deeplearningbook.org/). MIT Press. Archived (https://web.archive.org/web/20160416111010/
+http://www.deeplearningbook.org/) from the original on 16 April 2016. Retrieved 1 June
+2016.
+
+100. Billings SA (2013). Nonlinear System Identification: NARMAX Methods in the Time,
+Frequency, and Spatio-Temporal Domains. Wiley. ISBN 978-1-119-94359-4.
+
+101. Goodfellow I, Pouget-Abadie J, Mirza M, Xu B, Warde-Farley D, Ozair S, et al. (2014).
+Generative Adversarial Networks (https://papers.nips.cc/paper/5423-generative-adversarial-
+nets.pdf) (PDF). Proceedings of the International Conference on Neural Information
+Processing Systems (NIPS 2014). pp. 2672–2680. Archived (https://web.archive.org/web/20
+191122034612/http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) (PDF) from
+the original on 22 November 2019. Retrieved 20 August 2019.
+
+102. Schmidhuber J (1991). "A possibility for implementing curiosity and boredom in model-
+building neural controllers". Proc. SAB'1991. MIT Press/Bradford Books. pp. 222–227.
+
+
+
+103. Schmidhuber J (2020). "Generative Adversarial Networks are Special Cases of Artificial
+Curiosity (1990) and also Closely Related to Predictability Minimization (1991)". Neural
+Networks. 127: 58–66. arXiv:1906.04493 (https://arxiv.org/abs/1906.04493).
+doi:10.1016/j.neunet.2020.04.008 (https://doi.org/10.1016%2Fj.neunet.2020.04.008).
+PMID 32334341 (https://pubmed.ncbi.nlm.nih.gov/32334341). S2CID 216056336 (https://ap
+i.semanticscholar.org/CorpusID:216056336).
+
+104. "GAN 2.0: NVIDIA's Hyperrealistic Face Generator" (https://syncedreview.com/2018/12/14/g
+an-2-0-nvidias-hyperrealistic-face-generator/). SyncedReview.com. 14 December 2018.
+Archived (https://web.archive.org/web/20240912080503/https://syncedreview.com/2018/12/
+14/gan-2-0-nvidias-hyperrealistic-face-generator/) from the original on 12 September 2024.
+Retrieved 3 October 2019.
+
+105. Karras T, Aila T, Laine S, Lehtinen J (26 February 2018). "Progressive Growing of GANs for
+Improved Quality, Stability, and Variation". arXiv:1710.10196 (https://arxiv.org/abs/1710.101
+96) [cs.NE (https://arxiv.org/archive/cs.NE)].
+
+106. "Prepare, Don't Panic: Synthetic Media and Deepfakes" (https://lab.witness.org/projects/synt
+hetic-media-and-deep-fakes/). witness.org. Archived (https://web.archive.org/web/20201202
+231744/https://lab.witness.org/projects/synthetic-media-and-deep-fakes/) from the original
+on 2 December 2020. Retrieved 25 November 2020.
+
+107. Sohl-Dickstein J, Weiss E, Maheswaranathan N, Ganguli S (1 June 2015). "Deep
+Unsupervised Learning using Nonequilibrium Thermodynamics" (http://proceedings.mlr.pres
+s/v37/sohl-dickstein15.pdf) (PDF). Proceedings of the 32nd International Conference on
+Machine Learning. 37. PMLR: 2256–2265. arXiv:1503.03585 (https://arxiv.org/abs/1503.035
+85). Archived (https://web.archive.org/web/20240921065319/http://proceedings.mlr.press/v3
+7/sohl-dickstein15.pdf) (PDF) from the original on 21 September 2024. Retrieved 7 August
+2024.
+
+108. Simonyan K, Zisserman A (10 April 2015). "Very Deep Convolutional Networks for Large-
+Scale Image Recognition". arXiv:1409.1556 (https://arxiv.org/abs/1409.1556) [cs.CV (https://
+arxiv.org/archive/cs.CV)].
+
+109. He K, Zhang X, Ren S, Sun J (2016). "Delving Deep into Rectifiers: Surpassing Human-
+Level Performance on ImageNet Classification". arXiv:1502.01852 (https://arxiv.org/abs/150
+2.01852) [cs.CV (https://arxiv.org/archive/cs.CV)].
+
+110. He K, Zhang X, Ren S, Sun J (10 December 2015). Deep Residual Learning for Image
+Recognition. arXiv:1512.03385 (https://arxiv.org/abs/1512.03385).
+
+111. Srivastava RK, Greff K, Schmidhuber J (2 May 2015). "Highway Networks".
+arXiv:1505.00387 (https://arxiv.org/abs/1505.00387) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+112. He K, Zhang X, Ren S, Sun J (2016). "Deep Residual Learning for Image Recognition".
+2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE.
+pp. 770–778. arXiv:1512.03385 (https://arxiv.org/abs/1512.03385).
+doi:10.1109/CVPR.2016.90 (https://doi.org/10.1109%2FCVPR.2016.90). ISBN 978-1-4673-
+8851-1.
+
+113. Linn A (10 December 2015). "Microsoft researchers win ImageNet computer vision
+challenge" (https://blogs.microsoft.com/ai/microsoft-researchers-win-imagenet-computer-visi
+on-challenge/). The AI Blog. Retrieved 29 June 2024.
+
+114. Schmidhuber J (1992). "Learning to control fast-weight memories: an alternative to recurrent
+nets" (https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1162.zip/10.116
+2%252Fneco.1992.4.1.131.pdf) (PDF). Neural Computation. 4 (1): 131–139.
+doi:10.1162/neco.1992.4.1.131 (https://doi.org/10.1162%2Fneco.1992.4.1.131).
+S2CID 16683347 (https://api.semanticscholar.org/CorpusID:16683347).
+
+
+
+115. Katharopoulos A, Vyas A, Pappas N, Fleuret F (2020). "Transformers are RNNs: Fast
+autoregressive Transformers with linear attention" (https://paperswithcode.com/paper/a-dec
+omposable-attention-model-for-natural). ICML 2020. PMLR. pp. 5156–5165. Archived (http
+s://web.archive.org/web/20230711021546/https://paperswithcode.com/paper/a-decomposab
+le-attention-model-for-natural) from the original on 11 July 2023. Retrieved 21 September
+2024.
+
+116. Schlag I, Irie K, Schmidhuber J (2021). "Linear Transformers Are Secretly Fast Weight
+Programmers". ICML 2021. Springer. pp. 9355–9366.
+
+117. Wolf T, Debut L, Sanh V, Chaumond J, Delangue C, Moi A, et al. (2020). "Transformers:
+State-of-the-Art Natural Language Processing". Proceedings of the 2020 Conference on
+Empirical Methods in Natural Language Processing: System Demonstrations. pp. 38–45.
+doi:10.18653/v1/2020.emnlp-demos.6 (https://doi.org/10.18653%2Fv1%2F2020.emnlp-dem
+os.6). S2CID 208117506 (https://api.semanticscholar.org/CorpusID:208117506).
+
+118. Abbod MF (2007). "Application of Artificial Intelligence to the Management of Urological
+Cancer". The Journal of Urology. 178 (4): 1150–1156. doi:10.1016/j.juro.2007.05.122 (http
+s://doi.org/10.1016%2Fj.juro.2007.05.122). PMID 17698099 (https://pubmed.ncbi.nlm.nih.go
+v/17698099).
+
+119. Dawson CW (1998). "An artificial neural network approach to rainfall-runoff modelling" (http
+s://doi.org/10.1080%2F02626669809492102). Hydrological Sciences Journal. 43 (1): 47–
+66. Bibcode:1998HydSJ..43...47D (https://ui.adsabs.harvard.edu/abs/1998HydSJ..43...47
+D). doi:10.1080/02626669809492102 (https://doi.org/10.1080%2F02626669809492102).
+
+120. "The Machine Learning Dictionary" (https://web.archive.org/web/20180826151959/http://ww
+w.cse.unsw.edu.au/~billw/mldict.html#activnfn). cse.unsw.edu.au. Archived from the original
+(http://www.cse.unsw.edu.au/~billw/mldict.html#activnfn) on 26 August 2018. Retrieved
+4 November 2009.
+
+121. Kufel J, Bargieł-Łączek K, Kocot S, Koźlik M, Bartnikowska W, Janik M, et al. (3 August
+2023). "What Is Machine Learning, Artificial Neural Networks and Deep Learning?-Examples
+of Practical Applications in Medicine" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10417
+718). Diagnostics (Basel, Switzerland). 13 (15): 2582. doi:10.3390/diagnostics13152582 (htt
+ps://doi.org/10.3390%2Fdiagnostics13152582). ISSN 2075-4418 (https://search.worldcat.or
+g/issn/2075-4418). PMC 10417718 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1041771
+8). PMID 37568945 (https://pubmed.ncbi.nlm.nih.gov/37568945).
+
+122. Sazlı MH (1 January 2006). "A brief review of feed-forward neural networks" (https://dergipar
+k.org.tr/en/pub/aupse/article/890416). Communications Faculty of Sciences University of
+Ankara Series A2-A3 Physical Sciences and Engineering. 50 (1): 11–17.
+Bibcode:2006CFSAU..50...11M (https://ui.adsabs.harvard.edu/abs/2006CFSAU..50...11M).
+doi:10.1501/commua1-2_0000000026 (https://doi.org/10.1501%2Fcommua1-2_000000002
+6). ISSN 1303-6009 (https://search.worldcat.org/issn/1303-6009).
+
+123. Artificial intelligence (3rd ed.). Addison-Wesley Pub. Co. 1992. ISBN 0-201-53377-4.
+124. Zell A (2003). "chapter 5.2". Simulation neuronaler Netze (https://archive.org/details/simulati
+
+onneuron0000unse) [Simulation of Neural Networks] (in German) (1st ed.). Addison-Wesley.
+ISBN 978-3-89319-554-1. OCLC 249017987 (https://search.worldcat.org/oclc/249017987).
+
+125. Elizondo D, Fiesler E (October 1997). "A Survey of Partially Connected Neural Networks" (ht
+tps://www.worldscientific.com/doi/abs/10.1142/s0129065797000513). International Journal
+of Neural Systems. 08 (5n06): 535–558. doi:10.1142/S0129065797000513 (https://doi.org/1
+0.1142%2FS0129065797000513). ISSN 0129-0657 (https://search.worldcat.org/issn/0129-0
+657). PMID 10065835 (https://pubmed.ncbi.nlm.nih.gov/10065835).
+
+126. Ciresan D, Ueli Meier, Jonathan Masci, Luca M. Gambardella, Jurgen Schmidhuber (2011).
+"Flexible, High Performance Convolutional Neural Networks for Image Classification" (http
+s://people.idsia.ch/~juergen/ijcai2011.pdf) (PDF). Proceedings of the Twenty-Second
+International Joint Conference on Artificial Intelligence-Volume Volume Two. 2: 1237–1242.
+Archived (https://web.archive.org/web/20220405190128/https://people.idsia.ch/~juergen/ijca
+i2011.pdf) (PDF) from the original on 5 April 2022. Retrieved 7 July 2022.
+
+
+
+127. Herberg E (18 April 2023). "Lecture Notes: Neural Network Architectures". arXiv:2304.05133
+(https://arxiv.org/abs/2304.05133) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+128. Zell A (1994). Simulation Neuronaler Netze (https://archive.org/details/simulationneuron0000
+unse) [Simulation of Neural Networks] (in German) (1st ed.). Addison-Wesley. p. 73 (https://
+archive.org/details/simulationneuron0000unse/page/72). ISBN 3-89319-554-8.
+
+129. Miljanovic M (February–March 2012). "Comparative analysis of Recurrent and Finite
+Impulse Response Neural Networks in Time Series Prediction" (http://www.ijcse.com/docs/I
+NDJCSE12-03-01-028.pdf) (PDF). Indian Journal of Computer and Engineering. 3 (1).
+Archived (https://web.archive.org/web/20240519081156/http://www.ijcse.com/docs/INDJCS
+E12-03-01-028.pdf) (PDF) from the original on 19 May 2024. Retrieved 21 August 2019.
+
+130. Vapnik VN, Vapnik VN (1998). The nature of statistical learning theory (Corrected 2nd
+print. ed.). New York Berlin Heidelberg: Springer. ISBN 978-0-387-94559-0.
+
+131. Kelleher JD, Mac Namee B, D'Arcy A (2020). "7-8". Fundamentals of machine learning for
+predictive data analytics: algorithms, worked examples, and case studies (2nd ed.).
+Cambridge, MA: The MIT Press. ISBN 978-0-262-36110-1. OCLC 1162184998 (https://searc
+h.worldcat.org/oclc/1162184998).
+
+132. Zhang A, Lipton ZC, Li M, Smola AJ (2023). "3.1 Linear Regression". Dive into Deep
+Learning (https://d2l.ai). Cambridge University Press. ISBN 978-1-009-38943-3.
+
+133. Goodfellow I, Bengio Y, Courville A (2016). "6.2 Gradient-Based Learning". Deep Learning
+(http://www.deeplearningbook.org). The MIT Press. ISBN 978-0-262-03561-3.
+
+134. Terven J, Cordova-Esparza DM, Romero-González JA, Ramírez-Pedraza A, Chávez-Urbiola
+EA (11 April 2025). "A comprehensive survey of loss functions and metrics in deep learning"
+(https://link.springer.com/10.1007/s10462-025-11198-7). Artificial Intelligence Review. 58 (7)
+195. doi:10.1007/s10462-025-11198-7 (https://doi.org/10.1007%2Fs10462-025-11198-7).
+ISSN 1573-7462 (https://search.worldcat.org/issn/1573-7462).
+
+135. Huang GB, Zhu QY, Siew CK (2006). "Extreme learning machine: theory and applications".
+Neurocomputing. 70 (1): 489–501. doi:10.1016/j.neucom.2005.12.126 (https://doi.org/10.10
+16%2Fj.neucom.2005.12.126). S2CID 116858 (https://api.semanticscholar.org/CorpusID:11
+6858).
+
+136. Widrow B, et al. (2013). "The no-prop algorithm: A new learning algorithm for multilayer
+neural networks". Neural Networks. 37: 182–188. doi:10.1016/j.neunet.2012.09.020 (https://
+doi.org/10.1016%2Fj.neunet.2012.09.020). PMID 23140797 (https://pubmed.ncbi.nlm.nih.go
+v/23140797).
+
+137. Ollivier Y, Charpiat G (2015). "Training recurrent networks without backtracking".
+arXiv:1507.07680 (https://arxiv.org/abs/1507.07680) [cs.NE (https://arxiv.org/archive/cs.N
+E)].
+
+138. Hinton GE (2010). "A Practical Guide to Training Restricted Boltzmann Machines" (https://w
+ww.researchgate.net/publication/221166159). Tech. Rep. UTML TR 2010-003. Archived (htt
+ps://web.archive.org/web/20210509123211/https://www.researchgate.net/publication/221166
+159_A_brief_introduction_to_Weightless_Neural_Systems) from the original on 9 May 2021.
+Retrieved 27 June 2017.
+
+139. "What Is Hyperparameter Tuning? IBM" (https://www.ibm.com/think/topics/hyperparameter-t
+uning). www.ibm.com. 23 July 2024.
+
+140. Goodfellow I, Bengio Y, Courville A (2016). "8". Deep learning (http://www.deeplearningbook.
+org). Cambridge, Mass: The MIT press. pp. 271–274. ISBN 978-0-262-03561-3. Retrieved
+26 October 2025.
+
+141. Bischl B, Binder M, Lang M, Pielok T, Richter J, Coors S, et al. (March 2023).
+"Hyperparameter optimization: Foundations, algorithms, best practices, and open
+challenges". WIREs Data Mining and Knowledge Discovery. 13 (2) e1484.
+doi:10.1002/widm.1484 (https://doi.org/10.1002%2Fwidm.1484).
+
+142. Wei J (26 April 2019). "Forget the Learning Rate, Decay Loss". arXiv:1905.00094 (https://arx
+iv.org/abs/1905.00094) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+
+
+143. Li Y, Fu Y, Li H, Zhang SW (1 June 2009). "The Improved Training Algorithm of Back
+Propagation Neural Network with Self-adaptive Learning Rate". 2009 International
+Conference on Computational Intelligence and Natural Computing. Vol. 1. pp. 73–76.
+doi:10.1109/CINC.2009.111 (https://doi.org/10.1109%2FCINC.2009.111). ISBN 978-0-7695-
+3645-3. S2CID 10557754 (https://api.semanticscholar.org/CorpusID:10557754).
+
+144. Qian N (1999). "On the momentum term in gradient descent learning algorithms". Neural
+Networks. 12 (1): 145–151. doi:10.1016/S0893-6080(98)00116-6 (https://doi.org/10.1016%2
+FS0893-6080%2898%2900116-6). PMID 12662723 (https://pubmed.ncbi.nlm.nih.gov/12662
+723).
+
+145. Bernard E (2021). Introduction to machine learning (https://www.wolfram.com/language/intro
+duction-machine-learning/machine-learning-paradigms/#p-9). Champaign: Wolfram Media.
+p. 9. ISBN 978-1-57955-048-6. Archived (https://web.archive.org/web/20240519081126/http
+s://www.wolfram.com/language/introduction-machine-learning/machine-learning-paradigms/
+#p-9) from the original on 19 May 2024. Retrieved 22 March 2023.
+
+146. Bernard E (2021). Introduction to machine learning (https://www.wolfram.com/language/intro
+duction-machine-learning/machine-learning-paradigms/#p-9). Champaign: Wolfram Media.
+p. 12. ISBN 978-1-57955-048-6. Archived (https://web.archive.org/web/20240519081126/htt
+ps://www.wolfram.com/language/introduction-machine-learning/machine-learning-paradigm
+s/#p-9) from the original on 19 May 2024. Retrieved 22 March 2023.
+
+147. Bernard E (2021). Introduction to Machine Learning (https://www.wolfram.com/language/intr
+oduction-machine-learning/). Wolfram Media Inc. p. 9. ISBN 978-1-57955-048-6. Archived (h
+ttps://web.archive.org/web/20240519081126/https://www.wolfram.com/language/introduction
+-machine-learning/) from the original on 19 May 2024. Retrieved 28 July 2022.
+
+148. Ojha VK, Abraham A, Snášel V (1 April 2017). "Metaheuristic design of feedforward neural
+networks: A review of two decades of research". Engineering Applications of Artificial
+Intelligence. 60: 97–116. arXiv:1705.05584 (https://arxiv.org/abs/1705.05584).
+Bibcode:2017arXiv170505584O (https://ui.adsabs.harvard.edu/abs/2017arXiv170505584O).
+doi:10.1016/j.engappai.2017.01.013 (https://doi.org/10.1016%2Fj.engappai.2017.01.013).
+S2CID 27910748 (https://api.semanticscholar.org/CorpusID:27910748).
+
+149. Bouchard L (25 November 2020). "What is Self-Supervised Learning? | Will machines ever
+be able to learn like humans?" (https://medium.com/what-is-artificial-intelligence/what-is-self
+-supervised-learning-will-machines-be-able-to-learn-like-humans-d9160f40cdd1). Medium.
+Retrieved 9 June 2021.
+
+150. Doersch C, Zisserman A (October 2017). "Multi-task Self-Supervised Visual Learning" (http
+s://dx.doi.org/10.1109/iccv.2017.226). 2017 IEEE International Conference on Computer
+Vision (ICCV). IEEE. pp. 2070–2079. arXiv:1708.07860 (https://arxiv.org/abs/1708.07860).
+doi:10.1109/iccv.2017.226 (https://doi.org/10.1109%2Ficcv.2017.226). ISBN 978-1-5386-
+1032-9. S2CID 473729 (https://api.semanticscholar.org/CorpusID:473729).
+
+151. Beyer L, Zhai X, Oliver A, Kolesnikov A (October 2019). "S4L: Self-Supervised Semi-
+Supervised Learning" (https://dx.doi.org/10.1109/iccv.2019.00156). 2019 IEEE/CVF
+International Conference on Computer Vision (ICCV). IEEE. pp. 1476–1485.
+arXiv:1905.03670 (https://arxiv.org/abs/1905.03670). doi:10.1109/iccv.2019.00156 (https://d
+oi.org/10.1109%2Ficcv.2019.00156). ISBN 978-1-7281-4803-8. S2CID 167209887 (https://a
+pi.semanticscholar.org/CorpusID:167209887).
+
+152. Doersch C, Gupta A, Efros AA (December 2015). "Unsupervised Visual Representation
+Learning by Context Prediction" (https://dx.doi.org/10.1109/iccv.2015.167). 2015 IEEE
+International Conference on Computer Vision (ICCV). IEEE. pp. 1422–1430.
+arXiv:1505.05192 (https://arxiv.org/abs/1505.05192). doi:10.1109/iccv.2015.167 (https://doi.
+org/10.1109%2Ficcv.2015.167). ISBN 978-1-4673-8391-2. S2CID 9062671 (https://api.sema
+nticscholar.org/CorpusID:9062671).
+
+
+
+153. Zheng X, Wang Y, Wang G, Liu J (April 2018). "Fast and robust segmentation of white blood
+cell images by self-supervised learning" (https://dx.doi.org/10.1016/j.micron.2018.01.010).
+Micron. 107: 55–71. doi:10.1016/j.micron.2018.01.010 (https://doi.org/10.1016%2Fj.micron.
+2018.01.010). ISSN 0968-4328 (https://search.worldcat.org/issn/0968-4328).
+PMID 29425969 (https://pubmed.ncbi.nlm.nih.gov/29425969). S2CID 3796689 (https://api.s
+emanticscholar.org/CorpusID:3796689).
+
+154. Gidaris S, Bursuc A, Komodakis N, Perez PP, Cord M (October 2019). "Boosting Few-Shot
+Visual Learning with Self-Supervision" (https://dx.doi.org/10.1109/iccv.2019.00815). 2019
+IEEE/CVF International Conference on Computer Vision (ICCV). IEEE. pp. 8058–8067.
+arXiv:1906.05186 (https://arxiv.org/abs/1906.05186). doi:10.1109/iccv.2019.00815 (https://d
+oi.org/10.1109%2Ficcv.2019.00815). ISBN 978-1-7281-4803-8. S2CID 186206588 (https://a
+pi.semanticscholar.org/CorpusID:186206588).
+
+155. "Wav2vec: State-of-the-art speech recognition through self-supervision" (https://ai.facebook.
+com/blog/wav2vec-state-of-the-art-speech-recognition-through-self-supervision/).
+ai.facebook.com. Retrieved 9 June 2021.
+
+156. Dominic, S., Das, R., Whitley, D., Anderson, C. (July 1991). "Genetic reinforcement learning
+for neural networks" (https://archive.org/details/ijcnn91seattlein01ieee). IJCNN-91-Seattle
+International Joint Conference on Neural Networks. IJCNN-91-Seattle International Joint
+Conference on Neural Networks. Seattle, Washington, US: IEEE. pp. 71–76.
+doi:10.1109/IJCNN.1991.155315 (https://doi.org/10.1109%2FIJCNN.1991.155315). ISBN 0-
+7803-0164-1.
+
+157. Hoskins J, Himmelblau, D.M. (1992). "Process control via artificial neural networks and
+reinforcement learning" (https://archive.org/details/sim_computers-chemical-engineering_19
+92-04_16_4/page/241). Computers & Chemical Engineering. 16 (4): 241–251.
+doi:10.1016/0098-1354(92)80045-B (https://doi.org/10.1016%2F0098-1354%2892%298004
+5-B).
+
+158. Bertsekas D, Tsitsiklis J (1996). Neuro-dynamic programming (https://papers.nips.cc/paper/4
+741-deep-neural-networks-segment-neuronal-membranes-in-electron-microscopy-images).
+Athena Scientific. p. 512. ISBN 978-1-886529-10-6. Archived (https://web.archive.org/web/2
+0170629172039/http://papers.nips.cc/paper/4741-deep-neural-networks-segment-neuronal-
+membranes-in-electron-microscopy-images) from the original on 29 June 2017. Retrieved
+17 June 2017.
+
+159. Secomandi N (2000). "Comparing neuro-dynamic programming algorithms for the vehicle
+routing problem with stochastic demands" (https://archive.org/details/sim_computers-operati
+ons-research_september-october-2000_27_11-12/page/1201). Computers & Operations
+Research. 27 (11–12): 1201–1225. doi:10.1016/S0305-0548(99)00146-X (https://doi.org/10.
+1016%2FS0305-0548%2899%2900146-X).
+
+160. de Rigo, D., Rizzoli, A. E., Soncini-Sessa, R., Weber, E., Zenesi, P. (2001). "Neuro-dynamic
+programming for the efficient management of reservoir networks" (http://www.mssanz.org.a
+u/MODSIM01/MODSIM01.htm). Proceedings of MODSIM 2001, International Congress on
+Modelling and Simulation. MODSIM 2001, International Congress on Modelling and
+Simulation. Canberra, Australia: Modelling and Simulation Society of Australia and New
+Zealand. doi:10.5281/zenodo.7481 (https://doi.org/10.5281%2Fzenodo.7481). ISBN 0-
+86740-525-2. Archived (https://web.archive.org/web/20130807223658/http://mssanz.org.au/
+MODSIM01/MODSIM01.htm) from the original on 7 August 2013. Retrieved 29 July 2013.
+
+161. Damas, M., Salmeron, M., Diaz, A., Ortega, J., Prieto, A., Olivares, G. (2000). "Genetic
+algorithms and neuro-dynamic programming: application to water supply networks".
+Proceedings of 2000 Congress on Evolutionary Computation. 2000 Congress on
+Evolutionary Computation. Vol. 1. La Jolla, California, US: IEEE. pp. 7–14.
+doi:10.1109/CEC.2000.870269 (https://doi.org/10.1109%2FCEC.2000.870269). ISBN 0-
+7803-6375-2.
+
+
+
+162. Deng G, Ferris, M.C. (2008). "Neuro-dynamic programming for fractionated radiotherapy
+planning". Optimization in Medicine. Springer Optimization and Its Applications. Vol. 12.
+pp. 47–70. doi:10.1007/978-0-387-73299-2_3 (https://doi.org/10.1007%2F978-0-387-73299-
+2_3). ISBN 978-0-387-73298-5.
+
+163. Bozinovski, S. (1982). "A self-learning system using secondary reinforcement". In R. Trappl
+(ed.) Cybernetics and Systems Research: Proceedings of the Sixth European Meeting on
+Cybernetics and Systems Research. North Holland. pp. 397–402. ISBN 978-0-444-86488-8.
+
+164. Bozinovski, S. (2014) "Modeling mechanisms of cognition-emotion interaction in artificial
+neural networks, since 1981 (https://core.ac.uk/download/pdf/81973924.pdf) Archived (http
+s://web.archive.org/web/20190323204838/https://core.ac.uk/download/pdf/81973924.pdf) 23
+March 2019 at the Wayback Machine." Procedia Computer Science p. 255-263
+
+165. Bozinovski S, Bozinovska L (2001). "Self-learning agents: A connectionist theory of emotion
+based on crossbar value judgment". Cybernetics and Systems. 32 (6): 637–669.
+doi:10.1080/01969720118145 (https://doi.org/10.1080%2F01969720118145).
+S2CID 8944741 (https://api.semanticscholar.org/CorpusID:8944741).
+
+166. Salimans T, Ho J, Chen X, Sidor S, Sutskever I (7 September 2017). "Evolution Strategies
+as a Scalable Alternative to Reinforcement Learning". arXiv:1703.03864 (https://arxiv.org/ab
+s/1703.03864) [stat.ML (https://arxiv.org/archive/stat.ML)].
+
+167. Such FP, Madhavan V, Conti E, Lehman J, Stanley KO, Clune J (20 April 2018). "Deep
+Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural
+Networks for Reinforcement Learning". arXiv:1712.06567 (https://arxiv.org/abs/1712.06567)
+[cs.NE (https://arxiv.org/archive/cs.NE)].
+
+168. "Artificial intelligence can 'evolve' to solve problems" (https://www.science.org/content/articl
+e/artificial-intelligence-can-evolve-solve-problems). Science | AAAS. 10 January 2018.
+Archived (https://web.archive.org/web/20211209231714/https://www.science.org/content/arti
+cle/artificial-intelligence-can-evolve-solve-problems) from the original on 9 December 2021.
+Retrieved 7 February 2018.
+
+169. Ackley DH, Hinton GE, Sejnowski TJ (1985). "A Learning Algorithm for Boltzmann
+Machines". Cognitive Science. 9 (1): 147–169. doi:10.1207/s15516709cog0901_7 (https://d
+oi.org/10.1207%2Fs15516709cog0901_7).
+
+170. Turchetti C (2004). Stochastic Models of Neural Networks. Frontiers in artificial intelligence
+and applications: Knowledge-based intelligent engineering systems. Vol. 102. IOS Press.
+ISBN 978-1-58603-388-0.
+
+171. Jospin LV, Laga H, Boussaid F, Buntine W, Bennamoun M (2022). "Hands-On Bayesian
+Neural Networks—A Tutorial for Deep Learning Users". IEEE Computational Intelligence
+Magazine. Vol. 17, no. 2. pp. 29–48. arXiv:2007.06823 (https://arxiv.org/abs/2007.06823).
+doi:10.1109/mci.2022.3155327 (https://doi.org/10.1109%2Fmci.2022.3155327). ISSN 1556-
+603X (https://search.worldcat.org/issn/1556-603X). S2CID 220514248 (https://api.semantics
+cholar.org/CorpusID:220514248).
+
+172. Cang Z, Wei GW (27 July 2017). "TopologyNet: Topology based deep convolutional and
+multi-task neural networks for biomolecular property predictions" (https://www.ncbi.nlm.nih.g
+ov/pmc/articles/PMC5549771). PLOS Computational Biology. 13 (7) e1005690.
+arXiv:1704.00063 (https://arxiv.org/abs/1704.00063). Bibcode:2017PLSCB..13E5690C (http
+s://ui.adsabs.harvard.edu/abs/2017PLSCB..13E5690C). doi:10.1371/journal.pcbi.1005690
+(https://doi.org/10.1371%2Fjournal.pcbi.1005690). ISSN 1553-7358 (https://search.worldcat.
+org/issn/1553-7358). PMC 5549771 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC554977
+1). PMID 28749969 (https://pubmed.ncbi.nlm.nih.gov/28749969).
+
+
+
+173. de Rigo, D., Castelletti, A., Rizzoli, A. E., Soncini-Sessa, R., Weber, E. (January 2005). "A
+selective improvement technique for fastening Neuro-Dynamic Programming in Water
+Resources Network Management" (http://www.nt.ntnu.no/users/skoge/prost/proceedings/ifa
+c2005/Papers/Paper4269.html). In Pavel Zítek (ed.). Proceedings of the 16th IFAC World
+Congress – IFAC-PapersOnLine. 16th IFAC World Congress (http://www.nt.ntnu.no/users/sk
+oge/prost/proceedings/ifac2005/Index.html). Vol. 16. Prague, Czech Republic: IFAC. pp. 7–
+12. doi:10.3182/20050703-6-CZ-1902.02172 (https://doi.org/10.3182%2F20050703-6-CZ-1
+902.02172). hdl:11311/255236 (https://hdl.handle.net/11311%2F255236). ISBN 978-3-
+902661-75-3. Archived (https://web.archive.org/web/20120426012450/http://www.nt.ntnu.no/
+users/skoge/prost/proceedings/ifac2005/Papers/Paper4269.html) from the original on 26
+April 2012. Retrieved 30 December 2011.
+
+174. Ferreira C (2006). "Designing Neural Networks Using Gene Expression Programming". In A.
+Abraham, B. de Baets, M. Köppen, B. Nickolay (eds.). Applied Soft Computing
+Technologies: The Challenge of Complexity (http://www.gene-expression-programming.com/
+webpapers/Ferreira-ASCT2006.pdf) (PDF). Springer-Verlag. pp. 517–536. Archived (https://
+web.archive.org/web/20131219022806/http://www.gene-expression-programming.com/web
+papers/Ferreira-ASCT2006.pdf) (PDF) from the original on 19 December 2013. Retrieved
+8 October 2012.
+
+175. Da, Y., Xiurun, G. (July 2005). "An improved PSO-based ANN with simulated annealing
+technique" (https://web.archive.org/web/20120425233611/http://www.dice.ucl.ac.be/esann/p
+roceedings/electronicproceedings.htm). In T. Villmann (ed.). New Aspects in
+Neurocomputing: 11th European Symposium on Artificial Neural Networks. Vol. 63. Elsevier.
+pp. 527–533. doi:10.1016/j.neucom.2004.07.002 (https://doi.org/10.1016%2Fj.neucom.200
+4.07.002). Archived from the original (http://www.dice.ucl.ac.be/esann/proceedings/electroni
+cproceedings.htm) on 25 April 2012. Retrieved 30 December 2011.
+
+176. Wu, J., Chen, E. (May 2009). "A Novel Nonparametric Regression Ensemble for Rainfall
+Forecasting Using Particle Swarm Optimization Technique Coupled with Artificial Neural
+Network" (https://web.archive.org/web/20141231221755/http://www2.mae.cuhk.edu.hk/~isn
+n2009/). In Wang, H., Shen, Y., Huang, T., Zeng, Z. (eds.). 6th International Symposium on
+Neural Networks, ISNN 2009. Lecture Notes in Computer Science. Vol. 5553. Springer.
+pp. 49–58. doi:10.1007/978-3-642-01513-7_6 (https://doi.org/10.1007%2F978-3-642-01513-
+7_6). ISBN 978-3-642-01215-0. Archived from the original (http://www2.mae.cuhk.edu.hk/~i
+snn2009/) on 31 December 2014. Retrieved 1 January 2012.
+
+177. Ting Qin, Zonghai Chen, Haitao Zhang, Sifu Li, Wei Xiang, Ming Li (2004). "A learning
+algorithm of CMAC based on RLS" (http://www-control.eng.cam.ac.uk/Homepage/papers/cu
+ed_control_998.pdf) (PDF). Neural Processing Letters. 19 (1): 49–61.
+doi:10.1023/B:NEPL.0000016847.18175.60 (https://doi.org/10.1023%2FB%3ANEPL.00000
+16847.18175.60). S2CID 6233899 (https://api.semanticscholar.org/CorpusID:6233899).
+Archived (https://web.archive.org/web/20210414103815/http://www-control.eng.cam.ac.uk/H
+omepage/papers/cued_control_998.pdf) (PDF) from the original on 14 April 2021. Retrieved
+30 January 2019.
+
+178. Ting Qin, Haitao Zhang, Zonghai Chen, Wei Xiang (2005). "Continuous CMAC-QRLS and
+its systolic array" (http://www-control.eng.cam.ac.uk/Homepage/papers/cued_control_997.p
+df) (PDF). Neural Processing Letters. 22 (1): 1–16. doi:10.1007/s11063-004-2694-0 (https://
+doi.org/10.1007%2Fs11063-004-2694-0). S2CID 16095286 (https://api.semanticscholar.org/
+CorpusID:16095286). Archived (https://web.archive.org/web/20181118122850/http://www-co
+ntrol.eng.cam.ac.uk/Homepage/papers/cued_control_997.pdf) (PDF) from the original on 18
+November 2018. Retrieved 30 January 2019.
+
+179. LeCun Y, Boser B, Denker JS, Henderson D, Howard RE, Hubbard W, et al. (1989).
+"Backpropagation Applied to Handwritten Zip Code Recognition" (https://archive.org/details/
+sim_neural-computation_winter-1989_1_4/page/541). Neural Computation. 1 (4): 541–551.
+doi:10.1162/neco.1989.1.4.541 (https://doi.org/10.1162%2Fneco.1989.1.4.541).
+S2CID 41312633 (https://api.semanticscholar.org/CorpusID:41312633).
+
+
+
+180. Yann LeCun (2016). Slides on Deep Learning Online (https://indico.cern.ch/event/510372/)
+Archived (https://web.archive.org/web/20160423021403/https://indico.cern.ch/event/51037
+2/) 23 April 2016 at the Wayback Machine
+
+181. Probst P, Boulesteix AL, Bischl B (26 February 2018). "Tunability: Importance of
+Hyperparameters of Machine Learning Algorithms". J. Mach. Learn. Res. 20: 53:1–53:32.
+S2CID 88515435 (https://api.semanticscholar.org/CorpusID:88515435).
+
+182. Zoph B, Le QV (4 November 2016). "Neural Architecture Search with Reinforcement
+Learning". arXiv:1611.01578 (https://arxiv.org/abs/1611.01578) [cs.LG (https://arxiv.org/archi
+ve/cs.LG)].
+
+183. Haifeng Jin, Qingquan Song, Xia Hu (2019). "Auto-keras: An efficient neural architecture
+search system" (https://autokeras.com/). Proceedings of the 25th ACM SIGKDD
+International Conference on Knowledge Discovery & Data Mining. ACM. arXiv:1806.10282
+(https://arxiv.org/abs/1806.10282). Archived (https://web.archive.org/web/20190821163310/
+https://autokeras.com/) from the original on 21 August 2019. Retrieved 21 August 2019 – via
+autokeras.com.
+
+184. Claesen M, De Moor B (2015). "Hyperparameter Search in Machine Learning".
+arXiv:1502.02127 (https://arxiv.org/abs/1502.02127) [cs.LG (https://arxiv.org/archive/cs.LG)].
+Bibcode:2015arXiv150202127C (https://ui.adsabs.harvard.edu/abs/2015arXiv150202127C)
+
+185. Siegelmann H, Sontag E (1991). "Turing computability with neural nets" (http://www.math.rut
+gers.edu/~sontag/FTPDIR/aml-turing.pdf) (PDF). Appl. Math. Lett. 4 (6): 77–80.
+doi:10.1016/0893-9659(91)90080-F (https://doi.org/10.1016%2F0893-9659%2891%299008
+0-F). Archived (https://web.archive.org/web/20240519082138/http://www.math.rutgers.edu/~
+sontag/FTPDIR/aml-turing.pdf) (PDF) from the original on 19 May 2024. Retrieved
+10 January 2017.
+
+186. Bains S (3 November 1998). "Analog computer trumps Turing model" (https://www.eetimes.
+com/analog-computer-trumps-turing-model/). EE Times. Archived (https://web.archive.org/w
+eb/20230511152308/https://www.eetimes.com/analog-computer-trumps-turing-model/) from
+the original on 11 May 2023. Retrieved 11 May 2023.
+
+187. Balcázar J (July 1997). "Computational Power of Neural Networks: A Kolmogorov
+Complexity Characterization" (https://archive.org/details/ieee-transactions-on-information-th
+eory_1997-07_43_4/page/1175). IEEE Transactions on Information Theory. 43 (4): 1175–
+1183. doi:10.1109/18.605580 (https://doi.org/10.1109%2F18.605580).
+
+188. Gerald F (2019). "Reproducibility and Experimental Design for Machine Learning on Audio
+and Multimedia Data". Proceedings of the 27th ACM International Conference on
+Multimedia. ACM. pp. 2709–2710. doi:10.1145/3343031.3350545 (https://doi.org/10.1145%2
+F3343031.3350545). ISBN 978-1-4503-6889-6. S2CID 204837170 (https://api.semanticsch
+olar.org/CorpusID:204837170).
+
+189. "Stop tinkering, start measuring! Predictable experimental design of Neural Network
+experiments" (https://web.archive.org/web/20220418025904/http://tfmeter.icsi.berkeley.ed
+u/). The Tensorflow Meter. Archived from the original (http://tfmeter.icsi.berkeley.edu/) on 18
+April 2022. Retrieved 10 March 2020.
+
+190. MacKay DJ (2003). Information Theory, Inference, and Learning Algorithms (http://www.infer
+ence.phy.cam.ac.uk/itprnn/book.pdf) (PDF). Cambridge University Press. ISBN 978-0-521-
+64298-9. Archived (https://web.archive.org/web/20161019163258/http://www.inference.phy.c
+am.ac.uk/itprnn/book.pdf) (PDF) from the original on 19 October 2016. Retrieved 11 June
+2016.
+
+191. Lee J, Xiao L, Schoenholz SS, Bahri Y, Novak R, Sohl-Dickstein J, et al. (2020). "Wide
+neural networks of any depth evolve as linear models under gradient descent". Journal of
+Statistical Mechanics: Theory and Experiment. 2020 (12): 124002. arXiv:1902.06720 (http
+s://arxiv.org/abs/1902.06720). Bibcode:2020JSMTE2020l4002L (https://ui.adsabs.harvard.e
+du/abs/2020JSMTE2020l4002L). doi:10.1088/1742-5468/abc62b (https://doi.org/10.1088%2
+F1742-5468%2Fabc62b). S2CID 62841516 (https://api.semanticscholar.org/CorpusID:6284
+1516).
+
+
+
+192. Arthur Jacot, Franck Gabriel, Clement Hongler (2018). Neural Tangent Kernel: Convergence
+and Generalization in Neural Networks (https://proceedings.neurips.cc/paper/2018/file/5a4b
+e1fa34e62bb8a6ec6b91d2462f5a-Paper.pdf) (PDF). 32nd Conference on Neural
+Information Processing Systems (NeurIPS 2018), Montreal, Canada. Archived (https://web.a
+rchive.org/web/20220622033100/https://proceedings.neurips.cc/paper/2018/file/5a4be1fa34
+e62bb8a6ec6b91d2462f5a-Paper.pdf) (PDF) from the original on 22 June 2022. Retrieved
+4 June 2022.
+
+193. Xu ZJ, Zhang Y, Xiao Y (2019). "Training Behavior of Deep Neural Network in Frequency
+Domain". In Gedeon T, Wong K, Lee M (eds.). Neural Information Processing. Lecture Notes
+in Computer Science. Vol. 11953. Springer, Cham. pp. 264–274. arXiv:1807.01251 (https://a
+rxiv.org/abs/1807.01251). doi:10.1007/978-3-030-36708-4_22 (https://doi.org/10.1007%2F9
+78-3-030-36708-4_22). ISBN 978-3-030-36707-7. S2CID 49562099 (https://api.semanticsch
+olar.org/CorpusID:49562099).
+
+194. Nasim Rahaman, Aristide Baratin, Devansh Arpit, Felix Draxler, Min Lin, Fred Hamprecht,
+et al. (2019). "On the Spectral Bias of Neural Networks" (http://proceedings.mlr.press/v97/ra
+haman19a/rahaman19a.pdf) (PDF). Proceedings of the 36th International Conference on
+Machine Learning. 97: 5301–5310. arXiv:1806.08734 (https://arxiv.org/abs/1806.08734).
+Archived (https://web.archive.org/web/20221022155951/http://proceedings.mlr.press/v97/ra
+haman19a/rahaman19a.pdf) (PDF) from the original on 22 October 2022. Retrieved 4 June
+2022.
+
+195. Tao Luo, Zheng Ma, Zhi-Qin John Xu, Yaoyu Zhang (2019). "Theory of the Frequency
+Principle for General Deep Neural Networks". CSIAM Transactions on Applied Mathematics.
+2 (3): 484–507. arXiv:1906.09235 (https://arxiv.org/abs/1906.09235). doi:10.4208/csiam-
+am.SO-2020-0005 (https://doi.org/10.4208%2Fcsiam-am.SO-2020-0005).
+
+196. Xu ZJ, Zhou H (18 May 2021). "Deep Frequency Principle Towards Understanding Why
+Deeper Learning is Faster" (https://ojs.aaai.org/index.php/AAAI/article/view/17261).
+Proceedings of the AAAI Conference on Artificial Intelligence. 35 (12): 10541–10550.
+arXiv:2007.14313 (https://arxiv.org/abs/2007.14313). doi:10.1609/aaai.v35i12.17261 (http
+s://doi.org/10.1609%2Faaai.v35i12.17261). ISSN 2374-3468 (https://search.worldcat.org/iss
+n/2374-3468). S2CID 220831156 (https://api.semanticscholar.org/CorpusID:220831156).
+Archived (https://web.archive.org/web/20211005142300/https://ojs.aaai.org/index.php/AAAI/
+article/view/17261) from the original on 5 October 2021. Retrieved 5 October 2021.
+
+197. Esch R (1990). "Functional Approximation". Handbook of Applied Mathematics (Springer
+US ed.). Boston, MA: Springer US. pp. 928–987. doi:10.1007/978-1-4684-1423-3_17 (http
+s://doi.org/10.1007%2F978-1-4684-1423-3_17). ISBN 978-1-4684-1423-3.
+
+198. Sarstedt M, Moo E (2019). "Regression Analysis" (https://link.springer.com/chapter/10.1007/
+978-3-662-56707-4_7#Sec1). A Concise Guide to Market Research. Springer Texts in
+Business and Economics. Springer Berlin Heidelberg. pp. 209–256. doi:10.1007/978-3-662-
+56707-4_7 (https://doi.org/10.1007%2F978-3-662-56707-4_7). ISBN 978-3-662-56706-7.
+S2CID 240396965 (https://api.semanticscholar.org/CorpusID:240396965). Archived (https://
+web.archive.org/web/20230320212723/https://link.springer.com/chapter/10.1007/978-3-662-
+56707-4_7#Sec1) from the original on 20 March 2023. Retrieved 20 March 2023.
+
+199. Tian J, Tan Y, Sun C, Zeng J, Jin Y (December 2016). "A self-adaptive similarity-based
+fitness approximation for evolutionary optimization". 2016 IEEE Symposium Series on
+Computational Intelligence (SSCI). pp. 1–8. doi:10.1109/SSCI.2016.7850209 (https://doi.or
+g/10.1109%2FSSCI.2016.7850209). ISBN 978-1-5090-4240-1. S2CID 14948018 (https://ap
+i.semanticscholar.org/CorpusID:14948018).
+
+200. Alaloul WS, Qureshi AH (2019). "Data Processing Using Artificial Neural Networks" (https://
+www.intechopen.com/chapters/71673). Dynamic Data Assimilation – Beating the
+Uncertainties. doi:10.5772/intechopen.91935 (https://doi.org/10.5772%2Fintechopen.9193
+5). ISBN 978-1-83968-083-0. S2CID 219735060 (https://api.semanticscholar.org/CorpusID:
+219735060). Archived (https://web.archive.org/web/20230320212722/https://www.intechope
+n.com/chapters/71673) from the original on 20 March 2023. Retrieved 20 March 2023.
+
+
+
+201. Pal M, Roy R, Basu J, Bepari MS (2013). "Blind source separation: A review and analysis".
+2013 International Conference Oriental COCOSDA held jointly with 2013 Conference on
+Asian Spoken Language Research and Evaluation (O-COCOSDA/CASLRE). IEEE. pp. 1–5.
+doi:10.1109/ICSDA.2013.6709849 (https://doi.org/10.1109%2FICSDA.2013.6709849).
+ISBN 978-1-4799-2378-6. S2CID 37566823 (https://api.semanticscholar.org/CorpusID:3756
+6823).
+
+202. Zissis D (October 2015). "A cloud based architecture capable of perceiving and predicting
+multiple vessel behaviour" (https://zenodo.org/record/848743). Applied Soft Computing. 35:
+652–661. doi:10.1016/j.asoc.2015.07.002 (https://doi.org/10.1016%2Fj.asoc.2015.07.002).
+Archived (https://web.archive.org/web/20200726091505/https://zenodo.org/record/848743)
+from the original on 26 July 2020. Retrieved 18 July 2019.
+
+203. Sengupta N, Sahidullah, Md, Saha, Goutam (August 2016). "Lung sound classification using
+cepstral-based statistical features". Computers in Biology and Medicine. 75 (1): 118–129.
+doi:10.1016/j.compbiomed.2016.05.013 (https://doi.org/10.1016%2Fj.compbiomed.2016.05.
+013). PMID 27286184 (https://pubmed.ncbi.nlm.nih.gov/27286184).
+
+204. Choy CB, Xu D, Gwak J, Chen K, Savarese S (2016). "3D-R2N2: A Unified Approach for
+Single and Multi-view 3D Object Reconstruction". arXiv:1604.00449 (https://arxiv.org/abs/16
+04.00449) [cs.CV (https://arxiv.org/archive/cs.CV)].
+
+205. Turek, Fred D. (March 2007). "Introduction to Neural Net Machine Vision" (http://www.vision-
+systems.com/articles/print/volume-12/issue-3/features/introduction-to-neural-net-machine-vi
+sion.html). Vision Systems Design. 12 (3). Archived (https://web.archive.org/web/201305161
+24148/http://www.vision-systems.com/articles/print/volume-12/issue-3/features/introduction-t
+o-neural-net-machine-vision.html) from the original on 16 May 2013. Retrieved 5 March
+2013.
+
+206. Maitra DS, Bhattacharya U, Parui SK (August 2015). "CNN based common approach to
+handwritten character recognition of multiple scripts". 2015 13th International Conference on
+Document Analysis and Recognition (ICDAR). pp. 1021–1025.
+doi:10.1109/ICDAR.2015.7333916 (https://doi.org/10.1109%2FICDAR.2015.7333916).
+ISBN 978-1-4799-1805-8. S2CID 25739012 (https://api.semanticscholar.org/CorpusID:2573
+9012).
+
+207. Gessler J (August 2021). "Sensor for food analysis applying impedance spectroscopy and
+artificial neural networks" (https://riunet.upv.es/handle/10251/174498). RiuNet UPV (1): 8–
+12. Archived (https://web.archive.org/web/20211021115443/https://riunet.upv.es/handle/102
+51/174498) from the original on 21 October 2021. Retrieved 21 October 2021.
+
+208. French J (2016). "The time traveller's CAPM". Investment Analysts Journal. 46 (2): 81–96.
+doi:10.1080/10293523.2016.1255469 (https://doi.org/10.1080%2F10293523.2016.125546
+9). S2CID 157962452 (https://api.semanticscholar.org/CorpusID:157962452).
+
+209. Roman M. Balabin, Ekaterina I. Lomakina (2009). "Neural network approach to quantum-
+chemistry data: Accurate prediction of density functional theory energies". J. Chem. Phys.
+131 (7): 074104. Bibcode:2009JChPh.131g4104B (https://ui.adsabs.harvard.edu/abs/2009J
+ChPh.131g4104B). doi:10.1063/1.3206326 (https://doi.org/10.1063%2F1.3206326).
+PMID 19708729 (https://pubmed.ncbi.nlm.nih.gov/19708729).
+
+210. Silver D, et al. (2016). "Mastering the game of Go with deep neural networks and tree
+search" (http://web.iitd.ac.in/~sumeet/Silver16.pdf) (PDF). Nature. 529 (7587): 484–489.
+Bibcode:2016Natur.529..484S (https://ui.adsabs.harvard.edu/abs/2016Natur.529..484S).
+doi:10.1038/nature16961 (https://doi.org/10.1038%2Fnature16961). PMID 26819042 (http
+s://pubmed.ncbi.nlm.nih.gov/26819042). S2CID 515925 (https://api.semanticscholar.org/Cor
+pusID:515925). Archived (https://web.archive.org/web/20181123112812/http://web.iitd.ac.in/
+~sumeet/Silver16.pdf) (PDF) from the original on 23 November 2018. Retrieved 31 January
+2019.
+
+
+
+211. Pasick A (27 March 2023). "Artificial Intelligence Glossary: Neural Networks and Other
+Terms Explained" (https://www.nytimes.com/article/ai-artificial-intelligence-glossary.html).
+The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331).
+Archived (https://web.archive.org/web/20230901183440/https://www.nytimes.com/article/ai-a
+rtificial-intelligence-glossary.html) from the original on 1 September 2023. Retrieved 22 April
+2023.
+
+212. Schechner S (15 June 2017). "Facebook Boosts A.I. to Block Terrorist Propaganda" (https://
+www.wsj.com/articles/facebook-boosts-a-i-to-block-terrorist-propaganda-1497546000). The
+Wall Street Journal. ISSN 0099-9660 (https://search.worldcat.org/issn/0099-9660). Archived
+(https://web.archive.org/web/20240519082135/https://www.wsj.com/articles/facebook-boost
+s-a-i-to-block-terrorist-propaganda-1497546000) from the original on 19 May 2024.
+Retrieved 16 June 2017.
+
+213. Ciaramella A, Ciaramella M (2024). Introduction to Artificial Intelligence: from data analysis
+to generative AI. Intellisemantic Editions. ISBN 978-8-8947-8760-3.
+
+214. Maity A (March 2026). "CrisisSense: Transforming Social Signals into Real-Time Disaster
+Awareness via Deep Neural Intelligence". 2026 IEEE Madhya Pradesh Section Conference
+(MPCON). pp. 1501–1506. doi:10.1109/MPCON69668.2026.11508516 (https://doi.org/10.11
+09%2FMPCON69668.2026.11508516). ISBN 979-8-3315-9335-3.
+
+215. Ganesan N (2010). "Application of Neural Networks in Diagnosing Cancer Disease Using
+Demographic Data" (https://doi.org/10.5120%2F476-783). International Journal of Computer
+Applications. 1 (26): 81–97. Bibcode:2010IJCA....1z..81G (https://ui.adsabs.harvard.edu/ab
+s/2010IJCA....1z..81G). doi:10.5120/476-783 (https://doi.org/10.5120%2F476-783).
+
+216. Bottaci L (1997). "Artificial Neural Networks Applied to Outcome Prediction for Colorectal
+Cancer Patients in Separate Institutions" (https://web.archive.org/web/20181123170444/htt
+p://www.lcc.uma.es/~jja/recidiva/042.pdf) (PDF). Lancet. 350 (9076). The Lancet: 469–72.
+doi:10.1016/S0140-6736(96)11196-X (https://doi.org/10.1016%2FS0140-6736%2896%2911
+196-X). PMID 9274582 (https://pubmed.ncbi.nlm.nih.gov/9274582). S2CID 18182063 (http
+s://api.semanticscholar.org/CorpusID:18182063). Archived from the original (http://www.lcc.u
+ma.es/~jja/recidiva/042.pdf) (PDF) on 23 November 2018. Retrieved 2 May 2012.
+
+217. Alizadeh E, Lyons SM, Castle JM, Prasad A (2016). "Measuring systematic changes in
+invasive cancer cell shape using Zernike moments" (http://pubs.rsc.org/en/Content/ArticleLa
+nding/2016/IB/C6IB00100A). Integrative Biology. 8 (11): 1183–1193.
+doi:10.1039/C6IB00100A (https://doi.org/10.1039%2FC6IB00100A). PMID 27735002 (http
+s://pubmed.ncbi.nlm.nih.gov/27735002). Archived (https://web.archive.org/web/2024051908
+2133/https://pubs.rsc.org/en/Content/ArticleLanding/2016/IB/C6IB00100A) from the original
+on 19 May 2024. Retrieved 28 March 2017.
+
+218. Lyons S (2016). "Changes in cell shape are correlated with metastatic potential in murine" (h
+ttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810736). Biology Open. 5 (3): 289–299.
+doi:10.1242/bio.013409 (https://doi.org/10.1242%2Fbio.013409). PMC 4810736 (https://ww
+w.ncbi.nlm.nih.gov/pmc/articles/PMC4810736). PMID 26873952 (https://pubmed.ncbi.nlm.ni
+h.gov/26873952).
+
+219. Nabian MA, Meidani H (28 August 2017). "Deep Learning for Accelerated Reliability Analysis
+of Infrastructure Networks". Computer-Aided Civil and Infrastructure Engineering. 33 (6):
+443–458. arXiv:1708.08551 (https://arxiv.org/abs/1708.08551).
+Bibcode:2017arXiv170808551N (https://ui.adsabs.harvard.edu/abs/2017arXiv170808551N).
+doi:10.1111/mice.12359 (https://doi.org/10.1111%2Fmice.12359). S2CID 36661983 (https://a
+pi.semanticscholar.org/CorpusID:36661983).
+
+220. Nabian MA, Meidani H (2018). "Accelerating Stochastic Assessment of Post-Earthquake
+Transportation Network Connectivity via Machine-Learning-Based Surrogates" (https://trid.tr
+b.org/view/1496617). Transportation Research Board 97th Annual Meeting. Archived (http
+s://web.archive.org/web/20180309120108/https://trid.trb.org/view/1496617) from the original
+on 9 March 2018. Retrieved 14 March 2018.
+
+
+
+221. Díaz E, Brotons V, Tomás R (September 2018). "Use of artificial neural networks to predict
+3-D elastic settlement of foundations on soils with inclined bedrock" (https://doi.org/10.101
+6%2Fj.sandf.2018.08.001). Soils and Foundations. 58 (6): 1414–1422.
+Bibcode:2018SoFou..58.1414D (https://ui.adsabs.harvard.edu/abs/2018SoFou..58.1414D).
+doi:10.1016/j.sandf.2018.08.001 (https://doi.org/10.1016%2Fj.sandf.2018.08.001).
+hdl:10045/81208 (https://hdl.handle.net/10045%2F81208). ISSN 0038-0806 (https://search.
+worldcat.org/issn/0038-0806).
+
+222. Tayebiyan A, Mohammad TA, Ghazali AH, Mashohor S. "Artificial Neural Network for
+Modelling Rainfall-Runoff" (http://www.pertanika.upm.edu.my/pjtas/browse/regular-issue?arti
+cle=JST-0566-2015). Pertanika Journal of Science & Technology. 24 (2): 319–330. Archived
+(https://web.archive.org/web/20230517014047/http://www.pertanika.upm.edu.my/pjtas/brow
+se/regular-issue?article=JST-0566-2015) from the original on 17 May 2023. Retrieved
+17 May 2023.
+
+223. Govindaraju RS (1 April 2000). "Artificial Neural Networks in Hydrology. I: Preliminary
+Concepts" (https://archive.org/details/sim_journal-of-hydrologic-engineering_2000-04_5_2/p
+age/115). Journal of Hydrologic Engineering. 5 (2): 115–123. Bibcode:2000JHEne...5..115.
+(https://ui.adsabs.harvard.edu/abs/2000JHEne...5..115.). doi:10.1061/(ASCE)1084-
+0699(2000)5:2(115) (https://doi.org/10.1061%2F%28ASCE%291084-0699%282000%295%
+3A2%28115%29).
+
+224. Govindaraju RS (1 April 2000). "Artificial Neural Networks in Hydrology. II: Hydrologic
+Applications" (https://archive.org/details/sim_journal-of-hydrologic-engineering_2000-04_5_
+2/page/n15). Journal of Hydrologic Engineering. 5 (2): 124–137.
+Bibcode:2000JHEne...5..124. (https://ui.adsabs.harvard.edu/abs/2000JHEne...5..124.).
+doi:10.1061/(ASCE)1084-0699(2000)5:2(124) (https://doi.org/10.1061%2F%28ASCE%2910
+84-0699%282000%295%3A2%28124%29).
+
+225. Peres DJ, Iuppa C, Cavallaro L, Cancelliere A, Foti E (1 October 2015). "Significant wave
+height record extension by neural networks and reanalysis wind data". Ocean Modelling. 94:
+128–140. Bibcode:2015OcMod..94..128P (https://ui.adsabs.harvard.edu/abs/2015OcMod..9
+4..128P). doi:10.1016/j.ocemod.2015.08.002 (https://doi.org/10.1016%2Fj.ocemod.2015.08.
+002).
+
+226. Dwarakish GS, Rakshith S, Natesan U (2013). "Review on Applications of Neural Network in
+Coastal Engineering" (http://www.ciitresearch.org/dl/index.php/aiml/article/view/AIML072013
+007). Artificial Intelligent Systems and Machine Learning. 5 (7): 324–331. Archived (https://w
+eb.archive.org/web/20170815185634/http://www.ciitresearch.org/dl/index.php/aiml/article/vie
+w/AIML072013007) from the original on 15 August 2017. Retrieved 5 July 2017.
+
+227. Ermini L, Catani F, Casagli N (1 March 2005). "Artificial Neural Networks applied to landslide
+susceptibility assessment". Geomorphology. Geomorphological hazard and human impact
+in mountain environments. 66 (1): 327–343. Bibcode:2005Geomo..66..327E (https://ui.adsa
+bs.harvard.edu/abs/2005Geomo..66..327E). doi:10.1016/j.geomorph.2004.09.025 (https://d
+oi.org/10.1016%2Fj.geomorph.2004.09.025).
+
+228. Nix R, Zhang J (May 2017). "Classification of Android apps and malware using deep neural
+networks". 2017 International Joint Conference on Neural Networks (IJCNN). pp. 1871–
+1878. doi:10.1109/IJCNN.2017.7966078 (https://doi.org/10.1109%2FIJCNN.2017.7966078).
+ISBN 978-1-5090-6182-2. S2CID 8838479 (https://api.semanticscholar.org/CorpusID:88384
+79).
+
+229. "Detecting Malicious URLs" (https://web.archive.org/web/20190714201955/http://www.sysne
+t.ucsd.edu/projects/url/). The systems and networking group at UCSD. Archived from the
+original (http://www.sysnet.ucsd.edu/projects/url/) on 14 July 2019. Retrieved 15 February
+2019.
+
+
+
+230. Homayoun S, Ahmadzadeh M, Hashemi S, Dehghantanha A, Khayami R (2018).
+"BoTShark: A Deep Learning Approach for Botnet Traffic Detection". In Dehghantanha A,
+Conti M, Dargahi T (eds.). Cyber Threat Intelligence. Advances in Information Security.
+Vol. 70. Springer International Publishing. pp. 137–153. doi:10.1007/978-3-319-73951-9_7
+(https://doi.org/10.1007%2F978-3-319-73951-9_7). ISBN 978-3-319-73951-9.
+
+231. Ghosh, Reilly (January 1994). "Credit card fraud detection with a neural-network".
+Proceedings of the Twenty-Seventh Hawaii International Conference on System Sciences
+HICSS-94. Vol. 3. pp. 621–630. doi:10.1109/HICSS.1994.323314 (https://doi.org/10.1109%2
+FHICSS.1994.323314). ISBN 978-0-8186-5090-1. S2CID 13260377 (https://api.semanticsc
+holar.org/CorpusID:13260377).
+
+232. Ananthaswamy A (19 April 2021). "Latest Neural Nets Solve World's Hardest Equations
+Faster Than Ever Before" (https://www.quantamagazine.org/new-neural-networks-solve-har
+dest-equations-faster-than-ever-20210419/). Quanta Magazine. Archived (https://web.archiv
+e.org/web/20240519082138/https://www.quantamagazine.org/new-neural-networks-solve-h
+ardest-equations-faster-than-ever-20210419/) from the original on 19 May 2024. Retrieved
+12 May 2021.
+
+233. "AI has cracked a key mathematical puzzle for understanding our world" (https://www.techn
+ologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-p
+artial-differential-equations/). MIT Technology Review. Archived (https://web.archive.org/we
+b/20240519082138/https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neura
+l-network-cracks-navier-stokes-and-partial-differential-equations/) from the original on 19
+May 2024. Retrieved 19 November 2020.
+
+234. Alford A. "Caltech Open-Sources AI for Solving Partial Differential Equations" (https://www.in
+foq.com/news/2020/12/caltech-ai-pde/). InfoQ. Archived (https://web.archive.org/web/20210
+125233952/https://www.infoq.com/news/2020/12/caltech-ai-pde/) from the original on 25
+January 2021. Retrieved 24 August 2025.
+
+235. Nagy A (28 June 2019). "Variational Quantum Monte Carlo Method with a Neural-Network
+Ansatz for Open Quantum Systems". Physical Review Letters. 122 (25) 250501.
+arXiv:1902.09483 (https://arxiv.org/abs/1902.09483). Bibcode:2019PhRvL.122y0501N (http
+s://ui.adsabs.harvard.edu/abs/2019PhRvL.122y0501N).
+doi:10.1103/PhysRevLett.122.250501 (https://doi.org/10.1103%2FPhysRevLett.122.25050
+1). PMID 31347886 (https://pubmed.ncbi.nlm.nih.gov/31347886). S2CID 119074378 (https://
+api.semanticscholar.org/CorpusID:119074378).
+
+236. Yoshioka N, Hamazaki R (28 June 2019). "Constructing neural stationary states for open
+quantum many-body systems". Physical Review B. 99 (21) 214306. arXiv:1902.07006 (http
+s://arxiv.org/abs/1902.07006). Bibcode:2019PhRvB..99u4306Y (https://ui.adsabs.harvard.ed
+u/abs/2019PhRvB..99u4306Y). doi:10.1103/PhysRevB.99.214306 (https://doi.org/10.1103%
+2FPhysRevB.99.214306). S2CID 119470636 (https://api.semanticscholar.org/CorpusID:119
+470636).
+
+237. Hartmann MJ, Carleo G (28 June 2019). "Neural-Network Approach to Dissipative Quantum
+Many-Body Dynamics". Physical Review Letters. 122 (25) 250502. arXiv:1902.05131 (http
+s://arxiv.org/abs/1902.05131). Bibcode:2019PhRvL.122y0502H (https://ui.adsabs.harvard.e
+du/abs/2019PhRvL.122y0502H). doi:10.1103/PhysRevLett.122.250502 (https://doi.org/10.11
+03%2FPhysRevLett.122.250502). PMID 31347862 (https://pubmed.ncbi.nlm.nih.gov/31347
+862). S2CID 119357494 (https://api.semanticscholar.org/CorpusID:119357494).
+
+238. Forrest MD (April 2015). "Simulation of alcohol action upon a detailed Purkinje neuron
+model and a simpler surrogate model that runs >400 times faster" (https://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC4417229). BMC Neuroscience. 16 (27) 27. doi:10.1186/s12868-015-
+0162-6 (https://doi.org/10.1186%2Fs12868-015-0162-6). PMC 4417229 (https://www.ncbi.nl
+m.nih.gov/pmc/articles/PMC4417229). PMID 25928094 (https://pubmed.ncbi.nlm.nih.gov/25
+928094).
+
+
+
+239. Wieczorek S, Filipiak D, Filipowska A (2018). "Semantic Image-Based Profiling of Users'
+Interests with Neural Networks" (https://www.researchgate.net/publication/328964756).
+Studies on the Semantic Web. 36 (Emerging Topics in Semantic Technologies).
+doi:10.3233/978-1-61499-894-5-179 (https://doi.org/10.3233%2F978-1-61499-894-5-179).
+Archived (https://web.archive.org/web/20240519082144/https://www.researchgate.net/public
+ation/328964756_Semantic_Image-Based_Profiling_of_Users%27_Interests_with_Neural_
+Networks) from the original on 19 May 2024. Retrieved 20 January 2024.
+
+240. Merchant A, Batzner S, Schoenholz SS, Aykol M, Cheon G, Cubuk ED (December 2023).
+"Scaling deep learning for materials discovery" (https://www.ncbi.nlm.nih.gov/pmc/articles/P
+MC10700131). Nature. 624 (7990): 80–85. Bibcode:2023Natur.624...80M (https://ui.adsabs.
+harvard.edu/abs/2023Natur.624...80M). doi:10.1038/s41586-023-06735-9 (https://doi.org/1
+0.1038%2Fs41586-023-06735-9). ISSN 1476-4687 (https://search.worldcat.org/issn/1476-4
+687). PMC 10700131 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10700131).
+PMID 38030720 (https://pubmed.ncbi.nlm.nih.gov/38030720).
+
+241. Huang Y (2009). "Advances in Artificial Neural Networks – Methodological Development and
+Application" (https://doi.org/10.3390%2Falgor2030973). Algorithms. 2 (3): 973–1007.
+doi:10.3390/algor2030973 (https://doi.org/10.3390%2Falgor2030973). ISSN 1999-4893 (htt
+ps://search.worldcat.org/issn/1999-4893).
+
+242. Kariri E, Louati H, Louati A, Masmoudi F (2023). "Exploring the Advancements and Future
+Research Directions of Artificial Neural Networks: A Text Mining Approach" (https://doi.org/1
+0.3390%2Fapp13053186). Applied Sciences. 13 (5): 3186. doi:10.3390/app13053186 (http
+s://doi.org/10.3390%2Fapp13053186). ISSN 2076-3417 (https://search.worldcat.org/issn/20
+76-3417).
+
+243. Natarajan S, Rahman Al-Haddad SA, Ahmad FA, Kamil R, Hassan MK, Azrad S, et al. (1
+July 2025). "Deep neural networks for speech enhancement and speech recognition: A
+systematic review" (https://www.sciencedirect.com/science/article/pii/S2090447925001467).
+Ain Shams Engineering Journal. 16 (7) 103405. doi:10.1016/j.asej.2025.103405 (https://doi.
+org/10.1016%2Fj.asej.2025.103405). ISSN 2090-4479 (https://search.worldcat.org/issn/209
+0-4479).
+
+244. Lv Z, Poiesi F, Dong Q, Lloret J, Song H (11 November 2022). "Deep Learning for Intelligent
+Human–Computer Interaction" (https://doi.org/10.3390%2Fapp122211457). Applied
+Sciences. 12 (22) 11457. doi:10.3390/app122211457 (https://doi.org/10.3390%2Fapp12221
+1457). ISSN 2076-3417 (https://search.worldcat.org/issn/2076-3417).
+
+245. Staff C (26 September 2024). "What Is an Artificial Neural Network, and Why Does It Matter
+for AI?" (https://www.coursera.org/articles/artificial-neural-network). Coursera. Retrieved
+7 September 2025.
+
+246. Pillonetto G, Aravkin A, Gedon D, Ljung L, Ribeiro AH, Schön TB (1 January 2025). "Deep
+networks for system identification: A survey" (https://www.sciencedirect.com/science/article/
+pii/S0005109824004011). Automatica. 171 111907. doi:10.1016/j.automatica.2024.111907
+(https://doi.org/10.1016%2Fj.automatica.2024.111907). ISSN 0005-1098 (https://search.worl
+dcat.org/issn/0005-1098).
+
+247. Artificial Intelligence and Economic Theory: Skynet in the Market. Advanced Information and
+Knowledge Processing. 2017. doi:10.1007/978-3-319-66104-9 (https://doi.org/10.1007%2F9
+78-3-319-66104-9). ISBN 978-3-319-66103-2.
+
+248. Marwala T, Hurwitz E (2017). "Efficient Market Hypothesis". Artificial Intelligence and
+Economic Theory: Skynet in the Market. Advanced Information and Knowledge Processing.
+pp. 101–110. doi:10.1007/978-3-319-66104-9_9 (https://doi.org/10.1007%2F978-3-319-661
+04-9_9). ISBN 978-3-319-66103-2.
+
+249. Shao J, Lou Z, Wang C, Mao J, Ye A (16 May 2022). "The impact of artificial intelligence (AI)
+finance on financing constraints of non-SOE firms in emerging markets". International
+Journal of Emerging Markets. 17 (4): 930–944. doi:10.1108/IJOEM-02-2021-0299 (https://do
+i.org/10.1108%2FIJOEM-02-2021-0299).
+
+
+
+250. "The Financial Stability Implications of Artificial Intelligence" (https://www.fsb.org/uploads/P1
+4112024.pdf) (PDF). FSB. Retrieved 7 September 2025.
+
+251. "Beyond Robo-Advisers: How AI Could Rewire Wealth Management" (https://www.american
+banker.com/news/beyond-robo-advisers-how-ai-could-rewire-wealth-management). 5
+January 2017.
+
+252. Buczak A, Guven E (2016). "A Survey of Data Mining and Machine Learning Methods for
+Cyber Security Intrusion Detection". IEEE Communications Surveys & Tutorials. 18 (2):
+1153–1176. doi:10.1109/COMST.2015.2494502 (https://doi.org/10.1109%2FCOMST.2015.2
+494502).
+
+253. Fui-Hoon Nah F, Zheng R, Cai J, Siau K, Chen L (3 July 2023). "Generative AI and
+ChatGPT: Applications, challenges, and AI-human collaboration" (https://doi.org/10.1080%2
+F15228053.2023.2233814). Journal of Information Technology Case and Application
+Research. 25 (3): 277–304. doi:10.1080/15228053.2023.2233814 (https://doi.org/10.1080%
+2F15228053.2023.2233814). ISSN 1522-8053 (https://search.worldcat.org/issn/1522-8053).
+
+254. "DALL-E 2's Failures Are the Most Interesting Thing About It – IEEE Spectrum" (https://spect
+rum.ieee.org/openai-dall-e-2). IEEE. Archived (https://web.archive.org/web/2022071520415
+4/https://spectrum.ieee.org/openai-dall-e-2) from the original on 15 July 2022. Retrieved
+9 December 2023.
+
+255. Briot JP (January 2021). "From artificial neural networks to deep learning for music
+generation: history, concepts and trends" (https://doi.org/10.1007%2Fs00521-020-05399-0).
+Neural Computing and Applications. 33 (1): 39–65. doi:10.1007/s00521-020-05399-0 (http
+s://doi.org/10.1007%2Fs00521-020-05399-0). ISSN 0941-0643 (https://search.worldcat.org/i
+ssn/0941-0643).
+
+256. Chow PS (6 July 2020). "Ghost in the (Hollywood) machine: Emergent applications of
+artificial intelligence in the film industry". NECSUS_European Journal of Media Studies.
+doi:10.25969/MEDIAREP/14307 (https://doi.org/10.25969%2FMEDIAREP%2F14307).
+ISSN 2213-0217 (https://search.worldcat.org/issn/2213-0217).
+
+257. Yu X, He S, Gao Y, Yang J, Sha L, Zhang Y, et al. (June 2010). "Dynamic difficulty
+adjustment of game AI for video game Dead-End". The 3rd International Conference on
+Information Sciences and Interaction Sciences. IEEE. pp. 583–587.
+doi:10.1109/icicis.2010.5534761 (https://doi.org/10.1109%2Ficicis.2010.5534761).
+ISBN 978-1-4244-7384-7. S2CID 17555595 (https://api.semanticscholar.org/CorpusID:1755
+5595).
+
+258. Parisi GI, Kemker R, Part JL, Kanan C, Wermter S (1 May 2019). "Continual lifelong
+learning with neural networks: A review" (https://doi.org/10.1016%2Fj.neunet.2019.01.012).
+Neural Networks. 113: 54–71. arXiv:1802.07569 (https://arxiv.org/abs/1802.07569).
+doi:10.1016/j.neunet.2019.01.012 (https://doi.org/10.1016%2Fj.neunet.2019.01.012).
+ISSN 0893-6080 (https://search.worldcat.org/issn/0893-6080). PMID 30780045 (https://pub
+med.ncbi.nlm.nih.gov/30780045).
+
+259. Edwards C (25 June 2015). "Growing pains for deep learning". Communications of the
+ACM. 58 (7): 14–16. doi:10.1145/2771283 (https://doi.org/10.1145%2F2771283).
+S2CID 11026540 (https://api.semanticscholar.org/CorpusID:11026540).
+
+260. "Power of a Human Brain - The Physics Factbook" (https://hypertextbook.com/facts/2001/Ja
+cquelineLing.shtml). hypertextbook.com. Retrieved 19 May 2026.
+
+261. "2024 United States Data Center Energy Usage Report | Energy Technologies Area" (https://
+eta.lbl.gov/publications/2024-lbnl-data-center-energy-usage-report). eta.lbl.gov. Retrieved
+19 May 2026.
+
+262. Cade Metz (18 May 2016). "Google Built Its Very Own Chips to Power Its AI Bots" (https://w
+ww.wired.com/2016/05/google-tpu-custom-chips/). Wired. Archived (https://web.archive.org/
+web/20180113150305/https://www.wired.com/2016/05/google-tpu-custom-chips/) from the
+original on 13 January 2018. Retrieved 5 March 2017.
+
+
+
+263. Malinovskaya A, Mozharovskyi P, Otto P (January 2024). "Statistical process monitoring of
+artificial neural networks" (https://doi.org/10.1080%2F00401706.2023.2239886).
+Technometrics. 66 (1): 104–117. doi:10.1080/00401706.2023.2239886 (https://doi.org/10.10
+80%2F00401706.2023.2239886).
+
+264. Norori N, Hu Q, Aellen FM, Faraci FD, Tzovara A (October 2021). "Addressing bias in big
+data and AI for health care: A call for open science" (https://www.ncbi.nlm.nih.gov/pmc/articl
+es/PMC8515002). Patterns. 2 (10) 100347. doi:10.1016/j.patter.2021.100347 (https://doi.or
+g/10.1016%2Fj.patter.2021.100347). PMC 8515002 (https://www.ncbi.nlm.nih.gov/pmc/articl
+es/PMC8515002). PMID 34693373 (https://pubmed.ncbi.nlm.nih.gov/34693373).
+
+265. Carina W (27 October 2022). "Failing at Face Value: The Effect of Biased Facial Recognition
+Technology on Racial Discrimination in Criminal Justice" (https://doi.org/10.26689%2Fssr.v4i
+10.4402). Scientific and Social Research. 4 (10): 29–40. doi:10.26689/ssr.v4i10.4402 (http
+s://doi.org/10.26689%2Fssr.v4i10.4402). ISSN 2661-4332 (https://search.worldcat.org/issn/
+2661-4332).
+
+266. Chang X (13 September 2023). "Gender Bias in Hiring: An Analysis of the Impact of
+Amazon's Recruiting Algorithm" (https://aemps.ewapublishing.org/article.html?pk=e5b93601
+b03d453c855d54d3153875ba). Advances in Economics, Management and Political
+Sciences. 23 (1): 134–140. doi:10.54254/2754-1169/23/20230367 (https://doi.org/10.5425
+4%2F2754-1169%2F23%2F20230367). ISSN 2754-1169 (https://search.worldcat.org/issn/2
+754-1169). Archived (https://web.archive.org/web/20231209135207/https://aemps.ewapublis
+hing.org/article.html?pk=e5b93601b03d453c855d54d3153875ba) from the original on 9
+December 2023. Retrieved 9 December 2023.
+
+267. Kortylewski A, Egger B, Schneider A, Gerig T, Morel-Forster A, Vetter T (June 2019).
+"Analyzing and Reducing the Damage of Dataset Bias to Face Recognition with Synthetic
+Data". 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+Workshops (CVPRW) (https://edoc.unibas.ch/75257/1/20200128164027_5e3055eb775f1.p
+df) (PDF). IEEE. pp. 2261–2268. doi:10.1109/cvprw.2019.00279 (https://doi.org/10.1109%2F
+cvprw.2019.00279). ISBN 978-1-7281-2506-0. S2CID 198183828 (https://api.semanticschol
+ar.org/CorpusID:198183828). Archived (https://web.archive.org/web/20240519082642/http
+s://edoc.unibas.ch/75257/1/20200128164027_5e3055eb775f1.pdf) (PDF) from the original
+on 19 May 2024. Retrieved 30 December 2023.
+
+268. Colelough BC, Regli W (2025). "Neuro-Symbolic AI in 2024: A Systematic Review".
+arXiv:2501.05435 (https://arxiv.org/abs/2501.05435) [cs.AI (https://arxiv.org/archive/cs.AI)].
+
+269. Tahmasebi, Hezarkhani (2012). "A hybrid neural networks-fuzzy logic-genetic algorithm for
+grade estimation" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4268588). Computers &
+Geosciences. 42: 18–27. Bibcode:2012CG.....42...18T (https://ui.adsabs.harvard.edu/abs/20
+12CG.....42...18T). doi:10.1016/j.cageo.2012.02.004 (https://doi.org/10.1016%2Fj.cageo.20
+12.02.004). PMC 4268588 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4268588).
+PMID 25540468 (https://pubmed.ncbi.nlm.nih.gov/25540468).
+
+270. Sun and Bookman, 1990
+271. "Scaling Learning Algorithms towards AI" (http://yann.lecun.com/exdb/publis/pdf/bengio-lecu
+
+n-07.pdf) (PDF). Archived (https://web.archive.org/web/20220812081157/http://yann.lecun.c
+om/exdb/publis/pdf/bengio-lecun-07.pdf) (PDF) from the original on 12 August 2022.
+Retrieved 6 July 2022.
+
+Bibliography
+Bhadeshia H. K. D. H. (1999). "Neural Networks in Materials Science" (http://www.msm.ca
+m.ac.uk/phase-trans/abstracts/neural.review.pdf) (PDF). ISIJ International. 39 (10): 966–
+979. doi:10.2355/isijinternational.39.966 (https://doi.org/10.2355%2Fisijinternational.39.96
+6).
+
+
+
+Bishop CM (1995). Neural networks for pattern recognition (https://archive.org/details/neural
+networksfo0000bish). Clarendon Press. ISBN 978-0-19-853849-3. OCLC 33101074 (https://
+search.worldcat.org/oclc/33101074).
+Borgelt C (2003). Neuro-Fuzzy-Systeme: von den Grundlagen künstlicher Neuronaler Netze
+zur Kopplung mit Fuzzy-Systemen. Vieweg. ISBN 978-3-528-25265-6. OCLC 76538146 (htt
+ps://search.worldcat.org/oclc/76538146).
+Cybenko G (2006). "Approximation by Superpositions of a Sigmoidal function" (https://book
+s.google.com/books?id=4RtVAAAAMAAJ&pg=PA303). In van Schuppen JH (ed.).
+Mathematics of Control, Signals, and Systems. Springer International. pp. 303–314. PDF (ht
+tps://web.archive.org/web/20110719183058/http://actcomm.dartmouth.edu/gvc/papers/appr
+ox_by_superposition.pdf)
+Dewdney AK (1997). Yes, we have no neutrons: an eye-opening tour through the twists and
+turns of bad science (https://archive.org/details/yeswehavenoneutr00akde). New York:
+Wiley. ISBN 978-0-471-10806-1. OCLC 35558945 (https://search.worldcat.org/oclc/3555894
+5).
+Duda RO, Hart PE, Stork DG (2001). Pattern classification (https://archive.org/details/patter
+nclassific0000duda_t3d7) (2 ed.). Wiley. ISBN 978-0-471-05669-0. OCLC 41347061 (http
+s://search.worldcat.org/oclc/41347061).
+Egmont-Petersen M, de Ridder D, Handels H (2002). "Image processing with neural
+networks – a review". Pattern Recognition. 35 (10): 2279–2301. doi:10.1016/S0031-
+3203(01)00178-9 (https://doi.org/10.1016%2FS0031-3203%2801%2900178-9).
+Fahlman S, Lebiere C (1991). "The Cascade-Correlation Learning Architecture" (https://web.
+archive.org/web/20130503184045/http://www.cs.iastate.edu/~honavar/fahlman.pdf) (PDF).
+Archived from the original (http://www.cs.iastate.edu/~honavar/fahlman.pdf) (PDF) on 3 May
+2013. Retrieved 28 August 2006.
+
+created for National Science Foundation, Contract Number EET-8716324, and Defense
+Advanced Research Projects Agency (DOD), ARPA Order No. 4976 under Contract
+F33615-87-C-1499.
+
+Gurney K (1997). An introduction to neural networks (https://archive.org/details/introductiont
+one0000gurn). UCL Press. ISBN 978-1-85728-673-1. OCLC 37875698 (https://search.world
+cat.org/oclc/37875698).
+Haykin SS (1999). Neural networks: a comprehensive foundation (https://archive.org/details/
+neuralnetworksco0000hayk_2ed). Prentice Hall. ISBN 978-0-13-273350-2. OCLC 38908586
+(https://search.worldcat.org/oclc/38908586).
+Hertz J, Palmer RG, Krogh AS (1991). Introduction to the theory of neural computation (http
+s://archive.org/details/introductiontoth00hert). Addison-Wesley. ISBN 978-0-201-51560-2.
+OCLC 21522159 (https://search.worldcat.org/oclc/21522159).
+Information theory, inference, and learning algorithms (https://archive.org/details/informationt
+heor0000mack). Cambridge University Press. 25 September 2003.
+Bibcode:2003itil.book.....M (https://ui.adsabs.harvard.edu/abs/2003itil.book.....M). ISBN 978-
+0-521-64298-9. OCLC 52377690 (https://search.worldcat.org/oclc/52377690).
+Kruse R, Borgelt C, Klawonn F, Moewes C, Steinbrecher M, Held P (2013). Computational
+intelligence: a methodological introduction. Springer. ISBN 978-1-4471-5012-1.
+OCLC 837524179 (https://search.worldcat.org/oclc/837524179).
+Lawrence J (1994). Introduction to neural networks: design, theory and applications (https://
+archive.org/details/introductiontone0000lawr). California Scientific Software. ISBN 978-1-
+883157-00-5. OCLC 32179420 (https://search.worldcat.org/oclc/32179420).
+Masters T (1994). Signal and image processing with neural networks: a C++ sourcebook (htt
+ps://archive.org/details/signalimageproce0000mast). J. Wiley. ISBN 978-0-471-04963-0.
+OCLC 29877717 (https://search.worldcat.org/oclc/29877717).
+
+
+
+Maurer H (2021). Cognitive science: integrative synchronization mechanisms in cognitive
+neuroarchitectures of the modern connectionism. CRC Press. doi:10.1201/9781351043526
+(https://doi.org/10.1201%2F9781351043526). ISBN 978-1-351-04352-6. S2CID 242963768
+(https://api.semanticscholar.org/CorpusID:242963768).
+Ripley BD (2007). Pattern Recognition and Neural Networks (https://books.google.com/book
+s?id=m12UR8QmLqoC). Cambridge University Press. ISBN 978-0-521-71770-0.
+Siegelmann H, Sontag ED (1994). "Analog computation via neural networks" (https://archiv
+e.org/details/sim_theoretical-computer-science_1994-09-12_131_2/page/330). Theoretical
+Computer Science. 131 (2): 331–360. doi:10.1016/0304-3975(94)90178-3 (https://doi.org/1
+0.1016%2F0304-3975%2894%2990178-3). S2CID 2456483 (https://api.semanticscholar.or
+g/CorpusID:2456483).
+Smith M (1993). Neural networks for statistical modeling (https://archive.org/details/neuralne
+tworksfo0000smit). Van Nostrand Reinhold. ISBN 978-0-442-01310-3. OCLC 27145760 (htt
+ps://search.worldcat.org/oclc/27145760).
+Wasserman PD (1993). Advanced methods in neural computing (https://archive.org/details/a
+dvancedmethodsi0000wass). Van Nostrand Reinhold. ISBN 978-0-442-00461-3.
+OCLC 27429729 (https://search.worldcat.org/oclc/27429729).
+Wilson H (2018). Artificial intelligence. Grey House Publishing. ISBN 978-1-68217-867-6.
+
+External links
+A Brief Introduction to Neural Networks (D. Kriesel) (http://www.dkriesel.com/en/science/neu
+ral_networks) – Illustrated, bilingual manuscript about neural networks; Topics so far:
+Perceptrons, Backpropagation, Radial Basis Functions, Recurrent Neural Networks, Self
+Organizing Maps, Hopfield Networks.
+Review of Neural Networks in Materials Science (http://www.msm.cam.ac.uk/phase-trans/ab
+stracts/neural.review.html) Archived (https://web.archive.org/web/20150607101310/http://ww
+w.msm.cam.ac.uk/phase-trans/abstracts/neural.review.html) 7 June 2015 at the Wayback
+Machine
+Artificial Neural Networks Tutorial in three languages (Univ. Politécnica de Madrid) (https://w
+eb.archive.org/web/20090318133122/http://www.gc.ssr.upm.es/inves/neural/ann1/anntutoria
+l.html)
+Another introduction to NN (https://web.archive.org/web/20091216110504/http://www.doc.ic.
+ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html)
+Next Generation of Neural Networks (https://www.youtube.com/watch?v=AyzOUbkUf3M)
+Archived (https://web.archive.org/web/20110124234328/http://www.youtube.com/watch?v=A
+yzOUbkUf3M) 24 January 2011 at the Wayback Machine – Google Tech Talks
+Performance of Neural Networks (http://www.msm.cam.ac.uk/phase-trans/2009/performanc
+e.html)
+Neural Networks and Information (http://www.msm.cam.ac.uk/phase-trans/2009/review_Bha
+deshia_SADM.pdf) Archived (https://web.archive.org/web/20090709153828/http://www.ms
+m.cam.ac.uk/phase-trans/2009/review_Bhadeshia_SADM.pdf) 9 July 2009 at the Wayback
+Machine
+Sanderson G (5 October 2017). "But what is a Neural Network?" (https://www.youtube.com/
+watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi). 3Blue1Brown.
+Archived (https://ghostarchive.org/varchive/youtube/20211107/aircAruvnKk) from the original
+on 7 November 2021 – via YouTube.
+Hakim MA, Alam MI (2025). "Biologically inspired neural network layer with homeostatic
+regulation and adaptive repair mechanisms" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC
+12484884). Scientific Reports. 15 (1). Nature Publishing Group: 33903.
+Bibcode:2025NatSR..1533903H (https://ui.adsabs.harvard.edu/abs/2025NatSR..1533903
+
+
+
+H). doi:10.1038/s41598-025-09114-8 (https://doi.org/10.1038%2Fs41598-025-09114-8).
+ISSN 2045-2322 (https://search.worldcat.org/issn/2045-2322). PMC 12484884 (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC12484884). PMID 41028030 (https://pubmed.ncbi.nlm.ni
+h.gov/41028030).
+
+Retrieved from "https://en.wikipedia.org/w/index.php?
+title=Neural_network_(machine_learning)&oldid=1382090148"

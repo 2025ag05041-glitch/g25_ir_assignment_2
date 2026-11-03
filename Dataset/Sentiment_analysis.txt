@@ -1,0 +1,909 @@
+﻿Sentiment analysis
+Sentiment analysis (also known as opinion mining) is the
+use of natural language processing, text analysis,
+computational linguistics, and biometrics to systematically
+identify, extract, quantify, and study affective states and
+subjective information.
+
+Sentiment analysis is widely applied to voice of the customer
+materials such as reviews and survey responses, online and
+social media, and healthcare materials for applications that
+range from marketing to customer service to clinical
+medicine. With the rise of deep language models, such as Twitter Sentiment during 2015 Big
+
+English Fundraiser
+RoBERTa, more difficult data domains can be analyzed, e.g.,
+news texts where authors typically express their
+opinion/sentiment less explicitly.[1]
+
+Types
+A basic task in sentiment analysis is classifying the polarity of a given text at the document, sentence, or
+feature/aspect level—whether the expressed opinion in a document, a sentence or an entity feature/aspect
+is positive, negative, or neutral. Advanced, "beyond polarity" sentiment classification looks, for instance,
+at emotional states such as enjoyment, anger, disgust, sadness, fear, and surprise.[2]
+
+Precursors to sentimental analysis include the General Inquirer,[3] which provided hints toward
+quantifying patterns in text and, separately, psychological research that examined a person's
+psychological state based on analysis of their verbal behavior.[4]
+
+Subsequently, the method described in a patent by Volcani and Fogel,[5] looked specifically at sentiment
+and identified individual words and phrases in text with respect to different emotional scales. A current
+system based on their work, called EffectCheck, presents synonyms that can be used to increase or
+decrease the level of evoked emotion in each scale.
+
+Many other subsequent efforts were less sophisticated, using a mere polar view of sentiment, from
+positive to negative, such as work by Turney,[6] and Pang[7] who applied different methods for detecting
+the polarity of product reviews and movie reviews respectively. This work is at the document level. One
+can also classify a document's polarity on a multi-way scale, which was attempted by Pang[8] and
+Snyder[9] among others: Pang and Lee[8] expanded the basic task of classifying a movie review as either
+positive or negative to predict star ratings on either a 3- or a 4-star scale, while Snyder[9] performed an in-
+depth analysis of restaurant reviews, predicting ratings for various aspects of the given restaurant, such as
+the food and atmosphere (on a five-star scale).
+
+
+
+First steps to bringing together various approaches—learning, lexical, knowledge-based, etc.—were taken
+in the 2004 AAAI Spring Symposium where linguists, computer scientists, and other interested
+researchers first aligned interests and proposed shared tasks and benchmark data sets for the systematic
+computational research on affect, appeal, subjectivity, and sentiment in text.[10]
+
+Even though in most statistical classification methods, the neutral class is ignored under the assumption
+that neutral texts lie near the boundary of the binary classifier, several researchers suggest that, as in
+every polarity problem, three categories must be identified. Moreover, it can be proven that specific
+classifiers such as the Max Entropy[11] and SVMs[12] can benefit from the introduction of a neutral class
+and improve the overall accuracy of the classification. There are in principle two ways for operating with
+a neutral class. Either, the algorithm proceeds by first identifying the neutral language, filtering it out and
+then assessing the rest in terms of positive and negative sentiments, or it builds a three-way classification
+in one step.[13] This second approach often involves estimating a probability distribution over all
+categories (e.g. naive Bayes classifiers as implemented by the NLTK). Whether and how to use a neutral
+class depends on the nature of the data: if the data is clearly clustered into neutral, negative and positive
+language, it makes sense to filter the neutral language out and focus on the polarity between positive and
+negative sentiments. If, in contrast, the data are mostly neutral with small deviations towards positive and
+negative affect, this strategy would make it harder to clearly distinguish between the two poles.
+
+A different method for determining sentiment is the use of a scaling system whereby words commonly
+associated with having a negative, neutral, or positive sentiment are given an associated number on a −10
+to +10 scale (most negative up to most positive) or simply from 0 to a positive upper limit such as +4.
+This makes it possible to adjust the sentiment of a given term relative to its environment (usually on the
+level of the sentence). When a piece of unstructured text is analyzed using natural language processing,
+each concept in the specified environment is given a score based on the way sentiment words relate to the
+concept and its associated score.[14][15] This allows movement to a more sophisticated understanding of
+sentiment, because it is now possible to adjust the sentiment value of a concept relative to modifications
+that may surround it. Words, for example, that intensify, relax or negate the sentiment expressed by the
+concept can affect its score. Alternatively, texts can be given a positive and negative sentiment strength
+score if the goal is to determine the sentiment in a text rather than the overall polarity and strength of the
+text.[16]
+
+There are various other types of sentiment analysis, such as aspect-based sentiment analysis, grading
+sentiment analysis (positive, negative, neutral), multilingual sentiment analysis and detection of
+emotions.[17][18][19]
+
+Subjectivity/objectivity identification
+This task is commonly defined as classifying a given text (usually a sentence) into one of two classes:
+objective or subjective.[20] This problem can sometimes be more difficult than polarity classification.[21]
+
+The subjectivity of words and phrases may depend on their context and an objective document may
+contain subjective sentences (e.g., a news article quoting people's opinions). Moreover, as mentioned by
+Su,[22] results are largely dependent on the definition of subjectivity used when annotating texts.
+However, Pang[23] showed that removing objective sentences from a document before classifying its
+polarity helped improve performance.
+
+
+
+Sentiments Analysis must perform good according to different stocks to make it sure that results are
+accurate [24]
+
+The term objective refers to the incident carrying factual information.[25]
+
+Example of an objective sentence: 'To be elected president of the United States, a candidate
+must be at least thirty-five years of age.'
+
+The term subjective describes the incident contains non-factual information in various forms, such as
+personal opinions, judgment, and predictions, also known as 'private states'.[26] In the example down
+below, it reflects a private states 'We Americans'. Moreover, the target entity commented by the opinions
+can take several forms from tangible product to intangible topic matters stated in Liu (2010).[27]
+
+Furthermore, three types of attitudes were observed by Liu (2010), 1) positive opinions, 2) neutral
+opinions, and 3) negative opinions.[27]
+
+Example of a subjective sentence: 'We Americans need to elect a president who is mature
+and who is able to make wise decisions.'
+
+This analysis is a classification problem.[28]
+
+Each class's collections of words or phrase indicators are defined for to locate desirable patterns on
+unannotated text. For subjective expression, a different word list has been created. Lists of subjective
+indicators in words or phrases have been developed by multiple researchers in the linguist and natural
+language processing field states in Riloff et al. (2003).[29] A dictionary of extraction rules has to be
+created for measuring given expressions. Over the years, in subjective detection, the features extraction
+progression from curating features by hand to automated features learning. At the moment, automated
+learning methods can further separate into supervised and unsupervised machine learning. Patterns
+extraction with machine learning process annotated and unannotated text have been explored extensively
+by academic researchers.
+
+However, researchers recognized several challenges in developing fixed sets of rules for expressions
+respectably. Much of the challenges in rule development stems from the nature of textual information. Six
+challenges have been recognized by several researchers: 1) metaphorical expressions, 2) discrepancies in
+writings, 3) context-sensitive, 4) represented words with fewer usages, 5) time-sensitive, and 6) ever-
+growing volume.
+
+1. Metaphorical expressions. The text contains metaphoric expression may impact on the
+performance on the extraction.[30] Besides, metaphors take in different forms, which may
+have been contributed to the increase in detection.
+
+2. Discrepancies in writings. For the text obtained from the Internet, the discrepancies in the
+writing style of targeted text data involve distinct writing genres and styles.
+
+3. Context-sensitive. Classification may vary based on the subjectiveness or objectiveness of
+previous and following sentences.[28]
+
+4. Time-sensitive attribute. The task is challenged by some textual data's time-sensitive
+attribute. If a group of researchers wants to confirm a piece of fact in the news, they need a
+longer time for cross-validation, than the news becomes outdated.
+
+5. Cue words with fewer usages.
+6. Ever-growing volume. The task is also challenged by the sheer volume of textual data. The
+
+textual data's ever-growing nature makes the task overwhelmingly difficult for the
+researchers to complete the task on time.
+
+
+
+Previously, the research mainly focused on document level classification. However, classifying a
+document level suffers less accuracy, as an article may have diverse types of expressions involved.
+Researching evidence suggests a set of news articles that are expected to dominate by the objective
+expression, whereas the results show that it consisted of over 40% of subjective expression.[25]
+
+To overcome those challenges, researchers conclude that classifier efficacy depends on the precisions of
+patterns learner. And the learner feeds with large volumes of annotated training data outperformed those
+trained on less comprehensive subjective features. However, one of the main obstacles to executing this
+type of work is to generate a big dataset of annotated sentences manually. The manual annotation method
+has been less favored than automatic learning for three reasons:
+
+1. Variations in comprehensions. In the manual annotation task, disagreement of whether one
+instance is subjective or objective may occur among annotators because of languages'
+ambiguity.
+
+2. Human errors. Manual annotation task is a meticulous assignment, it require intense
+concentration to finish.
+
+3. Time-consuming. Manual annotation task is an assiduous work. Riloff (1996) show that a
+160 texts cost 8 hours for one annotator to finish.[31]
+
+All these mentioned reasons can impact on the efficiency and effectiveness of subjective and objective
+classification. Accordingly, two bootstrapping methods were designed to learning linguistic patterns from
+unannotated text data. Both methods are starting with a handful of seed words and unannotated textual
+data.
+
+1. Meta-Bootstrapping by Riloff and Jones in 1999.[32] Level One: Generate extraction patterns
+based on the pre-defined rules and the extracted patterns by the number of seed words
+each pattern holds. Level Two: Top 5 words will be marked and add to the dictionary.
+Repeat.
+
+2. Basilisk (Bootstrapping Approach to Semantic Lexicon Induction using Semantic
+Knowledge) by Thelen and Riloff.[33] Step One: Generate extraction patterns. Step Two:
+Move best patterns from Pattern Pool to Candidate Word Pool. Step Three: Top 10 words
+will be marked and add to the dictionary. Repeat.
+
+Overall, these algorithms highlight the need for automatic pattern recognition and extraction in subjective
+and objective task.[34]
+
+Subjective and object classifier can enhance the several applications of natural language processing. One
+of the classifier's primary benefits is that it popularized the practice of data-driven decision-making
+processes in various industries. According to Liu, the applications of subjective and objective
+identification have been implemented in business, advertising, sports, and social science.[35]
+
+Online review classification: In the business industry, the classifier helps the company better
+understand the feedbacks on product and reasonings behind the reviews.
+Stock price prediction: In the finance industry, the classifier aids the prediction model by
+process auxiliary information from social media and other textual information from the
+Internet. Previous studies on Japanese stock price conducted by Dong et al. indicates that
+model with subjective and objective module may perform better than those without this
+part.[36]
+
+Social media analysis.
+Students' feedback classification.[37]
+
+
+
+Document summarising: The classifier can extract target-specified comments and gathering
+opinions made by one particular entity.
+Complex question answering. The classifier can dissect the complex questions by classing
+the language subject or objective and focused target. In the research Yu et al.(2003), the
+researcher developed a sentence and document level clustered that identity opinion
+pieces.[38]
+
+Domain-specific applications.
+Email analysis: The subjective and objective classifier detects spam by tracing language
+patterns with target words.
+
+Feature/aspect-based
+It refers to determining the opinions or sentiments expressed on different features or aspects of entities,
+e.g., of a cell phone, a digital camera, or a bank.[39] A feature or aspect is an attribute or component of an
+entity, e.g., the screen of a cell phone, the service for a restaurant, or the picture quality of a camera. The
+advantage of feature-based sentiment analysis is the possibility to capture nuances about objects of
+interest. Different features can generate different sentiment responses, for example a hotel can have a
+convenient location, but mediocre food.[40] This problem involves several sub-problems, e.g., identifying
+relevant entities, extracting their features/aspects, and determining whether an opinion expressed on each
+feature/aspect is positive, negative or neutral.[41] The automatic identification of features can be
+performed with syntactic methods, with topic modeling,[42][43] or with deep learning.[44][45] More
+detailed discussions about this level of sentiment analysis can be found in Liu's work.[27]
+
+Intensity ranking
+Emotions and sentiments are subjective in nature. The degree of emotions/sentiments expressed in a
+given text at the document, sentence, or feature/aspect level—to what degree of intensity is expressed in
+the opinion of a document, a sentence or an entity differs on a case-to-case basis.[46] However, predicting
+only the emotion and sentiment does not always convey complete information. The degree or level of
+emotions and sentiments often plays a crucial role in understanding the exact feeling within a single class
+(e.g., 'good' versus 'awesome'). Some methods leverage a stacked ensemble method[47] for predicting
+intensity for emotion and sentiment by combining the outputs obtained and using deep learning models
+based on convolutional neural networks,[48] long short-term memory networks and gated recurrent
+units.[49]
+
+Methods and features
+Existing approaches to sentiment analysis can be grouped into three main categories: knowledge-based
+techniques, statistical methods, and hybrid approaches.[50] Knowledge-based techniques classify text by
+affect categories based on the presence of unambiguous affect words such as happy, sad, afraid, and
+bored.[51] Some knowledge bases not only list obvious affect words, but also assign arbitrary words a
+probable "affinity" to particular emotions.[52] Statistical methods leverage elements from machine
+learning such as latent semantic analysis, support vector machines, "bag of words", "Pointwise Mutual
+Information" for Semantic Orientation,[6] semantic space models or word embedding models,[53] and
+deep learning. More sophisticated methods try to detect the holder of a sentiment (i.e., the person who
+maintains that affective state) and the target (i.e., the entity about which the affect is felt).[54] To mine the
+
+
+
+opinion in context and get the feature about which the speaker has opined, the grammatical relationships
+of words are used. Grammatical dependency relations are obtained by deep parsing of the text.[55] Hybrid
+approaches leverage both machine learning and elements from knowledge representation such as
+ontologies and semantic networks in order to detect semantics that are expressed in a subtle manner, e.g.,
+through the analysis of concepts that do not explicitly convey relevant information, but which are
+implicitly linked to other concepts that do so.[56]
+
+Open source software tools as well as range of free and paid sentiment analysis tools deploy machine
+learning, statistics, and natural language processing techniques to automate sentiment analysis on large
+collections of texts, including web pages, online news, internet discussion groups, online reviews, web
+blogs, and social media.[57] Knowledge-based systems, on the other hand, make use of publicly available
+resources, to extract the semantic and affective information associated with natural language concepts.
+The system can help perform affective commonsense reasoning.[58] Sentiment analysis can also be
+performed on visual content, i.e., images and videos (see Multimodal sentiment analysis). One of the first
+approaches in this direction is SentiBank[59] utilizing an adjective noun pair representation of visual
+content. In addition, the vast majority of sentiment classification approaches rely on the bag-of-words
+model, which disregards context, grammar and even word order. Approaches that analyses the sentiment
+based on how words compose the meaning of longer phrases have shown better result,[60] but they incur
+an additional annotation overhead.
+
+A human analysis component is required in sentiment analysis, as automated systems are not able to
+analyze historical tendencies of the individual commenter, or the platform and are often classified
+incorrectly in their expressed sentiment. Automation impacts approximately 23% of comments that are
+correctly classified by humans.[61] However, humans often disagree, and it is argued that the inter-human
+agreement provides an upper bound that automated sentiment classifiers can eventually reach.[62]
+
+Evaluation
+The accuracy of a sentiment analysis system is, in principle, how well it agrees with human judgments.
+This is usually measured by variant measures based on precision and recall over the two target categories
+of negative and positive texts. However, according to research human raters typically only agree about
+80%[63] of the time (see Inter-rater reliability).
+
+On the other hand, computer systems will make very different errors than human assessors, and thus the
+figures are not entirely comparable. For instance, a computer system will have trouble with negations,
+exaggerations, jokes, or sarcasm, which typically are easy to handle for a human reader: some errors a
+computer system makes will seem overly naive to a human. In general, the utility for practical
+commercial tasks of sentiment analysis as it is defined in academic research has been called into question,
+mostly since the simple one-dimensional model of sentiment from negative to positive yields rather little
+actionable information for a client worrying about the effect of public discourse on e.g. brand or
+corporate reputation.[64][65][66]
+
+To better fit market needs, evaluation of sentiment analysis has moved to more task-based measures,
+formulated together with representatives from PR agencies and market research professionals. The focus
+in e.g. the RepLab evaluation data set is less on the content of the text under consideration and more on
+the effect of the text in question on brand reputation.[67][68][69]
+
+
+
+Because evaluation of sentiment analysis is becoming more and more task based, each implementation
+needs a separate training model to get a more accurate representation of sentiment for a given data set. As
+LLM-based answer engines become more widespread, evaluation methods have expanded to include
+tools that track how these systems reference entities. Illustrating emerging approaches to assessing
+contextual weighting and sentiment in LLM outputs include Semrush's AI Visibility Toolkit or Enterprise
+AIO, which analyse how entities are presented within generated responses.[70]
+
+Web 2.0
+The rise of social media such as blogs and social networks has fueled interest in sentiment analysis. With
+the proliferation of reviews, ratings, recommendations and other forms of online expression, online
+opinion has turned into a kind of virtual currency for businesses looking to market their products, identify
+new opportunities and manage their reputations. As businesses look to automate the process of filtering
+out the noise, understanding the conversations, identifying the relevant content and actioning it
+appropriately, many are now looking to the field of sentiment analysis.[71] Further complicating the
+matter is the rise of anonymous social media platforms such as 4chan and Reddit.[72] If web 2.0 was all
+about democratizing publishing, then the next stage of the web may well be based on democratizing data
+mining of all the content that is getting published.[73]
+
+One step towards this aim is accomplished in research. Several research teams in universities around the
+world currently focus on understanding the dynamics of sentiment in e-communities through sentiment
+analysis.[74]
+
+The problem is that most sentiment analysis algorithms use simple terms to express sentiment about a
+product or service. However, cultural factors, linguistic nuances, and differing contexts make it extremely
+difficult to turn a string of written text into a simple pro or con sentiment.[71] The fact that humans often
+disagree on the sentiment of text illustrates how big a task it is for computers to get this right. The shorter
+the string of text, the harder it becomes.
+
+Even though short text strings might be a problem, sentiment analysis within microblogging has shown
+that Twitter can be seen as a valid online indicator of political sentiment. Tweets' political sentiment
+demonstrates close correspondence to parties' and politicians' political positions, indicating that the
+content of Twitter messages plausibly reflects the offline political landscape.[75] Furthermore, sentiment
+analysis on Twitter has also been shown to capture the public mood behind human reproduction cycles
+globally,[76] as well as other problems of public-health relevance such as adverse drug reactions.[77]
+
+While sentiment analysis has been popular for domains where authors express their opinion rather
+explicitly ("the movie is awesome"), such as social media and product reviews, only recently robust
+methods were devised for other domains where sentiment is strongly implicit or indirect. For example, in
+news articles - mostly due to the expected journalistic objectivity - journalists often describe actions or
+events rather than directly stating the polarity of a piece of information. Earlier approaches using
+dictionaries or shallow machine learning features were unable to catch the "meaning between the lines",
+but recently researchers have proposed a deep learning based approach and dataset that is able to analyze
+sentiment in news articles.[1]
+
+
+
+Scholars have utilized sentiment analysis to analyse construction health and safety posts on Twitter
+(which is called X now). The research revealed that there is a positive correlation between favorites and
+retweets in terms of sentiment valence. Others have examined the impact of YouTube on the
+dissemination of construction health and safety knowledge. They investigated how emotions influence
+users' behaviors in terms of viewing and commenting through semantic analysis. In another study,
+positive sentiment accounted for an overwhelming figure of 85% in knowledge sharing of construction
+safety and health via Instagram.[78]
+
+Application in recommender systems
+For a recommender system, sentiment analysis has been proven to be a valuable technique. A
+recommender system aims to predict the preference for an item of a target user. Mainstream
+recommender systems work on explicit data set. For example, collaborative filtering works on the rating
+matrix, and content-based filtering works on the meta-data of the items.
+
+In many social networking services or e-commerce websites, users can provide text review, comment or
+feedback to the items. These user-generated text provide a rich source of user's sentiment opinions about
+numerous products and items. Potentially, for an item, such text can reveal both the related
+feature/aspects of the item and the users' sentiments on each feature.[79] The item's feature/aspects
+described in the text play the same role with the meta-data in content-based filtering, but the former are
+more valuable for the recommender system. Since these features are broadly mentioned by users in their
+reviews, they can be seen as the most crucial features that can significantly influence the user's
+experience on the item, while the meta-data of the item (usually provided by the producers instead of
+consumers) may ignore features that are concerned by the users. For different items with common
+features, a user may give different sentiments. Also, a feature of the same item may receive different
+sentiments from different users. Users' sentiments on the features can be regarded as a multi-dimensional
+rating score, reflecting their preference on the items.[80]
+
+Based on the feature/aspects and the sentiments extracted from the user-generated text, a hybrid
+recommender system can be constructed.[81] There are two types of motivation to recommend a candidate
+item to a user. The first motivation is the candidate item have numerous common features with the user's
+preferred items,[82] while the second motivation is that the candidate item receives a high sentiment on its
+features. For a preferred item, it is reasonable to believe that items with the same features will have a
+similar function or utility. So, these items will also likely to be preferred by the user. On the other hand,
+for a shared feature of two candidate items, other users may give positive sentiment to one of them while
+giving negative sentiment to another. Clearly, the high evaluated item should be recommended to the user.
+Based on these two motivations, a combination ranking score of similarity and sentiment rating can be
+constructed for each candidate item.[81]
+
+Except for the difficulty of the sentiment analysis itself, applying sentiment analysis on reviews or
+feedback also faces the challenge of spam and biased reviews. One direction of work is focused on
+evaluating the helpfulness of each review.[83] Review or feedback poorly written is hardly helpful for
+recommender system. Besides, a review can be designed to hinder sales of a target product, thus be
+harmful to the recommender system even it is well written.
+
+
+
+Researchers also found that long and short forms of user-generated text should be treated differently. An
+interesting result shows that short-form reviews are sometimes more helpful than long-form,[84] because
+it is easier to filter out the noise in a short-form text. For the long-form text, the growing length of the text
+does not always bring a proportionate increase in the number of features or sentiments in the text.
+
+Lamba & Madhusudhan[85] introduce a nascent way to cater the information needs of today's library
+users by purportedly repackaging the results from sentiment analysis of social media platforms like
+Twitter and providing it as a consolidated time-based service in different formats. Further, Now
+Sentiments become important factors for investor and traders to use it.[86]
+
+Ethical considerations
+Issues such as privacy, consent, and bias are crucial since sentiment analysis regularly analyzes personal
+data without explicit user consent. The potential for misinterpretation and misuse of sentiment data can
+significantly impact societal norms. Furthermore, the development of ethical frameworks, as seen in
+projects like SEWA, where Ethical and Industrial Valorisation Advisory Boards are established, is
+essential for addressing these challenges. These boards help ensure that sentiment analysis technologies
+are used responsibly, especially in applications involving the recognition of human emotions and
+behaviors. Such frameworks are vital for guiding the responsible use of sentiment analysis tools, ensuring
+they promote equity and respect user autonomy, and effectively address both routine and complex ethical
+issues.[87]
+
+See also
+Affective computing
+Consumer sentiment
+Emotion recognition
+Friendly artificial intelligence
+Interpersonal accuracy
+Multimodal sentiment analysis
+Stylometry
+
+References
+1. Hamborg, Felix; Donnay, Karsten (2021). "NewsMTSC: A Dataset for (Multi-)Target-
+
+dependent Sentiment Classification in Political News Articles" (https://aclanthology.org/2021.
+eacl-main.142/). In Merlo, Paola; Tiedemann, Jorg; Tsarfaty, Reut (eds.). Proceedings of the
+16th Conference of the European Chapter of the Association for Computational Linguistics:
+Main Volume. Association for Computational Linguistics. pp. 1663–1675.
+doi:10.18653/v1/2021.eacl-main.142 (https://doi.org/10.18653%2Fv1%2F2021.eacl-main.14
+2).
+
+2. Ho, Vong Anh; Nguyen, Duong Huynh-Cong; Nguyen, Danh Hoang; Pham, Linh Thi-Van;
+Nguyen, Duc-Vu; Nguyen, Kiet Van; Nguyen, Ngan Luu-Thuy (2020), "Emotion Recognition
+for Vietnamese Social Media Text" (https://doi.org/10.1007/978-981-15-6168-9_27),
+Communications in Computer and Information Science, Singapore: Springer Singapore,
+pp. 319–333, ISBN 978-981-15-6167-2, retrieved August 24, 2026
+
+
+
+3. Stone, Philip J., Dexter C. Dunphy, and Marshall S. Smith. "The general inquirer: A
+computer approach to content analysis." MIT Press, Cambridge, MA (1966).
+
+4. Gottschalk, Louis August, and Goldine C. Gleser. The measurement of psychological states
+through the content analysis of verbal behavior. Univ of California Press, 1969.
+
+5. USA Issued 7,136,877 (http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITO
+FF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=2&p=1&f=G&l=50&d=PTXT&S1=(foge
+l.INNM.+AND+volcani.INNM.)&OS=in/fogel+and+in/volcani&RS=(IN/fogel+AND+IN/volcan
+i)), Volcani, Yanon; & Fogel, David B., "System and method for determining and controlling
+the impact of text", published June 28, 2001 Archived (https://web.archive.org/web/2017102
+8152740/http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fne
+tahtml%2FPTO%2Fsearch-adv.htm&r=2&p=1&f=G&l=50&d=PTXT&S1=%28fogel.INNM.%2
+0AND%20volcani.INNM.%29&OS=in%2Ffogel%20and%20in%2Fvolcani&RS=%28IN%2Ffo
+gel%20AND%20IN%2Fvolcani%29) October 28, 2017, at the Wayback Machine
+
+6. Turney, Peter (2002). "Thumbs Up or Thumbs Down? Semantic Orientation Applied to
+Unsupervised Classification of Reviews". Proceedings of the Association for Computational
+Linguistics. pp. 417–424. arXiv:cs.LG/0212032 (https://arxiv.org/abs/cs.LG/0212032).
+
+7. Pang, Bo; Lee, Lillian; Vaithyanathan, Shivakumar (2002). "Thumbs up? Sentiment
+Classification using Machine Learning Techniques" (https://www.cs.cornell.edu/home/llee/pa
+pers/sentiment.home.html). Proceedings of the Conference on Empirical Methods in Natural
+Language Processing (EMNLP). pp. 79–86.
+
+8. Pang, Bo; Lee, Lillian (2005). "Seeing stars: Exploiting class relationships for sentiment
+categorization with respect to rating scales" (https://www.cs.cornell.edu/home/llee/papers/pa
+ng-lee-stars.home.html). Proceedings of the Association for Computational Linguistics
+(ACL). pp. 115–124.
+
+9. Snyder, Benjamin; Barzilay, Regina (2007). "Multiple Aspect Ranking using the Good Grief
+Algorithm" (https://web.archive.org/web/20160806081003/http://people.csail.mit.edu/regina/
+my_papers/ggranker.ps). Proceedings of the Joint Human Language Technology/North
+American Chapter of the ACL Conference (HLT-NAACL). pp. 300–307. Archived from the
+original (http://people.csail.mit.edu/regina/my_papers/ggranker.ps) on August 6, 2016.
+Retrieved June 16, 2009.
+
+10. Qu, Yan, James Shanahan, and Janyce Wiebe. "Exploring attitude and affect in text:
+Theories and applications." In AAAI Spring Symposium, Technical report SS-04-07. AAAI
+Press, Menlo Park, CA. 2004.
+
+11. Vryniotis, Vasilis (2013). The importance of Neutral Class in Sentiment Analysis (http://blog.
+datumbox.com/the-importance-of-neutral-class-in-sentiment-analysis/).
+
+12. Koppel, Moshe; Schler, Jonathan (2006). "The Importance of Neutral Examples for Learning
+Sentiment". Computational Intelligence 22. pp. 100–109. CiteSeerX 10.1.1.84.9735 (https://
+citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.84.9735). {{cite conference}}:
+Cite uses deprecated parameter |citeseerx= (help)
+
+13. Ribeiro, Filipe Nunes; Araujo, Matheus (2010). "A Benchmark Comparison of State-of-the-
+Practice Sentiment Analysis Methods" (https://www.researchgate.net/publication/28630205
+9). Transactions on Embedded Computing Systems. 9 (4).
+
+14. Taboada, Maite; Brooke, Julian (2011). "Lexicon-based methods for sentiment analysis" (htt
+p://dl.acm.org/citation.cfm?id=2000518). Computational Linguistics. 37 (2): 272–274.
+doi:10.1162/coli_a_00049 (https://doi.org/10.1162%2Fcoli_a_00049). S2CID 3181362 (http
+s://api.semanticscholar.org/CorpusID:3181362).
+
+15. Augustyniak, Łukasz; Szymański, Piotr; Kajdanowicz, Tomasz; Tuligłowicz, Włodzimierz
+(December 25, 2015). "Comprehensive Study on Lexicon-based Ensemble Classification
+Sentiment Analysis" (https://doi.org/10.3390%2Fe18010004). Entropy. 18 (1): 4.
+Bibcode:2015Entrp..18....4A (https://ui.adsabs.harvard.edu/abs/2015Entrp..18....4A).
+doi:10.3390/e18010004 (https://doi.org/10.3390%2Fe18010004).
+
+
+
+16. Thelwall, Mike; Buckley, Kevan; Paltoglou, Georgios; Cai, Di; Kappas, Arvid (2010).
+"Sentiment strength detection in short informal text" (https://web.archive.org/web/202102012
+32802/http://www.scit.wlv.ac.uk/~cm1993/papers/SentiStrengthPreprint.doc). Journal of the
+American Society for Information Science and Technology. 61 (12): 2544–2558.
+Bibcode:2010JASIS..61.2544T (https://ui.adsabs.harvard.edu/abs/2010JASIS..61.2544T).
+doi:10.1002/asi.21416 (https://doi.org/10.1002%2Fasi.21416). Archived from the original (htt
+p://www.scit.wlv.ac.uk/~cm1993/papers/SentiStrengthPreprint.doc) on February 1, 2021.
+Retrieved June 20, 2011.
+
+17. Liu, Bing (2022). Sentiment Analysis and Opinion Mining. Springer Nature.
+18. Zhang, Wenxuan; Li, Xin; Deng, Yang; Bing, Lidong; Lam, Wai (2021). Towards Generative
+
+Aspect-Based Sentiment Analysis. Association for Computational Linguistics.
+19. Muhammad, Shamsuddeen Hassan; Ousidhoum, Nedjma; Abdulmumin, Idris; Wahle, Jan
+
+Philip; Ruas, Terry (2025). Che, Wanxiang; Nabende, Joyce; Shutova, Ekaterina; Pilehvar,
+Mohammad Taher (eds.). BRIGHTER: BRIidging the Gap in Human-Annotated Textual
+Emotion Recognition Datasets for 28 Languages (https://aclanthology.org/2025.acl-long.43
+6/). Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics
+(Volume 1: Long Papers), pages 8895–8916, Vienna, Austria. Association for Computational
+Linguistics. Vienna, Austria: Association for Computational Linguistics. pp. 8895–8916.
+doi:10.18653/v1/2025.acl-long.436 (https://doi.org/10.18653%2Fv1%2F2025.acl-long.436).
+ISBN 979-8-89176-251-0.
+
+20. Pang, Bo; Lee, Lillian (2008). "4.1.2 Subjectivity Detection and Opinion Identification" (http
+s://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html). Opinion
+Mining and Sentiment Analysis. Now Publishers Inc.
+
+21. Mihalcea, Rada; Banea, Carmen; Wiebe, Janyce (2007). "Learning Multilingual Subjective
+Language via Cross-Lingual Projections" (https://web.archive.org/web/20100708065222/htt
+p://www.cse.unt.edu/~rada/papers/mihalcea.acl07.pdf) (PDF). Proceedings of the
+Association for Computational Linguistics (ACL). pp. 976–983. Archived from the original (htt
+p://www.cse.unt.edu/~rada/papers/mihalcea.acl07.pdf) (PDF) on July 8, 2010.
+
+22. Su, Fangzhong; Markert, Katja (2008). "From Words to Senses: a Case Study in Subjectivity
+Recognition" (http://www.comp.leeds.ac.uk/markert/Papers/Coling2008.pdf) (PDF).
+Proceedings of Coling 2008, Manchester, UK.
+
+23. Pang, Bo; Lee, Lillian (2004). "A Sentimental Education: Sentiment Analysis Using
+Subjectivity Summarization Based on Minimum Cuts" (https://www.cs.cornell.edu/home/llee/
+papers/cutsent.home.html). Proceedings of the Association for Computational Linguistics
+(ACL). pp. 271–278.
+
+24. Rasheed, Haroon (February 20, 2026). "What Is Stock Market Sentiment?" (https://stockvan
+tex.com/learn/what-is-stock-sentiment). StockVantex. Retrieved October 17, 2026.
+
+25. Wiebe, Janyce; Riloff, Ellen (2005). "Creating Subjective and Objective Sentence Classifiers
+from Unannotated Texts" (https://link.springer.com/chapter/10.1007%2F978-3-540-30586-6_
+53). In Gelbukh, Alexander (ed.). Computational Linguistics and Intelligent Text Processing.
+Lecture Notes in Computer Science. Vol. 3406. Berlin, Heidelberg: Springer. pp. 486–497.
+doi:10.1007/978-3-540-30586-6_53 (https://doi.org/10.1007%2F978-3-540-30586-6_53).
+ISBN 978-3-540-30586-6.
+
+26. Quirk, Randolph; Greenbaum, Sidney; Geoffrey, Leech; Jan, Svartvik (1985). A
+Comprehensive Grammar of the English Language (General Grammar). Longman. pp. 175–
+239. ISBN 1-933108-31-2.
+
+27. Liu, Bing (2010). "Sentiment Analysis and Subjectivity" (http://www.cs.uic.edu/~liub/FBS/NL
+P-handbook-sentiment-analysis.pdf) (PDF). In Indurkhya, N.; Damerau, F. J. (eds.).
+Handbook of Natural Language Processing (Second ed.).
+
+
+
+28. Pang, Bo; Lee, Lillian (July 6, 2008). "Opinion Mining and Sentiment Analysis" (https://www.
+nowpublishers.com/article/Details/INR-011). Foundations and Trends in Information
+Retrieval. 2 (1–2): 1–135. doi:10.1561/1500000011 (https://doi.org/10.1561%2F150000001
+1). ISSN 1554-0669 (https://search.worldcat.org/issn/1554-0669). S2CID 207178694 (http
+s://api.semanticscholar.org/CorpusID:207178694).
+
+29. Riloff, Ellen; Wiebe, Janyce (July 11, 2003). "Learning extraction patterns for subjective
+expressions". Proceedings of the 2003 conference on Empirical methods in natural
+language processing -. EMNLP '03. Vol. 10. USA: Association for Computational Linguistics.
+pp. 105–112. doi:10.3115/1119355.1119369 (https://doi.org/10.3115%2F1119355.1119369).
+S2CID 6541910 (https://api.semanticscholar.org/CorpusID:6541910).
+
+30. Wiebe, Janyce; Riloff, Ellen (July 2011). "Finding Mutual Benefit between Subjectivity
+Analysis and Information Extraction". IEEE Transactions on Affective Computing. 2 (4): 175–
+191. Bibcode:2011ITAfC...2..175W (https://ui.adsabs.harvard.edu/abs/2011ITAfC...2..175W).
+doi:10.1109/T-AFFC.2011.19 (https://doi.org/10.1109%2FT-AFFC.2011.19). ISSN 1949-
+3045 (https://search.worldcat.org/issn/1949-3045). S2CID 16820846 (https://api.semanticsc
+holar.org/CorpusID:16820846).
+
+31. Riloff, Ellen (August 1, 1996). "An empirical study of automated dictionary construction for
+information extraction in three domains" (https://doi.org/10.1016%2F0004-3702%2895%290
+0123-9). Artificial Intelligence. 85 (1): 101–134. doi:10.1016/0004-3702(95)00123-9 (https://
+doi.org/10.1016%2F0004-3702%2895%2900123-9). ISSN 0004-3702 (https://search.worldc
+at.org/issn/0004-3702).
+
+32. Riloff, Ellen; Jones, Rosie (July 1999). "Learning dictionaries for information extraction by
+multi-level bootstrapping" (https://aaai.org/Papers/AAAI/1999/AAAI99-068.pdf) (PDF). AAAI
+'99/IAAI '99: Proceedings of the Sixteenth National Conference on Artificial Intelligence and
+the Eleventh Innovative Applications of Artificial Intelligence Conference Innovative
+Applications of Artificial Intelligence: 474–479.
+
+33. Thelen, Michael; Riloff, Ellen (July 6, 2002). "A bootstrapping method for learning semantic
+lexicons using extraction pattern contexts". Proceedings of the ACL-02 conference on
+Empirical methods in natural language processing - EMNLP '02. Vol. 10. USA: Association
+for Computational Linguistics. pp. 214–221. doi:10.3115/1118693.1118721 (https://doi.org/1
+0.3115%2F1118693.1118721). S2CID 137155 (https://api.semanticscholar.org/CorpusID:137
+155).
+
+34. Sweta, Soni (2024). Sentiment Analysis and its Application in Educational Data Mining
+(SpringerBriefs in Computational Intelligence). Berlin, Heidelberg: Springer. p. 30.
+ISBN 978-981-97-2473-4.
+
+35. Liu, Bing (May 23, 2012). "Sentiment Analysis and Opinion Mining" (https://web.archive.org/
+web/20210510194707/https://www.morganclaypool.com/doi/abs/10.2200/S00416ED1V01Y
+201204HLT016). Synthesis Lectures on Human Language Technologies. 5 (1): 1–167.
+doi:10.2200/S00416ED1V01Y201204HLT016 (https://doi.org/10.2200%2FS00416ED1V01Y
+201204HLT016). ISSN 1947-4040 (https://search.worldcat.org/issn/1947-4040).
+S2CID 38022159 (https://api.semanticscholar.org/CorpusID:38022159). Archived from the
+original (https://www.morganclaypool.com/doi/abs/10.2200/S00416ED1V01Y201204HLT01
+6) on May 10, 2021. Retrieved December 9, 2020.
+
+36. Deng, Shangkun; Mitsubuchi, Takashi; Shioda, Kei; Shimada, Tatsuro; Sakurai, Akito
+(December 2011). "Combining Technical Analysis with Sentiment Analysis for Stock Price
+Prediction". 2011 IEEE Ninth International Conference on Dependable, Autonomic and
+Secure Computing. IEEE. pp. 800–807. doi:10.1109/dasc.2011.138 (https://doi.org/10.110
+9%2Fdasc.2011.138). ISBN 978-1-4673-0006-3. S2CID 15262023 (https://api.semanticscho
+lar.org/CorpusID:15262023).
+
+
+
+37. Nguyen, Kiet Van; Nguyen, Vu Duc; Nguyen, Phu X.V.; Truong, Tham T.H.; Nguyen, Ngan L-
+T. (October 1, 2018). "UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment
+Analysis". 2018 10th International Conference on Knowledge and Systems Engineering
+(KSE). Vietnam: IEEE. pp. 19–24. doi:10.1109/KSE.2018.8573337 (https://doi.org/10.1109%
+2FKSE.2018.8573337). ISBN 978-1-5386-6113-0. S2CID 56172224 (https://api.semanticsc
+holar.org/CorpusID:56172224).
+
+38. Yu, Hong; Hatzivassiloglou, Vasileios (July 11, 2003). "Towards answering opinion
+questions". Proceedings of the 2003 conference on Empirical methods in natural language
+processing -. EMNLP '03. Vol. 10. USA: Association for Computational Linguistics. pp. 129–
+136. doi:10.3115/1119355.1119372 (https://doi.org/10.3115%2F1119355.1119372).
+
+39. Hu, Minqing; Liu, Bing (2004). "Mining and Summarizing Customer Reviews" (http://www.cs.
+uic.edu/~liub/FBS/sentiment-analysis.html). Proceedings of KDD 2004.
+
+40. Cataldi, Mario; Ballatore, Andrea; Tiddi, Ilaria; Aufaure, Marie-Aude (June 22, 2013). "Good
+location, terrible food: detecting feature sentiment in user-generated reviews". Social
+Network Analysis and Mining. 3 (4): 1149–1163. doi:10.1007/s13278-013-0119-7 (https://doi.
+org/10.1007%2Fs13278-013-0119-7). ISSN 1869-5450 (https://search.worldcat.org/issn/186
+9-5450). S2CID 5025282 (https://api.semanticscholar.org/CorpusID:5025282).
+
+41. Liu, Bing; Hu, Minqing; Cheng, Junsheng (2005). "Opinion Observer: Analyzing and
+Comparing Opinions on the Web" (http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html).
+Proceedings of WWW 2005.
+
+42. Zhai, Zhongwu; Liu, Bing; Xu, Hua; Jia, Peifa (January 1, 2011). "Constrained LDA for
+Grouping Product Features in Opinion Mining". In Huang, Joshua Zhexue; Cao, Longbing;
+Srivastava, Jaideep (eds.). Advances in Knowledge Discovery and Data Mining. Lecture
+Notes in Computer Science. Vol. 6634. Springer Berlin Heidelberg. pp. 448–459.
+doi:10.1007/978-3-642-20841-6_37 (https://doi.org/10.1007%2F978-3-642-20841-6_37).
+ISBN 978-3-642-20840-9.
+
+43. Titov, Ivan; McDonald, Ryan (January 1, 2008). "Modeling online reviews with multi-grain
+topic models". Proceedings of the 17th international conference on World Wide Web. WWW
+'08. New York, NY, USA: ACM. pp. 111–120. arXiv:0801.1063 (https://arxiv.org/abs/0801.106
+3). doi:10.1145/1367497.1367513 (https://doi.org/10.1145%2F1367497.1367513).
+ISBN 978-1-60558-085-2. S2CID 13609860 (https://api.semanticscholar.org/CorpusID:1360
+9860).
+
+44. Liang, Bin; et al. (2022). "Aspect-based sentiment analysis via affective knowledge
+enhanced graph convolutional networks" (https://kclpure.kcl.ac.uk/portal/en/publications/f27
+b41ea-10a0-44cf-a59d-96c36be71597). Knowledge-Based Systems. 235 107643.
+doi:10.1016/j.knosys.2021.107643 (https://doi.org/10.1016%2Fj.knosys.2021.107643).
+S2CID 237258427 (https://api.semanticscholar.org/CorpusID:237258427).
+
+45. Ma, Yukun; et al. (2018). "Targeted aspect-based sentiment analysis via embedding
+commonsense knowledge into an attentive LSTM". Proceedings of AAAI. pp. 5876–5883.
+
+46. Sharma, Raksha; Somani; Kumar; Bhattacharyya (2017). "Sentiment Intensity Ranking
+among Adjectives Using Sentiment Bearing Word Embeddings" (https://aclanthology.org/D1
+7-1058.pdf) (PDF). Association for Computational Linguistics: 547–552.
+
+47. M. S. Akhtar, A. Ekbal and E. Cambria, "How Intense Are You? Predicting Intensities of
+Emotions and Sentiments using Stacked Ensemble [Application Notes]," in IEEE
+Computational Intelligence Magazine, vol. 15, no. 1, pp. 64-75, Feb. 2020, doi:
+10.1109/MCI.2019.2954667.
+
+48. X. Ouyang, P. Zhou, C. H. Li and L. Liu, "Sentiment Analysis Using Convolutional Neural
+Network," 2015 IEEE International Conference on Computer and Information Technology;
+Ubiquitous Computing and Communications; Dependable, Autonomic and Secure
+Computing; Pervasive Intelligence and Computing, 2015, pp. 2359-2364, doi:
+10.1109/CIT/IUCC/DASC/PICOM.2015.349.
+
+
+
+49. Y. Santur, "Sentiment Analysis Based on Gated Recurrent Unit," 2019 International Artificial
+Intelligence and Data Processing Symposium (IDAP), 2019, pp. 1-5, doi:
+10.1109/IDAP.2019.8875985.
+
+50. Cambria, E; Schuller, B; Xia, Y; Havasi, C (2013). "New avenues in opinion mining and
+sentiment analysis". IEEE Intelligent Systems. 28 (2): 15–21. Bibcode:2013IISys..28b..15C
+(https://ui.adsabs.harvard.edu/abs/2013IISys..28b..15C). doi:10.1109/MIS.2013.30 (https://d
+oi.org/10.1109%2FMIS.2013.30). S2CID 12104996 (https://api.semanticscholar.org/CorpusI
+D:12104996).
+
+51. Ortony, Andrew; Clore, G; Collins, A (1988). The Cognitive Structure of Emotions (https://we
+b.archive.org/web/20151123055038/http://www.cogsci.northwestern.edu/courses/cg207/rea
+dings/Cognitive_Structure_of_Emotions_exerpt.pdf) (PDF). Cambridge Univ. Press.
+Archived from the original (http://www.cogsci.northwestern.edu/courses/cg207/readings/Cog
+nitive_Structure_of_Emotions_exerpt.pdf) (PDF) on November 23, 2015.
+
+52. Stevenson, Ryan; Mikels, Joseph; James, Thomas (2007). "Characterization of the Affective
+Norms for English Words by Discrete Emotional Categories" (https://doi.org/10.3758%2Fbf0
+3192999). Behavior Research Methods. 39 (4): 1020–1024. doi:10.3758/bf03192999 (http
+s://doi.org/10.3758%2Fbf03192999). PMID 18183921 (https://pubmed.ncbi.nlm.nih.gov/181
+83921). S2CID 6673690 (https://api.semanticscholar.org/CorpusID:6673690).
+
+53. Sahlgren, Magnus; Karlgren, Jussi; Eriksson, Gunnar (2007). "Valence annotation based on
+seeds in word space". Proceedings of the Fourth International Workshop on Semantic
+Evaluations (SemEval-2007).
+
+54. Kim, S. M.; Hovy, E. H. (2006). "Identifying and Analyzing Judgment Opinions." (https://aclan
+thology.org/P06-2063.pdf) (PDF). Proceedings of the Human Language Technology / North
+American Association of Computational Linguistics conference (HLT-NAACL 2006). New
+York, NY. Archived (https://web.archive.org/web/20110629121135/http://acl.ldc.upenn.edu/
+P/P06/P06-2063.pdf) (PDF) from the original on June 29, 2011.
+
+55. Dey, Lipika; Haque, S. K. Mirajul (2008). "Opinion Mining from Noisy Text Data" (http://porta
+l.acm.org/citation.cfm?id=1390763&dl=GUIDE&coll=GUIDE&CFID=92244761&CFTOKEN=
+30578437). Proceedings of the second workshop on Analytics for noisy unstructured text
+data, p.83-90.
+
+56. Cambria, E; Hussain, A (2015). Sentic Computing: A Common-Sense-Based Framework for
+Concept-Level Sentiment Analysis (http://springer.com/9783319236544). Springer.
+ISBN 978-3-319-23654-4.
+
+57. Akcora, Cuneyt Gurcan; Bayir, Murat Ali; Demirbas, Murat; Ferhatosmanoglu, Hakan (2010).
+"Identifying breakpoints in public opinion" (http://portal.acm.org/citation.cfm?id=1964867).
+SigKDD, Proceedings of the First Workshop on Social Media Analytics.
+
+58. Cambria, Erik; Liu, Qian; Decherchi, Sergio; Xing, Frank; Kwok, Kenneth (2022). "SenticNet
+7: A Commonsense-based Neurosymbolic AI Framework for Explainable Sentiment
+Analysis" (https://sentic.net/senticnet-7.pdf) (PDF). Proceedings of LREC. pp. 3829–3839.
+
+59. Borth, Damian; Ji, Rongrong; Chen, Tao; Breuel, Thomas; Chang, Shih-Fu (2013). "Large-
+scale Visual Sentiment Ontology and Detectors Using Adjective Noun Pairs" (https://web.arc
+hive.org/web/20210415122909/https://visual-sentiment-ontology.appspot.com/).
+Proceedings of ACM Int. Conference on Multimedia. pp. 223–232. Archived from the original
+(https://visual-sentiment-ontology.appspot.com/) on April 15, 2021. Retrieved November 2,
+2017.
+
+60. Socher, Richard; Perelygin, Alex; Wu, Jean Y.; Chuang, Jason; Manning, Christopher D.;
+Ng, Andrew Y.; Potts, Christopher (2013). "Recursive deep models for semantic
+compositionality over a sentiment treebank". In Proceedings of EMNLP: 1631–1642.
+CiteSeerX 10.1.1.593.7427 (https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.593.
+7427). {{cite journal}}: Cite uses deprecated parameter |citeseerx= (help)
+
+
+
+61. "Case Study: Advanced Sentiment Analysis" (https://web.archive.org/web/20131029190237/
+http://paragonpoll.com/sentiment-analysis-systems-case-study/). Archived from the original
+(http://paragonpoll.com/sentiment-analysis-systems-case-study/) on October 29, 2013.
+Retrieved October 18, 2013.
+
+62. Mozetič, Igor; Grčar, Miha; Smailović, Jasmina (May 5, 2016). "Multilingual Twitter
+Sentiment Classification: The Role of Human Annotators" (https://www.ncbi.nlm.nih.gov/pm
+c/articles/PMC4858191). PLOS ONE. 11 (5) e0155036. arXiv:1602.07563 (https://arxiv.org/a
+bs/1602.07563). Bibcode:2016PLoSO..1155036M (https://ui.adsabs.harvard.edu/abs/2016P
+LoSO..1155036M). doi:10.1371/journal.pone.0155036 (https://doi.org/10.1371%2Fjournal.p
+one.0155036). ISSN 1932-6203 (https://search.worldcat.org/issn/1932-6203).
+PMC 4858191 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4858191). PMID 27149621
+(https://pubmed.ncbi.nlm.nih.gov/27149621).
+
+63. Ogneva, M. "How Companies Can Use Sentiment Analysis to Improve Their Business" (htt
+p://mashable.com/2010/04/19/sentiment-analysis/). Mashable. Retrieved December 13,
+2012.
+
+64. Karlgren, Jussi, Magnus Sahlgren, Fredrik Olsson, Fredrik Espinoza, and Ola Hamfors.
+"Usefulness of sentiment analysis." In European Conference on Information Retrieval, pp.
+426-435. Springer Berlin Heidelberg, 2012.
+
+65. Karlgren, Jussi. "The relation between author mood and affect to sentiment in text and text
+genre." In Proceedings of the fourth workshop on Exploiting semantic annotations in
+information retrieval, pp. 9-10. ACM, 2011.
+
+66. Karlgren, Jussi. "Affect, appeal, and sentiment as factors influencing interaction with
+multimedia information (http://www.diva-portal.org/smash/get/diva2:1042636/FULLTEXT01.p
+df)." In Proceedings of Theseus/ImageCLEF workshop on visual information retrieval
+evaluation, pp. 8-11. 2009.
+
+67. Amigó, Enrique, Adolfo Corujo, Julio Gonzalo, Edgar Meij, and Maarten de Rijke. "Overview
+of RepLab 2012: Evaluating Online Reputation Management Systems." In CLEF (Online
+Working Notes/Labs/Workshop). 2012.
+
+68. Amigó, Enrique, Jorge Carrillo De Albornoz, Irina Chugur, Adolfo Corujo, Julio Gonzalo,
+Tamara Martín, Edgar Meij, Maarten de Rijke, and Damiano Spina. "Overview of replab
+2013: Evaluating online reputation monitoring systems." In International Conference of the
+Cross-Language Evaluation Forum for European Languages, pp. 333-352. Springer Berlin
+Heidelberg, 2013.
+
+69. Amigó, Enrique, Jorge Carrillo-de-Albornoz, Irina Chugur, Adolfo Corujo, Julio Gonzalo,
+Edgar Meij, Maarten de Rijke, and Damiano Spina. "Overview of replab 2014: author
+profiling and reputation dimensions for online reputation management." In International
+Conference of the Cross-Language Evaluation Forum for European Languages, pp. 307-
+322. Springer International Publishing, 2014.
+
+70. "Brands target AI chatbots as users switch from Google search" (https://www.ft.com/content/
+9cc6cc0b-759f-4b8e-9ed1-9e32ad0fe22f?utm_source). Financial Times.
+
+71. Wright, Alex. "Mining the Web for Feelings, Not Facts" (https://www.nytimes.com/2009/08/2
+4/technology/internet/24emotion.html?_r=1), New York Times, 2009-08-23. Retrieved on
+2009-10-01.
+
+72. "Sentiment Analysis on Reddit" (http://news.humanele.com/sentiment-analysis-reddit/).
+September 30, 2014. Retrieved October 10, 2014.
+
+73. Kirkpatrick, Marshall. " (https://web.archive.org/web/20121222020047/http://readwrite.com/2
+009/04/15/whats_next_in_social_media_monitoring), ReadWriteWeb, 2009-04-15.
+Retrieved on 2009-10-01.
+
+74. Condliffe, Jamie. "Flaming drives online social networks " (https://www.newscientist.com/arti
+cle/dn19821-flaming-drives-online-social-networks.html), New Scientist, 2010-12-07.
+Retrieved on 2010-12-13.
+
+
+
+75. Tumasjan, Andranik; O.Sprenger, Timm; G.Sandner, Philipp; M.Welpe, Isabell (2010).
+"Predicting Elections with Twitter: What 140 Characters Reveal about Political Sentiment" (h
+ttp://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/viewFile/1441/1852) Archived (ht
+tps://web.archive.org/web/20201212104855/http://www.aaai.org/ocs/index.php/ICWSM/ICW
+SM10/paper/viewFile/1441/1852) December 12, 2020, at the Wayback Machine.
+"Proceedings of the Fourth International AAAI Conference on Weblogs and Social Media"
+
+76. Wood, Ian B.; Varela, Pedro L.; Bollen, Johan; Rocha, Luis M.; Gonçalves-Sá, Joana
+(2017). "Human Sexual Cycles are Driven by Culture and Match Collective Moods" (https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC5740080). Scientific Reports. 7 (1): 17973.
+arXiv:1707.03959 (https://arxiv.org/abs/1707.03959). Bibcode:2017NatSR...717973W (http
+s://ui.adsabs.harvard.edu/abs/2017NatSR...717973W). doi:10.1038/s41598-017-18262-5 (ht
+tps://doi.org/10.1038%2Fs41598-017-18262-5). PMC 5740080 (https://www.ncbi.nlm.nih.go
+v/pmc/articles/PMC5740080). PMID 29269945 (https://pubmed.ncbi.nlm.nih.gov/29269945).
+
+77. Korkontzelos, Ioannis; Nikfarjam, Azadeh; Shardlow, Matthew; Sarker, Abeed; Ananiadou,
+Sophia; Gonzalez, Graciela H. (2016). "Analysis of the effect of sentiment analysis on
+extracting adverse drug reactions from tweets and forum posts" (https://www.ncbi.nlm.nih.go
+v/pmc/articles/PMC4981644). Journal of Biomedical Informatics. 62: 148–158.
+doi:10.1016/j.jbi.2016.06.007 (https://doi.org/10.1016%2Fj.jbi.2016.06.007). PMC 4981644
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981644). PMID 27363901 (https://pubmed.
+ncbi.nlm.nih.gov/27363901).
+
+78. Zeng, L.; Li, R.Y.M.; Yigitcanlar, T.; Zeng, H. Public Opinion Mining on Construction Health
+and Safety: Latent Dirichlet Allocation Approach. Buildings 2023, 13, 927.
+https://doi.org/10.3390/buildings13040927
+
+79. Tang, Huifeng; Tan, Songbo; Cheng, Xueqi (2009). "A survey on sentiment detection of
+reviews" (https://web.archive.org/web/20180524004208/https://pdfs.semanticscholar.org/8f1
+b/9b97183b8aa2caa0fb6c9563b14daabe8316.pdf) (PDF). Expert Systems with
+Applications. 36 (7): 10760–10773. doi:10.1016/j.eswa.2009.02.063 (https://doi.org/10.101
+6%2Fj.eswa.2009.02.063). S2CID 2178380 (https://api.semanticscholar.org/CorpusID:2178
+380). Archived from the original (https://pdfs.semanticscholar.org/8f1b/9b97183b8aa2caa0fb
+6c9563b14daabe8316.pdf) (PDF) on May 24, 2018.
+
+80. Subarna, Shakya (2023). Sentiment Analysis and Deep Learning: Proceedings of ICSADL
+2022 (Advances in Intelligent Systems and Computing, 1432). Springer. p. 567. ISBN 978-
+981-19-5442-9.
+
+81. Jakob, Niklas, et al. "Beyond the stars: exploiting free-text user reviews to improve the
+accuracy of movie recommendations." Proceedings of the 1st international CIKM workshop
+on Topic-sentiment analysis for mass opinion. ACM, 2009.
+
+82. Minqing, Hu; Liu, Bing (2004). "Mining opinion features in customer reviews" (https://web.arc
+hive.org/web/20180524004041/https://pdfs.semanticscholar.org/ee6c/726b55c66d4c222556
+cfae62a4eb69aa86b7.pdf) (PDF). AAAI. 4 (4). S2CID 5724860 (https://api.semanticscholar.
+org/CorpusID:5724860). Archived from the original (https://pdfs.semanticscholar.org/ee6c/72
+6b55c66d4c222556cfae62a4eb69aa86b7.pdf) (PDF) on May 24, 2018.
+
+83. Liu, Yang; Huang, Xiangji; An, Aijun; Yu, Xiaohui (2008). "Modeling and predicting the
+helpfulness of online reviews" (https://web.archive.org/web/20210130142931/http://www.yor
+ku.ca/xhyu/papers/ICDM2008.pdf) (PDF). ICDM'08. Eighth IEEE international conference on
+Data mining. IEEE. pp. 443–452. doi:10.1109/ICDM.2008.94 (https://doi.org/10.1109%2FIC
+DM.2008.94). ISBN 978-0-7695-3502-9. S2CID 18235238 (https://api.semanticscholar.org/
+CorpusID:18235238). Archived from the original (http://www.yorku.ca/xhyu/papers/ICDM200
+8.pdf) (PDF) on January 30, 2021. Retrieved May 23, 2018.
+
+
+
+84. Bermingham, Adam; Smeaton, Alan F. (2010). "Classifying sentiment in microblogs".
+Proceedings of the 19th ACM international conference on Information and knowledge
+management (http://doras.dcu.ie/15663/1/cikm1079-bermingham.pdf) (PDF). pp. 1833–
+1836. doi:10.1145/1871437.1871741 (https://doi.org/10.1145%2F1871437.1871741).
+ISBN 978-1-4503-0099-5. S2CID 2084603 (https://api.semanticscholar.org/CorpusID:20846
+03).
+
+85. Lamba, Manika; Madhusudhan, Margam (2018). "Application of sentiment analysis in
+libraries to provide temporal information service: a case study on various facets of
+productivity". Social Network Analysis and Mining. 8 (1): 1–12. doi:10.1007/s13278-018-
+0541-y (https://doi.org/10.1007%2Fs13278-018-0541-y). S2CID 53047128 (https://api.sema
+nticscholar.org/CorpusID:53047128).
+
+86. Rasheed, Haroon (February 20, 2026). "What Is Stock Market Sentiment?" (https://stockvan
+tex.com/learn/what-is-stock-sentiment). StockVantex. Retrieved October 17, 2026.
+
+87. Schuller, Björn; Ganascia, Jean-Gabriel; Devillers, Devillers (2016). Multimodal sentiment
+analysis in the wild: ethical considerations on data collection, annotation, and exploitation (ht
+tps://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/72157). pp. 29–34.
+ISBN 978-2-9517408-9-1.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Sentiment_analysis&oldid=1383135688"

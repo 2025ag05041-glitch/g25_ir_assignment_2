@@ -1,0 +1,885 @@
+﻿Technical analysis
+In finance, technical analysis is an analysis methodology for analysing and forecasting the direction of
+prices through the study of past market data, primarily price and volume.[1] As a type of active
+management, it stands in contradiction to much of modern portfolio theory. The efficacy of technical
+analysis is disputed by the efficient-market hypothesis, which states that stock market prices are
+essentially unpredictable,[2] and research on whether technical analysis offers any benefit has produced
+mixed results.[3][4][5] It is distinguished from fundamental analysis, which considers a company's
+financial statements, health, and the overall state of the market and economy.
+
+History
+The principles of technical analysis are derived from hundreds of years of financial market data.[6] Some
+aspects of technical analysis began to appear in Amsterdam-based merchant Joseph de la Vega's accounts
+of the Dutch financial markets in the 17th century. In Asia, technical analysis is said to be a method
+developed by Homma Munehisa during the early 18th century which evolved into the use of candlestick
+techniques, and is today a technical analysis charting tool.[7][8]
+
+Journalist Charles Dow (1851–1902) compiled and closely analyzed American stock market data, and
+published some of his conclusions in editorials for The Wall Street Journal. He believed patterns and
+business cycles could possibly be found in this data, a concept later known as "Dow theory". However,
+Dow himself never advocated using his ideas as a stock trading strategy.
+
+In the 1920s and 1930s, Richard W. Schabacker published several books which continued the work of
+Charles Dow and William Peter Hamilton in their books Stock Market Theory and Practice and Technical
+Market Analysis. In 1948, Robert D. Edwards and John Magee published Technical Analysis of Stock
+Trends which is widely considered to be one of the seminal works of the discipline. It is exclusively
+concerned with trend analysis and chart patterns and remains in use to the present. Early technical
+analysis was almost exclusively the analysis of charts because the processing power of computers was not
+available for the modern degree of statistical analysis. Charles Dow reportedly originated a form of point
+and figure chart analysis. With the emergence of behavioral finance as a separate discipline in economics,
+Paul V. Azzopardi combined technical analysis with behavioral finance and coined the term "Behavioral
+Technical Analysis".[9]
+
+Other pioneers of analysis techniques include Ralph Nelson Elliott, William Delbert Gann, and Richard
+Wyckoff who developed their respective techniques in the early 20th century.
+
+
+
+General description
+Fundamental analysts examine earnings, dividends, assets, quality, ratios, new products, research and the
+like. Technicians employ many methods, tools and techniques, one of which is the use of charts. Using
+charts, technical analysts seek to identify price patterns and market trends in financial markets and
+attempt to exploit those patterns.[10]
+
+Technicians using charts search for archetypal price chart patterns, such as the well-known head and
+shoulders[11] or double top/bottom reversal patterns, study technical indicators, moving averages and look
+for forms such as lines of support, resistance, channels and more obscure formations such as flags,
+pennants, balance days and cup and handle patterns.[12]
+
+Technical analysts also widely use market indicators of many sorts, some of which are mathematical
+transformations of price, often including up and down volume, advance/decline data and other inputs.
+These indicators are used to help assess whether an asset is trending, and if it is, the probability of its
+direction and of continuation. Technicians also look for relationships between price/volume indices and
+market indicators. Examples include the moving average, relative strength index and MACD. Other
+avenues of study include correlations between changes in Options (implied volatility) and put/call ratios
+with price. Also important are sentiment indicators such as Put/Call ratios, bull/bear ratios, short interest,
+Implied Volatility, etc.
+
+There are many techniques in technical analysis. Adherents of different techniques (for example:
+Candlestick analysis, the oldest form of technical analysis developed by a Japanese grain trader;
+Harmonics; Dow theory; and Elliott wave theory) may ignore the other approaches, yet many traders
+combine elements from more than one technique. Some technical analysts use subjective judgment to
+decide which pattern(s) a particular instrument reflects at a given time and what the interpretation of that
+pattern should be. Others employ a strictly mechanical or systematic approach to pattern identification
+and interpretation.
+
+Comparison with fundamental analysis
+Contrasting with technical analysis is fundamental analysis: the study of economic and other underlying
+factors that influence the way investors price financial markets. This may include regular corporate
+metrics like a company's recent EBITDA figures, the estimated impact of recent staffing changes to the
+board of directors, geopolitical considerations, and even scientific factors like the estimated future effects
+of global warming. Pure forms of technical analysis can hold that prices already reflect all the underlying
+fundamental factors. Uncovering future trends is what technical indicators are designed to do, although
+neither technical nor fundamental indicators are perfect. Some traders use technical or fundamental
+analysis exclusively, while others use both types to make trading decisions.[13][14]
+
+Comparison with quantitative analysis
+The contrast against quantitative analysis is less clear cut than the distinction with fundamental analysis.
+Some sources treat technical and quantitative analysis as more or less synonymous, while others draw a
+sharp distinction. For example, quantitative analysis expert Paul Wilmott suggests technical analysis is
+
+
+
+little more than 'charting' (making forecasts based on extrapolating graphical representations), and that
+technical analysis rarely has any predictive power.[15][14]
+
+Principles
+A core principle of technical analysis is that a market's price
+reflects all relevant information impacting that market. A
+technical analyst therefore looks at the history of a security or
+commodity's trading pattern rather than external drivers such
+as economic, fundamental and news events. It is believed that
+price action tends to repeat itself due to the collective,
+patterned behavior of investors. Hence technical analysis
+focuses on identifiable price trends and conditions.[16][17] Stock chart showing levels of support (4,
+
+5, 6, 7, and 8) and resistance (1, 2, and
+3). Therefore, levels of resistance tend to
+
+Market action discounts everything become levels of support and vice versa.
+
+Based on the premise that all relevant information is already
+reflected by prices, technical analysts believe it is important to understand what investors think of that
+information, known and perceived.
+
+Prices move in trends
+Technical analysts believe that prices trend directionally, i.e., up, down, or sideways (flat) or some
+combination. The basic definition of a price trend was originally put forward by Dow theory.[10]
+
+An example of a security that had an apparent trend is AOL from November 2001 through August 2002.
+A technical analyst or trend follower recognizing this trend would look for opportunities to sell this
+security. AOL consistently moves downward in price. Each time the stock rose, sellers would enter the
+market and sell the stock; hence the "zig-zag" movement in the price. The series of "lower highs" and
+"lower lows" is a tell tale sign of a stock in a down trend.[18] In other words, each time the stock moved
+lower, it fell below its previous relative low price. Each time the stock moved higher, it could not reach
+the level of its previous relative high price.
+
+Note that the sequence of lower lows and lower highs did not begin until August. Then AOL makes a low
+price that does not pierce the relative low set earlier in the month. Later in the same month, the stock
+makes a relative high equal to the most recent relative high. In this a technician sees strong indications
+that the down trend is at least pausing and possibly ending, and would likely stop actively selling the
+stock at that point.
+
+History tends to repeat itself
+Technical analysts believe that investors collectively repeat the behavior of the investors who preceded
+them. To a technician, the emotions in the market may be irrational, but they exist. Because investor
+behavior repeats itself so often, technicians believe that recognizable (and predictable) price patterns will
+develop on a chart.[10] Recognition of these patterns can allow the technician to select trades that have a
+higher probability of success.[19]
+
+
+
+Technical analysis is not limited to charting, but it always considers price trends.[1] For example, many
+technicians monitor surveys of investor sentiment. These surveys gauge the market sentiment of
+participants, specifically whether they are "bearish" or "bullish". Technicians use these surveys to help
+determine whether a trend will continue or if a reversal could develop; they are most likely to anticipate a
+change when the surveys report extreme investor sentiment.[20] Surveys that show overwhelming
+bullishness, for example, are evidence that an uptrend may reverse; the premise being that if most
+investors are bullish they have already bought the market (anticipating higher prices). And because most
+investors are bullish and invested, one assumes that few buyers remain. This leaves more potential sellers
+than buyers, despite the bullish sentiment. This suggests that prices will trend down, and is an example of
+contrarian investing.[21]
+
+Industry
+The industry is globally represented by the International Federation of Technical Analysts (IFTA), which
+is a federation of regional and national organizations. In the United States, the industry is represented by
+both the CMT Association and the American Association of Professional Technical Analysts (AAPTA).
+The United States is also represented by the Technical Security Analysts Association of San Francisco
+(TSAASF). In the United Kingdom, the industry is represented by the Society of Technical Analysts
+(STA). The STA was a founding member of IFTA, has recently celebrated its 50th anniversary and
+certifies analysts with the Diploma in Technical Analysis. In Canada the industry is represented by the
+Canadian Society of Technical Analysts.[22] In Australia, the industry is represented by the Australian
+Technical Analysts Association (ATAA),[23] (which is affiliated to IFTA) and the Australian Professional
+Technical Analysts (APTA) Inc.[24]
+
+Professional technical analysis societies have worked on creating a body of knowledge that describes the
+field of Technical Analysis. A body of knowledge is central to the field as a way of defining how and why
+technical analysis may work. It can then be used by academia, as well as regulatory bodies, in developing
+proper research and standards for the field. The CMT Association has published a body of knowledge,
+which is the structure for the Chartered Market Technician (CMT) exam.[25][26]
+
+Software
+Technical analysis software automates the charting, analysis and reporting functions that support
+technical analysts in their review and prediction of financial markets[27] (e.g. the stock market).Web-base
+stock analysis platforms can combine technical indicators and chart-based analysis.[28]
+
+In addition to installable desktop-based software packages in the traditional sense, the industry has seen
+an emergence of cloud-based applications and application programming interfaces (APIs) that deliver
+technical indicators (e.g., MACD, Bollinger Bands) via RESTful HTTP or intranet protocols.
+
+Modern technical analysis software is often available as a web or a smartphone application, without the
+need to download and install a software package. Some of them even offer an integrated programming
+language and automatic backtesting tools.
+
+
+
+Systematic trading
+
+Neural networks
+Since the early 1990s when the first practically usable types emerged, artificial neural networks (ANNs)
+have rapidly grown in popularity. They are artificial intelligence adaptive software systems that have been
+inspired by how biological neural networks work. They are used because they can learn to detect complex
+patterns in data. In mathematical terms, they are universal function approximators,[29][30] meaning that
+given the right data and configured correctly, they can capture and model any input-output relationships.
+This not only removes the need for human interpretation of charts or the series of rules for generating
+entry/exit signals, but also provides a bridge to fundamental analysis, as the variables used in
+fundamental analysis can be used as input.
+
+As ANNs are essentially non-linear statistical models, their accuracy and prediction capabilities can be
+both mathematically and empirically tested. In various studies, authors have claimed that neural networks
+used for generating trading signals given various technical and fundamental inputs have significantly
+outperformed buy-hold strategies as well as traditional linear technical analysis methods when combined
+with rule-based expert systems.[31][32][33]
+
+While the advanced mathematical nature of such adaptive systems has kept neural networks for financial
+analysis mostly within academic research circles, in recent years more user friendly neural network
+software has made the technology more accessible to traders.
+
+Backtesting/Hindcasting
+Systematic trading is most often employed after testing an investment
+strategy on historic data. This is known as backtesting (or
+hindcasting). Backtesting is most often performed for technical
+indicators combined with volatility but can be applied to most
+investment strategies (e.g. fundamental analysis). While traditional Temporal representation of
+backtesting was done by hand, this was usually only performed on hindcasting[34]
+
+human-selected stocks, and was thus prone to prior knowledge in
+stock selection. With the advent of computers, backtesting can be
+performed on entire exchanges over decades of historic data in very short amounts of time.
+
+The use of computers does have its drawbacks, being limited to algorithms that a computer can perform.
+Several trading strategies rely on human interpretation,[35] and are unsuitable for computer processing.[36]
+
+Only technical indicators which are entirely algorithmic can be programmed for computerized automated
+backtesting.
+
+Combination with other market forecast methods
+John Murphy states that the principal sources of information available to technicians are price, volume
+and open interest.[10] Other data, such as indicators and sentiment analysis, are considered secondary.
+
+
+
+However, many technical analysts reach outside pure technical analysis, combining other market forecast
+methods with their technical work. One advocate for this approach is John Bollinger, who coined the term
+rational analysis in the middle 1980s for the intersection of technical analysis and fundamental
+analysis.[37] Another such approach, fusion analysis, overlays fundamental analysis with technical, in an
+attempt to improve portfolio manager performance.
+
+Technical analysis is also often combined with quantitative analysis and economics. For example, neural
+networks may be used to help identify intermarket relationships.[38]
+
+Investor and newsletter polls, and magazine cover sentiment indicators, are also used by technical
+analysts.[39]
+
+Empirical evidence
+Whether technical analysis actually works is a matter of controversy. Methods vary greatly, and different
+technical analysts can sometimes make contradictory predictions from the same data. Many investors
+claim that they experience positive returns, but academic appraisals often find that it has little predictive
+power.[40] Of 95 modern studies, 56 concluded that technical analysis had positive results, although data-
+snooping bias and other problems make the analysis difficult.[3] Nonlinear prediction using neural
+networks occasionally produces statistically significant prediction results.[41] A Federal Reserve working
+paper[4] regarding support and resistance levels in short-term foreign exchange rates "offers strong
+evidence that the levels help to predict intraday trend interruptions", although the "predictive power" of
+those levels was "found to vary across the exchange rates and firms examined".
+
+Technical trading strategies were found to be effective in the Chinese marketplace by a 2007 study that
+states, "Finally, we find significant positive returns on buy trades generated by the contrarian version of
+the moving-average crossover rule, the channel breakout rule, and the Bollinger band trading rule, after
+accounting for transaction costs of 0.50%."[42]
+
+An influential 1992 study by Brock et al. appeared to find support for technical trading rules.[43] Sullivan
+and Timmerman tested the 1992 study for data snooping and other problems in 1999;[44] they determined
+the sample covered by Brock et al. was robust to data snooping.
+
+Subsequently, a comprehensive study of the question by Amsterdam economist Gerwin Griffioen
+concludes that: "for the U.S., Japanese and most Western European stock market indices the recursive
+out-of-sample forecasting procedure does not show to be profitable, after implementing little transaction
+costs. Moreover, for sufficiently high transaction costs it is found, by estimating CAPMs, that technical
+trading shows no statistically significant risk-corrected out-of-sample forecasting power for almost all of
+the stock market indices."[45] Transaction costs are particularly applicable to "momentum strategies"; a
+comprehensive 1996 review of the data and studies concluded that even small transaction costs would
+lead to an inability to capture any excess from such strategies.[46]
+
+In a 2000 paper published in the Journal of Finance, professor Andrew W. Lo of MIT, working with
+Harry Mamaysky and Jiang Wang found that:
+
+
+
+Technical analysis, also known as "charting", has been a part of financial practice for many
+decades, but this discipline has not received the same level of academic scrutiny and acceptance
+as more traditional approaches such as fundamental analysis. One of the main obstacles is the
+highly subjective nature of technical analysis – the presence of geometric shapes in historical
+price charts is often in the eyes of the beholder. In this paper, we propose a systematic and
+automatic approach to technical pattern recognition using nonparametric kernel regression, and
+apply this method to a large number of U.S. stocks from 1962 to 1996 to evaluate the
+effectiveness of technical analysis. By comparing the unconditional empirical distribution of
+daily stock returns to the conditional distribution – conditioned on specific technical indicators
+such as head-and-shoulders or double-bottoms – we find that over the 31-year sample period,
+several technical indicators do provide incremental information and may have some practical
+value.[5]
+
+In that same paper Lo wrote that "several academic studies suggest that ... technical analysis may well be
+an effective means for extracting useful information from market prices."[5] Some techniques such as
+Drummond Geometry attempt to overcome the past data bias by projecting support and resistance levels
+from differing time frames into the near-term future and combining that with reversion to the mean
+techniques.[47]
+
+Efficient-market hypothesis
+The efficient-market hypothesis (EMH) contradicts the basic tenets of technical analysis by stating that
+past prices cannot be used to profitably predict future prices. Thus it holds that technical analysis cannot
+be effective. Economist Eugene Fama published the seminal paper on the EMH in the Journal of Finance
+in 1970, and said "In short, the evidence in support of the efficient markets model is extensive, and
+(somewhat uniquely in economics) contradictory evidence is sparse."[48]
+
+However, because future stock prices can be strongly influenced by investor expectations, technicians
+claim it only follows that past prices influence future prices.[49] They also point to research in the field of
+behavioral finance, specifically that people are not the rational participants EMH makes them out to be.
+Technicians have long said that irrational human behavior influences stock prices, and that this behavior
+leads to predictable outcomes.[50] Author David Aronson says that the theory of behavioral finance blends
+with the practice of technical analysis:
+
+By considering the impact of emotions, cognitive errors, irrational preferences, and the
+dynamics of group behavior, behavioral finance offers succinct explanations of excess
+market volatility as well as the excess returns earned by stale information strategies....
+cognitive errors may also explain the existence of market inefficiencies that spawn the
+systematic price movements that allow objective TA [technical analysis] methods to
+work.[49]
+
+EMH advocates reply that while individual market participants do not always act rationally (or have
+complete information), their aggregate decisions balance each other, resulting in a rational outcome
+(optimists who buy stock and bid the price higher are countered by pessimists who sell their stock, which
+keeps the price in equilibrium).[51] Likewise, complete information is reflected in the price because all
+market participants bring their own individual, but incomplete, knowledge together in the market.[51]
+
+
+
+Random walk hypothesis
+The random walk hypothesis may be derived from the weak-form efficient markets hypothesis, which is
+based on the assumption that market participants take full account of any information contained in past
+price movements (but not necessarily other public information). In his book A Random Walk Down Wall
+Street, Princeton economist Burton Malkiel said that technical forecasting tools such as pattern analysis
+must ultimately be self-defeating: "The problem is that once such a regularity is known to market
+participants, people will act in such a way that prevents it from happening in the future."[52] Malkiel has
+stated that while momentum may explain some stock price movements, there is not enough momentum to
+make excess profits. Malkiel has compared technical analysis to "astrology".[53]
+
+In the late 1980s, professors Andrew Lo and Craig McKinlay published a paper which cast doubt on the
+random walk hypothesis. In a 1999 response to Malkiel, Lo and McKinlay collected empirical papers that
+questioned the hypothesis' applicability[54] that suggested a non-random and possibly predictive
+component to stock price movement, though they were careful to point out that rejecting random walk
+does not necessarily invalidate EMH, which is an entirely separate concept from RWH. In a 2000 paper,
+Andrew Lo back-analyzed data from the U.S. from 1962 to 1996 and found that "several technical
+indicators do provide incremental information and may have some practical value".[5] Burton Malkiel
+dismissed the irregularities mentioned by Lo and McKinlay as being too small to profit from.[53]
+
+Technicians argue that the EMH and random walk theories both ignore the realities of markets, in that
+participants are not completely rational and that current price moves are not independent of previous
+moves.[18][55] Some signal processing researchers negate the random walk hypothesis that stock market
+prices resemble Wiener processes, because the statistical moments of such processes and real stock data
+vary significantly with respect to window size and similarity measure.[56] They argue that feature
+transformations used for the description of audio and biosignals can also be used to predict stock market
+prices successfully which would contradict the random walk hypothesis.
+
+The random walk index (RWI) is a technical indicator that attempts to determine if a stock's price
+movement is random in nature or a result of a statistically significant trend. The random walk index
+attempts to determine when the market is in a strong uptrend or downtrend by measuring price ranges
+over N and how it differs from what would be expected by a random walk (randomly going up or down).
+The greater the range suggests a stronger trend.[57]
+
+Applying Kahneman and Tversky's prospect theory to price movements, Paul V. Azzopardi provided a
+possible explanation why fear makes prices fall sharply while greed pushes up prices gradually.[58] This
+commonly observed behaviour of securities prices is sharply at odds with random walk. By gauging
+greed and fear in the market,[59] investors can better formulate long and short portfolio stances.
+
+Scientific technical analysis
+Caginalp and Balenovich in 1994[60] used their asset-flow differential equations model to show that the
+major patterns of technical analysis could be generated with some basic assumptions. Some of the
+patterns such as a triangle continuation or reversal pattern can be generated with the assumption of two
+distinct groups of investors with different assessments of valuation. The major assumptions of the models
+are the finiteness of assets and the use of trend as well as valuation in decision making. Many of the
+patterns follow as mathematically logical consequences of these assumptions.
+
+
+
+One of the problems with conventional technical analysis has been the difficulty of specifying the
+patterns in a manner that permits objective testing.
+
+Japanese candlestick patterns involve patterns of a few days that are within an uptrend or downtrend.
+Caginalp and Laurent[61] were the first to perform a successful large scale test of patterns. A
+mathematically precise set of criteria were tested by first using a definition of a short-term trend by
+smoothing the data and allowing for one deviation in the smoothed trend. They then considered eight
+major three-day candlestick reversal patterns in a non-parametric manner and defined the patterns as a set
+of inequalities. The results were positive with an overwhelming statistical confidence for each of the
+patterns using the data set of all S&P 500 stocks daily for the five-year period 1992–1996.
+
+Among the most basic ideas of conventional technical analysis is that a trend, once established, tends to
+continue. However, testing for this trend has often led researchers to conclude that stocks are a random
+walk. One study, performed by Poterba and Summers,[62] found a small trend effect that was too small to
+be of trading value. As Fisher Black noted,[63] "noise" in trading price data makes it difficult to test
+hypotheses.
+
+One method for avoiding this noise was discovered in 1995 by Caginalp and Constantine[64] who used a
+ratio of two essentially identical closed-end funds to eliminate any changes in valuation. A closed-end
+fund (unlike an open-end fund) trades independently of its net asset value and its shares cannot be
+redeemed, but only traded among investors as any other stock on the exchanges. In this study, the authors
+found that the best estimate of tomorrow's price is not yesterday's price (as the efficient-market
+hypothesis would indicate), nor is it the pure momentum price (namely, the same relative price change
+from yesterday to today continues from today to tomorrow). But rather it is almost exactly halfway
+between the two.
+
+Starting from the characterization of the past time evolution of market prices in terms of price velocity
+and price acceleration, an attempt towards a general framework for technical analysis has been
+developed, with the goal of establishing a principled classification of the possible patterns characterizing
+the deviation or defects from the random walk market state and its time translational invariant
+properties.[65] The classification relies on two dimensionless parameters, the Froude number
+characterizing the relative strength of the acceleration with respect to the velocity and the time horizon
+forecast dimensionalized to the training period. Trend-following and contrarian patterns are found to
+coexist and depend on the dimensionless time horizon. Using a renormalisation group approach, the
+probabilistic based scenario approach exhibits statistically significant predictive power in essentially all
+tested market phases.
+
+A survey of modern studies by Park and Irwin[66] showed that most found a positive result from technical
+analysis.
+
+In 2011, Caginalp and DeSantis[67] have used large data sets of closed-end funds, where comparison with
+valuation is possible, in order to determine quantitatively whether key aspects of technical analysis such
+as trend and resistance have scientific validity. Using data sets of over 100,000 points they demonstrate
+that trend has an effect that is at least half as important as valuation. The effects of volume and volatility,
+which are smaller, are also evident and statistically significant. An important aspect of their work
+involves the nonlinear effect of trend. Positive trends that occur within approximately 3.7 standard
+deviations have a positive effect. For stronger uptrends, there is a negative effect on returns, suggesting
+that profit taking occurs as the magnitude of the uptrend increases. For downtrends the situation is similar
+
+
+
+except that the "buying on dips" does not take place until the downtrend is a 4.6 standard deviation event.
+These methods can be used to examine investor behavior and compare the underlying strategies among
+different asset classes.
+
+In 2013, Kim Man Lui and T Chong pointed out that the past findings on technical analysis mostly
+reported the profitability of specific trading rules for a given set of historical data. These past studies had
+not taken the human trader into consideration as no real-world trader would mechanically adopt signals
+from any technical analysis method. Therefore, to unveil the truth of technical analysis, we should get
+back to understand the performance between experienced and novice traders. If the market really walks
+randomly, there will be no difference between these two kinds of traders. However, it is found by
+experiment that traders who are more knowledgeable on technical analysis significantly outperform those
+who are less knowledgeable.[68]
+
+Ticker-tape reading
+Until the mid-1960s, tape reading was a popular form of technical analysis. It consisted of reading
+market information such as price, volume, order size, and so on from a paper strip which ran through a
+machine called a stock ticker. Market data was sent to brokerage houses and to the homes and offices of
+the most active speculators. This system fell into disuse with the advent of electronic information panels
+in the late 60's, and later computers, which allow for the easy preparation of charts.
+
+Jesse Livermore, one of the most successful stock market operators of all time, was primarily concerned
+with ticker tape reading since a young age. He followed his own (mechanical) trading system (he called it
+the 'market key'), which did not need charts, but was relying solely on price data. He described his market
+key in detail in his 1940s book 'How to Trade in Stocks'.[69] Livermore's system was determining market
+phases (trend, correction etc.) via past price data. He also made use of volume data (which he estimated
+from how stocks behaved and via 'market testing', a process of testing market liquidity via sending in
+small market orders), as described in his 1940s book.
+
+Quotation board
+Another form of technical analysis used so far was via interpretation of stock market data contained in
+quotation boards, that in the times before electronic screens, were huge chalkboards located in the stock
+exchanges, with data of the main financial assets listed on exchanges for analysis of their movements.[70]
+
+It was manually updated with chalk, with the updates regarding some of these data being transmitted to
+environments outside of exchanges (such as brokerage houses, bucket shops, etc.) via the aforementioned
+tape, telegraph, telephone and later telex.[71]
+
+This analysis tool was used both, on the spot, mainly by market professionals, as well as by general
+public through the printed versions in newspapers showing the data of the negotiations of the previous
+day, for swing and position trades.[72]
+
+
+
+Charting terms and indicators
+
+Concepts
+Average true range – averaged daily trading range, adjusted for price gaps.
+Breakout – the concept whereby prices forcefully penetrate an area of prior support or
+resistance, usually, but not always, accompanied by an increase in volume.
+Chart pattern – distinctive pattern created by the movement of security or commodity prices
+on a chart
+Cycles – time targets for potential change in price action (price only moves up, down, or
+sideways)
+Dead cat bounce – the phenomenon whereby a spectacular decline in the price of a stock is
+immediately followed by a moderate and temporary rise before resuming its downward
+movement
+Elliott wave principle and the golden ratio to calculate successive price movements and
+retracements
+Fibonacci ratios – used as a guide to determine support and resistance and retracement
+percentages
+Momentum – the rate of price change
+Point and figure analysis – A priced-based analytical approach employing numerical filters
+which may incorporate time references, though ignores time entirely in its construction
+Resistance – a price level that may prompt a net increase of selling activity
+Support – a price level that may prompt a net increase of buying activity
+Trending – the phenomenon by which price movement tends to persist in one direction for
+an extended period of time
+
+Types of charts
+Candlestick chart – Of Japanese origin and similar to OHLC, candlesticks widen and fill the
+interval between the open and close prices to emphasize the open/close relationship. In the
+West, often black or red candle bodies represent a close lower than the open, while white,
+green or blue candles represent a close higher than the open price.
+Line chart – Connects the closing price values with line segments. You can also choose to
+draw the line chart using open, high or low price.
+Open-high-low-close chart – OHLC charts, also known as bar charts, plot the span between
+the high and low prices of a trading period as a vertical line segment at the trading time, and
+the open and close prices with horizontal tick marks on the range line, usually a tick to the
+left for the open price and a tick to the right for the closing price.
+Point and figure chart – a chart type employing numerical filters with only passing
+references to time, and which ignores time entirely in its construction.
+
+Overlays
+Overlays are generally superimposed over the main price chart.
+
+Bollinger bands – a range of price volatility
+Channel – a pair of parallel trend lines
+
+
+
+Ichimoku kinko hyo – a moving average-based system that factors in time and the average
+point between a candle's high and low
+Moving average – an average over a window of time before and after a given time point that
+is repeated at each time point in the given chart. A moving average can be thought of as a
+kind of dynamic trend-line.
+Parabolic SAR – Wilder's trailing stop based on prices tending to stay within a parabolic
+curve during a strong trend
+Pivot point – derived by calculating the numerical average of a particular currency's or
+stock's high, low and closing prices
+Resistance – a price level that may act as a ceiling above price
+Support – a price level that may act as a floor below price
+Trend line – a sloping line described by at least two peaks or two troughs
+Zig Zag – This chart overlay that shows filtered price movements that are greater than a
+given percentage.
+
+Breadth indicators
+These indicators are based on statistics derived from the broad market.
+
+Advance–decline line – a popular indicator of market breadth.
+McClellan Oscillator – a popular closed-form indicator of breadth.
+McClellan Summation Index – a popular open-form indicator of breadth.
+
+Price-based indicators
+These indicators are generally shown below or above the main price chart.
+
+Average directional index – a widely used indicator of trend strength.
+Commodity channel index – identifies cyclical trends.
+MACD – moving average convergence/divergence.
+Momentum – the rate of price change.
+Relative strength index (RSI) – oscillator showing price strength.
+Relative Vigor Index (RVI) – oscillator measures the conviction of a recent price action and
+the likelihood that it will continue.
+Stochastic oscillator – close position within recent trading range.
+Trix – an oscillator showing the slope of a triple-smoothed exponential moving average.
+Vortex Indicator – an indicator used to identify the existence, continuation, initiation or
+termination of trends.
+
+Volume-based indicators
+Accumulation/distribution index – based on the close within the day's range.
+Money flow index – the amount of stock traded on days the price went up.
+On-balance volume – the momentum of buying and selling stocks.
+
+
+
+Trading with Mixing Indicators
+MACD & Average directional index
+MACD & Super Trend
+MACD & Moving average
+MACD & RSI
+MACD & Moving Averages
+
+See also
+Algorithmic trading
+Apophenia
+Behavioral finance
+Certified Financial Technician / Master of Financial Technical Analysis
+Chartered Market Technician
+Clustering illusion
+Financial signal processing
+List of financial market information services
+Market analysis
+Market timing
+Mathematical finance
+Multimedia information retrieval
+Multiple comparisons problem
+Overfitting
+Price action trading
+Texas sharpshooter fallacy
+William Peter Hamilton
+
+References
+1. Kirkpatrick & Dahlquist (2006), p. 3
+2. Lo, Andrew W.; Hasanhodzic, Jasmina (2010). The Evolution of Technical Analysis:
+
+Financial Prediction from Babylonian Tablets to Bloomberg Terminals (https://books.google.c
+om/books?id=HMR_YTo3l2AC). Bloomberg Press. p. 150. ISBN 978-1-57660-349-9.
+
+3. Irwin, Scott H.; Park, Cheol-Ho (2007). "What Do We Know About the Profitability of
+Technical Analysis?". Journal of Economic Surveys. 21 (4): 786–826. doi:10.1111/j.1467-
+6419.2007.00519.x (https://doi.org/10.1111%2Fj.1467-6419.2007.00519.x).
+S2CID 154488391 (https://api.semanticscholar.org/CorpusID:154488391).
+
+4. Osler, Karen (July 2000). "Support for Resistance: Technical Analysis and Intraday
+Exchange Rates," FRBNY Economic Policy Review (abstract and paper here (http://www.ny.
+frb.org/research/epr/00v06n2/0007osle.html) Archived (https://web.archive.org/web/2015110
+7072205/http://www.ny.frb.org/research/epr/00v06n2/0007osle.html) 7 November 2015 at
+the Wayback Machine).
+
+5. Lo, Andrew W.; Mamaysky, Harry; Wang, Jiang (2000). "Foundations of Technical Analysis:
+Computational Algorithms, Statistical Inference, and Empirical Implementation". Journal of
+Finance. 55 (4): 1705–1765. Bibcode:2000JFin...55.1705L (https://ui.adsabs.harvard.edu/ab
+s/2000JFin...55.1705L). doi:10.1111/0022-1082.00265 (https://doi.org/10.1111%2F0022-108
+2.00265).
+
+
+
+6. Joseph de la Vega, Confusión de Confusiones, 1688
+7. Nison, Steve (1991). Japanese Candlestick Charting Techniques. New York Institute of
+
+Finance. pp. 15–18. ISBN 978-0-13-931650-0.
+8. Nison, Steve (1994). Beyond Candlesticks: New Japanese Charting Techniques Revealed,
+
+John Wiley and Sons, p. 14. ISBN 0-471-00720-X
+9. Paul V. Azzopardi, "Behavioral Technical Analysis", ibid
+
+10. Murphy, John J. Technical Analysis of the Financial Markets. New York Institute of Finance,
+1999, pp. 1–5, 24–31. ISBN 0-7352-0066-1
+
+11. "PrimePair.com Head and Shoulders Pattern" (https://web.archive.org/web/2015010611455
+8/http://primepair.com/trading-education/forex-analysis/technical-analysis#Head_and_Shoul
+ders). Archived from the original (http://primepair.com/trading-education/forex-analysis/techn
+ical-analysis#Head_and_Shoulders) on 6 January 2015. Retrieved 6 January 2015.
+
+12. Elder (1993), Part III: Classical Chart Analysis
+13. Elder (1993), Part II: "Mass Psychology"; Chapter 17: "Managing versus Forecasting", pp.
+
+65–68
+14. Wilmott, Paul (2007). "Appendix B, esp p. 628". Paul Wilmott Introduces Quantitative
+
+Finance. Wiley. ISBN 978-0-470-31958-1.
+15. Akston, Dr. Hugh (13 January 2009). "Beating the Quants at Their Own Game" (https://seeki
+
+ngalpha.com/article/114523-beating-the-quants-at-their-own-game).
+16. Elder (2008), Chapter 1 – section "Trend vs Counter-Trending Trading"
+17. "Beware of the Stock Market as a Self-Fulfilling Prophecy" (https://web.archive.org/web/201
+
+90329051324/http://ownthedollar.com/2009/12/beware-stock-market-selffulfilling-prophecy/).
+Archived from the original (http://ownthedollar.com/2009/12/beware-stock-market-selffulfillin
+g-prophecy/) on 29 March 2019. Retrieved 4 August 2012.
+
+18. Kahn, Michael N. (2006). Technical Analysis Plain and Simple: Charting the Markets in Your
+Language, Financial Times Press, Upper Saddle River, New Jersey, p. 80. ISBN 0-13-
+134597-4.
+
+19. Baiynd, Anne-Marie (2011). The Trading Book: A Complete Solution to Mastering Technical
+Systems and Trading Psychology (https://archive.org/details/tradingbookcompl0000baiy).
+McGraw-Hill. p. 272. ISBN 978-0-07-176649-4. Archived (https://web.archive.org/web/20120
+325050543/http://mcgraw-hill.com.au/html/9780071766494.html) from the original on 25
+March 2012.
+
+20. Kirkpatrick & Dahlquist (2006), p. 87
+21. Kirkpatrick & Dahlquist (2006), p. 86
+22. Technical Analysis: The Complete Resource for Financial Market Technicians, p. 7
+23. "Home – Australian Technical Analysts Association" (http://www.ataa.com.au).
+24. "Home" (http://www.apta.org.au).
+25. "CMT Association Knowledge Base" (https://web.archive.org/web/20171014220341/https://c
+
+mtassociation.org/development/knowledge-base/). Archived from the original (https://cmtass
+ociation.org/development/knowledge-base/) on 14 October 2017. Retrieved 16 August 2017.
+
+26. Wiley (2021). CMT Level I 2021: An Introduction to Technical Analysis. Wiley. ISBN 978-1-
+119-76805-0.
+
+27. Rasheed, Haroon (1 September 2026). "What Is Technical Analysis?" (https://stockvantex.co
+m/learn/what-is-technical-analysis). StockVantex.
+
+28. Rasheed, Haroon (1 September 2026). "What Is Technical Analysis" (https://stockvantex.co
+m/learn/what-is-technical-analysis). StockVantex.
+
+29. K. Funahashi, On the approximate realization of continuous mappings by neural networks,
+Neural Networks vol 2, 1989
+
+30. K. Hornik, Multilayer feed-forward networks are universal approximators, Neural Networks,
+vol 2, 1989
+
+
+
+31. R. Lawrence. Using Neural Networks to Forecast Stock Market Prices (http://people.ok.ubc.
+ca/rlawrenc/research/Papers/nn.pdf) Archived (https://web.archive.org/web/2020093015052
+7/http://people.ok.ubc.ca/rlawrenc/research/Papers/nn.pdf) 30 September 2020 at the
+Wayback Machine
+
+32. B.Egeli et al. Stock Market Prediction Using Artificial Neural Networks (http://www.hicbusine
+ss.org/biz2003proceedings/Birgul%20Egeli.pdf) Archived (https://web.archive.org/web/2007
+0620024840/http://www.hicbusiness.org/biz2003proceedings/Birgul%20Egeli.pdf) 20 June
+2007 at the Wayback Machine
+
+33. M. Zekić. Neural Network Applications in Stock Market Predictions – A Methodology
+Analysis (http://oliver.efos.hr/nastavnici/mzekic/radovi/mzekic_varazdin98.pdf) Archived (htt
+ps://web.archive.org/web/20120424231150/http://oliver.efos.hr/nastavnici/mzekic/radovi/mze
+kic_varazdin98.pdf) 24 April 2012 at the Wayback Machine
+
+34. Taken from p.145 of Yeates, L.B., Thought Experimentation: A Cognitive Approach,
+Graduate Diploma in Arts (By Research) dissertation, University of New South Wales, 2004.
+(https://archive.org/details/TECA2004)
+
+35. Elder (1993), pp. 54, 116–118
+36. Elder (1993)
+37. ltd, Research and Markets. "The Capital Growth Letter – Research and Markets" (https://we
+
+b.archive.org/web/20160324151729/http://www.researchandmarkets.com/reports/450723/th
+e_capital_growth_letter.htm). Archived from the original (http://www.researchandmarkets.co
+m/reports/450723/the_capital_growth_letter.htm) on 24 March 2016. Retrieved 3 April 2008.
+
+38. "Archived copy" (https://web.archive.org/web/20090112164116/http://www.iijournals.com/JO
+T/default.asp?Page=2&ISS=22278&SID=644085). Archived from the original (http://www.iijo
+urnals.com/JOT/default.asp?Page=2&ISS=22278&SID=644085) on 12 January 2009.
+Retrieved 31 August 2007.
+
+39. "SFO" (https://web.archive.org/web/20071006150127/http://www.sfomag.com/departmentpri
+ntdetail.asp?ID=1776333475). Archived from the original on 6 October 2007. Retrieved
+27 August 2007.
+
+40. Browning, E.S. (31 July 2007). "Reading market tea leaves". The Wall Street Journal
+Europe. Dow Jones. pp. 17–18.
+
+41. Skabar, Cloete, Networks, Financial Trading and the Efficient Markets Hypothesis (http://crpi
+t.com/confpapers/CRPITV4Skabar.pdf) Archived (https://web.archive.org/web/20110718234
+410/http://crpit.com/confpapers/CRPITV4Skabar.pdf) 18 July 2011 at the Wayback Machine
+
+42. Balsara, Nauzer J.; Chen, Gary; Zheng, Lin (April 2007). "The Chinese Stock Market: An
+Examination of the Random Walk Model and Technical Trading Rules" (https://web.archive.o
+rg/web/20081204112239/http://findarticles.com/p/articles/mi_qa5466/is_200704/ai_n212928
+07/pg_1?tag=artBody;col1). The Quarterly Journal of Business and Economics. Archived
+from the original on 4 December 2008 – via FindArticles.
+
+43. Brock, William, et al. "Simple Technical Trading Rules and the Stochastic Properties of
+Stock Returns." The Journal of Finance, vol. 47, no. 5, 1992, pp. 1731–64. JSTOR,
+https://doi.org/10.2307/2328994. Accessed 8 Dec. 2024.
+
+44. Sullivan, R.; Timmermann, A.; White, H. (1999). "Data-Snooping, Technical Trading Rule
+Performance, and the Bootstrap". The Journal of Finance. 54 (5): 1647–1691.
+doi:10.1111/0022-1082.00163 (https://doi.org/10.1111%2F0022-1082.00163).
+
+45. Griffioen, Technical Analysis in Financial Markets (https://ssrn.com/abstract=566882)
+46. Chan, L.K.C.; Jegadeesh, N.; Lakonishok, J. (1996). "Momentum Strategies". The Journal
+
+of Finance. 51 (5): 1681–1713. doi:10.2307/2329534 (https://doi.org/10.2307%2F2329534).
+JSTOR 2329534 (https://www.jstor.org/stable/2329534).
+
+47. David Keller, "Breakthroughs in Technical Analysis; New Thinking from the World's Top
+Minds," New York, Bloomberg Press, 2007, ISBN 978-1-57660-242-3 pp.1–19
+
+
+
+48. Eugene Fama, "Efficient Capital Markets: A Review of Theory and Empirical Work," (http://w
+ww.e-m-h.org/Fama70.pdf) The Journal of Finance, volume 25, issue 2 (May 1970), pp.
+383–417.
+
+49. Aronson, David R. (2006). Evidence-Based Technical Analysis (http://www.wiley.com/WileyC
+DA/WileyTitle/productCd-0470008741,descCd-authorInfo.html) Archived (https://web.archiv
+e.org/web/20130602124816/http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470008
+741,descCd-authorInfo.html) 2 June 2013 at the Wayback Machine, Hoboken, New Jersey:
+John Wiley and Sons, pages 357, 355–356, 342. ISBN 978-0-470-00874-4.
+
+50. Prechter, Robert R Jr; Parker, Wayne D (2007). "The Financial/Economic Dichotomy in
+Social Behavioral Dynamics: The Socionomic Perspective". Journal of Behavioral Finance.
+8 (2): 84–108. doi:10.1080/15427560701381028 (https://doi.org/10.1080%2F154275607013
+81028). S2CID 55114691 (https://api.semanticscholar.org/CorpusID:55114691).
+
+51. Clarke, J., T. Jandik, and Gershon Mandelker (2001). "The efficient markets hypothesis,"
+Expert Financial Planning: Advice from Industry Leaders, ed. R. Arffa, 126–141. New York:
+Wiley & Sons.
+
+52. Burton Malkiel, A Random Walk Down Wall Street, W. W. Norton & Company (April 2003) p.
+168.
+
+53. Robert Huebscher. Burton Malkiel Talks the Random Walk (https://www.advisorperspectives.
+com/newsletters09/pdfs/Burton_Malkiel_Talks_the_Random_Walk.pdf). 7 July 2009.
+
+54. Lo, Andrew; MacKinlay, Craig. A Non-Random Walk Down Wall Street, Princeton University
+Press, 1999. ISBN 978-0-691-05774-3
+
+55. Poser, Steven W. (2003). Applying Elliott Wave Theory Profitably, John Wiley and Sons, p.
+71. ISBN 0-471-42007-7.
+
+56. Eidenberger, Horst (2011). "Fundamental Media Understanding" Atpress. ISBN 978-3-8423-
+7917-6.
+
+57. "AsiaPacFinance.com Trading Indicator Glossary" (https://web.archive.org/web/2011090102
+2339/http://www.asiapacfinance.com/trading-strategies/technicalindicators/RandomWalkInd
+ex). Archived from the original (http://www.asiapacfinance.com/trading-strategies/technicalin
+dicators/RandomWalkIndex) on 1 September 2011. Retrieved 1 August 2011.
+
+58. Azzopardi, Paul V. (2012), "Why Financial Markets Rise Slowly but Fall Sharply: Analysing
+market behaviour with behavioural finance", Harriman House, ASIN: B00B0Y6JIC
+
+59. "Fear & Greed Index - Investor Sentiment" (https://web.archive.org/web/20120525095621/ht
+tp://money.cnn.com/data/fear-and-greed/). Archived from the original (https://money.cnn.co
+m/data/fear-and-greed/) on 25 May 2012.
+
+60. Gunduz Caginalp; Donald Balenovich (2003). "A theoretical foundation for technical
+analysis" (https://web.archive.org/web/20150924074513/http://www.pitt.edu/~caginalp/Tech
+An90.pdf) (PDF). Journal of Technical Analysis. 59: 5–22. Archived from the original (http://w
+ww.pitt.edu/~caginalp/TechAn90.pdf) (PDF) on 24 September 2015. Retrieved 11 May 2015.
+
+61. Caginalp, G.; Laurent, H. (1998). "The Predictive Power of Price Patterns". Applied
+Mathematical Finance. 5 (3–4): 181–206. doi:10.1080/135048698334637 (https://doi.org/10.
+1080%2F135048698334637). S2CID 44237914 (https://api.semanticscholar.org/CorpusID:4
+4237914).
+
+62. Poterba, J.M.; Summers, L.H. (1988). "Mean reversion in stock prices: Evidence and
+Implications". Journal of Financial Economics. 22: 27–59. doi:10.1016/0304-405x(88)90021-
+9 (https://doi.org/10.1016%2F0304-405x%2888%2990021-9). S2CID 18901605 (https://api.
+semanticscholar.org/CorpusID:18901605).
+
+63. Black, F (1986). "Noise" (https://doi.org/10.1111%2Fj.1540-6261.1986.tb04513.x). Journal of
+Finance. 41 (3): 529–43. doi:10.1111/j.1540-6261.1986.tb04513.x (https://doi.org/10.1111%2
+Fj.1540-6261.1986.tb04513.x).
+
+
+
+64. Caginalp, G.; Constantine, G. (1995). "Statistical inference and modeling of momentum in
+stock prices" (https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID664002_code328612.pdf?
+abstractid=660481&mirid=1) (PDF). Applied Mathematical Finance. 2 (4): 225–242.
+doi:10.1080/13504869500000012 (https://doi.org/10.1080%2F13504869500000012).
+S2CID 154176805 (https://api.semanticscholar.org/CorpusID:154176805).
+
+65. J. V. Andersen, S. Gluzman and D. Sornette, Fundamental Framework for Technical
+Analysis, European Physical Journal B 14, 579–601 (2000)
+
+66. C-H Park and S.H. Irwin, "The Profitability of Technical Analysis: A Review" AgMAS Project
+Research Report No. 2004-04
+
+67. G. Caginalp and M. DeSantis, "Nonlinearity in the dynamics of financial markets," Nonlinear
+Analysis: Real World Applications, 12(2), 1140–1151, 2011.
+
+68. K.M. Lui and T.T.L Chong, "Do Technical Analysts Outperform Novice Traders: Experimental
+Evidence" Economics Bulletin. 33(4), 3080–3087, 2013.
+
+69. Livermore (1940)
+70. Lefèvre (2000), pp. 1, 18
+71. Lefèvre (2000), p. 17
+72. Livermore (1940), pp. 17–18
+
+Bibliography
+Elder, Alexander (1993). Trading for a Living; Psychology, Trading Tactics, Money
+Management (https://archive.org/details/tradingforliving00elde_0). John Wiley & Sons.
+ISBN 978-0-47159224-2.
+Kirkpatrick, Charles D.; Dahlquist, Julie R. (2006). Technical Analysis: The Complete
+Resource for Financial Market Technicians. Financial Times Press. ISBN 978-0-13-153113-
+0.
+Lefèvre, Edwin (2000) [1923]. Reminiscences of a Stock Operator: With new Commentary
+and Insights on the Life and Times of Jesse Livermore. John Wiley & Sons. ISBN 978-0-
+470-48159-2.
+Livermore, Jesse Lauriston (1940). How to Trade in Stocks. Duell, Sloan & Pearce NY.
+
+Further reading
+Azzopardi, Paul V. Behavioural Technical Analysis: An introduction to behavioural finance
+and its role in technical analysis. Harriman House, 2010. ISBN 978-1905641413
+Colby, Robert W. The Encyclopedia of Technical Market Indicators. 2nd Edition. McGraw
+Hill, 2003. ISBN 0-07-012057-9
+Covel, Michael. The Complete Turtle Trader. HarperCollins, 2007. ISBN 9780061241703
+Douglas, Mark. The Disciplined Trader. New York Institute of Finance, 1990. ISBN 0-13-
+215757-8
+Edwards, Robert D.; Magee, John; Bassetti, W.H.C. Technical Analysis of Stock Trends, 9th
+Edition (Hardcover). American Management Association, 2007. ISBN 0-8493-3772-0
+Fox, Justin. The Myth of the Rational Market. HarperCollings, 2009. ISBN 9780060598990
+Hurst, J. M. The Profit Magic of Stock Transaction Timing. Prentice-Hall, 1972. ISBN 0-13-
+726018-0
+Neill, Humphrey B. Tape Reading & Market Tactics. First edition of 1931. Market Place 2007
+reprint ISBN 1592802621
+
+
+
+Neill, Humphrey B. The Art of Contrary Thinking. Caxton Press 1954.
+Pring, Martin J. Technical Analysis Explained: The Successful Investor's Guide to Spotting
+Investment Trends and Turning Points. McGraw Hill, 2002. ISBN 0-07-138193-7
+Raschke, Linda Bradford; Connors, Lawrence A. Street Smarts: High Probability Short-Term
+Trading Strategies. M. Gordon Publishing Group, 1995. ISBN 0-9650461-0-9
+Rollo Tape & Wyckoff, Richard D. Studies in Tape Reading The Ticker Publishing Co. NY
+1910.
+Tharp, Van K. Definitive Guide to Position Sizing International Institute of Trading Mastery,
+2008. ISBN 0935219099
+Wilder, J. Welles. New Concepts in Technical Trading Systems. Trend Research, 1978.
+ISBN 0-89459-027-8
+Ladis Konecny, Stocks and Exchange – the only Book you need, 2013,
+ISBN 9783848220656, technical analysis = chapter 8.
+Schabackers, Richard W. Stock Market Theory and Practice, 2011. ISBN 9781258159474
+Murphy, John J. Technical Analysis of The Financial Markets, 1986. ISBN 9780735200661
+
+External links
+
+International and national organizations
+
+International Federation of Technical Analysts (https://www.ifta.org/)
+Singapore: Technical Analysts Society (Singapore) (https://www.tass.org.sg/)
+United States: CMT Association (https://cmtassociation.org/)
+United Kingdom: Society of Technical Analysts (https://www.technicalanalysts.com/)
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Technical_analysis&oldid=1380669334"

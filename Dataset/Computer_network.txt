@@ -1,0 +1,1476 @@
+﻿Computer network
+In computer science, computer engineering, and telecommunications, a network is a group of
+communicating computers and peripherals called hosts, which communicate data to other hosts via
+communication protocols, as facilitated by networking hardware.
+
+Within a computer network, hosts are identified by network addresses, which allow networking hardware
+to locate and identify hosts. Hosts may also have hostnames, memorable labels for the host nodes, which
+can be mapped to a network address using a hosts file or a name server such as Domain Name Service.
+The physical medium that supports information exchange includes wired media like copper cables,
+optical fibers, and wireless radio-frequency media. The arrangement of hosts and hardware within a
+network architecture is called the network topology.[1][2]
+
+The first computer network was created in 1940 when George Stibitz connected a terminal at Dartmouth
+to his Complex Number Calculator at Bell Labs in New York. Today, almost all computers are connected
+to a computer network, such as the global Internet or embedded networks such as those found in many
+modern electronic devices. Many applications have only limited functionality unless they are connected
+to a network. Networks support applications and services, such as access to the World Wide Web, digital
+video and audio, application and storage servers, printers, and email and instant messaging applications.
+
+History
+
+Early origins (1940 – 1960s)
+In 1940, George Stibitz of Bell Labs connected a teletype at Dartmouth to a Bell Labs computer running
+his Complex Number Calculator to demonstrate the use of computers at long distance.[3][4] This was the
+first real-time, remote use of a computing machine.[3]
+
+In the late 1950s, the U.S. military Semi-Automatic Ground Environment (SAGE) radar system
+constructed a network of computers[5][6][7][8] using the Bell 101 modem. This was the first commercial
+modem for computers, released by AT&T Corporation in 1958. The modem allowed digital data to be
+transmitted over regular unconditioned telephone-lines at a speed of 110 bits per second (bit/s).
+
+In 1959, Christopher Strachey filed a patent application for time-sharing in the United Kingdom and John
+McCarthy initiated the first project to implement time-sharing of user programs at MIT.[9][10][11][12]
+
+Strachey passed the concept on to J. C. R. Licklider at the inaugural UNESCO Information Processing
+Conference in Paris that year.[13] McCarthy was instrumental in the creation of three of the earliest time-
+sharing systems (the Compatible Time-Sharing System in 1961, the BBN Time-Sharing System in 1962,
+and the Dartmouth Time-Sharing System in 1963).
+
+
+
+In 1959, Anatoly Kitov proposed to the Central Committee of the Communist Party of the Soviet Union a
+detailed plan for the re-organization of the control of the Soviet armed forces and of the Soviet economy
+on the basis of a network of computing centers.[14] Soviet authorities rejected Kitov's proposal,[15] and
+later also stopped the 1962 OGAS economy management network project.[16]
+
+During the 1960s,[17][18] Paul Baran and Donald Davies independently invented the concept of packet
+switching for data communication between computers over a network.[19][20][21][22] Baran's work
+addressed adaptive routing of message blocks across a distributed network, but did not include routers
+with software switches, nor the idea that users, rather than the network itself, would provide the
+reliability.[23][24][25][26]
+
+Davies' hierarchical network design included high-speed routers, communication protocols and the
+essence of the end-to-end principle.[27][28][29][30] The NPL network, a local area network at the National
+Physical Laboratory (United Kingdom), pioneered the implementation of the concept in 1968-69 using
+768 kbit/s links.[31][29][32] Both Baran's and Davies' inventions were seminal contributions that influenced
+the development of computer networks.[33][34][35][36]
+
+ARPANET (1969 – 1974)
+In 1962 and 1963, J. C. R. Licklider sent a series of memos to office colleagues discussing the concept of
+the "Intergalactic Computer Network", a computer network intended to allow general communications
+among computer users. This ultimately became the basis for the ARPANET, which began in 1969.[37]
+
+That year, the first four nodes of the ARPANET were connected using 50 kbit/s circuits between the
+University of California at Los Angeles, the Stanford Research Institute, the University of California,
+Santa Barbara, and the University of Utah.[37][38] Designed principally by Bob Kahn, the network's
+routing, flow control, software design and network control were developed by the IMP team working for
+Bolt Beranek & Newman.[39][40][41]
+
+In the early 1970s, Leonard Kleinrock carried out mathematical work to model the performance of
+packet-switched networks, which underpinned the development of the ARPANET.[42][43] His theoretical
+work on hierarchical routing in the late 1970s with student Farouk Kamoun remains critical to the
+operation of the Internet today.[44][45]
+
+In 1973, Peter Kirstein put internetworking into practice at University College London (UCL),
+connecting the ARPANET to British academic networks, the first international heterogeneous computer
+network.[46][47] That same year, Robert Metcalfe wrote a formal memo at Xerox PARC describing
+Ethernet,[48] a local area networking system he created with David Boggs.[49] It was inspired by the
+packet radio ALOHAnet, started by Norman Abramson and Franklin Kuo at the University of Hawaii in
+the late 1960s.[50][51] Metcalfe and Boggs, with John Shoch and Edward Taft, also developed the PARC
+Universal Packet for internetworking.[52] That year, the French CYCLADES network, directed by Louis
+Pouzin was the first to make the hosts responsible for the reliable delivery of data, rather than this being a
+centralized service of the network itself.[53]
+
+
+
+The internet (1974 – present)
+In 1974, Vint Cerf and Bob Kahn published their seminal 1974 paper on internetworking, A Protocol for
+Packet Network Intercommunication.[54] Later that year, Cerf, Yogen Dalal, and Carl Sunshine wrote the
+first Transmission Control Protocol (TCP) specification, RFC 675 (https://www.rfc-editor.org/rfc/rfc675),
+coining the term Internet as a shorthand for internetworking.[55] In July 1976, Metcalfe and Boggs
+published their paper "Ethernet: Distributed Packet Switching for Local Computer Networks"[56] and in
+December 1977, together with Butler Lampson and Charles P. Thacker, they received U.S. patent
+4063220A (https://patents.google.com/patent/US4063220A) for their invention.[57][58]
+
+In 1976, John Murphy of Datapoint Corporation created ARCNET, a token-passing network first used to
+share storage devices. In 1979, Robert Metcalfe pursued making Ethernet an open standard.[59] In 1980,
+Ethernet was upgraded from the original 2.94 Mbit/s protocol to the 10  Mbit/s protocol, which was
+developed by Ron Crane, Bob Garner, Roy Ogus,[60] Hal Murray, Dave Redell and Yogen Dalal.[61] In
+1986, the National Science Foundation (NSF) launched the National Science Foundation Network
+(NSFNET) as a general-purpose research network connecting various NSF-funded sites to each other and
+to regional research and education networks.[37]
+
+In 1995, the transmission speed capacity for Ethernet increased from 10 Mbit/s to 100 Mbit/s. By 1998,
+Ethernet supported transmission speeds of 1 Gbit/s. Subsequently, higher speeds of up to 800 Gbit/s were
+added (as of 2025). The scaling of Ethernet has been a contributing factor to its continued use.[59] In the
+1980s and 1990s, as embedded systems were becoming increasingly important in factories, cars, and
+airplanes, network protocols were developed to allow the embedded computers to communicate. In the
+late 1990s and 2000s, ubiquitous computing and an Internet of Things became popular.[62][63]
+
+Commercial usage
+In 1960, the commercial airline reservation system semi-automatic business research environment
+(SABRE) went online with two connected mainframes. In 1965, Western Electric introduced the first
+widely used telephone switch that implemented computer control in the switching fabric. In 1972,
+commercial services were first deployed on experimental public data networks in Europe.[64][65] Public
+data networks in Europe, North America and Japan began using X.25 in the late 1970s and interconnected
+with X.75.[20] This underlying infrastructure was used for expanding TCP/IP networks in the 1980s.[66]
+
+In 1977, the first long-distance fiber network was deployed by GTE in Long Beach, California.
+
+Hardware
+
+Network links
+The transmission media used to link devices to form a computer network include electrical cable, optical
+fiber, and free space. In the OSI model, the software to handle the media is defined at layers 1 and 2 —
+the physical layer and the data link layer. Common examples of networking technologies include:
+
+Ethernet is a widely adopted family of networking technologies that use copper and fiber
+media in local area networks (LAN). The media and protocol standards that enable
+communication between networked devices over Ethernet are defined by IEEE 802.3.
+
+
+
+Wireless LAN standards, which use radio waves. Some standards use infrared signals as a
+transmission medium.
+Power line communication uses a building's power cabling to transmit data.
+
+Wired
+The following classes of wired technologies are used in computer
+networking.
+
+Coaxial cable is widely used for cable television systems,
+office buildings, and other work-sites for local area networks.
+Transmission speed ranges from 200 million bits per second
+to more than 500 million bits per second.
+ITU-T G.hn technology uses existing home wiring (coaxial
+cable, phone lines and power lines) to create a high-speed
+local area network.
+Twisted pair cabling is used for wired Ethernet and other
+standards. It typically consists of 4 pairs of copper cabling that
+can be utilized for both voice and data transmission. The use
+of two wires twisted together helps to reduce crosstalk and
+electromagnetic induction. The transmission speed ranges
+from 2 Mbit/s to 10 Gbit/s. Twisted pair cabling comes in two Fiber-optic cables are used to
+forms: unshielded twisted pair (UTP) and shielded twisted-pair transmit light from one
+(STP). Each form comes in several category ratings, designed computer/network node to
+for use in various scenarios. another.
+
+An optical fiber is a glass fiber that carries pulses of
+light that represent data via lasers and optical
+amplifiers. Some advantages of optical fibers over
+metal wires are very low transmission loss and
+immunity to electrical interference. Using dense
+wave division multiplexing, optical fibers can
+simultaneously carry multiple streams of data on
+different wavelengths of light, which greatly
+increases the rate that data can be sent to up to
+trillions of bits per second. Optic fibers can be used
+for long runs of cable carrying very high data rates,
+and are used for undersea communications cables 2007 map showing submarine optical
+
+to interconnect continents. There are two basic fiber telecommunication cables around
+
+types of fiber optics, single-mode optical fiber (SMF) the world
+
+and multi-mode optical fiber (MMF).[67]
+
+Wireless
+Network connections can be established wirelessly using radio or other electromagnetic means of
+communication.
+
+Terrestrial microwave – Terrestrial microwave communication uses Earth-based transmitters
+and receivers resembling satellite dishes. Terrestrial microwaves are in the low gigahertz
+range, which limits all communications to line-of-sight. Relay stations are spaced
+approximately 40 miles (64 km) apart.
+Communications satellites – Satellites also communicate via microwave. The satellites are
+stationed in space, typically in geosynchronous orbit 35,400 km (22,000 mi) above the
+
+
+
+equator. These Earth-orbiting systems are capable
+of receiving and relaying voice, data, and TV
+signals.
+Cellular networks use several radio communications
+technologies. The systems divide the region covered
+into multiple geographic areas. Each area is served
+by a low-power transceiver.
+Radio and spread spectrum technologies – Wireless
+LANs use a high-frequency radio technology similar
+to digital cellular. Wireless LANs use spread
+spectrum technology to enable communication
+between multiple devices in a limited area. IEEE Computers are very often connected to
+802.11 defines a common flavor of open-standards networks using wireless links.
+wireless radio-wave technology known as Wi-Fi.
+Free-space optical communication uses visible or
+invisible light for communications. In most cases, line-of-sight propagation is used, which
+limits the physical positioning of communicating devices.
+Extending the Internet to interplanetary dimensions via radio waves and optical means, the
+Interplanetary Internet.[68]
+
+IP over Avian Carriers was a humorous April fool's Request for Comments, issued as
+RFC 1149 (https://www.rfc-editor.org/rfc/rfc1149). It was implemented in real life in 2001.[69]
+
+The last two cases have a large round-trip delay time, which gives slow two-way communication but does
+not prevent sending large amounts of information (they can have high throughput).
+
+Network nodes
+Apart from any physical transmission media, networks are built from additional basic system building
+blocks, such as network interface controllers, repeaters, hubs, bridges, switches, routers, modems, and
+firewalls. Any particular piece of equipment will frequently contain multiple building blocks and so may
+perform multiple functions.
+
+Network interfaces
+A network interface controller (NIC) is computer hardware
+that connects the computer to the network media and has the
+ability to process low-level network information. For
+example, the NIC may have a connector for plugging in a
+cable, or an aerial for wireless transmission and reception,
+and the associated circuitry.
+
+In Ethernet networks, each NIC has a unique Media Access
+Control (MAC) address—usually stored in the controller's
+
+An ATM network interface in the form of
+permanent memory. To avoid address conflicts between an accessory card. Many network
+network devices, the Institute of Electrical and Electronics interfaces are built-in.
+Engineers (IEEE) maintains and administers MAC address
+uniqueness. The size of an Ethernet MAC address is six
+octets. The three most significant octets are reserved to identify NIC manufacturers. These manufacturers,
+using only their assigned prefixes, uniquely assign the three least-significant octets of every Ethernet
+interface they produce.
+
+
+
+Repeaters and hubs
+A repeater is an electronic device that receives a network signal, cleans it of unnecessary noise and
+regenerates it. The signal is retransmitted at a higher power level, or to the other side of obstruction so
+that the signal can cover longer distances without degradation. In most twisted-pair Ethernet
+configurations, repeaters are required for cable that runs longer than 100 meters. With fiber optics,
+repeaters can be tens or even hundreds of kilometers apart.
+
+Repeaters work on the physical layer of the OSI model but still require a small amount of time to
+regenerate the signal. This can cause a propagation delay that affects network performance and may affect
+proper function. As a result, many network architectures limit the number of repeaters used in a network,
+e.g., the Ethernet 5-4-3 rule.
+
+An Ethernet repeater with multiple ports is known as an Ethernet hub. In addition to reconditioning and
+distributing network signals, a repeater hub assists with collision detection and fault isolation for the
+network. Hubs and repeaters in LANs have been largely obsoleted by modern network switches.
+
+Bridges and switches
+Network bridges and network switches are distinct from a hub in that they only forward frames to the
+ports involved in the communication whereas a hub forwards to all ports. Bridges only have two ports but
+a switch can be thought of as a multi-port bridge. Switches normally have numerous ports, facilitating a
+star topology for devices, and for cascading additional switches.
+
+Bridges and switches operate at the data link layer (layer 2) of the OSI model and bridge traffic between
+two or more network segments to form a single local network. Both are devices that forward frames of
+data between ports based on the destination MAC address in each frame.[70]
+
+They learn the association of physical ports to MAC addresses by examining the source addresses of
+received frames and only forward the frame when necessary. If an unknown destination MAC is targeted,
+the device broadcasts the request to all ports except the source, and discovers the location from the reply.
+
+Bridges and switches divide the network's collision domain but maintain a single broadcast domain.
+Network segmentation through bridging and switching helps break down a large, congested network into
+an aggregation of smaller, more efficient networks.
+
+Routers
+A router is an internetworking device that forwards packets between networks by processing the
+addressing or routing information included in the packet. The routing information is often processed in
+conjunction with the routing table. A router uses its routing table to determine where to forward packets
+and does not require broadcasting packets which is inefficient for very big networks.
+
+Modems
+Modems (modulator-demodulator) are used to connect network nodes via wire not originally designed for
+digital network traffic, or for wireless. To do this one or more carrier signals are modulated by the digital
+signal to produce an analog signal that can be tailored to give the required properties for transmission.
+
+
+
+Early modems modulated audio signals sent over a standard
+voice telephone line. Modems are still commonly used for
+telephone lines, using a digital subscriber line technology and
+cable television systems using DOCSIS technology.
+
+Firewalls
+A firewall is a network device or software for controlling
+network security and access rules. Firewalls are inserted in
+connections between secure internal networks and potentially A typical home or small office router
+
+insecure external networks such as the Internet. Firewalls are showing the ADSL telephone line and
+
+typically configured to reject access requests from Ethernet network cable connections
+
+unrecognized sources while allowing actions from recognized
+ones. The vital role firewalls play in network security grows
+in parallel with the constant increase in cyber attacks.
+
+Communication
+
+Protocols
+A communication protocol is a set of rules for exchanging This is an image of a firewall separating a
+information over a network. Communication protocols have private network from a public network
+various characteristics, such as being connection-oriented or
+connectionless, or using circuit switching or packet switching.
+
+In a protocol stack, often constructed per the OSI model,
+communications functions are divided into protocol layers,
+where each layer leverages the services of the layer below it
+until the lowest layer controls the hardware that sends
+information across the media. The use of protocol layering is
+ubiquitous across the field of computer networking. An
+important example of a protocol stack is HTTP, the World The TCP/IP model and its relation to
+Wide Web protocol. HTTP runs over TCP over IP, the Internet common protocols used at different
+protocols, which in turn run over IEEE 802.11, the Wi-Fi layers of the model
+
+protocol. This stack is used between a wireless router and a
+personal computer when accessing the web.
+
+Packets
+Most modern computer networks use protocols based on packet-mode transmission. A network packet is
+a formatted unit of data carried by a packet-switched network.
+
+Packets consist of two types of data: control information and user data (payload). The control information
+provides data the network needs to deliver the user data, for example, source and destination network
+addresses, error detection codes, and sequencing information. Typically, control information is found in
+packet headers and trailers, with payload data in between.
+
+
+
+With packets, the bandwidth of the transmission medium can
+be better shared among users than if the network were circuit
+switched. When one user is not sending packets, the link can
+be filled with packets from other users, and so the cost can be
+shared, with relatively little interference, provided the link is
+not overused. Often the route a packet needs to take through a
+network is not immediately available. In that case, the packet
+is queued and waits until a link is free.
+
+The physical link technologies of packet networks typically
+limit the size of packets to a certain maximum transmission Message flows between two devices (A-
+unit (MTU). A longer message may be fragmented before it is B) at the four layers of the TCP/IP model
+transferred and once the packets arrive, they are reassembled in the presence of a router (R). Red flows
+to construct the original message. are effective communication paths, black
+
+paths are across the actual network links.
+
+Common protocols
+
+Internet protocol suite
+The Internet protocol suite, also called TCP/IP, is the
+foundation of all modern networking. It offers connection-
+less and connection-oriented services over an inherently
+unreliable network traversed by datagram transmission using
+Internet protocol (IP). At its core, the protocol suite defines
+the addressing, identification, and routing specifications for Network Packet
+Internet Protocol Version 4 (IPv4) and for IPv6, the next
+generation of the protocol with a much enlarged addressing
+capability. The Internet protocol suite is the defining set of protocols for the Internet.[71]
+
+IEEE 802
+IEEE 802 is a family of IEEE standards dealing with local area networks and metropolitan area networks.
+The complete IEEE 802 protocol suite provides a diverse set of networking capabilities. The protocols
+have a flat addressing scheme. They operate mostly at layers 1 and 2 of the OSI model.
+
+For example, MAC bridging (IEEE 802.1D) deals with the routing of Ethernet packets using a Spanning
+Tree Protocol. IEEE 802.1Q describes VLANs, and IEEE 802.1X defines a port-based network access
+control protocol, which forms the basis for the authentication mechanisms used in VLANs[72] (but it is
+also found in WLANs[73]) – it is what the home user sees when the user has to enter a "wireless access
+key".
+
+Ethernet
+Ethernet is a family of technologies used in wired LANs. It is described by a set of standards together
+called IEEE 802.3 published by the Institute of Electrical and Electronics Engineers.
+
+
+
+Wireless LAN
+Wireless LAN based on the IEEE 802.11 standards, also widely known as WLAN or WiFi, is probably
+the most well-known member of the IEEE 802 protocol family for home users today. IEEE 802.11 shares
+many properties with wired Ethernet.
+
+SONET/SDH
+Synchronous optical networking (SONET) and Synchronous Digital Hierarchy (SDH) are standardized
+multiplexing protocols that transfer multiple digital bit streams over optical fiber using lasers. They were
+originally designed to transport circuit mode communications from a variety of different sources,
+primarily to support circuit-switched digital telephony. However, due to its protocol neutrality and
+transport-oriented features, SONET/SDH also was the obvious choice for transporting Asynchronous
+Transfer Mode (ATM) frames.
+
+Asynchronous Transfer Mode
+Asynchronous Transfer Mode (ATM) is a switching technique for telecommunication networks. It uses
+asynchronous time-division multiplexing and encodes data into small, fixed-sized cells. This differs from
+other protocols such as the Internet protocol suite or Ethernet that use variable-sized packets or frames.
+ATM has similarities with both circuit and packet switched networking. This makes it a good choice for a
+network that must handle both traditional high-throughput data traffic, and real-time, low-latency content
+such as voice and video. ATM uses a connection-oriented model in which a virtual circuit must be
+established between two endpoints before the actual data exchange begins.
+
+ATM still plays a role in the last mile, which is the connection between an Internet service provider and
+the home user.[74]
+
+Cellular standards
+There are a number of different digital cellular standards, including: Global System for Mobile
+Communications (GSM), General Packet Radio Service (GPRS), cdmaOne, CDMA2000, Evolution-Data
+Optimized (EV-DO), Enhanced Data Rates for GSM Evolution (EDGE), Universal Mobile
+Telecommunications System (UMTS), Digital Enhanced Cordless Telecommunications (DECT), Digital
+AMPS (IS-136/TDMA), and Integrated Digital Enhanced Network (iDEN).[75]
+
+Routing
+Routing is the process of selecting network paths to carry network traffic. Routing is performed for many
+kinds of networks, including circuit switching networks and packet switched networks.
+
+In packet-switched networks, routing protocols direct packet forwarding through intermediate nodes.
+Intermediate nodes are typically network hardware devices such as routers, bridges, gateways, firewalls,
+or switches. General-purpose computers can also forward packets and perform routing, though because
+they lack specialized hardware, may offer limited performance. The routing process directs forwarding on
+the basis of routing tables, which maintain a record of the routes to various network destinations. Most
+routing algorithms use only one network path at a time. Multipath routing techniques enable the use of
+multiple alternative paths.
+
+
+
+Routing can be contrasted with bridging in its assumption that
+network addresses are structured and that similar addresses
+imply proximity within the network. Structured addresses
+allow a single routing table entry to represent the route to a
+group of devices. In large networks, the structured addressing
+used by routers outperforms unstructured addressing used by
+bridging. Structured IP addresses are used on the Internet.
+Unstructured MAC addresses are used for bridging on
+Ethernet and similar local area networks.
+
+Architecture
+Routing calculates good paths through a
+network for information to take. For
+
+Topology example, from node 1 to node 6 the best
+routes are likely to be 1-8-7-6, 1-8-10-6
+
+The physical or geographic locations of network nodes and or 1-9-10-6, as these are the shortest
+links generally have relatively little effect on a network, but routes.
+the topology of interconnections of a network can
+significantly affect its throughput and reliability. With many
+technologies, such as bus or star networks, a single failure can
+cause the network to fail entirely. In general, the more
+interconnections there are, the more robust the network is; but
+the more expensive it is to install. Therefore, most network
+diagrams are arranged by their network topology which is the
+map of logical interconnections of network hosts.
+
+Common network topologies
+Common topologies are:
+
+Bus network: all nodes are connected to a common medium along this medium. This was
+the layout used in the original Ethernet, called 10BASE5 and 10BASE2. This is still a
+common topology on the data link layer, although modern physical layer variants use point-
+to-point links instead, forming a star or a tree.
+Star network: all nodes are connected to a special central node. This is the typical layout
+found in a small switched Ethernet LAN, where each client connects to a central network
+switch, and logically in a wireless LAN, where each wireless client associates with the
+central wireless access point.
+Ring network: each node is connected to its left and right neighbor node, such that all nodes
+are connected and that each node can reach each other node by traversing nodes left- or
+rightwards. Token Ring networks, and the Fiber Distributed Data Interface (FDDI), made use
+of such a topology.
+Mesh network: each node is connected to an arbitrary number of neighbors in such a way
+that there is at least one traversal from any node to any other.
+Fully connected network: each node is connected to every other node in the network.
+Tree network: nodes are arranged hierarchically. This is the natural topology for a larger
+Ethernet network with multiple switches and without redundant meshing.
+
+The physical layout of the nodes in a network may not necessarily reflect the network topology. As an
+example, with FDDI, the network topology is a ring, but the physical topology is often a star, because all
+neighboring connections can be routed via a central physical location. Physical layout is not completely
+
+
+
+irrelevant, however, as common ducting and equipment locations can represent single points of failure
+due to issues like fires, power failures and flooding.
+
+Overlay network
+An overlay network is a virtual network
+that is built on top of another network.
+Nodes in the overlay network are
+connected by virtual or logical links.
+Each link corresponds to a path, perhaps
+through many physical links, in the A sample overlay network
+
+underlying network. The topology of the
+overlay network may (and often does)
+differ from that of the underlying one. For example, many peer-to-peer networks are overlay networks.
+They are organized as nodes of a virtual system of links that run on top of the Internet.[76]
+
+Overlay networks have been used since the early days of networking, back when computers were
+connected via telephone lines using modems, even before data networks were developed.
+
+The Internet was initially built as an overlay on the telephone network.[76] Each Internet node can
+communicate with virtually any other through an underlying mesh of sub-networks of different
+topologies and technologies. Address resolution and routing are the means that allow mapping of a fully
+connected IP overlay network to its underlying network.
+
+Another example of an overlay network is a distributed hash table, which maps keys to nodes in the
+network. In this case, the underlying network is an IP network, and the overlay network is a table
+(actually a map) indexed by keys.
+
+Overlay networks have also been proposed as a way to improve Internet routing, such as through quality
+of service guarantees achieve higher-quality streaming media. Previous proposals such as IntServ,
+DiffServ, and IP multicast have not seen wide acceptance largely because they require modification of all
+routers in the network. On the other hand, an overlay network can be incrementally deployed on end-
+hosts running the overlay protocol software, without cooperation from Internet service providers. The
+overlay network has no control over how packets are routed in the underlying network between two
+overlay nodes, but it can control, for example, the sequence of overlay nodes that a message traverses
+before it reaches its destination.
+
+For example, Akamai Technologies manages an overlay network that provides reliable, efficient content
+delivery (a kind of multicast). Academic research includes end system multicast, resilient routing and
+quality of service studies, among others.
+
+Scale
+Networks may be characterized by many properties or features, such as physical capacity, organizational
+purpose, user authorization, access rights, and others. Another distinct classification method is that of the
+physical extent or geographic scale.
+
+
+
+Nanoscale network
+A nanoscale network has key components implemented at the nanoscale, including message carriers, and
+leverages physical principles that differ from macroscale communication mechanisms. Nanoscale
+communication extends communication to very small sensors and actuators such as those found in
+biological systems and also tends to operate in environments that would be too harsh for other
+communication techniques.[77]
+
+Personal area network
+A personal area network (PAN) is a computer network used for communication among computers and
+different information technological devices close to one person. Some examples of devices that are used
+in a PAN are personal computers, printers, fax machines, telephones, PDAs, scanners, and video game
+consoles. A PAN may include wired and wireless devices. The reach of a PAN typically extends to 10
+meters.[78] A wired PAN is usually constructed with USB and FireWire connections while technologies
+such as Bluetooth and infrared communication typically form a wireless PAN.
+
+Local area network
+A local area network (LAN) is a network that connects computers and devices in a limited geographical
+area such as a home, school, office building, or closely positioned group of buildings. Wired LANs are
+most commonly based on Ethernet technology. Other networking technologies such as ITU-T G.hn also
+provide a way to create a wired LAN using existing wiring, such as coaxial cables, telephone lines, and
+power lines.[79]
+
+A LAN can be connected to a wide area network (WAN) using a router. The defining characteristics of a
+LAN, in contrast to a WAN, include higher data transfer rates, limited geographic range,[80] and lack of
+reliance on leased lines to provide connectivity. Current Ethernet or other IEEE 802.3 LAN technologies
+operate at data transfer rates up to 800 Gbit/s,[81] standardized by IEEE in 2024.
+
+A home area network (HAN) is a residential LAN used for communication between digital
+devices typically deployed in the home, usually a small number of personal computers and
+accessories, such as printers and mobile computing devices. An important function is the
+sharing of Internet access, often a broadband service through a cable Internet access or
+digital subscriber line (DSL) provider.
+A storage area network (SAN) is a dedicated network that provides access to consolidated,
+block-level data storage. SANs are primarily used to make storage devices, such as disk
+arrays, tape libraries, and optical jukeboxes, accessible to servers so that the storage
+appears as locally attached devices to the operating system. A SAN typically has its own
+network of storage devices that are generally not accessible through the local area network
+by other devices. The cost and complexity of SANs dropped in the early 2000s to levels
+allowing wider adoption across both enterprise and small to medium-sized business
+environments.
+
+Campus area network
+A campus area network (CAN) is made up of an interconnection of LANs within a limited geographical
+area. The networking equipment (switches, routers) and transmission media (optical fiber, Cat5 cabling,
+etc.) are almost entirely owned by the campus tenant or owner (an enterprise, university, government,
+
+
+
+etc.). For example, a university campus network is likely to link a variety of campus buildings to connect
+academic colleges or departments, the library, and student residence halls.
+
+Backbone network
+A backbone network is part of a computer network infrastructure that provides a path for the exchange of
+information between different LANs or subnetworks. A backbone can tie together diverse networks
+within the same building, across different buildings, or over a wide area. When designing a network
+backbone, network performance and network congestion are critical factors to take into account.
+Normally, the backbone network's capacity is greater than that of the individual networks connected to it.
+
+For example, a large company might implement a backbone network to connect departments that are
+located around the world. The equipment that ties together the departmental networks constitutes the
+network backbone. Another example of a backbone network is the Internet backbone, which is a massive,
+global system of fiber-optic cable and optical networking that carry the bulk of data between wide area
+networks (WANs), metro, regional, national and transoceanic networks.
+
+An enterprise private network or intranet is a network that a single organization builds to
+interconnect its office locations (e.g., production sites, head offices, remote offices, shops)
+so they can share computer resources.
+
+Metropolitan area network
+A metropolitan area network (MAN) is a large computer network that interconnects users with computer
+resources in a geographic region of the size of a metropolitan area.
+
+Wide area network
+A wide area network (WAN) is a computer network that covers a large geographic area such as a city,
+country, or spans even intercontinental distances. A WAN uses a communications channel that combines
+many types of media such as telephone lines, cables, and airwaves. A WAN often makes use of
+transmission facilities provided by common carriers, such as telephone companies. WAN technologies
+generally function at the lower three layers of the OSI model: the physical layer, the data link layer, and
+the network layer.
+
+Global area network
+A global area network (GAN) is a network used for supporting mobile users across an arbitrary number
+of wireless LANs, satellite coverage areas, etc. The key challenge in mobile communications is handing
+off communications from one local coverage area to the next. In IEEE Project 802, this involves a
+succession of terrestrial wireless LANs.[82]
+
+Scope
+An intranet is a community of interest under private administration usually by an enterprise, and is only
+accessible by authorized users (e.g. employees).[83] Intranets do not have to be connected to the Internet,
+but generally have a limited connection. An extranet is an extension of an intranet that allows secure
+communications to users outside of the intranet (e.g. business partners, customers).[83]
+
+
+
+Networks are typically managed by the organizations that own them. Private enterprise networks may use
+a combination of intranets and extranets. They may also provide network access to the Internet, which has
+no single owner and permits virtually unlimited global connectivity.
+
+Intranet
+An intranet is a set of networks that are under the control of a single administrative entity. An intranet
+typically uses the Internet Protocol and IP-based tools such as web browsers and file transfer applications.
+The administrative entity limits the use of the intranet to its authorized users. Most commonly, an intranet
+is the internal LAN of an organization. A large intranet typically has at least one web server to provide
+users with organizational information.
+
+Extranet
+An extranet is a network that is under the administrative control of a single organization but supports a
+limited connection to a specific external network. For example, an organization may provide access to
+some aspects of its intranet to share data with its business partners or customers. These other entities are
+not necessarily trusted from a security standpoint. The network connection to an extranet is often, but not
+always, implemented via WAN technology.
+
+Internet
+An internetwork is the connection of multiple different types
+of computer networks to form a single computer network
+using higher-layer network protocols and connecting them
+together using routers.
+
+The Internet is the largest example of internetwork. It is a
+global system of interconnected governmental, academic,
+corporate, public, and private computer networks. It is based
+on the networking technologies of the Internet protocol suite.
+It is the successor of the Advanced Research Projects Agency
+Network (ARPANET) developed by DARPA of the United
+States Department of Defense. The Internet utilizes copper
+communications and an optical networking backbone to Partial map of the Internet based on 2005
+enable the World Wide Web (WWW), the Internet of things, data.[84] Each line is drawn between two
+video transfer, and a broad range of information services. nodes, representing two IP addresses.
+
+The length of the lines indicates the delay
+Participants on the Internet use a diverse array of methods of between those two nodes.
+several hundred documented, and often standardized,
+protocols compatible with the Internet protocol suite and the
+IP addressing system administered by the Internet Assigned Numbers Authority and address registries.
+Service providers and large enterprises exchange information about the reachability of their address
+spaces through the Border Gateway Protocol (BGP), forming a redundant worldwide mesh of
+transmission paths.
+
+
+
+Darknet
+A darknet is an overlay network, typically running on the Internet, that is only accessible through
+specialized software. It is an anonymizing network where connections are made only between trusted
+peers — sometimes called friends (F2F)[85] — using non-standard protocols and ports.
+
+Darknets are distinct from other distributed peer-to-peer networks as sharing is anonymous (that is, IP
+addresses are not publicly shared), and therefore users can communicate with little fear of governmental
+or corporate interference.[86]
+
+Virtual private networks
+A virtual private network (VPN) is an overlay network in which some of the links between nodes are
+carried by open connections or virtual circuits in some larger network (e.g., the Internet) instead of by
+physical wires. The data link layer protocols of the virtual network are said to be tunneled through the
+larger network. One common application is secure communications through the public Internet, but a
+VPN need not have explicit security features, such as authentication or content encryption. VPNs, for
+example, can be used to separate the traffic of different user communities over an underlying network
+with strong security features.
+
+Services
+Network services are applications hosted by servers on a computer network, to provide some
+functionality for members or users of the network, or to help the network itself to operate.
+
+The World Wide Web, E-mail,[87] printing and network file sharing are examples of well-known network
+services. Network services such as Domain Name System (DNS) give names for IP and MAC addresses
+(people remember names like nm.lan better than numbers like 210.121.67.18),[88] and Dynamic Host
+Configuration Protocol (DHCP) to ensure that the equipment on the network has a valid IP address.[89]
+
+Services are usually based on a service protocol that defines the format and sequencing of messages
+between clients and servers of that network service.
+
+Performance
+
+Bandwidth
+Bandwidth in bit/s may refer to consumed bandwidth, corresponding to achieved throughput or goodput,
+i.e., the average rate of successful data transfer through a communication path. The throughput is affected
+by processes such as bandwidth shaping, bandwidth management, bandwidth throttling, bandwidth cap
+and bandwidth allocation (using, for example, bandwidth allocation protocol and dynamic bandwidth
+allocation).
+
+Network delay
+
+
+
+Network delay is a design and performance characteristic of a telecommunications network. It specifies
+the latency for a bit of data to travel across the network from one communication endpoint to another.
+Delay may differ slightly, depending on the location of the specific pair of communicating endpoints.
+Engineers usually report both the maximum and average delay, and they divide the delay into several
+components, the sum of which is the total delay:
+
+Processing delay – time it takes a router to process the packet header
+Queuing delay – time the packet spends in routing queues
+Transmission delay – time it takes to push the packet's bits onto the link
+Propagation delay – time for a signal to propagate through the media
+
+A certain minimum level of delay is experienced by signals due to the time it takes to transmit a packet
+serially through a link. This delay is extended by more variable levels of delay due to network
+congestion. IP network delays can range from less than a microsecond to several hundred milliseconds.
+
+Performance metrics
+The parameters that affect performance typically can include throughput, jitter, bit error rate and latency.
+
+In circuit-switched networks, network performance is synonymous with the grade of service. The number
+of rejected calls is a measure of how well the network is performing under heavy traffic loads.[90] Other
+types of performance measures can include the level of noise and echo.
+
+In an Asynchronous Transfer Mode (ATM) network, performance can be measured by line rate, quality of
+service (QoS), data throughput, connect time, stability, technology, modulation technique, and modem
+enhancements.
+
+There are many ways to measure the performance of a network, as each network is different in nature and
+design. Performance can also be modeled instead of measured. For example, state transition diagrams are
+often used to model queuing performance in a circuit-switched network. The network planner uses these
+diagrams to analyze how the network performs in each state, ensuring that the network is optimally
+designed.[91]
+
+Network congestion
+Network congestion occurs when a link or node is subjected to a greater data load than it is rated for,
+resulting in a deterioration of its quality of service. When networks are congested and queues become too
+full, packets have to be discarded, and participants must rely on retransmission to maintain reliable
+communications. Typical effects of congestion include queueing delay, packet loss or the blocking of new
+connections. A consequence of these latter two is that incremental increases in offered load lead either to
+only a small increase in the network throughput or to a potential reduction in network throughput.
+
+Network protocols that use aggressive retransmissions to compensate for packet loss tend to keep systems
+in a state of network congestion even after the initial load is reduced to a level that would not normally
+induce network congestion. Thus, networks using these protocols can exhibit two stable states under the
+same level of load. The stable state with low throughput is known as congestive collapse.
+
+
+
+Modern networks use congestion control, congestion avoidance and traffic control techniques where
+endpoints typically slow down or sometimes even stop transmission entirely when the network is
+congested to try to avoid congestive collapse. Specific techniques include: exponential backoff in
+protocols such as 802.11's CSMA/CA and the original Ethernet, window reduction in TCP, and fair
+queueing in devices such as routers.
+
+Another method to avoid the negative effects of network congestion is implementing quality of service
+priority schemes allowing selected traffic to bypass congestion. Priority schemes do not solve network
+congestion by themselves, but they help to alleviate the effects of congestion for critical services. A third
+method to avoid network congestion is the explicit allocation of network resources to specific flows. One
+example of this is the use of Contention-Free Transmission Opportunities (CFTXOPs) in the ITU-T G.hn
+home networking standard.
+
+For the Internet, RFC 2914 (https://www.rfc-editor.org/rfc/rfc2914) addresses the subject of congestion
+control in detail.
+
+Network resilience
+Network resilience is "the ability to provide and maintain an acceptable level of service in the face of
+faults and challenges to normal operation".[92]
+
+Security
+Computer networks are also used by security hackers to deploy computer viruses or computer worms on
+devices connected to the network, or to prevent these devices from accessing the network via a denial-of-
+service attack.
+
+Network security
+Network Security consists of provisions and policies adopted by the network administrator to prevent and
+monitor unauthorized access, misuse, modification, or denial of the computer network and its network-
+accessible resources.[93] Network security is used on a variety of computer networks, both public and
+private, to secure daily transactions and communications among businesses, government agencies, and
+individuals.
+
+Network surveillance
+Network surveillance is the monitoring of data being transferred over computer networks such as the
+Internet. The monitoring is often done surreptitiously and may be done by or at the behest of
+governments, by corporations, criminal organizations, or individuals. It may or may not be legal and may
+or may not require authorization from a court or other independent agency.
+
+Computer and network surveillance programs are widespread today, and almost all Internet traffic is or
+could potentially be monitored for clues to illegal activity.
+
+
+
+Surveillance is useful to governments and law enforcement to maintain social control, recognize and
+monitor threats, and prevent or investigate criminal activity. With the advent of programs such as the
+Total Information Awareness program, technologies such as high-speed surveillance computers and
+biometrics software, and laws such as the Communications Assistance For Law Enforcement Act,
+government surveillance capabilities have expanded significantly..[94]
+
+However, many civil rights and privacy groups—such as Reporters Without Borders, the Electronic
+Frontier Foundation, and the American Civil Liberties Union—have expressed concern that increasing
+surveillance of citizens may lead to a mass surveillance society, with limited political and personal
+freedoms. Fears such as this have led to lawsuits such as Hepting v. AT&T.[94][95] The hacktivist group
+Anonymous has hacked into government websites in protest of what it considers "draconian
+surveillance".[96][97]
+
+End to end encryption
+End-to-end encryption (E2EE) is a digital communications paradigm of uninterrupted protection of data
+traveling between two communicating parties. It involves the originating party encrypting data so only
+the intended recipient can decrypt it, with no dependency on third parties. End-to-end encryption prevents
+intermediaries, such as Internet service providers or application service providers, from reading or
+tampering with communications. End-to-end encryption generally protects both confidentiality and
+integrity.
+
+Examples of end-to-end encryption include HTTPS for web traffic, PGP for email, OTR for instant
+messaging, ZRTP for telephony, and TETRA for radio.
+
+Typical server-based communications systems do not include end-to-end encryption. These systems can
+only guarantee the protection of communications between clients and servers, not between the
+communicating parties themselves. Examples of non-E2EE systems are Google Talk, Yahoo Messenger,
+Facebook, and Dropbox.
+
+The end-to-end encryption paradigm does not directly address risks at the endpoints of the
+communication themselves, such as the technical exploitation of clients, poor quality random number
+generators, or key escrow. E2EE also does not address traffic analysis, which relates to things such as the
+identities of the endpoints and the times and quantities of messages that are sent.
+
+SSL/TLS
+The introduction and rapid growth of e-commerce on the World Wide Web in the mid-1990s made it
+obvious that some form of authentication and encryption was needed. Netscape took the first shot at a
+new standard. At the time, the dominant web browser was Netscape Navigator. Netscape created a
+standard called secure socket layer (SSL). SSL requires a server with a certificate. When a client requests
+access to an SSL-secured server, the server sends a copy of the certificate to the client. The SSL client
+checks this certificate (all web browsers come with an exhaustive list of root certificates preloaded), and
+if the certificate checks out, the server is authenticated and the client negotiates a symmetric-key cipher
+for use in the session. The session is now in a very secure encrypted tunnel between the SSL server and
+the SSL client.[67]
+
+
+
+See also
+Cloud computing
+Cyberspace
+Distributed computing
+History of the Internet
+Information Age
+ISO/IEC 11801 – International standard for electrical and optical cables
+Network diagram software
+Network mapping
+Network on a chip
+Network planning and design
+Network simulation
+
+References
+1. Peterson, Larry; Davie, Bruce (2000). Computer Networks: A Systems Approach (https://boo
+
+k.systemsapproach.org/index.html). Singapore: Harcourt Asia. ISBN 9789814066433.
+Retrieved May 24, 2025.
+
+2. Anniss, Matthew (2015). Understanding Computer Networks. United States: Capstone.
+ISBN 9781484609071.
+
+3. Ritchie, David (1986). "George Stibitz and the Bell Computers". The Computer Pioneers (htt
+ps://archive.org/details/computerpioneers00ritc). New York: Simon and Schuster. p. 35 (http
+s://archive.org/details/computerpioneers00ritc/page/35). ISBN 067152397X.
+
+4. Metropolis, Nicholas (2014). History of Computing in the Twentieth Century (https://books.go
+ogle.com/books?id=AsvSBQAAQBAJ&q=%22Complex+computer%22+1939&pg=PA481).
+Elsevier. p. 481. ISBN 9781483296685. Retrieved 2026-06-02.
+
+5. Sterling, Christopher H., ed. (2008). Military Communications: From Ancient Times to the
+21st Century (https://books.google.com/books?id=RBC2nY1rp5MC&dq=semi+automatic+gr
+ound+environment+network&pg=PA399). ABC-Clio. p. 399. ISBN 978-1-85109-737-1.
+Retrieved 2026-06-02.
+
+6. Haigh, Thomas; Ceruzzi, Paul E. (14 September 2021). A New History of Modern
+Computing (https://books.google.com/books?id=KOY9EAAAQBAJ&dq=semi+automatic+gro
+und+environment+network&pg=PA87). MIT Press. pp. 87–89. ISBN 978-0262542906.
+Retrieved 2026-06-02.
+
+7. Bacary, Sagna (2023-06-23). "zing server" (https://zingserver.com/). Retrieved 2026-06-02.
+8. Ulmann, Bernd (August 19, 2014). AN/FSQ-7: the computer that shaped the Cold War (http
+
+s://books.google.com/books?id=ZITpBQAAQBAJ&q=semi+automatic+ground+environmen
+t). De Gruyter. ISBN 978-3-486-85670-5. Retrieved 2026-06-02.
+
+9. Corbató, F. J.; et al. (1963). The Compatible Time-Sharing System A Programmer's Guide]
+(http://www.bitsavers.org/pdf/mit/ctss/CTSS_ProgrammersGuide.pdf) (PDF). MIT Press.
+ISBN 978-0-262-03008-3. Archived (https://web.archive.org/web/20120527174321/http://ww
+w.bitsavers.org/pdf/mit/ctss/CTSS_ProgrammersGuide.pdf) (PDF) from the original on
+2012-05-27. Retrieved 2020-05-26. "Shortly after the first paper on time-shared computers
+by C. Strachey at the June 1959 UNESCO Information Processing conference, H. M. Teager
+and J. McCarthy at MIT delivered an unpublished paper "Time-shared Program Testing" at
+the August 1959 ACM Meeting."
+
+
+
+10. "Computer Pioneers - Christopher Strachey" (https://history.computer.org/pioneers/strachey.
+html). history.computer.org. Archived (https://web.archive.org/web/20190515062531/https://
+history.computer.org/pioneers/strachey.html) from the original on 2019-05-15. Retrieved
+2020-01-23.
+
+11. "Reminiscences on the Theory of Time-Sharing" (https://web.archive.org/web/20200428094
+453/http://jmc.stanford.edu/computing-science/timesharing.html). jmc.stanford.edu. Archived
+from the original (https://jmc.stanford.edu/computing-science/timesharing.html) on 2020-04-
+28. Retrieved 2020-01-23.
+
+12. "Computer - Time-sharing and minicomputers" (https://www.britannica.com/technology/comp
+uter). Encyclopedia Britannica. Archived (https://web.archive.org/web/20150102192452/htt
+p://www.britannica.com/EBchecked/topic/130429/computer/216032/Invention-of-the-modern
+-computer) from the original on 2015-01-02. Retrieved 2020-01-23.
+
+13. Gillies, James M.; Gillies, James; Gillies, James and Cailliau Robert; Cailliau, R. (2000).
+How the Web was Born: The Story of the World Wide Web (https://archive.org/details/howw
+ebwasbornsto00gill). Oxford University Press. pp. 13 (https://archive.org/details/howwebwas
+bornsto00gill/page/13). ISBN 978-0-19-286207-5.
+
+14. Kitova, O. "Kitov Anatoliy Ivanovich. Russian Virtual Computer Museum" (https://www.comp
+uter-museum.ru/english/galglory_en/Kitov.htm). computer-museum.ru. Translated by
+Alexander Nitusov. Archived (https://web.archive.org/web/20230204143509/https://www.com
+puter-museum.ru/english/galglory_en/Kitov.htm) from the original on 2023-02-04. Retrieved
+2021-10-11.
+
+15. Peters, Benjamin (25 March 2016). "From Network to Patchwork: Three Pioneering Network
+Projects That Didn't, 1959 to 1962". How Not to Network a Nation: The Uneasy History of
+the Soviet Internet (https://books.google.com/books?id=hrFIDAAAQBAJ). Information Policy
+(reprint ed.). Cambridge, Massachusetts: MIT Press. p. 88. ISBN 9780262034180.
+Retrieved 13 October 2026. "[...] Rokossovsky barely participated in the commission,
+leaving Kitov's fate in the hands of his supervisors, who rejected the proposal and followed
+standard Soviet procedure in burning the unapproved (and irreproducible) proposal [...]."
+
+16. Peters, Benjamin (25 March 2016). "The Undoing of the OGAS, 1970 to 1989". How Not to
+Network a Nation: The Uneasy History of the Soviet Internet (https://books.google.com/book
+s?id=hrFIDAAAQBAJ). Information Policy (reprint ed.). Cambridge, Massachusetts: MIT
+Press. pp. 159–190. ISBN 9780262034180. Retrieved 13 October 2026.
+
+17. Baran, Paul (2002). "The beginnings of packet switching: some underlying concepts" (http://
+web.cs.ucla.edu/~lixia/papers/Baran2002.pdf) (PDF). IEEE Communications Magazine. 40
+(7): 42–48. Bibcode:2002IComM..40g..42B (https://ui.adsabs.harvard.edu/abs/2002IComM..
+40g..42B). doi:10.1109/MCOM.2002.1018006 (https://doi.org/10.1109%2FMCOM.2002.101
+8006). ISSN 0163-6804 (https://search.worldcat.org/issn/0163-6804). Archived (https://ghost
+archive.org/archive/20221010/http://web.cs.ucla.edu/~lixia/papers/Baran2002.pdf) (PDF)
+from the original on 2022-10-10. Retrieved 2026-06-02. "Essentially all the work was defined
+by 1961, and fleshed out and put into formal written form in 1962. The idea of hot potato
+routing dates from late 1960."
+
+18. Roberts, Lawrence G. (November 1978). "The evolution of packet switching" (http://www.ec
+e.ucf.edu/~yuksem/teaching/nae/reading/1978-roberts.pdf) (PDF). Proceedings of the IEEE.
+66 (11): 1307–13. Bibcode:1978IEEEP..66.1307R (https://ui.adsabs.harvard.edu/abs/1978IE
+EEP..66.1307R). doi:10.1109/PROC.1978.11141 (https://doi.org/10.1109%2FPROC.1978.11
+141). ISSN 0018-9219 (https://search.worldcat.org/issn/0018-9219). S2CID 26876676 (http
+s://api.semanticscholar.org/CorpusID:26876676). Retrieved 2026-06-02. "Almost
+immediately after the 1965 meeting, Davies conceived of the details of a store-and-forward
+packet switching system."
+
+
+
+19. Isaacson, Walter (2014). The Innovators: How a Group of Hackers, Geniuses, and Geeks
+Created the Digital Revolution (https://books.google.com/books?id=4V9koAEACAAJ&pg=P
+A245). Simon and Schuster. pp. 237–246. ISBN 9781476708690. Archived (https://web.arch
+ive.org/web/20230204143508/https://books.google.com/books?id=4V9koAEACAAJ&pg=PA
+245) from the original on 2023-02-04. Retrieved 2021-06-04.
+
+20. Roberts, Lawrence G. (November 1978). "The evolution of packet switching" (https://www.e
+ce.ucf.edu/~yuksem/teaching/nae/reading/1978-roberts.pdf) (PDF). Proceedings of the
+IEEE. 66 (11): 1307–13. Bibcode:1978IEEEP..66.1307R (https://ui.adsabs.harvard.edu/abs/
+1978IEEEP..66.1307R). doi:10.1109/PROC.1978.11141 (https://doi.org/10.1109%2FPROC.1
+978.11141). S2CID 26876676 (https://api.semanticscholar.org/CorpusID:26876676).
+Archived (https://web.archive.org/web/20230204143508/https://www.ece.ucf.edu/~yuksem/t
+eaching/nae/reading/1978-roberts.pdf) (PDF) from the original on 2023-02-04. Retrieved
+2022-02-12. "Both Paul Baran and Donald Davies in their original papers anticipated the use
+of T1 trunks"
+
+21. "NIHF Inductee Paul Baran, Who Invented Packet Switching" (https://www.invent.org/induct
+ees/paul-baran). National Inventors Hall of Fame. Archived (https://web.archive.org/web/202
+20212204116/https://www.invent.org/inductees/paul-baran) from the original on 2022-02-12.
+Retrieved 2022-02-12.
+
+22. "NIHF Inductee Donald Davies, Who Invented Packet Switching" (https://www.invent.org/ind
+uctees/donald-watts-davies). National Inventors Hall of Fame. Archived (https://web.archive.
+org/web/20220212204117/https://www.invent.org/inductees/donald-watts-davies) from the
+original on 2022-02-12. Retrieved 2022-02-12.
+
+23. Baran, P. (1964). "On Distributed Communications Networks". IEEE Transactions on
+Communications. 12 (1): 1–9. Bibcode:1964ITCoS..12C8883B (https://ui.adsabs.harvard.ed
+u/abs/1964ITCoS..12C8883B). doi:10.1109/TCOM.1964.1088883 (https://doi.org/10.1109%
+2FTCOM.1964.1088883). ISSN 0096-2244 (https://search.worldcat.org/issn/0096-2244).
+
+24. Kleinrock, L. (1978). "Principles and lessons in packet communications". Proceedings of the
+IEEE. 66 (11): 1320–1329. Bibcode:1978IEEEP..66.1320K (https://ui.adsabs.harvard.edu/ab
+s/1978IEEEP..66.1320K). doi:10.1109/PROC.1978.11143 (https://doi.org/10.1109%2FPRO
+C.1978.11143). ISSN 0018-9219 (https://search.worldcat.org/issn/0018-9219). "Paul Baran
+... focused on the routing procedures and on the survivability of distributed communication
+systems in a hostile environment, but did not concentrate on the need for resource sharing
+in its form as we now understand it; indeed, the concept of a software switch was not
+present in his work."
+
+25. Pelkey, James L. "6.1 The Communications Subnet: BBN 1969" (https://historyofcomputerco
+mmunications.info/section/6.1/the-communications-subnet-bbn-1969/). Entrepreneurial
+Capitalism and Innovation: A History of Computer Communications 1968–1988. Retrieved
+2026-06-02. "As Kahn recalls: ... Paul Baran's contributions ... I also think Paul was
+motivated almost entirely by voice considerations. If you look at what he wrote, he was
+talking about switches that were low-cost electronics. The idea of putting powerful
+computers in these locations hadn't quite occurred to him as being cost effective. So the
+idea of computer switches was missing. The whole notion of protocols didn't exist at that
+time. And the idea of computer-to-computer communications was really a secondary
+concern."
+
+26. Waldrop, M. Mitchell (2018). The Dream Machine (https://books.google.com/books?id=eRn
+BEAAAQBAJ&pg=PT285). Stripe Press. p. 286. ISBN 978-1-953953-36-0. Retrieved
+2026-06-02. "Baran had put more emphasis on digital voice communications than on
+computer communications."
+
+
+
+27. Yates, David M. (1997). Turing's Legacy: A History of Computing at the National Physical
+Laboratory 1945-1995 (https://books.google.com/books?id=ToMfAQAAIAAJ&q=packet+swit
+ch). National Museum of Science and Industry. pp. 132–4. ISBN 978-0-901805-94-2.
+Retrieved 2026-06-02. "Davies's invention of packet switching and design of computer
+communication networks ... were a cornerstone of the development which led to the
+Internet"
+
+28. Naughton, John (2000) [1999]. A Brief History of the Future (https://archive.org/details/briefh
+istoryoffu0000naug/page/292/mode/2up). Phoenix. p. 292. ISBN 9780753810934. Retrieved
+2026-06-02.
+
+29. Campbell-Kelly, Martin (1987). "Data Communications at the National Physical Laboratory
+(1965-1975)" (https://archive.org/details/DataCommunicationsAtTheNationalPhysicalLaborat
+ory). Annals of the History of Computing. 9 (3/4): 221–247. Bibcode:1987IAHC....9c.221C (h
+ttps://ui.adsabs.harvard.edu/abs/1987IAHC....9c.221C). doi:10.1109/MAHC.1987.10023 (htt
+ps://doi.org/10.1109%2FMAHC.1987.10023). S2CID 8172150 (https://api.semanticscholar.o
+rg/CorpusID:8172150). Retrieved 2026-06-02. "the first occurrence in print of the term
+protocol in a data communications context ... the next hardware tasks were the detailed
+design of the interface between the terminal devices and the switching computer, and the
+arrangements to secure reliable transmission of packets of data over the high-speed lines"
+
+30. Davies, Donald; Bartlett, Keith; Scantlebury, Roger; Wilkinson, Peter (October 1967). A
+Digital Communication Network for Computers Giving Rapid Response at remote Terminals
+(https://people.mpi-sws.org/~gummadi/teaching/sp07/sys_seminar/how_did_erope_blow_thi
+s_vision.pdf) (PDF). ACM Symposium on Operating Systems Principles. Archived (https://gh
+ostarchive.org/archive/20221010/https://people.mpi-sws.org/~gummadi/teaching/sp07/sys_s
+eminar/how_did_erope_blow_this_vision.pdf) (PDF) from the original on 2022-10-10.
+Retrieved 2020-09-15. "all users of the network will provide themselves with some kind of
+error control"
+
+31. Scantlebury, R. A.; Wilkinson, P.T. (1974). "The National Physical Laboratory Data
+Communications Network" (http://www.rogerdmoore.ca/PS/NPLPh/NPL1974A.html).
+Proceedings of the 2nd ICCC 74. pp. 223–228. Retrieved 2026-06-02.
+
+32. Guardian Staff (2013-06-25). "Internet pioneers airbrushed from history" (https://www.thegua
+rdian.com/technology/2013/jun/25/internet-pioneers-airbrushed-from-history). The Guardian.
+ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3077). Archived (https://web.archive.
+org/web/20200101062943/https://www.theguardian.com/technology/2013/jun/25/internet-pio
+neers-airbrushed-from-history) from the original on 2020-01-01. Retrieved 2020-07-31. "This
+was the first digital local network in the world to use packet switching and high-speed links."
+
+33. "The real story of how the Internet became so vulnerable" (https://web.archive.org/web/2015
+0530231409/http://www.washingtonpost.com/sf/business/2015/05/30/net-of-insecurity-part-
+1/). Washington Post. Archived from the original (http://www.washingtonpost.com/sf/busines
+s/2015/05/30/net-of-insecurity-part-1/) on 2015-05-30. Retrieved 2020-02-18. "Historians
+credit seminal insights to Welsh scientist Donald W. Davies and American engineer Paul
+Baran"
+
+34. Roberts, Lawrence G. (November 1978). "The Evolution of Packet Switching" (https://web.ar
+chive.org/web/20181231092936/http://www.ismlab.usf.edu/dcom/Ch10_Roberts_EvolutionP
+acketSwitching_IEEE_1978.pdf) (PDF). Proceedings of the IEEE. 66 (11): 1307.
+Bibcode:1978IEEEP..66.1307R (https://ui.adsabs.harvard.edu/abs/1978IEEEP..66.1307R).
+doi:10.1109/PROC.1978.11141 (https://doi.org/10.1109%2FPROC.1978.11141). Archived
+from the original (http://www.ismlab.usf.edu/dcom/Ch10_Roberts_EvolutionPacketSwitching
+_IEEE_1978.pdf) (PDF) on 31 December 2018. Retrieved September 10, 2017. "In nearly
+all respects, Davies' original proposal, developed in late 1965, was similar to the actual
+networks being built today."
+
+
+
+35. Norberg, Arthur L.; O'Neill, Judy E. (1996). Transforming computer technology: information
+processing for the Pentagon, 1962-1986. Johns Hopkins studies in the history of technology
+New series. Baltimore: Johns Hopkins Univ. Press. pp. 153–196. ISBN 978-0-8018-5152-0.
+Prominently cites Baran and Davies as sources of inspiration.
+
+36. A History of the ARPANET: The First Decade (https://apps.dtic.mil/sti/pdfs/ADA115440.pdf)
+(PDF) (Report). Bolt, Beranek & Newman Inc. 1 April 1981. pp. 13, 53 of 183 (III-11 on the
+printed copy). Archived (https://web.archive.org/web/20121201013642/http://www.dtic.mil/cg
+i-bin/GetTRDoc?Location=U2&doc=GetTRDoc.pdf&AD=ADA115440) from the original on 1
+December 2012. "Aside from the technical problems of interconnecting computers with
+communications circuits, the notion of computer networks had been considered in a number
+of places from a theoretical point of view. Of particular note was work done by Paul Baran
+and others at the Rand Corporation in a study "On Distributed Communications" in the early
+1960s. Also of note was work done by Donald Davies and others at the National Physical
+Laboratory in England in the mid-1960s. Another early major network development which
+affected development of the ARPANET was undertaken at the National Physical Laboratory
+in Middlesex, England, under the leadership of D. W. Davies."
+
+37. "Birth of the Commercial Internet" (https://www.nsf.gov/impacts/internet). National Science
+Foundation. United States: US Government. Archived (https://web.archive.org/web/2025070
+1180001/https://www.nsf.gov/impacts/internet) from the original on July 1, 2025. Retrieved
+July 5, 2025.
+
+38. Chris Sutton. "Internet Began 35 Years Ago at UCLA with First Message Ever Sent Between
+Two Computers" (https://web.archive.org/web/20080308120314/https://www.engineer.ucla.e
+du/stories/2004/Internet35.htm). UCLA. Archived from the original (https://www.engineer.ucl
+a.edu/stories/2004/Internet35.htm) on 2008-03-08. Retrieved 2026-06-02.
+
+39. Roberts, Lawrence G. (November 1978). "The evolution of packet switching" (http://www.ec
+e.ucf.edu/~yuksem/teaching/nae/reading/1978-roberts.pdf) (PDF). Proceedings of the IEEE.
+66 (11): 1307–13. Bibcode:1978IEEEP..66.1307R (https://ui.adsabs.harvard.edu/abs/1978IE
+EEP..66.1307R). doi:10.1109/PROC.1978.11141 (https://doi.org/10.1109%2FPROC.1978.11
+141). S2CID 26876676 (https://api.semanticscholar.org/CorpusID:26876676). Retrieved
+2026-06-02. "Significant aspects of the network's internal operation, such as routing, flow
+control, software design, and network control were developed by a BBN team consisting of
+Frank Heart, Robert Kahn, Severo Omstein, William Crowther, and David Walden"
+
+40. F.E. Froehlich, A. Kent (1990). The Froehlich/Kent Encyclopedia of Telecommunications:
+Volume 1 - Access Charges in the U.S.A. to Basics of Digital Communications (https://book
+s.google.com/books?id=gaRBTHdUKmgC&pg=PA344). CRC Press. p. 344.
+ISBN 0824729005. Retrieved 2026-06-02. "Although there was considerable technical
+interchange between the NPL group and those who designed and implemented the
+ARPANET, the NPL Data Network effort appears to have had little fundamental impact on
+the design of ARPANET. Such major aspects of the NPL Data Network design as the
+standard network interface, the routing algorithm, and the software structure of the switching
+node were largely ignored by the ARPANET designers. There is no doubt, however, that in
+many less fundamental ways the NPL Data Network had and effect on the design and
+evolution of the ARPANET."
+
+41. Heart, F.; McKenzie, A.; McQuillian, J.; Walden, D. (January 4, 1978). Arpanet Completion
+Report (https://web.archive.org/web/20230527095942/https://walden-family.com/bbn/arpane
+t-completion-report.pdf) (PDF) (Technical report). Burlington, MA: Bolt, Beranek and
+Newman. Archived from the original (https://walden-family.com/bbn/arpanet-completion-repo
+rt.pdf) (PDF) on 2023-05-27. Retrieved 2026-06-02.
+
+
+
+42. Clarke, Peter (1982). Packet and circuit-switched data networks (https://web.archive.org/we
+b/20220803035935/https://spiral.imperial.ac.uk/bitstream/10044/1/35864/2/Clarke-PN-1982-
+PhD-Thesis.pdf) (PDF) (PhD thesis). Department of Electrical Engineering, Imperial College
+of Science and Technology, University of London. Archived from the original (https://spiral.im
+perial.ac.uk/bitstream/10044/1/35864/2/Clarke-PN-1982-PhD-Thesis.pdf) (PDF) on 2022-
+08-03. "Many of the theoretical studies of the performance and design of the ARPA Network
+were developments of earlier work by Kleinrock ... Although these works concerned
+message switching networks, they were the basis for a lot of the ARPA network
+investigations ... The intention of the work of Kleinrock [in 1961] was to analyse the
+performance of store and forward networks, using as the primary performance measure the
+average message delay. ... Kleinrock [in 1970] extended the theoretical approaches of [his
+1961 work] to the early ARPA network."
+
+43. Davies, Donald Watts (1979). Computer networks and their protocols (https://archive.org/det
+ails/computernetworks00davi/page/86/mode/2up?q=kleinrock+kleinrock%27s). Internet
+Archive. Wiley. pp. See page refs highlighted at url. ISBN 978-0-471-99750-4. "In
+mathematical modelling use is made of the theories of queueing processes and of flows in
+networks, describing the performance of the network in a set of equations. ... The analytic
+method has been used with success by Kleinrock and others, but only if important
+simplifying assumptions are made. ... It is heartening in Kleinrock's work to see the good
+correspondence achieved between the results of analytic methods and those of simulation."
+
+44. Davies, Donald Watts (1979). Computer networks and their protocols (https://archive.org/det
+ails/computernetworks00davi/page/110/mode/2up?q=%22kleinrock+and+kamoun%22).
+Internet Archive. Wiley. pp. 110–111. ISBN 978-0-471-99750-4. "Hierarchical addressing
+systems for network routing have been proposed by Fultz and, in greater detail, by
+McQuillan. A recent very full analysis may be found in Kleinrock and Kamoun."
+
+45. Feldmann, Anja; Cittadini, Luca; Mühlbauer, Wolfgang; Bush, Randy; Maennel, Olaf (2009).
+"HAIR: Hierarchical architecture for internet routing" (https://core.ac.uk/download/pdf/32632
+0693.pdf) (PDF). Proceedings of the 2009 workshop on Re-architecting the internet. ReArch
+'09. New York, NY, USA: Association for Computing Machinery. pp. 43–48.
+doi:10.1145/1658978.1658990 (https://doi.org/10.1145%2F1658978.1658990). ISBN 978-1-
+60558-749-3. S2CID 2930578 (https://api.semanticscholar.org/CorpusID:2930578). "The
+hierarchical approach is further motivated by theoretical results (e.g., [16]) which show that,
+by optimally placing separators, i.e., elements that connect levels in the hierarchy,
+tremendous gain can be achieved in terms of both routing table size and update message
+churn. ... [16] KLEINROCK, L., AND KAMOUN, F. Hierarchical routing for large networks:
+Performance evaluation and optimization. Computer Networks (1977)."
+
+46. Kirstein, P.T. (1999). "Early experiences with the Arpanet and Internet in the United
+Kingdom". IEEE Annals of the History of Computing. 21 (1): 38–44.
+Bibcode:1999IAHC...21a..38K (https://ui.adsabs.harvard.edu/abs/1999IAHC...21a..38K).
+doi:10.1109/85.759368 (https://doi.org/10.1109%2F85.759368). S2CID 1558618 (https://api.
+semanticscholar.org/CorpusID:1558618).
+
+47. Kirstein, Peter T. (2009). "The early history of packet switching in the UK". IEEE
+Communications Magazine. 47 (2): 18–26. doi:10.1109/MCOM.2009.4785372 (https://doi.or
+g/10.1109%2FMCOM.2009.4785372). S2CID 34735326 (https://api.semanticscholar.org/Cor
+pusID:34735326).
+
+48. "Xerox Researcher Proposes 'Ethernet' " (https://www.computerhistory.org/tdih/may/22/).
+computerhistory.org. Retrieved 2025-03-08. "Robert Metcalfe, a researcher at the Xerox
+Palo Alto Research Center in California, writes his original memo proposing an 'Ethernet', a
+means of connecting computers together."
+
+49. "Ethernet is Still Going Strong After 50 Years - IEEE Spectrum" (https://spectrum.ieee.org/et
+hernet-ieee-milestone). spectrum.ieee.org. Retrieved 2025-03-08.
+
+50. "ALOHAnet – University of Hawai'i College of Engineering" (https://www.eng.hawaii.edu/abo
+ut/history/alohanet/). eng.hawaii.edu. Retrieved 2025-03-08.
+
+
+
+51. "Celebrating 50 Years of the ALOHA System and the Future of Networking" (https://www.co
+mputerhistory.org/collections/catalog/102792095). computerhistory.org. Retrieved
+2025-03-08.
+
+52. Hsu, Hansen; McJones, Paul. "Xerox PARC file system archive" (https://xeroxparcarchive.co
+mputerhistory.org/Xerox_PARC_source_code.html). xeroxparcarchive.computerhistory.org.
+Retrieved 2026-06-02. "Pup (PARC Universal Packet) was a set of internetworking protocols
+and packet format designed and first implemented (in BCPL) by David R. Boggs, John F.
+Shoch, Edward A. Taft, and Robert M. Metcalfe. It became a key influence on the later
+design of TCP/IP."
+
+53. Bennett, Richard (September 2009). "Designed for Change: End-to-End Arguments, Internet
+Innovation, and the Net Neutrality Debate" (https://web.archive.org/web/20190829092926/ht
+tp://www.itif.org/files/2009-designed-for-change.pdf) (PDF). Information Technology and
+Innovation Foundation. p. 11. Archived from the original (https://www.itif.org/files/2009-desig
+ned-for-change.pdf) (PDF) on 2019-08-29. Retrieved 2017-09-11.
+
+54. Cerf, V.; Kahn, R. (1974). "A Protocol for Packet Network Intercommunication" (https://www.
+cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf) (PDF). IEEE
+Transactions on Communications. 22 (5): 637–648. Bibcode:1974ITCom..22..637C (https://u
+i.adsabs.harvard.edu/abs/1974ITCom..22..637C). doi:10.1109/TCOM.1974.1092259 (http
+s://doi.org/10.1109%2FTCOM.1974.1092259). ISSN 1558-0857 (https://search.worldcat.org/
+issn/1558-0857). "The authors wish to thank a number of colleagues for helpful comments
+during early discussions of international network protocols, especially R. Metcalfe, R.
+Scantlebury, D. Walden, and H. Zimmerman; D. Davies and L. Pouzin who constructively
+commented on the fragmentation and accounting issues; and S. Crocker who commented
+on the creation and destruction of associations."
+
+55. Cerf, Vinton; dalal, Yogen; Sunshine, Carl (December 1974). Specification of Internet
+Transmission Control Protocol (https://www.rfc-editor.org/rfc/rfc675). IETF.
+doi:10.17487/RFC0675 (https://doi.org/10.17487%2FRFC0675). RFC 675 (https://www.rfc-e
+ditor.org/rfc/rfc675).
+
+56. Robert M. Metcalfe; David R. Boggs (July 1976). "Ethernet: Distributed Packet Switching for
+Local Computer Networks" (https://doi.org/10.1145%2F360248.360253). Communications of
+the ACM. 19 (5): 395–404. doi:10.1145/360248.360253 (https://doi.org/10.1145%2F360248.
+360253). S2CID 429216 (https://api.semanticscholar.org/CorpusID:429216).
+
+57. Press, Gil. "The Ethernet And The Telegraph Or What Metcalfe And Morse Have Wrought"
+(https://www.forbes.com/sites/gilpress/2017/05/22/the-ethernet-and-the-telegraph-or-what-m
+etcalfe-and-morse-have-wrought/). Forbes. Retrieved 2025-03-08.
+
+58. "Ethernet and Robert Metcalfe and Xerox PARC 1971-1975 | History of Computer
+Communications" (https://historyofcomputercommunications.info/section/8.7/Ethernet-and-R
+obert-Metcalfe-and-Xerox-PARC-1971-1975/). historyofcomputercommunications.info.
+Retrieved 2025-03-08. "Once successful, Xerox filed for patents covering the Ethernet
+technology under the names of Metcalfe, Boggs, Butler Lampson and Chuck Thacker.
+(Metcalfe insisted Lampson, the 'intellectual guru under whom we all had the privilege to
+work' and Thacker 'the guy who designed the Altos' names were on the patent.)"
+
+59. Spurgeon, Charles E. (2000). Ethernet The Definitive Guide (https://archive.org/details/ether
+netdefiniti0000spur). O'Reilly & Associates. ISBN 1-56592-660-9.
+
+60. "Introduction to Ethernet Technologies" (https://www.wband.com/2013/05/introduction-to-eth
+ernet-technologies/). www.wband.com. WideBand Products. Archived (https://web.archive.or
+g/web/20180410072256/https://www.wband.com/2013/05/introduction-to-ethernet-technolog
+ies/) from the original on 2018-04-10. Retrieved 2018-04-09.
+
+61. Pelkey, James L. (2007). "Yogen Dalal" (https://historyofcomputercommunications.info/interv
+iews/yogen-dalal/). Entrepreneurial Capitalism and Innovation: A History of Computer
+Communications, 1968-1988. Retrieved 2023-05-07.
+
+
+
+62. "What is the Importance of Embedded Networking?" (https://www.totalphase.com/blog/2019/
+11/what-is-importance-of-embedded-networking/). Total Phase. United States: Total Phase,
+Inc. November 26, 2019. Retrieved June 23, 2025.
+
+63. Gershenfeld, Neil; Krikorian, Raffi; Cohen, Danny (October 2004). "The internet of things" (h
+ttps://www.jstor.org/stable/26060727?seq=1). Scientific American. 291 (4). Springer Nature:
+76–81. Bibcode:2004SciAm.291d..76G (https://ui.adsabs.harvard.edu/abs/2004SciAm.291
+d..76G). doi:10.1038/scientificamerican1004-76 (https://doi.org/10.1038%2Fscientificameric
+an1004-76). JSTOR 26060727 (https://www.jstor.org/stable/26060727). PMID 15487673 (htt
+ps://pubmed.ncbi.nlm.nih.gov/15487673). Retrieved June 23, 2025.
+
+64. Derek Barber. "The Origins of Packet Switching" (http://www.cs.man.ac.uk/CCS/res/res05.ht
+m#f). Computer Resurrection Issue 5. Retrieved 2024-06-05. "The Spanish, dark horses,
+were the first people to have a public network. They'd got a bank network which they craftily
+turned into a public network overnight, and beat everybody to the post."
+
+65. Després, R. (1974). "RCP, the Experimental Packet-Switched Data Transmission Service of
+the French PTT" (https://web.archive.org/web/20131020142207/http://rogerdmoore.ca/PS/R
+CPDEP/RD.html). Proceedings of ICCC 74. pp. 171–185. Archived from the original (http://r
+ogerdmoore.ca/PS/RCPDEP/RD.html) on 2013-10-20. Retrieved 2013-08-30.
+
+66. National Research Council; Division on Engineering and Physical Sciences; Computer
+Science and Telecommunications Board; Commission on Physical Sciences, Mathematics,
+and Applications; NII 2000 Steering Committee (1998-02-05). The Unpredictable Certainty:
+White Papers (https://books.google.com/books?id=Jh1pORpfvrQC&pg=PA148). National
+Academies Press. ISBN 978-0-309-17414-5. Archived (https://web.archive.org/web/202302
+04143512/https://books.google.com/books?id=Jh1pORpfvrQC&pg=PA148) from the original
+on 2023-02-04. Retrieved 2021-03-08.
+
+67. Meyers, Mike (2012). CompTIA Network+ exam guide : (Exam N10-005) (5th ed.). New
+York: McGraw-Hill. ISBN 9780071789226. OCLC 748332969 (https://search.worldcat.org/oc
+lc/748332969).
+
+68. A. Hooke (September 2000), Interplanetary Internet (https://web.archive.org/web/201201130
+53223/https://www.ipnsig.org/reports/ISART9-2000.pdf) (PDF), Third Annual International
+Symposium on Advanced Radio Technologies, archived from the original (https://www.ipnsi
+g.org/reports/ISART9-2000.pdf) (PDF) on 2012-01-13, retrieved 2011-11-12
+
+69. "Bergen Linux User Group's CPIP Implementation" (https://www.blug.linux.no/rfc1149).
+Blug.linux.no. Archived (https://web.archive.org/web/20140215072548/http://www.blug.linux.
+no/rfc1149/) from the original on 2014-02-15. Retrieved 2014-03-01.
+
+70. "Define switch" (https://www.webopedia.com/TERM/s/switch.html). webopedia. September
+1996. Archived (https://web.archive.org/web/20080408102559/http://www.webopedia.com/T
+ERM/S/switch.html) from the original on 2008-04-08. Retrieved 2008-04-08.
+
+71. Tanenbaum, Andrew S. (2003). Computer Networks (4th ed.). Prentice Hall.
+72. "IEEE Standard for Local and Metropolitan Area Networks--Port-Based Network Access
+
+Control". IEEE STD 802.1X-2020 (Revision of IEEE STD 802.1X-2010 Incorporating IEEE
+STD 802.1Xbx-2014 and IEEE STD 802.1Xck-2018). 7.1.3 Connectivity to unauthenticated
+systems. February 2020. doi:10.1109/IEEESTD.2020.9018454 (https://doi.org/10.1109%2FI
+EEESTD.2020.9018454). ISBN 978-1-5044-6440-6.
+
+73. "IEEE Standard for Information Technology--Telecommunications and Information Exchange
+between Systems - Local and Metropolitan Area Networks--Specific Requirements - Part 11:
+Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications".
+IEEE STD 802.11-2020 (Revision of IEEE STD 802.11-2016). 4.2.5 Interaction with other
+IEEE 802 layers. February 2021. doi:10.1109/IEEESTD.2021.9363693 (https://doi.org/10.11
+09%2FIEEESTD.2021.9363693). ISBN 978-1-5044-7283-8.
+
+
+
+74. Martin, Thomas. "Design Principles for DSL-Based Access Solutions" (https://web.archive.or
+g/web/20110722194039/https://www.gsi.dit.upm.es/~legf/Varios/XDSL_MARTI.PDF) (PDF).
+Archived from the original (https://www.gsi.dit.upm.es/~legf/Varios/XDSL_MARTI.PDF)
+(PDF) on 2011-07-22. Retrieved 2026-06-02.
+
+75. Paetsch, Michael (1993). The evolution of mobile communications in the US and Europe:
+Regulation, technology, and markets. Boston, London: Artech House. ISBN 978-0-8900-
+6688-1.
+
+76. D. Andersen; H. Balakrishnan; M. Kaashoek; R. Morris (October 2001), Resilient Overlay
+Networks (http://nms.lcs.mit.edu/papers/ron-sosp2001.html), Association for Computing
+Machinery, archived (https://web.archive.org/web/20111124125227/http://nms.lcs.mit.edu/pa
+pers/ron-sosp2001.html) from the original on 2011-11-24, retrieved 2011-11-12
+
+77. Bush, S. F. (2010). Nanoscale Communication Networks. Artech House. ISBN 978-1-60807-
+003-9.
+
+78. Margaret Rouse. "personal area network (PAN)" (https://searchmobilecomputing.techtarget.
+com/sDefinition/0,,sid40_gci546288,00.html). TechTarget. Archived (https://web.archive.org/
+web/20230204143532/https://www.techtarget.com/searchmobilecomputing/definition/person
+al-area-network) from the original on 2023-02-04. Retrieved 2011-01-29.
+
+79. "New global standard for fully networked home" (https://web.archive.org/web/200902210907
+36/https://www.itu.int/ITU-T/newslog/New+Global+Standard+For+Fully+Networked+Home.a
+spx). ITU-T Newslog. ITU. 2008-12-12. Archived from the original (https://www.itu.int/ITU-T/
+newslog/New+Global+Standard+For+Fully+Networked+Home.aspx) on 2009-02-21.
+Retrieved 2011-11-12.
+
+80. "What is a LAN? Local Area Network" (https://www.cisco.com/c/en_uk/products/switches/wh
+at-is-a-lan-local-area-network.html). Cisco. Retrieved 2026-03-06.
+
+81. "IEEE P802.3bf 400Gb/s and 800Gb/s Ethernet Task Force" (https://www.ieee802.org/3/bf/).
+IEEE 802.3 ETHERNET WORKING GROUP. Retrieved 2026-03-06.
+
+82. "IEEE 802.20 Mission and Project Scope" (https://grouper.ieee.org/groups/802/20/). IEEE
+802.20 — Mobile Broadband Wireless Access (MBWA). Retrieved 2011-11-12.
+
+83. Rosen, E.; Rekhter, Y. (March 1999). BGP/MPLS VPNs (https://www.rfc-editor.org/rfc/rfc254
+7). IETF. doi:10.17487/RFC2547 (https://doi.org/10.17487%2FRFC2547). RFC 2547 (http
+s://www.rfc-editor.org/rfc/rfc2547).
+
+84. "Maps" (https://web.archive.org/web/20050115092114/https://www.opte.org/maps/). The
+Opto Project. Archived from the original (https://www.opte.org/maps/) on 2005-01-15.
+
+85. Mansfield-Devine, Steve (December 2009). "Darknets". Computer Fraud & Security. 2009
+(12): 4–6. doi:10.1016/S1361-3723(09)70150-2 (https://doi.org/10.1016%2FS1361-3723%2
+809%2970150-2).
+
+86. Wood, Jessica (2010). "The Darknet: A Digital Copyright Revolution" (https://jolt.richmond.ed
+u/v16i4/article14.pdf) (PDF). Richmond Journal of Law and Technology. 16 (4). Archived (htt
+ps://web.archive.org/web/20120415112930/http://jolt.richmond.edu/v16i4/article14.pdf)
+(PDF) from the original on 2012-04-15. Retrieved 2011-10-25.
+
+87. Klensin, J. (October 2008). Simple Mail Transfer Protocol (https://www.rfc-editor.org/rfc/rfc53
+21). IETF. doi:10.17487/RFC5321 (https://doi.org/10.17487%2FRFC5321). RFC 5321 (http
+s://www.rfc-editor.org/rfc/rfc5321).
+
+88. Mockapetris, P. (November 1987). Domain names – Implementation and Specification (http
+s://www.rfc-editor.org/rfc/rfc1035). IETF. doi:10.17487/RFC1035 (https://doi.org/10.17487%2
+FRFC1035). RFC 1035 (https://www.rfc-editor.org/rfc/rfc1035).
+
+89. Peterson, L.L.; Davie, B.S. (2011). Computer Networks: A Systems Approach (https://books.
+google.com/books?id=BvaFreun1W8C&pg=PA372) (5th ed.). Elsevier. p. 372. ISBN 978-0-
+1238-5060-7.
+
+
+
+90. ITU-D Study Group 2 (June 2006). Teletraffic Engineering Handbook (https://web.archive.or
+g/web/20070111015452/https://oldwww.com.dtu.dk/teletraffic/handbook/telenook.pdf) (PDF).
+Archived from the original (https://www.com.dtu.dk/teletraffic/handbook/telenook.pdf) (PDF)
+on 2007-01-11.
+
+91. "State Transition Diagrams" (https://web.archive.org/web/20031015010139/https://cne.gmu.
+edu/modules/os_perf/std.t.html). Archived from the original (https://cne.gmu.edu/modules/os
+_perf/std.t.html) on 2003-10-15. Retrieved 2003-07-13.
+
+92. "Definitions: Resilience" (https://resilinets.org/definitions.html#Resilience). ResiliNets
+Research Initiative. Archived (https://web.archive.org/web/20201106133722/https://resilinet
+s.org/definitions.html#Resilience) from the original on 2020-11-06. Retrieved 2011-11-12.
+
+93. Simmonds, A; Sandilands, P; van Ekert, L (2004). "An Ontology for Network Security
+Attacks". Applied Computing. Lecture Notes in Computer Science. Vol. 3285. pp. 317–323.
+doi:10.1007/978-3-540-30176-9_41 (https://doi.org/10.1007%2F978-3-540-30176-9_41).
+ISBN 978-3-540-23659-7. S2CID 2204780 (https://api.semanticscholar.org/CorpusID:22047
+80).
+
+94. "Is the U.S. Turning Into a Surveillance Society?" (https://www.aclu.org/other/us-turning-surv
+eillance-society). American Civil Liberties Union. Archived (https://web.archive.org/web/2017
+0314094152/https://www.aclu.org/other/us-turning-surveillance-society) from the original on
+2017-03-14. Retrieved 2009-03-13.
+
+95. Jay Stanley; Barry Steinhardt (January 2003). "Bigger Monster, Weaker Chains: The Growth
+of an American Surveillance Society" (https://www.aclu.org/FilesPDFs/aclu_report_bigger_m
+onster_weaker_chains.pdf) (PDF). American Civil Liberties Union. Archived (https://ghostarc
+hive.org/archive/20221009/https://www.aclu.org/FilesPDFs/aclu_report_bigger_monster_we
+aker_chains.pdf) (PDF) from the original on 2022-10-09. Retrieved 2009-03-13.
+
+96. Emil Protalinski (2012-04-07). "Anonymous hacks UK government sites over 'draconian
+surveillance' " (https://web.archive.org/web/20130403054106/http://www.zdnet.com/blog/sec
+urity/anonymous-hacks-uk-government-sites-over-draconian-surveillance/11412). ZDNet.
+Archived from the original (https://www.zdnet.com/blog/security/anonymous-hacks-uk-gover
+nment-sites-over-draconian-surveillance/11412) on 2013-04-03. Retrieved 12 March 2013.
+
+97. James Ball (2012-04-20). "Hacktivists in the frontline battle for the internet" (https://www.the
+guardian.com/technology/2012/apr/20/hacktivists-battle-internet). The Guardian. Archived (h
+ttps://web.archive.org/web/20180314103619/https://www.theguardian.com/technology/2012/
+apr/20/hacktivists-battle-internet) from the original on 2018-03-14. Retrieved 2012-06-17.
+
+ This article incorporates public domain material from Federal Standard 1037C (https://web.archive.or
+g/web/20220122224547/https://www.its.bldrdoc.gov/fs-1037/fs-1037c.htm). General Services
+Administration. Archived from the original (https://www.its.bldrdoc.gov/fs-1037/fs-1037c.htm) on 2022-
+01-22.
+
+Further reading
+
+History
+Pelkey, James (1994). "History of Computer Communications" (https://historyofcomputerco
+mmunications.info/). The History of Computer Communications. United States: Computer
+History Museum. Retrieved August 7, 2025.
+Gillies, James M.; Cailliau, Robert (2000). How the Web was Born: The Story of the World
+Wide Web (https://archive.org/details/howwebwasbornsto00gill). Oxford University Press.
+ISBN 978-0-19-286207-5.
+
+
+
+Textbooks
+Peterson, Larry; Davie, Bruce (2000). Computer Networks: A Systems Approach (https://boo
+k.systemsapproach.org/index.html). Singapore: Harcourt Asia. ISBN 9789814066433.
+Retrieved May 24, 2025.
+Kurose, James F; Ross, Keith W. (2005). Computer Networking: A Top-Down Approach
+Featuring the Internet. Pearson Education.
+Stallings, William (2004). Computer Networking with Internet Protocols and Technology.
+Pearson Education.
+Bertsekas, Dimitri; Gallager, Robert (1992). Data Networks. Prentice Hall.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Computer_network&oldid=1382055874"

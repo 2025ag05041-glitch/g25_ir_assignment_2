@@ -1,0 +1,913 @@
+﻿Information technology in India
+The information technology (IT) industry in India comprises information technology services and
+business process outsourcing.[1] The IT–BPM sector contributes approximately 7.5% to the GDP of
+India.[2] According to NASSCOM, India's technology industry revenue is estimated to reach $315 billion
+in FY 2026, up 6.1% from a revised $297 billion in FY 2025.[3][4] In FY 2026, export revenue is
+estimated at $246 billion and domestic revenue at $69 billion (up from $224.4 billion in exports and
+$58.2 billion in domestic revenue in FY 2025).[3][5][6][7] The IT–BPM sector employs an estimated 5.95
+million people directly in FY 2026, up from 5.8 million in FY 2025.[4][5][7] IT units registered with state-
+run Software Technology Parks of India (STPI) exported software worth ₹10.64 lakh crore in FY 2024–
+25,[8] while combined exports from STPI and Special Economic Zones (SEZs) stood at ₹11.59 lakh crore
+in 2021–22.[9]
+
+History
+The Electronics Committee also known as the "Bhabha Committee" created a 10-year (1966–1975) plan
+laying the foundation for India's IT Service Industries.[10] The industry was born in Mumbai in 1967 with
+the establishment of Tata Consultancy Services[11] who in 1977 partnered with Burroughs which began
+India's export of IT services.[12] The first software export zone, SEEPZ – the precursor to the modern-day
+IT park – was established in Mumbai in 1973. More than 80 percent of the country's software exports
+were from SEEPZ in the 1980s.[11]
+
+Regulated VSAT links became visible in 1994.[13]
+
+Desai (2006) describes the steps taken to relax
+regulations on linking in 1991:
+
+In 1991 the Department of Electronics
+broke this impasse, creating a corporation
+called Software Technology Parks of India
+(STPI) that, being owned by the
+government, could provide VSAT
+
+TIDEL Park in Chennai was the largest IT park in
+communications without breaching its Asia when it was opened in 1999.
+monopoly. STPI set up software technology
+parks in different cities, each of which
+provided satellite links to be used by firms;
+the local link was a wireless radio link. In
+1993 the government began to allow
+individual companies their own dedicated
+links, which allowed work done in India to
+be transmitted abroad directly. Indian firms
+soon convinced their American customers
+
+
+
+that a satellite link was as reliable as a team of pro
+
+A joint EU-India group of scholars was formed on 23 November 2001 to further promote joint research
+and development. On 25 June 2002, India and the European Union agreed to bilateral cooperation in the
+field of science and technology. India has been an associate member state of CERN since 2017. A joint
+India–EU Software Education and Development Center was planned for Bangalore.[14]
+
+Automation and layoffs
+In the last decade, most of the IT companies developed indigenous R&D and innovation capabilities to
+develop homegrown IT products.[15] As the IT–BPM sector evolves, many are concerned that artificial
+intelligence (AI) will drive significant automation and destroy jobs in the coming years.[16][17]
+
+The rise of AI-powered code generation tools like ChatGPT, Gemini, and Copilot has sparked discussions
+about their potential impact on programming jobs.[18] Such tools can automate some coding tasks, which
+may change the skills required for programming roles.[19] According to the tracking website Layoffs.fyi,
+more than 500,000 technology workers worldwide were laid off between 2022 and April 2024.[20][21][22]
+
+A 2024 study published in the Harvard Business Review found that demand for freelance work in writing,
+coding and image creation fell after the release of ChatGPT and AI image generators, with job postings in
+some categories declining by up to 30 percent.[23][24]
+
+A 2018 article published by the Center for the Advanced Study of India (CASI) at the University of
+Pennsylvania noted that India handles 65 percent of global IT offshore work and 40 percent of global
+business process outsourcing, and cited a World Bank estimate that 69 percent of jobs in India are
+threatened by automation.[25] One report indicates that 640,000 low-skilled service jobs in the IT sector
+are at risk due to automation, while only 160,000 mid- to high-skilled positions will be created in the IT
+and BPO service sectors.[26] Goldman Sachs has predicted that advances in artificial intelligence (AI)
+could potentially automate the equivalent of 300 million full-time jobs globally.[27][28]
+
+In 2024, technology companies including Google, Amazon, Meta, and Cisco announced job cuts,
+attributed to a mix of AI adoption, economic conditions and cost reduction.[29] In March 2024, Vineet
+Nayar, former CEO of HCL, said that AI could leave IT companies needing up to 70 percent fewer
+people, as repetitive and data-entry-heavy work such as coding, testing, maintenance and responding to
+trouble tickets is taken over by AI.[30][31]
+
+Attrition rate
+The Indian IT-BPM industry has historically had high employee attrition rates.[32][33][34][35][36] In recent
+years, the industry has seen a surge in resignations at all levels.[32][34][36]
+
+
+
+Statistics
+
+Indian IT revenues
+The contribution of the IT sector in India's GDP rose from
+1.2% in 1998 to 7% in 2019.[39] Exports dominate the Indian Indian IT and BPM industry's
+
+revenues
+IT industry and constitute about 79% of the industry's total
+revenue. However, the domestic market is also significant, in US$ (as of
+
+FY26)[37][38]
+with robust revenue growth.[40]
+
+Export revenues 246 billion
+The industry's share of total Indian exports (merchandise Domestic revenues 69 billion
+plus services) increased from less than 4% in FY1998 to
+about 25% in FY2012. The technologically inclined services Total IT Revenues 315 billion
+sector in India accounts for 40% of the country's GDP and Total direct
+30% of export earnings as of 2006, while employing only employees in IT 59.5 lakh (5.95
+
+sector: million)
+25% of its workforce, according to Sharma (2006). In 2012,
+Gartner ranked the largest Indian IT services providers as
+Tata Consultancy Services, Infosys, Wipro, Tech Mahindra, and HCL Technologies.[41] In 2022,
+companies in the sector faced high employee attrition and intense competition for talent.[42]
+
+State/UT wise revenue in IT exports from STPI registered units
+Below is the State/UT-wise list of IT and ITeS export revenues from units registered under the Software
+Technology Parks of India (STPI) scheme for FY 2025–26, as presented to Parliament by the Ministry of
+Electronics and Information Technology.[43][44]
+
+
+
+Revenue in IT exports
+S.No State/UT (₹ Cr) (2025–26)[43]
+
+1 Karnataka 350,184.78
+
+2 Maharashtra 162,594.11
+
+3 Telangana 113,101.83
+
+4 Tamil Nadu 60,591.28
+
+5 Uttar Pradesh 28,442.69
+
+6 Haryana 26,885.28
+
+7 West Bengal 10,888.26
+
+8 Andhra Pradesh 5,057.15
+
+9 Odisha 3,492.42
+
+10 Kerala 3,447.61
+
+11 Gujarat 3,150.69
+
+12 Rajasthan 2,072.05
+
+13 Punjab 1,623.02
+
+14 Madhya Pradesh 681.63
+
+15 Delhi 652.08
+
+16 Chandigarh 414.34
+
+17 Puducherry 207.78
+
+18 Meghalaya 147.54
+
+19 Goa 81.21
+
+20 Chhattisgarh 75.93
+
+21 Uttarakhand 56.68
+
+22 Jharkhand 30.41
+
+23 Jammu & Kashmir 19.55
+
+24 Assam 0.65
+
+25 Bihar —
+
+26 Himachal Pradesh —
+
+27 Sikkim —
+
+India (Total) 773,898.97
+
+Largest Indian IT companies in India
+The table below lists the largest IT services companies in India, sorted by market capitalization.[45] In
+September 2021, TCS recorded a market capitalization of US$ 200 billion, making it the first Indian IT
+tech company to do so.[46][47][48] On 24 August 2021, Infosys became the fourth Indian company to reach
+$100 billion in market capitalization.[49][50]
+
+
+
+Rank Company name Market capitalization (15 October
+2026) Revenue (FY 2025–26)
+
+1 Tata Consultancy
+Services ₹833,933 crore (US$87 billion) ₹267,021 crore
+
+(US$28 billion)
+
+2 Infosys ₹441,540 crore (US$46 billion) ₹178,650 crore
+(US$19 billion)
+
+3 HCLTech ₹360,103 crore (US$37 billion) ₹130,144 crore
+(US$14 billion)
+
+4 Cognizant US$26.9 billion US$21.1 billion
+
+5 Wipro ₹169,302 crore (US$18 billion) ₹92,620 crore (US$9.6 billion)
+
+6 Tech Mahindra ₹154,395 crore (US$16 billion) ₹56,815 crore (US$5.9 billion)
+
+Major IT hubs
+
+Bengaluru
+Bengaluru is a global technology hub and is India's biggest
+tech hub.[51] As of fiscal 2016–17, Bengaluru accounted for
+38% of total IT exports from India worth $45 billion,
+employing 10 lakh people directly and 30 lakh indirectly.[52]
+
+The city is known as the "Silicon Valley of India".[53][54]
+
+Bengaluru is also known as the "startup capital of India"; the
+city is home to 44 percent of all Indian unicorn startup
+companies as of 2020.[55]
+
+Offices of Oracle and others in
+Hyderabad Bengaluru, India
+
+Hyderabad – known for the HITEC City or Cyberabad – is
+India's second largest information technology exporter and a
+major global IT hub, and the largest bioinformatics hub in
+India.[56][57] Hyderabad has emerged as the second largest
+city in the country for software exports pipping competitors
+Chennai and Pune.[58][59][60]
+
+Pune Amazon Hyderabad campus
+Pune is a major centre for IT services and software
+development. Companies with large operations in the city
+include Infosys, TCS, Accenture, Amdocs, Cognizant, IBM, Capgemini and Tech Mahindra. Several
+global capability centres operate in Pune, including those of financial firms such as UBS, Barclays and
+BNY. Technology companies founded in the city include Druva, FirstCry and PubMatic.
+
+Chennai
+
+
+
+As of 2018, Chennai was India's third-largest exporter of
+information technology (IT) and business process outsourcing
+(BPO) services, after Bangalore and Hyderabad.[61][62]
+
+TIDEL Park in Chennai was billed as Asia's largest IT park
+when it was built.[63][64][62]
+
+Kolkata
+The Kolkata Metropolitan Area is the largest IT hub in East
+India. Most of the IT parks and offices are located at New Eon IT Park, Pune
+Town and Bidhannagar. Salt Lake Electronics Complex in
+Salt Lake Sector-V is India's first fully integrated Electronics
+Complex.[65] As of 2020, the city's IT sector employed more
+than 200,000 people directly. Total export from IT sector was
+estimated at ₹25,918 crore in 2021–22.[66] In 2022, Kolkata
+generated 20,000 direct jobs in just 6 months, which is an all-
+time high for IT industry in East India.[67]
+
+Controversies
+Zoho headquarters in Chennai
+
+Recruitment fraud
+Some job seekers have used forged experience certificates to
+gain entry into the Indian IT
+industry.[68][69][70][71][72][73][74][75] These fake documents are
+provided by consultancies that are mainly operating out of
+Chennai, Hyderabad and Noida.[68][69][70] IT professionals
+frequently use proxy interviews to clear interviews, but the
+majority of the phoney candidates are rejected during the
+interview round.[76]
+
+In response, IT companies have tightened background checks Sector V Salt Lake - the IT hub of Kolkata
+on candidates, including through third-party verification
+firms.[77]
+
+Tech support scams
+A 2017 study of technical support scams published at the
+NDSS Symposium found that, of the tech support scams in
+which the IPs involved could be geolocated, 85% could be
+traced to locations in India.[78] Fraudulent call centres in
+India have targeted victims in the United States and
+Europe.[79][80][81][82][83][84] Kolkata, Bangalore, Hyderabad, DLF IT Park, New Town
+and Mumbai are the main operating locations for these fraud
+call centres.[85][86][87][88]
+
+
+
+Law enforcement agencies in India, including the Central Bureau of Investigation, have raided such call
+centres, in some cases working with the FBI and other foreign agencies.[89]
+
+Work hours controversy
+
+See also
+List of Indian IT companies India portal
+List of special economic zones in India
+Business process outsourcing to India Technology portal
+
+Free Software Movement of India
+Software Technology Parks of India
+List of publicly listed software companies of India
+Supercomputing in India
+Data centre industry in India
+Technological unemployment
+
+References
+1. Nirmal, Rajalakshmi. "IT's time for ctrl+alt+delete" (https://www.thehindu.com/business/Indu
+
+stry/its-time-for-ctrlaltdelete/article17369823.ece). The Hindu. Archived (https://web.archive.
+org/web/20220208170329/https://www.thehindu.com/business/Industry/its-time-for-ctrlaltdel
+ete/article17369823.ece) from the original on 8 February 2022. Retrieved 26 February 2017.
+
+2. "IT & BPM Industry in India" (https://www.ibef.org/industry/information-technology-india).
+India Brand Equity Foundation. Retrieved 11 October 2026.
+
+3. "India's tech industry continues to redefine AI-led transformation, efficiency and skilling:
+Nasscom Annual Strategic Review 2026" (https://d3r3sr3o54kk15.cloudfront.net/s3fs-public/
+media_pdf/India%E2%80%99s%20tech%20industry%20continues%20to%20redefine%20AI
+-led%20transformation%2C%20efficiency%20and%20skilling--%20Nasscom%20Annual%2
+0Strategic%20Review%202026.pdf) (PDF). NASSCOM. 24 February 2026. Retrieved
+11 October 2026.
+
+4. "Indian tech industry revenues to grow 6.1% to $315 bn in FY26: Nasscom" (https://www.bu
+siness-standard.com/industry/news/indian-tech-industry-revenues-to-grow-6-1-to-315-bn-in-
+fy26-nasscom-126022400465_1.html). Business Standard. 24 February 2026. Retrieved
+11 October 2026.
+
+5. "Software Industry Promotion" (https://www.meity.gov.in/ministry/our-groups/details/software
+-industry-promotion-gN1EDOtQWa). Ministry of Electronics and Information Technology.
+Retrieved 11 October 2026.
+
+6. "India's tech sector FY25 revenue to grow 5.1% to $282.6 billion: Nasscom" (https://www.bu
+siness-standard.com/industry/news/indian-tech-sector-fy25-revenues-to-grow-5-1-to-282-6-
+billion-nasscom-125022400454_1.html). Business Standard. 24 February 2025. Archived (ht
+tps://web.archive.org/web/20250406074357/https://www.business-standard.com/industry/ne
+ws/indian-tech-sector-fy25-revenues-to-grow-5-1-to-282-6-billion-nasscom-125022400454_
+1.html) from the original on 6 April 2025. Retrieved 23 April 2025.
+
+7. "The Tech Industry in India likely to reach milestone $300Bn Revenue in FY2026: Nasscom
+Annual Strategic Review 2025" (https://www.nasscom.in/sites/default/files/media_pdf/Nassc
+om%20SR%20Press%20release.pdf) (PDF). NASSCOM. 24 February 2025. Retrieved
+11 October 2026.
+
+
+
+8. "Software Technology Park of India (STPI) Network Fuels Tech Growth in Non-Metro Cities"
+(https://www.pib.gov.in/PressReleasePage.aspx?PRID=2153114) (Press release). Press
+Information Bureau. 6 August 2025. Retrieved 11 October 2026.
+
+9. "IT companies at STPI, SEZs export software worth Rs 11.59 lakh crore in 2021-22" (https://
+economictimes.indiatimes.com/tech/information-tech/it-cos-at-stpi-sezs-export-software-wort
+h-rs-11-59-lakh-crore-in-2021-22/articleshow/96286331.cms). The Economic Times. 16
+December 2022. Archived (https://web.archive.org/web/20240625173648/https://economicti
+mes.indiatimes.com/tech/information-tech/it-cos-at-stpi-sezs-export-software-worth-rs-11-59
+-lakh-crore-in-2021-22/articleshow/96286331.cms) from the original on 25 June 2024.
+Retrieved 11 March 2023.
+
+10. Agarwal, Suraj Mal (10 July 2002). "Electronics in India: Past strategies and future
+possibilities Author links open overlay panel" (https://www.sciencedirect.com/science/article/
+abs/pii/0305750X85901317). World Development. 13 (3): 273–292. doi:10.1016/0305-
+750X(85)90131-7 (https://doi.org/10.1016%2F0305-750X%2885%2990131-7). Archived (htt
+ps://web.archive.org/web/20230414080613/https://www.sciencedirect.com/science/article/ab
+s/pii/0305750X85901317) from the original on 14 April 2023. Retrieved 10 April 2023.
+
+11. "Top 50 Emerging Global Outsourcing Cities" (https://web.archive.org/web/2018092104190
+9/http://www.itida.gov.eg/Documents/Tholons_study.pdf) (PDF). www.itida.gov.eg. Archived
+from the original (http://www.itida.gov.eg/Documents/Tholons_study.pdf) (PDF) on 21
+September 2018. Retrieved 22 July 2010.
+
+12. "Special Economic Zones: Profits At Any Cost" (https://web.archive.org/web/201009071924
+47/http://www.doccentre.net/Tod/SEZs-Profits-At-Any-Cost.php). Doccentre.net. Archived
+from the original (http://www.doccentre.net/Tod/SEZs-Profits-At-Any-Cost.php) on 7
+September 2010. Retrieved 22 July 2010.
+
+13. "Online Journal of Space Communication" (http://spacejournal.ohio.edu/issue7/ov_india.htm
+l). Spacejournal.ohio.edu. Archived (https://web.archive.org/web/20200711025516/https://sp
+acejournal.ohio.edu/issue7/ov_india.html) from the original on 11 July 2020. Retrieved
+28 September 2013.
+
+14. India Telecom Laws and Regulations Handbook. Int'l Business Publication. 2013. p. 300.
+ISBN 978-1-4330-8190-3.
+
+15. "No, India's High Tech Labor Isn't Leaving The U.S. For Bangalore" (https://www.forbes.co
+m/sites/kenrapoza/2017/09/25/no-indias-high-tech-labor-isnt-leaving-the-u-s-for-bangalore/?
+sh=7957b7ec1768). Forbes. 25 September 2017. Archived (https://web.archive.org/web/202
+11101140122/https://www.forbes.com/sites/kenrapoza/2017/09/25/no-indias-high-tech-labor-
+isnt-leaving-the-u-s-for-bangalore/?sh=7957b7ec1768) from the original on 1 November
+2021. Retrieved 1 November 2021.
+
+16. "Why automation could be a threat to India's growth" (https://www.bbc.com/future/article/201
+70510-why-automation-could-be-a-threat-to-indias-growth). BBC News. 19 May 2017.
+Archived (https://web.archive.org/web/20211022091645/https://www.bbc.com/future/article/2
+0170510-why-automation-could-be-a-threat-to-indias-growth) from the original on 22
+October 2021. Retrieved 22 October 2021.
+
+17. "Indian IT firms set to slash 3 mn jobs by 2022 due to automation: BofA report" (https://www.
+livemint.com/news/india/indian-it-firms-set-to-slash-3-mn-jobs-by-2022-due-to-automation-b
+oa-report-11623850905672.html). Mint. 16 June 2021. Archived (https://web.archive.org/we
+b/20211022091647/https://www.livemint.com/news/india/indian-it-firms-set-to-slash-3-mn-job
+s-by-2022-due-to-automation-boa-report-11623850905672.html) from the original on 22
+October 2021. Retrieved 22 October 2021.
+
+18. "AI will hit jobs in Indian IT sector but experts say companies can also be ethical about job
+cuts" (https://www.indiatoday.in/technology/features/story/ai-will-hit-jobs-in-indian-it-sector-b
+ut-experts-say-companies-can-also-be-ethical-about-job-cuts-2513756-2024-03-12). India
+Today. 12 March 2024. Retrieved 15 May 2024.
+
+
+
+19. "AI and cost cutting biggest reasons why tech layoffs have surged by 136 per cent in 2024,
+reveals study" (https://www.indiatoday.in/technology/news/story/ai-and-cost-cutting-biggest-r
+easons-why-tech-lays-offs-have-surged-by-136-per-cent-in-2024-reveals-study-2499830-20
+24-02-09). India Today. 9 February 2024. Archived (https://web.archive.org/web/202405010
+83744/https://www.indiatoday.in/technology/news/story/ai-and-cost-cutting-biggest-reasons-
+why-tech-lays-offs-have-surged-by-136-per-cent-in-2024-reveals-study-2499830-2024-02-0
+9) from the original on 1 May 2024. Retrieved 15 May 2024.
+
+20. "Over 4.25 lakh tech employees lose jobs in 2023, layoffs continue during holidays - ET
+CIO" (https://cio.economictimes.indiatimes.com/news/corporate-news/over-4-25-lakh-tech-e
+mployees-lose-jobs-in-2023-layoffs-continue-during-holidays/106283378). ETCIO.com.
+Archived (https://web.archive.org/web/20240503053035/https://cio.economictimes.indiatime
+s.com/news/corporate-news/over-4-25-lakh-tech-employees-lose-jobs-in-2023-layoffs-contin
+ue-during-holidays/106283378) from the original on 3 May 2024. Retrieved 15 May 2024.
+
+21. Corrall, Alyssa Stringer, Cody (7 May 2024). "A comprehensive list of 2024 tech layoffs" (http
+s://techcrunch.com/2024/05/07/tech-layoffs-2023-list/). TechCrunch. Archived (https://web.ar
+chive.org/web/20240515120714/https://techcrunch.com/2024/05/07/tech-layoffs-2023-list/)
+from the original on 15 May 2024. Retrieved 15 May 2024.
+
+22. "Tech layoffs 2024: Over 20K sacked in April; Tesla, Apple, Byju's lead the pack" (https://indi
+anexpress.com/article/technology/tech-news-technology/tech-layoffs-2024-over-20k-sacked-
+in-april-9301477/). The Indian Express. 1 May 2024. Archived (https://web.archive.org/web/2
+0240503053035/https://indianexpress.com/article/technology/tech-news-technology/tech-lay
+offs-2024-over-20k-sacked-in-april-9301477/) from the original on 3 May 2024. Retrieved
+15 May 2024.
+
+23. Demirci, Ozge; Hannane, Jonas; Zhu, Xinrong (11 November 2024). "Research: How Gen
+AI is Already Impacting the Labor Market" (https://hbr.org/2024/11/research-how-gen-ai-is-al
+ready-impacting-the-labor-market). Harvard Business Review. Archived (https://web.archive.
+org/web/20241114032505/https://hbr.org/2024/11/research-how-gen-ai-is-already-impacting-
+the-labor-market) from the original on 14 November 2024. Retrieved 15 November 2024.
+
+24. "Gen AI is coming for your job, new research shows up to 30 per cent decline in writing,
+coding and imaging jobs" (https://www.indiatoday.in/technology/news/story/gen-ai-is-coming
+-for-your-job-new-research-shows-up-to-30-per-cent-decline-in-writing-coding-and-imaging-j
+obs-2632697-2024-11-13). 13 November 2024. Archived (https://web.archive.org/web/2024
+1113080732/https://www.indiatoday.in/technology/news/story/gen-ai-is-coming-for-your-job-n
+ew-research-shows-up-to-30-per-cent-decline-in-writing-coding-and-imaging-jobs-2632697-
+2024-11-13) from the original on 13 November 2024. Retrieved 15 November 2024.
+
+25. "Automation and the Future of Jobs in India" (https://casi.sas.upenn.edu/iit/kuriakoseiyer).
+Center for the Advanced Study of India (CASI). 5 November 2018. Archived (https://web.arc
+hive.org/web/20240501083744/https://casi.sas.upenn.edu/iit/kuriakoseiyer) from the original
+on 1 May 2024. Retrieved 15 May 2024.
+
+26. "How Automation Will Shape the Future of Work in India" (https://thediplomat.com/2024/02/h
+ow-automation-will-shape-the-future-of-work-in-india/). thediplomat.com. Archived (https://w
+eb.archive.org/web/20240501083743/https://thediplomat.com/2024/02/how-automation-will-
+shape-the-future-of-work-in-india/) from the original on 1 May 2024. Retrieved 15 May 2024.
+
+27. "Generative AI Could Raise Global GDP by 7%" (https://www.goldmansachs.com/intelligenc
+e/pages/generative-ai-could-raise-global-gdp-by-7-percent.html). Goldman Sachs. Archived
+(https://web.archive.org/web/20230618013836/https://www.goldmansachs.com/intelligence/
+pages/generative-ai-could-raise-global-gdp-by-7-percent.html) from the original on 18 June
+2023. Retrieved 15 May 2024.
+
+28. "Goldman Sachs Says AI Automation Could Disrupt 300 Million Jobs Worldwide" (https://fina
+nce.yahoo.com/news/goldman-sachs-says-ai-automation-190424288.html). Yahoo Finance.
+5 April 2023. Archived (https://web.archive.org/web/20240501125909/https://finance.yahoo.c
+om/news/goldman-sachs-says-ai-automation-190424288.html) from the original on 1 May
+2024. Retrieved 1 May 2024.
+
+
+
+29. Stringer, Cody Corrall, Alyssa (4 June 2024). "A comprehensive list of 2024 tech layoffs" (htt
+ps://techcrunch.com/2024/06/04/tech-layoffs-2023-list/). TechCrunch. Archived (https://web.
+archive.org/web/20240607053142/https://techcrunch.com/2024/06/04/tech-layoffs-2023-lis
+t/) from the original on 7 June 2024. Retrieved 7 June 2024.
+
+30. "AI Will Lead To 70% Employees Getting Laid Off In India's IT Sector, Warns Former HCL
+CEO" (https://www.indiatimes.com/worth/news/hcl-former-ceo-warning-ai-will-lead-to-70-per
+cent-layoffs-in-indias-it-sector-629396.html). Indiatimes. 8 March 2024. Archived (https://we
+b.archive.org/web/20240501083744/https://www.indiatimes.com/worth/news/hcl-former-ceo-
+warning-ai-will-lead-to-70-percent-layoffs-in-indias-it-sector-629396.html) from the original
+on 1 May 2024. Retrieved 7 November 2024.
+
+31. "Exclusive: AI will lead to IT companies needing 70 per cent fewer people, says former HCL
+CEO Vineet Nayar" (https://www.indiatoday.in/technology/news/story/exclusive-ai-will-lead-t
+o-it-companies-needing-70-per-cent-fewer-people-says-former-hcl-ceo-vineet-nayar-251219
+9-2024-03-08). India Today. 8 March 2024. Archived (https://web.archive.org/web/20240923
+181537/https://www.indiatoday.in/technology/news/story/exclusive-ai-will-lead-to-it-companie
+s-needing-70-per-cent-fewer-people-says-former-hcl-ceo-vineet-nayar-2512199-2024-03-0
+8) from the original on 23 September 2024. Retrieved 7 November 2024.
+
+32. "Employee attrition a big headache for IT companies. Can they tide over it?" (https://www.liv
+emint.com/market/stock-market-news/employee-attrition-a-big-headache-for-indian-it-compa
+nies-can-they-tide-over-it-11629870315500.html). Mint. 25 August 2021. Archived (https://we
+b.archive.org/web/20211021145810/https://www.livemint.com/market/stock-market-news/em
+ployee-attrition-a-big-headache-for-indian-it-companies-can-they-tide-over-it-116298703155
+00.html) from the original on 21 October 2021. Retrieved 21 October 2021.
+
+33. "The 'great attrition': It's a difficult time to be a boss" (https://www.newindianexpress.com/bu
+siness/2021/nov/21/the-great-attrition-its-a-difficult-time-to-be-a-boss-2386165.html). The
+New Indian Express. 21 November 2021. Archived (https://web.archive.org/web/202201132
+01006/https://www.newindianexpress.com/business/2021/nov/21/the-great-attrition-its-a-diffi
+cult-time-to-be-a-boss-2386165.html) from the original on 13 January 2022. Retrieved
+8 February 2022.
+
+34. "Despite bonuses and salary hikes, India's IT sector will see over a million resignations this
+year" (https://timesofindia.indiatimes.com/business/india-business/despite-bonuses-and-sal
+ary-hikes-indias-it-sector-will-see-over-a-million-resignations-this-year/articleshow/8732487
+9.cms). The Times of India. 28 October 2021. Archived (https://web.archive.org/web/202201
+20061221/https://timesofindia.indiatimes.com/business/india-business/despite-bonuses-and
+-salary-hikes-indias-it-sector-will-see-over-a-million-resignations-this-year/articleshow/87324
+879.cms) from the original on 20 January 2022. Retrieved 8 February 2022.
+
+35. Vanamali, Krishna Veera (21 October 2021). "What's behind record staff exits at Indian IT
+giants?" (https://www.business-standard.com/podcast/companies/what-s-behind-record-staff
+-exits-at-indian-it-giants-121101900242_1.html). Business Standard. Archived (https://web.a
+rchive.org/web/20211021145810/https://www.business-standard.com/podcast/companies/w
+hat-s-behind-record-staff-exits-at-indian-it-giants-121101900242_1.html) from the original on
+21 October 2021. Retrieved 21 October 2021.
+
+36. "Attrition in IT sector to cross 1 million this year' " (https://www.thehindu.com/business/Indust
+ry/attrition-in-it-sector-to-cross-1-million-this-year/article36702884.ece). The Hindu. 27
+September 2021. Archived (https://web.archive.org/web/20211021151312/https://www.thehi
+ndu.com/business/Industry/attrition-in-it-sector-to-cross-1-million-this-year/article36702884.e
+ce) from the original on 21 October 2021. Retrieved 21 October 2021.
+
+37. Technology Sector in India: Strategic Review 2026 (https://community.nasscom.in/communiti
+es/nasscom-insights/technology-sector-india-strategic-review-2026) (Report). NASSCOM.
+24 February 2026. Retrieved 15 October 2026.
+
+
+
+38. "IT's FY26 revenues set to grow 6.1% to $315 billion, says Nasscom" (https://economictime
+s.indiatimes.com/tech/information-tech/its-fy26-revenues-set-to-grow-6-1-to-315-billion-says
+-nasscom/articleshow/128768328.cms). The Economic Times. 25 February 2026. Retrieved
+15 October 2026.
+
+39. Rakheja, Bhaswar Kumar Harshit (28 January 2022). "Will Indian IT industry sustain its
+growth momentum?" (https://www.business-standard.com/podcast/technology/will-indian-it-i
+ndustry-sustain-its-growth-momentum-122012800079_1.html). Business Standard India.
+Archived (https://web.archive.org/web/20220131103158/https://www.business-standard.co
+m/podcast/technology/will-indian-it-industry-sustain-its-growth-momentum-122012800079_
+1.html) from the original on 31 January 2022. Retrieved 27 June 2022.
+
+40. "nformation technology/business process management (IT-BPM) sector in India as a share
+of India's gross domestic product (GDP) from 2009 to 2017" (https://web.archive.org/web/20
+121220032358/http://www.nasscom.in/indian-itbpo-industry). NASSCOM. Archived from the
+original (https://www.statista.com/statistics/320776/contribution-of-indian-it-industry-to-india-
+s-gdp/) on 20 December 2012. Retrieved 15 December 2012.
+
+41. "Gartner Says Top six Indian IT Services Providers Grew 23.8 Percent In 2011" (https://web.
+archive.org/web/20120508195823/http://www.gartner.com/it/page.jsp?id=2007116).
+Gartner.com. 7 May 2012. Archived from the original (http://www.gartner.com/it/page.jsp?id=
+2007116) on 8 May 2012. Retrieved 28 September 2013.
+
+42. Sengupta, Devina (22 April 2022). "Entry-level salaries at IT cos set to rise amid high
+attrition" (https://www.livemint.com/companies/news/entrylevel-salaries-at-it-cos-set-to-rise-a
+mid-high-attrition-11650647839264.html). mint. Archived (https://web.archive.org/web/20220
+430232854/https://www.livemint.com/companies/news/entrylevel-salaries-at-it-cos-set-to-ris
+e-amid-high-attrition-11650647839264.html) from the original on 30 April 2022. Retrieved
+30 April 2022.
+
+43. Ministry of Electronics and Information Technology (12 August 2026). "Statement Referred
+to in Reply to Lok Sabha Starred Question No. *344 for 12.08.2026 Regarding Software
+Technology Parks Scheme" (https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/
+AS344_pqIjjz.pdf?source=lsapps) (PDF). Lok Sabha, Parliament of India. Retrieved
+15 October 2026.
+
+44. "Software Technology Parks Strengthen India's IT Export Ecosystem and Ease of Doing
+Business: STP Units Record over ₹7.73 Lakh Crore in Exports in FY 2025-26" (https://www.
+pib.gov.in/PressReleasePage.aspx?PRID=2299304) (Press release). Press Information
+Bureau, Ministry of Electronics and Information Technology. 14 August 2026. Retrieved
+15 October 2026.
+
+45. "TOP COMPANIES IN INDIA BY MARKET CAPITALISATION - BSE" (https://www.moneyco
+ntrol.com/stocks/marketinfo/marketcap/bse/it-services-consulting.html). Moneycontrol.
+Retrieved 13 July 2024.
+
+46. "TCS 2nd Indian company to hit $200 billion mcap after RIL" (https://timesofindia.indiatimes.
+com/business/india-business/tcs-2nd-indian-co-to-hit-200bn-mcap-after-ril/articleshow/8624
+5377.cms). The Times of India. 16 September 2021. Archived (https://web.archive.org/web/
+20221120134652/https://timesofindia.indiatimes.com/business/india-business/tcs-2nd-indian
+-co-to-hit-200bn-mcap-after-ril/articleshow/86245377.cms) from the original on 20
+November 2022. Retrieved 20 November 2022.
+
+47. "TCS Market Capitalisation Hits $200 Billion As Shares Jump To Fresh Highs" (https://www.
+ndtv.com/business/tcs-market-capitalisation-hits-200-billion-as-shares-jump-to-fresh-highs-2
+542286). 15 September 2021.
+
+
+
+48. Krishnan, Raghu (15 September 2021). "TCS first Indian tech company to cross $200 billion
+market cap" (https://economictimes.indiatimes.com/tech/information-tech/tcs-first-indian-tec
+h-company-to-cross-200-billion-market-cap/articleshow/86232295.cms). The Economic
+Times. Archived (https://web.archive.org/web/20221015020910/https://economictimes.indiati
+mes.com/tech/information-tech/tcs-first-indian-tech-company-to-cross-200-billion-market-ca
+p/articleshow/86232295.cms) from the original on 15 October 2022. Retrieved 20 November
+2022.
+
+49. "Infosys becomes 4th Indian company to touch $100 bn market cap" (https://timesofindia.ind
+iatimes.com/business/india-business/infosys-becomes-fourth-indian-firm-to-touch-100-billion
+-market-cap/articleshow/85612033.cms). The Times of India. Archived (https://web.archive.o
+rg/web/20221120135743/https://timesofindia.indiatimes.com/business/india-business/infosys
+-becomes-fourth-indian-firm-to-touch-100-billion-market-cap/articleshow/85612033.cms)
+from the original on 20 November 2022. Retrieved 20 November 2022.
+
+50. Salil, K. (24 August 2021). "Infosys becomes fourth Indian company to reach market cap of
+$100 billion" (https://thefederal.com/business/infosys-becomes-fourth-indian-company-to-re
+ach-market-cap-of-100-billion/). The Federal. Archived (https://web.archive.org/web/202301
+30175252/https://thefederal.com/business/infosys-becomes-fourth-indian-company-to-reach
+-market-cap-of-100-billion/) from the original on 30 January 2023. Retrieved 31 August
+2021.
+
+51. "Bengaluru ranked 8th in global list of leading technology innovation hubs" (https://www.then
+ewsminute.com/article/bengaluru-ranked-8th-global-list-leading-technology-innovation-hubs-
+152948). 26 July 2021. Archived (https://web.archive.org/web/20210921092208/https://www.
+thenewsminute.com/article/bengaluru-ranked-8th-global-list-leading-technology-innovation-h
+ubs-152948) from the original on 21 September 2021. Retrieved 21 September 2021.
+
+52. " 'Bangalore will become the world's largest IT cluster by 2020' " (https://www.thehindubusin
+essline.com/info-tech/%E2%80%98Bangalore-will-become-the-world%E2%80%99s-largest-
+IT-cluster-by-2020%E2%80%99/article20909098.ece). Business Line. Archived (https://web.
+archive.org/web/20210726165717/https://www.thehindubusinessline.com/info-tech/%E2%8
+0%98Bangalore-will-become-the-world%E2%80%99s-largest-IT-cluster-by-2020%E2%80%
+99/article20909098.ece) from the original on 26 July 2021. Retrieved 27 May 2021.
+
+53. Canton, Naomi (6 December 2012). "How the 'Silicon' is bridging the digital divide" (https://e
+dition.cnn.com/2012/12/06/tech/bangalore-india-internet-access). CNN. Archived (https://we
+b.archive.org/web/20121218052853/http://edition.cnn.com/2012/12/06/tech/bangalore-india-
+internet-access) from the original on 18 December 2012. Retrieved 6 December 2012.
+
+54. RAI, SARITHA (20 March 2006). "Is the Next Silicon Valley Taking Root in Bangalore?" (http
+s://www.nytimes.com/2006/03/20/business/worldbusiness/20bangalore.html). The New York
+Times. Archived (https://web.archive.org/web/20111013023256/http://www.nytimes.com/200
+6/03/20/business/worldbusiness/20bangalore.html) from the original on 13 October 2011.
+Retrieved 20 March 2006.
+
+55. "Bengaluru is India's unicorn capital, reveals report" (https://www.cnbctv18.com/startup/beng
+aluru-is-indias-unicorn-capital-reveals-report-5011231.htm). cnbctv18.com. Archived (https://
+web.archive.org/web/20210527143426/https://www.cnbctv18.com/startup/bengaluru-is-india
+s-unicorn-capital-reveals-report-5011231.htm) from the original on 27 May 2021. Retrieved
+27 May 2021.
+
+56. Udgirkar, Trushna (2 October 2015). "New innovation support centre to open in Hyderabad
+this month" (http://www.livemint.com/Companies/rGXHb9JufpgLVJWhNwPl2H/New-innovati
+on-support-centre-to-open-in-Hyderabad-this-mont.html). Archived (https://web.archive.org/
+web/20210224145805/https://www.livemint.com/Companies/rGXHb9JufpgLVJWhNwPl2H/N
+ew-innovation-support-centre-to-open-in-Hyderabad-this-mont.html) from the original on 24
+February 2021. Retrieved 8 October 2015.
+
+
+
+57. "Hyderabad to emerge as new biotechnology capital of India: Experts" (https://web.archive.o
+rg/web/20151117023026/http://www.pharmabiz.com/NewsDetails.aspx?aid=83770&sid=1).
+www.PharmaBiz.com. Archived from the original (http://www.pharmabiz.com/NewsDetails.as
+px?aid=83770&sid=1) on 17 November 2015. Retrieved 3 November 2017.
+
+58. "Hyderabad Pips Chennai, Pune in Software Exports" (https://web.archive.org/web/2014092
+7064616/http://www.newindianexpress.com/cities/hyderabad/Hyderabad-Pips-Chennai-Pun
+e-in-Software-Exports/2014/09/26/article2449874.ece). The New Indian Express. Archived
+from the original (http://www.newindianexpress.com/cities/hyderabad/Hyderabad-Pips-Chen
+nai-Pune-in-Software-Exports/2014/09/26/article2449874.ece) on 27 September 2014.
+
+59. "CDFD to be Sun's first CoE in medical informatics" (https://web.archive.org/web/201511170
+30211/http://articles.economictimes.indiatimes.com/2004-02-12/news/27411217_1_cdfd-co
+mputational-biology-centre-for-dna-fingerprinting). timesofindia-economictimes. Archived
+from the original (http://articles.economictimes.indiatimes.com/2004-02-12/news/27411217_
+1_cdfd-computational-biology-centre-for-dna-fingerprinting) on 17 November 2015.
+
+60. "Hyderabad Pips Chennai, Pune in Software Exports" (https://www.newindianexpress.com/c
+ities/hyderabad/2014/sep/26/hyderabad-pips-chennai-pune-in-software-exports-665308.htm
+l). newindianexpress.com. 26 September 2014. Archived (https://web.archive.org/web/2018
+0719143057/http://www.newindianexpress.com/cities/hyderabad/2014/sep/26/Hyderabad-Pi
+ps-Chennai-Pune-in-Software-Exports-665308.html) from the original on 19 July 2018.
+Retrieved 1 April 2018.
+
+61. "Chennai activities" (https://web.archive.org/web/20121116141448/http://nasscom.org/chenn
+ai-activities). NASSCOM. Archived from the original (http://www.nasscom.org/chennai-activit
+ies) on 16 November 2012. Retrieved 28 December 2012.
+
+62. Chandramouli, Rajesh (1 May 2008). "Chennai emerging as India's Silicon Valley?" (http://e
+conomictimes.indiatimes.com/Infotech/Software/Chennai_emerging_as_Indias_Silicon_Vall
+ey/articleshow/3000410.cms). The Economic Times. Archived (https://web.archive.org/web/
+20080505100206/http://economictimes.indiatimes.com/Infotech/Software/Chennai_emergin
+g_as_Indias_Silicon_Valley/articleshow/3000410.cms) from the original on 5 May 2008.
+Retrieved 28 December 2012.
+
+63. "Ford's Rs. 200-cr. IT hub in Chennai" (https://web.archive.org/web/20020130201321/http://
+www.hindu.com/2000/11/02/stories/04022231.htm). The Hindu. Chennai. 2 November 2000.
+Archived from the original (http://www.hindu.com/2000/11/02/stories/04022231.htm) on 30
+January 2002. Retrieved 28 December 2012.
+
+64. "Work ethics: How Indian cities fare" (http://specials.rediff.com/money/2008/jul/31slide5.ht
+m). Rediff. Archived (https://web.archive.org/web/20210507034620/http://specials.rediff.co
+m/money/2008/jul/31slide5.htm) from the original on 7 May 2021. Retrieved 28 December
+2012.
+
+65. "Past and Present Economic Status of West Bengal: A Review" (https://www.trp.org.in/wp-co
+ntent/uploads/2021/01/ARSS-Vol.9-No.2-July-December-2020-pp.8-13.pdf) (PDF).
+www.trp.org.in. Archived (https://web.archive.org/web/20231223201727/https://www.trp.org.i
+n/wp-content/uploads/2021/01/ARSS-Vol.9-No.2-July-December-2020-pp.8-13.pdf) (PDF)
+from the original on 23 December 2023. Retrieved 15 July 2023.
+
+66. "Software and Service Exports Rise" (https://kolkata.stpi.in/en/news/software-and-service-ex
+ports-rise). kolkata.stpi.in. 10 April 2022. Archived (https://web.archive.org/web/2024040423
+1409/https://kolkata.stpi.in/en/news/software-and-service-exports-rise) from the original on 4
+April 2024. Retrieved 1 May 2023.
+
+67. "Kolkata's Sector V, New Town on overdrive, add 20,000 IT jobs in last 6 months" (https://tim
+esofindia.indiatimes.com/city/kolkata/kolkatas-sector-v-new-town-on-overdrive-add-20000-it-
+jobs-in-last-6-months/articleshow/96997664.cms). The Times of India. 15 January 2023.
+Archived (https://web.archive.org/web/20240517104405/https://timesofindia.indiatimes.com/
+city/kolkata/kolkatas-sector-v-new-town-on-overdrive-add-20000-it-jobs-in-last-6-months/arti
+cleshow/96997664.cms) from the original on 17 May 2024. Retrieved 21 April 2024.
+
+
+
+68. Sreedhar, Nemmani (3 April 2012). "Ameerpet, 'adda' for wannabe techies" (https://www.the
+hindu.com/news/cities/Hyderabad/ameerpet-adda-for-wannabe-techies/article3276199.ece).
+The Hindu. Archived (https://web.archive.org/web/20220723090409/https://www.thehindu.co
+m/news/cities/Hyderabad/ameerpet-adda-for-wannabe-techies/article3276199.ece) from the
+original on 23 July 2022. Retrieved 23 July 2022.
+
+69. "Foreign educational consultancies in net for fake documents case" (https://www.newindiane
+xpress.com/cities/hyderabad/2022/apr/12/foreigneducational-consultancies-in-net-for-fake-d
+ocumentscase-2440902.html). 11 April 2022. Archived (https://web.archive.org/web/202207
+23090409/https://www.newindianexpress.com/cities/hyderabad/2022/apr/12/foreigneducatio
+nal-consultancies-in-net-for-fake-documentscase-2440902.html) from the original on 23 July
+2022. Retrieved 23 July 2022.
+
+70. "In the season of IT layoffs, Rs 10,000 can get you a letter of experience" (https://www.mone
+ycontrol.com/news/trends/current-affairs-trends/in-the-season-of-it-layoffs-rs-10000-can-get-
+you-a-letter-of-experience-2299049.html). 7 June 2017. Archived (https://web.archive.org/w
+eb/20220723090409/https://www.moneycontrol.com/news/trends/current-affairs-trends/in-th
+e-season-of-it-layoffs-rs-10000-can-get-you-a-letter-of-experience-2299049.html) from the
+original on 23 July 2022. Retrieved 23 July 2022.
+
+71. "Hard times for 'fake' techies | Hyderabad News - Times of India" (https://timesofindia.indiati
+mes.com/city/hyderabad/hard-times-for-fake-techies/articleshow/9928492.cms). The Times
+of India. 10 September 2011. Archived (https://web.archive.org/web/20220723090409/http
+s://timesofindia.indiatimes.com/city/hyderabad/hard-times-for-fake-techies/articleshow/9928
+492.cms) from the original on 23 July 2022. Retrieved 23 July 2022.
+
+72. Sengupta, Devina. "Ameerpet houses hundreds of IT institutes and over one lakh students"
+(https://economictimes.indiatimes.com/jobs/ameerpet-houses-hundreds-of-it-institutes-and-o
+ver-one-lakh-students/articleshow/6604215.cms). The Economic Times. Archived (https://we
+b.archive.org/web/20240517090507/https://economictimes.indiatimes.com/jobs/ameerpet-h
+ouses-hundreds-of-it-institutes-and-over-one-lakh-students/articleshow/6604215.cms) from
+the original on 17 May 2024. Retrieved 22 April 2024.
+
+73. "Telangana: Fake educational certificate racket busted, four arrested" (https://indianexpress.
+com/article/cities/hyderabad/telangana-fake-educational-certificate-racket-busted-4-arrested
+-8010651/). 5 July 2022. Archived (https://web.archive.org/web/20220723090417/https://indi
+anexpress.com/article/cities/hyderabad/telangana-fake-educational-certificate-racket-busted
+-4-arrested-8010651/) from the original on 23 July 2022. Retrieved 23 July 2022.
+
+74. "Bengaluru turning hub of fake degree rackets?" (https://www.newindianexpress.com/cities/
+bengaluru/2018/sep/28/bengaluru-turning-hub-of-fake-degree-rackets-1878200.html). 28
+September 2018. Archived (https://web.archive.org/web/20220723090416/https://www.newi
+ndianexpress.com/cities/bengaluru/2018/sep/28/bengaluru-turning-hub-of-fake-degree-rack
+ets-1878200.html) from the original on 23 July 2022. Retrieved 23 July 2022.
+
+75. "Bangalore cops bust fake work experience certificate racket, 200 may lose jobs" (https://ww
+w.indiatoday.in/india/story/bangalore-police-experience-certificate-scam-mncs-it-jimutesh-sh
+arma-250967-2015-05-01). May 2015. Archived (https://web.archive.org/web/202207230904
+09/https://www.indiatoday.in/india/story/bangalore-police-experience-certificate-scam-mncs-i
+t-jimutesh-sharma-250967-2015-05-01) from the original on 23 July 2022. Retrieved 23 July
+2022.
+
+76. "Hyderabad blues: IT firms complain as candidates con their way to jobs | Hyderabad News
+- Times of India" (https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-blues-it-firm
+s-complain-as-candidates-con-their-way-to-jobs/articleshow/93668605.cms). The Times of
+India. 20 August 2022. Archived (https://web.archive.org/web/20220821063859/https://times
+ofindia.indiatimes.com/city/hyderabad/hyderabad-blues-it-firms-complain-as-candidates-con
+-their-way-to-jobs/articleshow/93668605.cms) from the original on 21 August 2022.
+Retrieved 21 August 2022.
+
+
+
+77. "IT firms employing background verification companies to check candidate fraud: Report" (ht
+tps://www.deccanherald.com/business/it-firms-employing-background-verification-companie
+s-to-check-candidate-fraud-report-1186323.html). Deccan Herald. Archived (https://web.arch
+ive.org/web/20240607053146/https://www.deccanherald.com/business/it-firms-employing-b
+ackground-verification-companies-to-check-candidate-fraud-report-1186323.html) from the
+original on 7 June 2024. Retrieved 7 June 2024.
+
+78. Miramirkhani, Najmeh; Starov, Oleksii; Nikiforakis, Nick (27 February 2017). Dial One for
+Scam: A Large-Scale Analysis of Technical Support Scams. NDSS Symposium 2017. San
+Diego: Internet Society. pp. 1–15. arXiv:1607.06891 (https://arxiv.org/abs/1607.06891).
+doi:10.14722/ndss.2017.23163 (https://doi.org/10.14722%2Fndss.2017.23163).
+
+79. Poonam, Snigdha (2 January 2018). "The scammers gaming India's overcrowded job
+market" (https://www.theguardian.com/news/2018/jan/02/the-scammers-gaming-indias-over
+crowded-job-market). The Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261
+-3077). OCLC 60623878 (https://search.worldcat.org/oclc/60623878). Archived (https://web.
+archive.org/web/20200820050717/https://www.theguardian.com/news/2018/jan/02/the-scam
+mers-gaming-indias-overcrowded-job-market) from the original on 20 August 2020.
+Retrieved 5 January 2022.
+
+80. Vaidyanathan, Rajini (8 March 2020). "Confessions of a call-centre scammer" (https://www.b
+bc.co.uk/news/stories-51753362). BBC News. Archived (https://web.archive.org/web/20220
+105210639/https://www.bbc.co.uk/news/stories-51753362) from the original on 5 January
+2022. Retrieved 5 January 2022.
+
+81. Vidhi Doshi (8 February 2018). "More than 11,000 Americans targeted in India call center
+tax fraud" (https://www.washingtonpost.com/world/more-than-11000-americans-targeted-in-i
+ndia-call-center-tax-fraud/2018/02/08/95e5b2ac-0cc5-11e8-baf5-e629fc1cd21e_story.html).
+The Washington Post. New Delhi. ISSN 0190-8286 (https://search.worldcat.org/issn/0190-8
+286). OCLC 2269358 (https://search.worldcat.org/oclc/2269358). Archived (https://web.archi
+ve.org/web/20180208173307/https://www.washingtonpost.com/world/more-than-11000-ame
+ricans-targeted-in-india-call-center-tax-fraud/2018/02/08/95e5b2ac-0cc5-11e8-baf5-e629fc1
+cd21e_story.html) from the original on 8 February 2018. Retrieved 8 February 2018.
+
+82. Yudhijit Bhattacharjee (21 April 2021). "Who's Making All Those Scam Calls?" (https://www.n
+ytimes.com/2021/01/27/magazine/scam-call-centers.html). The New York Times.
+ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331). OCLC 1645522 (https://searc
+h.worldcat.org/oclc/1645522). Archived (https://web.archive.org/web/20210127100511/http
+s://www.nytimes.com/2021/01/27/magazine/scam-call-centers.html) from the original on 27
+January 2021. Retrieved 21 April 2021.
+
+83. Sameer Yasir; Hari Kumar (17 December 2020). "Indian Call-Center Plot Fooled Americans
+Into Paying Over $14 Million" (https://www.nytimes.com/2020/12/17/world/asia/india-call-cen
+ter-scam.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/036
+2-4331). OCLC 1645522 (https://search.worldcat.org/oclc/1645522). Archived (https://web.a
+rchive.org/web/20220113060139/https://www.nytimes.com/2020/12/17/world/asia/india-call-
+center-scam.html) from the original on 13 January 2022. Retrieved 17 December 2020.
+
+84. Shefali Anand (5 October 2016). "Indian Police Bust IRS 'Scam Center' " (https://www.wsj.co
+m/articles/indian-police-detain-workers-over-possible-irs-phone-scam-1475674691). The
+Wall Street Journal. ISSN 0099-9660 (https://search.worldcat.org/issn/0099-9660).
+OCLC 781541372 (https://search.worldcat.org/oclc/781541372). Archived (https://web.archi
+ve.org/web/20161005151343/http://www.wsj.com/articles/indian-police-detain-workers-over-
+possible-irs-phone-scam-1475674691) from the original on 5 October 2016. Retrieved
+5 October 2016.
+
+
+
+85. "FBI dials desi 'call centres' as Americans lost Rs 6,400 cr in 'tech support' fraud in '22" (http
+s://timesofindia.indiatimes.com/india/illegal-desi-call-centres-behind-10-billion-loss-to-americ
+ans-in-2022/articleshow/96501320.cms). The Times of India. 27 December 2022. Archived
+(https://web.archive.org/web/20230307104513/https://timesofindia.indiatimes.com/india/illeg
+al-desi-call-centres-behind-10-billion-loss-to-americans-in-2022/articleshow/96501320.cms)
+from the original on 7 March 2023. Retrieved 11 March 2023.
+
+86. " 'US citizens lost over $20 million in fraud calls, India's reputation lowered': CBI to Delhi
+court" (https://indianexpress.com/article/cities/delhi/us-citizens-million-fraud-calls-indias-cbi-
+delhi-court-8321490/). 13 December 2022. Archived (https://web.archive.org/web/20230327
+052338/https://indianexpress.com/article/cities/delhi/us-citizens-million-fraud-calls-indias-cbi
+-delhi-court-8321490/) from the original on 27 March 2023. Retrieved 11 March 2023.
+
+87. Pandey, Devesh K. (5 October 2022). " 'Operation Chakra': Call centres busted by CBI were
+operating since 2014-15" (https://www.thehindu.com/news/national/operation-chakra-call-ce
+ntres-busted-by-cbi-were-operating-since-2014-15/article65972948.ece). The Hindu.
+Archived (https://web.archive.org/web/20230327052338/https://www.thehindu.com/news/nat
+ional/operation-chakra-call-centres-busted-by-cbi-were-operating-since-2014-15/article6597
+2948.ece) from the original on 27 March 2023. Retrieved 11 March 2023 – via
+www.thehindu.com.
+
+88. Menon, Vandana (13 July 2022). "Kolkata is India's newest, biggest scam zone. Police,
+YouTubers, mice can't shut it down" (https://theprint.in/features/kolkata-is-indias-newest-bigg
+est-scam-zone-police-youtubers-mice-cant-shut-it-down/1035160/). ThePrint. Archived (http
+s://web.archive.org/web/20230327052353/https://theprint.in/features/kolkata-is-indias-newes
+t-biggest-scam-zone-police-youtubers-mice-cant-shut-it-down/1035160/) from the original on
+27 March 2023. Retrieved 11 March 2023.
+
+89. Natani, Sharad (12 March 2024). "How the FBI and Indian Law Enforcement Agencies Are
+Fighting the War With Digital Fraudsters" (https://www.the420.in/fbi-india-cybercrime-crackd
+own-success-fake-call-centre/). The420.in. Retrieved 7 June 2024.
+
+Sources
+Sharma, Dinesh C. (2015). The Outsourcer: The Story of India's IT Revolution (https://book
+s.google.com/books?id=e44jCgAAQBAJ). MIT Press. ISBN 978-0-262-02875-2.
+Dedrick, Jason; Kraemer, Kenneth L. (1993). "Information Technology in India: The Quest
+for Self-Reliance". Asian Survey. 33 (5). University of California Press: 463–492.
+doi:10.2307/2645313 (https://doi.org/10.2307%2F2645313). JSTOR 2645313 (https://www.j
+stor.org/stable/2645313).
+Subramanian, Ramesh (2006). "India and Information Technology: A Historical & Critical
+Perspective". Journal of Global Information Technology Management. 9 (4). Taylor &
+Francis: 28–46. doi:10.1080/1097198X.2006.10856431 (https://doi.org/10.1080%2F109719
+8X.2006.10856431).
+Gupta, S. D.; Raychaudhuri, A.; Haldar, S. K. (2015). "Determinants of Exports of
+Information Technology in India: An Empirical Analysis". South Asia Economic Journal. 16
+(1). SAGE Publications: 64–81. doi:10.1177/1391561415575128 (https://doi.org/10.1177%2
+F1391561415575128).
+Pal, Dipyaman; Chakraborty, Chandrima (2020). "Is There Any Relationship Between Output
+Growth and Export Growth in Indian Information Technology Industry After Liberalization?".
+In Sikdar, Soumyen; Das, Ramesh Chandra; Bhattacharyya, Rajib (eds.). Role of IT- ITES in
+Economic Development of Asia: Issues of Growth, Sustainability and Governance. Springer
+Singapore. pp. 27–35. doi:10.1007/978-981-15-4206-0_3 (https://doi.org/10.1007%2F978-9
+81-15-4206-0_3). ISBN 978-981-15-4206-0. S2CID 226709917 (https://api.semanticscholar.
+org/CorpusID:226709917).
+
+
+
+Krishnan, Rishikesha T.; Prabhu, Ganesh N. (2002). "Innovation in the Indian Information
+Technology Industry: A Study of the Software Product Development Process". Science,
+Technology and Society. 7 (1). SAGE Publications: 91–115.
+doi:10.1177/097172180200700105 (https://doi.org/10.1177%2F097172180200700105).
+
+External links
+Ministry of Electronics and Information Technology (MeitY), Government of India (https://ww
+w.meity.gov.in/)
+Software Technology Parks of India (STPI) (https://www.stpi.in/)
+NASSCOM (https://nasscom.in/) – National Association of Software and Service Companies
+IT and BPM Industry in India (https://www.ibef.org/industry/information-technology-india) –
+Overview by India Brand Equity Foundation (IBEF)
+Layoffs.fyi – Tech and Startup Layoff Tracker (https://layoffs.fyi/)
+TrueUp – Tech Layoffs Tracker (https://www.trueup.io/layoffs)
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Information_technology_in_India&oldid=1382352103"

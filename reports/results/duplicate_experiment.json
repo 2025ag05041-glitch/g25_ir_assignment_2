@@ -1,0 +1,46 @@
+{
+ "source_ids": [
+  "DOC024",
+  "DOC001",
+  "DOC052",
+  "DOC006",
+  "DOC058",
+  "DOC020",
+  "DOC012",
+  "DOC036",
+  "DOC049",
+  "DOC014"
+ ],
+ "detection": {
+  "injected_pairs": 30,
+  "detected_injected_pairs": 30,
+  "false_positive_pairs": 0,
+  "exact_pairs_flagged": 10,
+  "near_pairs_flagged": 20,
+  "min_jaccard_near_copy": 0.5020784089982884
+ },
+ "classification": {
+  "original_corpus": 0.8333333333333334,
+  "with_duplicates_naive_split": 0.8826923076923077,
+  "with_duplicates_group_split": 0.8282540950350594,
+  "avg_leaked_test_docs_naive_split": 7.9,
+  "splits": 20
+ },
+ "recommendation": {
+  "share_of_top5_slots_taken_by_copies_unfiltered": 0.4,
+  "share_of_top5_slots_taken_by_copies_filtered": 0.0,
+  "p_at_5_original": 0.7211267605633804,
+  "p_at_5_with_duplicates": 0.7956043956043956
+ },
+ "clustering": {
+  "purity_original": 0.6056338028169014,
+  "rand_index_original": 0.7565392354124748,
+  "purity_with_duplicates": 0.5494505494505495,
+  "rand_index_with_duplicates": 0.6981684981684981,
+  "purity_after_dedup": 0.6056338028169014,
+  "rand_index_after_dedup": 0.7782696177062374,
+  "copies_in_same_cluster_as_source": 19,
+  "copies_total": 20
+ },
+ "n_documents_augmented": 93
+}

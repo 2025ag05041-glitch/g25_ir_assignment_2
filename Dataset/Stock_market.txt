@@ -1,0 +1,1104 @@
+﻿Stock market
+
+A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also
+called as shares), which represent ownership claims on businesses; these may include securities listed on
+a public stock exchange as well as stock that is only traded privately, such as shares of private companies
+that are sold to investors through equity crowdfunding platforms. Investments are usually made with an
+investment strategy in mind.
+
+Size of the market
+The total market capitalization of all publicly traded stocks worldwide rose from US$2.5 trillion in 1980
+to US$111 trillion by the end of 2023.[1]
+
+As of 2016, there are 60 stock exchanges in the world. Of these, there are 16 exchanges with a market
+capitalization of $1 trillion or more, and they account for 87% of global market capitalization. Apart from
+the Australian Securities Exchange, these 16 exchanges are all in North America, Europe, or Asia.[2]
+
+By country, the largest stock markets as of January 2022 are in the United States of America (about
+59.9%), followed by Japan (about 6.2%) and United Kingdom (about 3.9%).[3]
+
+Stock exchange
+A stock exchange is an exchange (or bourse) where stockbrokers and traders can buy and sell shares
+(equity stock), bonds, and other securities. Many large companies have their stocks listed on a stock
+exchange. This makes the stock more liquid and thus more attractive to many investors. The exchange
+may also act as a guarantor of settlement. These and other stocks may also be traded "over the counter"
+(OTC), that is, through a dealer. Some large companies will have their stock listed on more than one
+exchange in different countries, so as to attract international investors.[4]
+
+Stock exchanges may also cover other types of securities, such as fixed-interest securities (bonds) or (less
+frequently) derivatives, which are more likely to be traded OTC.
+
+Trade in stock markets means the transfer (in exchange for money) of a stock or security from a seller to
+a buyer. This requires these two parties to agree on a price. Equities (Stocks or shares) confer an
+ownership interest in a particular company.
+
+Participants in the stock market range from small individual stock investors to larger investors, who can
+be based anywhere in the world, and may include banks, insurance companies, pension funds and hedge
+funds. Their buy or sell orders may be executed on their behalf by a stock exchange trader.
+
+
+
+Some exchanges are physical locations
+where transactions are carried out on a
+trading floor, by a method known as open
+outcry. This method is used in some stock
+exchanges and commodities exchanges,
+and involves traders shouting bid and
+offer prices. The other type of stock
+exchange has a network of computers Courtyard of the Amsterdam New York Stock Exchange
+
+where trades are made electronically. An Stock Exchange, circa 1670
+
+example of such an exchange is the
+NASDAQ.
+
+A potential buyer bids a specific price for
+a stock, and a potential seller asks a
+specific price for the same stock. Buying
+or selling at the Market means you will National Stock Exchange of India London Stock Exchange
+accept any ask price or bid price for the
+stock. When the bid and ask prices match,
+a sale takes place, on a first-come, first-
+served basis if there are multiple bidders
+at a given price.
+
+The purpose of a stock exchange is to
+facilitate the exchange of securities Offices of Bursa Malaysia, Interior hall of the Helsinki Stock
+between buyers and sellers, thus Malaysia's national stock Exchange in Helsinki, Finland,
+providing a marketplace. The exchanges exchange 1965
+provide real-time trading information on
+the listed securities, facilitating price discovery.
+
+The New York Stock Exchange (NYSE) is a physical exchange, with a hybrid market for placing orders
+electronically from any location as well as on the trading floor. Orders executed on the trading floor enter
+by way of exchange members and flow down to a floor broker, who submits the order electronically to
+the floor trading post for the Designated market maker ("DMM") for that stock to trade the order. The
+DMM's job is to maintain a two-sided market, making orders to buy and sell the security when there are
+no other buyers or sellers. If a bid–ask spread exists, no trade immediately takes place – in this case, the
+DMM may use their own resources (money or stock) to close the difference. Once a trade has been made,
+the details are reported on the "tape" and sent back to the brokerage firm, which then notifies the investor
+who placed the order. Computers play an important role, especially for program trading.
+
+The NASDAQ is an electronic exchange, where all of the trading is done over a computer network. The
+process is similar to the New York Stock Exchange. One or more NASDAQ market makers will always
+provide a bid and ask the price at which they will always purchase or sell 'their' stock.
+
+The Paris Bourse, now part of Euronext, is an order-driven, electronic stock exchange. It was automated
+in the late 1980s. Prior to the 1980s, it consisted of an open outcry exchange. Stockbrokers met on the
+trading floor of the Palais Brongniart. In 1986, the CATS trading system was introduced, and the order
+matching system was fully automated.
+
+
+
+People trading stock will prefer to trade on the most popular exchange since this gives the largest number
+of potential counter parties (buyers for a seller, sellers for a buyer) and probably the best price. However,
+there have always been alternatives such as brokers trying to bring parties together to trade outside the
+exchange. Some third markets that were popular are Instinet, and later Island and Archipelago (the latter
+two have since been acquired by Nasdaq and NYSE, respectively). One advantage is that this avoids the
+commissions of the exchange. However, it also has problems such as adverse selection.[5] Financial
+regulators have probed dark pools.[6][7]
+
+Market participant
+Market participants include individual retail investors, institutional investors (pension funds, insurance
+companies, mutual funds, index funds, exchange-traded funds, hedge funds, investor groups, banks and
+various other financial institutions), and also publicly traded corporations trading in their own shares.
+Robo-advisors, which automate investment for individuals, are also major participants.
+
+Stock market participation post-2020 pandemic
+In 2021, the value of world stock markets increased by 26.5%, reaching US$22.3 trillion. Asia and
+Oceania accounted for 45%, Europe had 37%, and America had 16%, while Africa had 2% of the global
+market.[8]
+
+Stock market participation factors
+Factors such as high trading prices, market ratings, information about stock exchange dynamics, and
+financial institutions can influence individual and corporate participation in stock markets. Additionally,
+the appeal of stock ownership, driven by the potential for higher returns compared to other financial
+instruments, plays a crucial role in attracting individuals to invest in the stock market.
+
+Regional and country-specific factors can also impact stock market participation rates. For example, in
+the United States, stock market participation rates vary widely across states, with regional factors
+potentially influencing these disparities. It is noted that individual participation costs alone cannot explain
+such large differences in participation rates from state to state, indicating the presence of other regional
+factors at play.[9]
+
+Behavioral factors are recognized as significant influences on stock market participation, as evidenced by
+the low participation rates observed in the Ghanaian stock market.[10]
+
+Factors such as factor endowments, geography, political stability, liberal trade policies, foreign direct
+investment inflows, and domestic industrial capacity are also identified as important in determining
+participation.[11]
+
+
+
+Demographics of market participation in the United States
+
+Indirect versus direct investment
+Indirect investment involves owning shares indirectly, such as via a mutual fund or an exchange traded
+fund. Direct investment involves direct ownership of shares.[12]
+
+Direct ownership of stock by individuals rose slightly from 17.8% in 1992 to 17.9% in 2007, with the
+median value of these holdings rising from $14,778 to $17,000.[13][14] Indirect participation in the form
+of retirement accounts rose from 39.3% in 1992 to 52.6% in 2007, with the median value of these
+accounts more than doubling from $22,000 to $45,000 in that time.[13][14] Rydqvist, Spizman, and
+Strebulaev attribute the differential growth in direct and indirect holdings to differences in the way each
+are taxed in the United States. Investments in pension funds and 401ks, the two most common vehicles of
+indirect participation, are taxed only when funds are withdrawn from the accounts. Conversely, the
+money used to directly purchase stock is subject to taxation as are any dividends or capital gains they
+generate for the holder. In this way, the current tax code incentivizes individuals to invest indirectly.[15]
+
+Participation by income and wealth strata
+Rates of participation and the value of holdings differ
+significantly across strata of income. In the bottom quintile of
+income, 5.5% of households directly own stock and 10.7%
+hold stocks indirectly in the form of retirement accounts.[14]
+
+The top decile of income has a direct participation rate of
+47.5% and an indirect participation rate in the form of
+retirement accounts of 89.6%.[14] The median value of
+directly owned stock in the bottom quintile of income is In 2025, the wealthiest 1% of Americans
+$4,000 and is $78,600 in the top decile of income as of owned nearly 50% of the stock market.
+2007.[18] The median value of indirectly held stock in the The top 10% own 87.2%, and the bottom
+
+half owned 1.1%.[16][17]
+form of retirement accounts for the same two groups in the
+same year is $6,300 and $214,800 respectively.[18] Since the
+Great Recession of 2008 households in the bottom half of the income distribution have lessened their
+participation rate both directly and indirectly from 53.2% in 2007 to 48.8% in 2013, while over the same
+period households in the top decile of the income distribution slightly increased participation 91.7% to
+92.1%.[19] The mean value of direct and indirect holdings at the bottom half of the income distribution
+moved slightly downward from $53,800 in 2007 to $53,600 in 2013.[19] In the top decile, mean value of
+all holdings fell from $982,000 to $969,300 in the same time.[19] The mean value of all stock holdings
+across the entire income distribution is valued at $269,900 as of 2013.[19]
+
+Participation by race and gender
+The racial composition of stock market ownership shows households headed by whites are nearly four
+and six times as likely to directly own stocks than households headed by blacks and Hispanics
+respectively. As of 2011 the national rate of direct participation was 19.6%, for white households the
+participation rate was 24.5%, for black households it was 6.4% and for Hispanic households it was 4.3%.
+Indirect participation in the form of 401k ownership shows a similar pattern with a national participation
+rate of 42.1%, a rate of 46.4% for white households, 31.7% for black households, and 25.8% for Hispanic
+
+
+
+households. Households headed by married couples participated at rates above the national averages with
+25.6% participating directly and 53.4% participating indirectly through a retirement account. 14.7% of
+households headed by men participated in the market directly and 33.4% owned stock through a
+retirement account. 12.6% of female-headed households directly owned stock and 28.7% owned stock
+indirectly.[14]
+
+Determinants and possible explanations of stock market participation
+A 2003 paper by Annette Vissing-Jørgensen attempts to explain disproportionate rates of participation
+along wealth and income groups as a function of fixed costs associated with investing. Her research
+concludes that a fixed cost of $200 per year is sufficient to explain why nearly half of all U.S. households
+do not participate in the market.[20] Participation rates have been shown to strongly correlate with
+education levels, promoting the hypothesis that information and transaction costs of market participation
+are better absorbed by more educated households. Behavioral economists Harrison Hong, Jeffrey Kubik
+and Jeremy Stein suggest that sociability and participation rates of communities have a statistically
+significant impact on an individual's decision to participate in the market. Their research indicates that
+social individuals living in states with higher than average participation rates are 5% more likely to
+participate than individuals that do not share those characteristics.[21] This phenomenon also explained in
+cost terms. Knowledge of market functioning diffuses through communities and consequently lowers
+transaction costs associated with investing.
+
+History
+In 12th-century France, the courtiers de change were concerned with managing and regulating the debts
+of agricultural communities on behalf of the banks. Because these men also traded with debts, they could
+be called the first brokers. The Italian historian Lodovico Guicciardini described how, in late 13th-century
+Bruges, commodity traders gathered outdoors at a market square containing an inn owned by a family
+called Van der Beurze, and in 1409 they became the "Brugse Beurse", institutionalizing what had been,
+until then, an informal meeting.[22] The idea quickly spread around Flanders and neighboring countries
+and "Beurzen" soon opened in Ghent and Rotterdam. International traders, and specially the Italian
+bankers, present in Bruges since the early 13th-century, took back the word in their countries to define the
+place of a stock market exchange: first the Italians (borsa), but soon also the French (bourse), the
+Germans (börse), Russians (birža), Czechs (burza), Swedes (börs), Danes and Norwegians (børs). In most
+languages, the word coincides with that for money bag, dating back to the Latin "bursa", from which also
+derives the name of the Van der Beurse family.
+
+In the middle of the 13th century, Venetian bankers began to trade in government securities. In 1351 the
+Venetian government outlawed spreading rumors intended to lower the price of government funds.
+Bankers in Pisa, Verona, Genoa and Florence also began trading in government securities during the 14th
+century. This was only possible because these were independent city-states not ruled by a duke but a
+council of influential citizens. Italian companies were also the first to issue shares. Companies in England
+and the Low Countries followed in the 16th century. Around this time, a joint stock company—one whose
+stock is owned jointly by the shareholders—emerged and became important for the colonization of what
+Europeans called the "New World".[23]
+
+
+
+There are now stock markets in virtually every developed and most
+developing countries, with the world's largest markets being in the
+United States, United Kingdom, Japan, India, China, Canada, Germany,
+France, South Korea and the Netherlands.[24]
+
+Importance
+One of the oldest known
+stock certificates, issued by
+
+Even in the days before perestroika, socialism was the VOC chamber of
+never a monolith. Within the Communist countries, Enkhuizen, dated September
+
+the spectrum of socialism ranged from the quasi- 9, 1606
+
+market, quasi-syndicalist system of Yugoslavia to
+the centralized totalitarianism of neighboring
+Albania. One time I asked Professor von Mises, the
+great expert on the economics of socialism, at what
+point on this spectrum of statism would he
+designate a country as "socialist" or not. At that
+time, I wasn't sure that any definite criterion existed
+to make that sort of clear-cut judgment. And so I
+was pleasantly surprised at the clarity and
+decisiveness of Mises's answer. "A stock market,"
+he answered promptly. "A stock market is crucial to
+the existence of capitalism and private property. For Crowd gathering on Wall Street (New
+
+it means that there is a functioning market in the York City) after the 1929 crash, one of
+the worst stock market crashes in history
+
+exchange of private titles to the means of
+production. There can be no genuine private
+ownership of capital without a stock market: there
+can be no true socialism if such a market is allowed
+to exist."
+
+— Murray Rothbard, in "Making Economic Sense" (2006)[25]
+
+Function and purpose
+The stock market is one of the most important ways for companies to raise money, along with debt
+markets which are generally more imposing but do not trade publicly.[26] This allows businesses to be
+publicly traded, and raise additional financial capital for expansion by selling shares of ownership of the
+company in a public market. The liquidity that an exchange affords the investors enables their holders to
+quickly and easily sell securities. This is an attractive feature of investing in stocks, compared to other
+less liquid investments such as property and other immoveable assets.
+
+the stock market is one of the economic indicators of a country's economic strength and
+development.[27][28] Central banks tend to keep an eye on the control and behavior of the stock market
+and, in general, on the smooth operation of financial system functions. Economic stability is one of the
+
+
+
+central bank mandates.[29]
+
+Exchanges also act as the clearinghouse for each transaction, meaning that they collect and deliver the
+shares, and guarantee payment to the seller of a security. This eliminates the risk to an individual buyer or
+seller that the counterparty could default on the transaction.[30]
+
+The smooth functioning of all these activities facilitates economic growth in that lower costs and
+enterprise risks promote the production of goods and services as well as possibly employment. In this
+way the financial system is assumed to contribute to increased prosperity, although some controversy
+exists as to whether the optimal financial system is bank-based or market-based.[31]
+
+Events such as the 2008 financial crisis have prompted a heightened degree of scrutiny of the impact of
+the structure of stock markets[32][33] (called market microstructure), in particular to the stability of the
+financial system and the transmission of systemic risk.[34]
+
+Relation to the modern financial system
+A transformation is the move to electronic trading to replace human trading of listed securities.[33]
+
+Behavior of stock prices
+Changes in stock prices are mostly caused by external factors
+such as socioeconomic conditions, inflation, exchange rates.
+Intellectual capital does not affect a company stock's current
+earnings. Intellectual capital contributes to a stock's return
+growth.[35]
+
+The efficient-market hypothesis (EMH) is a hypothesis in
+financial economics that states that asset prices reflect all
+available information at the current time.
+
+The 'hard' efficient-market hypothesis does not explain the NASDAQ in Times Square, New York
+City
+
+cause of events such as the crash in 1987, when the Dow
+Jones Industrial Average plummeted 22.6 percent—the
+largest-ever one-day fall in the United States.[36]
+
+This event demonstrated that share prices can fall dramatically even though no generally agreed upon
+definite cause has been found: a thorough search failed to detect any 'reasonable' development that might
+have accounted for the crash. (Such events are predicted to occur strictly by randomness, although very
+rarely.) It seems also to be true more generally that many price movements (beyond those which are
+predicted to occur 'randomly') are not occasioned by new information; a study of the fifty largest one-day
+share price movements in the United States in the post-war period seems to confirm this.[36]
+
+A 'soft' EMH has emerged which does not require that prices remain at or near equilibrium, but only that
+market participants cannot systematically profit from any momentary 'market anomaly'. Moreover, while
+EMH predicts that all price movement (in the absence of change in fundamental information) is random
+(i.e. non-trending),[37] many studies have shown a marked tendency for the stock market to trend over
+time periods of weeks or longer. Various explanations for such large and apparently non-random price
+
+
+
+movements have been promulgated. For instance, some research has shown that changes in estimated
+risk, and the use of certain strategies, such as stop-loss limits and value at risk limits, theoretically could
+cause financial markets to overreact. But the best explanation seems to be that the distribution of stock
+market prices is non-Gaussian[38] (in which case EMH, in any of its current forms, would not be strictly
+applicable).[39][40]
+
+Other research has shown that psychological factors may result in exaggerated (statistically anomalous)
+stock price movements (contrary to EMH which assumes such behaviors 'cancel out'). Psychological
+research has demonstrated that people are predisposed to 'seeing' patterns, and often will perceive a
+pattern in what is, in fact, just noise, e.g. seeing familiar shapes in clouds or ink blots. In the present
+context, this means that a succession of good news items about a company may lead investors to
+overreact positively, driving the price up. A period of good returns also boosts the investors' self-
+confidence, reducing their (psychological) risk threshold.[41]
+
+Another phenomenon—also from psychology—that works against an objective assessment is group
+thinking. As social animals, it is not easy to stick to an opinion that differs markedly from that of a
+majority of the group. An example with which one may be familiar is the reluctance to enter a restaurant
+that is empty; people generally prefer to have their opinion validated by those of others in the group.
+
+In one paper the authors draw an analogy with gambling.[42] In normal times the market behaves like a
+game of roulette; the probabilities are known and largely independent of the investment decisions of the
+different players. In times of market stress, however, the game becomes more like poker (herding
+behavior takes over). The players now must give heavy weight to the psychology of other investors and
+how they are likely to react psychologically.[43]
+
+Stock markets play an essential role in growing industries that ultimately affect the economy through
+transferring available funds from units that have excess funds (savings) to those who are suffering from
+funds deficit (borrowings) (Padhi and Naik, 2012). In other words, capital markets facilitate funds
+movement between the above-mentioned units. This process leads to the enhancement of available
+financial resources which in turn affects the economic growth positively.
+
+Economic and financial theories argue that stock prices are affected by macroeconomic trends.
+Macroeconomic trends include such as changes in GDP, unemployment rates, national income, price
+indices, output, consumption, unemployment, inflation, saving, investment, energy, international trade,
+immigration, productivity, aging populations, innovations, international finance.[44] increasing corporate
+profit, increasing profit margins, higher concentration of business, lower company income, less vigorous
+activity, less progress, lower investment rates, lower productivity growth, less employee share of
+corporate revenues,[45] decreasing worker to beneficiary ratio (year 1960 5:1, year 2009 3:1, year 2030
+2.2:1),[46] and the increasing female to male ratio of college graduates.[47]
+
+Irrational behavior
+Sometimes, the market seems to react irrationally to economic or financial news, even if that news is
+likely to have no real effect on the fundamental value of securities itself.[48] However, this market
+behaviour may be more apparent than real, since often such news was anticipated, and a counter reaction
+may occur if the news is better (or worse) than expected. Therefore, the stock market may be swayed in
+either direction by press releases, rumors, euphoria and mass panic.
+
+
+
+Over the short term, stocks and other securities can be battered or bought by any number of fast market-
+changing events, making the stock market behavior difficult to predict. Emotions can drive prices up and
+down, people are generally not as rational as they think, and the reasons for buying and selling are
+generally accepted.
+
+Behaviorists argue that investors often behave irrationally when making investment decisions thereby
+incorrectly pricing securities, which causes market inefficiencies, which, in turn, are opportunities to
+make money.[49] However, the whole notion of EMH is that these non-rational reactions to information
+cancel out, leaving the prices of stocks rationally determined.
+
+Crashes
+A stock market crash is often defined as a
+sharp dip in share prices of stocks listed
+on the stock exchanges. In parallel with
+various economic factors, a reason for
+stock market crashes is also due to panic
+and investing public's loss of confidence.
+Often, stock market crashes end
+speculative economic bubbles.
+
+There have been famous stock market
+crashes that have ended in the loss of
+billions of dollars and wealth destruction Robert Shiller's plot of the S&P Composite Real Price Index,
+on a massive scale. An increasing number Earnings, Dividends, and Interest Rates, from Irrational
+of people are involved in the stock Exuberance, 2d ed.[50] In the preface to this edition, Shiller
+market, especially since the social warns, "The stock market has not come down to historical
+security and retirement plans are being levels: the price-earnings ratio as I define it in this book is still,
+
+increasingly privatized and linked to at this writing [2005], in the mid-20s, far higher than the
+
+stocks and bonds and other elements of historical average... People still place too much confidence in
+the markets and have too strong a belief that paying attention
+
+the market. There have been a number of to the gyrations in their investments will someday make them
+famous stock market crashes like the rich, and so they do not make conservative preparations for
+Wall Street Crash of 1929, the stock possible bad outcomes."
+market crash of 1973–4, Black Monday
+of 1987, the dot-com bubble of 2000, and
+the 2008 financial crisis.
+
+1929
+One of the most famous stock market crashes started October 24, 1929, on Black Thursday. The Dow
+Jones Industrial Average lost 50% during this stock market crash. It was the beginning of the Great
+Depression.
+
+1987
+Another famous crash took place on October 19, 1987 – Black Monday. The crash began in Hong Kong
+and quickly spread around the world.
+
+
+
+By the end of October, stock markets in
+Hong Kong had fallen 45.5%, Australia
+41.8%, Spain 31%, the United Kingdom
+26.4%, the United States 22.68%, and
+Canada 22.5%. Black Monday itself was
+the largest one-day percentage decline in
+stock market history – the Dow Jones fell
+by 22.6% in a day. The names "Black
+Monday" and "Black Tuesday" are also
+used for October 28–29, 1929, which
+followed Terrible Thursday—the starting
+day of the stock market crash in 1929.
+
+The crash in 1987 raised some puzzles –
+main news and events did not predict the
+catastrophe and visible reasons for the Price-Earnings ratios as a predictor of twenty-year returns
+collapse were not identified. This event based upon the plot by Robert Shiller (Figure 10.1).[50] The
+raised questions about many important horizontal axis shows the real price-earnings ratio of the S&P
+assumptions of modern economics, Composite Stock Price Index as computed in Irrational
+namely, the theory of rational human Exuberance (inflation adjusted price divided by the prior ten-
+
+conduct, the theory of market equilibrium year mean of inflation-adjusted earnings). The vertical axis
+shows the geometric average real annual return on investing in
+
+and the efficient-market hypothesis. For the S&P Composite Stock Price Index, reinvesting dividends,
+some time after the crash, trading in stock and selling twenty years later. Data from different twenty-year
+exchanges worldwide was halted, since periods is color-coded as shown in the key. Shiller states that
+the exchange computers did not perform this plot "confirms that long-term investors—investors who
+well owing to enormous quantity of commit their money to an investment for ten full years—did do
+trades being received at one time. This well when prices were low relative to earnings at the beginning
+
+halt in trading allowed the Federal of the ten years. Long-term investors would be well advised,
+individually, to lower their exposure to the stock market when it
+
+Reserve System and central banks of is high, as it has been recently, and get into the market when it
+other countries to take measures to is low."[50]
+
+control the spreading of a financial crisis.
+In the United States the SEC introduced
+several new measures of control into the stock market in an attempt to prevent a re-occurrence of the
+events of Black Monday.
+
+2007–2009
+This marked the beginning of the Great Recession. Starting in 2007 and lasting through 2009, financial
+markets experienced one of the sharpest declines in decades. It was more widespread than just the stock
+market as well. The housing market, lending market, and even global trade experienced unimaginable
+decline. Sub-prime lending led to the housing bubble bursting and was made famous by movies like The
+Big Short where those holding large mortgages were unwittingly falling prey to lenders. This saw banks
+and major financial institutions completely fail in many cases and took major government intervention to
+remedy during the period. From October 2007 to March 2009, the S&P 500 fell 57% and wouldn't
+recover to its 2007 levels until April 2013.
+
+
+
+2020
+The 2020 stock market crash was a major and sudden global stock market crash that began on February
+20, 2020, and ended on April 7. This market crash was due to the sudden outbreak of the global
+pandemic, COVID-19. The crash ended with a new deal that had a positive impact on the market.[51]
+
+Circuit breakers
+Since the early 1990s, many of the largest exchanges have adopted electronic 'matching engines' to bring
+together buyers and sellers, replacing the open outcry system. Electronic trading now accounts for the
+majority of trading in many developed countries. Computer systems were upgraded in the stock
+exchanges to handle larger trading volumes in a more accurate and controlled manner. The SEC modified
+the margin requirements in an attempt to lower the volatility of common stocks, stock options and the
+futures market. The New York Stock Exchange and the Chicago Mercantile Exchange introduced the
+concept of a circuit breaker. The circuit breaker halts trading if the Dow falls a prescribed number of
+points for a prescribed amount of time. In February 2012, the Investment Industry Regulatory
+Organization of Canada (IIROC) introduced single-stock circuit breakers.[52]
+
+New York Stock Exchange (NYSE) circuit breakers[53][54]
+
+% drop in
+S&P 500 Index Trading Halt
+
+7%
+Trading will halt for at least 15 minutes, only if drop occurs before 3:25 p.m
+
+13%
+
+20% Trading will stop for the day.
+
+Automated trading
+In 2014, more than 75 percent of the stock shares traded on United States exchanges (including the New
+York Stock Exchange and NASDAQ) originated from automated trading system orders.[55][56]
+
+Automated trading, or high-frequency trading, causes regulatory concerns as a contributor to market
+fragility.[57]
+
+Stock market index
+The movements of the prices in global, regional or local
+markets are captured in price indices called stock market
+indices, of which there are many, e.g. the S&P, the FTSE, the
+Euronext indices and the NIFTY & SENSEX of India. Such
+indices are usually market capitalization weighted, with the
+weights reflecting the contribution of the stock to the index.
+The constituents of the index are reviewed frequently to
+include/exclude stocks in order to reflect the changing
+business environment. US Stock Market Value by Sector
+
+
+
+Derivative instruments
+Financial innovation has brought many new financial instruments whose pay-offs or values depend on the
+prices of stocks. Some examples are exchange-traded funds (ETFs), stock index and stock options, equity
+swaps, single-stock futures, and stock index futures. These last two may be traded on futures exchanges
+(which are distinct from stock exchanges—their history traces back to commodity futures exchanges), or
+traded over-the-counter. As all of these products are only derived from stocks, they are sometimes
+considered to be traded in a (hypothetical) derivatives market, rather than the (hypothetical) stock market.
+
+Leveraged strategies
+Stock that a trader does not actually own may be traded using short selling; margin buying may be used
+to purchase stock with borrowed funds; or, derivatives may be used to control large blocks of stocks for a
+much smaller amount of money than would be required by outright purchase or sales.
+
+Short selling
+In short selling, the trader borrows stock (usually from his brokerage which holds its clients shares or its
+own shares on account to lend to short sellers) then sells it on the market, betting that the price will fall.
+The trader eventually buys back the stock, making money if the price fell in the meantime and losing
+money if it rose. Exiting a short position by buying back the stock is called "covering". This strategy may
+also be used by unscrupulous traders in illiquid or thinly traded markets to artificially lower the price of a
+stock. Hence most markets either prevent short selling or place restrictions on when and how a short sale
+can occur. The practice of naked shorting is illegal in most (but not all) stock markets.
+
+Margin buying
+In margin buying, the trader borrows money (at interest) to buy a stock and hopes for it to rise. Most
+industrialized countries have regulations that require that if the borrowing is based on collateral from
+other stocks the trader owns outright, it can be a maximum of a certain percentage of those other stocks'
+value. In the United States, the margin requirements have been 50% for many years (that is, if you want
+to make a $1000 investment, you need to put up $500, and there is often a maintenance margin below the
+$500).
+
+A margin call is made if the total value of the investor's account cannot support the loss of the trade.
+(Upon a decline in the value of the margined securities additional funds may be required to maintain the
+account's equity, and with or without notice the margined security or any others within the account may
+be sold by the brokerage to protect its loan position. The investor is responsible for any shortfall
+following such forced sales.)
+
+Regulation of margin requirements (by the Federal Reserve) was implemented after the Crash of 1929.
+Before that, speculators typically only needed to put up as little as 10 percent (or even less) of the total
+investment represented by the stocks purchased. Other rules may include the prohibition of freeriding:
+
+
+
+putting in an order to buy stocks without paying initially (there is normally a three-day grace period for
+delivery of the stock), but then selling them (before the three-days are up) and using part of the proceeds
+to make the original payment (assuming that the value of the stocks has not declined in the interim).
+
+Types of financial markets
+Financial markets can be divided into different subtypes:
+
+For the assets transferred
+Money market : It is traded with money or financial assets with short-term maturity and high
+liquidity, generally assets with a term of less than one year.
+Capital market : Financial assets with medium and long-term maturity are traded, which are
+basic for carrying out certain investment processes.
+
+Depending on its structure
+Organized market
+Non-organized markets denominated in English (Over The Counter or OTC).
+
+According to the negotiation phase of financial assets
+Primary market : Financial assets are created. In this market, assets are transmitted directly
+by their issuer.
+Secondary market : Only existing financial assets are exchanged, which were issued at a
+previous time. This market allows holders of financial assets to sell instruments that were
+already issued in the primary market (or that had already been transmitted in the secondary
+market) and that are in their possession, or to buy other financial assets.
+
+According to the geographical perspective
+National markets. The currency in which the financial assets are denominated and the
+residence of those involved is national.
+International markets. The markets situated outside a country's geographical area.
+
+According to the type of asset traded
+Traditional market. In which financial assets such as demand deposits, stocks or bonds are
+traded.
+Alternative market. In which alternative financial assets are traded such as portfolio
+investments, promissory notes, factoring, real estate (e.g. through fiduciary rights), in private
+equity funds, venture capital funds, hedge funds, investment projects (e.g. infrastructure,
+cinema, etc.) among many others.
+
+
+
+Other markets
+Commodity markets, which allow the trading of commodities.
+Derivatives markets, which provide instruments for managing financial risk.
+Forward markets, which provide standardized forward contracts to trade products at a future
+date.
+Insurance markets, which allows the redistribution of varied risks.
+Foreign exchange market, which allows the exchange of foreign currencies.
+
+Stock market and foreign exchange market
+While the stock market is the marketplace for buying and selling company stocks, the foreign exchange
+market, also known as forex or FX, is the global marketplace for the purchase and sale of national
+currencies. It serves several functions, including facilitating currency conversions, managing foreign
+exchange risk through futures and forwards, and providing a platform for speculative investors to earn a
+profit on FX trading. The market includes various types of products, such as the spot market, futures
+market, forward market, swap market, and options market. For example, the spot market involves the
+immediate buying and selling of currencies, while the forward market allows for the buying and selling of
+currencies at an agreed exchange rate, with the actual exchange taking place at a future delivery date. The
+foreign exchange market is needed for facilitating global trade, including investments, the exchange of
+goods and services, and financial transactions, and it is considered one of the largest markets in the global
+economy.[58][59]
+
+Electronic trading market
+The electronic trading market refers to the digital marketplace where financial instruments such as stocks,
+bonds, currencies, commodities, and derivatives are bought and sold through online platforms. This
+market operates via electronic trading platforms, also known as online trading platforms, which are
+software applications that enable the trading of financial products over a network, typically through a
+financial intermediary. Platforms, such as eToro, Plus500, Robinhood, and AvaTrade serve as a digital
+medium for trading financial instruments and make financial markets more accessible, allowing
+individual investors to participate in trading without the need for traditional brokers or substantial capital.
+They also provide features such as real-time market data, stock price analysis, research reports, and news
+updates, which support decision-making in trading activities.[60]
+
+These platforms often incorporate systems, such as the Martingale Trading System, used in forex trading.
+Additionally, online trading has evolved to include mobile trading apps, enabling transactions to be
+conducted remotely via smartphones.[61]
+
+Investment strategies
+Many strategies can be classified as either fundamental analysis or technical analysis. Fundamental
+analysis refers to analyzing companies by their financial statements found in SEC filings, business trends,
+and general economic conditions. Technical analysis studies price actions in markets through the use of
+charts and quantitative techniques to attempt to forecast price trends based on historical performance,
+
+
+
+regardless of the company's financial prospects. One example of a technical strategy is the Trend
+following method, used by John W. Henry and Ed Seykota, which uses price patterns and is also rooted in
+risk management and diversification.
+
+Additionally, many choose to invest via passive index funds. In this method, one holds a portfolio of the
+entire stock market or some segment of the stock market (such as the S&P 500 Index or Wilshire 5000).
+The principal aim of this strategy is to maximize diversification, minimize taxes from realizing gains, and
+ride the general trend of the stock market to rise.
+
+Responsible investment emphasizes and requires a long-term horizon on the basis of fundamental
+analysis only, avoiding hazards in the expected return of the investment. Socially responsible investing is
+another investment preference.
+
+Annual stock market growth
+The average annual growth rate of the stock market, as measured by the S&P 500 index, has historically
+been around 10%.[62] This figure represents the long-term average return and is often cited as a
+benchmark for assessing the performance of the stock market as a whole.
+
+The market's results from one year to the next may vary substantially from the long-term average. For
+instance, in 2012–2021, the S&P 500 index had an average annual return of 14.8%.[63] However,
+individual annual returns can fluctuate widely, with some years experiencing negative growth and others
+seeing substantial gains.
+
+While the average stock market return is around 10% per year, there is also the impact of inflation,
+resulting in investors' losing purchasing power of 2% to 3% every year due to it, which reduces the real
+rate of return on investments.[64]
+
+Taxation
+Taxation is a consideration of all investment strategies; profit from owning stocks, including dividends
+received, is subject to different tax rates depending on the type of security and the holding period. Most
+profit from stock investing is taxed via a capital gains tax. In many countries, the corporations pay taxes
+to the government and the shareholders once again pay taxes when they profit from owning the stock,
+known as "double taxation".
+
+Stock market scams
+The Indian stock exchanges, Bombay Stock Exchange and National Stock Exchange of India, have been
+rocked by several high-profile corruption scandals.[65][66] At times, the Securities and Exchange Board of
+India (SEBI) has barred various individuals and entities from trading on the exchanges for stock
+manipulation, especially in illiquid small-cap and penny stocks.[67][68][69]
+
+
+
+See also
+Asset allocation
+Diversification (finance)
+Equity crowdfunding
+List of stock exchange trading hours
+List of stock market crashes and bear markets
+List of stock exchanges
+List of stock market indices
+Modeling and analysis of financial markets
+Financial risk management
+Securities market participants (United States)
+Securities regulation in the United States
+Stock market crash
+Stock market crashes in India
+Stock market bubble
+Stock market cycles
+Stock market data systems
+Standard deviation
+Risk management
+
+References
+1. "FY 2023 Market Highlights" (https://www.world-exchanges.org/storage/app/media/FY%202
+
+023%20Market%20Highlights%20Report%20v3.pdf) (PDF). World Federation of
+Exchanges. 2023. Archived (https://data.worldbank.org/indicator/CM.MKT.LCAP.CD) from
+the original on September 17, 2024. Retrieved September 17, 2024.
+
+2. "All of the World's Stock Exchanges by Size" (http://money.visualcapitalist.com/all-of-the-wor
+lds-stock-exchanges-by-size/). February 16, 2016. Archived (https://web.archive.org/web/20
+160414012445/http://money.visualcapitalist.com/all-of-the-worlds-stock-exchanges-by-size/)
+from the original on April 14, 2016. Retrieved September 29, 2016.
+
+3. "countries with largest stock markets" (https://www.statista.com/statistics/710680/global-stoc
+k-markets-by-country/). statista. Archived (https://web.archive.org/web/20210608061951/htt
+ps://www.statista.com/statistics/710680/global-stock-markets-by-country/) from the original
+on June 8, 2021. Retrieved May 9, 2020.
+
+4. "IBM Investor relations - FAQ | On what stock exchanges is IBM listed ?" (http://www.ibm.co
+m/investor/faq/item/stock-exchanges.wss). IBM. Archived (https://web.archive.org/web/2012
+0417130326/http://www.ibm.com/investor/faq/item/stock-exchanges.wss) from the original
+on April 17, 2012. Retrieved June 19, 2014.
+
+5. "UBS, Goldman wean away trade from NYSE, Nasdaq" (https://economictimes.indiatimes.c
+om/ubs-goldman-wean-away-trade-from-nyse-nasdaq/articleshow/726712.cms). The
+Economic Times. December 6, 2006. Archived (https://web.archive.org/web/202004140618
+07/https://economictimes.indiatimes.com/ubs-goldman-wean-away-trade-from-nyse-nasdaq/
+articleshow/726712.cms) from the original on April 14, 2020. Retrieved December 8, 2019.
+
+
+
+6. Mamudi, Sam (June 13, 2014). "Dark Pools Take Larger Share of Trades Amid SEC
+Scrutiny" (https://www.bloomberg.com/news/articles/2014-06-12/off-exchange-stock-trading-
+reaches-two-year-high-in-u-s-). Bloomberg News. Archived (https://web.archive.org/web/202
+10414160234/https://www.bloomberg.com/news/articles/2014-06-12/off-exchange-stock-tra
+ding-reaches-two-year-high-in-u-s-) from the original on April 14, 2021. Retrieved
+February 1, 2019.
+
+7. "Financial regulators probe dark pools" (https://ghostarchive.org/archive/20221210/https://w
+ww.ft.com/content/50428000-220d-11e4-9d4a-00144feabdc0). Financial Times. September
+15, 2014. Archived from the original (https://www.ft.com/content/50428000-220d-11e4-9d4a-
+00144feabdc0) on December 10, 2022.
+
+8. "International Merchandise Trade Statistics: Concepts and Definitions 2010" (https://unstats.
+un.org/unsd/trade/eg-imts/IMTS%202010%20(English).pdf) (PDF). United Nations
+Publication. New York. 2011.
+
+9. "World Statistics Pocketbook" (https://unstats.un.org/unsd/publications/pocketbook/). UN
+Department of Economic and Social Affairs Statistics Division. 2024.
+
+10. "International Standard Industrial Classification Of All Economic Activities" (https://unstats.u
+n.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_3_English.pdf) (PDF).
+United Nations Statistical Papers (4) (3 ed.). New York: United Nations. 1990.
+
+11. Rydqvist, Kristian; Spizman, Joshua D.; Strebulaev, Ilya A. (2011). "Government Policy and
+Ownership of Financial Assets" (http://www.ssrn.com/abstract=1428442). SSRN Electronic
+Journal. doi:10.2139/ssrn.1428442 (https://doi.org/10.2139%2Fssrn.1428442). ISSN 1556-
+5068 (https://search.worldcat.org/issn/1556-5068).
+
+12. "What's the Difference Between Direct and Indirect Shares?" (https://investorjunkie.com/inve
+sting/direct-vs-indirect-shares/). InvestorJunkie. August 14, 2018. Archived (https://web.archi
+ve.org/web/20210414160248/https://investorjunkie.com/investing/direct-vs-indirect-shares/)
+from the original on April 14, 2021. Retrieved December 7, 2019.
+
+13. Statistical Abstract of the United States: 1995 (https://www.census.gov/library/publications/1
+995/compendia/statab/115ed.html) (Report). United States Census Bureau. September
+1995. p. 513. Archived (https://web.archive.org/web/20210416133352/https://www.census.g
+ov/library/publications/1995/compendia/statab/115ed.html) from the original on April 16,
+2021. Retrieved December 17, 2015.
+
+14. Statistical Abstract of the United States: 2012 (https://www.census.gov/library/publications/2
+011/compendia/statab/131ed.html?cssp=SERP) (Report). United States Census Bureau.
+August 2011. p. 730. Archived (https://web.archive.org/web/20210417122126/https://www.c
+ensus.gov/library/publications/2011/compendia/statab/131ed.html?cssp=SERP) from the
+original on April 17, 2021. Retrieved December 17, 2015.
+
+15. Rydqvist, Kristian; Spizman, Joshua; Strebulaev, Ilya A. (January 1, 2013). "Government
+Policy and Ownership of Financial Assets" (https://web.archive.org/web/20160121212119/htt
+p://www.nber.org/papers/w17522.pdf) (PDF). NBER Working Paper Series.
+doi:10.2139/ssrn.1428442 (https://doi.org/10.2139%2Fssrn.1428442). S2CID 154598793 (ht
+tps://api.semanticscholar.org/CorpusID:154598793). SSRN 1428442 (https://papers.ssrn.co
+m/sol3/papers.cfm?abstract_id=1428442). Archived from the original (http://www.nber.org/pa
+pers/w17522.pdf) (PDF) on January 21, 2016.
+
+16. Aratani, Lauren (December 7, 2025). "The K-shaped Christmas: wealthy few drive holiday
+spending splurge while many struggle to get by" (https://www.theguardian.com/business/202
+5/dec/07/stock-prices-fuel-christmas-us-economy). The Guardian. Archived (https://web.arc
+hive.org/web/20251208043249/https://www.theguardian.com/business/2025/dec/07/stock-pr
+ices-fuel-christmas-us-economy) from the original on December 8, 2025. "Source: Federal
+Reserve Bank of St Louis."
+
+17. "FRED graph / Corporate Equities and Mutual Fund Shares Held by ..." (https://fred.stlouisfe
+d.org/graph/?g=Y8rM) Federal Reserve Bank of St. Louis. December 2025. Archived (http
+s://web.archive.org/web/20251210054153/https://fred.stlouisfed.org/graph/?g=Y8rM) from
+the original on December 10, 2025. (click "Download")
+
+
+
+18. Changes in U.S. Family Finances from 2007 to 2010: Evidence from the Survey of
+Consumer Finances (https://www.federalreserve.gov/pubs/bulletin/2012/pdf/scf12.pdf)
+(PDF) (Report). Federal Reserve Board of Governors. June 2012. p. 24. Archived (https://w
+eb.archive.org/web/20151013164007/http://www.federalreserve.gov/pubs/bulletin/2012/pdf/s
+cf12.pdf) (PDF) from the original on October 13, 2015. Retrieved October 21, 2015.
+
+19. Changes in U.S. Family Finances from 2010 to 2013: Evidence from the Survey of
+Consumer Finances (https://www.federalreserve.gov/pubs/bulletin/2014/pdf/scf14.pdf)
+(PDF) (Report). Federal Reserve Board of Governors. September 2014. p. 20. Archived (htt
+ps://web.archive.org/web/20151102234959/http://www.federalreserve.gov/pubs/bulletin/201
+4/pdf/scf14.pdf) (PDF) from the original on November 2, 2015. Retrieved December 17,
+2015.
+
+20. Vissing-Jørgensen, Annette (2003). "Perspectives on Behavioral Finance: Does 'Irrationality'
+Disappear with Wealth? Evidence from Expectations and Actions" (https://web.archive.org/w
+eb/20220417132343/https://api.semanticscholar.org/CorpusID:224798356). NBER
+Macroeconomics Annual. 18: 139–194. doi:10.1086/ma.18.3585252 (https://doi.org/10.108
+6%2Fma.18.3585252). S2CID 224798356 (https://api.semanticscholar.org/CorpusID:22479
+8356). Archived from the original (https://api.semanticscholar.org/CorpusID:224798356) on
+April 17, 2022.
+
+21. Hong, Harrison (February 2004). "Social Interaction and Stock-Market Participation" (https://
+surface.syr.edu/cgi/viewcontent.cgi?article=1060&context=ecn). The Journal of Finance. 59:
+137–163. doi:10.1111/j.1540-6261.2004.00629.x (https://doi.org/10.1111%2Fj.1540-6261.20
+04.00629.x). Archived (https://web.archive.org/web/20200808005416/https://surface.syr.ed
+u/cgi/viewcontent.cgi?article=1060&context=ecn) from the original on August 8, 2020.
+Retrieved September 24, 2019.
+
+22. "16de eeuwse traditionele bak- en zandsteenarchitectuur Oude Beurs Antwerpen 1
+(centrum) / Antwerp foto" (http://www.belgiumview.com/belgiumview/tl1/view0002205.php4).
+Belgiumview.com. Archived (https://web.archive.org/web/20081006175133/http://www.belgiu
+mview.com/belgiumview/tl1/view0002205.php4) from the original on October 6, 2008.
+Retrieved September 30, 2008.
+
+23. [Ralph Dahrendorft, Class and Class Conflict in Industrial Society (Stanford, CA: Stanford
+University Press, 1959)]
+
+24. "World Federation of Exchanges Monthly YTD Data" (https://web.archive.org/web/20110611
+085933/http://www.world-exchanges.org/statistics/ytd-monthly). World-exchanges.org.
+Archived from the original (http://world-exchanges.org/statistics/ytd-monthly) on June 11,
+2011. Retrieved May 31, 2011.
+
+25. Rothbard, Murray: Making Economic Sense, 2nd edition. (Ludwig von Mises Institute, 2006,
+ISBN 9781610165907), p. 426
+
+26. "Equity market Size relative to bond markets and bank assets" (http://www.eurocapitalmarke
+ts.org/?q=node%2F176). eurocapitalmarkets.org. September 27, 2010. Archived (https://we
+b.archive.org/web/20150621161232/http://www.eurocapitalmarkets.org/?q=node%2F176)
+from the original on June 21, 2015. Retrieved August 14, 2015.
+
+27. Mahipal Singh, 2011, ISBN 9788182055193, April 2011
+28. Pearce, Douglas K (1983). "Stock prices and the economy" (https://web.archive.org/web/20
+
+240628114240/https://www.kansascityfed.org/documents/871/1983-Stock%20Prices%20an
+d%20the%20Economy.pdf) (PDF). Federal reserve bank of Kansas city economic review.
+Archived from the original (https://www.kansascityfed.org/documents/871/1983-Stock%20Pri
+ces%20and%20the%20Economy.pdf) (PDF) on June 28, 2024. Retrieved November 9,
+2025.
+
+29. Nier, Erlend Walter. "Financial Stability Frameworks and the Role of Central Banks: Lessons
+from the Crisis" (https://www.imf.org/external/pubs/ft/wp/2009/wp0970.pdf) (PDF).
+International Monetary Fund. Archived (https://web.archive.org/web/20160304074412/http
+s://www.imf.org/external/pubs/ft/wp/2009/wp0970.pdf) (PDF) from the original on March 4,
+2016. Retrieved November 17, 2015.
+
+
+
+30. "Clearinghouse Definition & Example | Investing Answers" (https://web.archive.org/web/201
+50917233924/http://www.investinganswers.com/financial-dictionary/investing/clearinghouse-
+2830). www.investinganswers.com. Archived from the original (http://www.investinganswers.
+com/financial-dictionary/investing/clearinghouse-2830) on September 17, 2015. Retrieved
+October 20, 2015.
+
+31. Levine, Ross (2002). "Bank-Based or Market-Based Financial Systems: Which Is Better?".
+Journal of Financial Intermediation. 11 (4): 398–428. doi:10.1006/jfin.2002.0341 (https://doi.
+org/10.1006%2Fjfin.2002.0341). S2CID 14130685 (https://api.semanticscholar.org/CorpusI
+D:14130685).
+
+32. "Regulatory Issues Raised by the Impact of Technological Changes on Market Integrity and
+Efficiency Consultation Report" (https://www.iosco.org/library/pubdocs/pdf/IOSCOPD354.pd
+f) (PDF). Archived (https://web.archive.org/web/20210422052441/https://www.iosco.org/libra
+ry/pubdocs/pdf/IOSCOPD354.pdf) (PDF) from the original on April 22, 2021. Retrieved
+June 16, 2021.
+
+33. "Future of computer trading" (https://www.gov.uk/government/collections/future-of-computer-
+trading). www.gov.uk. October 23, 2012. Archived (https://web.archive.org/web/2015091301
+0540/https://www.gov.uk/government/collections/future-of-computer-trading) from the
+original on September 13, 2015. Retrieved August 14, 2015.
+
+34. Alexander, K.; Dhumale, R.; Eatwell, J. (2006). Global Governance of Financial Systems:
+The International Regulation of Systemic Risk (https://archive.org/details/globalgovernance0
+000alex). Oxford University Press. ISBN 978-0-19-516698-9.
+
+35. copied from Wikipedia article Intellectual capital (https://citeseerx.ist.psu.edu/viewdoc/downl
+oad?doi=10.1.1.652.9595&rep=rep1&type=pdf) Archived (https://web.archive.org/web/2021
+0414035254/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.652.9595&rep=rep1
+&type=pdf) April 14, 2021, at the Wayback Machine The Impact of Intellectual Capital on a
+Firm's Stock Return | Evidence from Indonesia | Ari Barkah Djamil, Dominique
+Razafindrambinina, Caroline Tandeans | Journal of Business Studies Quarterly 2013,
+Volume 5, Number 2
+
+36. Cutler, D.; Poterba, J.; Summers, L. (1991). "Speculative dynamics". Review of Economic
+Studies. 58 (3): 520–546. doi:10.2307/2298010 (https://doi.org/10.2307%2F2298010).
+hdl:1721.1/64204 (https://hdl.handle.net/1721.1%2F64204). JSTOR 2298010 (https://www.j
+stor.org/stable/2298010). S2CID 219396672 (https://api.semanticscholar.org/CorpusID:2193
+96672).
+
+37. Alexander, Kern; Dhumale, Rahul; Eatwell, John (2005). Global governance of financial
+systems: the international regulation of systemic risk. Finance and the economy. Oxford:
+Oxford university press. ISBN 978-0-19-516698-9.
+
+38. "OpenStax CNX" (http://cnx.org/contents/9UMcK-Dv@2/Non-Gaussian-Observations).
+cnx.org. Rice University. Archived (https://web.archive.org/web/20170222193955/http://cnx.o
+rg/contents/9UMcK-Dv@2/Non-Gaussian-Observations) from the original on February 22,
+2017. Retrieved February 22, 2017.
+
+39. Mandelbrot, Benoit & Hudson, Richard L. (2006). The Misbehavior of Markets: A Fractal
+View of Financial Turbulence (annot. ed.). Basic Books. ISBN 978-0-465-04357-6.
+
+40. Taleb, Nassim Nicholas (2008). Fooled by Randomness: The Hidden Role of Chance in Life
+and in the Markets (https://archive.org/details/fooledbyrandomne00tale) (2nd ed.). Random
+House. ISBN 978-1-4000-6793-0.
+
+41. Tversky, A. & Kahneman, D. (1974). "Judgement under uncertainty: heuristics and biases".
+Science. 185 (4157): 1124–1131. Bibcode:1974Sci...185.1124T (https://ui.adsabs.harvard.e
+du/abs/1974Sci...185.1124T). doi:10.1126/science.185.4157.1124 (https://doi.org/10.1126%
+2Fscience.185.4157.1124). PMID 17835457 (https://pubmed.ncbi.nlm.nih.gov/17835457).
+S2CID 143452957 (https://api.semanticscholar.org/CorpusID:143452957).
+
+
+
+42. Morris, Stephen; Shin, Hyun Song (1999). "Risk management with interdependent choice"
+(http://www.princeton.edu/~smorris/Published/paper_21_Risk_Management.pdf) (PDF).
+Oxford Review of Economic Policy. 15 (3): 52–62. doi:10.1093/oxrep/15.3.52 (https://doi.or
+g/10.1093%2Foxrep%2F15.3.52). Archived (https://web.archive.org/web/20170815170026/h
+ttp://www.princeton.edu/~smorris/Published/paper_21_Risk_Management.pdf) (PDF) from
+the original on August 15, 2017. Retrieved November 1, 2017.
+
+43. Sklansky, David (1999). The Theory of Poker. Two Plus Two Publishing LLC. ISBN 978-1-
+880685-00-6.
+
+44. copied content from Business Cycle; see that page's history for attribution
+45. Syverson, Chad (2019). "Macroeconomics and Market Power: Context, Implications, and
+
+Open Questions" (https://doi.org/10.1257%2Fjep.33.3.23). Journal of Economic
+Perspectives. 33 (3): 23–43. doi:10.1257/jep.33.3.23 (https://doi.org/10.1257%2Fjep.33.3.2
+3). S2CID 201326865 (https://api.semanticscholar.org/CorpusID:201326865).
+
+46. copied content from Social Security (United States)#Public economics; see that page's
+history for attribution
+
+47. "Americans with a college degree 1940-2018, by gender" (https://www.statista.com/statistic
+s/184272/educational-attainment-of-college-diploma-or-higher-by-gender/#:~:text=Percenta
+ge%20of%20the%20U.S.%20population,degree%2C%20by%20gender%201940%2D2019
+&text=In%20an%20impressive%20increase%20from,percent%20of%20women%20in%201
+940). Archived (https://web.archive.org/web/20191025220850/https://www.statista.com/stati
+stics/184272/educational-attainment-of-college-diploma-or-higher-by-gender/#:~:text=Perce
+ntage%20of%20the%20U.S.%20population,degree%2C%20by%20gender%201940%2D20
+19&text=In%20an%20impressive%20increase%20from,percent%20of%20women%20in%2
+01940) from the original on October 25, 2019. Retrieved October 9, 2020.
+
+48. David Fabian (February 9, 2014). "Why The Market Doesn't Care Where You Think It
+Should Go" (https://seekingalpha.com/article/2006211-why-the-market-doesnt-care-where-y
+ou-think-it-should-go). Seeking Alpha. Archived (https://web.archive.org/web/201511241311
+48/http://seekingalpha.com/article/2006211-why-the-market-doesnt-care-where-you-think-it-
+should-go) from the original on November 24, 2015. Retrieved August 14, 2015.
+
+49. Sergey Perminov, Trendocracy and Stock Market Manipulations (2008, ISBN 978-1-4357-
+5244-3).
+
+50. Shiller, Robert (2005). Irrational Exuberance (2nd ed.). Princeton University Press.
+ISBN 978-0-691-12335-6.
+
+51. Y.H. Saif-Alyousfi, Abdulazeez (February 7, 2022). "The impact of COVID-19 and the
+stringency of government policy responses on stock market returns worldwide" (https://www.
+emerald.com/insight/content/doi/10.1108/JCEFTS-07-2021-0030/full/html). Journal of
+Chinese Economic and Foreign Trade Studies. 15 (1): 87–105. doi:10.1108/JCEFTS-07-
+2021-0030 (https://doi.org/10.1108%2FJCEFTS-07-2021-0030). ISSN 1754-4408 (https://se
+arch.worldcat.org/issn/1754-4408). Archived (https://web.archive.org/web/20220401151549/
+https://www.emerald.com/insight/content/doi/10.1108/JCEFTS-07-2021-0030/full/html) from
+the original on April 1, 2022. Retrieved April 1, 2022.
+
+52. Completing the Circuit: Canadian Regulation (http://fixglobal.com/home/completing-the-circu
+it-canadian-regulation/) Archived (https://web.archive.org/web/20151124121514/http://fixglob
+al.com/home/completing-the-circuit-canadian-regulation/) November 24, 2015, at the
+Wayback Machine, FIXGlobal, February 2012
+
+53. "Trading Information" (https://www.nyse.com/markets/nyse/trading-info). New York Stock
+Exchange. Archived (https://web.archive.org/web/20191207210758/https://www.nyse.com/m
+arkets/nyse/trading-info) from the original on December 7, 2019. Retrieved December 7,
+2019.
+
+
+
+54. "Market volatility regulations" (https://personal.vanguard.com/us/content/Funds/FundsTools
+CircuitBreakersJSP.jsp). The Vanguard Group. Archived (https://web.archive.org/web/20191
+207210733/https://personal.vanguard.com/us/content/Funds/FundsToolsCircuitBreakersJS
+P.jsp) from the original on December 7, 2019. Retrieved December 7, 2019.
+
+55. "Why Human Signal Providers Still Matter in Automated Trading" (https://telegramtrading.ne
+t/why-human-signal-providers-still-matter-in-algo-trading/). Retrieved April 18, 2026.
+
+56. "A day in the quiet life of a NYSE floor trader" (http://fortune.com/2013/05/29/a-day-in-the-qu
+iet-life-of-a-nyse-floor-trader/). May 29, 2013.
+
+57. Giovanni Cespa, Xavier Vives (February 2017). "High frequency trading and fragility" (http
+s://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp2020.en.pdf) (PDF). Working Papers Series
+(2020). European Central Bank. "This supports regulatory concerns about the potential
+drawbacks of automated trading due to operational and transmission risks and implies that
+fragility can arise in the absence of order flow toxicity."
+
+58. Ickes, Barry W. (2006). "The Foreign Exchange Market" (https://ickesbarry.github.io/forex.pd
+f) (PDF). Archived (https://web.archive.org/web/20241216213813/https://ickesbarry.github.i
+o/forex.pdf) (PDF) from the original on December 16, 2024.
+
+59. Murti, Wahyu (November 27, 2018). "The Impact of the Global Stock Market and the Foreign
+Exchange Market on Domestic Financial Market" (https://ersj.eu/journal/877). European
+Research Studies Journal. XX (4B): 99–111. doi:10.35808/ersj/877 (https://doi.org/10.3580
+8%2Fersj%2F877). ISSN 1108-2976 (https://search.worldcat.org/issn/1108-2976).
+
+60. Maghyereh, Akhtam (August 1, 2005). "Electronic Trading and Market Efficiency in an
+Emerging Market: The Case of the Jordanian Capital Market" (https://www.tandfonline.com/
+doi/abs/10.1080/1540496X.2005.11052615). Emerging Markets Finance and Trade. 41 (4):
+5–19. doi:10.1080/1540496x.2005.11052615 (https://doi.org/10.1080%2F1540496x.2005.11
+052615). ISSN 1540-496X (https://search.worldcat.org/issn/1540-496X).
+
+61. Wu, Haibo; Wu, Chongfeng (June 1, 2024). "Mobile device use and the ranking effect on
+trading behavior: Evidence from natural experiments" (https://linkinghub.elsevier.com/retriev
+e/pii/S0927538X24000684). Pacific-Basin Finance Journal. 85 102317.
+doi:10.1016/j.pacfin.2024.102317 (https://doi.org/10.1016%2Fj.pacfin.2024.102317).
+ISSN 0927-538X (https://search.worldcat.org/issn/0927-538X).
+
+62. Sullivan, Bob (August 17, 2022). "Average Stock Market Return" (https://www.forbes.com/ad
+visor/investing/average-stock-market-return/). Forbes Advisor. Retrieved December 2, 2024.
+
+63. Jennewine, Trevor (January 21, 2024). "Here's the Average Stock Market Return Over the
+Last 10 Years" (https://www.nasdaq.com/articles/heres-the-average-stock-market-return-ove
+r-the-last-10-years).
+
+64. Mapparenta, Mapparenta; Nasir, Munawir (July 1, 2019). "Do Inflation, Kurs, and Interest
+Rates Can Affect on Public Savings?" (https://www.atlantis-press.com/proceedings/iclick-18/
+125913349). Proceedings of the 1st International Conference on Life, Innovation, Change
+and Knowledge (ICLICK 2018). Advances in Social Science, Education and Humanities
+Research. Atlantis Press. pp. 435–438. doi:10.2991/iclick-18.2019.92 (https://doi.org/10.299
+1%2Ficlick-18.2019.92). ISBN 978-94-6252-762-1.
+
+65. Acharya, Nupur; Pandya, Dhwani (March 21, 2022). "How India's trading queen and
+mystery guru engulfed NSE in scandal" (https://economictimes.indiatimes.com/markets/stoc
+ks/news/how-indias-trading-queen-and-mystery-guru-engulfed-nse-in-scandal/articleshow/9
+0343226.cms?from=mdr). The Economic Times. Archived (https://web.archive.org/web/2022
+0321060106/https://economictimes.indiatimes.com/markets/stocks/news/how-indias-trading-
+queen-and-mystery-guru-engulfed-nse-in-scandal/articleshow/90343226.cms?from=mdr)
+from the original on March 21, 2022.
+
+
+
+66. Rangan, MC Govardhana (May 3, 2019). "The fall of NSE: Corruption or hubris?" (https://ec
+onomictimes.indiatimes.com/markets/stocks/news/the-fall-of-nse-corruption-or-hubris/article
+show/69154289.cms). The Economic Times. Archived (https://web.archive.org/web/2019050
+3062301/https://economictimes.indiatimes.com/markets/stocks/news/the-fall-of-nse-corrupti
+on-or-hubris/articleshow/69154289.cms) from the original on May 3, 2019.
+
+67. Sreedhar, Vidya (June 21, 2023). "Rs 144 crore wrongful profit! Sebi finds stock
+manipulation in 5 smallcaps" (https://economictimes.indiatimes.com/markets/stocks/news/se
+bi-bars-135-entities-from-market-on-alleged-share-manipulation-in-5-smallcaps/articleshow/
+101167757.cms). The Economic Times. Retrieved August 24, 2023.
+
+68. "Sebi ban pinches penny stocks" (https://www.business-standard.com/article/markets/sebi-b
+an-pinches-penny-stocks-105102601049_1.html). Business Standard. Retrieved August 24,
+2023.
+
+69. "SEBI Cracks Down on Misuse of Penny Stocks" (https://thewire.in/business/penny-stocks-b
+ogus-claims-sebi). The Wire. Retrieved August 24, 2023.
+
+Further reading
+Psychology of the stock market by George Charles Selden (https://gutenberg.org/ebooks/75
+570)
+Hamilton, W. P. (1922). The Stock Market Barometer (https://babel.hathitrust.org/cgi/pt?id=u
+c1.l0050235357). New York: Richard Russell Associates.
+Siegel, Jeremy J. (2008). "Stock Market" (http://www.econlib.org/library/Enc/StockMarket.ht
+ml). In David R. Henderson (ed.). Concise Encyclopedia of Economics (2nd ed.).
+Indianapolis: Library of Economics and Liberty. ISBN 978-0-86597-665-8. OCLC 237794267
+(https://search.worldcat.org/oclc/237794267). Archived (https://web.archive.org/web/201212
+13143120/http://www.econlib.org/library/Enc/StockMarket.html) from the original on
+December 13, 2012. Retrieved July 23, 2013.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Stock_market&oldid=1380471496"

@@ -1,0 +1,104 @@
+﻿Lemmatization
+Lemmatization (or less commonly lemmatisation) in linguistics is the process of grouping together the
+inflected forms of a word so they can be analysed as a single item, identified by the word's lemma, or
+dictionary form.[1]
+
+In computational linguistics, lemmatization is the algorithmic process of determining the lemma of a
+word based on its intended meaning. Unlike stemming, lemmatization depends on correctly identifying
+the intended part of speech and meaning of a word in a sentence, as well as within the larger context
+surrounding that sentence, such as neighbouring sentences or even an entire document. As a result,
+developing efficient lemmatization algorithms is an open area of research.[2][3][4]
+
+Description
+In many languages, words appear in several inflected forms. For example, in English, the verb 'to walk'
+may appear as 'walk', 'walked', 'walks' or 'walking'. The base form, 'walk', that one might look up in a
+dictionary, is called the lemma for the word. The association of the base form with a part of speech is
+often called a lexeme of the word.
+
+Lemmatization is closely related to stemming. The difference is that a stemmer operates on a single word
+without knowledge of the context, and therefore cannot discriminate between words which have different
+meanings depending on part of speech. However, stemmers are typically easier to implement and run
+faster. The reduced "accuracy" may not matter for some applications. In fact, when used within
+information retrieval systems, stemming improves query recall accuracy, or true positive rate, when
+compared to lemmatization. Nonetheless, stemming reduces precision, or the proportion of positively-
+labeled instances that are actually positive, for such systems.[5]
+
+For instance:
+
+1. The word "better" has "good" as its lemma. This link is missed by stemming, as it requires a
+dictionary look-up.
+
+2. The word "walk" is the base form for the word "walking", and hence this is matched in both
+stemming and lemmatization.
+
+3. The word "meeting" can be either the base form of a noun or a form of a verb ("to meet")
+depending on the context; e.g., "in our last meeting" or "We are meeting again tomorrow".
+Unlike stemming, lemmatization attempts to select the correct lemma depending on the
+context.
+
+Document indexing software like Lucene[6] can store the base stemmed format of the word without the
+knowledge of meaning, but only considering word formation grammar rules. The stemmed word itself
+might not be a valid word: 'lazy', as seen in the example below, is stemmed by many stemmers to 'lazi'.
+This is because the purpose of stemming is not to produce the appropriate lemma  – that is a more
+challenging task that requires knowledge of context. The main purpose of stemming is to map different
+
+
+
+forms of a word to a single form.[7] As a rule-based algorithm, dependent only upon the spelling of a
+word, it sacrifices accuracy to ensure that, for example, when 'laziness' is stemmed to 'lazi', it has the
+same stem as 'lazy'.
+
+Algorithms
+A trivial way to do lemmatization is by simple dictionary lookup. This works well for straightforward
+inflected forms, but a rule-based system will be needed for other cases, such as in languages with long
+compound words. Such rules can be either hand-crafted or learned automatically from an annotated
+corpus.
+
+Use in biomedicine
+Morphological analysis of published biomedical literature can yield useful results. Morphological
+processing of biomedical text can be more effective by a specialized lemmatization program for
+biomedicine, and may improve the accuracy of practical information extraction tasks.[8]
+
+See also
+Canonicalization – Process for converting data into a "standard", "normal", or canonical form
+
+References
+1. Collins English Dictionary, entry for "lemmatize"
+2. "WebBANC: Building Semantically-Rich Annotated Corpora from Web User Annotations of
+
+Minority Languages" (https://scholar.archive.org/work/wes6yl773jb7jb3w5jvdydiuei).
+3. Müller, Thomas; Cotterell, Ryan; Fraser, Alexander; Schütze, Hinrich (2015). Joint
+
+Lemmatization and Morphological Tagging with LEMMING (https://web.archive.org/web/201
+71031124215/http://www.cis.lmu.de/~muellets/pdf/emnlp_2015.pdf) (PDF). 2015
+Conference on Empirical Methods in Natural Language Processing. Lisbon: Association for
+Computational Linguistics. pp. 2268–2274. doi:10.18653/v1/D15-1272 (https://doi.org/10.18
+653%2Fv1%2FD15-1272). Archived from the original (http://www.cis.lmu.de/~muellets/pdf/e
+mnlp_2015.pdf) (PDF) on 2017-10-31. Retrieved 2016-10-31.
+
+4. Bergmanis, Toms; Goldwater, Sharon. "Context Sensitive Neural Lemmatization with
+Lematus" (https://web.archive.org/web/20191231033559/http://homepages.inf.ed.ac.uk/s10
+44253/papers/Context_Sensitive_Neural_Lemmatization_with_Lematus.pdf) (PDF).
+Archived from the original (http://homepages.inf.ed.ac.uk/s1044253/papers/Context_Sensiti
+ve_Neural_Lemmatization_with_Lematus.pdf) (PDF) on 2019-12-31. Retrieved 2018-06-09.
+
+5. Manning, Christopher D.; Raghavan, Prabhakar; Schütze, Hinrich. "Introduction to
+Information Retrieval" (https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemm
+atization-1.html). Cambridge University Press.
+
+6. "Lucene Snowball" (https://lucene.apache.org/core/). Apache project.
+7. Martin Porter. "Porter Stemmer" (https://tartarus.org/~martin/PorterStemmer/).
+8. Liu, H.; Christiansen, T.; Baumgartner, W. A.; Verspoor, K. (2012). "BioLemmatizer: A
+
+lemmatization tool for morphological processing of biomedical text" (https://www.ncbi.nlm.ni
+
+
+
+h.gov/pmc/articles/PMC3359276). Journal of Biomedical Semantics. 3: 3. doi:10.1186/2041-
+1480-3-3 (https://doi.org/10.1186%2F2041-1480-3-3). PMC 3359276 (https://www.ncbi.nlm.
+nih.gov/pmc/articles/PMC3359276). PMID 22464129 (https://pubmed.ncbi.nlm.nih.gov/2246
+4129).
+
+External links
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Lemmatization&oldid=1317890829"

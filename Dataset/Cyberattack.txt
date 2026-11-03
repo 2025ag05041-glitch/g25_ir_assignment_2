@@ -1,0 +1,673 @@
+﻿Cyberattack
+In computer science, a cyberattack (or cyber attack) is an attack targeted at computer systems. It occurs
+when there is an unauthorized action against computer infrastructure that compromises the
+confidentiality, integrity, or availability of its content.[1]
+
+The rising dependence on increasingly complex and interconnected computer systems in most domains of
+life is the main factor that causes vulnerability to cyberattacks, since virtually all computer systems have
+bugs that can be exploited by attackers. Although it is impossible or impractical to create a perfectly
+secure system, there are many defense mechanisms that can make a system more difficult to attack,
+making information security a field of rapidly increasing importance in the world today.
+
+Perpetrators of a cyberattack can be criminals, hacktivists, or states. They attempt to find weaknesses in a
+system, exploit them and create malware to carry out their goals, and deliver it to the targeted system.
+Once installed, the malware can have a variety of effects depending on its purpose. Detection of
+cyberattacks is often absent or delayed, especially when the malware attempts to spy on the system while
+remaining undiscovered. If it is discovered, the targeted organization may attempt to collect evidence
+about the attack, remove malware from its systems, and close the vulnerability that enabled the attack.
+
+Cyberattacks can cause a variety of harms to targeted individuals, organizations, and governments,
+including significant financial losses and identity theft. They are usually illegal both as a method of crime
+and warfare, although correctly attributing the attack is difficult and perpetrators are rarely prosecuted.
+
+Definitions
+It can also be named a hack, cybersecurity incident or information security incident.
+
+A cyberattack is any attempt by an individual or organization to use computers or digital systems to steal,
+alter, expose, disable, or destroy information, or to breach computer systems, networks, or
+infrastructures.[2] Definitions differ as to the type of compromise required – for example, requiring the
+system to produce unexpected responses or cause injury or property damage.[3] Some definitions exclude
+attacks carried out by non-state actors and others require the target to be a state.[4] Keeping a system
+secure relies on maintaining the CIA triad: confidentiality (no unauthorized access), integrity (no
+unauthorized modification), and availability.[5] Although availability is less important for some web-
+based services, it can be the most crucial aspect for industrial systems.[6]
+
+Prevalence
+In the first six months of 2017, two billion data records were stolen or impacted by cyber attacks, and
+ransomware payments reached US$2 billion, double that in 2016.[7] In 2020, with the increase of remote
+work as an effect of the COVID-19 global pandemic, cybersecurity statistics reveal a huge increase in
+
+
+
+hacked and breached data. The worldwide information security market is forecast to reach $170.4 billion
+in 2022.[8]
+
+Vulnerability
+Over time, computer systems make up an increasing
+portion of daily life and interactions. While the
+increasing complexity and connectedness of the
+systems increases the efficiency, power, and
+convenience of computer technology, it also renders
+the systems more vulnerable to attack and worsens the
+consequences of an attack, should one occur.[9]
+
+Despite developers' goal of delivering a product that
+works entirely as intended, virtually all software and Timeline of a software vulnerability that is
+
+discovered by attackers prior to a vendor (zero
+hardware contains bugs.[10] If a bug creates a security day)
+risk, it is called a vulnerability.[11][12][13] Patches are
+often released to fix identified vulnerabilities, but
+those that remain unknown (zero days) as well as those that have not been patched are still liable for
+exploitation.[14] The software vendor is not legally liable for the cost if a vulnerability is used in an
+attack, which creates an incentive to make cheaper but less secure software.[15] Vulnerabilities vary in
+their ability to be exploited by malicious actors. The most valuable allow the attacker to inject and run
+their own code (called malware), without the user being aware of it.[11] Without a vulnerability enabling
+access, the attacker cannot gain access to the system.[16]
+
+The Vulnerability Model (VM) identifies attack patterns, threats, and valuable assets, which can be
+physical or intangible. It addresses security concerns like confidentiality, integrity, availability, and
+accountability within business, application, or infrastructure contexts.[17]
+
+Types
+Botnets are networks of compromised devices that can be used to send spam or carry out[18] denial-of-
+service attacks—flooding a system with too many requests for the system to handle at once, causing it to
+become unusable.[19] Attackers may also use computers to mine cryptocurrencies, such as Bitcoin, for
+their own profit.[20]
+
+Ransomware is software used to encrypt or destroy data; attackers demand payment for the restoration of
+the targeted system. The advent of cryptocurrency enabling anonymous transactions has led to a dramatic
+increase in ransomware demands.[21]
+
+Defense process
+
+Prevention
+
+
+
+A system's architecture and design decisions play a major role in determining how safe it can be.[22] The
+traditional approach to improving security is the detection of systems vulnerable to attack and hardening
+these systems to make attacks more difficult, but it is only partially effective.[23] Formal risk assessment
+for compromise of highly complex and interconnected systems is impractical[24] and the related question
+of how much to spend on security is difficult to answer.[25] Because of the ever changing and uncertain
+nature of cyber-threats, risk assessment may produce scenarios that are costly or unaffordable to
+mitigate.[26] As of 2019, there are no commercially available, widely used active defense systems for
+protecting systems by intentionally increasing the complexity or variability of systems to make it harder
+to attack.[27] The cyber resilience approach, on the other hand, assumes that breaches will occur and
+focuses on protecting essential functionality even if parts are compromised, using approaches such as
+micro-segmentation, zero trust, and business continuity planning.[28]
+
+The majority of attacks can be prevented by ensuring all software is fully patched. Nevertheless, fully
+patched systems are still vulnerable to exploits using zero-day vulnerabilities.[29] The highest risk of
+attack occurs just after a vulnerability has been publicly disclosed or a patch is released, because attackers
+can create exploits faster than a patch can be developed and rolled out.[30] According to Lt. Gen. Paul
+Stanton, head of the US Army Cyber Defense Command, speaking in September 2026, “We have
+postponed and deferred the sustainment and maintenance of our [network] systems to our potential
+peril....”[31]
+
+Software solutions aim to prevent unauthorized access and detect the intrusion of malicious software.[32]
+
+Training users can avoid cyberattacks (for example, not to click on a suspicious link or email attachment),
+especially those that depend on user error.[5][33] However, too many rules can cause employees to
+disregard them, negating any security improvement.[34] Some insider attacks can also be prevented using
+rules and procedures.[33] Technical solutions can prevent many causes of human error that leave data
+vulnerable to attackers, such as encrypting all sensitive data, preventing employees from using insecure
+passwords, installing antivirus software to prevent malware, and implementing a robust patching system
+to ensure that all devices are kept up to date.[35]
+
+There is little evidence about the effectiveness and cost-effectiveness of different cyberattack prevention
+measures.[32] Although attention to security can reduce the risk of attack, achieving perfect security for a
+complex system is impossible, and many security measures have unacceptable cost or usability
+downsides.[36] For example, reducing the complexity and functionality of the system is effective at
+reducing the attack surface.[37] Disconnecting systems from the internet is one truly effective measure
+against attacks, but it is rarely feasible.[24] In some jurisdictions, there are legal requirements for
+protecting against attacks.[38]
+
+Detection
+Responding quickly to attacks is an effective way to limit the damage. The response is likely to require a
+wide variety of skills, from technical investigation to legal and public relations.[39] Because of the
+prevalence of cyberattacks, some companies plan their incident response before any attack is detected,
+and may designate a computer emergency response team to be prepared to handle incidents.[40][41]
+
+Many attacks are never detected. Of those that are, the average time to discovery is 197 days.[42] Some
+systems can detect and flag anomalies that may indicate an attack, using such technology as antivirus,
+firewall, or an intrusion detection system. Once suspicious activity is suspected, investigators look for
+
+
+
+indicators of attack and indicators of compromise.[43] Discovery is quicker and more likely if the attack
+targets information availability (for example with a denial-of-service attack) rather than integrity
+(modifying data) or confidentiality (copying data without changing it).[44] State actors are more likely to
+keep the attack secret. Sophisticated attacks using valuable exploits are more less likely to be detected or
+announced – as the perpetrator wants to protect the usefulness of the exploit.[44]
+
+Evidence collection is done immediately, prioritizing volatile evidence that is likely to be erased
+quickly.[45] Gathering data about the breach can facilitate later litigation or criminal prosecution,[46] but
+only if the data is gathered according to legal standards and the chain of custody is maintained.[47][45]
+
+Recovery
+Containing the affected system is often a high priority after an attack, and may be enacted by shutoff,
+isolation, use of a sandbox system to find out more about the adversary[45] patching the vulnerability, and
+rebuilding.[48] Once the exact way that the system was compromised is identified, there is typically only
+one or two technical vulnerabilities that need to be addressed in order to contain the breach and prevent it
+from reoccurring.[49] A penetration test can then verify that the fix is working as expected.[50] If malware
+is involved, the organization must investigate and close all infiltration and exfiltration vectors, as well as
+locate and remove all malware from its systems.[51] Containment can compromise investigation, and
+some tactics (such as shutting down servers) can violate the company's contractual obligations.[52] After
+the breach is fully contained, the company can then work on restoring all systems to operational.[53]
+
+Maintaining a backup and having tested incident response procedures are used to improve recovery.[28]
+
+Attribution
+Attributing a cyberattack is difficult, and of limited interest to companies that are targeted by
+cyberattacks. In contrast, secret services often have a compelling interest in finding out whether a state is
+behind the attack.[54] Unlike attacks carried out in person, determining the entity behind a cyberattack is
+difficult.[55] A further challenge in attribution of cyberattacks is the possibility of a false flag attack,
+where the actual perpetrator makes it appear that someone else caused the attack.[54] Every stage of the
+attack may leave artifacts, such as entries in log files, that can be used to help determine the attacker's
+goals and identity.[56] In the aftermath of an attack, investigators often begin by saving as many artifacts
+as they can find,[57] and then try to determine the attacker.[58] Law enforcement agencies may investigate
+cyber incidents[59] although the hackers responsible are rarely caught.[60]
+
+Attack process
+There are various taxonomies for attack phases, including ATT&CK by Mitre Corporation and Cyber kill
+chain by Lockheed Martin.[61]
+
+Reconnaissance
+Would-be attackers search for information about the system in order to target it. They may seek out
+publicly available information or carry out social engineering attacks to obtain more information about
+the target's systems.[61]
+
+
+
+Weaponization
+After finding a vulnerability, attackers build an exploit to gain access, and malware to carry out the
+attack.[62]
+
+Delivery
+once complete, the malware is delivered to the target.[62] Most data breaches and malware insertions are
+enabled by phishing, where the attacker sends a malicious communication, often an email, in an attempt
+to get the recipient to click on a link or attachment to deliver malware.[19] Drive-by-download does not
+require any clicks, only a visit to a malicious website.[19] Sometimes insiders are behind the attack and
+can use their credentials to bypass security.[63] Some attacks are delivered indirectly via associated
+companies that have a business relationship with the target. Others may be delivered by directly accessing
+hardware, particularly in the cases of bribery or blackmail.[62]
+
+Exploitation
+The attacker's software is executed on the targeted system, and often creates a backdoor to enable remote
+control by the attacker.[62]
+
+Waiting
+Many attackers will not launch an attack right away.[64] The attacker often seeks to persist after system
+interruption (such as crash or restart), evade detection, and escalate privileges,[65] and secure multiple
+channels of communication with its controllers.[64] Other common actions include responding to remote
+controls and collecting and copying data to a device controlled by the attacker (data exfiltration).[65] After
+the malware is installed, its activity varies greatly depending on the attacker's goals.[66] Many attackers
+try to eavesdrop on a system without affecting it. Although this type of malware can have unexpected side
+effects, it is often very difficult to detect.[67]
+
+Perpetrators and motivations
+The stereotype of a hacker is an individual working
+for one's self. However, many cyber threats are teams
+of well-resourced experts.[68] "Growing revenues for
+cyber criminals are leading to more and more attacks,
+increasing professionalism and highly specialized
+attackers. In addition, unlike other forms of crime,
+cybercrime can be carried out remotely, and cyber
+attacks often scale well."[69] Many cyberattacks are
+caused or enabled by insiders, often employees who Website defacement: Lapsus$ hackers replaced
+
+the content of a website
+bypass security procedures to get their job done more
+efficiently.[70] Attackers vary widely in their skill and
+sophistication and well as their determination to attack a particular target, as opposed to opportunistically
+
+
+
+picking one easy to attack.[70] The skill level of the attacker determined which types of attacks they are
+prepared to mount.[71] The most sophisticated attackers can persist undetected on a hardened system for
+an extended period of time.[70]
+
+Motivations and aims also differ. Depending whether the expected threat is passive espionage, data
+manipulation, or active hijacking, different mitigation methods may be needed.[67]
+
+Software vendors and governments are mainly interested in undisclosed vulnerabilities (zero-days),[72]
+
+while organized crime groups are more interested in ready-to-use exploit kits based on known
+vulnerabilities,[73][74] which are much cheaper.[75] The lack of transparency in the market causes
+problems, such as buyers being unable to guarantee that the zero-day vulnerability was not sold to
+another party.[76] Both buyers and sellers advertise on the dark web and use cryptocurrency for
+untraceable transactions.[77][78] Because of the difficulty in writing and maintaining software that can
+attack a wide variety of systems, criminals found they could make more money by renting out their
+exploits rather than using them directly.[79]
+
+Cybercrime as a service, where hackers sell prepacked software that can be used to cause a cyberattack, is
+increasingly popular as a lower risk and higher profit activity than traditional hacking.[78] A major form
+of this is to create a botnet of compromised devices and rent or sell it to another cybercriminal. Different
+botnets are equipped for different tasks such as DDOS attacks or password cracking.[80] It is also possible
+to buy the software used to create a botnet[81] and bots that load the purchaser's malware onto a botnet's
+devices.[82] DDOS as a service using botnets retained under the control of the seller is also common, and
+may be the first cybercrime as a service product, and can also be committed by SMS flooding on the
+cellular network.[83] Malware and ransomware as a service have made it possible for individuals without
+technical ability to carry out cyberattacks.[84]
+
+Consequences
+Targets of cyberattacks range from individuals to corporations
+and government entities.[9] Many cyberattacks are foiled or
+unsuccessful, but those that succeed can have devastating
+consequences.[24] Understanding the negative effects of
+cyberattacks helps organizations ensure that their prevention
+strategies are cost-effective.[32] One paper classifies the harm
+
+Top ten industries targeted by
+caused by cyberattacks in several domains:[85]
+
+cyberattacks in the United States in 2020
+
+Physical damage, including injury or death or
+destruction of property[86]
+
+Digital damage, such as the destruction of data or
+introduction of malware[86]
+
+Economic losses, such as those caused by
+disrupted operations, the cost of investigation, or
+regulatory fines.[86]
+
+Psychological harm, such as users being upset that Total annualized cyberattack cost by
+their data has been leaked[87] attack type, 2016–2017
+Reputational damage, loss of reputation caused by
+the attack[88]
+
+
+
+Negative externalities to society at large, such as consumers losing access to an important
+service because of the attack.[89]
+
+Targets
+
+Consumer data
+Thousands of data records are stolen from individuals every day.[9] According to a 2020 estimate, 55
+percent of data breaches were caused by organized crime, 10 percent by system administrators, 10 percent
+by end users such as customers or employees, and 10 percent by states or state-affiliated actors.[90]
+
+Opportunistic criminals may cause data breaches—often using malware or social engineering attacks, but
+they will typically move on if the security is above average.[91] More organized criminals have more
+resources and are more focused in their targeting of particular data.[92] Both of them sell the information
+they obtain for financial gain.[93] Another source of data breaches are politically motivated hackers, for
+example Anonymous, that target particular objectives.[94] State-sponsored hackers target either citizens of
+their country or foreign entities, for such purposes as political repression and espionage.[95]
+
+After a data breach, criminals make money by selling data, such as usernames, passwords, social media
+or customer loyalty account information, debit and credit card numbers,[93] and personal health
+information (see medical data breach).[96][97] This information may be used for a variety of purposes,
+such as spamming, obtaining products with a victim's loyalty or payment information, prescription drug
+fraud, insurance fraud,[98] and especially identity theft.[20] Consumer losses from a breach are usually a
+negative externality for the business.[99]
+
+Critical infrastructure
+Critical infrastructure is that considered most essential—such
+as healthcare, water supply, transport, and financial services
+—which has been increasingly governed by cyber-physical
+systems that depend on network access for their
+functionality.[100][101] For years, writers have warned of
+cataclysmic consequences of cyberattacks that have failed to
+materialize as of 2023.[102][103] These extreme scenarios
+could still occur, but many experts consider that it is unlikely
+that challenges in inflicting physical damage or spreading
+terror can be overcome.[102] Smaller-scale cyberattacks, Out-of-service gas pumps due to panic
+sometimes resulting in interruption of essential services, buying after the Colonial Pipeline
+regularly occur.[104] cyberattack in Oak Hill, Virginia
+
+Corporations and organizations
+There is little empirical evidence of economic harm (such as reputational damage) from breaches except
+the direct cost[105] for such matters as legal, technical, and public relations recovery efforts.[106] Studies
+that have attempted to correlate cyberattacks to short-term declines in stock prices have found
+contradictory results, with some finding modest losses, others finding no effect, and some researchers
+
+
+
+criticizing these studies on methodological grounds. The effect on stock price may vary depending on the
+type of attack.[107] Some experts have argued that the evidence suggests there is not enough direct costs
+or reputational damage from breaches to sufficiently incentivize their prevention.[108][109]
+
+Governments
+Government websites and services are among those affected
+by cyberattacks.[104] Some experts hypothesize that
+cyberattacks weaken societal trust or trust in the government,
+but as of 2023 this notion has only limited evidence.[102]
+
+Legality In 2022, government websites of Costa
+Rica were down because of a
+
+Most states agree that cyberattacks are regulated under the ransomware attack.
+
+laws governing the use of force in international law,[110] and
+therefore cyberattacks as a form of warfare are likely to violate the prohibition of aggression.[111]
+
+Therefore, they could be prosecuted as a crime of aggression.[112] There is also agreement that
+cyberattacks are governed by international humanitarian law,[110] and if they target civilian infrastructure,
+they could be prosecuted as a war crime, crime against humanity, or act of genocide.[112] International
+courts cannot enforce these laws without sound attribution of the attack, without which countermeasures
+by a state are not legal either.[113]
+
+In many countries, cyberattacks are prosecutable under various laws aimed at cybercrime.[114] Attribution
+of the attack beyond reasonable doubt to the accused is also a major challenge in criminal
+proceedings.[115] In 2021, United Nations member states began negotiating a draft cybercrime treaty.[116]
+
+Many jurisdictions have data breach notification laws that require organizations to notify people whose
+personal data has been compromised in a cyberattack.[117]
+
+See also
+Attack patterns
+Black hat (computer security) – Computer hacker with malicious intent
+Cyberattacks against infrastructure
+Cyberattacks by country
+Cybercrime – Type of crime based in computer networks
+Sabotage
+Trojan horse
+Security hacker – Term for computer intruders and computing experts
+
+References
+1. Li & Liu 2021, pp. 8176–8186.
+2. Asbaş & Tuzlukaya 2022, p. 303.
+
+
+
+3. Li & Liu 2021, p. 8179.
+4. Li & Liu 2021, pp. 8177–8179.
+5. Li & Liu 2021, p. 8183.
+6. Tjoa et al. 2024, p. 14.
+7. Fosco, Molly (30 October 2018). "Will Artificial Intelligence Save Us From the Next Cyber
+
+Attack?" (https://www.ozy.com/fast-forward/will-ai-save-us-from-the-next-cyber-attack/8842
+8). Fast Forward. OZY. Retrieved 30 October 2018.
+
+8. "Forecast Analysis: Information Security, Worldwide, 2Q18 Update" (https://web.archive.org/
+web/20220227051844/https://www.gartner.com/en/documents/3889055/forecast-analysis-inf
+ormation-security-worldwide-2q18-up). Gartner. Archived from the original (https://www.gart
+ner.com/en/documents/3889055/forecast-analysis-information-security-worldwide-2q18-up)
+on 27 February 2022. Retrieved 27 February 2022.
+
+9. Linkov & Kott 2019, p. 1.
+10. Ablon & Bogart 2017, p. 1.
+11. Ablon & Bogart 2017, p. 2.
+12. Daswani & Elbayadi 2021, p. 25.
+13. Seaman 2020, pp. 47–48.
+14. Daswani & Elbayadi 2021, pp. 26–27.
+15. Sloan & Warner 2019, pp. 104–105.
+16. Haber & Hibbert 2018, p. 10.
+17. Seid, Elias; Popov, Oliver; Blix, Fredrik (10 January 2024). "Security Attack Behavioural
+
+Pattern Analysis for Critical Service Providers" (https://doi.org/10.3390%2Fjcp4010004).
+Journal of Cybersecurity and Privacy. 4 (1): 55–75. doi:10.3390/jcp4010004 (https://doi.org/
+10.3390%2Fjcp4010004). ISSN 2624-800X (https://search.worldcat.org/issn/2624-800X).
+
+18. Al-Turjman & Salama 2020, p. 243.
+19. Al-Turjman & Salama 2020, p. 242.
+20. Al-Turjman & Salama 2020, p. 244.
+21. Hyslip 2020, p. 828.
+22. Tjoa et al. 2024, p. 65.
+23. Linkov & Kott 2019, pp. 2, 7.
+24. Linkov & Kott 2019, p. 2.
+25. Tjoa et al. 2024, p. 3.
+26. Linkov & Kott 2019, p. 7.
+27. Linkov & Kott 2019, pp. 19–20.
+28. Tjoa et al. 2024, p. 15.
+29. Ablon & Bogart 2017, p. 3.
+30. Libicki, Ablon & Webb 2015, pp. 49–50.
+31. Verma, Pranshu. AI has transformed the Pentagon’s aging networks into a national security
+
+risk (https://www.washingtonpost.com/technology/2026/09/17/ai-has-transformed-pentagons
+-aging-networks-into-national-security-risk/?linkNumber=9&utm_campaign=wp_post_most&
+utm_medium=email&utm_source=newsletter&utm_content=&utm_term=) Washington Post,
+September 17, 2026.
+
+32. Agrafiotis et al. 2018, p. 2.
+33. Linkov & Kott 2019, p. 20.
+
+
+
+34. Li, Ling; He, Wu; Xu, Li; Ash, Ivan; Anwar, Mohd; Yuan, Xiaohong (1 April 2019).
+"Investigating the impact of cybersecurity policy awareness on employees' cybersecurity
+behavior" (https://www.sciencedirect.com/science/article/pii/S0268401218302093).
+International Journal of Information Management. 45: 13–24.
+doi:10.1016/j.ijinfomgt.2018.10.017 (https://doi.org/10.1016%2Fj.ijinfomgt.2018.10.017).
+ISSN 0268-4012 (https://search.worldcat.org/issn/0268-4012).
+
+35. Daswani & Elbayadi 2021, pp. 31–32.
+36. Tjoa et al. 2024, p. 63.
+37. Tjoa et al. 2024, pp. 68, 70.
+38. Tjoa et al. 2024, pp. 4–5.
+39. Tjoa et al. 2024, p. 92.
+40. Bareja 2021, pp. 13, 16.
+41. Tjoa et al. 2024, pp. 91–93.
+42. Bareja 2021, pp. 13–14.
+43. Tjoa et al. 2024, p. 94.
+44. Oppenheimer 2024, p. 39.
+45. Tjoa et al. 2024, p. 95.
+46. Fowler 2016, pp. 81–82.
+47. Fowler 2016, p. 83.
+48. Fowler 2016, pp. 120–122.
+49. Fowler 2016, p. 115.
+50. Fowler 2016, p. 116.
+51. Fowler 2016, pp. 117–118.
+52. Fowler 2016, p. 124.
+53. Fowler 2016, p. 188.
+54. Skopik & Pahi 2020, p. 1.
+55. Li & Liu 2021, p. 8177.
+56. Skopik & Pahi 2020, pp. 1, 6.
+57. Skopik & Pahi 2020, p. 12.
+58. Skopik & Pahi 2020, p. 16.
+59. Fowler 2016, p. 44.
+60. Solove & Hartzog 2022, p. 58.
+61. Skopik & Pahi 2020, p. 4.
+62. Skopik & Pahi 2020, p. 5.
+63. Al-Turjman & Salama 2020, pp. 243–244.
+64. Tjoa et al. 2024, p. 3.
+65. Skopik & Pahi 2020, p. 6.
+66. Skopik & Pahi 2020, pp. 5–6.
+67. Tjoa et al. 2024, p. 17.
+68. Tjoa et al. 2024, p. 3.
+69. Tjoa et al. 2024, p. 9.
+70. Tjoa et al. 2024, p. 16.
+71. Tjoa et al. 2024, pp. 16–17.
+72. Libicki, Ablon & Webb 2015, pp. 44–45.
+73. Libicki, Ablon & Webb 2015, pp. 44, 46.
+74. Hyslip 2020, p. 831.
+
+
+
+75. Perlroth 2021, p. 42.
+76. Perlroth 2021, p. 58.
+77. Sood & Enbody 2014, p. 117.
+78. Hyslip 2020, p. 816.
+79. Hyslip 2020, pp. 831–832.
+80. Hyslip 2020, p. 818.
+81. Hyslip 2020, p. 820.
+82. Hyslip 2020, p. 821.
+83. Hyslip 2020, pp. 822–823.
+84. Hyslip 2020, p. 828-829.
+85. Agrafiotis et al. 2018, p. 7.
+86. Agrafiotis et al. 2018, p. 9.
+87. Agrafiotis et al. 2018, pp. 10, 12.
+88. Agrafiotis et al. 2018, p. 10.
+89. Agrafiotis et al. 2018, pp. 7, 10.
+90. Crawley 2021, p. 46.
+91. Morgan, S. (2025, August 19). Hackers target Workday in social engineering attack.
+
+Cybersecurity Dive. https://www.cybersecuritydive.com/news/hackers-target-workday-in-
+social-engineering-attack/758095/
+
+92. Fowler 2016, pp. 7–8.
+93. Fowler 2016, p. 13.
+94. Fowler 2016, pp. 9–10.
+95. Fowler 2016, pp. 10–11.
+96. Fowler 2016, p. 14.
+97. Ang, A. (2026, January 4). 126,000 affected by IT hack on patient portal Manage My Health.
+
+Healthcare IT News.https://www.healthcareitnews.com/news/anz/126000-affected-it-hack-
+patient-portal-manage-my-health
+
+98. Fowler 2016, pp. 13–14.
+99. Sloan & Warner 2019, p. 104.
+
+100. Lehto 2022, p. 36.
+101. Vähäkainu, Lehto & Kariluoto 2022, p. 285.
+102. Shandler & Gomez 2023, p. 359.
+103. Ewoh, Pius; Vartiainen, Tero (31 May 2024). "Vulnerability to Cyberattacks and
+
+Sociotechnical Solutions for Health Care Systems: Systematic Review" (https://www.ncbi.nl
+m.nih.gov/pmc/articles/PMC11179043). Journal of Medical Internet Research. 26 e46904.
+doi:10.2196/46904 (https://doi.org/10.2196%2F46904). ISSN 1438-8871 (https://search.worl
+dcat.org/issn/1438-8871). PMC 11179043 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11
+179043). PMID 38820579 (https://pubmed.ncbi.nlm.nih.gov/38820579).
+
+104. Lehto 2022, passim.
+105. Makridis 2021, p. 1.
+106. Fowler 2016, p. 21.
+107. Agrafiotis et al. 2018, p. 5.
+108. Makridis 2021, pp. 1, 7.
+109. Sloan & Warner 2019, p. 64.
+110. Aravindakshan 2021, p. 299.
+111. Lilienthal & Ahmad 2015, p. 399.
+
+
+
+112. Verbruggen, Yola (10 January 2024). "Cyberattacks as war crimes" (https://www.ibanet.org/
+Cyberattacks-as-war-crimes). International Bar Association. Retrieved 8 April 2024.
+
+113. Aravindakshan 2021, p. 298.
+114. "Key Issues: Offences against the confidentiality, integrity and availability of computer data
+
+and systems" (https://www.unodc.org/e4j/zh/cybercrime/module-2/key-issues/offences-again
+st-the-confidentiality--integrity-and-availability-of-computer-data-and-systems.html).
+Cybercrime Module 2. United Nations Office on Drugs and Crime. Retrieved 8 April 2024.
+
+115. Aravindakshan 2021, p. 296.
+116. Wilkinson, Isabella (2 August 2023). "What is the UN cybercrime treaty and why does it
+
+matter?" (https://www.chathamhouse.org/2023/08/what-un-cybercrime-treaty-and-why-does-
+it-matter). Chatham House. Retrieved 8 April 2024.
+
+117. Solove & Hartzog 2022, p. 10.
+
+Sources
+Ablon, Lillian; Bogart, Andy (2017). Zero Days, Thousands of Nights: The Life and Times of
+
+Zero-Day Vulnerabilities and Their Exploits (https://www.rand.org/content/dam/rand/pubs/res
+earch_reports/RR1700/RR1751/RAND_RR1751.pdf) (PDF). Rand Corporation. ISBN 978-
+0-8330-9761-3.
+
+Al-Turjman, Fadi; Salama, Ramiz (2020). "An Overview about the Cyberattacks in Grid and Like
+Systems". Smart Grid in IoT-Enabled Spaces. CRC Press. ISBN 978-1-003-05523-5.
+
+Agrafiotis, Ioannis; Nurse, Jason R C; Goldsmith, Michael; Creese, Sadie; Upton, David (2018).
+"A taxonomy of cyber-harms: Defining the impacts of cyber-attacks and understanding how
+they propagate" (https://doi.org/10.1093%2Fcybsec%2Ftyy006). Journal of Cybersecurity. 4
+(1). doi:10.1093/cybsec/tyy006 (https://doi.org/10.1093%2Fcybsec%2Ftyy006). ISSN 2057-
+2085 (https://search.worldcat.org/issn/2057-2085).
+
+Asbaş, C.; Tuzlukaya, Ş. (2022). "Cyberattack and Cyberwarfare Strategies for Businesses" (htt
+ps://www.emerald.com/insight/content/doi/10.1108/978-1-80262-773-220221027/full/html).
+Conflict Management in Digital Business: New Strategy and Approach. Emerald Group
+Publishing. pp. 303–328. doi:10.1108/978-1-80262-773-220221027 (https://doi.org/10.110
+8%2F978-1-80262-773-220221027). ISBN 978-1-80262-773-2.
+
+Aravindakshan, Sharngan (2021). "Cyberattacks: a look at evidentiary thresholds in
+International Law" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7429940). Indian Journal
+of International Law. 59 (1–4): 285–299. doi:10.1007/s40901-020-00113-0 (https://doi.org/1
+0.1007%2Fs40901-020-00113-0). PMC 7429940 (https://www.ncbi.nlm.nih.gov/pmc/articles/
+PMC7429940).
+
+Bareja, Dinesh O. (2021). "By Failing to Prepare, You Are Preparing to Fail". Security Incidents
+& Response Against Cyber Attacks. Springer International Publishing. pp. 13–29. ISBN 978-
+3-030-69174-5.
+
+Crawley, Kim (2021). 8 Steps to Better Security: A Simple Cyber Resilience Guide for Business.
+John Wiley & Sons. ISBN 978-1-119-81124-4.
+
+Daswani, Neil; Elbayadi, Moudy (2021). Big Breaches: Cybersecurity Lessons for Everyone.
+Apress. ISBN 978-1-4842-6654-0.
+
+Fowler, Kevvie (2016). Data Breach Preparation and Response: Breaches are Certain, Impact
+is Not. Elsevier Science. ISBN 978-0-12-803451-4.
+
+Haber, Morey J.; Hibbert, Brad (2018). Asset Attack Vectors: Building Effective Vulnerability
+Management Strategies to Protect Organizations. Apress. ISBN 978-1-4842-3627-7.
+
+Hyslip, Thomas S. (2020). "Cybercrime-as-a-Service Operations". The Palgrave Handbook of
+International Cybercrime and Cyberdeviance. Springer International Publishing. pp. 815–
+846. ISBN 978-3-319-78440-3.
+
+
+
+Lehto, Martti (2022). "Cyber-Attacks Against Critical Infrastructure". Cyber Security: Critical
+Infrastructure Protection. Springer International Publishing. pp. 3–42. ISBN 978-3-030-
+91293-2.
+
+Li, Yuchong; Liu, Qinghui (2021). "A comprehensive review study of cyber-attacks and cyber
+security; Emerging trends and recent developments" (https://doi.org/10.1016%2Fj.egyr.202
+1.08.126). Energy Reports. 7: 8176–8186. Bibcode:2021EnRep...7.8176L (https://ui.adsabs.
+harvard.edu/abs/2021EnRep...7.8176L). doi:10.1016/j.egyr.2021.08.126 (https://doi.org/10.1
+016%2Fj.egyr.2021.08.126).
+
+Libicki, Martin C.; Ablon, Lillian; Webb, Tim (2015). The Defender's Dilemma: Charting a Course
+Toward Cybersecurity (https://www.rand.org/content/dam/rand/pubs/research_reports/RR10
+00/RR1024/RAND_RR1024.pdf) (PDF). Rand Corporation. ISBN 978-0-8330-8911-3.
+
+Linkov, Igor; Kott, Alexander (2019). "Fundamental Concepts of Cyber Resilience: Introduction
+and Overview". Cyber Resilience of Systems and Networks. Springer International
+Publishing. pp. 1–25. ISBN 978-3-319-77492-3.
+
+Lilienthal, Gary; Ahmad, Nehaluddin (2015). "Cyber-attack as inevitable kinetic war". Computer
+Law & Security Review. 31 (3): 390–400. doi:10.1016/j.clsr.2015.03.002 (https://doi.org/10.1
+016%2Fj.clsr.2015.03.002).
+
+Makridis, Christos A (2021). "Do data breaches damage reputation? Evidence from 45
+companies between 2002 and 2018" (https://doi.org/10.1093%2Fcybsec%2Ftyab021).
+Journal of Cybersecurity. 7 (1) tyab021. doi:10.1093/cybsec/tyab021 (https://doi.org/10.109
+3%2Fcybsec%2Ftyab021).
+
+Oppenheimer, Harry (2024). "How the process of discovering cyberattacks biases our
+understanding of cybersecurity" (https://doi.org/10.1177%2F00223433231217687). Journal
+of Peace Research. 61 (1): 28–43. doi:10.1177/00223433231217687 (https://doi.org/10.117
+7%2F00223433231217687).
+
+Perlroth, Nicole (2021). This Is How They Tell Me the World Ends: Winner of the FT & McKinsey
+Business Book of the Year Award 2021. Bloomsbury Publishing. ISBN 978-1-5266-2983-8.
+
+Seaman, Jim (2020). PCI DSS: An Integrated Data Security Standard Guide. Apress. ISBN 978-
+1-4842-5808-8.
+
+Shandler, Ryan; Gomez, Miguel Alberto (2023). "The hidden threat of cyber-attacks –
+undermining public confidence in government". Journal of Information Technology & Politics.
+20 (4): 359–374. doi:10.1080/19331681.2022.2112796 (https://doi.org/10.1080%2F1933168
+1.2022.2112796). hdl:20.500.11850/566953 (https://hdl.handle.net/20.500.11850%2F56695
+3).
+
+Skopik, Florian; Pahi, Timea (2020). "Under false flag: using technical artifacts for cyber attack
+attribution" (https://doi.org/10.1186%2Fs42400-020-00048-4). Cybersecurity. 3 (1): 8.
+doi:10.1186/s42400-020-00048-4 (https://doi.org/10.1186%2Fs42400-020-00048-4).
+ISSN 2523-3246 (https://search.worldcat.org/issn/2523-3246).
+
+Sloan, Robert H.; Warner, Richard (2019). Why Don't We Defend Better?: Data Breaches, Risk
+Management, and Public Policy. CRC Press. ISBN 978-1-351-12729-5.
+
+Solove, Daniel J.; Hartzog, Woodrow (2022). Breached!: Why Data Security Law Fails and How
+to Improve it. Oxford University Press. ISBN 978-0-19-094057-7.
+
+Sood, Aditya; Enbody, Richard (2014). Targeted Cyber Attacks: Multi-staged Attacks Driven by
+Exploits and Malware. Syngress. ISBN 978-0-12-800619-1.
+
+Tjoa, Simon; Gafić, Melisa; Kieseberg, Peter (2024). Cyber Resilience Fundamentals. Springer
+Nature. ISBN 978-3-031-52064-8.
+
+Vähäkainu, Petri; Lehto, Martti; Kariluoto, Antti (2022). "Cyberattacks Against Critical
+Infrastructure Facilities and Corresponding Countermeasures". Cyber Security: Critical
+Infrastructure Protection. Springer International Publishing. pp. 255–292. ISBN 978-3-030-
+91293-2.
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Cyberattack&oldid=1381415132"

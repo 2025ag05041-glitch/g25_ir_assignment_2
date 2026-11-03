@@ -1,0 +1,651 @@
+﻿Text mining
+Text mining, text data mining (TDM) or text analytics is the process of deriving high-quality
+information from text. It involves "the discovery by computer of new, previously unknown information,
+by automatically extracting information from different written resources."[1] Written resources may
+include websites, books, emails, reviews, and articles.[2] High-quality information is typically obtained
+by devising patterns and trends by means such as statistical pattern learning. According to Hotho et al.
+(2005), there are three perspectives of text mining: information extraction, data mining, and knowledge
+discovery in databases (KDD).[3] Text mining usually involves the process of structuring the input text
+(usually parsing, along with the addition of some derived linguistic features and the removal of others,
+and subsequent insertion into a database), deriving patterns within the structured data, and finally
+evaluation and interpretation of the output. 'High quality' in text mining usually refers to some
+combination of relevance, novelty, and interest. Typical text mining tasks include text categorization, text
+clustering, concept/entity extraction, production of granular taxonomies, sentiment analysis, document
+summarization, and entity relation modeling (i.e., learning relations between named entities).
+
+Text analysis involves information retrieval, lexical analysis to study word frequency distributions,
+pattern recognition, tagging/annotation, information extraction, data mining techniques including link and
+association analysis, visualization, and predictive analytics. The overarching goal is, essentially, to turn
+text into data for analysis, via the application of natural language processing (NLP), different types of
+algorithms and analytical methods. An important phase of this process is the interpretation of the gathered
+information.
+
+A typical application is to scan a set of documents written in a natural language and either model the
+document set for predictive classification purposes or populate a database or search index with the
+information extracted. The document is the basic element when starting with text mining. Here, we define
+a document as a unit of textual data, which normally exists in many types of collections.[4]
+
+Text analytics
+Text analytics describes a set of linguistic, statistical, and machine learning techniques that model and
+structure the information content of textual sources for business intelligence, exploratory data analysis,
+research, or investigation.[5] The term is roughly synonymous with text mining; indeed, Ronen Feldman
+modified a 2000 description of "text mining"[6] in 2004 to describe "text analytics".[7] The latter term is
+now used more frequently in business settings while "text mining" is used in some of the earliest
+application areas, dating to the 1980s,[8] notably life-sciences research and government intelligence.
+
+The term text analytics also describes that application of text analytics to respond to business problems,
+whether independently or in conjunction with query and analysis of fielded, numerical data. It is a truism
+that 80% of business-relevant information originates in unstructured form, primarily text.[9] These
+techniques and processes discover and present knowledge – facts, business rules, and relationships – that
+is otherwise locked in textual form, impenetrable to automated processing.
+
+
+
+Text analysis processes
+Subtasks—components of a larger text-analytics effort—typically include:
+
+Dimensionality reduction is an important technique for pre-processing data. It is used to
+identify the root word for actual words and reduce the size of the text data.
+Information retrieval or identification of a corpus is a preparatory step: collecting or
+identifying a set of textual materials, on the Web or held in a file system, database, or
+content corpus manager, for analysis.
+Although some text analytics systems apply exclusively advanced statistical methods, many
+others apply more extensive natural language processing, such as part of speech tagging,
+syntactic parsing, and other types of linguistic analysis.[10]
+
+Named entity recognition is the use of gazetteers or statistical techniques to identify named
+text features: people, organizations, place names, stock ticker symbols, certain
+abbreviations, and so on.
+Disambiguation—the use of contextual clues—may be required to decide where, for
+instance, "Ford" can refer to a former U.S. president, a vehicle manufacturer, a movie star, a
+river crossing, or some other entity.[11]
+
+Recognition of pattern-identified entities: Features such as telephone numbers, e-mail
+addresses, quantities (with units) can be discerned via regular expression or other pattern
+matches.
+Document clustering: identification of sets of similar text documents.[12]
+
+Coreference resolution: identification of noun phrases and other terms that refer to the same
+object.
+Extraction of relationships, facts and events: identification of associations among entities
+and other information in texts.
+Sentiment analysis: discerning of subjective material and extracting information about
+attitudes: sentiment, opinion, mood, and emotion. This is done at the entity, concept, or topic
+level and aims to distinguish opinion holders and objects.[13]
+
+Quantitative text analysis: a set of techniques stemming from the social sciences where
+either a human judge or a computer extracts semantic or grammatical relationships between
+words in order to find out the meaning or stylistic patterns of, usually, a casual personal text
+for the purpose of psychological profiling etc.[14]
+
+Pre-processing usually involves tasks such as tokenization, filtering and stemming.
+
+Applications
+Text mining technology is now broadly applied to a wide variety of government, research, and business
+needs. All these groups may use text mining for records management and searching documents relevant
+to their daily activities. Legal professionals may use text mining for e-discovery, for example.
+Governments and military groups use text mining for national security and intelligence purposes.
+Scientific researchers incorporate text mining approaches into efforts to organize large sets of text data
+(i.e., addressing the problem of unstructured data), to determine ideas communicated through text (e.g.,
+sentiment analysis in social media[15][16][17]) and to support scientific discovery in fields such as the life
+sciences and bioinformatics. In business, applications are used to support competitive intelligence and
+automated ad placement, among numerous other activities.
+
+
+
+Security applications
+Many text mining software packages are marketed for security applications, especially monitoring and
+analysis of online plain text sources such as Internet news, blogs, etc. for national security purposes.[18] It
+is also involved in the study of text encryption/decryption.
+
+Biomedical applications
+A range of text mining applications in the biomedical literature
+has been described,[20] including computational approaches to
+assist with studies in protein docking,[21] protein
+interactions,[22][23] and protein-disease associations.[24] In
+addition, with large patient textual datasets in the clinical field,
+datasets of demographic information in population studies and
+adverse event reports, text mining can facilitate clinical studies
+and precision medicine. Text mining algorithms can facilitate
+the stratification and indexing of specific clinical events in large
+patient textual datasets of symptoms, side effects, and
+comorbidities from electronic health records, event reports, and
+reports from specific diagnostic tests.[25] One online text
+mining application in the biomedical literature is PubGene, a
+publicly accessible search engine that combines biomedical text
+mining with network visualization.[26][27] GoPubMed is a
+knowledge-based search engine for biomedical texts. Text
+mining techniques also enable us to extract unknown
+knowledge from unstructured documents in the clinical
+domain[28]
+
+Software applications
+Text mining methods and software is also being researched and
+developed by major firms, including IBM and Microsoft, to
+further automate the mining and analysis processes, and by
+different firms working in the area of search and indexing in
+general as a way to improve their results. Within the public
+sector, much effort has been concentrated on creating software
+for tracking and monitoring terrorist activities.[29] For study
+purposes, Weka software is one of the most popular options in An example of a text mining protocol
+the scientific world, acting as an excellent entry point for used in a study of protein-protein
+
+complexes, or protein docking[19]
+beginners. For Python programmers, there is an excellent
+toolkit called NLTK for more general purposes. For more
+advanced programmers, there's also the Gensim library, which
+focuses on word embedding-based text representations.
+
+
+
+Online media applications
+Text mining is being used by large media companies, such as the Tribune Company, to clarify
+information and to provide readers with greater search experiences, which in turn increases site
+"stickiness" and revenue. Additionally, on the back end, editors are benefiting by being able to share,
+associate and package news across properties, significantly increasing opportunities to monetize content.
+
+Business and marketing applications
+Text analytics is being used in business, particularly, in marketing, such as in customer relationship
+management.[30] Coussement and Van den Poel (2008)[31][32] apply it to improve predictive analytics
+models for customer churn (customer attrition).[31] Text mining is also being applied in stock returns
+prediction.[33]
+
+Sentiment analysis
+Sentiment analysis may involve analysis of products such as movies, books, or hotel reviews for
+estimating how favorable a review is for the product.[34] Such an analysis may need a labeled data set or
+labeling of the affectivity of words. Resources for affectivity of words and concepts have been made for
+WordNet[35] and ConceptNet,[36] respectively.
+
+Text has been used to detect emotions in the related area of affective computing.[37] Text based
+approaches to affective computing have been used on multiple corpora such as students evaluations,
+children stories and news stories.
+
+Scientific literature mining and academic applications
+The issue of text mining is of importance to publishers who hold large databases of information needing
+indexing for retrieval. This is especially true in scientific disciplines, in which highly specific information
+is often contained within the written text. Therefore, initiatives have been taken such as Nature's proposal
+for an Open Text Mining Interface (OTMI) and the National Institutes of Health's common Journal
+Publishing Document Type Definition (DTD) that would provide semantic cues to machines to answer
+specific queries contained within the text without removing publisher barriers to public access.
+
+Academic institutions have also become involved in the text mining initiative:
+
+The National Centre for Text Mining (NaCTeM), is the first publicly funded text mining centre
+in the world. NaCTeM is operated by the University of Manchester[38] in close collaboration
+with the Tsujii Lab,[39] University of Tokyo.[40] NaCTeM provides customised tools, research
+facilities and offers advice to the academic community. They are funded by the Joint
+Information Systems Committee (JISC) and two of the UK research councils (EPSRC &
+BBSRC). With an initial focus on text mining in the biological and biomedical sciences,
+research has since expanded into the areas of social sciences.
+In the United States, the School of Information at University of California, Berkeley is
+developing a program called BioText to assist biology researchers in text mining and
+analysis.
+The Text Analysis Portal for Research (TAPoR), currently housed at the University of
+Alberta, is a scholarly project to catalogue text analysis applications and create a gateway
+for researchers new to the practice.
+
+
+
+Methods for scientific literature mining
+Computational methods have been developed to assist with information retrieval from scientific
+literature. Published approaches include methods for searching,[41] determining novelty,[42] and clarifying
+homonyms[43] among technical reports.
+
+Digital humanities and computational sociology
+The automatic analysis of vast textual corpora has created the possibility for scholars to analyze millions
+of documents in multiple languages with very limited manual intervention. Key enabling technologies
+have been parsing, machine translation, topic categorization, and machine learning.
+
+The automatic parsing of textual corpora has enabled the
+extraction of actors and their relational networks on a vast
+scale, turning textual data into network data. The resulting
+networks, which can contain thousands of nodes, are then
+analyzed by using tools from network theory to identify the
+key actors, the key communities or parties, and general
+properties such as robustness or structural stability of the
+overall network, or centrality of certain nodes.[45] This
+automates the approach introduced by quantitative narrative
+analysis,[46] whereby subject-verb-object triplets are
+identified with pairs of actors linked by an action, or pairs
+formed by actor-object.[44]
+
+Content analysis has been a traditional part of social sciences Narrative network of US Elections
+and media studies for a long time. The automation of content 2012[44]
+
+analysis has allowed a "big data" revolution to take place in
+that field, with studies in social media and newspaper content
+that include millions of news items. Gender bias, readability, content similarity, reader preferences, and
+even mood have been analyzed based on text mining methods over millions of
+documents.[47][48][49][50][51] The analysis of readability, gender bias and topic bias was demonstrated in
+Flaounas et al.[52] showing how different topics have different gender biases and levels of readability; the
+possibility to detect mood patterns in a vast population by analyzing Twitter content was demonstrated as
+well.[53][54]
+
+Software
+Text mining computer programs are available from many commercial and open source companies and
+sources.
+
+
+
+Intellectual property law
+
+Situation in the European Union
+Under European copyright and database laws, the mining of
+in-copyright works (such as by web mining) without the
+permission of the copyright owner is permitted under Articles
+3 and 4 of the 2019 Directive on Copyright in the Digital
+Single Market. A specific TDM exception for scientific 0:00
+research is described in article 3, whereas a more general
+exception described in article 4 only applies if the copyright
+holder has not opted out.[55] Video by Fix Copyright campaign
+
+explaining TDM and its copyright issues
+The European Commission facilitated stakeholder discussion in the EU, 2016 [3:51
+on text and data mining in 2013, under the title of Licenses for
+Europe.[56] The fact that the focus on the solution to this legal
+issue was licenses, and not limitations and exceptions to copyright law, led representatives of universities,
+researchers, libraries, civil society groups and open access publishers to leave the stakeholder dialogue in
+May 2013.[57]
+
+Situation in the United States
+US copyright law, and in particular its fair use provisions, means that text mining in America, as well as
+other fair use countries such as Israel, Taiwan and South Korea, is viewed as being legal. As text mining
+is transformative, meaning that it does not supplant the original work, it is viewed as being lawful under
+fair use. For example, as part of the Google Book settlement the presiding judge on the case ruled that
+Google's digitization project of in-copyright books was lawful, in part because of the transformative uses
+that the digitization project displayed—one such use being text and data mining.[58]
+
+Situation in Australia
+There is no exception in copyright law of Australia for text or data mining within the Copyright Act 1968.
+The Australian Law Reform Commission has noted that it is unlikely that the "research and study" fair
+dealing exception would extend to cover such a topic either, given it would be beyond the "reasonable
+portion" requirement.[59]
+
+Situation in the United Kingdom
+In the UK in 2014, on the recommendation of the Hargreaves review, the government amended copyright
+law[60] to allow text mining as a limitation and exception. It was the second country in the world to do so,
+following Japan, which introduced a mining-specific exception in 2009. However, owing to the
+restriction of the Information Society Directive (2001), the UK exception only allows content mining for
+non-commercial purposes. UK copyright law does not allow this provision to be overridden by
+contractual terms and conditions.
+
+
+
+Implications
+Until recently, websites most often used text-based searches, which only found documents containing
+specific user-defined words or phrases. Now, through use of a semantic web, text mining can find content
+based on meaning and context (rather than just by a specific word). Additionally, text mining software
+can be used to build large dossiers of information about specific people and events. For example, large
+datasets based on data extracted from news reports can be built to facilitate social networks analysis or
+counter-intelligence. In effect, the text mining software may act in a capacity similar to an intelligence
+analyst or research librarian, albeit with a more limited scope of analysis. Text mining is also used in
+some email spam filters as a way of determining the characteristics of messages that are likely to be
+advertisements or other unwanted material. Text mining plays an important role in determining financial
+market sentiment.
+
+See also
+Concept mining
+Document processing
+Full text search
+List of text mining software
+Market sentiment
+Name resolution (semantics and text extraction)
+Named entity recognition
+Ontology learning
+Record linkage
+Sequential pattern mining (string and sequence mining)
+w-shingling
+Web mining, a task that may involve text mining (e.g. first find appropriate web pages by
+classifying crawled web pages, then extract the desired information from the text content of
+these pages considered relevant)
+
+References
+
+Citations
+1. "Marti Hearst: What is Text Mining?" (http://people.ischool.berkeley.edu/~hearst/text-mining.
+
+html).
+2. Galiani, Sebastian; Gálvez, Ramiro H.; Nachman, Ian (2025). "Specialization trends in
+
+economics research: A large-scale study using natural language processing and citation
+analysis" (https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.13261). Economic Inquiry. 63
+(1): 289–329. doi:10.1111/ecin.13261 (https://doi.org/10.1111%2Fecin.13261).
+
+3. Hotho, A., Nürnberger, A. and Paaß, G. (2005). "A brief survey of text mining". In Ldv Forum,
+Vol. 20(1), p. 19-62
+
+4. Feldman, R. and Sanger, J. (2007). The text mining handbook. Cambridge University Press.
+New York
+
+
+
+5. (http://intelligent-enterprise.informationweek.com/blog/archives/2007/02/defining_text_a.htm
+l) Archived (https://web.archive.org/web/20091129171151/http://intelligent-enterprise.informa
+tionweek.com/blog/archives/2007/02/defining_text_a.html) November 29, 2009, at the
+Wayback Machine
+
+6. "KDD-2000 Workshop on Text Mining – Call for Papers" (https://www.cs.cmu.edu/~dunja/CF
+PWshKDD2000.html). Cs.cmu.edu. Retrieved 2015-02-23.
+
+7. (http://www.ir.iit.edu/cikm2004/tutorials.html#T2) Archived (https://web.archive.org/web/2012
+0303042253/http://www.ir.iit.edu/cikm2004/tutorials.html#T2) March 3, 2012, at the Wayback
+Machine
+
+8. Hobbs, Jerry R.; Walker, Donald E.; Amsler, Robert A. (1982). "Natural language access to
+structured text". Proceedings of the 9th conference on Computational linguistics. Vol. 1.
+pp. 127–32. doi:10.3115/991813.991833 (https://doi.org/10.3115%2F991813.991833).
+S2CID 6433117 (https://api.semanticscholar.org/CorpusID:6433117).
+
+9. "Unstructured Data and the 80 Percent Rule" (https://web.archive.org/web/2014091221450
+3/http://breakthroughanalysis.com/2008/08/01/unstructured-data-and-the-80-percent-rule/).
+Breakthrough Analysis. August 2008. Archived from the original (http://breakthroughanalysis.
+com/2008/08/01/unstructured-data-and-the-80-percent-rule/) on 2014-09-12. Retrieved
+2015-02-23.
+
+10. Antunes, João (2018-11-14). Exploração de informações contextuais para enriquecimento
+semântico em representações de textos (http://www.teses.usp.br/teses/disponiveis/55/5513
+4/tde-03012019-103253/) (Mestrado em Ciências de Computação e Matemática
+Computacional thesis) (in Portuguese). São Carlos: Universidade de São Paulo.
+doi:10.11606/d.55.2019.tde-03012019-103253 (https://doi.org/10.11606%2Fd.55.2019.tde-0
+3012019-103253).
+
+11. Moro, Andrea; Raganato, Alessandro; Navigli, Roberto (December 2014). "Entity Linking
+meets Word Sense Disambiguation: a Unified Approach" (https://doi.org/10.1162%2Ftacl_a_
+00179). Transactions of the Association for Computational Linguistics. 2: 231–244.
+doi:10.1162/tacl_a_00179 (https://doi.org/10.1162%2Ftacl_a_00179). ISSN 2307-387X (http
+s://search.worldcat.org/issn/2307-387X).
+
+12. Chang, Wui Lee; Tay, Kai Meng; Lim, Chee Peng (2017-02-06). "A New Evolving Tree-
+Based Model with Local Re-learning for Document Clustering and Visualization". Neural
+Processing Letters. 46 (2): 379–409. doi:10.1007/s11063-017-9597-3 (https://doi.org/10.100
+7%2Fs11063-017-9597-3). ISSN 1370-4621 (https://search.worldcat.org/issn/1370-4621).
+S2CID 9100902 (https://api.semanticscholar.org/CorpusID:9100902).
+
+13. Benchimol, Jonathan; Kazinnik, Sophia; Saadon, Yossi (2022). "Text mining methodologies
+with R: An application to central bank texts" (https://paperswithcode.com/paper/text-mining-
+methodologies-with-r-an). Machine Learning with Applications. 8 100286.
+doi:10.1016/j.mlwa.2022.100286 (https://doi.org/10.1016%2Fj.mlwa.2022.100286).
+hdl:10419/323255 (https://hdl.handle.net/10419%2F323255). S2CID 243798160 (https://api.
+semanticscholar.org/CorpusID:243798160).
+
+14. Mehl, Matthias R. (2006). "Quantitative Text Analysis". Handbook of multimethod
+measurement in psychology. p. 141. doi:10.1037/11383-011 (https://doi.org/10.1037%2F113
+83-011). ISBN 978-1-59147-318-3.
+
+15. Pang, Bo; Lee, Lillian (2008). "Opinion Mining and Sentiment Analysis". Foundations and
+Trends in Information Retrieval. 2 (1–2): 1–135. doi:10.1561/1500000011 (https://doi.org/10.
+1561%2F1500000011). ISSN 1554-0669 (https://search.worldcat.org/issn/1554-0669).
+S2CID 207178694 (https://api.semanticscholar.org/CorpusID:207178694).
+
+16. Paltoglou, Georgios; Thelwall, Mike (2012-09-01). "Twitter, MySpace, Digg: Unsupervised
+Sentiment Analysis in Social Media". ACM Transactions on Intelligent Systems and
+Technology. 3 (4): 66. doi:10.1145/2337542.2337551 (https://doi.org/10.1145%2F2337542.2
+337551). ISSN 2157-6904 (https://search.worldcat.org/issn/2157-6904). S2CID 16600444 (h
+ttps://api.semanticscholar.org/CorpusID:16600444).
+
+
+
+17. "Sentiment Analysis in Twitter < SemEval-2017 Task 4" (http://alt.qcri.org/semeval2017/task
+4/). alt.qcri.org. Retrieved 2018-10-02.
+
+18. Zanasi, Alessandro (2009). "Virtual Weapons for Real Wars: Text Mining for National
+Security". Proceedings of the International Workshop on Computational Intelligence in
+Security for Information Systems CISIS'08. Advances in Soft Computing. Vol. 53. p. 53.
+doi:10.1007/978-3-540-88181-0_7 (https://doi.org/10.1007%2F978-3-540-88181-0_7).
+ISBN 978-3-540-88180-3.
+
+19. Badal, Varsha D.; Kundrotas, Petras J.; Vakser, Ilya A. (2015-12-09). "Text Mining for Protein
+Docking" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4674139). PLOS Computational
+Biology. 11 (12) e1004630. Bibcode:2015PLSCB..11E4630B (https://ui.adsabs.harvard.edu/
+abs/2015PLSCB..11E4630B). doi:10.1371/journal.pcbi.1004630 (https://doi.org/10.1371%2
+Fjournal.pcbi.1004630). ISSN 1553-7358 (https://search.worldcat.org/issn/1553-7358).
+PMC 4674139 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4674139). PMID 26650466
+(https://pubmed.ncbi.nlm.nih.gov/26650466).
+
+20. Cohen, K. Bretonnel; Hunter, Lawrence (2008). "Getting Started in Text Mining" (https://ww
+w.ncbi.nlm.nih.gov/pmc/articles/PMC2217579). PLOS Computational Biology. 4 (1) e20.
+Bibcode:2008PLSCB...4...20C (https://ui.adsabs.harvard.edu/abs/2008PLSCB...4...20C).
+doi:10.1371/journal.pcbi.0040020 (https://doi.org/10.1371%2Fjournal.pcbi.0040020).
+PMC 2217579 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2217579). PMID 18225946
+(https://pubmed.ncbi.nlm.nih.gov/18225946).
+
+21. Badal, V. D; Kundrotas, P. J; Vakser, I. A (2015). "Text mining for protein docking" (https://ww
+w.ncbi.nlm.nih.gov/pmc/articles/PMC4674139). PLOS Computational Biology. 11 (12)
+e1004630. Bibcode:2015PLSCB..11E4630B (https://ui.adsabs.harvard.edu/abs/2015PLSC
+B..11E4630B). doi:10.1371/journal.pcbi.1004630 (https://doi.org/10.1371%2Fjournal.pcbi.10
+04630). PMC 4674139 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4674139).
+PMID 26650466 (https://pubmed.ncbi.nlm.nih.gov/26650466).
+
+22. Papanikolaou, Nikolas; Pavlopoulos, Georgios A.; Theodosiou, Theodosios; Iliopoulos,
+Ioannis (2015). "Protein–protein interaction predictions using text mining methods".
+Methods. 74: 47–53. doi:10.1016/j.ymeth.2014.10.026 (https://doi.org/10.1016%2Fj.ymeth.2
+014.10.026). ISSN 1046-2023 (https://search.worldcat.org/issn/1046-2023).
+PMID 25448298 (https://pubmed.ncbi.nlm.nih.gov/25448298).
+
+23. Szklarczyk, Damian; Morris, John H; Cook, Helen; Kuhn, Michael; Wyder, Stefan;
+Simonovic, Milan; Santos, Alberto; Doncheva, Nadezhda T; Roth, Alexander (2016-10-18).
+"The STRING database in 2017: quality-controlled protein–protein association networks,
+made broadly accessible" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210637). Nucleic
+Acids Research. 45 (D1): D362–D368. doi:10.1093/nar/gkw937 (https://doi.org/10.1093%2F
+nar%2Fgkw937). ISSN 0305-1048 (https://search.worldcat.org/issn/0305-1048).
+PMC 5210637 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210637). PMID 27924014
+(https://pubmed.ncbi.nlm.nih.gov/27924014).
+
+24. Liem, David A.; Murali, Sanjana; Sigdel, Dibakar; Shi, Yu; Wang, Xuan; Shen, Jiaming; Choi,
+Howard; Caufield, John H.; Wang, Wei; Ping, Peipei; Han, Jiawei (2018-10-01). "Phrase
+mining of textual data to analyze extracellular matrix protein patterns across cardiovascular
+disease" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6230912). American Journal of
+Physiology. Heart and Circulatory Physiology. 315 (4): H910–H924.
+doi:10.1152/ajpheart.00175.2018 (https://doi.org/10.1152%2Fajpheart.00175.2018).
+ISSN 1522-1539 (https://search.worldcat.org/issn/1522-1539). PMC 6230912 (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC6230912). PMID 29775406 (https://pubmed.ncbi.nlm.nih.g
+ov/29775406).
+
+25. Van Le, D; Montgomery, J; Kirkby, KC; Scanlan, J (10 August 2018). "Risk Prediction using
+Natural Language Processing of Electronic Mental Health Records in an Inpatient Forensic
+Psychiatry Setting" (https://doi.org/10.1016%2Fj.jbi.2018.08.007). Journal of Biomedical
+Informatics. 86: 49–58. doi:10.1016/j.jbi.2018.08.007 (https://doi.org/10.1016%2Fj.jbi.2018.0
+8.007). PMID 30118855 (https://pubmed.ncbi.nlm.nih.gov/30118855).
+
+
+
+26. Jenssen, Tor-Kristian; Lægreid, Astrid; Komorowski, Jan; Hovig, Eivind (2001). "A literature
+network of human genes for high-throughput analysis of gene expression". Nature Genetics.
+28 (1): 21–8. doi:10.1038/ng0501-21 (https://doi.org/10.1038%2Fng0501-21).
+PMID 11326270 (https://pubmed.ncbi.nlm.nih.gov/11326270). S2CID 8889284 (https://api.se
+manticscholar.org/CorpusID:8889284).
+
+27. Masys, Daniel R. (2001). "Linking microarray data to the literature". Nature Genetics. 28 (1):
+9–10. doi:10.1038/ng0501-9 (https://doi.org/10.1038%2Fng0501-9). PMID 11326264 (http
+s://pubmed.ncbi.nlm.nih.gov/11326264). S2CID 52848745 (https://api.semanticscholar.org/C
+orpusID:52848745).
+
+28. Renganathan, Vinaitheerthan (2017). "Text Mining in Biomedical Domain with Emphasis on
+Document Clustering" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572517). Healthcare
+Informatics Research. 23 (3): 141–146. doi:10.4258/hir.2017.23.3.141 (https://doi.org/10.42
+58%2Fhir.2017.23.3.141). ISSN 2093-3681 (https://search.worldcat.org/issn/2093-3681).
+PMC 5572517 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572517). PMID 28875048
+(https://pubmed.ncbi.nlm.nih.gov/28875048).
+
+29. (https://yatsko.zohosites.com/texor-a-chat-mining-program.html) Archived (https://web.archi
+ve.org/web/20131004224652/http://yatsko.zohosites.com/texor-a-chat-mining-program.html)
+October 4, 2013, at the Wayback Machine
+
+30. "Text Analytics" (http://www.medallia.com/text-analytics/). Medallia. Retrieved 2015-02-23.
+31. Coussement, Kristof; Van Den Poel, Dirk (2008). "Integrating the voice of customers through
+
+call center emails into a decision support system for churn prediction" (http://econpapers.rep
+ec.org/RePEc:rug:rugwps:08/502). Information & Management. 45 (3): 164–74.
+doi:10.1016/j.im.2008.01.005 (https://doi.org/10.1016%2Fj.im.2008.01.005).
+
+32. Coussement, Kristof; Van Den Poel, Dirk (2008). "Improving customer complaint
+management by automatic email classification using linguistic style features as predictors"
+(http://econpapers.repec.org/RePEc:rug:rugwps:07/481). Decision Support Systems. 44 (4):
+870–82. doi:10.1016/j.dss.2007.10.010 (https://doi.org/10.1016%2Fj.dss.2007.10.010).
+
+33. Ramiro H. Gálvez; Agustín Gravano (2017). "Assessing the usefulness of online message
+board mining in automatic stock prediction systems". Journal of Computational Science. 19:
+1877–7503. doi:10.1016/j.jocs.2017.01.001 (https://doi.org/10.1016%2Fj.jocs.2017.01.001).
+hdl:11336/60065 (https://hdl.handle.net/11336%2F60065).
+
+34. Pang, Bo; Lee, Lillian; Vaithyanathan, Shivakumar (2002). "Thumbs up?". Proceedings of
+the ACL-02 conference on Empirical methods in natural language processing. Vol. 10.
+pp. 79–86. doi:10.3115/1118693.1118704 (https://doi.org/10.3115%2F1118693.1118704).
+S2CID 7105713 (https://api.semanticscholar.org/CorpusID:7105713).
+
+35. Alessandro Valitutti; Carlo Strapparava; Oliviero Stock (2005). "Developing Affective Lexical
+Resources" (https://web.archive.org/web/20180920154613/http://www.psychnology.org/File/
+PSYCHNOLOGY_JOURNAL_2_1_VALITUTTI.pdf) (PDF). PsychNology Journal. 2 (1): 61–
+83. Archived from the original (http://www.psychnology.org/File/PSYCHNOLOGY_JOURNAL
+_2_1_VALITUTTI.pdf) (PDF) on 2018-09-20. Retrieved 2007-08-21.
+
+36. Erik Cambria; Robert Speer; Catherine Havasi; Amir Hussain (2010). "SenticNet: a Publicly
+Available Semantic Resource for Opinion Mining" (http://www.aaai.org/ocs/index.php/FSS/F
+SS10/paper/download/2216/2617.pdf) (PDF). Proceedings of AAAI CSK. pp. 14–18.
+
+37. Calvo, Rafael A; d'Mello, Sidney (2010). "Affect Detection: An Interdisciplinary Review of
+Models, Methods, and Their Applications". IEEE Transactions on Affective Computing. 1 (1):
+18–37. doi:10.1109/T-AFFC.2010.1 (https://doi.org/10.1109%2FT-AFFC.2010.1).
+S2CID 753606 (https://api.semanticscholar.org/CorpusID:753606).
+
+38. "The University of Manchester" (http://www.manchester.ac.uk). Manchester.ac.uk. Retrieved
+2015-02-23.
+
+39. "Tsujii Laboratory" (https://web.archive.org/web/20120307231425/http://www-tsujii.is.s.u-tok
+yo.ac.jp/index.html). Tsujii.is.s.u-tokyo.ac.jp. Archived from the original (http://www-tsujii.is.s.
+u-tokyo.ac.jp/index.html) on 2012-03-07. Retrieved 2015-02-23.
+
+
+
+40. "The University of Tokyo" (http://www.u-tokyo.ac.jp/index_e.html). UTokyo. Retrieved
+2015-02-23.
+
+41. Shen, Jiaming; Xiao, Jinfeng; He, Xinwei; Shang, Jingbo; Sinha, Saurabh; Han, Jiawei
+(2018-06-27). Entity Set Search of Scientific Literature: An Unsupervised Ranking Approach.
+ACM. pp. 565–574. doi:10.1145/3209978.3210055 (https://doi.org/10.1145%2F3209978.321
+0055). ISBN 978-1-4503-5657-2. S2CID 13748283 (https://api.semanticscholar.org/CorpusI
+D:13748283).
+
+42. Walter, Lothar; Radauer, Alfred; Moehrle, Martin G. (2017-02-06). "The beauty of brimstone
+butterfly: novelty of patents identified by near environment analysis based on text mining".
+Scientometrics. 111 (1): 103–115. doi:10.1007/s11192-017-2267-4 (https://doi.org/10.1007%
+2Fs11192-017-2267-4). ISSN 0138-9130 (https://search.worldcat.org/issn/0138-9130).
+S2CID 11174676 (https://api.semanticscholar.org/CorpusID:11174676).
+
+43. Roll, Uri; Correia, Ricardo A.; Berger-Tal, Oded (2018-03-10). "Using machine learning to
+disentangle homonyms in large text corpora". Conservation Biology. 32 (3): 716–724.
+Bibcode:2018ConBi..32..716R (https://ui.adsabs.harvard.edu/abs/2018ConBi..32..716R).
+doi:10.1111/cobi.13044 (https://doi.org/10.1111%2Fcobi.13044). ISSN 0888-8892 (https://se
+arch.worldcat.org/issn/0888-8892). PMID 29086438 (https://pubmed.ncbi.nlm.nih.gov/29086
+438). S2CID 3783779 (https://api.semanticscholar.org/CorpusID:3783779).
+
+44. Automated analysis of the US presidential elections using Big Data and network analysis; S
+Sudhahar, GA Veltri, N Cristianini; Big Data & Society 2 (1), 1-28, 2015
+
+45. Network analysis of narrative content in large corpora; S Sudhahar, G De Fazio, R Franzosi,
+N Cristianini; Natural Language Engineering, 1-32, 2013
+
+46. Quantitative Narrative Analysis; Roberto Franzosi; Emory University © 2010
+47. Lansdall-Welfare, Thomas; Sudhahar, Saatviga; Thompson, James; Lewis, Justin; Team,
+
+FindMyPast Newspaper; Cristianini, Nello (2017-01-09). "Content analysis of 150 years of
+British periodicals" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5278459). Proceedings
+of the National Academy of Sciences. 114 (4): E457–E465. Bibcode:2017PNAS..114E.457L
+(https://ui.adsabs.harvard.edu/abs/2017PNAS..114E.457L). doi:10.1073/pnas.1606380114
+(https://doi.org/10.1073%2Fpnas.1606380114). ISSN 0027-8424 (https://search.worldcat.or
+g/issn/0027-8424). PMC 5278459 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5278459).
+PMID 28069962 (https://pubmed.ncbi.nlm.nih.gov/28069962).
+
+48. I. Flaounas, M. Turchi, O. Ali, N. Fyson, T. De Bie, N. Mosdell, J. Lewis, N. Cristianini, The
+Structure of EU Mediasphere, PLoS ONE, Vol. 5(12), pp. e14243, 2010.
+
+49. Nowcasting Events from the Social Web with Statistical Learning V Lampos, N Cristianini;
+ACM Transactions on Intelligent Systems and Technology (TIST) 3 (4), 72
+
+50. NOAM: news outlets analysis and monitoring system; I Flaounas, O Ali, M Turchi, T
+Snowsill, F Nicart, T De Bie, N Cristianini Proc. of the 2011 ACM SIGMOD international
+conference on Management of data
+
+51. Automatic discovery of patterns in media content, N Cristianini, Combinatorial Pattern
+Matching, 2-13, 2011
+
+52. I. Flaounas, O. Ali, T. Lansdall-Welfare, T. De Bie, N. Mosdell, J. Lewis, N. Cristianini,
+RESEARCH METHODS IN THE AGE OF DIGITAL JOURNALISM, Digital Journalism,
+Routledge, 2012
+
+53. Circadian Mood Variations in Twitter Content; Fabon Dzogang, Stafford Lightman, Nello
+Cristianini. Brain and Neuroscience Advances, 1, 2398212817744501.
+
+54. Effects of the Recession on Public Mood in the UK; T Lansdall-Welfare, V Lampos, N
+Cristianini; Mining Social Network Dynamics (MSND) session on Social Media Applications
+
+55. "Kneschke vs. LAION - Landmark Ruling on TDM exceptions for AI training data – Part 2 |
+Kluwer Copyright Blog" (https://legalblogs.wolterskluwer.com/copyright-blog/kneschke-vs-lai
+on-landmark-ruling-on-tdm-exceptions-for-ai-training-data-part-2/).
+legalblogs.wolterskluwer.com. Retrieved 2025-09-16.
+
+
+
+56. "Licences for Europe – Structured Stakeholder Dialogue 2013" (http://ec.europa.eu/licences
+-for-europe-dialogue/en/content/about-site). European Commission. Retrieved 14 November
+2014.
+
+57. "Text and Data Mining:Its importance and the need for change in Europe" (https://web.archiv
+e.org/web/20141129021244/http://libereurope.eu/news/text-and-data-mining-its-importance-
+and-the-need-for-change-in-europe/). Association of European Research Libraries. 2013-
+04-25. Archived from the original (http://libereurope.eu/news/text-and-data-mining-its-import
+ance-and-the-need-for-change-in-europe/) on 2014-11-29. Retrieved 14 November 2014.
+
+58. "Judge grants summary judgment in favor of Google Books – a fair use victory" (http://www.l
+exology.com/library/detail.aspx?g=a18c5b92-5a20-4d1d-a098-a3095046a88e). Lexology.
+Antonelli Law Ltd. 19 November 2013. Retrieved 14 November 2014.
+
+59. "Text and data mining" (https://www.alrc.gov.au/publication/copyright-and-the-digital-econom
+y-dp-79/8-non-consumptive-use/text-and-data-mining/). Australian Law Reform
+Commission. 4 June 2013. Retrieved 10 February 2023.
+
+60. Researchers given data mining right under new UK copyright laws (http://www.out-law.com/
+en/articles/2014/june/researchers-given-data-mining-right-under-new-uk-copyright-laws/)
+Archived (https://web.archive.org/web/20140609020315/http://www.out-law.com/en/articles/
+2014/june/researchers-given-data-mining-right-under-new-uk-copyright-laws/) June 9, 2014,
+at the Wayback Machine
+
+Sources
+Ananiadou, S. and McNaught, J. (Editors) (2006). Text Mining for Biology and Biomedicine.
+Artech House Books. ISBN 978-1-58053-984-5
+Bilisoly, R. (2008). Practical Text Mining with Perl. New York: John Wiley & Sons. ISBN 978-
+0-470-17643-6
+Feldman, R., and Sanger, J. (2006). The Text Mining Handbook. New York: Cambridge
+University Press. ISBN 978-0-521-83657-9
+Hotho, A., Nürnberger, A. and Paaß, G. (2005). "A brief survey of text mining". In Ldv Forum,
+Vol. 20(1), p. 19-62
+Indurkhya, N., and Damerau, F. (2010). Handbook of Natural Language Processing, 2nd
+Edition. Boca Raton, FL: CRC Press. ISBN 978-1-4200-8592-1
+Kao, A., and Poteet, S. (Editors). Natural Language Processing and Text Mining. Springer.
+ISBN 1-84628-175-X
+Konchady, M. Text Mining Application Programming (Programming Series). Charles River
+Media. ISBN 1-58450-460-9
+Manning, C., and Schutze, H. (1999). Foundations of Statistical Natural Language
+Processing. Cambridge, MA: MIT Press. ISBN 978-0-262-13360-9
+Miner, G., Elder, J., Hill. T, Nisbet, R., Delen, D. and Fast, A. (2012). Practical Text Mining
+and Statistical Analysis for Non-structured Text Data Applications. Elsevier Academic Press.
+ISBN 978-0-12-386979-1
+McKnight, W. (2005). "Building business intelligence: Text data mining in business
+intelligence". DM Review, 21–22.
+Srivastava, A., and Sahami. M. (2009). Text Mining: Classification, Clustering, and
+Applications. Boca Raton, FL: CRC Press. ISBN 978-1-4200-5940-3
+Zanasi, A. (Editor) (2007). Text Mining and its Applications to Intelligence, CRM and
+Knowledge Management. WIT Press. ISBN 978-1-84564-131-3
+
+
+
+External links
+Marti Hearst: What Is Text Mining? (http://people.ischool.berkeley.edu/~hearst/text-mining.ht
+ml) (October 2003)
+Automatic Content Extraction, Linguistic Data Consortium (http://projects.ldc.upenn.edu/ac
+e/) Archived (https://web.archive.org/web/20130925194420/http://projects.ldc.upenn.edu/ac
+e/) 2013-09-25 at the Wayback Machine
+Automatic Content Extraction, NIST (https://web.archive.org/web/20060308054306/http://ww
+w.itl.nist.gov/iad/894.01/tests/ace/)
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Text_mining&oldid=1383033720"

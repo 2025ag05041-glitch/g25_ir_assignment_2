@@ -1,0 +1,2551 @@
+﻿Data center
+A data center is a facility for storing, managing, and
+disseminating digital information, including computer
+systems and associated components, IT infrastructure,
+equipment to maintain the proper conditions for the
+operation of electronic equipment, and training
+artificial intelligence.[1][2][3][4][5] According to IBM,
+data centers date back to the 1940s, with the United
+States military's Electrical Numerical Integrator and
+Computer (ENIAC) as an early example.[6]
+
+Data center of CNPC in Changping District
+
+Data centers have different models depending on their
+workloads. An enterprise (on-premises) model hosts
+IT infrastructure and data on-premises, while cloud data centers, including hyperscale data centers, house
+IT infrastructure resources through an internet connection used by cloud service providers such as
+Amazon Web Services, Google Cloud Platform, IBM Cloud, and Microsoft Azure. They frequently
+contain thousands of servers and many miles of high-speed data connection equipment, with the largest
+occupying up to 10,000,000  sq  ft (930,000  m2).[7] Managed service data centers have third-party
+managers hired on behalf of a company, which leases the equipment and infrastructure instead of buying
+it. Colocation data centers allow companies to rent space in an off-site data center owned by others, with
+the colocation data center hosting the infrastructure while the company provides and manages the
+components. Edge data centers are smaller, decentralized facilities located closer to end users and
+devices.[8][9][10] In the 2024 U.S. Data Center Energy Usage Report, Lawrence Berkeley National
+Laboratory estimated that hyperscale and colocation centers contained 74% of computer servers in
+2023.[11]
+
+Large data centers require significant energy to operate, with the largest consuming over 3,000 MW,[12]
+
+raising concerns about energy use. The International Energy Agency (IEA) estimated that electricity
+consumption from these data centers amounted to around 415 terawatt hours (TWh), about 1.5% of
+global electricity consumption in 2024, with a growth rate of 12% per year over the previous five
+years.[13] The IEA projects that this amount could double to reach around 945 TWh by 2030, growing by
+around 15% per year.[13] In the US alone, which has almost nine times more data centers than any other
+country,[7] power consumption by data centers is projected to account for "almost half of the growth in
+electricity demand between now and 2030".[14] This includes increased electricity costs.[15]
+
+Concerns over environmental impacts, energy and water use, and other costs have led to opposition to
+new data centers during the AI boom. These movements have occurred in parts of Europe, the US, and
+South America.[16] Data Center Watch's first report covered a period from May 2024 to March 2025,
+during which it found that "local opposition had blocked or delayed a total of $64 billion in data center
+projects (six projects were blocked entirely, while 10 were delayed)".[17]
+
+
+
+Data centers also represent a significant driver of economic activity and technological capacity. In the
+United States, the industry contributed an estimated $486 billion to GDP and supported 4.2 million total
+jobs in 2021, with each direct position generating more than six additional jobs elsewhere in the
+economy, according to a PwC economic impact analysis.[18] Independent academic research has further
+found measurable employment and wage effects in local labor markets where large facilities are built. At
+the same time, the rapid expansion of data centers has raised concerns about resource consumption,
+including increased electricity costs, and has prompted opposition to new projects in parts of Europe, the
+United States, and South America.[19]
+
+Types
+Data centers are usually classified according to their
+ownership model, scale, and intended use.
+
+Common data center types and typical
+characteristics[20][21][22]
+
+Type Typical Primary Key
+scale purpose characteristic
+
+Owned and
+Enterprise 1–10 Internal IT operated by a
+
+MW operations single
+organization
+
+Shared Customers Amazon Web Services Data Center in the U.S.
+
+Colocation 10–100 hosting for lease space,
+MW multiple power, and
+
+clients cooling
+
+Cloud Massive
+
+Hyperscale 100 services scalability;
+MW+ and AI operated by
+
+workloads major cloud
+providers
+
+Low-
+Edge 1–10 latency Distributed near
+
+MW local end users or
+processing data sources
+
+Distribution of computing workloads across these four categories has shifted dramatically over the past
+decade, with hyperscale and colocation collectively accounting for approximately 74% of U.S. server
+energy consumption in 2023, up from less than 40% in 2014; this share is projected to reach 85% by
+2028.[20] However, these classifications are not mutually exclusive from each other, and they may overlap
+depending on the operational structure and service model of the particular data center.
+
+Enterprise
+Enterprise data centers are owned and managed by a single organization to meet its internal information
+technology (IT) needs rather than to host data for other companies commercially.[23][24][25] They used to
+be essential infrastructures; as in 2014, enterprise data centers accounted for over 60% of the U.S. server
+energy consumption, but this share fell sharply to about 10% by 2023 as workloads migrated to
+hyperscale and colocation facilities.[20] Energy efficiency at an enterprise data center tends to be
+
+
+
+significantly lower than at hyperscale facilities due to its cooling, which can account for over 30% of
+electricity consumption at enterprise sites, compared to roughly 7% at efficient hyperscale data
+centers.[21] The shift away from enterprise facilities toward cloud and colocation infrastructure is one of
+the defining structural trends of the previous decade.[22]
+
+Colocation
+Colocation centers provide shared physical infrastructure, such as power, cooling, space, etc., to multiple
+tenants who lease space rather than building their own facilities.[23][24] Colocation data centers reduce
+expenditure for organizations while enabling operators to achieve economies of scale in power
+procurement and cooling efficiency.[21] Some of the largest data centers in the world are colocation
+centers,[26] and this category accounted for about 22% of worldwide data center capacity as of 2024,
+making them the second-largest category by capacity after hyperscale facilities.[22] Major colocation
+providers include Equinix, Switch, COPT, and Digital Realty, which operate facilities across multiple
+continents.[26]
+
+Colocation centers often host private peering connections between their customers, internet transit
+providers, internet service providers, cloud providers,[27][28] meet-me rooms for connecting
+customers,[29] Internet exchange points,[30][31] and landing points and terminal equipment for fiber optic
+submarine communication cables,[32] which are critical to connecting the internet.[33]
+
+Hyperscale
+Hyperscale data centers are large-scale facilities, typically exceeding 100 megawatts of power capacity,
+designed to support massive, scalable computing workloads for cloud services, AI training, and large-
+scale data processing.[25][21] By the end of 2024, there were 1,136 operational hyperscale data centers
+globally, a figure that doubled over the previous five years, with the U.S. accounting for approximately
+54% of total hyperscale capacity.[34] In particular, the three largest operators, Amazon Web Services,
+Microsoft Azure, and Google Cloud, collectively account for approximately 59% of all hyperscale data
+center capacity globally.[35] As a growing trend, hyperscale data centers represented about 41% of
+worldwide data center capacity in 2024 and are projected to exceed 60% by 2029 as enterprise on-
+premises infrastructure continues to decline.[22] AI data centers are being built more rapidly than
+conventional data centers; the International Energy Agency notes that while a typical data center can
+consume as much electricity as 100,000 households, the largest next-generation campuses currently under
+construction are expected to demand roughly 20 times that amount.[36]
+
+Edge
+Edge data centers are smaller facilities, typically ranging from 1 to 10 megawatts.[37] They are positioned
+closer to end users or data sources to reduce network latency and support real-time applications,[21] such
+as autonomous vehicles, industrial automation, and content delivery. Unlike hyperscale data centers, edge
+data centers are intentionally distributed across many locations rather than consolidated, with
+deployments occurring in urban areas, cell tower sites, as well as industrial locations.[21] The growth of
+edge computing infrastructure has been tied to the expansion of 5G wireless networks[38] and the
+increasing use of Internet of Things (IoT) devices,[21][39][40] which generate data that is more efficiently
+processed near its source than transmitted to a centralized data center.
+
+
+
+Micro data centers (MDCs) are access-level data centers that are smaller than traditional data centers but
+provide the same features.[41] They are typically located near the data source to reduce communication
+delays, as their small size allows several MDCs to be spread out over a wide area.[42][43] MDCs are suited
+to user-facing, front end applications.[44] They are commonly used in edge computing and other areas
+where low latency data processing is needed.[45]
+
+Modularity and flexibility
+Modularity and flexibility are key elements in allowing a data
+center to grow and change over time. Data center modules are
+pre-engineered, standardized building blocks that can be
+configured and moved as needed.[46]
+
+A modular data center may consist of data center equipment
+contained within shipping containers or similar portable
+containers.[47] Components of the data center can be
+prefabricated and standardized, which facilitates moving if
+
+A 40-foot Portable Modular Data Center
+needed.[48]
+
+These modular data centers are useful for IT disaster recovery.[49][50] Mobile data centers are also used to
+move large quantities of data, by physically transporting the hardware that contains it, and in
+cryptocurrency mining, where fleets of mobile data centers are transported to take advantage of cheaper
+sources of energy.[26]
+
+History
+Data centers have their roots in the huge computer rooms of
+the 1940s, typified by the Electronic Numerical Integrator and
+Computer (ENIAC), one of the earliest examples of what has
+become known as a data center.[51][note 1] Early computer
+systems were complex to operate and maintain, and required
+a special environment in which to operate. Many cables were
+necessary to connect all of the components, and methods to
+accommodate and organize these were devised, such as
+standard racks to mount equipment, raised floors, and cable
+trays (installed overhead or under the elevated floor). A single
+mainframe required a great deal of power and had to be NASA mission control center computer
+cooled to avoid overheating. Security became important— room c. 1962
+computers were expensive, and were often used for
+government and military purposes.[51][note 2] As such, basic
+design guidelines for controlling access to the computer room were devised.
+
+During the microcomputer industry boom of the 1980s, computers started to be deployed everywhere, in
+many cases with little or no care about operating requirements. However, as information technology (IT)
+operations started to grow in complexity, organizations grew aware of the need to control IT resources.
+The availability of inexpensive networking equipment, coupled with new standards for the network
+
+
+
+structured cabling, made it possible to use a hierarchical design that put servers in a specific room inside
+the company. The use of the term data center, as applied to specially designed computer rooms, started to
+gain popular recognition about this time.[51][note 3]
+
+During the dot-com bubble (1997–2000), there was a boom in data center construction because
+companies needed fast Internet connectivity and non-stop operation to establish their Internet
+presence.[52] Many companies started building very large facilities, called internet data centers
+(IDCs),[53] which provided enhanced capabilities, such as crossover backup: "If a Bell Atlantic line is cut,
+we can transfer them to ... to minimize the time of outage."[53]
+
+The global data center market saw steady growth in the 2010s, with a notable acceleration in the latter
+half of the decade. According to Gartner, worldwide data center infrastructure spending reached
+$200 billion in 2021, representing a 6% increase from 2020 despite economic challenges posed by the
+COVID-19 pandemic.[54]
+
+In 2024, global energy consumption from data centers was 620 TWh, with 80% of that consumption
+concentrated in the U.S., China, and the United Kingdom.[55] Colocation centers were the most common
+category worldwide, with 4,799 colocation centers in 127 countries. In that year, the largest data center in
+the world was Citadel, owned by Switch, at the Tahoe Reno Industrial Center in Reno, Nevada,
+occupying 7.2 million square feet.[26]
+
+Growth of the data center industry has prompted local resistance. A 2023 survey found social
+mobilizations against the industry in Europe, the U.S., and South America. These movements expressed
+concern about the centers' energy and water use, pollution, and impact on agriculture or the landscape.[16]
+
+A 2026 poll by Politico suggested that resistance to growth of the industry would make candidates' stance
+on data centers a significant issue for voters in the U.S.[56]
+
+In the United States
+The U.S. hosted 5,381 data centers in March 2024, the highest number of any country worldwide,
+accounting for 40% of the global market in 2023.[57] As of 2025, roughly one third of America's data
+centers were in three states: Virginia (643), Texas (395), and California (319).[58]
+
+The largest concentration of data centers in the world is in Northern Virginia, with over 250 facilities in
+the region.[35] In 2025, Georgia was the fastest growing data center hub in the U.S., having enacted
+several state tax exemptions for the industry and hosting between 100 and 150 centers in the state.[59]
+
+Local governments have responded to the growing industry in Georgia with a variety of local ordinances
+to guide permitting of these facilities.[60]
+
+In 2025, it was estimated that the U.S. GDP growth was only 0.1% without the investments in data
+centers for artificial intelligence.[61]
+
+In 2026, more than 300 jurisdictions across 44 U.S. states had enacted moratoriums on data center
+development, amid concerns over electricity consumption, water use, noise and local environmental
+impacts.[62]
+
+
+
+Design and architecture
+Data centers house critical computing resources in a
+controlled environment and must generally operate with very
+high availability. Key design elements include providing
+power for the equipment, temperature and humidity control,
+cabling, fire safety, and security.[63] Information security is
+also a concern. For this reason, a data center must provide a
+secure environment that minimizes the risk of a security
+breach.
+
+Racks of telecommunications equipment
+in part of a data center Obsolescence and modernization
+
+Industry research company International Data Corporation
+(IDC) put the average age of a data center at nine years As of August 2011.[64] As of December 2024, the
+mean age of data center facilities had risen to 11.3 years, according to research analyst Jacqueline Davis
+of the Uptime Institute.[65] Gartner, another research company, argued in 2010 that data centers older than
+seven years are obsolete.[66] The growth in data volume (163 zettabytes by 2025) is one factor driving the
+need for data centers to modernize.[67] That focus is not new: rapid obsolescence of data center
+equipment was a concern by at least 2007,[68] and in May 2011, the data center research organization
+Uptime Institute reported that 36 percent of the large companies it surveyed expected to exhaust IT
+capacity within the next 18 months.[69]
+
+Industry standards
+The Telecommunications Industry Association (TIA)'s Telecommunications Infrastructure Standard for
+Data Centers[70] specifies the minimum requirements for telecommunications infrastructure of data
+centers and computer rooms, including single tenant enterprise data centers and multi-tenant Internet
+hosting data centers. The topology proposed in this document is intended to be applicable to any size data
+center.[71]
+
+Telcordia GR-3160, NEBS Requirements for Telecommunications Data Center Equipment and Spaces,[72]
+
+provides guidelines for data center spaces within telecommunications networks, and environmental
+requirements for the equipment intended for installation in those spaces. These criteria were developed
+jointly by Telcordia and industry representatives. They may be applied to data center spaces housing data
+processing or IT equipment. The equipment may be used to:
+
+Operate and manage a carrier's telecommunication network
+Translate raw consumption data into usage metrics that integrate directly with utility billing
+and customer service platforms
+Continuously monitor data streams to alert utilities of irregular spikes, line leaks, or power
+outages.
+Provide data center-based applications directly to the carrier's customers
+Provide hosted applications for a third party to provide services to their customers
+Provide a combination of these and similar data center applications
+
+
+
+Reliability of electrical power supply
+Power supplies, either back up or continuous onsite power,
+consist of one or more uninterruptible power supplies, battery
+banks, diesel, gas turbine, and/or gas engine generating
+sets.[73][74] Greater primary fuel energy efficiency can be
+achieved with the use of cogeneration technology, generating
+electricity, heating, and cooling onsite.[75]
+
+To prevent single points of failure, all elements of the
+electrical systems, including backup systems, are typically
+given redundant copies, and critical servers are connected to
+both the A-side and B-side power feeds.[76] This arrangement
+is often made to achieve N+1 redundancy in the systems.[77]
+
+Static transfer switches are sometimes used to ensure A bank of batteries in a large data center,
+instantaneous switchover from one supply to the other in the used to provide power until diesel
+event of a power failure.[78] generators can start
+
+Low-voltage cable routing
+Options for low-voltage cable routing might include data
+cabling that is routed through overhead cable trays;[79] raised
+floor cabling, both for security reasons and to avoid the extra
+cost of cooling systems over the racks; and anti-static tiles for
+flooring, especially in low-cost data centers.
+
+Environmental control
+Maintaining suitable temperature and humidity levels is Diesel-powered generator of a hospital
+
+critical to preventing equipment damage caused by data center
+
+overheating. Overheating can cause components (usually the
+silicon or copper in wires or circuits) to melt, leading to loose connections and fire hazards. Typical
+temperature control methods include air conditioning and indirect cooling, such as the use of outside
+air,[80][81][82] indirect evaporative cooling units, and seawater cooling.
+
+Airflow management is the practice of achieving data center cooling efficiency by preventing the
+recirculation of hot exhaust air and by reducing bypass airflow. Common approaches include hot-
+aisle/cold-aisle containment and the deployment of in-row cooling units, which position cooling directly
+between server racks to intercept exhaust heat before it mixes with room air.[83]
+
+Humidity control prevents moisture and related issues. For example, excess humidity can cause dust to
+adhere more readily to fan blades and heat sinks, impeding air cooling and leading to higher
+temperatures.[84]
+
+
+
+Aisle containment
+Cold aisle containment is done by exposing the rear of equipment racks, while the fronts of the servers
+are enclosed with doors and covers. This is similar to how large-scale food companies refrigerate and
+store products.
+
+Computer cabinets/server farms are often organized for containment of
+hot/cold aisles. Proper air duct placement prevents cold and hot air
+from mixing. Rows of cabinets are paired to face each other so that the
+cool and hot air intakes and exhausts do not mix, which would severely
+reduce cooling efficiency.
+
+Alternatively, a range of underfloor panels can create efficient cold air
+pathways directed to the raised-floor vented tiles. Either the cold aisle
+or the hot aisle can be contained.[85]
+
+Another option is fitting cabinets with vertical exhaust duct
+chimneys.[86] Hot exhaust pipes/vents/ducts can direct the air into a
+plenum space above a dropped ceiling and back to the cooling units or
+to outside vents. With this configuration, a traditional hot/cold aisle Typical cold aisle configuration
+configuration is not required.[87] with server rack fronts facing
+
+each other and cold air
+distributed through the raised
+
+Fire protection floor
+
+Data centers feature fire protection systems, including passive
+and active design elements, as well as implementation of fire
+prevention programs in operations. Smoke detectors are
+usually installed to provide early warning of a fire.
+
+Although the main room usually does not allow a wet pipe
+sprinkler system due to the fragile nature of printed circuit
+boards, some systems can be used in the rest of the facility or
+in cold/hot aisle air circulation systems that are closed
+systems. These include fire sprinkler systems and misting, the
+latter of which uses high pressure to create extremely small
+
+FM200 fire suppression tanks
+water droplets and can be used in sensitive rooms because of
+their size.[88]
+
+However, there are other means to put out fires, especially in sensitive areas, usually using gaseous fire
+suppression, of which Halon gas was the most popular until the negative effects of producing and using it
+were discovered.[89]
+
+Security
+Physical access to data centers is usually restricted. Layered security often starts with fencing, bollards,
+and mantraps.[90] Video camera surveillance and permanent security guards are almost always present if
+the data center is large or contains sensitive information. Fingerprint recognition is becoming
+commonplace.[91]
+
+
+
+Logging access is required by some data protection regulations; some organizations tightly integrate it
+with access control systems. Multiple log entries can occur at the main entrance, entrances to internal
+rooms, and at equipment cabinets. Access control at cabinets can be integrated with intelligent power
+distribution units, so locks are networked through the same appliance.[92]
+
+Transformation
+Data center transformation takes a step-by-step approach through integrated projects carried out over
+time. This differs from a traditional method of data center upgrades, which takes a serial and siloed
+approach.[93] Typical projects within a data center transformation initiative include
+standardization/consolidation, virtualization, automation, and security.
+
+Data center consolidation consists of reducing the number of data centers[94][95] and avoiding server
+sprawl (both physical and virtual),[96] which often includes replacing aging data center equipment. This
+process is aided by standardization, which ensures these systems follow a uniform set of configurations,
+simplifying and improving efficiency.[95] Automating tasks such as provisioning, configuration, patching,
+release management, and compliance are other ways in which data centers can be upgraded. These
+changes are needed not just when facing a shortage of skilled IT workers.[97] Lastly, security initiatives
+integrate the protection of virtual systems with existing security for physical infrastructures.[98]
+
+Raised floor
+The first raised floor computer room was made by IBM in
+1956 to allow access for wiring.[99] During the 1970s, raised
+floors became more common because they allow cool air to
+circulate more efficiently.[100] A raised floor standards guide
+(GR-2930) was developed by Telcordia Technologies, a
+subsidiary of Ericsson.[101]
+
+Lights out
+The "lights-out" data center,[102] also known as a darkened or
+dark data center, is a data center that has largely eliminated
+the need for direct access by personnel, except under
+extraordinary circumstances. Because staff do not need to
+enter the data center, it can be operated without lighting. All
+of the devices are accessed and managed by remote systems,
+with automation programs used to perform unattended
+operations. In addition to energy savings, reduced staffing Perforated cooling floor tile
+costs, and the ability to locate the site farther from population
+centers, implementing a lights-out data center also reduces the
+threat of malicious attacks on the infrastructure.[103][104]
+
+Noise levels
+Generally, local authorities prefer noise levels at data centers to be "10 dB below the existing night-time
+background noise level at the nearest residence."[105]
+
+
+
+Occupational Safety and Health Administration (OSHA) regulations require monitoring of noise levels
+inside data centers if noise exceeds 85 decibels.[106] The average noise level in server areas of a data
+center may reach as high as 92–96 dB(A).[107]
+
+Residents living near data centers have described the sound as "a high-pitched whirring noise 24/7",
+saying "It's like being on a tarmac with an airplane engine running constantly ... Except that the airplane
+keeps idling and never leaves."[108][109][110][111]
+
+External sources of noise include heating, ventilation, and air conditioning equipment and energy
+generators.[112][113]
+
+Site selection
+Location factors include proximity to power grids,
+telecommunications infrastructure, networking services,
+transportation lines, and emergency services. Other
+considerations should include flight paths, neighboring power
+drains, geological risks, and climate (associated with cooling
+costs).[114]
+
+Local political considerations, such as availability of
+subsidies and lack of opposition, are also important factors in
+locating data centers.[26]
+
+High availability
+Various metrics exist to measure the data-availability that
+results from data-center availability beyond 95% uptime, with
+
+A typical server rack, commonly seen in
+the top of the scale counting how many nines can be placed colocation
+after 99%.[115] The costs of avoiding downtime should not
+exceed the cost of the downtime itself.[116]
+
+Dynamic infrastructure
+Dynamic infrastructure[117] provides the ability to intelligently, automatically, and securely move
+workloads within a data center[118] anytime, anywhere, for migrations, provisioning,[119] to enhance
+performance, or build colocation centre facilities. It also facilitates performing routine maintenance on
+either physical or virtual systems, all while minimizing interruption. A related concept is Composable
+Infrastructure, which allows dynamic reconfiguration of available resources to suit needs only when
+needed.[120]
+
+Side benefits include:
+
+reducing cost
+facilitating business continuity and high availability
+enabling cloud and grid computing.[121]
+
+
+
+Network infrastructure
+Communications in
+modern data centers are
+most often based on
+networks running the
+Internet protocol suite.
+Data centers contain a set
+of routers and switches that
+transport traffic between
+the servers and to the An operation engineer overseeing a
+outside world,[122] which network operations control room of a data
+are connected according to center (2006)
+the data center network
+architecture. Redundancy
+of the internet connection is often provided by using two or more
+
+An example of network upstream service providers (). Some of the servers at a data center are
+infrastructure of a data center used for running the basic internet and intranet services needed by
+
+internal users in the organization (e.g., e-mail servers, proxy servers,
+and DNS servers).
+
+Network security elements are also usually deployed: firewalls, VPN gateways, intrusion detection
+systems, and so on. Also common are monitoring systems for the network and for some applications.
+Additional off-site monitoring systems are also typical in case of a communications failure inside the data
+center.
+
+Energy use and environmental impact
+Energy consumption and the environmental impacts it creates
+are a central issue for data centers.[124][125] Power draw
+ranges from a few kilowatts (kW) for small server racks to
+several tens of megawatts (MW) for large facilities. Modern
+hyperscale data centers can exhibit power densities exceeding
+100 times those of conventional office buildings, primarily
+due to the high concentration of servers and cooling systems
+required to manage continuous digital workloads.[126] For Fueled by growth in artificial intelligence,
+higher power density facilities, electricity costs are a data centers' demand for power
+dominant operating expense and account for over 10% of the increased in the 2020s.[123]
+
+total cost of ownership (TCO) of a data center.[127]
+
+As of 2024, data centers in the U.S. are primarily powered by natural gas, which supplies 40% of their
+electricity (with renewable energy at 24%, nuclear at about 20%, and coal at about 15%).[128] The
+Associated Press reported that electricity for AI data centers in the U.S. would likely come from natural
+gas or oil, as companies prefer using currently available power plants, which primarily use fossil fuels.
+Fossil energy is also often cheaper in locations where data centers are developed, and experts believe that
+energy demands from generative AI and data centers would be difficult to fulfill with renewable energy
+alone. Some companies such as Google, Amazon, and Meta have expressed interest in nuclear power for
+
+
+
+their data centers.[129] As of 2020, according to the IEA, solar
+photovoltaic-generated electricity is at its lowest cost in
+history.[130] Other data centers, including xAI's Colossus,
+OpenAI's Stargate, and Meta's Prometheus use their own off-
+grid natural gas plants.[131][132] Electric vehicle and lithium-
+ion batteries have also been used for powering data centers,
+including for Colossus.[133][134]
+
+Power utility companies upgrade their infrastructure to handle
+the demands of new data centers, and the cost of these Share of total electricity demand used by
+changes typically falls on residential or smaller commercial data centers (2025)
+consumers.[128][129][15] In 2025, the Mountain Valley Pipeline
+announced plans to expand its capacity by 25% to meet
+energy needs for data centers.[35]
+
+In December 2025, the Federal Energy Regulatory
+Commission (FERC) issued a unanimous order allowing data
+centers in the U.S. to connect directly to power plants.[135]
+
+United States Secretary of Energy Chris Wright expressed
+support for un-retiring coal plants to power AI data
+centers.[136] Electricity demands from AI data centers have
+slowed or reversed the retirement of peaking power plants in Google Data Center, The Dalles, Oregon
+the U.S.[137] For example, in 2025, Southern Company
+announced that energy use from data centers would prevent
+the company from retiring coal-fired power plants as it had earlier promised.[35] In Nevada, the Desert
+Research Institute (DRI) calculated that 35% of the state's energy production could go to data centers by
+the year 2030 if all projects planned in the state as of 2026 are completed.[138] DRI also stated, in areas
+where there are clusters of data centers, local consumers may end up paying the extra cost of expanding
+infrastructure.[138]
+
+Greenhouse gas emissions
+In 2024, data centers were estimated to account for about 1.5% of global electricity consumption
+(approximately 415 TWh) and around 1% of greenhouse gas emissions according to U.S. Environmental
+Protection Agency (EPA).[139] However, the rapid expansion is causing projections to rise sharply. Due to
+accelerated demand from AI, global data center electricity consumption is projected to more than double
+to around 945 TWh by 2030 in the IEA's base-case scenario, representing just under 3% of 2030 total
+global electricity consumption.[140] This growing electricity demand, much of which is still generated by
+fossil fuels, increases the potential environmental impacts.[141] In addition to operational energy demand,
+embodied life cycle emissions should be considered, which include the extraction, manufacturing,
+transportation, and recycling or disposal of materials used in the construction of facilities and
+hardware.[142]
+
+Global data center carbon dioxide emissions are projected to rise from an estimated 220 million tonnes in
+2024 to 300–320 million tonnes by 2035.[143] In 2024, Google and Microsoft each consumed 24 TWh –
+more than many countries.[144] As a result, there is increasing industry pressure for decarbonization.
+
+
+
+Companies are pursuing direct clean energy agreements, such as Tencent who has pledged to be carbon
+neutral by 2030,[145] and Microsoft's 2024 agreement to re-open the Three Mile Island nuclear power
+plant to provide 100% of the electric power for its AI data centers for 20 years.[146]
+
+Economic analysis of energy use
+
+Energy efficiency and overhead
+The most commonly used energy-efficiency metric for data centers is power usage effectiveness (PUE),
+calculated as the ratio of total power entering the data center to the power used by IT equipment.
+
+Total Facility Power Non IT Facility Energy
+PUE = ⁠IT Equipment Power ⁠ = 1 + ⁠ IT Equipment Energy ⁠
+
+PUE measures the percentage of power used by overhead devices (cooling, lighting, etc.). The average
+U.S. data center has a PUE of 2.0,[147] meaning two watts of total power (overhead + IT equipment) for
+every watt delivered to IT equipment. State-of-the-art data centers are estimated to have a PUE of roughly
+1.2.[148] Google publishes quarterly efficiency metrics from its data centers in operation.[149] PUEs of as
+low as 1.01 have been achieved with two-phase immersion cooling.[150]
+
+The EPA has an Energy Star rating for standalone or large data centers. To qualify for the ecolabel, a data
+center must be within the top quartile in energy efficiency of all reported facilities.[151] The Energy
+Efficiency Improvement Act of 2015 (U.S.) requires federal facilities—including data centers—to operate
+more efficiently. California's Title 24 (2014) of the California Code of Regulations mandates that every
+newly constructed data center have some form of airflow containment to optimize energy
+efficiency.[152][153]
+
+The European Union (EU) also has a similar initiative: EU Code of Conduct for Data Centres.[154]
+
+Efficiency improvements and renewable energy integration are helping to offset some emissions, but
+fossil fuels remain a major source of electricity for data center operations worldwide.[155]
+
+In 2011, server racks in data centers were designed for more than 25  kW, and the typical server was
+estimated to waste about 30% of the electricity it consumed. The energy demand for information storage
+systems is also rising. A high-availability data center is estimated to have a 1 MW demand and consume
+$20 million in electricity over its lifetime, with cooling accounting for 35% to 45% of the data center's
+total cost of ownership. Calculations show that in two years, the cost of powering and cooling a server
+could be equal to the cost of purchasing the server hardware.[156] Research in 2018 showed that a
+substantial amount of energy could still be conserved by optimizing IT refresh rates and increasing server
+use.[157] Research for optimizing task scheduling is also underway, with researchers looking to
+implement energy-efficient scheduling algorithms that could reduce energy consumption by anywhere
+between 6% and 44%.[158]
+
+The International Energy Agency has estimated that the energy efficiency of AI-related computer chips
+improved more than 100-fold between 2008 and 2023.[159]
+
+
+
+In 2011, Facebook, Rackspace, and others founded the Open Compute Project (OCP) to develop and
+publish open standards for greener data center computing technologies. As part of the project, Facebook
+published the designs of its server, which it had built for its first dedicated data center in Prineville.
+Making servers taller left space for more effective heat sinks and enabled the use of fans that moved more
+air with less energy. By not buying commercial off-the-shelf servers, energy consumption from
+unnecessary expansion slots on the motherboard and unneeded components, such as a graphics card, was
+also reduced.[160] In 2016, Google joined the project and published the designs of its 48V DC shallow
+data center rack. This design had long been part of Google data centers. By eliminating the multiple
+transformers usually deployed in data centers, Google had achieved a 30% increase in energy
+efficiency.[161] In 2017, sales for data center hardware built to OCP designs topped $1.2 billion and are
+expected to reach $6 billion by 2021.[160]
+
+Power and cooling analysis
+Power is the largest recurring cost to the user of a data
+center.[162] In 2008, the ASHRAE recommended a
+temperature range of 64.4  °F (18.0  °C) to 80.6  °F
+(27.0 °C), though some data centers could operate at
+higher temperatures.[163] However, cooling at or
+below 70  °F (21  °C) wastes money and
+energy.[164][165] Furthermore, overcooling equipment
+in environments with a high relative humidity can
+expose equipment to a high amount of moisture that
+facilitates the growth of salt deposits on conductive
+filaments in the circuitry.[166] Data center at CERN (2010)
+
+A power and cooling analysis, also referred to as a
+thermal assessment, measures the relative temperatures in specific areas as well as the capacity of the
+cooling systems to handle specific ambient temperatures.[167] A power and cooling analysis can help
+identify hot spots, over-cooled areas that can handle greater power use density, the breakpoint of
+equipment loading, the effectiveness of a raised-floor strategy, and optimal equipment positioning (such
+as AC units) to balance temperatures across the data center. Power cooling density is a measure of how
+much square footage the center can cool at maximum capacity.[168] The cooling of data centers is the
+second largest power consumer after servers, with cooling taking about 7% to 30% of energy usage
+(depending on efficiency), compared to an average of 60% of energy used by servers.[58]
+
+Energy efficiency analysis
+An energy efficiency analysis measures the energy use of data center IT and facilities equipment. A
+typical energy efficiency analysis measures factors such as a data center's Power Use Effectiveness (PUE)
+against industry standards, identifies mechanical and electrical sources of inefficiency, and identifies air-
+management metrics.[169] However, the limitation of most current metrics and approaches is they do not
+include IT in the analysis. Case studies have shown that by addressing energy efficiency holistically in a
+data center, major efficiencies can be achieved that are not possible otherwise.[170]
+
+Computational fluid dynamics (CFD) analysis
+
+
+
+Computational fluid dynamics (CFD) analysis uses sophisticated tools and techniques to understand the
+unique thermal conditions present in each data center—predicting the temperature, airflow, and pressure
+behavior of a data center to assess performance and energy consumption using numerical modeling.[171]
+
+By predicting the effects of these environmental conditions, CFD analysis can be used to predict the
+impact of high-density racks mixed with low-density racks[172] and the onward impact on cooling
+resources, poor infrastructure management practices, and AC failure or AC shutdown for scheduled
+maintenance.
+
+Thermal zone mapping
+Thermal zone mapping uses sensors and computer modeling to create a three-dimensional image of the
+hot and cool zones in a data center.[173] This information can help identify optimal positioning of data
+center equipment. For example, critical servers might be placed in a cool zone that is serviced by
+redundant AC units.
+
+Green data centers
+Data centers consume large amounts of power, split between
+two main uses: running the equipment and cooling it.[58]
+
+Power efficiency reduces the first category.
+
+Cooling cost reduction through natural means includes This water-cooled data center in the Port
+location decisions. When the focus is on avoiding good fiber of Strasbourg, France, claims the
+connectivity, power grid connections, and people attribute green.
+concentrations for equipment management, a data center can
+be miles away from users. Mass data centers like Google or
+Facebook do not need to be near population centers. Arctic locations that can use outside air for cooling
+are becoming more popular.[174] Countries with favorable conditions, such as Canada,[175] Finland,[176]
+
+Sweden,[177] Norway,[178] and Switzerland[179] are trying to attract cloud computing data centers.
+
+Singapore lifted a three-year ban on new data centers in April 2022. A major data center hub for the Asia-
+Pacific region,[180] Singapore lifted its moratorium on new data center projects in 2022, granting four
+new projects, but rejecting more than 16 data center applications from over 20 received. Singapore's new
+data centers will meet very strict green technology criteria, including "Water Usage Effectiveness (WUE)
+of 2.0/MWh, Power Usage Effectiveness (PUE) of less than 1.3, and have a "Platinum certification under
+Singapore's BCA-IMDA Green Mark for New Data Centre" criteria that clearly addressed
+decarbonization and use of hydrogen cells or solar panels.[181][182][183][184]
+
+Energy reuse
+It is very difficult to reuse the heat generated by air-cooled data centers. For this reason, data center
+infrastructures are more often equipped with heat pumps.[185]
+
+
+
+Power infrastructure
+The rapid growth of artificial intelligence (AI) and high-performance computing workloads has increased
+attention on data center power infrastructure, particularly the relationship between electrical reliability,
+deployment timelines, energy costs, and decarbonization objectives. Industry publications have described
+phased approaches to infrastructure development that enable operators to deploy power capacity rapidly
+while maintaining pathways toward lower-carbon energy systems as technologies, fuel availability, grid
+capacity, and economics evolve.[186][187]
+
+Recent industry discussion has also emphasized "speed-to-power" as a significant consideration in data
+center development, reflecting the growing importance of securing electrical capacity and resilient power
+systems within increasingly compressed project timelines.
+
+Morgan Stanley predicts that hi-tech firms will have invested up to $3 trillion, through 2028, building and
+equipping new data centers, as they compete to generate AI computing power.[188] The cost of that
+equipment more than tripled between January 2023 and October 2026.[189]
+
+An analysis by Lawrence Berkeley National Laboratory of U.S. retail electricity prices between 2019 and
+2025 found that the main drivers of price increases were utility investment in grid infrastructure, natural
+gas prices, recovery from natural disasters and state energy policies, and did not identify data centers as a
+major influence on prices in most of the country. States with the largest data center demand growth
+generally saw price decreases over the period, although some saw increases, and it remains unclear
+whether the pattern will continue.[190] A growing number of state utility regulators have adopted large-
+load tariffs or separate customer classes intended to assign the cost of grid upgrades required by data
+centers to those customers rather than to other ratepayers.[190]
+
+Regulation and policy responses
+In the 2020s, the rapid growth of data center construction gave rise to policy debates over tax incentives,
+electricity grid, water resources, and climate commitments.[191][21]
+
+Tax incentives
+By 2024, at least 36 U.S. states had introduced specific tax incentives to attract data center investment,
+most often in the form of sales tax exemptions for servers, networking equipment, and electricity.[192]
+
+Virginia hosts the largest concentration of data centers in the U.S.,[58] and a December 2024 audit by its
+Joint Legislative Audit and Review Commission (JLARC) put the industry's annual contribution at
+roughly 74,000 jobs and $9.1 billion in gross state product. The audit reported that the state's sales and
+use tax exemption was claimed by about 90% of operators and that reduced state revenue by an estimated
+$928 million in fiscal year 2023.[191] Thus, JLARC concluded that ending the exemption would likely
+shrink Virginia's share of new data center investment.[191]
+
+Economists have debated the effectiveness of such incentives more broadly. A review published in the
+Journal of Economic Perspectives (JEP) found that state and local business tax incentives in the U.S. had
+roughly tripled since the 1990s to about $30 billion per year, and reported no strong evidence that firm-
+
+
+
+specific incentives increase broader economic growth at the state or local level.[193] Further, research by
+Timothy Bartik of the Upjohn Institute estimated that economic development incentives change firm
+location decisions in only 2% to 25% of cases.[194][191]
+
+In response to tax-exemption policies, several jurisdictions have begun to reevaluate incentives for data
+centers. In 2024, the Georgia General Assembly passed legislation to terminate the state's data center
+sales tax exemption. However, the bill was ultimately vetoed by Governor Brian Kemp.[195] In another
+case in 2026, the Virginia Senate voted 28 to 12 to phase out the state's data center sales tax exemption as
+part of broader budget negotiations.[196]
+
+Water footprint
+Most large data centers use water for evaporative cooling of their servers. A 2025 article estimated that
+data centers use about 0.3% of the public water supply in the United States.[197] A separate study
+published in Environmental Research Letters found that about one-fifth of direct water use by U.S. data
+centers came from moderately or highly water-stressed watersheds, and that nearly half of the country's
+servers ran on electricity drawn from water-stressed regions.[198] According to a 2024 Berkeley Lab
+report, data centers in the U.S. had used approximately 17  billion gallons of water. The same report
+expected hyperscale data centers specifically to use 16 to 33 billion gallons of water per year by 2028.[58]
+
+In Virginia, the December 2024 JLARC audit reported that data centers in the state consumed about
+2.1 billion gallons of water in 2023, an 86% increase since 2019, and that roughly one-third of that came
+from reclaimed water rather than potable supplies. The audit recommended that local governments be
+authorized to require water-use estimates as part of the data center permitting process.[191]
+
+There is no federal U.S. standard requiring data center operators to disclose their water footprint, and
+access to facility-level data has often been limited by non-disclosure agreements (NDAs) with host
+municipalities. In 2022, the city of The Dalles, Oregon, settled a public records lawsuit brought by The
+Oregonian, after which Google ended its nationwide practice of treating site-level water use as a trade
+secret.[199] In 2025, several states considered legislation to require data centers to disclose water use,
+including bills in Virginia, California, and New Jersey, although each was vetoed by the state's governor
+that year.[200]
+
+Electricity and grid policy
+The growth of data center electricity demand in the 2020s has prompted regulatory debates over grid
+capacity, transmission planning, and how the costs of new infrastructure should be allocated among
+customers. The 2024 Lawrence Berkeley National Laboratory (LBNL) report on U.S. data center energy
+use, prepared at the request of the U.S. Congress, estimated that data centers accounted for about 4.4% of
+national electricity consumption in 2023 and projected a rise to between 6.7% and 12% by 2028,
+depending on growth scenarios.[201] In 2025, the IEA projected that data centers would account for nearly
+half of new U.S. electricity demand growth through 2030.[21]
+
+The North American Electric Reliability Corporation (NERC), the federally designated electric reliability
+organization for the U.S., identified data centers as the single largest driver of projected demand growth
+in its 2024 long-term reliability assessment. Additionally, NERC documented a voltage event in the PJM
+Interconnection region in July 2024, in which roughly 1,500 megawatts of data center load disconnected
+simultaneously across about 60 facilities.[202]
+
+
+
+How the costs of meeting this demand are shared has also become a central policy question. The JLARC
+audit in 2024 estimated that, without any changes to rate design, typical residential customers of
+Dominion Energy Virginia could see their bills rise by $14 to $37 per month by 2040 due to data center-
+driven grid investment. As such, the report recommended creating a separate customer rate class for large
+data centers.[191] Some researchers have urged caution in interpreting demand projections. Furthermore, a
+2024 commentary in the journal Joule argued that public estimates of future data center electricity use
+vary widely, that utilities have historically overforecasted load growth, and called for more transparent
+data on actual facility-level consumption.[203]
+
+As data center electricity use has grown, several U.S. states have created "large-load" tariffs that require
+data center operators to help pay for new grid infrastructure, rather than passing those costs on to other
+customers.[204] In May 2026, Oregon regulators approved a large-load tariff for Portland General Electric
+applying to data centers using more than 20 megawatts. The rule requires these customers to pay for the
+distribution upgrades needed to serve them and adds a surcharge on the largest projects, with revenue
+used to offset costs for lower-income customers.[204] Not every proposal has been approved: in October
+2025, the Federal Energy Regulatory Commission rejected a large-load tariff proposed by the Tri-State
+Generation and Transmission Association, ruling that it would have regulated retail electricity sales,
+which fall under state rather than federal jurisdiction.[205] A 2026 review by researchers at Argonne
+National Laboratory found that U.S. data center electricity use is projected to grow between 13% and
+27% annually from 2023 to 2028, far faster than overall U.S. electricity demand.[206]
+
+Without such tariffs, the cost of new power infrastructure can be paid by households rather than by the
+data centers whose demand created the need for it. The same 2026 Argonne study found that in the PJM
+Interconnection region, roughly four billion dollars in high-voltage transmission costs tied to data center
+demand were spread across all utility customers under existing planning rules.[206] A separate 2026
+review in the MIT Science Policy Review found that growing data center electricity demand can create
+affordability pressure for households, since infrastructure costs are often passed through in utility
+bills.[207] The review noted that a single large AI-focused data center can use as much electricity as
+100,000 households, with the newest facilities expected to use up to 20 times that amount.[208] In
+response, several states have adopted tariffs requiring data centers to pay for the grid costs they cause,
+including the Oregon framework approved for Portland General Electric.[204]
+
+Climate policy alignment
+The growth of data centers has raised questions about whether the renewable energy commitments made
+by their operators are consistent with broader climate goals. Many large operators report meeting
+electricity-related emissions targets through annual purchases of renewable energy certificates (RECs) or
+matching their total annual consumption with renewable generation. In 2022, a study published in Nature
+Climate Change analyzed 115 companies via the Science Based Targets initiative. It found that about
+42% of their reported Scope 2 emissions reductions disappeared once REC-based claims were excluded.
+This directly suggests that some corporate climate progress reflected accounting choices rather than
+actual reductions in grid emissions.[209]
+
+In response, some operators and researchers have proposed 24/7 carbon-free energy matching. Under this
+approach, every hour of a facility's electricity use must be matched with carbon-free generation on the
+same regional grid. A 2024 Joule study modeled the idea. The authors found that annual or volumetric
+
+
+
+matching did little to cut grid emissions under current U.S. policy. Hourly 24/7 matching cut more, but it
+cost about $13 to $30 more per megawatt-hour.[210]
+
+The tension between data center expansion and corporate climate goals has also become apparent in the
+operators' own disclosures of information. In 2024, Google reported its greenhouse gas emissions had
+risen by about 48% since 2019, attributing the increase in large part to data center electricity use
+associated with AI workloads.[211] Similarly, Microsoft reported in 2024 that its emissions had risen by
+about 29% since 2020, citing the construction and operation of new data centers.[212] Moreover, the IEA
+projected in 2025 that global data center carbon dioxide emissions could peak at around 320 million
+tonnes by 2030 before declining slightly through 2035, with the trajectory depending heavily on the
+carbon intensity of the electricity supplied to new facilities.[21]
+
+Socioeconomic and environmental impacts
+Data centers have significant impacts on local ecologies, politics, and utility infrastructure.[26][16] A
+report from CIT and UC Riverside suggests data centers by 2030 could contribute to $20 million of
+healthcare costs and 1,300 premature deaths.[213] Political and economic incentives such as tax breaks,
+land deals, or government subsidies drive data center growth in areas where these incentives are
+available.[26] Data centers are frequently located in rural areas, where they may displace agriculture.[214]
+
+Growth in the data center industry has prompted several debates about environmental impacts, especially
+the massive energy and water demands. The supply chains, emissions, and e-waste also impose
+significant planetary impacts, raising questions of environmental injustice toward marginalized
+communities that frequently bear these burdens.[26] Multiple studies and experts have found that data
+centers do not bring high-paying jobs to local communities in proportion to the tax subsidies they
+receive.[215]
+
+Water footprint
+The rapid expansion of AI data centers has raised significant concerns over their water footprint,
+particularly in drought-prone regions. According to the IEA, a single 100-megawatt data center, using
+2400 MWh of electricity per day, can use up to 2,000,000 litres (530,000 US gal) of water per day. The
+electricity use is equivalent to that of 60,000–120,000 households in the U.S.,[216] while water use is
+equivalent about 6,500 households.[217][218] Water usage can be divided into three categories: on-site
+(direct usage from data centers), off-site (indirect usage from electricity), and supply-chain (water usage
+from manufacturing processes).[219]
+
+On-site water use refers to the direct water used by the data center for the cooling of its equipment.[219]
+
+Water is used specifically for space humidification (adding moisture to the air), evaporative cooling
+systems (cooling air before entering server rooms),[217] and cooling towers (removing heat from the
+facility).[220]
+
+Off-site water use is the indirect water usage from the electricity generated for data centers. It is estimated
+that 56% of U.S. data centers' electricity comes from fossil fuels in thermal power stations, which use
+water to generate power via steam.[221]
+
+
+
+Lastly, data centers consume water through the process of AI chip and server manufacturing. These chips,
+specifically, consume a vast amount of ultrapure water for fabrication and cooling of semiconductor
+plants.[219] While this scope of water usage is not as significant as on-site and off-site water usage, it is
+still a contributing factor.
+
+The water footprint of a data center depends heavily on its cooling design, local climate and electricity
+supply. Evaporative cooling uses less electricity but consumes water on site, whereas air-cooled and
+closed-loop systems consume little water directly but require more power, which increases the water
+consumed at the thermoelectric power plants supplying the grid.[222][223] The International Energy
+Agency has estimated that a 100 MW data center in the United States consumes roughly 2 million litres
+of water per day when averaged across cooling types, of which less than 40% is consumed on site and the
+remainder in electricity generation.[222] A 2026 modelling study by researchers at the University of
+Michigan found that switching a hypothetical facility from water-cooled to air-cooled chillers reduced
+total water consumption by 44%, but shifted most of the remaining footprint to power plants elsewhere
+on the grid.[224] A 2026 review in Next Sustainability concluded that direct liquid cooling offers the most
+favourable published combination of energy and water performance, while noting that most supporting
+figures come from simulations and vendor data rather than independent field measurements.[223]
+
+Globally, since 2022, more than two-thirds of new data centers have been built in water-stressed areas,
+including Texas, Arizona, Saudi Arabia, and India, where freshwater scarcity is already a critical issue.
+The global water footprint of data centers is estimated at 560 billion litres (150 ×109 US gal) annually, a
+figure projected to double by 2030 due to increasing AI demand.[225][226]
+
+In regions like Aragon, Spain, Amazon's planned data centers are licensed to withdraw 755,720 cubic
+metres (612.67 acre⋅ft) of water per year, sparking conflicts with farmers who rely on the same dwindling
+supplies.
+
+Jobs created by data centers vary significantly by project type, phase and region.[227][228][229]. A study
+found the productivity increases enabled by data centers are multiple times larger than gross external
+damages.[230] Construction phases generate larger but temporary workforces, while operational roles tend
+to be fewer but more specialized. JLARC audit of Virginia's data center industry reported approximately
+74,000 direct and indirect jobs and $9.1 billion in gross state product attributable to the sector[231][232]
+
+Critics nonetheless argue that permanent employment figures are low relative to the scale of tax subsidies
+received, a tension that has driven several states to reassess their incentive structures.
+
+In 2026, it was reported that data centers were becoming a target of organized crime, in which thieves
+were stealing copper and data center equipment from construction sites and selling them on the black
+market. In July 2026, authorities in Illinois recovered two trailers carrying $1.3 million worth of stolen
+equipment that were linked to theft cases in Alabama, Florida, and Wisconsin.[233][234][235][236]
+
+A 2026 systematic review concluded that data centers are a capital-intensive establishment with little
+labor demand that yield limited economic benefits to local communities while simultaneously increasing
+pressures on resources and infrastructure.[237]
+
+
+
+Opposition
+Social mobilizations against data centers help shape the discourse around growth of the industry, raise
+public awareness of issues data centers present, and may impact public policy.[16] Groups opposed to new
+data center projects have expressed concern that digital infrastructure exploits local resources 'to the
+benefit of actors and institutions residing elsewhere'. This may occur when data being processed in a
+facility belongs to actors in other countries, but local people bear the burdens of water and energy use.[16]
+
+In the U.S., bipartisan[238][239] community resistance to data center development has grown, with
+residents voicing concerns about water scarcity, rising utility bills, noise pollution, and urban
+sprawl.[240][241] Facilities in rural areas of the U.S. have been focal points for local resistance.[242] Data
+Center Watch reported that multiple projects collectively worth $64 billion had been stopped or delayed
+between May 2024 and March 2025.[243] An additional $98  billion worth of projects were blocked or
+delayed between March and June 2025.[241] A Gallup poll taken in March 2026 reported seven out of ten
+Americans oppose data center projects in their area, and the most common concerns were impact on
+resources, electricity costs and quality of life.[244][239] In August 2026, the National Republican
+Senatorial Committee issued a memo to AI companies to do whatever it takes to quell the public backlash
+against data centers, or it could "become a sleeper issue for the entire election cycle."[245]
+
+Outside of the U.S., protests in the Netherlands led to a temporary national ban on new mega-centers in
+2022.[240][241] In Chile, protests by activists to protect water reserves led to Google withdrawing plans to
+build a data center.[246] In the United Kingdom, "March Against the Machines" protests were held.[247]
+
+Residents have been concerned about air, water, and noise pollution,[248] as well as property
+devaluation,[249] traffic,[250] and the risk of fires.[251] Other environmental concerns involving AI data
+centers include e-waste[252] and the embodied energy of construction materials, such as concrete and
+cement.[253]
+
+In the Philippines, in August 2026, farmers and Indigenous Aeta communities started a petition objecting
+to the building of data hubs under the Pax Silica initiative, raising issues of potential displacement from
+ancestral lands, environmental degradation, and negative effects to farmers' livelihoods.[254] Opposition
+to the initiative have also come from environmental activists, faith groups, and progressive groups.
+Concerns have been raised on issues concerning agriculture, water, electricity, and national
+sovereignty.[255]
+
+Foreign propaganda
+China, Russia, and Iran have spread propaganda against Western data centers in videos, comics, and news
+articles.[256]
+
+Future
+Housing data centers in space has been proposed for low Earth orbit (LEO). The theoretical advantages
+are that of space-based solar power, in addition to aiding in weather forecasting and weather prediction
+computation from weather satellites,[257] and the ability to freely scale up.[258] However, it is difficult to
+design cooling systems in space, as convection is not available and sunlight causes large temperature
+fluctuations. Other challenges include damage from cosmic rays and micrometeorites.[257]
+
+
+
+Beyond questions of
+technical feasibility,
+expanding data centers
+presence in space has been
+described as the application
+of colonial ideology, which
+considers "foreign land" as
+readily available for
+resources extraction.[259]
+
+The design and shape of data
+centers could change rapidly Design of a sun-synchronous orbit Sun-synchronous orbit animation of AI
+in the not-too-distant future data center, they would orbit above supercomputing satellites
+with the advent of new the dawn / dusk transition of the
+technologies, such as planet.
+quantum computing,
+biocomputation, and synthetic DNA data storage, as examples.[26]
+
+See also
+Computer cooling Network operations center
+Data center management Open Compute Project, by Facebook
+Internet exchange point Peering
+Internet hosting service Server farm
+Microsoft underwater data center Server room
+Neher–McGrath method
+
+Notes
+1. Old large computer rooms that housed machines like the U.S. Army's ENIAC, which were
+
+developed pre-1960 (1945), are now referred to as data centers.
+2. Until the early 1960s, it was primarily the government that used computers, which were
+
+large mainframes housed in rooms that today we call data centers.
+3. In the 1990s, network-connected minicomputers (servers) running without input or display
+
+devices were housed in the old computer rooms. These new "data centers" or "server
+rooms" were built within company walls, co-located with low-cost networking equipment.
+
+Further reading
+Barroso, Luiz André; Hölzle, Urs; Ranganathan, Parthasarathy (2026). Data Center as a
+Computer: Designing Warehouse-Scale Machines (4th ed.). Springer Cham.
+doi:10.1007/978-3-031-99489-0 (https://doi.org/10.1007%2F978-3-031-99489-0). ISBN 978-
+3-031-99488-3.
+
+
+
+References
+1. Mineo, Liz (April 9, 2026). "Why are communities pushing back against data centers?" (http
+
+s://news.harvard.edu/gazette/story/2026/04/why-are-communities-pushing-back-against-dat
+a-centers/). Harvard Gazette. Archived (https://web.archive.org/web/20260705193838/http
+s://news.harvard.edu/gazette/story/2026/04/why-are-communities-pushing-back-against-dat
+a-centers/) from the original on July 5, 2026. Retrieved July 3, 2026.
+
+2. "Data Center" (https://www.waru.edu/glossary/data-center). Retrieved July 3, 2026.
+3. Smalley, Stephanie Susnjara, Ian (September 4, 2024). "What Is a Data Center?" (https://w
+
+ww.ibm.com/think/topics/data-centers). IBM. Archived (https://web.archive.org/web/2026071
+0223802/https://www.ibm.com/think/topics/data-centers) from the original on July 10, 2026.
+Retrieved July 3, 2026.
+
+4. "Data Centers and Their Energy Consumption: Frequently Asked Questions" (https://www.co
+ngress.gov/crs-product/R48646). Archived (https://web.archive.org/web/20260710193932/ht
+tps://www.congress.gov/crs-product/R48646) from the original on July 10, 2026. Retrieved
+July 3, 2026.
+
+5. "Data Centers and Their Energy Consumption: Frequently Asked Questions" (https://www.co
+ngress.gov/crs-product/R48646). Archived (https://web.archive.org/web/20260710193932/ht
+tps://www.congress.gov/crs-product/R48646) from the original on July 10, 2026. Retrieved
+July 3, 2026.
+
+6. Smalley, Stephanie Susnjara, Ian (September 4, 2024). "What Is a Data Center?" (https://w
+ww.ibm.com/think/topics/data-centers). IBM. Archived (https://web.archive.org/web/2026071
+0223802/https://www.ibm.com/think/topics/data-centers) from the original on July 10, 2026.
+Retrieved July 3, 2026.
+
+7. Measuring the Data Center Boom: Facts and Statistics (2026) (https://programs.com/resour
+ces/data-center-statistics/), programs.com
+
+8. "Types of Data Centers | How do you Choose the Right Data Center?" (https://www.maystee
+l.com/blog/types-of-data-centers-how-do-you-choose-the-right-data-center/). Maysteel
+Industries, LLC. Archived (https://web.archive.org/web/20230601152244/https://maysteel.co
+m/blog/types-of-data-centers-how-do-you-choose-the-right-data-center) from the original on
+June 1, 2023. Retrieved October 7, 2023.
+
+9. "What is a Data Center - Types of Data Centers" (https://www.cisco.com/site/us/en/learn/topi
+cs/computing/what-is-a-data-center.html). Cisco. Archived (https://web.archive.org/web/2026
+0621063743/https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-data-center.
+html) from the original on June 21, 2026. Retrieved July 3, 2026.
+
+10. Smalley, Stephanie Susnjara, Ian (September 4, 2024). "What Is a Data Center?" (https://w
+ww.ibm.com/think/topics/data-centers). IBM. Archived (https://web.archive.org/web/2026071
+0223802/https://www.ibm.com/think/topics/data-centers) from the original on July 10, 2026.
+Retrieved July 3, 2026.
+
+11. "Data Centers and Their Energy Consumption: Frequently Asked Questions" (https://www.co
+ngress.gov/crs-product/R48646). Archived (https://web.archive.org/web/20260710193932/ht
+tps://www.congress.gov/crs-product/R48646) from the original on July 10, 2026. Retrieved
+July 3, 2026.
+
+12. Top 5 Largest Data Center in The World 2026 (https://gbc-engineers.com/news/largest-data-
+center-in-the-world), gbc-engineers.com
+
+13. "Energy demand from AI – Energy and AI – Analysis" (https://www.iea.org/reports/energy-an
+d-ai/energy-demand-from-ai). IEA. Archived (https://web.archive.org/web/20260517032539/
+https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai) from the original on May
+17, 2026. Retrieved July 3, 2026.
+
+
+
+14. "AI is set to drive surging electricity demand from data centres while offering the potential to
+transform how the energy sector works - News" (https://www.iea.org/news/ai-is-set-to-drive-
+surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-t
+he-energy-sector-works). IEA. April 10, 2025. Archived (https://web.archive.org/web/202607
+02211526/https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-c
+entres-while-offering-the-potential-to-transform-how-the-energy-sector-works) from the
+original on July 2, 2026. Retrieved July 3, 2026.
+
+15. Whoriskey, Peter (July 27, 2025). "The AI explosion means millions are paying more for
+electricity" (https://www.washingtonpost.com/business/2025/07/27/electricity-rates-ohio-data
+-centers-ai/). The Washington Post. Archived (https://web.archive.org/web/2025100402242
+6/https://www.washingtonpost.com/business/2025/07/27/electricity-rates-ohio-data-centers-
+ai/) from the original on October 4, 2025. Retrieved March 19, 2026.
+
+16. Biancalana, Cecilia (2025). "Environmental Challenges in the Platform Society: Insights from
+Mobilisations Against Data Centres". Mapping the Evolution of Platform Society. pp. 171–
+182. doi:10.1108/978-1-83608-028-220251010 (https://doi.org/10.1108%2F978-1-83608-02
+8-220251010). ISBN 978-1-83608-029-9.
+
+17. Taft, Molly. "New report indicates a growing public resistance to data centers" (https://www.
+motherjones.com/politics/2025/11/report-growing-public-resistance-data-centers-ai-power-bil
+ls-water-land-use/). Mother Jones. Archived (https://web.archive.org/web/20251207212420/
+https://www.motherjones.com/politics/2025/11/report-growing-public-resistance-data-centers
+-ai-power-bills-water-land-use/) from the original on December 7, 2025. Retrieved July 3,
+2026.
+
+18. PricewaterhouseCoopers. "A new era of load growth: How data centers are becoming part
+of our communities and energy system" (https://web.archive.org/web/20260518131855/http
+s://www.pwc.com/us/en/industries/energy-utilities-resources/library/data-centers.html). PwC.
+Archived from the original (https://www.pwc.com/us/en/industries/energy-utilities-resources/li
+brary/data-centers.html) on May 18, 2026. Retrieved September 15, 2026.
+
+19. "New evidence on data center employment effects" (https://www.brookings.edu/articles/new-
+evidence-on-data-center-employment-effects/). Brookings. Retrieved September 15, 2026.
+
+20. Shehabi, Arman; Newkirk, Alexandra; Smith, Sarah J.; Hubbard, Andrew; Lei, Nuoa; Siddik,
+Md Abu Bakar; Holecek, Benjamin; Koomey, Jonathan; Masanet, Eric; Sartor, Dale (2024).
+2024 United States Data Center Energy Usage Report (https://eta-publications.lbl.gov/sites/
+default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf) (PDF)
+(Report). Lawrence Berkeley National Laboratory. LBNL-2001637. Archived (https://web.arc
+hive.org/web/20260304100118/https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl
+-2024-united-states-data-center-energy-usage-report_1.pdf) (PDF) from the original on
+March 4, 2026. Retrieved March 1, 2026.
+
+21. International Energy Agency (2025). "Executive summary – Energy and AI – Analysis" (http
+s://www.iea.org/reports/energy-and-ai/executive-summary). IEA. Archived (https://web.archi
+ve.org/web/20260430112434/https://www.iea.org/reports/energy-and-ai/executive-summary)
+from the original on April 30, 2026. Retrieved March 1, 2026.
+
+22. Synergy Research Group (August 7, 2024). "Hyperscale Operators and Colocation Continue
+to Drive Huge Changes in Data Center Capacity Trends" (https://www.srgresearch.com/articl
+es/hyperscale-operators-and-colocation-continue-to-drive-huge-changes-in-data-center-cap
+acity-trends). Synergy Research Group. Archived (https://web.archive.org/web/2026021206
+1636/https://www.srgresearch.com/articles/hyperscale-operators-and-colocation-continue-to
+-drive-huge-changes-in-data-center-capacity-trends) from the original on February 12, 2026.
+Retrieved March 1, 2026.
+
+
+
+23. Katal, Avita; Dahiya, Susheela; Choudhury, Tanupriya (June 2023). "Energy efficiency in
+cloud computing data centers: a survey on software technologies" (https://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC9424070). Cluster Computing. 26 (3): 1845–1875.
+doi:10.1007/s10586-022-03713-0 (https://doi.org/10.1007%2Fs10586-022-03713-0).
+PMC 9424070 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9424070). PMID 36060618
+(https://pubmed.ncbi.nlm.nih.gov/36060618).
+
+24. "What is a Data Center? – Cloud Data Center Explained" (https://aws.amazon.com/what-is/
+data-center/). Amazon Web Services, Inc. Archived (https://web.archive.org/web/202602132
+11103/https://aws.amazon.com/what-is/data-center/) from the original on February 13, 2026.
+Retrieved February 25, 2026.
+
+25. "What Is a Data Center?" (https://www.ibm.com/topics/data-centers). IBM. September 4,
+2024. Archived (https://web.archive.org/web/20241211190253/https://www.ibm.com/topics/d
+ata-centers) from the original on December 11, 2024. Retrieved February 25, 2026.
+
+26. Edwards, Dustin; Cooper, Zane Griffin Talley; Hogan, Mél (April 2025). "The making of
+critical data center studies" (https://doi.org/10.1177%2F13548565231224157).
+Convergence: The International Journal of Research into New Media Technologies. 31 (2):
+429–446. doi:10.1177/13548565231224157 (https://doi.org/10.1177%2F1354856523122415
+7).
+
+27. "Touring the PhoenixNAP Data Center" (https://www.servethehome.com/touring-the-phoenix
+nap-data-center/2/). servethehome.com. June 22, 2021. Archived (https://web.archive.org/w
+eb/20250523012819/https://www.servethehome.com/touring-the-phoenixnap-data-center/2/)
+from the original on May 23, 2025. Retrieved May 21, 2025.
+
+28. "The rise and rebirth of carrier hotels" (https://www.datacenterdynamics.com/en/analysis/the
+-rise-and-rebirth-of-carrier-hotels/). datacenterdynamics.com. October 6, 2023. Archived (htt
+ps://web.archive.org/web/20231106200130/https://www.datacenterdynamics.com/en/analysi
+s/the-rise-and-rebirth-of-carrier-hotels/) from the original on November 6, 2023. Retrieved
+May 19, 2025.
+
+29. Dave Bullock (April 3, 2008). "A Lesson in Internet Anatomy: The World's Densest Meet-Me
+Room" (https://www.wired.com/2008/04/gallery-one-wilshire/). Wired. Archived (https://web.a
+rchive.org/web/20220815102804/https://www.wired.com/2008/04/gallery-one-wilshire/) from
+the original on August 15, 2022. Retrieved June 16, 2022.
+
+30. "AWASR, AMS-IX, and Alliance Networks launch Internet exchange in Oman" (https://www.d
+atacenterdynamics.com/en/news/awasr-ams-ix-and-alliance-networks-launch-internet-excha
+nge-in-oman/). datacenterdynamics.com. September 13, 2023. Archived (https://web.archiv
+e.org/web/20231206172736/https://www.datacenterdynamics.com/en/news/awasr-ams-ix-a
+nd-alliance-networks-launch-internet-exchange-in-oman/) from the original on December 6,
+2023. Retrieved May 19, 2025.
+
+31. "Data Center Tours: Equinix DC12, Ashburn, Virginia" (https://www.datacenterfrontier.com/c
+olo/article/55125540/data-center-tours-equinix-dc12-ashburn-virginia).
+datacenterfrontier.com. July 16, 2024. Archived (https://web.archive.org/web/202505221113
+22/https://www.datacenterfrontier.com/colo/article/55125540/data-center-tours-equinix-dc12-
+ashburn-virginia) from the original on May 22, 2025. Retrieved May 19, 2025.
+
+32. "How the Internet works: Submarine fiber, brains in jars, and coaxial cables" (https://arstech
+nica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-ce
+ntres-last-mile/#page-4). arstechnica.com. May 26, 2016. Archived (https://web.archive.org/
+web/20250523132557/https://arstechnica.com/information-technology/2016/05/how-the-inte
+rnet-works-submarine-cables-data-centres-last-mile/#page-4) from the original on May 23,
+2025. Retrieved May 21, 2025.
+
+33. "Equinix Expands Miami Data Center Key to Latin American Connectivity" (https://www.data
+centerknowledge.com/networking/equinix-expands-miami-data-center-that-s-key-to-latin-am
+erican-connectivity). Archived (https://web.archive.org/web/20250618180636/https://www.da
+tacenterknowledge.com/networking/equinix-expands-miami-data-center-that-s-key-to-latin-a
+merican-connectivity) from the original on June 18, 2025. Retrieved May 21, 2025.
+
+
+
+34. "Hyperscale Data Center Count Hits 1,136; Average Size Increases; US Accounts for 54%
+of Total Capacity" (https://www.srgresearch.com/articles/hyperscale-data-center-count-hits-1
+136-average-size-increases-us-accounts-for-54-of-total-capacity). Synergy Research
+Group. March 19, 2025. Archived (https://web.archive.org/web/20260519233713/https://ww
+w.srgresearch.com/articles/hyperscale-data-center-count-hits-1136-average-size-increases-
+us-accounts-for-54-of-total-capacity) from the original on May 19, 2026. Retrieved May 11,
+2026.
+
+35. Chen, Amber X. "A.I. Is on the Rise, and So Is the Environmental Impact of the Data
+Centers That Drive It" (https://www.smithsonianmag.com/science-nature/with-ai-on-the-rise-
+what-will-be-the-environmental-impacts-of-data-centers-180987379/). Smithsonian
+Magazine. Archived (https://web.archive.org/web/20260322165232/https://www.smithsonian
+mag.com/science-nature/with-ai-on-the-rise-what-will-be-the-environmental-impacts-of-data-
+centers-180987379/) from the original on March 22, 2026. Retrieved March 19, 2026.
+
+36. "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a
+scramble for solutions" (https://www.iea.org/news/data-centre-electricity-use-surged-in-2025
+-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions). International Energy
+Agency. 2025. Retrieved August 27, 2026.
+
+37. Kamiya, George; Coroamă, Vlad C. (2025). "Data Centre Energy Use: Critical Review of
+Models and Results" (https://www.iea-4e.org/wp-content/uploads/2025/05/Data-Centre-Ener
+gy-Use-Critical-Review-of-Models-and-Results.pdf) (PDF). IEA 4E TCP – EDNA. Archived (h
+ttps://web.archive.org/web/20260219165722/https://www.iea-4e.org/wp-content/uploads/202
+5/05/Data-Centre-Energy-Use-Critical-Review-of-Models-and-Results.pdf) (PDF) from the
+original on February 19, 2026. Retrieved March 1, 2026.
+
+38. Gameiro, João; Rosmaninho, Rodrigo; Perna, Gonçalo; Rito, Pedro; Sargento, Susana;
+Marques, Carlos; Pinto, Filipe (January 2026). "Edge computing and 5G network integration
+for mobility-aware service deployments" (https://doi.org/10.1016%2Fj.pmcj.2025.102134).
+Pervasive and Mobile Computing. 115 102134. doi:10.1016/j.pmcj.2025.102134 (https://doi.
+org/10.1016%2Fj.pmcj.2025.102134).
+
+39. "Edge Computing with 5G: Synergies, Use Cases & Best Practices" (https://flolive.net/blog/g
+lossary/edge-computing-with-5g-synergies-use-cases-and-best-practices/). floLIVE.
+Archived (https://web.archive.org/web/20260308065418/https://flolive.net/blog/glossary/edg
+e-computing-with-5g-synergies-use-cases-and-best-practices/) from the original on March 8,
+2026. Retrieved May 11, 2026.
+
+40. University, EC-Council (December 11, 2025). "Why IoT, 5G, and Edge Computing Demand a
+New Cybersecurity Mindset" (https://www.eccu.edu/blog/iot-5g-edge-computing-cybersecurit
+y-mindset/). eccuedu. Archived (https://web.archive.org/web/20260216163903/https://www.e
+ccu.edu/blog/iot-5g-edge-computing-cybersecurity-mindset/) from the original on February
+16, 2026. Retrieved May 11, 2026.
+
+41. Ibrahim, Rosdiazli; Porkumaran, K.; Kannan, Ramani; Nor, Nursyarizal Mohd; Prabakar, S.
+(November 13, 2022). International Conference on Artificial Intelligence for Smart
+Community: AISC 2020, 17–18 December, Universiti Teknologi Petronas, Malaysia (https://b
+ooks.google.com/books?id=6tabEAAAQBAJ&dq=micro+data+center&pg=PA461). Springer
+Nature. p. 461. ISBN 978-981-16-2183-3.
+
+42. Guo, Song; Qu, Zhihao (February 10, 2022). Edge Learning for Distributed Big Data
+Analytics: Theory, Algorithms, and System Design (https://books.google.com/books?id=9IxV
+EAAAQBAJ&dq=micro+data+center&pg=PA12). Cambridge University Press. pp. 12–13.
+ISBN 978-1-108-83237-3.
+
+43. Research Anthology on Edge Computing Protocols, Applications, and Integration (https://bo
+oks.google.com/books?id=hWV2EAAAQBAJ&dq=micro+data+center&pg=PA55). IGI
+Global. April 1, 2022. p. 55. ISBN 978-1-6684-5701-6.
+
+44. Furht, Borko; Escalante, Armando (December 9, 2011). Handbook of Data Intensive
+Computing (https://books.google.com/books?id=29UIY9EZTzYC&dq=micro+data+center&p
+g=PA17). Springer Science & Business Media. p. 17. ISBN 978-1-4614-1414-8.
+
+
+
+45. Srivastava, Gautam; Ghosh, Uttam; Lin, Jerry Chun-Wei (June 24, 2023). Security and Risk
+Analysis for Intelligent Edge Computing (https://books.google.com/books?id=ahvHEAAAQB
+AJ&dq=micro+data+center&pg=PA17). Springer Nature. p. 17. ISBN 978-3-031-28150-1.
+
+46. Niles, Susan. "Standardization and Modularity in Data Center Physical Infrastructure," 2011,
+Schneider Electric, page 4. "Standardization and Modularity in Data Center Physical
+Infrastructure" (https://web.archive.org/web/20120416120624/http://www.apcmedia.com/sal
+estools/VAVR-626VPD_R1_EN.pdf) (PDF). Archived from the original (http://www.apcmedia.
+com/salestools/VAVR-626VPD_R1_EN.pdf) (PDF) on April 16, 2012. Retrieved February 8,
+2012.
+
+47. "Strategies for the Containerized Data Center" (http://www.datacenterknowledge.com/archiv
+es/2011/09/08/strategies-for-the-containerized-data-center/). Data Center Knowledge.
+September 8, 2011. Archived (https://web.archive.org/web/20120123193211/http://www.data
+centerknowledge.com/archives/2011/09/08/strategies-for-the-containerized-data-center/)
+from the original on January 23, 2012. Retrieved February 8, 2012.
+
+48. Niccolai, James (July 27, 2010). "HP says prefab data center cuts costs in half" (http://www.i
+nfoworld.com/d/green-it/hp-says-prefab-data-center-cuts-costs-in-half-837?page=0,0).
+Archived (https://web.archive.org/web/20130603111508/http://www.infoworld.com/d/green-it/
+hp-says-prefab-data-center-cuts-costs-in-half-837?page=0,0) from the original on June 3,
+2013. Retrieved February 8, 2012.
+
+49. Tynan, Dan (October 28, 2013). "The Thoroughly Modular Data Center" (https://fedtechmag
+azine.com/article/2013/10/thoroughly-modular-data-center). FedTech. Archived (https://web.
+archive.org/web/20260311200832/https://fedtechmagazine.com/article/2013/10/thoroughly-
+modular-data-center) from the original on March 11, 2026. Retrieved May 11, 2026.
+
+50. "Disaster Recovery" (https://modulardtc.com/en/disaster-recovery-2/). Modular. Archived (htt
+ps://web.archive.org/web/20240619164654/https://modulardtc.com/en/disaster-recovery-2/)
+from the original on June 19, 2024. Retrieved May 11, 2026.
+
+51. Angela Bartels (August 31, 2011). "Data Center Evolution: 1960 to 2000" (https://web.archiv
+e.org/web/20181024232055/https://blog.rackspace.com/datacenter-evolution-1960-to-200
+0). Archived from the original (https://blog.rackspace.com/datacenter-evolution-1960-to-200
+0) on October 24, 2018. Retrieved October 24, 2018.
+
+52. Cynthia Harvey (July 10, 2017). "Data Center" (https://www.datamation.com/data-center/wh
+at-is-data-center.html). Datamation. Archived (https://web.archive.org/web/2022121613224
+2/https://www.datamation.com/data-center/what-is-data-center/) from the original on
+December 16, 2022. Retrieved October 28, 2018.
+
+53. John Holusha (May 14, 2000). "Commercial Property/Engine Room for the Internet;
+Combining a Data Center With a 'Telco Hotel' " (https://www.nytimes.com/2000/05/14/realest
+ate/commercial-property-engine-room-for-internet-combining-data-center-with-telco.html).
+The New York Times. Archived (https://web.archive.org/web/20240628163920/https://www.n
+ytimes.com/2000/05/14/realestate/commercial-property-engine-room-for-internet-combining-
+data-center-with-telco.html) from the original on June 28, 2024. Retrieved June 23, 2019.
+
+54. "Gartner Says Worldwide Data Center Infrastructure Spending to Grow 6% in 2021" (https://
+www.gartner.com/en/newsroom/press-releases/2020-10-07-gartner-says-worldwide-data-ce
+nter-infrastructure-spending-to-grow-6-percent-in-2021). Gartner, Inc. Archived (https://web.
+archive.org/web/20240706031816/https://www.gartner.com/en/newsroom/press-releases/20
+20-10-07-gartner-says-worldwide-data-center-infrastructure-spending-to-grow-6-percent-in-
+2021) from the original on July 6, 2024. Retrieved July 6, 2024.
+
+55. Da Silva, Leandro Aureliano; Vasconcelos, Eduardo Silva; De Paiva, Luiz Fernando Ribeiro;
+Collaço, Maria Heliodora do Vale Romeiro; Joaquim, Welington Mrad; De Lima, Adriano
+Dawison; Goulart, Cleiton Silvano; Teixeira, Edilberto Pereira (2025). Energy Consumption
+of Data Centers and the Primary Energy Metric: Global Analysis 2000–2024 and Projections
+Until 2030 (Report). pp. 21–41. doi:10.56238/edimpacto2025.072-002 (https://doi.org/10.56
+238%2Fedimpacto2025.072-002).
+
+
+
+56. "The big split driving the tricky politics of AI data centers" (https://www.politico.com/news/202
+6/02/06/tech-industry-ai-data-centers-politics-00762348). POLITICO. February 6, 2026.
+Retrieved March 19, 2026.
+
+57. Petroc, Taylor. "Leading countries by number of data centers as of March 2024" (https://ww
+w.statista.com/statistics/1228433/data-centers-worldwide-by-country/). Statista. Archived (htt
+ps://web.archive.org/web/20221216132254/https://www.statista.com/statistics/1228433/data
+-centers-worldwide-by-country/) from the original on December 16, 2022. Retrieved July 6,
+2024.
+
+58. Leppert, Rebecca (October 24, 2025). "What we know about energy use at U.S. data
+centers amid the AI boom" (https://www.pewresearch.org/short-reads/2025/10/24/what-we-k
+now-about-energy-use-at-us-data-centers-amid-the-ai-boom/). Pew Research Center.
+Archived (https://web.archive.org/web/20251213105706/https://www.pewresearch.org/short-
+reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-the-ai-boom/)
+from the original on December 13, 2025. Retrieved May 11, 2026.
+
+59. Hunter, Kala (September 10, 2025). "How Georgia became the 'wild west' of data centers. Is
+transparency on the horizon?" (https://www.gpb.org/news/2025/09/10/how-georgia-became-
+the-wild-west-of-data-centers-transparency-on-the-horizon). Georgia Public Broadcasting.
+Archived (https://web.archive.org/web/20260326234019/https://www.gpb.org/news/2025/09/
+10/how-georgia-became-the-wild-west-of-data-centers-transparency-on-the-horizon) from
+the original on March 26, 2026. Retrieved March 19, 2026.
+
+60. Hunter, Kala (October 22, 2025). "A 'wave' of data center ordinances sweep through GA
+counties. How strict are they?" (https://www.gpb.org/news/2025/10/22/wave-of-data-center-o
+rdinances-sweep-through-ga-counties-how-strict-are-they). Georgia Public Broadcasting.
+Archived (https://web.archive.org/web/20260310163718/https://www.gpb.org/news/2025/10/
+22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they) from
+the original on March 10, 2026. Retrieved March 19, 2026.
+
+61. Lichtenberg, Nick (October 8, 2025). "Without data centers, GDP growth was 0.1% in the
+first half of 2025, Harvard economist says" (https://finance.yahoo.com/news/without-data-ce
+nters-gdp-growth-171546326.html). Yahoo Finance. Archived (https://web.archive.org/web/2
+0251018060803/https://finance.yahoo.com/news/without-data-centers-gdp-growth-1715463
+26.html) from the original on October 18, 2025. Retrieved October 19, 2025.
+
+62. Meyersohn, Nathaniel (September 11, 2026). "Everyone hates data centers. Lawyers love
+them | CNN Business" (https://edition.cnn.com/2026/09/11/business/data-centers-lawyers-e
+conomy). CNN. Retrieved September 11, 2026.
+
+63. Arregoces, Mauricio; Portolani, Maurizio (2004). Data center fundamentals. Indianapolis,
+Ind: Cisco. ISBN 978-1-58705-023-7.
+
+64. "Mukhar, Nicholas. "HP Updates Data Center Transformation Solutions," August 17, 2011"
+(https://web.archive.org/web/20120812184028/http://www.mspmentor.net/2011/08/17/hp-up
+dates-data-transformation-solutions/). Archived from the original on August 12, 2012.
+Retrieved September 9, 2011.
+
+65. Davis, Jacqueline (December 6, 2024). "How much capacity is in aging data centers?" (http
+s://www.datacenterdynamics.com/en/opinions/how-much-capacity-is-in-aging-data-center
+s/). datacenterdynamics.com. London: Data Centre Dynamics Ltd. Retrieved August 20,
+2026.
+
+66. "Sperling, Ed. "Next-Generation Data Centers," Forbes, March 15. 2010" (https://www.forbe
+s.com/2010/03/12/cloud-computing-ibm-technology-cio-network-data-centers.html).
+Forbes.com. Archived (https://web.archive.org/web/20231210145904/https://www.forbes.co
+m/2010/03/12/cloud-computing-ibm-technology-cio-network-data-centers.html) from the
+original on December 10, 2023. Retrieved August 30, 2013.
+
+
+
+67. "IDC white paper, sponsored by Seagate" (https://www.seagate.com/files/www-content/our-s
+tory/trends/files/Seagate-WP-DataAge2025-March-2017.pdf) (PDF). Archived (https://web.ar
+chive.org/web/20171208010603/https://www.seagate.com/files/www-content/our-story/trend
+s/files/Seagate-WP-DataAge2025-March-2017.pdf) (PDF) from the original on December 8,
+2017. Retrieved January 11, 2018.
+
+68. "Data centers are aging, unsuited for new technologies" (https://www.datacenterdynamics.c
+om/news/data-centers-are-aging-unsuited-for-new-technologies-and-businesses-are-slow-to
+-respond-says-new-ari-survey). December 10, 2007. Archived (https://web.archive.org/web/
+20181221230404/https://www.datacenterdynamics.com/news/data-centers-are-aging-unsuit
+ed-for-new-technologies-and-businesses-are-slow-to-respond-says-new-ari-survey/) from
+the original on December 21, 2018. Retrieved December 21, 2018.
+
+69. James Niccolai. "Data Centers Turn to Outsourcing to Meet Capacity Needs" (https://web.ar
+chive.org/web/20111115103016/http://www.cio.com/article/681897/Data_Centers_Turn_to_
+Outsourcing_to_Meet_Capacity_Needs). CIO magazine. Archived from the original (http://w
+ww.cio.com/article/681897/Data_Centers_Turn_to_Outsourcing_to_Meet_Capacity_Needs)
+on November 15, 2011. Retrieved September 9, 2011.
+
+70. "TIA-942 Certified Data Centers - Consultants - Auditors" (https://web.archive.org/web/2021
+1103114509/http://www.tia-942.org/). TIA-942.org. Archived from the original (http://www.tia-
+942.org/) on November 3, 2021. Retrieved May 8, 2015.
+
+71. "Telecommunications Standards Development" (https://web.archive.org/web/201111060427
+58/http://www.tiaonline.org/standards/). Archived from the original (http://www.tiaonline.org/s
+tandards) on November 6, 2011. Retrieved November 7, 2011.
+
+72. "GR-3160 – Telecommunications Data Center – Telcordia" (https://telecom-info.njdepot.erics
+son.net/site-cgi/ido/docs.cgi?ID=SEARCH&DOCUMENT=GR-3160&). telecom-
+info.njdepot.ericsson.net. Archived (https://web.archive.org/web/20221007030412/https://tel
+ecom-info.njdepot.ericsson.net/site-cgi/ido/docs.cgi?ID=SEARCH&DOCUMENT=GR-3160
+&) from the original on October 7, 2022. Retrieved January 19, 2021.
+
+73. Detailed explanation of UPS topologies "EVALUATING THE ECONOMIC IMPACT OF UPS
+TECHNOLOGY" (https://web.archive.org/web/20101122074817/http://emersonnetworkpowe
+r.com/en-US/Brands/Liebert/Documents/White%20Papers/Evaluating%20the%20Economi
+c%20Impact%20of%20UPS%20Technology.pdf) (PDF). Archived from the original (http://ww
+w.emersonnetworkpower.com/en-US/Brands/Liebert/Documents/White%20Papers/Evaluatin
+g%20the%20Economic%20Impact%20of%20UPS%20Technology.pdf) (PDF) on November
+22, 2010.
+
+74. Podcast episode discussing data center power and energy supply (https://www.youtube.co
+m/watch?v=ZLZvUbGHNjg) (Podcast). Modo Energy, YouTube. Archived (https://web.archiv
+e.org/web/20260314173444/https://www.youtube.com/watch?v=ZLZvUbGHNjg) from the
+original on March 14, 2026. Retrieved April 8, 2026.
+
+75. Clarke Energy (2014) Green Investment Bank: Citibank UK data centre cut its energy usage
+in first of a kind project "Green Investment Bank: Citibank UK data centre cut its energy
+usage in first of a kind project" (https://www.clarke-energy.com/2014/green-investment-bank
+-citibank-uk-data-centre-cut-energy-usage-first-kind-project-2/). October 31, 2014. Archived
+(https://web.archive.org/web/20251222113537/https://www.clarke-energy.com/2014/green-in
+vestment-bank-citibank-uk-data-centre-cut-energy-usage-first-kind-project-2/) from the
+original on December 22, 2025. Retrieved November 11, 2025.
+
+76. Vieira, Debra (December 27, 2017). "Data center design considerations" (https://www.csem
+ag.com/data-center-design-considerations/). Consulting – Specifying Engineer. Archived (htt
+ps://web.archive.org/web/20260518001003/https://www.csemag.com/data-center-design-co
+nsiderations/) from the original on May 18, 2026. Retrieved February 25, 2026.
+
+
+
+77. "Using Static Transfer Switches to Enhance Data Center Availability and Maintainability" (htt
+ps://web.archive.org/web/20260226183017/https://www.joepowell.com/app/uploads/white-p
+apers/Using-Static-Transfer-Switches-to-Enhance-Data-Center-Availability-and-Maintainabili
+ty-Technical-Note-TN-00011.pdf) (PDF). 2010. Archived from the original (https://www.joepo
+well.com/app/uploads/white-papers/Using-Static-Transfer-Switches-to-Enhance-Data-Cente
+r-Availability-and-Maintainability-Technical-Note-TN-00011.pdf) (PDF) on February 26, 2026.
+Retrieved February 26, 2026.
+
+78. "Data Center Redundancy Definition & Reliability Best Practices" (https://www.socomec.us/e
+n-us/solutions/business/data-centers/data-center-redundancy-definition-reliability-best-practi
+ces). June 13, 2025. Archived (https://web.archive.org/web/20260215185853/https://www.so
+comec.us/en-us/solutions/business/data-centers/data-center-redundancy-definition-reliability
+-best-practices) from the original on February 15, 2026. Retrieved February 25, 2026.
+
+79. "Cable tray systems support cables' journey through the data center" (https://www.cablingins
+tall.com/data-center/article/16465216/cable-tray-systems-support-cables-journey-through-th
+e-data-center). Cabling Installation & Maintenance. April 1, 2016. Retrieved October 14,
+2025.
+
+80. "tw telecom and NYSERDA Announce Co-location Expansion" (https://web.archive.org/web/
+20090926171248/http://www.reuters.com/article/pressRelease/idUS141369+14-Sep-2009+
+PRN20090914). Reuters. September 14, 2009. Archived from the original (https://www.reute
+rs.com/article/pressRelease/idUS141369+14-Sep-2009+PRN20090914) on September 26,
+2009.
+
+81. "Air to air combat – indirect air cooling wars" (http://www.datacenterdynamics.com/focus/arc
+hive/2013/09/air-air-combat-indirect-air-cooling-wars-0). Archived (https://web.archive.org/w
+eb/20141213040836/http://www.datacenterdynamics.com/focus/archive/2013/09/air-air-com
+bat-indirect-air-cooling-wars-0) from the original on December 13, 2014. Retrieved
+December 12, 2014.
+
+82. Indirect systems can reduce or eliminate the need for mechanical chillers or conventional air
+conditioners, resulting in energy savings.
+
+83. Mike Fox (February 15, 2012). "Stulz announced it has begun manufacturing In Row server
+cooling units under the name "CyberRow" " (https://web.archive.org/web/20120301084918/h
+ttp://www.datacenterfix.com/news/stulz-release-cyberrow-row-cooling-units). DataCenterFix.
+Archived from the original (http://datacenterfix.com/news/stulz-release-cyberrow-row-cooling
+-units) on March 1, 2012. Retrieved February 27, 2012.
+
+84. "The Importance of Humidity Management in Data Centres and comms Rooms" (https://tres
+ke.com.au/blogs/treske-business-blogs/the-importance-of-humidity-management-in-data-ce
+ntres-and-comms-rooms-ensuring-optimal-performance-and-reliability). Treske Pty Limited.
+February 10, 2024. Archived (https://web.archive.org/web/20250515010526/https://treske.co
+m.au/blogs/treske-business-blogs/the-importance-of-humidity-management-in-data-centres-
+and-comms-rooms-ensuring-optimal-performance-and-reliability) from the original on May
+15, 2025. Retrieved May 10, 2025.
+
+85. "Hot Aisle vs. Cold Aisle: Data Center Cooling Efficiency" (http://www.missioncriticalmagazin
+e.com/ext/resources/MC/Home/Files/PDFs/WP-APC-Hot_vs_Cold_Aisle.pdf) (PDF).
+Mission Critical Magazine. APC. Archived (https://web.archive.org/web/20251008160844/htt
+ps://www.missioncriticalmagazine.com/ext/resources/MC/Home/Files/PDFs/WP-APC-Hot_v
+s_Cold_Aisle.pdf/) from the original on October 8, 2025. Retrieved December 10, 2025.
+
+86. "US Patent Application for DUCTED EXHAUST EQUIPMENT ENCLOSURE Patent
+Application (Application #20180042143 issued February 8, 2018) – Justia Patents Search"
+(https://patents.justia.com/patent/20180042143). patents.justia.com. Archived (https://web.ar
+chive.org/web/20180418032435/https://patents.justia.com/patent/20180042143) from the
+original on April 18, 2018. Retrieved April 17, 2018.
+
+
+
+87. "Airflow Management Basics – Comparing Containment Systems • Data Center Frontier" (ht
+tps://web.archive.org/web/20190219015621/https://datacenterfrontier.com/airflow-managem
+ent-basics-comparing-containment-systems/). Data Center Frontier. July 27, 2017. Archived
+from the original (https://datacenterfrontier.com/airflow-management-basics-comparing-cont
+ainment-systems) on February 19, 2019. Retrieved April 17, 2018.
+
+88. "Data Center Fire Suppression Systems: What Facility Managers Should Consider" (https://
+www.facilitiesnet.com/datacenters/article/Data-Center-Fire-Suppression-Systems-What-Faci
+lity-Managers-Should-Consider--14595). Facilitiesnet. Archived (https://web.archive.org/we
+b/20240522091545/https://www.facilitiesnet.com/datacenters/article/Data-Center-Fire-Suppr
+ession-Systems-What-Facility-Managers-Should-Consider--14595) from the original on May
+22, 2024. Retrieved October 28, 2018.
+
+89. "Halons Program" (https://www.epa.gov/ozone-layer-protection/halons-program). United
+States Environmental Protection Agency. July 15, 2015. Archived (https://web.archive.org/w
+eb/20240305040334/https://www.epa.gov/ozone-layer-protection/halons-program) from the
+original on March 5, 2024. Retrieved May 18, 2026.
+
+90. Sarah D. Scalet (November 1, 2005). "19 Ways to Build Physical Security Into a Data
+Center" (https://web.archive.org/web/20080421020352/http://www.csoonline.com/article/220
+665). Csoonline.com. Archived from the original (http://www.csoonline.com/article/220665)
+on April 21, 2008. Retrieved August 30, 2013.
+
+91. Shailaja, C. (August 16, 2022). "Physical Security of a Data Center" (https://www.automatio
+n.com/article/physical-security-of-a-data-center). Automation.com. Archived (https://web.arc
+hive.org/web/20260722125352/https://www.automation.com/article/physical-security-of-a-da
+ta-center) from the original on July 22, 2026. Retrieved May 18, 2026.
+
+92. Systems and methods for controlling an electronic lock for a remote device (https://patents.g
+oogle.com/patent/US9865109B2/en), August 1, 2016, archived (https://web.archive.org/web/
+20230306024610/https://patents.google.com/patent/US9865109B2/en) from the original on
+March 6, 2023, retrieved April 25, 2018
+
+93. "Tang, Helen. "Three Signs it's time to transform your data center," August 3, 2010, Data
+Center Knowledge" (https://web.archive.org/web/20110810100214/http://www.datacenterkn
+owledge.com/archives/2010/08/03/three-signs-it%E2%80%99s-time-to-transform-your-data-
+center/). Data Center Knowledge. August 3, 2010. Archived from the original (http://www.dat
+acenterknowledge.com/archives/2010/08/03/three-signs-it%E2%80%99s-time-to-transform-
+your-data-center/) on August 10, 2011. Retrieved September 9, 2011.
+
+94. Darrow, Barb. "Welcome to the Great Data Center Consolidation" (https://fortune.com/2017/
+02/15/data-center-consolidation-cloud/). Fortune. Archived (https://web.archive.org/web/202
+51107115404/https://fortune.com/2017/02/15/data-center-consolidation-cloud/) from the
+original on November 7, 2025. Retrieved October 14, 2025.
+
+95. "This Wave of Data Center Consolidation is Different from the First One" (https://www.datac
+enterknowledge.com/management/this-wave-of-data-center-consolidation-is-different-from-t
+he-first-one). DataCenterKnowledge. Archived (https://web.archive.org/web/2025101723180
+4/https://www.datacenterknowledge.com/management/this-wave-of-data-center-consolidatio
+n-is-different-from-the-first-one) from the original on October 17, 2025. Retrieved
+October 14, 2025.
+
+96. "IBM Systems Magazine – Stop Virtual Server Sprawl" (https://web.archive.org/web/201810
+23003128/http://ibmsystemsmag.com/power/systems-management/virtualization/stop-serve
+r-sprawl/). ibmsystemsmag.com. Archived from the original (http://ibmsystemsmag.com/pow
+er/systems-management/virtualization/stop-server-sprawl/) on October 23, 2018. Retrieved
+October 7, 2025.
+
+97. "Complexity: Growing Data Center Challenge" (https://www.datacenterknowledge.com/busin
+ess/complexity-growing-data-center-challenge). DataCenterKnowledge. Archived (https://we
+b.archive.org/web/20251107115327/https://www.datacenterknowledge.com/business/compl
+exity-growing-data-center-challenge) from the original on November 7, 2025. Retrieved
+October 7, 2025.
+
+
+
+98. "Securing the Data-Center Transformation Aligning Security and Data-Center Dynamics" (htt
+ps://web.archive.org/web/20170625144826/http://lippisreport.com/2011/05/securing-the-dat
+a-center-transformation-aligning-security-and-data-center-dynamics/). Lippis Report.
+Archived from the original (http://lippisreport.com/2011/05/securing-the-data-center-transfor
+mation-aligning-security-and-data-center-dynamics/) on June 25, 2017. Retrieved
+October 14, 2025.
+
+99. "Data Center Raised Floor History" (http://ed-thelen.org/comp-hist/RaisedFloor-or-Non-Rais
+ed-Floor.pdf) (PDF). Archived (https://web.archive.org/web/20180523173228/http://ed-thele
+n.org/comp-hist/RaisedFloor-or-Non-Raised-Floor.pdf) (PDF) from the original on May 23,
+2018. Retrieved October 28, 2018.
+
+100. Hwaiyu Geng (2014). Data Center Handbook (https://books.google.com/books?isbn=111843
+6636). John Wiley & Sons. ISBN 978-1-118-43663-9.
+
+101. "GR-2930 - NEBS: Raised Floor Requirements" (https://telecom-info.njdepot.ericsson.net/sit
+e-cgi/ido/docs.cgi?ID=SEARCH&DOCUMENT=GR-2930&). Archived (https://web.archive.or
+g/web/20210412155739/https://telecom-info.njdepot.ericsson.net/site-cgi/ido/docs.cgi?ID=S
+EARCH&DOCUMENT=GR-2930&) from the original on April 12, 2021. Retrieved
+January 19, 2021.
+
+102. "Premier 100 Q&A: HP's CIO sees 'lights-out' data centers" (https://web.archive.org/web/20
+190712195816/https://www.computerworld.com/article/2562532/premier-100-q-a--hp-s-cio-s
+ees--lights-out--data-centers.html). Informationweek. March 6, 2006. Archived from the
+original (https://www.computerworld.com/article/2562532/premier-100-q-a--hp-s-cio-sees--li
+ghts-out--data-centers.html) on July 12, 2019.
+
+103. Victor Kasacavage (2002). Complete book of remote access: connectivity and security. The
+Auerbach Best Practices Series. CRC Press. p. 227. ISBN 0-8493-1253-1.
+
+104. Roxanne E. Burkey; Charles V. Breakfield (2000). Designing a total data solution:
+technology, implementation and deployment. Auerbach Best Practices. CRC Press. p. 24.
+ISBN 0-8493-0893-3.
+
+105. Clarke, Renaud (July 1, 2020). "Acoustic Barriers for Data Centres" (https://www.iacacoustic
+s.global/news/acoustic-barriers-for-data-centres/). IAC Acoustics. Archived (https://web.archi
+ve.org/web/20230211134814/https://www.iacacoustics.global/news/acoustic-barriers-for-dat
+a-centres/) from the original on February 11, 2023. Retrieved February 11, 2023.
+
+106. Thibodeau, Patrick (July 31, 2007). "That sound you hear? The next data center problem" (h
+ttps://www.computerworld.com/article/2542868/that-sound-you-hear--the-next-data-center-p
+roblem.html). Computerworld. Archived (https://web.archive.org/web/20230211134815/http
+s://www.computerworld.com/article/2542868/that-sound-you-hear--the-next-data-center-pro
+blem.html) from the original on February 11, 2023. Retrieved February 11, 2023.
+
+107. Sensear. "Data Center Noise Levels" (https://www.sensear.com/markets/data-centers/noise-
+levels-infographic). Sensear. Archived (https://web.archive.org/web/20230211133052/https://
+www.sensear.com/markets/data-centers/noise-levels-infographic) from the original on
+February 11, 2023. Retrieved February 11, 2023.
+
+108. Weisbrod, Katelyn (February 10, 2023). "In Northern Virginia, a Coming Data Center Boom
+Sounds a Community Alarm" (https://insideclimatenews.org/news/10022023/virginia-data-ce
+nters-amazon-prince-william-county/). Inside Climate News. Archived (https://web.archive.or
+g/web/20230211012423/https://insideclimatenews.org/news/10022023/virginia-data-centers-
+amazon-prince-william-county/) from the original on February 11, 2023. Retrieved
+February 11, 2023.
+
+109. Judge, Peter (July 19, 2022). "Prince William residents complain of "catastrophic noise"
+from data centers" (https://www.datacenterdynamics.com/en/news/prince-william-residents-c
+omplain-of-catastrophic-noise-from-data-centers/). DCD. Archived (https://web.archive.org/w
+eb/20230211133054/https://www.datacenterdynamics.com/en/news/prince-william-residents
+-complain-of-catastrophic-noise-from-data-centers/) from the original on February 11, 2023.
+Retrieved February 11, 2023.
+
+
+
+110. Judge, Peter (July 27, 2022). "Chicago residents complain of noise from Digital Realty data
+center" (https://www.datacenterdynamics.com/en/news/chicago-residents-complain-of-noise
+-from-digital-realty-data-center/). DCD. Archived (https://web.archive.org/web/202302111330
+54/https://www.datacenterdynamics.com/en/news/chicago-residents-complain-of-noise-from
+-digital-realty-data-center/) from the original on February 11, 2023. Retrieved February 11,
+2023.
+
+111. Phillips, Mark (November 30, 2021). "Chandler to consider banning data centers amid noise
+complaints" (https://www.abc15.com/news/region-southeast-valley/chandler/chandler-to-con
+sider-banning-data-centers). ABC15 Arizona in Phoenix (KNXV). Retrieved February 11,
+2023.
+
+112. "Data Center Soundproofing and Noise Control- Reduce Server Noise" (https://ddsacoustica
+l.com/applications-dds/data-center-soundproofing/). DDS Acoustical Specialties. Archived (h
+ttps://web.archive.org/web/20230211133052/https://ddsacoustical.com/applications-dds/data
+-center-soundproofing/) from the original on February 11, 2023. Retrieved February 11,
+2023.
+
+113. Bosker, Bianca (December 6, 2019). "Your "cloud" data is making noise on the ground" (http
+s://www.marketplace.org/shows/marketplace-tech/your-cloud-data-is-making-noise-on-the-g
+round/). Marketplace. Archived (https://web.archive.org/web/20230211133836/https://www.m
+arketplace.org/shows/marketplace-tech/your-cloud-data-is-making-noise-on-the-ground/)
+from the original on February 11, 2023. Retrieved February 11, 2023.
+
+114. "Five tips on selecting a data center location" (http://searchcio.techtarget.com/news/131261
+4/Five-tips-on-selecting-a-data-center-location). Archived (https://web.archive.org/web/2012
+0208030409/http://searchcio.techtarget.com/news/1312614/Five-tips-on-selecting-a-data-ce
+nter-location) from the original on February 8, 2012. Retrieved February 8, 2012.
+
+115. "IBM zEnterprise EC12 Business Value Video" (https://web.archive.org/web/2012082908314
+4/http://www.youtube.com/watch?v=DPcM5UePTY0&gl=US&hl=en). YouTube. Archived
+from the original (https://www.youtube.com/watch?v=DPcM5UePTY0) on August 29, 2012.
+
+116. Clark, Jeffrey. "The Price of Data Center Availability—How much availability do you need?",
+October 12, 2011, The Data Center Journal "Data Center Outsourcing in India projected to
+grow according to Gartner" (https://web.archive.org/web/20111203145721/http://www.datace
+nterjournal.com/home/news/languages/item/2792-the-price-of-data-center-availability).
+Archived from the original (http://www.datacenterjournal.com/home/news/languages/item/27
+92-the-price-of-data-center-availability) on December 3, 2011. Retrieved February 8, 2012.
+
+117. "Method for Dynamic Information Technology Infrastructure Provisioning" (https://www.freep
+atentsonline.com/y2007/0294736.html). December 20, 2007. Archived (https://web.archive.o
+rg/web/20200729015025/http://www.freepatentsonline.com/y2007/0294736.html) from the
+original on July 29, 2020. Retrieved September 3, 2020.
+
+118. Meyler, Kerrie (April 29, 2008). "The Dynamic Datacenter" (https://www.networkworld.com/ar
+ticle/2343998/the-dynamic-datacenter.html). Network World. Archived (https://web.archive.or
+g/web/20201020064151/https://www.networkworld.com/article/2343998/the-dynamic-datace
+nter.html) from the original on October 20, 2020. Retrieved September 3, 2020.
+
+119. "Computation on Demand: The Promise of Dynamic Provisioning" (http://www.on-demanden
+terprise.com/features/26054149.html).
+
+120. "Just What the Heck Is Composable Infrastructure, Anyway?" (https://www.itprotoday.com/b
+usiness-resources/just-what-heck-composable-infrastructure-anyway). IT Pro. July 14,
+2016. Archived (https://web.archive.org/web/20201028140125/https://www.itprotoday.com/b
+usiness-resources/just-what-heck-composable-infrastructure-anyway) from the original on
+October 28, 2020. Retrieved September 2, 2020.
+
+121. Montazerolghaem, Ahmadreza (June 2021). "Software-defined load-balanced data center:
+design, implementation and performance analysis" (https://hal.science/hal-03048010).
+Cluster Computing. 24 (2): 591–610. doi:10.1007/s10586-020-03134-x (https://doi.org/10.10
+07%2Fs10586-020-03134-x). Archived (https://web.archive.org/web/20251001074106/http
+s://hal.science/hal-03048010) from the original on October 1, 2025. Retrieved June 4, 2026.
+
+
+
+122. Noormohammadpour, Mohammad; Raghavendra, Cauligi S. (2018). "Datacenter Traffic
+Control: Understanding Techniques and Tradeoffs". IEEE Communications Surveys &
+Tutorials. 20 (2): 1492–1525. arXiv:1712.03530 (https://arxiv.org/abs/1712.03530).
+doi:10.1109/comst.2017.2782753 (https://doi.org/10.1109%2Fcomst.2017.2782753).
+
+123. Bhattarai, Abha; Lerman, Rachel (December 25, 2025). "10 charts that show where the
+economy is heading / 3. AI related investments" (https://www.washingtonpost.com/business/
+2025/12/25/inflation-job-market-impact-charts/). The Washington Post. "Source: MSCI"
+
+124. Whitehead, Beth; Andrews, Deborah; Shah, Amip; Maidment, Graeme (December 2014).
+"Assessing the environmental impact of data centres part 1: Background, energy use and
+metrics". Building and Environment. 82: 151–159. Bibcode:2014BuEnv..82..151W (https://ui.
+adsabs.harvard.edu/abs/2014BuEnv..82..151W). doi:10.1016/j.buildenv.2014.08.021 (http
+s://doi.org/10.1016%2Fj.buildenv.2014.08.021).
+
+125. Siddik, Md Abu Bakar; Shehabi, Arman; Marston, Landon (June 2021). "The environmental
+footprint of data centers in the United States". Environmental Research Letters. 16 (6):
+064017. Bibcode:2021ERL....16f4017S (https://ui.adsabs.harvard.edu/abs/2021ERL....16f40
+17S). doi:10.1088/1748-9326/abfba1 (https://doi.org/10.1088%2F1748-9326%2Fabfba1).
+hdl:10919/109747 (https://hdl.handle.net/10919%2F109747).
+
+126. "Migrating to an HPDC" (https://www.equinix.com/resources/infopapers/four-key-considerati
+ons-when-migrating-to-hpdc). US English. Archived (https://web.archive.org/web/202511071
+15526/https://www.equinix.com/resources/infopapers/four-key-considerations-when-migratin
+g-to-hpdc) from the original on November 7, 2025. Retrieved November 1, 2025.
+
+127. J. Koomey, C. Belady, M. Patterson, A. Santos, K.D. Lange: Assessing Trends Over Time in
+Performance, Costs, and Energy Use for Servers (http://www.intel.com/assets/pdf/general/s
+ervertrendsreleasecomplete-v25.pdf) Archived (https://web.archive.org/web/2011041603243
+2/http://www.intel.com/assets/pdf/general/servertrendsreleasecomplete-v25.pdf) April 16,
+2011, at the Wayback Machine Released on the web August 17, 2009.
+
+128. Leppert, Rebecca (October 24, 2025). "What we know about energy use at U.S. data
+centers amid the AI boom" (https://web.archive.org/web/20251213105706/https://www.pewr
+esearch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-a
+mid-the-ai-boom/). Pew Research Center. Archived from the original (https://www.pewresear
+ch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-th
+e-ai-boom/) on December 13, 2025. Retrieved December 17, 2025.
+
+129. "Trump's AI plan calls for massive data centers. Here's how it may affect energy in the US"
+(https://web.archive.org/web/20251022155410/https://apnews.com/article/trump-artificial-int
+elligence-energy-data-centers-f216660b80f992ae303b348dac0b2f87). Associated Press.
+July 24, 2025. Archived from the original (https://apnews.com/article/trump-artificial-intelligen
+ce-energy-data-centers-f216660b80f992ae303b348dac0b2f87) on October 22, 2025.
+Retrieved December 17, 2025.
+
+130. Staff, Carbon Brief (October 13, 2020). "Solar is now 'cheapest electricity in history',
+confirms IEA" (https://www.carbonbrief.org/solar-is-now-cheapest-electricity-in-history-confir
+ms-iea/). Carbon Brief. Retrieved April 28, 2026.
+
+131. Berg, Nate (July 31, 2025). "Hot and power-hungry: 'Manhattan-sized' data centers are just
+the beginning" (https://www.fastcompany.com/91373442/giant-data-centers-are-just-the-begi
+nning). Fast Company. Retrieved December 17, 2025.
+
+132. "The power crunch threatening America's AI ambitions" (https://ig.ft.com/ai-power/).
+Financial Times. Retrieved December 17, 2025.
+
+133. Carter, Tom (December 16, 2025). "Ford is pulling back on EVs and getting in on the AI
+boom" (https://www.businessinsider.com/ford-data-center-ai-strategy-battery-ev-tesla-2025-
+12). Business Insider. Retrieved December 17, 2025.
+
+
+
+134. Tabuchi, Hiroko; Plumer, Brad; Stevens, Harry (December 23, 2025). "The Pentagon and
+A.I. Giants Have a Weakness. Both Need China's Batteries, Badly" (https://www.nytimes.co
+m/2025/12/23/climate/pentagon-weapons-ai-artificial-intelligence-china-batteries.html). The
+New York Times. Retrieved December 25, 2025.
+
+135. Levy, Marc (December 18, 2025). "Feds pave the way for Big Tech to plug data centers right
+into power plants in scramble for energy" (https://web.archive.org/web/20251219133100/htt
+ps://apnews.com/article/power-electricity-ai-power-plants-data-centers-grid-6f52e60c4924f6
+34a21fb5f35d68f29b). Associated Press. Archived from the original (https://apnews.com/arti
+cle/power-electricity-ai-power-plants-data-centers-grid-6f52e60c4924f634a21fb5f35d68f29
+b) on December 19, 2025. Retrieved December 25, 2025.
+
+136. Chow, Andrew R. "Trump's Energy Secretary Wants Data Centers Everywhere" (https://time.
+com/7341878/ai-capabilities-chris-wright/). Time. Archived (https://web.archive.org/web/202
+51221125322/https://time.com/7341878/ai-capabilities-chris-wright/) from the original on
+December 21, 2025. Retrieved December 25, 2025.
+
+137. Kearney, Laila (December 23, 2025). "AI data centers are forcing obsolete 'peaker' power
+plants back into service" (https://www.reuters.com/business/energy/ai-data-centers-are-forci
+ng-obsolete-peaker-power-plants-back-into-service-2025-12-23/). Reuters. Retrieved
+December 25, 2025.
+
+138. "Commentary: A surge in Nevada data center construction threatens the electricity supply
+for 49,000 Californians" (https://web.archive.org/web/20260520083308/https://www.latimes.
+com/business/story/2026-05-19/a-surge-in-nevada-data-center-construction-threatens-powe
+r-supply-for-50-000-californians). Los Angeles Times. May 19, 2026. Archived from the
+original (https://www.latimes.com/business/story/2026-05-19/a-surge-in-nevada-data-center-
+construction-threatens-power-supply-for-50-000-californians) on May 20, 2026. Retrieved
+May 25, 2026.
+
+139. s.kallova@gresb.com (May 14, 2025). "Understanding embodied and operational carbon in
+data centers: ESG considerations" (https://web.archive.org/web/20250806130535/https://ww
+w.gresb.com/nl-en/understanding-embodied-and-operational-carbon-in-data-centers-esg-co
+nsiderations/). GRESB. Archived from the original (https://www.gresb.com/nl-en/understandi
+ng-embodied-and-operational-carbon-in-data-centers-esg-considerations/) on August 6,
+2025. Retrieved November 7, 2025.
+
+140. "Energy demand from AI – Energy and AI – Analysis" (https://www.iea.org/reports/energy-an
+d-ai/energy-demand-from-ai). IEA. Archived (https://web.archive.org/web/20260517032539/
+https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai) from the original on May
+17, 2026. Retrieved November 7, 2025.
+
+141. Kantor, Alice (May 18, 2021). "Big Tech races to clean up act as cloud energy use grows" (ht
+tps://www.ft.com/content/c719f655-149c-4ce0-a7a5-18527c7776cf). Financial Times.
+Archived (https://ghostarchive.org/archive/20221210/https://www.ft.com/content/c719f655-1
+49c-4ce0-a7a5-18527c7776cf) from the original on December 10, 2022. Retrieved March 6,
+2022.
+
+142. "Data Centres and Data Transmission Networks – Analysis" (https://www.iea.org/reports/dat
+a-centres-and-data-transmission-networks). IEA. Archived (https://web.archive.org/web/202
+30705054839/https://www.iea.org/reports/data-centres-and-data-transmission-networks)
+from the original on July 5, 2023. Retrieved March 6, 2022.
+
+143. say, Niva Yadav Have your (September 5, 2024). "Morgan Stanley: Data center industry will
+emit 2.5bn tons of CO2 by 2030" (https://www.datacenterdynamics.com/en/news/morgan-st
+anley-data-center-industry-will-emit-25bn-tons-of-co2-by-2030/). Archived (https://web.archiv
+e.org/web/20260104052317/https://www.datacenterdynamics.com/en/news/morgan-stanley-
+data-center-industry-will-emit-25bn-tons-of-co2-by-2030/) from the original on January 4,
+2026. Retrieved November 7, 2025.
+
+
+
+144. Craig Hale (July 15, 2024). "Google and Microsoft now each consume more power than
+some fairly big countries" (https://www.techradar.com/pro/google-and-microsoft-now-each-c
+onsume-more-power-than-some-fairly-big-countries). TechRadar. Archived (https://web.archi
+ve.org/web/20240902171838/https://www.techradar.com/pro/google-and-microsoft-now-eac
+h-consume-more-power-than-some-fairly-big-countries) from the original on September 2,
+2024. Retrieved July 18, 2024.
+
+145. James, Greg (March 1, 2022). "Tencent pledges to achieve carbon neutrality by 2030" (http
+s://web.archive.org/web/20220711133323/https://supchina.com/2022/03/01/tencent-pledges
+-to-achieve-carbon-neutrality-by-2030/). SupChina. Archived from the original (https://supchi
+na.com/2022/03/01/tencent-pledges-to-achieve-carbon-neutrality-by-2030/) on July 11,
+2022. Retrieved March 6, 2022.
+
+146. Mandler, C. (September 20, 2024). "Three Mile Island nuclear plant will reopen to power
+Microsoft data centers" (https://www.npr.org/2024/09/20/nx-s1-5120581/three-mile-island-nu
+clear-power-plant-microsoft-ai). NPR. Archived (https://web.archive.org/web/202501240849
+52/https://www.npr.org/2024/09/20/nx-s1-5120581/three-mile-island-nuclear-power-plant-mi
+crosoft-ai) from the original on January 24, 2025. Retrieved November 7, 2025.
+
+147. "Report to Congress on Server and Data Center Energy Efficiency" (https://www.energystar.
+gov/ia/partners/prod_development/downloads/EPA_Datacenter_Report_Congress_Final1.p
+df) (PDF). U.S. Environmental Protection Agency ENERGY STAR Program. Archived (http
+s://web.archive.org/web/20100816193316/http://www.energystar.gov/ia/partners/prod_devel
+opment/downloads/EPA_Datacenter_Report_Congress_Final1.pdf) (PDF) from the original
+on August 16, 2010. Retrieved June 10, 2010.
+
+148. "Data Center Energy Forecast" (https://web.archive.org/web/20110707080409/https://micros
+ite.accenture.com/svlgreport/Documents/pdf/SVLG_Report.pdf) (PDF). Silicon Valley
+Leadership Group. Archived from the original (https://microsite.accenture.com/svlgreport/Do
+cuments/pdf/SVLG_Report.pdf) (PDF) on July 7, 2011. Retrieved June 10, 2010.
+
+149. "Efficiency: How we do it – Data centers" (https://www.google.com/about/datacenters/efficie
+ncy/internal/). Archived (https://web.archive.org/web/20190930070102/http://www.google.co
+m/about/datacenters/efficiency/internal/) from the original on September 30, 2019. Retrieved
+January 19, 2015.
+
+150. "Immersion cooling firm LiquidStack launches as a stand-alone company" (https://www.netw
+orkworld.com/article/969739/immersion-cooling-firm-liquidstack-launches-as-a-stand-alone-
+company.html). Archived (https://web.archive.org/web/20240228183457/https://www.networ
+kworld.com/article/969739/immersion-cooling-firm-liquidstack-launches-as-a-stand-alone-co
+mpany.html) from the original on February 28, 2024. Retrieved February 28, 2024.
+
+151. Commentary on introduction of Energy Star for Data Centers "Introducing EPA ENERGY
+STAR for Data Centers" (https://web.archive.org/web/20100925210539/http://emerson.com/
+edc/post/2010/06/15/Introducing-EPA-ENERGY-STARc2ae-for-Data-Centers.aspx). Jack
+Pouchet. September 27, 2010. Archived from the original (http://www.emerson.com/edc/pos
+t/2010/06/15/Introducing-EPA-ENERGY-STARc2ae-for-Data-Centers.aspx) (Web site) on
+September 25, 2010. Retrieved September 27, 2010.
+
+152. "What Is Title 24? | Title 24 Compliance in California" (https://gettitle24.com/what-is-title-24/).
+Archived (https://web.archive.org/web/20260512211534/https://gettitle24.com/what-is-title-2
+4/) from the original on May 12, 2026. Retrieved May 18, 2026.
+
+153. "California Department of General Services" (https://www.dgs.ca.gov/Resources/SAM/TOC/
+1800/1820-3). Archived (https://web.archive.org/web/20260128201700/https://www.dgs.ca.g
+ov/Resources/SAM/TOC/1800/1820-3) from the original on January 28, 2026. Retrieved
+May 18, 2026.
+
+154. "EU Code of Conduct for Data Centres" (https://web.archive.org/web/20130811202339/htt
+p://iet.jrc.ec.europa.eu/energyefficiency/ict-codes-conduct/data-centres-energy-efficiency).
+iet.jrc.ec.europa.eu. Archived from the original (http://iet.jrc.ec.europa.eu/energyefficiency/ict
+-codes-conduct/data-centres-energy-efficiency) on August 11, 2013. Retrieved August 30,
+2013.
+
+
+
+155. Jones, N.; Elliott, T. (2022). "How much energy do data centres really use?" (https://www.nat
+ure.com/articles/d41586-022-00349-5). Nature.
+
+156. Daniel Minoli (2011). Designing Green Networks and Network Operations: Saving Run-the-
+Engine Costs. CRC Press. p. 5. ISBN 978-1-4398-1639-4.
+
+157. Bashroush, Rabih (October 2018). "A Comprehensive Reasoning Framework for Hardware
+Refresh in Data Centers" (https://zenodo.org/record/3495875). IEEE Transactions on
+Sustainable Computing. 3 (4): 209–220. Bibcode:2018ITSC....3..209B (https://ui.adsabs.har
+vard.edu/abs/2018ITSC....3..209B). doi:10.1109/TSUSC.2018.2795465 (https://doi.org/10.1
+109%2FTSUSC.2018.2795465).
+
+158. Kaur, Rupinder; Kaur, Gurjinder; Goraya, Major Singh (June 2025). "EESF: Energy-efficient
+scheduling framework for deadline-constrained workflows with computation speed
+estimation method in cloud". Parallel Computing. 124 103139.
+doi:10.1016/j.parco.2025.103139 (https://doi.org/10.1016%2Fj.parco.2025.103139).
+
+159. "Efficiency improvement of AI related computer chips, 2008–2023" (https://www.iea.org/data
+-and-statistics/charts/efficiency-improvement-of-ai-related-computer-chips-2008-2023).
+International Energy Agency. October 17, 2024. Retrieved September 29, 2026.
+
+160. Peter Sayer (March 28, 2018). "What is the Open Compute Project?" (https://www.networkw
+orld.com/article/965446/what-is-the-open-compute-project.html). NetworkWorld. Archived (ht
+tps://web.archive.org/web/20231129200453/https://www.networkworld.com/article/965446/w
+hat-is-the-open-compute-project.html) from the original on November 29, 2023. Retrieved
+February 3, 2019.
+
+161. Peter Judge (March 9, 2016). "OCP Summit: Google joins and shares 48V tech" (https://ww
+w.datacenterdynamics.com/news/ocp-summit-google-joins-and-shares-48v-tech/). DCD
+Data center Dynamics. Archived (https://web.archive.org/web/20190203201732/https://www.
+datacenterdynamics.com/news/ocp-summit-google-joins-and-shares-48v-tech/) from the
+original on February 3, 2019. Retrieved February 3, 2019.
+
+162. Devasia, Anish (December 29, 2025). "Data Center Operating Costs: Complete Guide
+(2026)" (https://thenetworkinstallers.com/blog/data-center-operating-costs/). The Network
+Installers. Retrieved May 18, 2026.
+
+163. "Raise the Temperature" (https://www.energystar.gov/products/data_center_equipment/5-si
+mple-ways-avoid-energy-waste-your-data-center/raise-temperature). Energy Star. Archived
+(https://web.archive.org/web/20260624213908/https://www.energystar.gov/products/data_ce
+nter_equipment/5-simple-ways-avoid-energy-waste-your-data-center/raise-temperature)
+from the original on June 24, 2026. Retrieved May 18, 2026.
+
+164. Joe Cosmano (2009), Choosing a Data Center (http://www.atlantic.net/images/pdf/choosing
+_a_data_center.pdf) (PDF), Disaster Recovery Journal, retrieved July 21, 2012
+
+165. "A beginner's guide to data center cooling systems" (https://www.vertiv.com/en-asia/about/n
+ews-and-events/articles/educational-articles/a-beginners-guide-to-data-center-cooling-syste
+ms/). Vertiv. Retrieved May 18, 2026.
+
+166. David Garrett (July 9, 2004), "Heat Of The Moment" (http://www.processor.com/editorial/artic
+le.asp?article=articles%2Fp2628%2F21p28%2F21p28.asp), Processor, 26 (28), retrieved
+July 21, 2012
+
+167. Needle, David (July 25, 2007). "HP's Green Data Center Portfolio Keeps Growing" (http://w
+ww.internetnews.com/xSP/article.php/3690651/HPs+Green+Data+Center+Portfolio+Keeps+
+Growing.htm). InternetNews. Archived (https://web.archive.org/web/20201025201651/http://
+www.internetnews.com/xSP/article.php/3690651/HPs+Green+Data+Center+Portfolio+Keep
+s+Growing.htm) from the original on October 25, 2020.
+
+168. "How to Choose a Data Center" (https://web.archive.org/web/20130308163559/http://www.i
+nc.com/guides/2010/11/how-to-choose-a-data-center_pagen_2.html), Inc., November 29,
+2010, archived from the original (http://www.inc.com/guides/2010/11/how-to-choose-a-data-c
+enter_pagen_2.html) on March 8, 2013, retrieved July 21, 2012
+
+
+
+169. Kathryn, Siranosian (April 5, 2011). "HP Shows Companies How to Integrate Energy
+Management and Carbon Reduction" (https://web.archive.org/web/20180822151326/https://
+www.triplepundit.com/2011/04/hp-launches-program-companies-integrate-manage-energy-c
+arbon-reduction-strategies/). TriplePundit. Archived from the original (http://www.triplepundit.
+com/2011/04/hp-launches-program-companies-integrate-manage-energy-carbon-reduction-
+strategies) on August 22, 2018. Retrieved February 8, 2012.
+
+170. Bashroush, Rabih; Woods, Eoin (May 2017). "Architectural Principles for Energy-Aware
+Internet-Scale Applications". IEEE Software. 34 (3): 14–17. Bibcode:2017ISoft..34c..14B (htt
+ps://ui.adsabs.harvard.edu/abs/2017ISoft..34c..14B). doi:10.1109/MS.2017.60 (https://doi.or
+g/10.1109%2FMS.2017.60).
+
+171. Bullock, Michael. "Computation Fluid Dynamics – Hot topic at Data Center World,"
+Transitional Data Services, March 18, 2010. (http://blog.transitionaldata.com/aggregate/bid/
+37840/Seeing-the-Invisible-Data-Center-with-CFD-Modeling-Software) Archived (https://we
+b.archive.org/web/20120103183406/http://blog.transitionaldata.com/aggregate/bid/37840/Se
+eing-the-Invisible-Data-Center-with-CFD-Modeling-Software) January 3, 2012, at the
+Wayback Machine
+
+172. "Bouley, Dennis (editor). "Impact of Virtualization on Data Center Physical Infrastructure,"
+The Green grid, 2010" (https://web.archive.org/web/20140429215242/http://www.thegreengr
+id.org/~/media/WhitePapers/White_Paper_27_Impact_of_Virtualization_Data_On_Center_P
+hysical_Infrastructure_020210.pdf?lang=en) (PDF). Archived from the original (http://www.th
+egreengrid.org/~/media/WhitePapers/White_Paper_27_Impact_of_Virtualization_Data_On_
+Center_Physical_Infrastructure_020210.pdf?lang=en) (PDF) on April 29, 2014. Retrieved
+February 8, 2012.
+
+173. "HP Thermal Zone Mapping plots data center hot spots" (https://web.archive.org/web/20210
+126131207/https://searchdatacenter.techtarget.com/news/1265634/HP-Thermal-Zone-Mapp
+ing-plots-data-center-hot-spots). SearchDataCenter. Archived from the original (http://search
+datacenter.techtarget.com/news/1265634/HP-Thermal-Zone-Mapping-plots-data-center-hot-
+spots) on January 26, 2021. Retrieved February 8, 2012.
+
+174. "Fjord-cooled DC in Norway claims to be greenest" (http://www.gizmag.com/fjord-cooled-dat
+a-center/20938/). December 23, 2011. Archived (https://web.archive.org/web/201201040032
+31/http://www.gizmag.com/fjord-cooled-data-center/20938/) from the original on January 4,
+2012. Retrieved December 23, 2011.
+
+175. Canada Called Prime Real Estate for Massive Data Computers – Globe & Mail (https://www.
+theglobeandmail.com/report-on-business/canada-called-prime-real-estate-for-massive-data-
+computers/article2071677/) Archived (https://web.archive.org/web/20161201113829/http://w
+ww.theglobeandmail.com/report-on-business/canada-called-prime-real-estate-for-massive-d
+ata-computers/article2071677//) December 1, 2016, at the Wayback Machine Retrieved
+June 29, 2011.
+
+176. Finland – First Choice for Siting Your Cloud Computing Data Center. (http://datacenter-sitin
+g.weebly.com/) Archived (https://web.archive.org/web/20150208205109/http://datacenter-siti
+ng.weebly.com/) February 8, 2015, at the Wayback Machine. Retrieved August 4, 2010.
+
+177. "Stockholm sets sights on data center customers" (https://web.archive.org/web/2010081919
+0918/http://www.stockholmbusinessregion.se/templates/page____41724.aspx?epslanguage
+=EN). Archived from the original (http://www.stockholmbusinessregion.se/templates/page__
+__41724.aspx?epslanguage=EN) on August 19, 2010. Retrieved August 4, 2010.
+
+178. In a world of rapidly increasing carbon emissions from the ICT industry, Norway offers a
+sustainable solution (http://www.innovasjonnorge.no/en/start-page/invest-in-norway/industrie
+s/datacenters/) Archived (https://web.archive.org/web/20201029174125/https://www.innovas
+jonnorge.no/en/start-page/invest-in-norway/industries/datacenters/) October 29, 2020, at the
+Wayback Machine Retrieved March 1, 2016.
+
+
+
+179. Swiss Carbon-Neutral Servers Hit the Cloud. (http://www.greenbiz.com/news/2010/06/30/sw
+iss-carbon-neutral-servers-hit-cloud) Archived (https://web.archive.org/web/2017070311344
+5/https://www.greenbiz.com/news/2010/06/30/swiss-carbon-neutral-servers-hit-cloud) July
+3, 2017, at the Wayback Machine. Retrieved August 4, 2010.
+
+180. Baxtel. "Singapore Data Centers & Colocation" (https://baxtel.com/data-center/singapore).
+baxtel.com. Archived (https://web.archive.org/web/20240918212912/https://baxtel.com/data-
+center/singapore) from the original on September 18, 2024. Retrieved September 18, 2024.
+
+181. "Singapore authorities invite applications for new data centers" (https://www.datacenterdyna
+mics.com/en/news/singapore-authorities-invite-applications-for-new-data-centers/). July 20,
+2022.
+
+182. "BCA-IMDA Green Mark for Data Centres Scheme" (https://www.imda.gov.sg/how-we-can-h
+elp/bca-imda-green-mark-for-data-centres-scheme). Infocomm Media Development
+Authority. Archived (https://web.archive.org/web/20240918231309/https://www.imda.gov.sg/
+how-we-can-help/bca-imda-green-mark-for-data-centres-scheme) from the original on
+September 18, 2024. Retrieved September 18, 2024.
+
+183. "Singapore to free up 300MW for data centres" (https://www.capacitymedia.com/article/2dav
+fx8ylwhh1au8329kw/news/singapore-to-free-up-300mw-for-data-centres). Capacity Media.
+May 30, 2024. Archived (https://web.archive.org/web/20240918212633/https://www.capacity
+media.com/article/2davfx8ylwhh1au8329kw/news/singapore-to-free-up-300mw-for-data-cent
+res) from the original on September 18, 2024. Retrieved September 18, 2024.
+
+184. "4 Proposals Selected from Data Centre Application" (https://www.imda.gov.sg/resources/pr
+ess-releases-factsheets-and-speeches/press-releases/2023/four-data-centre-proposals-sele
+cted-as-part-of-pilot-data-centre-call-for-application). Infocomm Media Development
+Authority. Archived (https://web.archive.org/web/20240918212634/https://www.imda.gov.sg/r
+esources/press-releases-factsheets-and-speeches/press-releases/2023/four-data-centre-pr
+oposals-selected-as-part-of-pilot-data-centre-call-for-application) from the original on
+September 18, 2024. Retrieved September 18, 2024.
+
+185. "Data Center Cooling with Heat Recovery" (https://stockholmdataparks.com/wp-content/uplo
+ads/white-paper-cost-efficient-and-sustainable-data-center-cooling-2017-01-23-1.pdf)
+(PDF). StockholmDataParks.com. January 23, 2017. Archived (https://web.archive.org/web/
+20170325212318/https://stockholmdataparks.com/wp-content/uploads/white-paper-cost-effi
+cient-and-sustainable-data-center-cooling-2017-01-23-1.pdf) (PDF) from the original on
+March 25, 2017. Retrieved November 16, 2018.
+
+186. "Structured Transition Model for AI" (https://www.rehlko.com/whitepaper-structured-transition
+-model-for-ai). Rehlko. Archived (https://web.archive.org/web/20260709120307/https://www.
+rehlko.com/whitepaper-structured-transition-model-for-ai) from the original on July 9, 2026.
+Retrieved June 1, 2026.
+
+187. Marshall, Alex (2026). Five Nines and Fast Power: Power Strategy for Data Centers, AI
+Infrastructure and Digitalinvestment (https://a.co/d/047PeJo3). Independently Published.
+
+188. Iacone, Amanda (July 21, 2026). "Big Tech AI Spree Revives Accounting Devices That
+Toppled Enron" (https://news.bloomberglaw.com/financial-accounting/big-tech-ai-spree-reviv
+es-accounting-devices-that-toppled-enron). Bloomberg Law. Archived (https://web.archive.or
+g/web/20260721233845/https://news.bloomberglaw.com/financial-accounting/big-tech-ai-spr
+ee-revives-accounting-devices-that-toppled-enron) from the original on July 21, 2026.
+Retrieved July 21, 2026.
+
+189. "AI Infrastructure Index" (https://www.stockatomics.com/ai-infrastructure-index).
+Stockatomics. Retrieved October 25, 2026.
+
+190. "Data Centers and Their Energy Consumption: Frequently Asked Questions" (https://www.co
+ngress.gov/crs-product/R48646). Retrieved September 29, 2026.
+
+
+
+191. Joint Legislative Audit and Review Commission (2024). Data Centers in Virginia (https://jlar
+c.virginia.gov/pdfs/reports/Rpt598-2.pdf) (PDF) (Report). Commonwealth of Virginia. Report
+598. Archived (https://web.archive.org/web/20260428113438/https://jlarc.virginia.gov/pdfs/re
+ports/Rpt598-2.pdf) (PDF) from the original on April 28, 2026. Retrieved April 27, 2026.
+
+192. Energy Tax Benefits for Data Centers: In Brief (https://www.congress.gov/crs-product/R4858
+3) (Report). Congressional Research Service. 2025. R48583. Archived (https://web.archive.
+org/web/20250826220112/https://www.congress.gov/crs-product/R48583) from the original
+on August 26, 2025. Retrieved April 27, 2026.
+
+193. Slattery, Cailin; Zidar, Owen (2020). "Evaluating State and Local Business Tax Incentives" (h
+ttps://doi.org/10.1257%2Fjep.34.2.90). Journal of Economic Perspectives. 34 (2): 90–118.
+doi:10.1257/jep.34.2.90 (https://doi.org/10.1257%2Fjep.34.2.90).
+
+194. Bartik, Timothy J. (2018). "But For" Percentages for Economic Development Incentives:
+What Percentage Estimates Are Plausible Based on the Research Literature? (https://resear
+ch.upjohn.org/up_workingpapers/289/) (Report). W. E. Upjohn Institute for Employment
+Research. Upjohn Institute Working Paper 18-289. Archived (https://web.archive.org/web/20
+260428025804/https://research.upjohn.org/up_workingpapers/289/) from the original on
+April 28, 2026. Retrieved April 27, 2026.
+
+195. "Georgia Legislature Suspends Tax Exemption for Data Centers" (https://www.globest.com/2
+024/03/22/georgia-legislature-suspends-tax-exemption-for-data-centers/). GlobeSt. March
+22, 2024. Archived (https://web.archive.org/web/20260518035544/https://www.globest.com/
+2024/03/22/georgia-legislature-suspends-tax-exemption-for-data-centers/) from the original
+on May 18, 2026. Retrieved April 27, 2026.
+
+196. "$2B data center tax break fight pushes Virginia budget negotiations" (https://www.vpm.org/
+generalassembly/2026-03-12/budget-data-center-tax-break-scott-lucas-spanberger-torian-re
+phann). VPM News. March 12, 2026. Retrieved April 27, 2026.
+
+197. Ren, Shaolei; Luers, Amy (September 10, 2025). "How Much Water Do AI Data Centers
+Really Consume?" (https://spectrum.ieee.org/ai-water-usage). IEEE Spectrum. Retrieved
+August 23, 2026.
+
+198. Siddik, Md Abu Bakar; Shehabi, Arman; Marston, Landon (2021). "The environmental
+footprint of data centers in the United States". Environmental Research Letters. 16 (6):
+064017. Bibcode:2021ERL....16f4017S (https://ui.adsabs.harvard.edu/abs/2021ERL....16f40
+17S). doi:10.1088/1748-9326/abfba1 (https://doi.org/10.1088%2F1748-9326%2Fabfba1).
+hdl:10919/109747 (https://hdl.handle.net/10919%2F109747).
+
+199. "Oregon's city of The Dalles agrees to reveal Google's local water usage" (https://www.rcfp.
+org/dalles-google-oregonian-settlement/). Reporters Committee for Freedom of the Press.
+2022. Archived (https://web.archive.org/web/20260425014920/https://www.rcfp.org/dalles-g
+oogle-oregonian-settlement/) from the original on April 25, 2026. Retrieved April 27, 2026.
+
+200. Willson, Miranda (December 8, 2025). "States push to end secrecy over data center water
+use" (https://www.eenews.net/articles/states-push-to-end-secrecy-over-data-center-water-us
+e/). E&E News. Archived (https://web.archive.org/web/20260430160638/https://www.eenew
+s.net/articles/states-push-to-end-secrecy-over-data-center-water-use/) from the original on
+April 30, 2026. Retrieved April 27, 2026.
+
+201. Shehabi, Arman; Newkirk, Alexandra; Smith, Sarah J.; Hubbard, Andrew; Lei, Nuoa; Siddik,
+Md Abu Bakar; Holecek, Benjamin; Koomey, Jonathan; Masanet, Eric; Sartor, Dale (2024).
+2024 United States Data Center Energy Usage Report (https://eta-publications.lbl.gov/sites/
+default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf) (PDF)
+(Report). Lawrence Berkeley National Laboratory. LBNL-2001637. Archived (https://web.arc
+hive.org/web/20260304100118/https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl
+-2024-united-states-data-center-energy-usage-report_1.pdf) (PDF) from the original on
+March 4, 2026. Retrieved March 1, 2026.
+
+202. North American Electric Reliability Corporation (2024). 2024 Long-Term Reliability
+Assessment (https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_
+LTRA_2024.pdf) (PDF) (Report). NERC. Retrieved April 27, 2026.
+
+
+
+203. Koomey, Jonathan; Masanet, Eric (2024). "To better understand AI's growing energy use,
+analysts need a data revolution" (https://research.birmingham.ac.uk/en/publications/65c149
+b9-c545-41bd-9c1c-8ba27e9973c4). Joule. 8 (10): 2310–2314.
+doi:10.1016/j.joule.2024.07.001 (https://doi.org/10.1016%2Fj.joule.2024.07.001).
+
+204. Wilden, Marlene (May 28, 2026). "Oregon PUC approves PGE's large-load tariff framework
+for data centers". Utility Dive.
+
+205. Howland, Ethan (October 29, 2025). "FERC rejects Tri-State's large load tariff over retail
+jurisdiction issues". Utility Dive.
+
+206. Cheng, Bo; Botterud, Audun; Levin, Todd; Nadarajah, Selvaprabu; Zhao, Dongwei; Kwon,
+Jonghwan (June 2026). "AI for the grid and AI on the grid: Implications, challenges and
+opportunities" (https://doi.org/10.1016%2Fj.tej.2026.107547). The Electricity Journal. 39 (2)
+107547. Bibcode:2026ElecJ..3907547C (https://ui.adsabs.harvard.edu/abs/2026ElecJ..3907
+547C). doi:10.1016/j.tej.2026.107547 (https://doi.org/10.1016%2Fj.tej.2026.107547).
+
+207. Spandagos, Constantine (August 7, 2026). "Data centers and energy poverty in the United
+States: Assessing distributional implications of rapid load growth in an era of artificial
+intelligence". MIT Science Policy Review. 7: 75–85. doi:10.38105/spr.kdpdt52z9o (https://do
+i.org/10.38105%2Fspr.kdpdt52z9o).
+
+208. Spandagos, Constantine (August 7, 2026). "Data centers and energy poverty in the United
+States". MIT Science Policy Review. 7: 75–85. doi:10.38105/spr.kdpdt52z9o (https://doi.org/
+10.38105%2Fspr.kdpdt52z9o).
+
+209. Bjørn, Anders; Lloyd, Shannon M.; Brander, Matthew; Matthews, H. Damon (2022).
+"Renewable energy certificates threaten the integrity of corporate science-based targets" (ht
+tps://www.research.ed.ac.uk/files/264230054/BjoernEtalNCC2022RenewableEnergyCertific
+ates.pdf) (PDF). Nature Climate Change. 12 (6): 539–546. Bibcode:2022NatCC..12..539B
+(https://ui.adsabs.harvard.edu/abs/2022NatCC..12..539B). doi:10.1038/s41558-022-01379-
+5 (https://doi.org/10.1038%2Fs41558-022-01379-5).
+
+210. Xu, Qingyu; Manocha, Aneesha; Patankar, Neha; Ricks, Wilson; Jenkins, Jesse D. (2024).
+"System-level impacts of voluntary carbon-free electricity procurement strategies" (https://pu
+re.iiasa.ac.at/id/eprint/19410/1/EDITS%20final%20fast%20track%20commentary%20revre
+v%20v01%20clean.pdf) (PDF). Joule. 8 (2): 374–400. doi:10.1016/j.joule.2023.12.014 (http
+s://doi.org/10.1016%2Fj.joule.2023.12.014).
+
+211. Hodgson, Camilla; Murray, Cristina (July 2, 2024). "Google's emissions jump nearly 50%
+over five years as AI use surges" (https://www.ft.com/content/4b78a09a-c044-4d3d-9b1c-9c
+0fb9028a83). Financial Times. Retrieved April 27, 2026.
+
+212. O'Brien, Matt (May 15, 2024). "Microsoft's AI investment imperils climate goal as carbon
+emissions jump 30%" (https://apnews.com/article/microsoft-ai-climate-emissions-9a3013d8b
+4dbb7b8a04bc78a531dfa44). Associated Press. Retrieved April 27, 2026.
+
+213. Johnson, Khari (February 21, 2025). "Crackdown on Power-Guzzling Data Centers May
+Soon Come Online in California – The Markup" (https://themarkup.org/news/2025/02/21/cra
+ckdown-on-power-guzzling-data-centers-may-soon-come-online-in-california).
+themarkup.org. Retrieved July 3, 2026.
+
+214. Atkins, Ed (April 2021). "Tracing the 'cloud': Emergent political geographies of global data
+centres" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9759424). Political Geography. 86
+102306. doi:10.1016/j.polgeo.2020.102306 (https://doi.org/10.1016%2Fj.polgeo.2020.10230
+6). PMC 9759424 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9759424).
+PMID 36568478 (https://pubmed.ncbi.nlm.nih.gov/36568478).
+
+215. Hurwitz, Sophie. "People hate data centers, so the industry is spending millions to rebrand
+them" (https://www.motherjones.com/politics/2026/01/data-centers-public-opposition-industr
+y-advertising-rebranding-jobs-lower-energy-bills/). Mother Jones. Archived (https://web.archi
+ve.org/web/20260326142941/https://www.motherjones.com/politics/2026/01/data-centers-pu
+blic-opposition-industry-advertising-rebranding-jobs-lower-energy-bills/) from the original on
+March 26, 2026. Retrieved March 19, 2026.
+
+
+
+216. "How much electricity does an American home use? – Frequently Asked Questions (FAQs)"
+(https://web.archive.org/web/20260519144237/https://www.eia.gov/tools/faqs/faq.php?id=97
+&t=3). U.S. Energy Information Administration. Archived from the original (https://www.eia.go
+v/tools/faqs/faq.php?id=97&t=3) on May 19, 2026. Retrieved May 20, 2026.
+
+217. Abdullahi, Aminu (May 9, 2025). "AI Data Centers Boom is Draining Water From Drought-
+Prone Areas" (https://www.techrepublic.com/article/news-ai-data-centers-drought/).
+TechRepublic. Archived (https://web.archive.org/web/20250905163157/https://www.techrepu
+blic.com/article/news-ai-data-centers-drought/) from the original on September 5, 2025.
+Retrieved October 13, 2025.
+
+218. "The AI Boom Is Draining Water From the Areas That Need It Most" (https://www.bloomberg.
+com/graphics/2025-ai-impacts-data-centers-water-data/). Bloomberg.com. May 8, 2025.
+Archived (https://web.archive.org/web/20250924081406/https://www.bloomberg.com/graphi
+cs/2025-ai-impacts-data-centers-water-data/) from the original on September 24, 2025.
+Retrieved October 13, 2025.
+
+219. Li, Pengfei; Yang, Jianyi; Islam, Mohammad A.; Ren, Shaolei (March 26, 2025), Making AI
+Less "Thirsty": Uncovering and Addressing the Secret Water Footprint of AI Models,
+arXiv:2304.03271 (https://arxiv.org/abs/2304.03271)
+
+220. Lei, Nuoa; Lu, Jun; Shehabi, Arman; Masanet, Eric (June 2025). "The water use of data
+center workloads: A review and assessment of key determinants". Resources, Conservation
+and Recycling. 219 108310. Bibcode:2025RCR...21908310L (https://ui.adsabs.harvard.edu/
+abs/2025RCR...21908310L). doi:10.1016/j.resconrec.2025.108310 (https://doi.org/10.101
+6%2Fj.resconrec.2025.108310).
+
+221. Environmental and Energy Study Institute (EESI). "Data Centers and Water Consumption |
+Article" (https://www.eesi.org/articles/view/data-centers-and-water-consumption#:~:text=A%
+20federal%20report%20estimated%20that,211%20billion%20gallons%20in%202023.).
+EESI. Archived (https://web.archive.org/web/20251013005701/https://www.eesi.org/articles/
+view/data-centers-and-water-consumption#:~:text=A%20federal%20report%20estimated%2
+0that,211%20billion%20gallons%20in%202023.) from the original on October 13, 2025.
+Retrieved October 14, 2025.
+
+222. Lawson, Ashley J.; Offutt, Martin C.; Ortiz, Natalie R.; Zhu, Ling (May 12, 2026). Data
+Centers and Their Energy Consumption: Frequently Asked Questions (https://www.congres
+s.gov/crs-product/R48646) (Report). Congressional Research Service. R48646. Retrieved
+September 29, 2026.
+
+223. Alobid, Mohannad; Szűcs, István (2026). "The water and energy footprint of artificial
+intelligence and its hardware: A comprehensive review" (https://doi.org/10.1016%2Fj.nxsust.
+2026.100470). Next Sustainability. 8 100470. Bibcode:2026NextS...800470A (https://ui.adsa
+bs.harvard.edu/abs/2026NextS...800470A). doi:10.1016/j.nxsust.2026.100470 (https://doi.or
+g/10.1016%2Fj.nxsust.2026.100470).
+
+224. Alston, Garrett; Love, Nancy; Haider, Rabab (2026). "Data center cooling choices shift water
+impacts across the grid: An integrated water-energy model for sustainable data center
+development". arXiv:2609.25437 (https://arxiv.org/abs/2609.25437) [eess.SY (https://arxiv.or
+g/archive/eess.SY)].
+
+225. Abdullahi, Aminu (May 9, 2025). "AI Data Centers Boom is Draining Water From Drought-
+Prone Areas – Sustainability Tipping Point?" (https://www.techrepublic.com/article/news-ai-d
+ata-centers-drought/). TechRepublic. Archived (https://web.archive.org/web/2025070202425
+1/https://www.techrepublic.com/article/news-ai-data-centers-drought/) from the original on
+July 2, 2025. Retrieved June 30, 2025.
+
+226. "AI Draining Water From Areas That Need It Most" (https://www.watereducation.org/aquafor
+nia-news/ai-draining-water-areas-need-it-most). Water Education Foundation. May 8, 2025.
+Archived (https://web.archive.org/web/20250630143553/https://www.watereducation.org/aq
+uafornia-news/ai-draining-water-areas-need-it-most) from the original on June 30, 2025.
+Retrieved June 30, 2025.
+
+
+
+227. Novet, Jordan (November 25, 2025). "Why rural Wisconsin is blocking the AI data center
+boom: 'Horses are skittish' " (https://web.archive.org/web/20251215054019/https://www.cnb
+c.com/2025/11/25/microsoft-ai-data-center-rejection-vs-support.html). CNBC. Archived from
+the original (https://www.cnbc.com/2025/11/25/microsoft-ai-data-center-rejection-vs-support.
+html) on December 15, 2025. Retrieved December 17, 2025.
+
+228. Nickelsburg, Monica (August 17, 2025). "AI is driving a data center boom in rural America.
+Locals are divided on the benefits" (https://web.archive.org/web/20251016092319/https://ww
+w.npr.org/2025/08/17/nx-s1-5461467/ai-is-driving-a-data-center-boom-in-rural-america-local
+s-are-divided-on-the-benefits). NPR. Archived from the original (https://www.npr.org/2025/0
+8/17/nx-s1-5461467/ai-is-driving-a-data-center-boom-in-rural-america-locals-are-divided-on-
+the-benefits) on October 16, 2025. Retrieved December 17, 2025.
+
+229. Dotan, Tom (February 26, 2025). "The AI Data-Center Boom Is a Job-Creation Bust" (https://
+www.wsj.com/tech/ai-data-center-job-creation-48038b67). The Wall Street Journal.
+Retrieved December 17, 2025.
+
+230. Muller, Nicholas (2026). Measuring the Impact of Data Centers in the United States
+Economy: Monetary Damage from Air Pollution and Greenhouse Gas Emissions (Report).
+Cambridge, MA: National Bureau of Economic Research. doi:10.3386/w35100 (https://doi.or
+g/10.3386%2Fw35100).
+
+231. "JLARC | Data Centers in Virginia" (https://jlarc.virginia.gov/landing-2024-data-centers-in-vir
+ginia.asp). jlarc.virginia.gov. Retrieved September 15, 2026.
+
+232. "Virginia Releases Data Center Impact Study" (https://www.credaglobal.org/advocacy/news/
+2024/virginia-releases-data-center-impact-study). Commercial Real Estate Development
+Association. Retrieved September 15, 2026.
+
+233. Prada, Luis (July 3, 2026). "Thieves Are Now Targeting AI Data Center Construction Sites
+for Copper and Expensive Equipment" (https://www.vice.com/en/article/thieves-are-now-targ
+eting-ai-data-center-construction-sites-for-copper-and-expensive-equipment/). VICE.
+Archived (https://web.archive.org/web/20260707205956/https://www.vice.com/en/article/thie
+ves-are-now-targeting-ai-data-center-construction-sites-for-copper-and-expensive-equipmen
+t/) from the original on July 7, 2026. Retrieved July 8, 2026.
+
+234. Rogelberg, Sasha. "Organized crime is building an AI hardware cargo theft economy: 'The
+economics have become just crazy from the criminal opportunistic perspective' " (https://fort
+une.com/2026/07/03/organized-crime-cargo-theft-economy-ai-infrastructure-data-center-bla
+ck-market/). Fortune. Archived (https://web.archive.org/web/20260707110637/https://fortune.
+com/2026/07/03/organized-crime-cargo-theft-economy-ai-infrastructure-data-center-black-m
+arket/) from the original on July 7, 2026. Retrieved July 8, 2026.
+
+235. Reuter, Dominick. "Cargo thieves have set their sights on data center supplies" (https://ww
+w.businessinsider.com/cargo-thieves-stole-million-of-data-center-supplies-sheriff-says-2026-
+6). Business Insider. Archived (https://web.archive.org/web/20260708141710/https://www.bu
+sinessinsider.com/cargo-thieves-stole-million-of-data-center-supplies-sheriff-says-2026-6)
+from the original on July 8, 2026. Retrieved July 8, 2026.
+
+236. "Cargo thieves target big tech in $1.3M data center heist" (https://cybernews.com/cybercrim
+e/data-center-cargo-heist/). Cybernews. July 1, 2026. Archived (https://web.archive.org/web/
+20260709211026/https://cybernews.com/cybercrime/data-center-cargo-heist/) from the
+original on July 9, 2026. Retrieved July 8, 2026.
+
+237. Chia, Liu Ee; Cornaggia, Jess; Haushalter, David; Wang, Qiang (August 31, 2026). "Capital
+without Labor: Data Centers and the Local Economy" (https://ssrn.com/abstract=7384998).
+Social Science Research Network. Retrieved September 13, 2026.
+
+238. Calma, Justine (December 19, 2025). "Communities are rising up against data centers —
+and winning" (https://www.theverge.com/science/841169/ai-data-center-opposition). The
+Verge. Retrieved December 25, 2025.
+
+
+
+239. Yoder, Zoya Teirstein, Kate (June 22, 2026). "America's data center backlash is bipartisan
+— can it stay that way?" (https://grist.org/politics/data-center-ai-bipartisan-backlash/). Grist.
+Archived (https://web.archive.org/web/20260715224943/https://grist.org/politics/data-center-
+ai-bipartisan-backlash/) from the original on July 15, 2026. Retrieved July 11, 2026.
+
+240. "Why more residents are saying 'No' to AI data centers in their backyard" (https://www.npr.or
+g/2025/07/17/nx-s1-5469933/virginia-data-centers-residents-saying-no). NPR. July 17,
+2025. Retrieved December 7, 2025.
+
+241. "New Report Indicates a Growing Public Resistance to Data Centers" (https://www.motherjo
+nes.com/politics/2025/11/report-growing-public-resistance-data-centers-ai-power-bills-water-
+land-use/). Mother Jones. November 18, 2025. Archived (https://web.archive.org/web/20251
+207212420/https://www.motherjones.com/politics/2025/11/report-growing-public-resistance-
+data-centers-ai-power-bills-water-land-use/) from the original on December 7, 2025.
+Retrieved December 7, 2025.
+
+242. "The data center rebellion is here, and it's reshaping the political landscape" (https://www.wa
+shingtonpost.com/business/2026/01/06/data-centers-backlash-impact-local-communities-op
+position/). The Washington Post. January 6, 2026. Archived (https://web.archive.org/web/20
+260108225816/https://www.washingtonpost.com/business/2026/01/06/data-centers-backlas
+h-impact-local-communities-opposition/) from the original on January 8, 2026. Retrieved
+March 19, 2026.
+
+243. Renshaw, Jarrett; Kearney, Laila (December 1, 2025). "Trump's push for more AI data
+centers faces backlash from his own voters" (https://www.reuters.com/business/retail-consu
+mer/trumps-push-more-ai-data-centers-faces-backlash-his-own-voters-2025-12-01/).
+Reuters. Retrieved December 17, 2025.
+
+244. Jones, Jeffrey M. (May 13, 2026). "Americans Oppose AI Data Centers in Their Area" (http
+s://web.archive.org/web/20260520135039/https://news.gallup.com/poll/709772/americans-o
+ppose-data-centers-area.aspx). Gallup, Inc. Archived from the original (https://news.gallup.c
+om/poll/709772/americans-oppose-data-centers-area.aspx) on May 20, 2026. Retrieved
+May 25, 2026.
+
+245. Isenstadt, Alex (August 19, 2026). "Exclusive: GOP issues stark warning to AI companies"
+(https://www.axios.com/2026/08/19/gop-data-center-memo-ai-election). Axios. Retrieved
+August 25, 2026.
+
+246. Satariano, Paul MozurAdam; Santiago, Emiliano Rodríguez MegaPaul Mozur reported from;
+Chile; Querétaro; Ennis, Mexico Adam Satariano reported from; Ireland; Querétaro,
+Querétaro Emiliano Rodríguez Mega reported from (October 20, 2025). "From Mexico to
+Ireland, Fury Mounts Over a Global A.I. Frenzy" (https://www.nytimes.com/2025/10/20/techn
+ology/ai-data-center-backlash-mexico-ireland.html). The New York Times. Archived (https://
+web.archive.org/web/20260219165646/https://www.nytimes.com/2025/10/20/technology/ai-
+data-center-backlash-mexico-ireland.html) from the original on February 19, 2026. Retrieved
+May 26, 2026.
+
+247. Jessop, Simon (February 26, 2026). "UK Activists Plan Protests Over Climate, Social
+Impacts of AI Data Centers" (https://www.reuters.com/sustainability/boards-policy-regulation/
+uk-activists-plan-protests-over-climate-social-impacts-ai-data-centres-2026-02-27/).
+Reuters. Retrieved May 26, 2026.
+
+248. Sonka, Joe (December 9, 2025). "The AI data center boom is coming for Kentucky. What
+will lawmakers do about it?" (https://web.archive.org/web/20251217120739/https://www.wk
+ms.org/2025-12-09/the-ai-data-center-boom-is-coming-for-kentucky-what-will-lawmakers-do
+-about-it). WKMS. Archived from the original (https://www.wkms.org/2025-12-09/the-ai-data-
+center-boom-is-coming-for-kentucky-what-will-lawmakers-do-about-it) on December 17,
+2025. Retrieved December 17, 2025.
+
+
+
+249. Harris, Bracey (November 1, 2025). "Farmers fight an 'extension cord' for data centers" (http
+s://web.archive.org/web/20251217033635/https://www.nbcnews.com/news/us-news/marylan
+d-farmers-data-centers-extension-cord-power-lines-rcna233324). NBC News. Archived from
+the original (https://www.nbcnews.com/news/us-news/maryland-farmers-data-centers-exten
+sion-cord-power-lines-rcna233324) on December 17, 2025. Retrieved December 17, 2025.
+
+250. Starr, Stephen (December 16, 2025). "Water levels across the Great Lakes are falling – just
+as US data centers move in" (https://www.theguardian.com/technology/2025/dec/16/great-la
+kes-us-data-centers). The Guardian. Retrieved December 17, 2025.
+
+251. Wilkins, Joe (September 28, 2025). "First Responders Are Being Overwhelmed by Data
+Center Fires" (https://web.archive.org/web/20251011083738/https://futurism.com/future-soci
+ety/fire-fighters-data-centers). Futurism. Archived from the original (https://futurism.com/futur
+e-society/fire-fighters-data-centers) on October 11, 2025. Retrieved December 25, 2025.
+
+252. Crownhart, Casey (October 28, 2024). "AI will add to the e-waste problem. Here's what we
+can do about it" (https://web.archive.org/web/20251019055806/https://www.technologyrevie
+w.com/2024/10/28/1106316/ai-e-waste/). MIT Technology Review. Archived from the original
+(https://www.technologyreview.com/2024/10/28/1106316/ai-e-waste/) on October 19, 2025.
+Retrieved December 17, 2025.
+
+253. Fishman, Ted (October 30, 2024). "Green Concrete Could Solve Big Tech's Emissions
+Problem" (https://web.archive.org/web/20251012033941/https://spectrum.ieee.org/green-co
+ncrete). IEEE Spectrum. Archived from the original (https://spectrum.ieee.org/green-concret
+e) on October 12, 2025. Retrieved December 17, 2025.
+
+254. Ramirez, Renalyn. "Senate urged to assess Pax Silica impact" (https://www.philstar.com/he
+adlines/2026/08/12/2548784/senate-urged-assess-pax-silica-impact). Philippine Star.
+Retrieved October 20, 2026.
+
+255. Hilotin, Jay (September 24, 2026). "Pax Silica: Is AI dissent starting to spook investors in the
+Philippines?" (https://gulfnews.com/world/asia/philippines/pax-silica-is-ai-dissent-starting-to-
+spook-investors-in-the-philippines-1.500684392). Gulf News. Retrieved October 31, 2026.
+
+256. "China, Russia and Others Seek to Inflame Debate Over A.I. Data Centers" (https://www.nyti
+mes.com/2026/07/09/business/china-russia-ai-data-centers.html). The New York Times.
+July 9, 2026. Retrieved September 18, 2026.
+
+257. "Projections and feasibility of data centers in space | TechTarget" (https://www.techtarget.co
+m/searchdatacenter/tip/Projections-and-feasibility-of-data-centers-in-space). Archived (http
+s://web.archive.org/web/20250427105658/https://www.techtarget.com/searchdatacenter/tip/
+Projections-and-feasibility-of-data-centers-in-space) from the original on April 27, 2025.
+Retrieved April 27, 2025.
+
+258. "This Startup Wants to Tackle AI Energy Demands with Data Centers in Space" (https://ww
+w.pcmag.com/news/this-startup-wants-to-tackle-ai-energy-demands-with-data-centers-in-sp
+ace). September 5, 2024. Archived (https://web.archive.org/web/20250527151704/https://w
+ww.pcmag.com/news/this-startup-wants-to-tackle-ai-energy-demands-with-data-centers-in-s
+pace) from the original on May 27, 2025. Retrieved April 27, 2025.
+
+259. Au, Yung (January 2, 2024). "Data centres on the Moon and other tales: a volumetric and
+elemental analysis of the coloniality of digital infrastructures" (https://doi.org/10.1080%2F21
+622671.2022.2153160). Territory, Politics, Governance. 12 (1): 12–30.
+doi:10.1080/21622671.2022.2153160 (https://doi.org/10.1080%2F21622671.2022.215316
+0).
+
+External links
+Lawrence Berkeley Lab (https://web.archive.org/web/20060929131812/http://hightech.lbl.go
+v/datacenters.html) – Research, development, demonstration, and deployment of energy-
+efficient technologies and practices for data centers
+
+
+
+DC Power For Data Centers Of The Future (https://web.archive.org/web/20110723081149/ht
+tp://hightech.lbl.gov/dc-powering/faq.html) – FAQ: 380VDC testing and demonstration at a
+Sun data center.
+White Paper (http://media.wix.com/ugd/fb8983_e929404b24874e4fa7a8279f1cda58f8.pdf) –
+Property Taxes: The New Challenge for Data Centers
+The European Commission H2020 EURECA Data Centre Project (https://www.dceureca.e
+u/) Archived (https://web.archive.org/web/20210825183935/https://www.dceureca.eu/)
+August 25, 2021, at the Wayback Machine – Data centre energy efficiency guidelines,
+extensive online training material, case studies/lectures (under events page), and tools.
+
+Chia, Liu Ee and Cornaggia, Jess and Haushalter, David and Wang, Qiang, Capital without
+Labor: Data Centers and the Local Economy (https://papers.ssrn.com/sol3/papers.cfm?abst
+ract_id=7384998) (August 31, 2026).
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Data_center&oldid=1382990003"

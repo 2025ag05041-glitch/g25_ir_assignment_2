@@ -1,0 +1,2203 @@
+﻿Generative AI
+Generative artificial intelligence (GenAI) is a
+subfield of artificial intelligence (AI) that uses
+generative models to generate text, images, videos,
+audio, computer code or other forms of digital data.[1]
+
+These models learn the underlying patterns and
+structures of their training data, and use them to
+generate new data[2] in response to input, which often
+takes the form of natural language prompts.[3][4]
+
+The prevalence of generative AI tools has increased
+significantly since the AI boom of the early 2020s. Théâtre D'opéra Spatial (Space Opera Theater,
+This boom was made possible by improvements in 2022), an image made with Midjourney that won
+deep neural networks, particularly large language its creator, Jason M. Allen, an award at the
+models (LLMs), which are based on the transformer Colorado State Fair's fine art competition
+
+architecture. Generative AI applications include
+chatbots such as ChatGPT, Claude, Microsoft Copilot,
+DeepSeek, Doubao, Google Gemini, Grok, Kimi and Qwen; text-to-image models such as DALL-E,
+Adobe Firefly, Stable Diffusion, and Midjourney; text-to-speech models such as 15.ai and ElevenLabs;
+text-to-music models such as Suno and Udio; translation models such as Google Translate and DeepL;
+and text-to-video models such as Veo, LTX and Sora.[5][6][7]
+
+Companies in a variety of sectors have used or proposed the use of generative AI, including those in
+software development, healthcare,[8] finance,[9] entertainment,[10] sales and marketing,[11]
+
+screenwriting,[12] and product design.[13]
+
+Generative AI models can produce incorrect answers or "hallucinations."[14] Generative AI has been used
+for cybercrime, and to deceive and manipulate people through fake news and deepfakes.[15][16]
+
+Generative AI models have been trained on copyrighted works without the rightholders' permission.[17]
+
+Many generative AI systems are reliant on large-scale data centers, whose environmental impacts include
+electronic waste, consumption of fresh water for cooling, and high energy consumption that is estimated
+to be growing steadily.[18]
+
+History
+
+Early history
+The origins of algorithmically generated media can be traced to the development of the Markov chain,
+which has been used to model natural language since the early 20th century. Russian mathematician
+Andrey Markov introduced the concept in 1906,[19][20] including an analysis of vowel and consonant
+
+
+
+patterns in Eugene Onegin. Once trained on a text corpus, a Markov chain can generate probabilistic
+text.[21][22]
+
+By the early 1970s, artists began using computers to extend generative techniques beyond Markov
+models. Harold Cohen developed and exhibited works produced by AARON, a pioneering computer
+program designed to autonomously create paintings.[23] The terms generative AI planning or generative
+planning were used in the 1980s and 1990s to refer to AI planning systems, especially computer-aided
+process planning, used to generate sequences of actions to reach a specified goal.[24][25] Generative AI
+planning systems used symbolic AI methods such as state space search and constraint satisfaction and
+were a "relatively mature" technology by the early 1990s. They were used to generate crisis action plans
+for military use,[26] process plans for manufacturing[24] and decision plans such as in prototype
+autonomous spacecraft.[27]
+
+Generative neural networks (since the late 2000s)
+Machine learning uses both discriminative models and
+generative models to predict or generate data. Beginning in
+the late 2000s and early 2010s, advances in deep learning led
+to major improvements in image classification, speech
+recognition, and natural language processing.[28] Neural
+networks in this period were typically trained as
+discriminative models due to the relative difficulty of training
+generative models.[29]
+
+In 2014, the introduction of models such as the variational
+autoencoder (VAE) and generative adversarial network
+(GAN) enabled effective deep generative modeling of
+complex data such as images.[30][31] In 2017, the paper
+"Attention Is All You Need" proposed that transformer
+architecture could enable further advances in generative Above: An image classifier, an example
+modeling compared to earlier long short-term memory of a neural network trained with a
+(LSTM) networks.[32] This led to the development of discriminative objective. Below: A text-to-
+generative pre-trained transformer (GPT) models, beginning image model, an example of a network
+with GPT-1 in 2018. trained with a generative objective.
+
+Generative AI adoption
+In March 2020, the release of 15.ai, a free web application created by an anonymous MIT researcher that
+could generate convincing character voices using minimal training data, was one of the earliest publicly
+available uses for generative AI.[33] The platform is credited as the first mainstream service for audio
+deepfakes.[34][35]
+
+In 2021, DALL-E, a closed-source transformer-based generative model developed by OpenAI, drew
+widespread attention to text-to-image generation.[36]
+
+Other projects, including open-source approaches such as VQGAN+CLIP and DALL·E Mini (later
+renamed Craiyon), made similar systems more accessible to the public.[37]
+
+
+
+Dream by Wombo was released at the end of 2021,[38]
+
+followed by the releases of Midjourney and Stable Diffusion
+in 2022.[39][40]
+
+In November 2022, ChatGPT was released to the public. By
+2023, it popularized generative AI for general-purpose text-
+based tasks.[41][42][43]
+
+In a 2024 survey by marketing research firm Ipsos, Asia–
+Pacific countries were significantly more optimistic than
+Western societies about generative AI and show higher
+adoption rates. Despite expressing concerns about privacy and
+the pace of change, 68% of Asia-Pacific respondents believed
+that AI was having a positive impact on the world, compared
+to 57% globally.[44] According to a survey by SAS and AI generated images have become much
+Coleman Parkes Research, as of 2023, 83% of Chinese more advanced.
+respondents were using the technology, exceeding both the
+global average of 54% and the U.S. rate of 65%. A UN report
+indicated that Chinese entities filed over 38,000 generative AI
+patents from 2014 to 2023, more than any other country.[45] A
+2024 survey by the Just So Soul social media app reported
+that 18% of respondents born after 2000 used generative AI
+"almost every day", and that over 60% of respondents like or
+love AI-generated content (AIGC), while less than 3% dislike
+or hate it.[46]
+
+By mid-2025, companies were increasingly abandoning Private investment in AI (pink) and
+generative AI pilot projects as they had difficulties with generative AI (green)
+integration, data quality and unmet returns, leading analysts at
+Gartner and The Economist to characterize the period as
+entering the Gartner hype cycle's "trough of disillusionment" phase.[47][48]
+
+In an October 2025 survey by the Federal Reserve, one in four U.S. workers reported using generative AI
+at work during the previous month.[49]
+
+Applications
+Generative artificial intelligence has been applied across multiple industries for content creation and
+automation. In healthcare, generative models are used for drug discovery and the generation of synthetic
+medical data to train diagnostic systems.[50] In finance, they are used for report drafting, data generation,
+and customer service automation.[51] Media and entertainment industries use generative systems for tasks
+such as music composition, script development, and image or video generation.[52] Researchers and
+policymakers have raised concerns regarding accuracy, misuse, and impacts on academic and
+professional work.[51]
+
+Text and software code
+
+
+
+Large language models (LLMs) are trained on tokenized text from large corpora and are capable of
+natural language processing, machine translation, and natural language generation.[53]
+
+LLMs can be used as foundation models for a variety of downstream tasks.[51] They can also be trained
+on source code to generate programs from prompts.[54]
+
+Many applications combine large language models with external knowledge sources using retrieval-
+augmented generation (RAG), a technique in which relevant documents are retrieved at inference time
+and incorporated into the model's response.
+
+Generative AI has been integrated into content management and website publishing platforms, where
+large language models are used to generate text, assist with page composition, and automate website
+creation from natural language prompts.[55] WordPress.com is one example of this application,
+incorporating generative AI into its website authoring workflow.[56]
+
+Audio
+In 2016, DeepMind's WaveNet demonstrated that deep neural networks can generate raw audio
+waveforms.[57] This enabled more realistic speech synthesis compared to earlier approaches. Subsequent
+systems such as Tacotron 2 demonstrated end-to-end neural text-to-speech generation.[58]
+
+Images
+Generative AI can be used to create visual art.[52] Such systems are trained on image–text pairs.
+Examples include Stable Diffusion, DALL-E, and Midjourney.[59] Generative AI has also been applied to
+low-bitrate image compression, enabling the reconstruction of perceptually realistic images from
+compressed data.[60][61] Recent approaches have explored controllable compression at multiple bitrates
+using a single model.[62][63]
+
+Video
+Generative AI can be used to produce photorealistic videos. Systems such as Runway have demonstrated
+text-to-video generation capabilities.[64]
+
+Robotics
+Generative models can be used for motion planning and robot control by learning from prior data.[65]
+
+3D modeling
+Generative models can assist in automating 3D modeling tasks, including generating 3D assets from text
+or images.
+
+AI-assisted mathematical discovery
+Generative AI systems have been used in mathematics and computer science to generate candidate
+computer programs, proofs, constructions, or algorithms.
+
+
+
+In 2023, Google DeepMind introduced FunSearch, a method for creating computer programs that solve
+mathematical and algorithmic problems. FunSearch was used to discover new mathematical constructions
+in the cap set problem and the bin packing problem.[66][67][68]
+
+In 2023, Google DeepMind introduced AlphaDev, which was used to discover small sorting algorithms
+that outperformed previously known human benchmarks and have been integrated into the LLVM
+standard C++ sorting library.[69][70] In 2025, Google DeepMind introduced AlphaEvolve, an AI system
+for general-purpose algorithm discovery and optimization. AlphaEvolve uses LLMs to propose code
+changes, automated evaluators to assess each candidate, and an evolutionary process to iteratively
+improve algorithms.[71]
+
+In 2026, in response to the increasing use of generative AI in mathematical discovery, a group of
+mathematicians issued the Leiden Declaration on Artificial Intelligence and Mathematics, which
+recommends disclosing the use of AI in research papers, ensuring that AI-assisted papers are peer-
+reviewed, and providing legal resources and public funding so that academia and for-profit companies
+can compete on equal terms.[72]
+
+Materials science
+In 2023, Google DeepMind introduced GNoME, a method to propose candidate inorganic crystal
+structures for computational screening and experimental synthesis in material science.[73] Other material
+science methods include MatterGen,[74] CDVAE,[75] and CrystalFlow.[76][77]
+
+Generative engine optimization
+Generative engine optimization (GEO) is the practice of structuring digital content and managing online
+presence to improve visibility in responses generated by generative AI systems. The practice influences
+the way large language models (LLMs) retrieve, summarize, and present information in response to user
+queries.[78] Related terms include answer engine optimization (AEO)[78] and artificial intelligence
+optimization (AIO).[79]
+
+Software and hardware
+Generative AI models are used by chatbots such as ChatGPT,
+programming tools such as GitHub Copilot,[80] text-to-image
+programs such as Midjourney, and text-to-video programs
+such as Runway Gen-2.[81] Generative AI features have been
+added to existing commercially available services such as
+Microsoft Office (Microsoft Copilot),[82] Google Photos,[83]
+
+and the Adobe Suite (Adobe Firefly).[84] Many generative AI
+models are also available as open-source software, including
+Stable Diffusion and the LLaMA[85] language model. Architecture of a generative AI agent
+
+Smaller generative AI models with up to a few billion
+parameters can run on smartphones, embedded devices, and personal computers. For example, LLaMA-
+7B (a version with 7 billion parameters) can run on a Raspberry Pi 4[86] and one version of Stable
+
+
+
+Diffusion can run on an iPhone 11.[87]
+
+Larger models with tens of billions of parameters can run on laptop or desktop computers. To achieve an
+acceptable speed, models of this size may require accelerators such as the GPU chips produced by
+NVIDIA and AMD or the Neural Engine included in Apple silicon products. For example, the 65 billion
+parameter version of LLaMA can be configured to run on a desktop PC.[88]
+
+The advantages of running generative AI locally include protection of privacy and intellectual property,
+and avoidance of rate limiting and censorship. The subreddit r/LocalLLaMA in particular focuses on
+using consumer-grade gaming graphics cards[89] through such techniques as compression.
+
+Language models with hundreds of billions of parameters, such as GPT-4 or PaLM, typically run on
+datacenter computers equipped with arrays of GPUs (such as NVIDIA's H100) or AI accelerator chips
+(such as Google's TPU). These very large models are typically accessed as cloud services over the
+Internet.
+
+In 2022, the United States New Export Controls on Advanced Computing and Semiconductors to China
+imposed restrictions on exports to China of GPU and AI accelerator chips used for generative AI.[90]
+
+Chips such as the NVIDIA A800[91] and the Biren Technology BR104[92] were developed to meet the
+requirements of the sanctions.
+
+There is free software on the market which attempts to recognizing text generated by generative artificial
+intelligence (such as GPTZero), as well as images, audio or video coming from it.[93] Potential mitigation
+strategies for detecting generative AI content include digital watermarking, content authentication,
+information retrieval, and machine learning classifier models.[94] Despite claims of accuracy, both free
+and paid AI text detectors have frequently produced false positives, mistakenly accusing students of
+submitting AI-generated work.[95][96]
+
+Generative models and training techniques
+
+Generative adversarial networks
+Generative adversarial networks (GANs) are a generative
+modeling technique which consist of two neural networks—
+the generator and the discriminator—trained simultaneously
+in a competitive setting. The generator creates synthetic data
+by transforming random noise into samples that resemble the
+training dataset. The discriminator is trained to distinguish the
+authentic data from synthetic data produced by the generator.
+The two models engage in a minimax game: the generator Workflow for the training of a generative
+aims to create increasingly realistic data to "fool" the adversarial network
+discriminator, while the discriminator improves its ability to
+distinguish real from fake data. This continuous training setup
+enables the generator to produce high-quality and realistic outputs.[97]
+
+
+
+Variational autoencoders
+Variational autoencoders (VAEs) are deep
+learning models that probabilistically encode
+data. They are typically used for tasks such as
+noise reduction from images, data compression,
+identifying unusual patterns, and facial
+recognition. Unlike standard autoencoders,
+which compress input data into a fixed latent
+representation, VAEs model the latent space as
+a probability distribution, allowing for smooth
+sampling and interpolation between data points. Comparison between images generated by a VAE (left)
+
+The encoder ("recognition model") maps input and a GAN (right). VAEs tend to produce smoother but
+
+data to a latent space, producing means and blurrier images due to their probabilistic decoding.
+
+variances that define a probability distribution.
+The decoder ("generative model") samples from this latent distribution and attempts to reconstruct the
+original input.[98]
+
+Transformers
+The self-attention mechanism enables the model to
+determine the relative importance of each token in
+a sequence when predicting the next token, thereby
+improving contextual understanding. Unlike
+recurrent neural networks, transformers process
+tokens in parallel, which improves training
+efficiency and scalability.[32] Transformers became
+the foundation for the generative pre-trained
+transformer (GPT) series developed by OpenAI,
+replacing traditional recurrent and convolutional
+models.
+
+Law and regulation
+In the United States, a group of companies
+including OpenAI, Alphabet, and Meta signed a
+voluntary agreement with the Biden administration The full architecture of a GPT model
+in July 2023 to watermark AI-generated
+content.[99] In October 2023, Executive Order
+14110 applied the Defense Production Act to require all US companies to report information to the
+federal government when training certain high-impact AI models.[100][101]
+
+In the European Union (EU), the European Parliament's 2023 negotiating position on the Artificial
+Intelligence Act included requirements to disclose copyrighted material used to train generative AI
+systems and to label AI-generated output.[102][103] The adopted regulation requires providers of general-
+purpose AI models to put in place a policy to comply with EU copyright law and to publish a "sufficiently
+detailed summary" of the content used for training, according to a template provided by the AI Office;
+
+
+
+these obligations have applied since August 2, 2025.[104] Providers of AI systems that generate synthetic
+audio, image, video or text must ensure that the outputs are marked in a machine-readable format and
+detectable as artificially generated or manipulated, and deployers must disclose deepfakes; these
+transparency obligations apply from August 2, 2026, with providers of systems placed on the market
+before that date given until December 2, 2026 to meet the marking requirement.[104][105]
+
+In China, the Interim Measures for the Management of Generative AI Services introduced by the
+Cyberspace Administration of China regulates any public-facing generative AI. It includes requirements
+to watermark generated images or videos, regulations on training data and label quality, restrictions on
+personal data collection, and a guideline that generative AI services must "adhere to socialist core
+values".[106][107]
+
+In 2021, UNESCO adopted the Recommendation on the Ethics of Artificial Intelligence, the first global
+standard-setting instrument on AI. It provides guidance to member states on issues including human
+rights, fairness, transparency, data governance, and environmental sustainability.[108]
+
+The Group of Seven (G7) launched the Hiroshima AI Process in 2023, which produced international
+guiding principles and a voluntary code of conduct for developers of advanced AI systems.[109] In 2024,
+the Council of Europe adopted the Framework Convention on Artificial Intelligence and Human Rights,
+Democracy and the Rule of Law, the first legally binding international treaty governing artificial
+intelligence.[110]
+
+Copyright
+
+Training with copyrighted content
+Generative AI systems such as ChatGPT and Midjourney are trained on large, publicly available datasets
+that include copyrighted works. AI developers have argued that such training is protected under fair use,
+while copyright holders have argued that it infringes their rights.[111]
+
+Proponents of fair use training have argued that it is a transformative use and does not involve making
+copies of copyrighted works available to the public.[111] Critics have argued that image generators such as
+Midjourney can create nearly-identical copies of some copyrighted images,[112] and that generative AI
+programs compete with the content they are trained on.[113]
+
+As of 2024, several lawsuits related to the use of copyrighted material in training are ongoing. Getty
+Images has sued Stability AI over the use of its images to train Stable Diffusion.[114] Both the Authors
+Guild and The New York Times have sued Microsoft and OpenAI over the use of their works to train
+ChatGPT.[115][116]
+
+Copyright of AI-generated content
+A separate question is whether AI-generated works can qualify for copyright protection. The United
+States Copyright Office has ruled that works created by artificial intelligence without any human input
+cannot be copyrighted, because they lack human authorship.[117] Some legal professionals have suggested
+that Naruto v. Slater (2018), in which the U.S. 9th Circuit Court of Appeals held that non-humans cannot
+
+
+
+be copyright holders of artistic works, could be a potential precedent in copyright litigation over works
+created by generative AI.[118] However, the office has also begun taking public input to determine if these
+rules need to be refined for generative AI.[119]
+
+In January 2025, the United States Copyright Office (USCO) released extensive guidance regarding the
+use of AI tools in the creative process, and established that "...generative AI systems also offer tools that
+similarly allow users to exert control. [These] can enable the user to control the selection and placement
+of individual creative elements. Whether such modifications rise to the minimum standard of originality
+required under Feist will depend on a case-by-case determination. In those cases where they do, the
+output should be copyrightable"[120] Subsequently, the USCO registered the first visual artwork to be
+composed of entirely AI-generated materials, titled "A Single Piece of American Cheese".[121]
+
+Litigation
+The development of generative artificial intelligence has prompted litigation over the use of copyrighted
+works to train AI models and the content produced by these systems. Authors, news publishers, visual
+artists, and music companies have filed lawsuits alleging that AI developers used their works without
+authorization. The defendants have disputed some of these claims, including by arguing that the use of
+copyrighted material for model training may qualify as fair use under the law of the United States.[122]
+
+Other lawsuits have raised issues involving privacy, trademarks, publicity rights, and alleged harm caused
+by chatbot interactions. In 2026, news publishers filed additional copyright claims against AI developers,
+while lawsuits against chatbot providers alleged that their systems contributed to mental health crises or
+other harmful conduct.[123][124]
+
+Ethical concerns
+The development of generative AI has raised concerns from governments, businesses, and individuals,
+resulting in protests, legal actions, calls to pause AI experiments, and actions by multiple governments. In
+a July 2023 briefing of the United Nations Security Council, Secretary-General António Guterres stated
+"Generative AI has enormous potential for good and evil at scale", that AI may "turbocharge global
+development" and contribute between $10 and $15 trillion to the global economy by 2030, but that its
+malicious use "could cause horrific levels of death and destruction, widespread trauma, and deep
+psychological damage on an unimaginable scale".[125] In addition, generative AI has a significant carbon
+footprint.[126]
+
+Societal impacts
+
+Effects on mental health
+Based on a nationally representative sample of 20,847 US adults, a 2026 survey study in JAMA Network
+Open found that daily generative AI use was significantly associated with greater depressive symptoms,
+with the odds of at least moderate depression roughly 30% higher among daily users than among non-
+users. The association was strongest for personal use and among those aged 25 to 64; the cross-sectional
+
+
+
+design did not allow for causal conclusions.[127] Separately, a 2025 nationally representative survey of
+US adolescents and young adults (aged 12 to 21) found that roughly 13% had used generative AI for
+emotional support, with more than 90% of them reporting the advice as helpful.[128]
+
+Controlled trials have shown some therapeutic potential. The first randomized controlled trial of a fully
+generative AI therapy chatbot, published in NEJM AI in 2025, found significant reductions in symptoms
+of depression, anxiety, and eating disorders over four weeks compared to a waitlist control, with
+participants rating the therapeutic alliance as comparable to that of human therapists.[129] These findings
+are consistent with a 2025 meta-analysis of 31 RCTs (n=29,637) that found small-to-moderate effects of
+AI chatbots in reducing depressive, anxiety, and stress symptoms among young adults.[130] Commercially
+available therapy chatbots nevertheless show significant shortcomings: a 2025 Stanford University study
+found that they exhibited stigmatizing attitudes toward conditions such as schizophrenia and alcohol
+dependence, and responded inappropriately to suicidal ideation and delusional thinking.[131]
+
+Researchers have also raised concerns about AI companion chatbots and emotional dependency. While
+some users of companion apps report reduced loneliness, scientists worry about long-term dependency
+when chatbots provide constant validation without challenging users' assumptions.[132] In 2026, Stanford
+researchers found that users of the Character.AI platform with limited offline social networks reported
+feeling more lonely after seeking emotional support from chatbots.[133]
+
+Overreliance on generative AI may also affect cognitive skills. In a study presented at the 2026
+Conference on Human Factors in Computing Systems, participants who used AI regularly over four
+weeks showed a decreased ability to discern misinformation on their own.[134][135]
+
+Academic honesty
+Generative AI can be used to generate and modify academic prose, paraphrase sources, and translate
+languages. The use of generative AI in a classroom setting has challenged traditional definitions of
+academic plagiarism, leading to a "cat-and-mouse" dynamic between students using AI and institutions
+attempting to detect it.[136] In the immediate wake of ChatGPT's release, many school districts and
+universities issued temporary bans on the technology, though many institutions have since moved toward
+policies of managed integration.[136] However, the implementation of these policies often lacks clarity.
+Research suggests that the burden of interpreting "acceptable use" frequently falls on individual students
+and teachers, creating an environment where academic honesty becomes difficult to define and
+enforce.[137]
+
+A commonly proposed use for teachers is grading and giving feedback. Companies like Pearson and ETS
+use AI to score grammar, mechanics, usage, and style, but not for main ideas or overall structure.[138] The
+National Council of Teachers of English stated that machine scoring makes students feel their writing is
+not worth reading.[139] AI scoring has also given unfair results for students from different ethnic
+backgrounds.[140]
+
+Fears over job losses
+From the early days of the development of AI, there have been arguments put forward by ELIZA creator
+Joseph Weizenbaum and others about whether tasks that can be done by computers actually should be
+done by them, given the difference between computers and humans, and between quantitative
+calculations and qualitative, value-based judgements.[142] AI has been used by many companies to
+
+
+
+replace human artists. In April 2023, it was reported that
+image generation AI has resulted in 70% of the jobs for video
+game illustrators in China being lost.[143][144] Loss of jobs
+due to replacement with generative AI has led to labor
+disputes such as the 2023 Hollywood labor disputes. Fran
+Drescher, president of the Screen Actors Guild, declared that
+"artificial intelligence poses an existential threat to creative
+professions" during the 2023 SAG-AFTRA strike.[145] All
+forms of art, not only visual, are at risk of replacement with
+generative AI. Voice generation AI has been seen as a
+potential challenge to the voice acting sector.[146] Writing and
+journalism, other forms of human-made art, are also under
+imposition by generative AI.[147]
+
+A picketer at the 2023 Writers Guild of
+America strike. While not a top priority,
+
+However, a 2025 study concluded that the US labor market one of the WGA's 2023 requests was
+had so far not experienced a discernible disruption from "regulations around the use of
+generative AI.[148] Another study reported that Danish (generative) AI".[141]
+
+workers who used chatbots saved 2.8% of their time on
+average, and found no significant change in earnings or hours
+worked.[149]
+
+Ethics of AI in art
+The topic of ethics of art in the age of AI involves considerations of ethical decision-making and use of
+resources in the production of art in the new age of AI-generated works progressing into artistic fields.
+This relates to implications for artists concerned with the impact AI may have on art as well as the
+continued production of so-called “ethical art”, amongst new involvements of AI in a significant number
+of artistic mediums.[150]
+
+The scope of this topic covers the changes or reevaluations of the emotional significance of art when
+considering nonhuman forms of artistic creation and the regard for art as a process or a final product. It
+covers implications amongst a number of fields including social structures, marginalized communities,
+human creativity, and use of sustainable resources. The significance of considering the definition of AI-
+generated works as art is the concern for its reliance on abuse of human resources rather than acting as a
+medium to flourish humanity.[151]
+
+Gaps in this evaluation include the perspectives of AI as a means for rapid progression. This is because,
+in the consideration of AI in the context of sustainable development, rapid production and the
+prioritization of design for consumption go against the principles of sustainability, which prioritize
+effective use of renewable and ethical resources before aiming for further development.[152]
+
+Effects on journalism
+In January 2023, Futurism broke the story that CNET had been using an undisclosed internal AI tool to
+write at least 77 of its stories; after the news broke, CNET posted corrections to 41 of the stories.[153] In
+April 2023, Die Aktuelle published an AI-generated fake interview of Michael Schumacher.[154] In May
+2024, Futurism noted that a content management system video by AdVon Commerce, which had used
+generative AI to produce articles for many of the aforementioned outlets, appeared to show that they "had
+
+
+
+produced tens of thousands of articles for more than 150 publishers".[155] In 2025, a report from the
+American Sunlight Project stated that Pravda network was publishing as many as 10,000 articles a day,
+and concluded that much of this content aimed to push Russian narratives into large language models
+through their training data.[156]
+
+In June 2024, Reuters Institute published its Digital News Report for 2024. In a survey of people in
+America and Europe, Reuters Institute reports that 52% and 47% respectively are uncomfortable with
+news produced by "mostly AI with some human oversight", and 23% and 15% respectively report being
+comfortable. 42% of Americans and 33% of Europeans reported that they were comfortable with news
+produced by "mainly human with some help from AI". The results of global surveys reported that people
+were more uncomfortable with news topics including politics (46%), crime (43%), and local news (37%)
+produced by AI than other news topics.[157] A 2025 Pew Research Survey found roughly half of all U.S.
+adults say that AI will have a very (24%) or somewhat (26%) negative impact on the news people get in
+the U.S. over the next 20 years.[158]
+
+Bias
+A language model may associate certain professions with specific genders if such patterns are prevalent
+in the data.[159] Similarly, some image generation systems have been observed to generate images of men
+as CEOs more often than women.[160]
+
+AI software, when using voice recognition software in particular, struggles to recognize and understand
+speech impediments. For example, people with a stutter struggle to activate voice-activated assistants
+such as Gemini and Siri due to how the software was trained.[161]
+
+Companies that use AI systems to hire for new positions also filter out people with accents and speech
+due to voice recognition software incorrectly transcribing how candidates speak during the interview
+process. Because of this, people with disabilities and uncommon accents don't often make it to a human
+interviewer when these generative AI systems are used.[162] This is due to many AI models being trained
+and produced in the United States, and therefore, off of American accents.[163]
+
+Misinformation and disinformation
+
+Deepfakes
+Deepfakes (a portmanteau of "deep learning" and "fake"[164]) are AI-generated media that take a person
+in an existing image or video and replace them with someone else's likeness using artificial neural
+networks.[165] Deepfakes have garnered widespread attention and concerns for their uses in deepfake
+celebrity pornographic videos, revenge porn, fake news, hoaxes, health disinformation, financial fraud,
+and covert foreign election interference.[166][167][168][169][170]
+
+In July 2023, the fact-checking company Logically found that the popular generative AI models
+Midjourney, DALL-E 2 and Stable Diffusion would produce plausible disinformation images when
+prompted to do so, such as images of electoral fraud in the United States and Muslim women supporting
+India's Bharatiya Janata Party.[171]
+
+Audio deepfakes
+
+
+
+Instances of users abusing software to generate controversial statements in the vocal style of celebrities,
+public officials, and other famous individuals have raised ethical concerns over voice generation
+AI.[172][173][174][175][176][177] In response, companies such as ElevenLabs have stated that they would
+work on mitigating potential abuse through safeguards and identity verification.[178]
+
+Concerns and fandoms have spawned from AI-generated music. The same software used to clone voices
+has been used on famous musicians' voices to create songs that mimic their voices, gaining both
+tremendous popularity and criticism.[179][180][181] Similar techniques have also been used to create
+improved quality or full-length versions of songs that have been leaked or have yet to be released.[182]
+
+Information laundering
+Generative AI has been noted for its use by state-sponsored propaganda campaigns in information
+laundering. According to a 2025 report by Graphika, generative AI is used to launder articles from
+Chinese state media such as China Global Television Network through various social media sites in an
+attempt to disguise the articles' origin.[183]
+
+Accuracy and content quality
+AI's propensity to produce inaccurate content has led to an estimated global enterprise loss at over $67
+million, though other research says the true impact is significant but not yet well-quantified. According to
+McKinsey’s State of AI 2024 survey, about 44% of organizations have experienced at least one negative
+consequence from GenAI, with inaccuracy and hallucination among the top cited risks.
+
+Numerous studies have found AI consistently creates inaccurate summaries that sound confidently
+correct.
+
+The New York Times defines slop as analogous to spam: "shoddy or unwanted A.I. content in social
+media, art, books, and ... in search results."[184] Journalists have expressed concerns about the scale of
+low-quality generated content with respect to social media content moderation,[185] the monetary
+incentives from social media companies to spread such content,[185][186] false political messaging,[186]
+
+spamming of scientific research paper submissions,[187] increased time and effort to find higher quality or
+desired content on the Internet,[188] the indexing of generated content by search engines,[189] and on
+journalism itself.[190] Studies have found that AI can create inaccurate claims, citations or summaries that
+sound confidently correct, a phenomenon called hallucination.[191][192][193][194]
+
+A paper published by researchers at Amazon Web Services AI Labs found that over 57% of sentences
+from a sample of over 6 billion sentences from Common Crawl, a snapshot of web pages, were machine
+translated. Many of these automated translations were seen as lower quality, especially for sentences that
+were translated into at least three languages. Many lower-resource languages (ex. Wolof, Xhosa) were
+translated across more languages than higher-resource languages (ex. English, French).[195][196]
+
+In September 2024, Robyn Speer, the author of wordfreq, an open source database that calculated word
+frequencies based on text from the Internet, announced that she had stopped updating the data for several
+reasons: high costs for obtaining data from Reddit and Twitter, excessive focus on generative AI
+compared to other methods in the natural language processing community, and that "generative AI has
+polluted the data".[197]
+
+
+
+The adoption of generative AI tools led to an explosion of AI-generated content across multiple domains.
+A study from University College London estimated that in 2023, more than 60,000 scholarly articles—
+over 1% of all publications—were likely written with LLM assistance.[198] According to Stanford
+University's Institute for Human-Centered AI, approximately 17.5% of newly published computer science
+papers and 16.9% of peer review text now incorporate content generated by LLMs.[199]
+
+If AI-generated content is included in new data crawls from the Internet for additional training of AI
+models, defects in the resulting models may occur.[200] Training an AI model exclusively on the output of
+another AI model produces a lower-quality model. Repeating this process, where each new model is
+trained on the previous model's output, leads to progressive degradation and eventually results in a
+"model collapse" after multiple iterations.[201]
+
+On the other side, synthetic data can be deployed to train machine learning models while preserving user
+privacy.[202] The approach is not limited to text generation; image generation has been employed to train
+computer vision models.[202]
+
+Malicious use
+
+Illegal imagery
+Many websites that allow explicit AI generated images or videos have been created,[203] and this has been
+used to create illegal content, such as rape, child sexual abuse material,[204][205] necrophilia, and
+zoophilia.
+
+Cybercrime
+Generative AI's ability to create realistic fake content has been exploited in numerous types of
+cybercrime, including phishing scams.[206] Deepfake video and audio have been used to create
+disinformation and fraud. In 2020, former Google click fraud czar Shuman Ghosemajumder argued that
+once deepfake videos become perfectly realistic, they would stop appearing remarkable to viewers,
+potentially leading to uncritical acceptance of false information.[207] Additionally, large language models
+and other forms of text-generation AI have been used to create fake reviews of e-commerce websites to
+boost ratings.[208] Cybercriminals have created large language models focused on fraud, including
+WormGPT and FraudGPT.[209]
+
+A 2023 study showed that generative AI can be vulnerable to jailbreaks, reverse psychology and prompt
+injection attacks, enabling attackers to obtain help with harmful requests, such as for crafting social
+engineering and phishing attacks.[210] Additionally, other researchers have demonstrated that open-source
+models can be fine-tuned to remove their safety restrictions at low cost.[211]
+
+RAG poisoning
+In 2025, Israel signed a $6 million contract with the US-based firm Clock Tower X that aimed to
+influence ChatGPT, Gemini and Grok by spreading pro-Israel information onto social media and
+websites. This was in an attempt to take advantage of the retrieval-augmented generation (RAG)
+technique which is used by LLMs to provide more up-to-date information.[212][213][214]
+
+
+
+Privacy and data governance
+
+Extraterritorial data access
+The CLOUD Act allows United States authorities to request data from covered service providers,
+including some AI service providers, regardless of where the data is physically stored.[215][216] Courts
+can require parent companies to provide data held by their subsidiaries, and such orders may be
+accompanied by nondisclosure requirements preventing the provider from notifying affected users.[217]
+
+This framework has been described in legal commentary as creating legal tension with Article 48 of the
+General Data Protection Regulation (GDPR), which restricts the transfer of personal data in response to
+foreign court or administrative orders unless based on an international agreement.[218] As a result, service
+providers operating in both jurisdictions may face competing legal obligations under U.S. and EU
+law.[218]
+
+Environmental and industry impacts
+
+Energy and environment
+AI has a significant carbon
+footprint due to growing energy
+consumption from both training
+and usage.[126] Scientists and
+journalists have expressed
+concerns about the
+environmental impact that the
+development and deployment of
+generative models are having:
+high CO2
+emissions,[159][220][221] large
+amounts of freshwater used for
+data centers,[222][223] high
+amounts of electricity
+usage,[220][224][225] electronic
+waste,[226] and pollution due to According to research institute Epoch AI, energy consumption per typical
+
+backup diesel generator ChatGPT query (0.3 watt-hours) is small compared to the average U.S.
+household consumption per minute (almost 20 watt-hours). Queries
+
+exhaust.[227] There is also containing long entries can consume significantly more energy (2.5 watt-
+concern that these impacts may hours for a query of around 7,500 words).[219]
+
+increase as these models are
+incorporated into widely used
+search engines such as Google Search and Bing,[224] as chatbots and other applications become more
+popular,[223][224] and as models need to be retrained.[224]
+
+The carbon footprint of generative AI globally is estimated to be growing steadily, with potential annual
+emissions ranging from 18.21 to 245.94 million tons of CO2 by 2035,[228] with the highest estimates for
+2035 nearing the impact of the United States beef industry on emissions (currently estimated to emit
+257.5 million tons annually as of 2024).[229]
+
+
+
+Proposed mitigation strategies include factoring potential environmental costs prior to model
+development or data collection,[159] increasing efficiency of data centers to reduce electricity/energy
+usage,[221][224][225] building more efficient machine learning models,[220][222][223] minimizing the
+number of times that models need to be retrained,[221] developing a government-directed framework for
+auditing the environmental impact of these models,[221][222] regulating for transparency of these
+models,[221] regulating their energy and water usage,[222] encouraging researchers to publish data on their
+models' carbon footprint,[221][224] and increasing the number of subject matter experts who understand
+both machine learning and climate science.[221]
+
+Reliance on industry giants
+Training frontier AI models requires an enormous amount of computing power. Usually only Big Tech
+companies have the financial resources to make such investments. Smaller start-ups such as Cohere and
+OpenAI end up buying access to data centers from Google and Microsoft respectively.[230]
+
+Detection and awareness
+Tools such as GPTZero can detect content generated by AI. However, they can also make false
+accusations (false positives).[231] Digital watermarking is a technique that improves detection accuracy. It
+works by altering the generated content at the source, in subtle ways which can be detected by
+corresponding software.
+
+In 2023, OpenAI developed a watermarking tool for ChatGPT. However, it was not released, because
+they worried that users would switch to competitors. They also argued that it would be easy to
+circumvent, for example by asking another AI to rephrase.[232][233]
+
+In March 2025, China issued requirements for online service providers to label AI content.[234]
+
+In May 2025, Google deployed its watermarking tool, SynthID. It marks output from Gemini (text),
+Imagen (images), and Veo (video). To detect output from these products, one uses Google's "SynthID
+detector" portal.[235]
+
+In 2025, users mistakenly accused gaming companies of using generative AI for the video games Little
+Droid and Chessplus.[236]
+
+See also
+AI anthropomorphism – Attribution of human traits to AI
+AI slop - Low-quality AI-generated digital content
+Artificial general intelligence – Type of hypothetical AI with wide-ranging abilities
+Artificial imagination – Artificial simulation of human imagination
+Artificial intelligence art – Visual content generation through artificial intelligence
+Artificial life – Field of study
+Chatbot – Conversational software
+Computational creativity – Multidisciplinary endeavour
+
+
+
+Diffusion-based generative models – Technique for the generative modeling of a continuous
+probability distribution
+Generative adversarial network – Machine learning framework
+Generative pre-trained transformer – Type of large language model
+Large language model – Type of machine learning model
+Lists of open-source artificial intelligence software
+Music and artificial intelligence – Usage of artificial intelligence to generate music
+Generative AI pornography – Explicit material produced by generative AI
+Procedural generation – Method in which data is created algorithmically as opposed to
+manually
+Retrieval-augmented generation – Type of information retrieval using LLMs
+Stochastic parrot – Term used in machine learning
+
+References
+1. Banh, Leonardo; Strobel, Gero (2023). "Generative artificial intelligence" (https://doi.org/10.1
+
+007%2Fs12525-023-00680-1). Electronic Markets. 33 (1) 63. doi:10.1007/s12525-023-
+00680-1 (https://doi.org/10.1007%2Fs12525-023-00680-1). hdl:10419/306304 (https://hdl.ha
+ndle.net/10419%2F306304).
+
+2. Pasick, Adam (March 27, 2023). "Artificial Intelligence Glossary: Neural Networks and Other
+Terms Explained" (https://www.nytimes.com/article/ai-artificial-intelligence-glossary.html).
+The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331).
+Archived (https://web.archive.org/web/20230901183440/https://www.nytimes.com/article/ai-a
+rtificial-intelligence-glossary.html) from the original on September 1, 2023. Retrieved
+April 22, 2023.
+
+3. Griffith, Erin; Metz, Cade (January 27, 2023). "Anthropic Said to Be Closing In on $300
+Million in New A.I. Funding" (https://www.nytimes.com/2023/01/27/technology/anthropic-ai-fu
+nding.html). The New York Times. Archived (https://web.archive.org/web/20231209074235/h
+ttps://www.nytimes.com/2023/01/27/technology/anthropic-ai-funding.html) from the original
+on December 9, 2023. Retrieved March 14, 2023.
+
+4. Lanxon, Nate; Bass, Dina; Davalos, Jackie (March 10, 2023). "A Cheat Sheet to AI
+Buzzwords and Their Meanings" (https://news.bloomberglaw.com/tech-and-telecom-law/a-c
+heat-sheet-to-ai-buzzwords-and-their-meanings-quicktake). Bloomberg News. Archived (http
+s://web.archive.org/web/20231117140835/https://news.bloomberglaw.com/tech-and-telecom
+-law/a-cheat-sheet-to-ai-buzzwords-and-their-meanings-quicktake) from the original on
+November 17, 2023. Retrieved March 14, 2023.
+
+5. Roose, Kevin (October 21, 2022). "A Coming-Out Party for Generative A.I., Silicon Valley's
+New Craze" (https://www.nytimes.com/2022/10/21/technology/generative-ai.html). The New
+York Times. Archived (https://web.archive.org/web/20230215010524/https://www.nytimes.co
+m/2022/10/21/technology/generative-ai.html) from the original on February 15, 2023.
+Retrieved March 14, 2023.
+
+6. Shahaf, Tal; Shahaf, Tal (October 23, 2025). "Lightricks unveils powerful AI video model
+challenging OpenAI and Google" (https://www.ynetnews.com/tech-and-digital/article/hklbzav
+rgx). Ynetglobal. Retrieved December 22, 2025.
+
+7. Metz, Cade (February 15, 2024). "OpenAI Unveils A.I. That Instantly Generates Eye-
+Popping Videos" (https://www.nytimes.com/2024/02/15/technology/openai-sora-videos.htm
+l). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331).
+Archived (https://web.archive.org/web/20240215220626/https://www.nytimes.com/2024/02/1
+5/technology/openai-sora-videos.html) from the original on February 15, 2024. Retrieved
+February 16, 2024.
+
+
+
+8. Raza, Marium M.; Venkatesh, Kaushik P.; Kvedar, Joseph C. (March 7, 2024). "Generative
+AI and large language models in health care: pathways to implementation" (https://www.ncb
+i.nlm.nih.gov/pmc/articles/PMC10920625). npj Digital Medicine. 7 (1): 62.
+doi:10.1038/s41746-023-00988-4 (https://doi.org/10.1038%2Fs41746-023-00988-4).
+ISSN 2398-6352 (https://search.worldcat.org/issn/2398-6352). PMC 10920625 (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC10920625). PMID 38454007 (https://pubmed.ncbi.nlm.ni
+h.gov/38454007).
+
+9. Mogaji, Emmanuel (January 7, 2025). "How generative AI is transforming financial services
+– and what it means for customers" (https://theconversation.com/how-generative-ai-is-transf
+orming-financial-services-and-what-it-means-for-customers-246649). The Conversation.
+Retrieved April 10, 2025.
+
+10. Bean, Thomas H. Davenport and Randy (June 19, 2023). "The Impact of Generative AI on
+Hollywood and Entertainment" (https://sloanreview.mit.edu/article/the-impact-of-generative-a
+i-on-hollywood-and-entertainment/). MIT Sloan Management Review. Archived (https://web.
+archive.org/web/20240806231801/https://sloanreview.mit.edu/article/the-impact-of-generativ
+e-ai-on-hollywood-and-entertainment/) from the original on August 6, 2024. Retrieved
+April 10, 2025.
+
+11. "Don't fear an AI-induced jobs apocalypse just yet" (https://www.economist.com/business/20
+23/03/06/dont-fear-an-ai-induced-jobs-apocalypse-just-yet). The Economist. March 6, 2023.
+Archived (https://web.archive.org/web/20231117160744/https://www.economist.com/busines
+s/2023/03/06/dont-fear-an-ai-induced-jobs-apocalypse-just-yet) from the original on
+November 17, 2023. Retrieved March 14, 2023.
+
+12. Coyle, Jake (September 27, 2023). "In Hollywood writers' battle against AI, humans win (for
+now)" (https://apnews.com/article/hollywood-ai-strike-wga-artificial-intelligence-39ab72582c
+3a15f77510c9c30a45ffc8). AP News. Associated Press. Archived (https://web.archive.org/w
+eb/20240403060904/https://apnews.com/article/hollywood-ai-strike-wga-artificial-intelligence
+-39ab72582c3a15f77510c9c30a45ffc8) from the original on April 3, 2024. Retrieved
+January 26, 2024.
+
+13. "How Generative AI Can Augment Human Creativity" (https://hbr.org/2023/07/how-generativ
+e-ai-can-augment-human-creativity). Harvard Business Review. June 16, 2023. ISSN 0017-
+8012 (https://search.worldcat.org/issn/0017-8012). Retrieved June 20, 2023.
+
+14. "OpenAI admits AI hallucinations are mathematically inevitable, not just engineering flaws"
+(https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathe
+matically-inevitable-not-just-engineering-flaws.html). Computerworld. Retrieved October 21,
+2026.
+
+15. Taeihagh, Araz (April 4, 2025). "Governance of Generative AI" (https://academic.oup.com/po
+licyandsociety/article/44/1/1/7997395). Policy and Society. 44 (1): 1–22.
+doi:10.1093/polsoc/puaf001 (https://doi.org/10.1093%2Fpolsoc%2Fpuaf001). ISSN 1449-
+4035 (https://search.worldcat.org/issn/1449-4035).
+
+16. Simon, Felix M.; Altay, Sacha; Mercier, Hugo (October 18, 2023). "Misinformation reloaded?
+Fears about the impact of generative AI on misinformation are overblown" (https://doi.org/1
+0.37016%2Fmr-2020-127). Harvard Kennedy School Misinformation Review.
+doi:10.37016/mr-2020-127 (https://doi.org/10.37016%2Fmr-2020-127).
+
+17. "New AI systems collide with copyright law" (https://www.bbc.co.uk/news/business-6623126
+8). BBC News. August 1, 2023. Retrieved September 28, 2024.
+
+18. "AI has an environmental problem. Here's what the world can do about that" (https://www.un
+ep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-abou
+t). www.unep.org. September 21, 2024. Retrieved August 20, 2025.
+
+19. Grinstead, Charles Miller; Snell, James Laurie (1997). Introduction to Probability (https://arc
+hive.org/details/flooved3489). American Mathematical Society. pp. 464 (https://archive.org/d
+etails/flooved3489/page/n473)–466. ISBN 978-0-8218-0749-1.
+
+
+
+20. Bremaud, Pierre (March 9, 2013). Markov Chains: Gibbs Fields, Monte Carlo Simulation,
+and Queues (https://books.google.com/books?id=jrPVBwAAQBAJ). Springer Science &
+Business Media. p. ix. ISBN 978-1-4757-3124-8. Archived (https://web.archive.org/web/201
+70323160437/https://books.google.com/books?id=jrPVBwAAQBAJ) from the original on
+March 23, 2017.
+
+21. Hayes, Brian (2013). "First Links in the Markov Chain". American Scientist. 101 (2): 92.
+doi:10.1511/2013.101.92 (https://doi.org/10.1511%2F2013.101.92). ISSN 0003-0996 (http
+s://search.worldcat.org/issn/0003-0996).
+
+22. Fine, Shai; Singer, Yoram; Tishby, Naftali (July 1998). "The Hierarchical Hidden Markov
+Model: Analysis and Applications" (https://doi.org/10.1023%2FA%3A1007469218079).
+Machine Learning. 32 (1): 41–62. Bibcode:1998MLear..32...41F (https://ui.adsabs.harvard.e
+du/abs/1998MLear..32...41F). doi:10.1023/A:1007469218079 (https://doi.org/10.1023%2F
+A%3A1007469218079).
+
+23. Bergen, Nathan; Huang, Angela (2023). "A Brief History of Generative AI" (https://www2.del
+oitte.com/content/dam/Deloitte/us/Documents/consulting/us-gen-ai-dichotomies.pdf) (PDF).
+Dichotomies: Generative AI: Navigating Towards a Better Future (2): 4. Archived (https://we
+b.archive.org/web/20230810230710/https://www2.deloitte.com/content/dam/Deloitte/us/Doc
+uments/consulting/us-gen-ai-dichotomies.pdf) (PDF) from the original on August 10, 2023.
+Retrieved August 8, 2023.
+
+24. Alting, Leo; Zhang, Hongchao (1989). "Computer aided process planning: the state-of-the-
+art survey" (https://www.researchgate.net/publication/236649325). The International Journal
+of Production Research. 27 (4): 553–585. doi:10.1080/00207548908942569 (https://doi.org/
+10.1080%2F00207548908942569). Archived (https://web.archive.org/web/2024050709433
+5/https://www.researchgate.net/publication/236649325_Computer_Aided_Process_Planning
+_The_State-of-the-Art_Survey) from the original on May 7, 2024. Retrieved October 3,
+2023.
+
+25. Chien, Steve (1998). "Automated planning and scheduling for goal-based autonomous
+spacecraft". IEEE Intelligent Systems and Their Applications. 13 (5): 50–55.
+Bibcode:1998IISA...13e..50C (https://ui.adsabs.harvard.edu/abs/1998IISA...13e..50C).
+doi:10.1109/5254.722362 (https://doi.org/10.1109%2F5254.722362).
+
+26. Burstein, Mark H., ed. (1994). ARPA/Rome Laboratory Knowledge-based Planning and
+Scheduling Initiative Workshop Proceedings. The Advanced Research Projects Agency,
+Department of Defense, and Rome Laboratory, US Air Force, Griffiss AFB. p. 219. ISBN 1-
+55860-345-X.
+
+27. Pell, Barney; Bernard, Douglas E.; Chien, Steve A.; Gat, Erann; Muscettola, Nicola; Nayak,
+P. Pandurang; Wagner, Michael D.; Williams, Brian C. (1998). Bekey, George A. (ed.). An
+Autonomous Spacecraft Agent Prototype. Autonomous Robots Volume 5, No. 1. pp. 29–45.
+"Our deliberator is a traditional generative AI planner based on the HSTS planning
+framework (Muscettola, 1994), and our control component is a traditional spacecraft attitude
+control system (Hackney et al. 1993). We also add an architectural component explicitly
+dedicated to world modeling (the mode identifier), and distinguish between control and
+monitoring."
+
+28. Krizhevsky, Alex; Ilya Sutskever; Geoffrey E. Hinton (2012). "ImageNet classification with
+Deep Convolutional Neural Networks" (https://papers.nips.cc/paper/4824-imagenet-classific
+ation-with-deep-convolutional-neural-networks). Advances in Neural Information Processing
+Systems. 25.
+
+29. Jebara, Tony (2012). Machine learning: discriminative and generative. Springer Science &
+Business Media.
+
+30. Kingma, Diederik P; Welling, Max (2014). Auto-Encoding Variational Bayes (https://iclr.cc/vir
+tual/2024/test-of-time/21444). ICLR. arXiv:1312.6114 (https://arxiv.org/abs/1312.6114).
+
+
+
+31. Goodfellow, Ian; Jean Pouget-Abadie; Mehdi Mirza; Bing Xu; David Warde-Farley; Sherjil
+Ozair; Aaron Courville; Yoshua Bengio (2014). "Generative Adversarial Nets" (https://papers.
+nips.cc/paper/5423-generative-adversarial-nets). Advances in Neural Information
+Processing Systems. 27.
+
+32. Vaswani, Ashish; Noam Shazeer; Niki Parmar; Jakob Uszkoreit; Llion Jones; Aidan N.
+Gomez; Łukasz Kaiser; Illia Polosukhin (2017). "Attention Is All You Need". Advances in
+Neural Information Processing Systems. arXiv:1706.03762 (https://arxiv.org/abs/1706.0376
+2).
+
+33. Chandraseta, Rionaldi (January 21, 2021). "Generate Your Favourite Characters' Voice
+Lines using Machine Learning" (https://towardsdatascience.com/generate-your-favourite-ch
+aracters-voice-lines-using-machine-learning-c0939270c0c6). Towards Data Science.
+Archived (https://web.archive.org/web/20210121132456/https://towardsdatascience.com/ge
+nerate-your-favourite-characters-voice-lines-using-machine-learning-c0939270c0c6) from
+the original on January 21, 2021. Retrieved December 18, 2024.
+
+34. Temitope, Yusuf (December 10, 2024). "15.ai Creator reveals journey from MIT Project to
+internet phenomenon" (https://web.archive.org/web/20241228152312/https://guardian.ng/tec
+hnology/15-ai-creator-reveals-journey-from-mit-project-to-internet-phenomenon/). The
+Guardian. Lagos, Nigeria. Archived from the original (https://guardian.ng/technology/15-ai-cr
+eator-reveals-journey-from-mit-project-to-internet-phenomenon/) on December 28, 2024.
+Retrieved December 25, 2024.
+
+35. Anirudh VK (March 18, 2023). "Deepfakes Are Elevating Meme Culture, But At What Cost?"
+(https://analyticsindiamag.com/ai-origins-evolution/deepfakes-are-elevating-meme-culture-b
+ut-at-what-cost/). Analytics India Magazine. Archived (https://web.archive.org/web/20241226
+163953/https://analyticsindiamag.com/ai-origins-evolution/deepfakes-are-elevating-meme-c
+ulture-but-at-what-cost/) from the original on December 26, 2024. Retrieved December 18,
+2024. "While AI voice memes have been around in some form since '15.ai' launched in
+2020, [...]"
+
+36. Coldewey, Devin (January 5, 2021). "OpenAI's DALL-E creates plausible images of literally
+anything you ask it to" (https://techcrunch.com/2021/01/05/openais-dall-e-creates-plausible-i
+mages-of-literally-anything-you-ask-it-to/). TechCrunch. Retrieved March 15, 2023.
+
+37. "DALL·E mini by craiyon.com" (https://huggingface.co/spaces/dalle-mini/dalle-mini).
+Hugging Face. Retrieved March 20, 2026.
+
+38. Macaulay, Thomas (November 24, 2021). "This AI app turns your words into striking (and
+less cursed) fan art" (https://thenextweb.com/news/wombo-dream-ai-app-turns-words-into-fa
+n-art). TNW. Retrieved January 18, 2026.
+
+39. "Stable Diffusion Public Release" (https://stability.ai/blog/stable-diffusion-public-release).
+Stability AI. August 2022. Retrieved March 20, 2026.
+
+40. "Midjourney" (https://www.midjourney.com/home/). Midjourney. Retrieved March 20, 2026.
+41. Lock, Samantha (December 5, 2022). "What is AI chatbot phenomenon ChatGPT and could
+
+it replace humans?" (https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatb
+ot-phenomenon-chatgpt-and-could-it-replace-humans). The Guardian. Archived (https://web.
+archive.org/web/20230116100346/https://www.theguardian.com/technology/2022/dec/05/wh
+at-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans) from the original on
+January 16, 2023. Retrieved March 15, 2023.
+
+42. Huang, Haomiao (August 23, 2023). "How ChatGPT turned generative AI into an "anything
+tool" " (https://arstechnica.com/ai/2023/08/how-chatgpt-turned-generative-ai-into-an-anythin
+g-tool/). Ars Technica. Archived (https://web.archive.org/web/20240719143525/https://arstec
+hnica.com/ai/2023/08/how-chatgpt-turned-generative-ai-into-an-anything-tool/) from the
+original on July 19, 2024. Retrieved September 21, 2024.
+
+
+
+43. Krakowski, Sebastian (March 2025). "Human-AI agency in the age of generative AI" (https://
+doi.org/10.1016%2Fj.infoandorg.2025.100560). Information and Organization. 35 (1)
+100560. doi:10.1016/j.infoandorg.2025.100560 (https://doi.org/10.1016%2Fj.infoandorg.202
+5.100560).
+
+44. "Asia Pacific open to digital and reform transformation" (https://www.ipsos.com/en-th/ua_glo
+baltrends). IPSOS. November 11, 2024. Retrieved June 14, 2025.
+
+45. Baptista, Eduardo (July 9, 2024). "China leads the world in adoption of generative AI, survey
+shows" (https://www.reuters.com/technology/artificial-intelligence/china-leads-world-adoptio
+n-generative-ai-survey-shows-2024-07-09/). Reuters. Retrieved July 14, 2024.
+
+46. He Qitong; Li Dongxu (May 31, 2024). "Young Chinese Have Almost No Concerns About AI,
+Survey Finds" (https://www.sixthtone.com/news/1015263). Sixth Tone. Shanghai United
+Media Group.
+
+47. "Gartner Says Generative AI for Procurement Has Entered the Trough of Disillusionment" (h
+ttps://www.gartner.com/en/newsroom/press-releases/2025-07-30-gartner-says-generative-ai
+-for-procurement-has-entered-the-trough-of-disillusionment) (Press release). Gartner. July
+30, 2025. Retrieved September 16, 2025.
+
+48. "Welcome to the AI trough of disillusionment" (https://www.economist.com/business/2025/0
+5/21/welcome-to-the-ai-trough-of-disillusionment). The Economist. May 21, 2025. Retrieved
+September 16, 2025.
+
+49. Report on the Economic Well-Being of U.S. Households in 2025 (https://www.federalreserv
+e.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.
+htm) (Report). Federal Reserve Board. May 2026. Retrieved September 22, 2026.
+
+50. Kaushal, Ayush (2023). "Artificial Intelligence in Healthcare: Applications and Challenges".
+Nature Medicine.
+
+51. Bommasani, R. (2021). "On the opportunities and risks of foundation models".
+arXiv:2108.07258 (https://arxiv.org/abs/2108.07258) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+52. Epstein, Ziv (2023). "Art and the science of generative AI". Science. 380 (6650): 1110–1111.
+arXiv:2306.04141 (https://arxiv.org/abs/2306.04141). Bibcode:2023Sci...380.1110E (https://u
+i.adsabs.harvard.edu/abs/2023Sci...380.1110E). doi:10.1126/science.adh4451 (https://doi.or
+g/10.1126%2Fscience.adh4451). PMID 37319193 (https://pubmed.ncbi.nlm.nih.gov/373191
+93).
+
+53. Brown, Tom B. (2020). "Language Models are Few-Shot Learners". Advances in Neural
+Information Processing Systems. arXiv:2005.14165 (https://arxiv.org/abs/2005.14165).
+
+54. Chen, Mark (2021). "Evaluating Large Language Models Trained on Code".
+arXiv:2107.03374 (https://arxiv.org/abs/2107.03374) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+55. Zewe, Adam (November 9, 2023). "Explained: Generative AI" (https://news.mit.edu/2023/ex
+plained-generative-ai-1109). MIT News. Massachusetts Institute of Technology. Retrieved
+July 20, 2026.
+
+56. Hutson, James (2025). The Adoption of Artificial Intelligence and Inertia in Higher Education:
+Exploring Complex Resistance to Technological Change (1st ed.). Routledge. ISBN 978-1-
+041-10597-8.
+
+57. van den Oord, Aaron (2016). "WaveNet: A Generative Model for Raw Audio".
+arXiv:1609.03499 (https://arxiv.org/abs/1609.03499) [cs.SD (https://arxiv.org/archive/cs.S
+D)].
+
+58. Shen, Jonathan (2017). "Natural TTS Synthesis by Conditioning WaveNet on Mel
+Spectrogram Predictions". arXiv:1712.05884 (https://arxiv.org/abs/1712.05884) [cs.CL (http
+s://arxiv.org/archive/cs.CL)].
+
+59. Ramesh, Aditya (2021). "Zero-shot text-to-image generation" (https://proceedings.mlr.press/
+v139/ramesh21a.html). International Conference on Machine Learning.
+
+
+
+60. Agustsson, Eirikur; Tschannen, Michael; Mentzer, Fabian; Timofte, Radu; Gool, Luc Van
+(2019). "Generative Adversarial Networks for Extreme Learned Image Compression" (http
+s://openaccess.thecvf.com/content_ICCV_2019/html/Agustsson_Generative_Adversarial_N
+etworks_for_Extreme_Learned_Image_Compression_ICCV_2019_paper.html). CVF Open
+Access. Retrieved October 8, 2026.
+
+61. Mentzer, Fabian; Toderici, George D.; Tschannen, Michael; Agustsson, Eirikur (2020). "High-
+Fidelity Generative Image Compression" (https://papers.nips.cc/paper/2020/hash/8a50bae2
+97807da9e97722a0b3fd8f27-Abstract.html). NeurIPS Proceedings. Retrieved October 8,
+2026.
+
+62. Iwai, Shoma; Miyazaki, Tomo; Omachi, Shinichiro (2024). "Dual-Conditioned Training to
+Exploit Pre-Trained Codebook-Based Generative Model in Image Compression" (https://doi.
+org/10.1109%2FACCESS.2024.3522238). IEEE Access. 12: 198184–198200.
+Bibcode:2024IEEEA..12s8184I (https://ui.adsabs.harvard.edu/abs/2024IEEEA..12s8184I).
+doi:10.1109/ACCESS.2024.3522238 (https://doi.org/10.1109%2FACCESS.2024.3522238).
+ISSN 2169-3536 (https://search.worldcat.org/issn/2169-3536).
+
+63. Pei, Yifei; Liu, Ying; Ling, Nam (2026). "Adaptive Fused Prior Transfer for Controllable
+Generative Image Compression" (https://doi.org/10.1109%2FACCESS.2026.3737467).
+IEEE Access. 14: 150315–150337. doi:10.1109/ACCESS.2026.3737467 (https://doi.org/10.
+1109%2FACCESS.2026.3737467). ISSN 2169-3536 (https://search.worldcat.org/issn/2169-
+3536).
+
+64. Metz, Cade (April 4, 2023). "Instant Videos Could Represent the Next Leap in A.I.
+Technology" (https://www.nytimes.com/2023/04/04/technology/runway-ai-videos.html). The
+New York Times.
+
+65. "A technique for more effective multipurpose robots" (https://news.mit.edu/2024/technique-fo
+r-more-effective-multipurpose-robots-0603). MIT News. 2024.
+
+66. Romera-Paredes, Bernardino; Barekatain, Mohammadamin; Novikov, Alexander; Balog,
+Matej; Kumar, M. Pawan; Dupont, Emilien; Ruiz, Francisco J. R.; Ellenberg, Jordan S.;
+Wang, Pengming; Fawzi, Omar; Kohli, Pushmeet; Fawzi, Alhussein; et al. (2024).
+"Mathematical discoveries from program search with large language models" (https://www.n
+cbi.nlm.nih.gov/pmc/articles/PMC10794145). Nature. 625 (7995): 468–475.
+Bibcode:2024Natur.625..468R (https://ui.adsabs.harvard.edu/abs/2024Natur.625..468R).
+doi:10.1038/s41586-023-06924-6 (https://doi.org/10.1038%2Fs41586-023-06924-6).
+PMC 10794145 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10794145).
+PMID 38096900 (https://pubmed.ncbi.nlm.nih.gov/38096900).
+
+67. Mouret, Jean-Baptiste (January 17, 2024). "Large language models help computer
+programs to evolve" (https://inria.hal.science/hal-04408259). Nature. 625 (7995): 452–453.
+Bibcode:2024Natur.625..452M (https://ui.adsabs.harvard.edu/abs/2024Natur.625..452M).
+doi:10.1038/d41586-023-03998-0 (https://doi.org/10.1038%2Fd41586-023-03998-0).
+PMID 38233614 (https://pubmed.ncbi.nlm.nih.gov/38233614).
+
+68. Ellenberg, Jordan S.; Fraser-Taliente, Cristofero S.; Harvey, Thomas R.; Srivastava, Karan;
+Sutherland, Andrew V. (March 17, 2025). "Generative Modeling for Mathematical
+Discovery". Advances in Theoretical and Mathematical Physics. 29 (8): 2225.
+arXiv:2503.11061 (https://arxiv.org/abs/2503.11061). Bibcode:2026AdTMP..29.2225E (http
+s://ui.adsabs.harvard.edu/abs/2026AdTMP..29.2225E). doi:10.4310/ATMP.260412165352 (h
+ttps://doi.org/10.4310%2FATMP.260412165352).
+
+69. Timmer, John (June 7, 2023). "AI system devises first optimizations to sorting code in over a
+decade" (https://arstechnica.com/science/2023/06/googles-deepmind-develops-a-system-th
+at-writes-efficient-algorithms/). Ars Technica. Retrieved May 8, 2026.
+
+
+
+70. Mankowitz, Daniel J.; Michalski, Andrea; Zhernov, Anton; Gelmi, Marco; Selvi, Marco; et al.
+(June 2023). "Faster sorting algorithms discovered using deep reinforcement learning" (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC10247365). Nature. 618 (7964): 257–263.
+Bibcode:2023Natur.618..257M (https://ui.adsabs.harvard.edu/abs/2023Natur.618..257M).
+doi:10.1038/s41586-023-06004-9 (https://doi.org/10.1038%2Fs41586-023-06004-9).
+PMC 10247365 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10247365).
+PMID 37286649 (https://pubmed.ncbi.nlm.nih.gov/37286649).
+
+71. Whitwam, Ryan (May 14, 2025). "Google DeepMind creates super-advanced AI that can
+invent new algorithms" (https://arstechnica.com/ai/2025/05/google-deepmind-creates-super-
+advanced-ai-that-can-invent-new-algorithms/). Ars Technica. Retrieved May 1, 2026.
+
+72. Roberts, Siobhan (June 2, 2026). "As A.I. Makes Strides in Mathematics, Mathematicians
+Urge Caution" (https://www.nytimes.com/2026/06/02/science/ai-mathematics-leiden-declarat
+ion.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-433
+1). Retrieved June 8, 2026.
+
+73. Merchant, Amil; Batzner, Simon; Schoenholz, Samuel S.; Aykol, Muratahan; Cheon,
+Gowoon; Cubuk, Ekin Dogus; et al. (2023). "Scaling deep learning for materials discovery"
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10700131). Nature. 624 (7990): 80–85.
+Bibcode:2023Natur.624...80M (https://ui.adsabs.harvard.edu/abs/2023Natur.624...80M).
+doi:10.1038/s41586-023-06735-9 (https://doi.org/10.1038%2Fs41586-023-06735-9).
+PMC 10700131 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10700131).
+PMID 38030720 (https://pubmed.ncbi.nlm.nih.gov/38030720).
+
+74. Zeni, Claudio; Pinsler, Robert; Zügner, Daniel; et al. (2025). "A generative model for
+inorganic materials design" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11922738).
+Nature. 639 (8055): 624–632. arXiv:2312.03687 (https://arxiv.org/abs/2312.03687).
+Bibcode:2025Natur.639..624Z (https://ui.adsabs.harvard.edu/abs/2025Natur.639..624Z).
+doi:10.1038/s41586-025-08628-5 (https://doi.org/10.1038%2Fs41586-025-08628-5).
+PMC 11922738 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11922738). PMID 39821164
+(https://pubmed.ncbi.nlm.nih.gov/39821164).
+
+75. Xie, Tian; Fu, Xiang; Ganea, Octavian-Eugen; Barzilay, Regina; Jaakkola, Tommi (2022).
+"Crystal Diffusion Variational Autoencoder for Periodic Material Generation" (https://openrevi
+ew.net/forum?id=03RLpj-tc_). International Conference on Learning Representations.
+
+76. Luo, Xiaoshan; Wang, Zhenyu; Wang, Qingchang; et al. (2025). "CrystalFlow: a flow-based
+generative model for crystalline materials" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1
+2537960). Nature Communications. 16 (1) 9267. arXiv:2412.11693 (https://arxiv.org/abs/241
+2.11693). Bibcode:2025NatCo..16.9267L (https://ui.adsabs.harvard.edu/abs/2025NatCo..16.
+9267L). doi:10.1038/s41467-025-64364-4 (https://doi.org/10.1038%2Fs41467-025-64364-
+4). PMC 12537960 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12537960).
+PMID 41115940 (https://pubmed.ncbi.nlm.nih.gov/41115940).
+
+77. Zeni, Claudio; et al. (2025). "Generative AI for crystal structures: a review" (https://doi.org/1
+0.1038%2Fs41524-025-01881-2). npj Computational Materials. 11 (1) 370: 161.
+arXiv:2509.02723 (https://arxiv.org/abs/2509.02723). Bibcode:2025npjCM..11..370D (https://
+ui.adsabs.harvard.edu/abs/2025npjCM..11..370D). doi:10.1038/s41524-025-01881-2 (http
+s://doi.org/10.1038%2Fs41524-025-01881-2).
+
+78. Newman, Nic (January 12, 2026). "Journalism, media, and technology trends and
+predictions 2026" (https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-
+trends-and-predictions-2026). Reuters Institute for the Study of Journalism. University of
+Oxford. Archived (https://web.archive.org/web/20260130061627/https://reutersinstitute.politi
+cs.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026) from the original
+on January 30, 2026. Retrieved January 30, 2026.
+
+
+
+79. Fan, Zhenan; Ghaddar, Bissan; Wang, Xinglu; Xing, Linzi; Zhang, Yong; Zhou, Zirui (July 1,
+2026). "Artificial intelligence for optimization: Unleashing the potential of parameter
+generation, model formulation, and solution methods" (https://www.sciencedirect.com/scienc
+e/article/abs/pii/S0377221725006666). European Journal of Operational Research. 332 (1):
+1–30. doi:10.1016/j.ejor.2025.08.029 (https://doi.org/10.1016%2Fj.ejor.2025.08.029).
+ISSN 0377-2217 (https://search.worldcat.org/issn/0377-2217).
+
+80. Sabin, Sam (June 30, 2023). "GitHub has a vision to make code more secure by design" (htt
+ps://www.axios.com/2023/06/30/githubs-vision-to-make-code-more-secure-by-design).
+Axios Codebook. Archived (https://web.archive.org/web/20230815225809/https://www.axios.
+com/2023/06/30/githubs-vision-to-make-code-more-secure-by-design) from the original on
+August 15, 2023. Retrieved August 15, 2023.
+
+81. Vincent, James (March 20, 2023). "Text-to-video AI inches closer as startup Runway
+announces new model" (https://www.theverge.com/2023/3/20/23648113/text-to-video-gener
+ative-ai-runway-ml-gen-2-model-access). The Verge. Archived (https://web.archive.org/web/
+20230927003647/https://www.theverge.com/2023/3/20/23648113/text-to-video-generative-ai
+-runway-ml-gen-2-model-access) from the original on September 27, 2023. Retrieved
+August 15, 2023. "Text-to-video is the next frontier for generative AI, though current output is
+rudimentary. Runway says it'll be making its new generative video model, Gen-2, available
+to users in 'the coming weeks.' "
+
+82. Vanian, Jonathan (March 16, 2023). "Microsoft adds OpenAI technology to Word and Excel"
+(https://www.cnbc.com/2023/03/16/microsoft-to-improve-office-365-with-chatgpt-like-generat
+ive-ai-tech-.html). CNBC. Archived (https://web.archive.org/web/20230815225809/https://ww
+w.cnbc.com/2023/03/16/microsoft-to-improve-office-365-with-chatgpt-like-generative-ai-tech
+-.html) from the original on August 15, 2023. Retrieved August 15, 2023. "Microsoft is
+bringing generative artificial intelligence technologies such as the popular ChatGPT chatting
+app to its Microsoft 365 suite of business software....the new A.I. features, dubbed Copilot,
+will be available in some of the company's most popular business apps, including Word,
+PowerPoint and Excel."
+
+83. Wilson, Mark (August 15, 2023). "The app's Memories feature just got a big upgrade" (http
+s://www.techradar.com/computing/software/google-photos-now-shows-you-an-ai-powered-hi
+ghlights-reel-of-your-life). TechRadar. Archived (https://web.archive.org/web/202308152258
+09/https://www.techradar.com/computing/software/google-photos-now-shows-you-an-ai-pow
+ered-highlights-reel-of-your-life) from the original on August 15, 2023. "The Google Photos
+app is getting a redesigned, AI-powered Memories feature...you'll be able to use generative
+AI to come up with some suggested names like "a desert adventure"."
+
+84. Sullivan, Laurie (May 23, 2023). "Adobe Adds Generative AI To Photoshop" (https://www.me
+diapost.com/publications/article/385660/adobe-adds-generative-ai-to-photoshop.html).
+MediaPost. Archived (https://web.archive.org/web/20230815225809/https://www.mediapost.
+com/publications/article/385660/adobe-adds-generative-ai-to-photoshop.html) from the
+original on August 15, 2023. Retrieved August 15, 2023. "Generative artificial intelligence
+(AI) will become one of the most important features for creative designers and marketers.
+Adobe on Tuesday unveiled a Generative Fill feature in Photoshop to bring Firefly's AI
+capabilities into design."
+
+85. Michael Nuñez (July 19, 2023). "LLaMA 2: How to access and use Meta's versatile open-
+source chatbot right now" (https://venturebeat.com/ai/llama-2-how-to-access-and-use-metas
+-versatile-open-source-chatbot-right-now/). VentureBeat. Archived (https://web.archive.org/w
+eb/20231103020505/https://venturebeat.com/ai/llama-2-how-to-access-and-use-metas-vers
+atile-open-source-chatbot-right-now/) from the original on November 3, 2023. Retrieved
+August 15, 2023. "If you want to run LLaMA 2 on your own machine or modify the code, you
+can download it directly from Hugging Face, a leading platform for sharing AI models."
+
+
+
+86. Pounder, Les (March 25, 2023). "How To Create Your Own AI Chatbot Server With
+Raspberry Pi 4" (https://www.tomshardware.com/how-to/create-ai-chatbot-server-on-raspber
+ry-pi). Archived (https://web.archive.org/web/20230815225810/https://www.tomshardware.c
+om/how-to/create-ai-chatbot-server-on-raspberry-pi) from the original on August 15, 2023.
+Retrieved August 15, 2023. "Using a Pi 4 with 8GB of RAM, you can create a ChatGPT-like
+server based on LLaMA."
+
+87. Kemper, Jonathan (November 10, 2022). " "Draw Things" App brings Stable Diffusion to the
+iPhone" (https://the-decoder.com/draw-things-app-brings-stable-diffusion-to-the-iphone/).
+The Decoder. Archived (https://web.archive.org/web/20230815225811/https://the-decoder.c
+om/draw-things-app-brings-stable-diffusion-to-the-iphone/) from the original on August 15,
+2023. Retrieved August 15, 2023. "Draw Things is an app that brings Stable Diffusion to the
+iPhone. The AI images are generated locally, so you don't need an Internet connection."
+
+88. Witt, Allan (July 7, 2023). "Best Computer to Run LLaMA AI Model at Home (GPU, CPU,
+RAM, SSD)" (https://www.hardware-corner.net/guides/computer-to-run-llama-ai-model/).
+Archived (https://web.archive.org/web/20230815225811/https://www.hardware-corner.net/gu
+ides/computer-to-run-llama-ai-model/) from the original on August 15, 2023. Retrieved
+August 15, 2023. "To run LLaMA model at home, you will need a computer build with a
+powerful GPU that can handle the large amount of data and computation required for
+inferencing."
+
+89. Westover, Brian (September 28, 2023). "Who Needs ChatGPT? How to Run Your Own Free
+and Private AI Chatbot" (https://www.pcmag.com/how-to/how-to-run-your-own-chatgpt-like-ll
+m-for-free-and-in-private). Ziff Davis. Archived (https://web.archive.org/web/2024010717185
+8/https://www.pcmag.com/how-to/how-to-run-your-own-chatgpt-like-llm-for-free-and-in-privat
+e) from the original on January 7, 2024. Retrieved January 7, 2024.
+
+90. Nellis, Stephen; Lee, Jane (September 1, 2022). "U.S. officials order Nvidia to halt sales of
+top AI chips to China" (https://www.reuters.com/technology/nvidia-says-us-has-imposed-new
+-license-requirement-future-exports-china-2022-08-31/). Reuters. Archived (https://web.archi
+ve.org/web/20230815225809/https://www.reuters.com/technology/nvidia-says-us-has-impos
+ed-new-license-requirement-future-exports-china-2022-08-31/) from the original on August
+15, 2023. Retrieved August 15, 2023.
+
+91. Shilov, Anton (May 7, 2023). "Nvidia's Chinese A800 GPU's Performance Revealed" (https://
+www.tomshardware.com/news/nvidia-a800-performance-revealed). Tom's Hardware.
+Archived (https://web.archive.org/web/20240507100659/https://www.tomshardware.com/ne
+ws/nvidia-a800-performance-revealed) from the original on May 7, 2024. Retrieved
+August 15, 2023. "the A800 operates at 70% of the speed of A100 GPUs while complying
+with strict U.S. export standards that limit how much processing power Nvidia can sell."
+
+92. Patel, Dylan (October 24, 2022). "How China's Biren Is Attempting To Evade US Sanctions"
+(https://www.semianalysis.com/p/how-chinas-biren-is-attempting-to). Archived (https://web.a
+rchive.org/web/20230815225810/https://www.semianalysis.com/p/how-chinas-biren-is-attem
+pting-to) from the original on August 15, 2023. Retrieved August 15, 2023.
+
+93. Piccolo, Riccardo (October 28, 2023). "5 software gratuiti per riconoscere le immagini false
+generate dall'AI" (https://www.wired.it/article/software-riconoscere-intelligenza-artificiale-imm
+agini-false/) [5 free software to recognise fake AI-generated images]. Wired (in Italian).
+Archived (https://web.archive.org/web/20260302142837/https://www.wired.it/article/software
+-riconoscere-intelligenza-artificiale-immagini-false/) from the original on March 2, 2026.
+Retrieved October 29, 2023.
+
+94. "Detecting AI fingerprints: A guide to watermarking and beyond" (https://web.archive.org/we
+b/20240903212302/https://www.brookings.edu/articles/detecting-ai-fingerprints-a-guide-to-w
+atermarking-and-beyond/). Brookings Institution. January 4, 2024. Archived from the original
+(https://www.brookings.edu/articles/detecting-ai-fingerprints-a-guide-to-watermarking-and-be
+yond/) on September 3, 2024. Retrieved September 5, 2024.
+
+
+
+95. Fowler, Geoffrey (April 3, 2023). "We tested a new ChatGPT-detector for teachers. It flagged
+an innocent student" (https://www.washingtonpost.com/technology/2023/04/01/chatgpt-chea
+ting-detection-turnitin). washingtonpost.com. Archived (https://web.archive.org/web/2024032
+8081619/https://www.washingtonpost.com/technology/2023/04/01/chatgpt-cheating-detectio
+n-turnitin/) from the original on March 28, 2024. Retrieved February 6, 2024.
+
+96. Fowler, Geoffrey (June 2, 2023). "Detecting AI may be impossible. That's a big problem for
+teachers" (https://www.washingtonpost.com/technology/2023/06/02/turnitin-ai-cheating-dete
+ctor-accuracy/). washingtonpost.com. Archived (https://web.archive.org/web/202306030043
+40/https://www.washingtonpost.com/technology/2023/06/02/turnitin-ai-cheating-detector-acc
+uracy/) from the original on June 3, 2023. Retrieved February 6, 2024.
+
+97. Goodfellow, Ian; Pouget-Abadie, Jean; Mirza, Mehdi; Xu, Bing; Warde-Farley, David; Ozair,
+Sherjil; Courville, Aaron; Bengio, Yoshua (October 22, 2020). "Generative adversarial
+networks". Communications of the ACM. 63 (11): 139–144. arXiv:1406.2661 (https://arxiv.or
+g/abs/1406.2661). doi:10.1145/3422622 (https://doi.org/10.1145%2F3422622). ISSN 0001-
+0782 (https://search.worldcat.org/issn/0001-0782).
+
+98. Kingma, Diederik P.; Welling, Max (2019). An Introduction to Variational Autoencoders.
+Emerald Insights. arXiv:1906.02691 (https://arxiv.org/abs/1906.02691).
+doi:10.1561/2200000056 (https://doi.org/10.1561%2F2200000056). ISBN 978-1-68083-622-
+6.
+
+99. Bartz, Diane; Hu, Krystal (July 21, 2023). "OpenAI, Google, others pledge to watermark AI
+content for safety, White House says" (https://www.reuters.com/technology/openai-google-ot
+hers-pledge-watermark-ai-content-safety-white-house-2023-07-21/). Reuters. Archived (http
+s://web.archive.org/web/20230727074519/https://www.reuters.com/technology/openai-googl
+e-others-pledge-watermark-ai-content-safety-white-house-2023-07-21/) from the original on
+July 27, 2023.
+
+100. "FACT SHEET: President Biden Issues Executive Order on Safe, Secure, and Trustworthy
+Artificial Intelligence" (https://bidenwhitehouse.archives.gov/briefing-room/statements-releas
+es/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustw
+orthy-artificial-intelligence/). The White House. October 30, 2023. Archived (https://web.archi
+ve.org/web/20240130131421/https://www.whitehouse.gov/briefing-room/statements-release
+s/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustwo
+rthy-artificial-intelligence/) from the original on January 30, 2024. Retrieved January 30,
+2024.
+
+101. Burt, Andrew (October 31, 2023). "3 Obstacles to Regulating Generative AI" (https://hbr.org/
+2023/10/3-obstacles-to-regulating-generative-ai). Harvard Business Review. ISSN 0017-
+8012 (https://search.worldcat.org/issn/0017-8012). Archived (https://web.archive.org/web/20
+240217052101/https://hbr.org/2023/10/3-obstacles-to-regulating-generative-ai) from the
+original on February 17, 2024. Retrieved February 17, 2024.
+
+102. "EU AI Act: first regulation on artificial intelligence" (https://www.europarl.europa.eu/topics/e
+n/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence). European
+Parliament. August 6, 2023. Archived (https://web.archive.org/web/20240221024951/https://
+www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-a
+rtificial-intelligence) from the original on February 21, 2024. Retrieved September 13, 2024.
+
+103. Chee, Foo Yun; Mukherjee, Supantha (June 14, 2023). "EU lawmakers vote for tougher AI
+rules as draft moves to final stage" (https://www.reuters.com/technology/eu-lawmakers-agre
+e-changes-draft-artificial-intelligence-rules-2023-06-14/). Reuters. Archived (https://web.arch
+ive.org/web/20230727074515/https://www.reuters.com/technology/eu-lawmakers-agree-cha
+nges-draft-artificial-intelligence-rules-2023-06-14/) from the original on July 27, 2023.
+Retrieved July 26, 2023.
+
+
+
+104. "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024
+laying down harmonised rules on artificial intelligence and amending Regulations (EC) No
+300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU)
+2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial
+Intelligence Act)" (https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng). EUR-Lex. July 12,
+2024. Retrieved October 26, 2026.
+
+105. "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026
+amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the
+simplification of the implementation of harmonised rules on artificial intelligence (Digital
+Omnibus on AI)" (https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng). EUR-Lex. July 24,
+2026. Retrieved October 26, 2026.
+
+106. Ye, Josh (July 13, 2023). "China says generative AI rules to apply only to products for the
+public" (https://www.reuters.com/technology/china-issues-temporary-rules-generative-ai-ser
+vices-2023-07-13/). Reuters. Archived (https://web.archive.org/web/20230727074517/http
+s://www.reuters.com/technology/china-issues-temporary-rules-generative-ai-services-2023-
+07-13/) from the original on July 27, 2023. Retrieved July 13, 2023.
+
+107. "生成式人工智能服务管理暂行办法" (http://www.cac.gov.cn/2023-07/13/c_16908983270291
+07.htm). July 13, 2023. Archived (https://web.archive.org/web/20230727125136/http://www.c
+ac.gov.cn/2023-07/13/c_1690898327029107.htm) from the original on July 27, 2023.
+Retrieved July 27, 2023.
+
+108. "Recommendation on the Ethics of Artificial Intelligence" (https://www.unesco.org/en/article
+s/recommendation-ethics-artificial-intelligence). UNESCO. United Nations Educational,
+Scientific and Cultural Organization. May 16, 2023. Retrieved July 20, 2026.
+
+109. "The Hiroshima AI Process: Leading the Global Challenge to Shape Inclusive Governance
+for Generative AI" (https://www.japan.go.jp/kizuna/2024/02/hiroshima_ai_process.html).
+JapanGov. Government of Japan. February 9, 2024. Retrieved July 20, 2026.
+
+110. "The Framework Convention on Artificial Intelligence" (https://www.coe.int/en/web/artificial-in
+telligence/the-framework-convention-on-artificial-intelligence). Council of Europe.
+September 5, 2024. Retrieved July 20, 2026.
+
+111. "Generative Artificial Intelligence and Copyright Law" (https://crsreports.congress.gov/produ
+ct/pdf/LSB/LSB10922). Congressional Research Service. LSB10922. September 29, 2023.
+Archived (https://web.archive.org/web/20240322233637/https://crsreports.congress.gov/pro
+duct/pdf/LSB/LSB10922) from the original on March 22, 2024. Retrieved January 30, 2024.
+
+112. Thompson, Stuart (January 25, 2024). "We Asked A.I. to Create the Joker. It Generated a
+Copyrighted Image" (https://www.nytimes.com/interactive/2024/01/25/business/ai-image-ge
+nerators-openai-microsoft-midjourney-copyright.html). The New York Times. Archived (http
+s://web.archive.org/web/20240125233919/https://www.nytimes.com/interactive/2024/01/25/b
+usiness/ai-image-generators-openai-microsoft-midjourney-copyright.html) from the original
+on January 25, 2024. Retrieved January 26, 2024.
+
+113. Hadero, Haleluya; Bauder, David (December 27, 2023). "The New York Times sues OpenAI
+and Microsoft for using its stories to train chatbots" (https://apnews.com/article/nyt-new-york
+-times-openai-microsoft-6ea53a8ad3efa06ee4643b697df0ba57). AP News. AP News.
+Archived (https://web.archive.org/web/20231227150436/https://apnews.com/article/nyt-new-
+york-times-openai-microsoft-6ea53a8ad3efa06ee4643b697df0ba57) from the original on
+December 27, 2023. Retrieved April 13, 2023.
+
+114. O'Brien, Matt (September 25, 2023). "Photo giant Getty took a leading AI image-maker to
+court. Now it's also embracing the technology" (https://apnews.com/article/getty-images-artif
+icial-intelligence-ai-image-generator-stable-diffusion-a98eeaaeb2bf13c5e8874ceb6a8ce19
+6). AP NEWS. Associated Press. Archived (https://web.archive.org/web/20240130221552/ht
+tps://apnews.com/article/getty-images-artificial-intelligence-ai-image-generator-stable-diffusi
+on-a98eeaaeb2bf13c5e8874ceb6a8ce196) from the original on January 30, 2024. Retrieved
+January 30, 2024.
+
+
+
+115. Barber, Gregory (December 9, 2023). "The Generative AI Copyright Fight Is Just Getting
+Started" (https://www.wired.com/story/livewired-generative-ai-copyright/). Wired. Archived (h
+ttps://web.archive.org/web/20240119131913/https://www.wired.com/story/livewired-generati
+ve-ai-copyright/) from the original on January 19, 2024. Retrieved January 19, 2024.
+
+116. Bruell, Alexandra (December 27, 2023). "New York Times Sues Microsoft and OpenAI,
+Alleging Copyright Infringement" (https://www.wsj.com/tech/ai/new-york-times-sues-microsof
+t-and-openai-alleging-copyright-infringement-fd85e1c4). Wall Street Journal. Archived (http
+s://web.archive.org/web/20240118042622/https://www.wsj.com/tech/ai/new-york-times-sues-
+microsoft-and-openai-alleging-copyright-infringement-fd85e1c4) from the original on
+January 18, 2024. Retrieved January 19, 2024.
+
+117. Brittain, Blake (August 21, 2023). "AI-generated art cannot receive copyrights, US court
+says" (https://www.reuters.com/legal/ai-generated-art-cannot-receive-copyrights-us-court-sa
+ys-2023-08-21/). Reuters. Archived (https://web.archive.org/web/20240120193026/https://w
+ww.reuters.com/legal/ai-generated-art-cannot-receive-copyrights-us-court-says-2023-08-2
+1/) from the original on January 20, 2024. Retrieved January 19, 2024.
+
+118. "The Lawsuits That Could Shape the Future of AI and Copyright Law" (https://www.wsj.com/
+video/series/wsj-explains/the-lawsuits-that-could-shape-the-future-of-ai-and-copyright-law/4
+3D1BBBB-F393-4F18-AA4A-A80CFFA0F8A5). The Wall Street Journal. News Corp. April
+15, 2024. Retrieved February 11, 2025.
+
+119. David, Emilla (August 29, 2023). "US Copyright Office wants to hear what people think
+about AI and copyright" (https://www.theverge.com/2023/8/29/23851126/us-copyright-office-
+ai-public-comments). The Verge. Archived (https://web.archive.org/web/20240119131914/htt
+ps://www.theverge.com/2023/8/29/23851126/us-copyright-office-ai-public-comments) from
+the original on January 19, 2024. Retrieved January 19, 2024.
+
+120. "Copyright and Artificial Intelligence | U.S. Copyright Office" (https://copyright.gov/ai/).
+copyright.gov. Retrieved April 9, 2025.
+
+121. "U.S. Copyright Office Grants Registration to AI-Generated Artwork" (https://journals.law.har
+vard.edu/jsel/2025/03/u-s-copyright-office-grants-registration-to-ai-generated-artwork/).
+March 24, 2025. Archived (https://web.archive.org/web/20250409145825/https://journals.la
+w.harvard.edu/jsel/2025/03/u-s-copyright-office-grants-registration-to-ai-generated-artwork/)
+from the original on April 9, 2025. Retrieved April 9, 2025.
+
+122. Rushing, Joshua Luke; Lowry, Samuel (2024). "Generative AI Litigation: A One-Year Check-
+In" (https://www.americanbar.org/groups/science_technology/resources/scitech-lawyer/2024
+-spring/generative-ai-litigation-one-year-check-in/). American Bar Association.
+
+123. "USA Today sues OpenAI for copyright infringement over AI training" (https://www.reuters.co
+m/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10
+-08/). Reuters. October 8, 2026.
+
+124. "Is ChatGPT a 'product' or a 'service'? A wave of lawsuits tests a theory of AI liability" (http
+s://www.reuters.com/legal/litigation/is-chatgpt-product-or-service-wave-lawsuits-tests-theory-
+ai-liability-2026-10-07/). Reuters. October 7, 2026.
+
+125. "Secretary-General's remarks to the Security Council on Artificial Intelligence" (https://www.u
+n.org/sg/en/content/sg/statement/2023-07-18/secretary-generals-remarks-the-security-coun
+cil-artificial-intelligence-bilingual-delivered-scroll-down-for-all-english). un.org. July 18, 2023.
+Archived (https://web.archive.org/web/20230728121305/https://www.un.org/sg/en/content/s
+g/statement/2023-07-18/secretary-generals-remarks-the-security-council-artificial-intelligenc
+e-bilingual-delivered-scroll-down-for-all-english) from the original on July 28, 2023.
+Retrieved July 27, 2023.
+
+126. Heikkilä, Melissa (December 5, 2023). "AI's carbon footprint is bigger than you think" (http
+s://www.technologyreview.com/2023/12/05/1084417/ais-carbon-footprint-is-bigger-than-you-
+think/). MIT Technology Review. Archived (https://web.archive.org/web/20240705073854/htt
+ps://www.technologyreview.com/2023/12/05/1084417/ais-carbon-footprint-is-bigger-than-yo
+u-think/) from the original on July 5, 2024. Retrieved July 4, 2024.
+
+
+
+127. Perlis, Roy H.; Gunning, Faith M.; Uslu, Ata A.; Santillana, Mauricio; Baum, Matthew A.;
+Druckman, James N.; Ognyanova, Katherine; Lazer, David (2026). "Generative AI Use and
+Depressive Symptoms Among US Adults" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1
+2824790). JAMA Network Open. 9 (1): e2554820.
+doi:10.1001/jamanetworkopen.2025.54820 (https://doi.org/10.1001%2Fjamanetworkopen.2
+025.54820). PMC 12824790 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12824790).
+PMID 41563755 (https://pubmed.ncbi.nlm.nih.gov/41563755).
+
+128. McBain, Ryan K.; Bozick, Robert; Diliberti, Melissa Kay; et al. (2025). "Use of Generative AI
+for Mental Health Advice Among US Adolescents and Young Adults" (https://www.ncbi.nlm.ni
+h.gov/pmc/articles/PMC12595529). JAMA Network Open. 8 (11): e2542281.
+doi:10.1001/jamanetworkopen.2025.42281 (https://doi.org/10.1001%2Fjamanetworkopen.2
+025.42281). PMC 12595529 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12595529).
+PMID 41201806 (https://pubmed.ncbi.nlm.nih.gov/41201806).
+
+129. Heinz, Michael V.; Mackin, Destiny M.; Trudeau, Bridget M.; et al. (2025). "Randomized Trial
+of a Generative AI Chatbot for Mental Health Treatment". NEJM AI. 2 (4).
+doi:10.1056/AIoa2400802 (https://doi.org/10.1056%2FAIoa2400802).
+
+130. Feng, Xinyu; Tian, Lidan; Ho, Grace W. K.; Yorke, Janelle; Hui, Vivian (2025). "The
+Effectiveness of AI Chatbots in Alleviating Mental Distress and Promoting Health Behaviors
+Among Adolescents and Young Adults: Systematic Review and Meta-Analysis" (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC12661615). Journal of Medical Internet Research. 27 (3)
+e79850. doi:10.2196/79850 (https://doi.org/10.2196%2F79850). PMC 12661615 (https://ww
+w.ncbi.nlm.nih.gov/pmc/articles/PMC12661615). PMID 41603730 (https://pubmed.ncbi.nlm.
+nih.gov/41603730).
+
+131. Moore, Jared (June 11, 2025). "Expressing stigma and inappropriate responses prevents
+LLMs from safely replacing mental health providers" (https://news.stanford.edu/stories/2025/
+06/ai-mental-health-care-tools-dangers-risks). Stanford News. Stanford University. Retrieved
+September 1, 2026.
+
+132. Adam, David (2025). "Supportive? Addictive? Abusive? How AI companions affect our
+mental health". Nature. 641 (8062): 296–298. Bibcode:2025Natur.641..296A (https://ui.adsa
+bs.harvard.edu/abs/2025Natur.641..296A). doi:10.1038/d41586-025-01349-9 (https://doi.or
+g/10.1038%2Fd41586-025-01349-9). PMID 40329067 (https://pubmed.ncbi.nlm.nih.gov/403
+29067).
+
+133. "AI companions may worsen loneliness for vulnerable users, Stanford study finds" (https://n
+ews.stanford.edu/stories/2026/08/ai-companions-chatbots-loneliness-research). Stanford
+News. Stanford University. August 4, 2026. Retrieved September 1, 2026.
+
+134. Rani, Anku; Danry, Valdemar; Liang, Paul Pu; Lippman, Andrew; Maes, Pattie (April 13,
+2026). "Dialogues with AI Reduce Beliefs in Misinformation but Build No Lasting
+Discernment Skills" (https://dl.acm.org/doi/10.1145/3772318.3790656). Conference on
+Human Factors in Computing Systems: 1–26. arXiv:2510.01537 (https://arxiv.org/abs/2510.
+01537). doi:10.1145/3772318.3790656 (https://doi.org/10.1145%2F3772318.3790656).
+ISBN 979-8-4007-2278-3. Retrieved June 23, 2026.
+
+135. Mansoor, Sanya (June 19, 2026). "Over-reliance on chatbots can diminish critical-thinking
+skills, study finds" (https://www.theguardian.com/us-news/2026/jun/19/chatbots-critical-thinki
+ng-skills). The Guardian. Retrieved June 23, 2026.
+
+136. Guidance for generative AI in education and research (https://unesdoc.unesco.org/ark:/4822
+3/pf0000386693). UNESCO. 2023. doi:10.54675/EWZM9535 (https://doi.org/10.54675%2F
+EWZM9535). ISBN 978-92-3-100612-8.
+
+137. Tsao, Jack (2025). "Trajectories of AI policy in higher education: Interpretations, discourses,
+and enactments of students and teachers" (https://doi.org/10.1016%2Fj.caeai.2025.10049
+6). Computers and Education: Artificial Intelligence. 9 100496.
+doi:10.1016/j.caeai.2025.100496 (https://doi.org/10.1016%2Fj.caeai.2025.100496).
+ISSN 2666-920X (https://search.worldcat.org/issn/2666-920X).
+
+
+
+138. Barrett, A.; Pack, A. (2023). "Not quite eye to A.I.: Student and teacher perspectives on the
+use of generative artificial intelligence in the writing process" (https://doi.org/10.1186%2Fs41
+239-023-00427-0). International Journal of Educational Technology in Higher Education. 20
+(1): 59. doi:10.1186/s41239-023-00427-0 (https://doi.org/10.1186%2Fs41239-023-00427-0).
+
+139. "NCTE Position Statement on Machine Scoring" (https://ncte.org/statement/machine_scorin
+g/). National Council of Teachers of English. April 20, 2013. Retrieved July 11, 2025.
+
+140. Mangal, M.; Pardos, Z. A. (2024). "Implementing equitable and intersectionality-aware AI in
+education: A practical guide" (https://doi.org/10.1111%2Fbjet.13484). British Journal of
+Educational Technology. 55 (5): 2003–2038. doi:10.1111/bjet.13484 (https://doi.org/10.111
+1%2Fbjet.13484).
+
+141. Shah, Simmone (May 4, 2023). "The Writers Strike Is Taking a Stand on AI" (https://time.co
+m/6277158/writers-strike-ai-wga-screenwriting/). Time. Archived (https://web.archive.org/we
+b/20230611000136/https://time.com/6277158/writers-strike-ai-wga-screenwriting/) from the
+original on June 11, 2023. Retrieved June 11, 2023.
+
+142. Tarnoff, Ben (August 4, 2023). "Lessons from Eliza". The Guardian Weekly. pp. 34–39.
+143. Zhou, Viola (April 11, 2023). "AI is already taking video game illustrators' jobs in China" (http
+
+s://restofworld.org/2023/ai-image-china-video-game-layoffs/). Rest of World. Archived (http
+s://web.archive.org/web/20230813165240/https://restofworld.org/2023/ai-image-china-video
+-game-layoffs/) from the original on August 13, 2023. Retrieved August 17, 2023.
+
+144. Carter, Justin (April 11, 2023). "China's game art industry reportedly decimated by growing
+AI use" (https://www.gamedeveloper.com/art/china-s-game-art-industry-reportedly-decimate
+d-ai-art-use). Game Developer. Archived (https://web.archive.org/web/20230817010519/http
+s://www.gamedeveloper.com/art/china-s-game-art-industry-reportedly-decimated-ai-art-use)
+from the original on August 17, 2023. Retrieved August 17, 2023.
+
+145. Collier, Kevin (July 14, 2023). "Actors vs. AI: Strike brings focus to emerging use of
+advanced tech" (https://www.nbcnews.com/tech/tech-news/hollywood-actor-sag-aftra-ai-artif
+icial-intelligence-strike-rcna94191). NBC News. Archived (https://web.archive.org/web/2023
+0720230639/https://www.nbcnews.com/tech/tech-news/hollywood-actor-sag-aftra-ai-artificial
+-intelligence-strike-rcna94191) from the original on July 20, 2023. Retrieved July 21, 2023.
+"SAG-AFTRA has joined the Writer's [sic] Guild of America in demanding a contract that
+explicitly demands AI regulations to protect writers and the works they create. ... The future
+of generative artificial intelligence in Hollywood—and how it can be used to replace labor—
+has become a crucial sticking point for actors going on strike. In a news conference
+Thursday, Fran Drescher, president of the Screen Actors Guild-American Federation of
+Television and Radio Artists (more commonly known as SAG-AFTRA), declared that
+'artificial intelligence poses an existential threat to creative professions, and all actors and
+performers deserve contract language that protects them from having their identity and
+talent exploited without consent and pay.' "
+
+146. Wiggers, Kyle (August 22, 2023). "ElevenLabs' voice-generating tools launch out of beta" (ht
+tps://techcrunch.com/2023/08/22/elevenlabs-voice-generating-tools-launch-out-of-beta/).
+TechCrunch. Archived (https://web.archive.org/web/20231128141924/https://techcrunch.co
+m/2023/08/22/elevenlabs-voice-generating-tools-launch-out-of-beta/) from the original on
+November 28, 2023. Retrieved September 25, 2023.
+
+147. Shrivastava, Rashi. " 'Keep Your Paws Off My Voice': Voice Actors Worry Generative AI Will
+Steal Their Livelihoods" (https://www.forbes.com/sites/rashishrivastava/2023/10/09/keep-yo
+ur-paws-off-my-voice-voice-actors-worry-generative-ai-will-steal-their-livelihoods/). Forbes.
+Archived (https://web.archive.org/web/20231202055929/https://www.forbes.com/sites/rashis
+hrivastava/2023/10/09/keep-your-paws-off-my-voice-voice-actors-worry-generative-ai-will-st
+eal-their-livelihoods/) from the original on December 2, 2023. Retrieved November 28, 2023.
+
+148. "Evaluating the Impact of AI on the Labor Market: Current State of Affairs | The Budget Lab
+at Yale" (https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state
+-affairs). budgetlab.yale.edu. Retrieved January 12, 2026.
+
+
+
+149. Craig Hale (April 29, 2025). "Generative AI isn't biting into wages, replacing workers, and
+isn't saving time, economists say" (https://www.techradar.com/pro/generative-ai-isnt-biting-in
+to-wages-replacing-workers-or-saving-time-economists-say). TechRadar. Retrieved
+January 12, 2026.
+
+150. Millet, Kobe; Buehler, Florian; Du, Guanzhong; Kokkoris, Michail D. (June 2023). "Defending
+humankind: Anthropocentric bias in the appreciation of AI art" (https://linkinghub.elsevier.co
+m/retrieve/pii/S0747563223000584). Computers in Human Behavior. 143: 107707.
+doi:10.1016/j.chb.2023.107707 (https://doi.org/10.1016%2Fj.chb.2023.107707).
+
+151. Wasi, Azmine Toushik (2025), Folajimi, Yetunde; Deligiannidis, Leonidas; Othman, Salem;
+Singh, Shawren (eds.), "AI for Social Good and Public Impact in Marginalized Communities:
+A Cross-Cultural Framework" (https://link.springer.com/10.1007/978-3-031-98949-0_1),
+Social Impact of AI: Research, Diversity and Inclusion Frameworks, vol. 2599, Cham:
+Springer Nature Switzerland, pp. 1–12, doi:10.1007/978-3-031-98949-0_1 (https://doi.org/1
+0.1007%2F978-3-031-98949-0_1), ISBN 978-3-031-98948-3, retrieved October 13, 2026
+
+152. the Artist, Saki (June 6, 2025). "Art as a catalyst for promoting sustainable research" (https://
+www.nature.com/articles/s42254-025-00847-z). Nature Reviews Physics. 7 (7): 350–351.
+doi:10.1038/s42254-025-00847-z (https://doi.org/10.1038%2Fs42254-025-00847-z).
+ISSN 2522-5820 (https://search.worldcat.org/issn/2522-5820).
+
+153. Roth, Emma (January 25, 2023). "CNET found errors in more than half of its AI-written
+stories" (https://www.theverge.com/2023/1/25/23571082/cnet-ai-written-stories-errors-correc
+tions-red-ventures). The Verge. Archived (https://web.archive.org/web/20231106142152/http
+s://www.theverge.com/2023/1/25/23571082/cnet-ai-written-stories-errors-corrections-red-ve
+ntures) from the original on November 6, 2023. Retrieved June 17, 2023.
+
+154. "A magazine touted Michael Schumacher's first interview in years. It was actually AI" (https://
+www.npr.org/2023/04/28/1172473999/michael-schumacher-ai-interview-german-magazine).
+NPR. April 28, 2023. Archived (https://web.archive.org/web/20230617222319/https://www.np
+r.org/2023/04/28/1172473999/michael-schumacher-ai-interview-german-magazine) from the
+original on June 17, 2023. Retrieved June 17, 2023.
+
+155. "Meet AdVon, the AI-Powered Content Monster Infecting the Media Industry" (https://futuris
+m.com/advon-ai-content). Futurism. May 8, 2024. Retrieved June 20, 2025.
+
+156. Menn, Joseph (April 17, 2025). "Russia seeds chatbots with lies. Any bad actor could game
+AI the same way" (https://www.washingtonpost.com/technology/2025/04/17/llm-poisoning-gr
+ooming-chatbots-russia/). The Washington Post. ISSN 0190-8286 (https://search.worldcat.or
+g/issn/0190-8286). Retrieved June 1, 2025.
+
+157. Newman, Nic; Fletcher, Richard; Robertson, Craig T.; Arguedas, Amy Ross; Nielsen,
+Rasmus Fleis (June 2024). "Digital News Report 2024" (https://reutersinstitute.politics.ox.ac.
+uk/sites/default/files/2024-06/DNR%202024%20Final%20lo-res-compressed.pdf) (PDF).
+Reuters Institute for the Study of Journalism. p. 20. doi:10.60625/risj-vy6n-4v57 (https://doi.
+org/10.60625%2Frisj-vy6n-4v57). Archived (https://web.archive.org/web/20240616234226/h
+ttps://reutersinstitute.politics.ox.ac.uk/sites/default/files/2024-06/DNR%202024%20Final%20
+lo-res-compressed.pdf) (PDF) from the original on June 16, 2024. Retrieved June 20, 2024.
+
+158. Lipka, Michael (April 28, 2025). "Americans largely foresee AI having negative effects on
+news, journalists" (https://www.pewresearch.org/short-reads/2025/04/28/americans-largely-f
+oresee-ai-having-negative-effects-on-news-journalists/). Pew Research Center. Retrieved
+January 22, 2026.
+
+159. Bender, Emily M.; Gebru, Timnit; McMillan-Major, Angelina; Shmitchell, Shmargaret (2021).
+"On the Dangers of Stochastic Parrots: Can Language Models be Too Big? 🦜".
+Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency.
+pp. 610–623. doi:10.1145/3442188.3445922 (https://doi.org/10.1145%2F3442188.3445922).
+ISBN 978-1-4503-8309-7.
+
+160. Ferrara, Emilio (2023). "Fairness and Bias in Artificial Intelligence: A Brief Survey of
+Sources, Impacts, and Mitigation Strategies" (https://doi.org/10.3390%2Fsci6010003). Sci. 6
+(1): 3. doi:10.3390/sci6010003 (https://doi.org/10.3390%2Fsci6010003).
+
+
+
+161. Mish, Patricia. "Featured MSU Engaged Scholars - Building Voice AI That Works for
+Everyone" (https://engagedscholar.msu.edu/enewsletter/volume16/issue2/voice-ai.aspx).
+The Engaged Scholar E-Newsletter (Press release). Michigan State University. Retrieved
+August 31, 2026.
+
+162. Taylor, Josh; reporter, Josh Taylor Technology (May 13, 2025). "People interviewed by AI for
+jobs face discrimination risks, Australian study warns" (https://www.theguardian.com/australi
+a-news/2025/may/14/people-interviewed-by-ai-for-jobs-face-discrimination-risks-australian-s
+tudy-warns). The Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3077).
+Retrieved May 1, 2026.
+
+163. "Research and Development | The 2025 AI Index Report | Stanford HAI" (https://hai.stanfor
+d.edu/ai-index/2025-ai-index-report/research-and-development). hai.stanford.edu. Retrieved
+May 1, 2026.
+
+164. Brandon, John (February 16, 2018). "Terrifying high-tech porn: Creepy 'deepfake' videos are
+on the rise" (https://www.foxnews.com/tech/terrifying-high-tech-porn-creepy-deepfake-video
+s-are-on-the-rise). Fox News. Archived (https://web.archive.org/web/20180615160819/http://
+www.foxnews.com/tech/2018/02/16/terrifying-high-tech-porn-creepy-deepfake-videos-are-on
+-rise.html) from the original on June 15, 2018. Retrieved February 20, 2018.
+
+165. Cole, Samantha (January 24, 2018). "We Are Truly Fucked: Everyone Is Making AI-
+Generated Fake Porn Now" (https://www.vice.com/en/article/reddit-fake-porn-app-daisy-ridle
+y/). Vice. Archived (https://web.archive.org/web/20190907194524/https://www.vice.com/en_
+us/article/bjye8a/reddit-fake-porn-app-daisy-ridley) from the original on September 7, 2019.
+Retrieved May 4, 2019.
+
+166. "Experts fear face swapping tech could start an international showdown" (https://theoutline.c
+om/post/3179/deepfake-videos-are-freaking-experts-out). The Outline (website). Archived (h
+ttps://web.archive.org/web/20200116140157/https://theoutline.com/post/3179/deepfake-vide
+os-are-freaking-experts-out) from the original on January 16, 2020. Retrieved February 28,
+2018.
+
+167. Roose, Kevin (March 4, 2018). "Here Come the Fake Videos, Too" (https://www.nytimes.co
+m/2018/03/04/technology/fake-videos-deepfakes.html). The New York Times. ISSN 0362-
+4331 (https://search.worldcat.org/issn/0362-4331). Archived (https://web.archive.org/web/20
+190618203019/https://www.nytimes.com/2018/03/04/technology/fake-videos-deepfakes.htm
+l) from the original on June 18, 2019. Retrieved March 24, 2018.
+
+168. Menz, Bradley D.; Modi, Natansh D.; Sorich, Michael J.; Hopkins, Ashley M. (January 2024).
+"Health Disinformation Use Case Highlighting the Urgent Need for Artificial Intelligence
+Vigilance: Weapons of Mass Disinformation". JAMA Internal Medicine. 184 (1): 92–96.
+doi:10.1001/jamainternmed.2023.5947 (https://doi.org/10.1001%2Fjamainternmed.2023.594
+7). PMID 37955873 (https://pubmed.ncbi.nlm.nih.gov/37955873).
+
+169. Chalfant, Morgan (March 6, 2024). "U.S. braces for foreign interference in 2024 election" (ht
+tps://www.semafor.com/article/03/06/2024/us-braces-for-foreign-interference-in-2024-electio
+n). Semafor. Archived (https://web.archive.org/web/20240311102441/https://www.semafor.c
+om/article/03/06/2024/us-braces-for-foreign-interference-in-2024-election) from the original
+on March 11, 2024. Retrieved March 6, 2024.
+
+170. Menn, Joseph (September 23, 2024). "Russia, Iran use AI to boost anti-U.S. influence
+campaigns, officials say" (https://www.washingtonpost.com/technology/2024/09/23/us-electi
+on-foreign-influence-russia-china-iran-ai/). The Washington Post. ISSN 0190-8286 (https://s
+earch.worldcat.org/issn/0190-8286). Archived (https://web.archive.org/web/2024092400071
+3/https://www.washingtonpost.com/technology/2024/09/23/us-election-foreign-influence-russ
+ia-china-iran-ai/) from the original on September 24, 2024. Retrieved September 23, 2024.
+
+
+
+171. Lawton, Graham (September 12, 2023). "Disinformation wars: The fight against fake news
+in the age of AI" (https://www.newscientist.com/article/mg25934563-200-disinformation-wars
+-the-fight-against-fake-news-in-the-age-of-ai/). New Scientist. Archived (https://web.archive.
+org/web/20240705230732/https://www.newscientist.com/article/mg25934563-200-disinform
+ation-wars-the-fight-against-fake-news-in-the-age-of-ai/) from the original on July 5, 2024.
+Retrieved July 5, 2024.
+
+172. "People Are Still Terrible: AI Voice-Cloning Tool Misused for Deepfake Celeb Clips" (https://
+me.pcmag.com/en/news/14327/people-are-still-terrible-ai-voice-cloning-tool-misused-for-de
+epfake-celeb-clips). PCMag Middle East. January 31, 2023. Archived (https://web.archive.or
+g/web/20231225162956/https://me.pcmag.com/en/news/14327/people-are-still-terrible-ai-vo
+ice-cloning-tool-misused-for-deepfake-celeb-clips) from the original on December 25, 2023.
+Retrieved July 25, 2023.
+
+173. Kahn, Jeremy. "The generative A.I. software race has begun" (https://fortune.com/2023/01/3
+1/generative-a-i-is-about-to-upend-enterprise-software-and-cybersecurity/). Fortune.
+Archived (https://web.archive.org/web/20230325212428/https://fortune.com/2023/01/31/gen
+erative-a-i-is-about-to-upend-enterprise-software-and-cybersecurity/) from the original on
+March 25, 2023. Retrieved February 3, 2023.
+
+174. Milmo, Dan; Hern, Alex (May 20, 2023). "Elections in UK and US at risk from AI-driven
+disinformation, say experts" (https://www.theguardian.com/technology/2023/may/20/election
+s-in-uk-and-us-at-risk-from-ai-driven-disinformation-say-experts). The Guardian. ISSN 0261-
+3077 (https://search.worldcat.org/issn/0261-3077). Archived (https://web.archive.org/web/20
+231116235110/https://www.theguardian.com/technology/2023/may/20/elections-in-uk-and-u
+s-at-risk-from-ai-driven-disinformation-say-experts) from the original on November 16, 2023.
+Retrieved July 25, 2023.
+
+175. "Seeing is believing? Global scramble to tackle deepfakes" (https://web.archive.org/web/202
+30203073245/https://news.yahoo.com/seeing-believing-global-scramble-tackle-013429757.
+html). Agence France Presse. Archived from the original (https://news.yahoo.com/seeing-bel
+ieving-global-scramble-tackle-013429757.html) on February 3, 2023. Retrieved February 3,
+2023 – via Yahoo News.
+
+176. Vincent, James (January 31, 2023). "4chan users embrace AI voice clone tool to generate
+celebrity hatespeech" (https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepf
+ake-abuse-4chan-elevenlabs). The Verge. Archived (https://web.archive.org/web/202312030
+85909/https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4cha
+n-elevenlabs) from the original on December 3, 2023. Retrieved February 3, 2023.
+
+177. Thompson, Stuart A. (March 12, 2023). "Making Deepfakes Gets Cheaper and Easier
+Thanks to A.I." (https://www.nytimes.com/2023/03/12/technology/deepfakes-cheapfakes-vid
+eos-ai.html) The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4
+331). Archived (https://web.archive.org/web/20231029073308/https://www.nytimes.com/202
+3/03/12/technology/deepfakes-cheapfakes-videos-ai.html) from the original on October 29,
+2023. Retrieved July 25, 2023.
+
+178. "A new AI voice tool is already being abused to make deepfake celebrity audio clips" (https://
+www.engadget.com/ai-voice-tool-deepfake-celebrity-audio-clips-094648743.html).
+Engadget. January 31, 2023. Archived (https://web.archive.org/web/20231010152427/http
+s://www.engadget.com/ai-voice-tool-deepfake-celebrity-audio-clips-094648743.html) from
+the original on October 10, 2023. Retrieved February 3, 2023.
+
+179. Gee, Andre (April 20, 2023). "Just Because AI-Generated Rap Songs Go Viral Doesn't Mean
+They're Good" (https://www.rollingstone.com/music/music-features/ai-generated-drake-the-
+weeknd-hip-hop-fandom-1234720440/). Rolling Stone. Archived (https://web.archive.org/we
+b/20240102223730/https://www.rollingstone.com/music/music-features/ai-generated-drake-t
+he-weeknd-hip-hop-fandom-1234720440/) from the original on January 2, 2024. Retrieved
+December 6, 2023.
+
+
+
+180. Coscarelli, Joe (April 19, 2023). "An A.I. Hit of Fake 'Drake' and 'The Weeknd' Rattles the
+Music World" (https://www.nytimes.com/2023/04/19/arts/music/ai-drake-the-weeknd-fake.ht
+ml). The New York Times. Archived (https://web.archive.org/web/20230515182004/https://w
+ww.nytimes.com/2023/04/19/arts/music/ai-drake-the-weeknd-fake.html) from the original on
+May 15, 2023. Retrieved December 5, 2023.
+
+181. Lippiello, Emily; Smith, Nathan; Pereira, Ivan (November 3, 2023). "AI songs that mimic
+popular artists raising alarms in the music industry" (https://abcnews.go.com/US/ai-songs-mi
+mic-popular-artists-raising-alarms-music/story?id=104569841). ABC News. Archived (http
+s://web.archive.org/web/20231206115652/https://abcnews.go.com/US/ai-songs-mimic-popul
+ar-artists-raising-alarms-music/story?id=104569841) from the original on December 6, 2023.
+Retrieved December 6, 2023.
+
+182. Skelton, Eric (March 20, 2023). "Fans Are Using Artificial Intelligence to Turn Rap Snippets
+Into Full Songs" (https://www.complex.com/music/a/eric-skelton/fans-using-artificial-intellige
+nce-rap-snippets). Complex. Archived (https://web.archive.org/web/20240102223731/https://
+www.complex.com/music/a/eric-skelton/fans-using-artificial-intelligence-rap-snippets) from
+the original on January 2, 2024. Retrieved December 6, 2023.
+
+183. Kaufman, Arthur (September 8, 2025). "AI Assists Chinese External Propaganda" (https://chi
+nadigitaltimes.net/2025/09/ai-assists-chinese-external-propaganda/). China Digital Times.
+Retrieved September 10, 2025.
+
+184. Hoffman, Benjamin (June 11, 2024). "First Came 'Spam.' Now, With A.I., We've Got 'Slop' "
+(https://web.archive.org/web/20240826111040/https://www.nytimes.com/2024/06/11/style/ai-
+search-slop.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0
+362-4331). Archived from the original (https://www.nytimes.com/2024/06/11/style/ai-search-s
+lop.html) on August 26, 2024. Retrieved August 27, 2024.
+
+185. Tangermann, Victor (August 10, 2024). "Investigation Finds Actual Source of All That AI Slop
+on Facebook" (https://web.archive.org/web/20240815060408/https://futurism.com/the-byte/s
+ource-ai-slop-facebook). Futurism. Archived from the original (https://futurism.com/the-byte/s
+ource-ai-slop-facebook) on August 15, 2024. Retrieved August 27, 2024.
+
+186. Warzel, Charlie (August 21, 2024). "The MAGA Aesthetic Is AI Slop" (https://web.archive.or
+g/web/20240825122233/https://www.theatlantic.com/technology/archive/2024/08/trump-post
+s-ai-image/679540/). The Atlantic. Archived from the original (https://www.theatlantic.com/te
+chnology/archive/2024/08/trump-posts-ai-image/679540/) on August 25, 2024. Retrieved
+August 27, 2024.
+
+187. Edwards, Benj (August 14, 2024). "Research AI model unexpectedly attempts to modify its
+own code to extend runtime" (https://web.archive.org/web/20240824143417/https://arstechni
+ca.com/information-technology/2024/08/research-ai-model-unexpectedly-modified-its-own-c
+ode-to-extend-runtime/). Ars Technica. Archived from the original (https://arstechnica.com/inf
+ormation-technology/2024/08/research-ai-model-unexpectedly-modified-its-own-code-to-ext
+end-runtime/) on August 24, 2024. Retrieved August 27, 2024.
+
+188. Hern, Alex; Milmo, Dan (May 19, 2024). "Spam, junk … slop? The latest wave of AI behind
+the 'zombie internet' " (https://web.archive.org/web/20240826142358/https://www.theguardia
+n.com/technology/article/2024/may/19/spam-junk-slop-the-latest-wave-of-ai-behind-the-zom
+bie-internet). The Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3077).
+Archived from the original (https://www.theguardian.com/technology/article/2024/may/19/spa
+m-junk-slop-the-latest-wave-of-ai-behind-the-zombie-internet) on August 26, 2024.
+Retrieved August 27, 2024.
+
+189. Cox, Joseph (January 18, 2024). "Google News Is Boosting Garbage AI-Generated Articles"
+(https://web.archive.org/web/20240613073845/https://www.404media.co/google-news-is-bo
+osting-garbage-ai-generated-articles/). 404 Media. Archived from the original (https://www.4
+04media.co/google-news-is-boosting-garbage-ai-generated-articles/) on June 13, 2024.
+Retrieved August 27, 2024.
+
+
+
+190. "Beloved Local Newspapers Fired Staffers, Then Started Running AI Slop" (https://web.archi
+ve.org/web/20240812055817/https://futurism.com/the-byte/newspaper-fired-staff-ai-slop).
+Futurism. July 31, 2024. Archived from the original (https://futurism.com/the-byte/newspaper
+-fired-staff-ai-slop) on August 12, 2024. Retrieved August 27, 2024.
+
+191. Edwards, Benj (March 13, 2025). "AI search engines cite incorrect news sources at an
+alarming 60% rate, study says" (https://arstechnica.com/ai/2025/03/ai-search-engines-give-i
+ncorrect-answers-at-an-alarming-60-rate-study-says/). Ars Technica. Retrieved January 28,
+2026.
+
+192. Amanda Caswell (October 1, 2025). "Can you trust AI Overviews? Recent studies suggest
+they may not be as accurate as you think" (https://www.tomsguide.com/ai/can-you-trust-ai-o
+verviews-recent-studies-suggest-they-may-not-be-as-accurate-as-you-think). Tom's Guide.
+Retrieved January 28, 2026.
+
+193. "AI hallucinations are getting worse – and they're here to stay" (https://www.newscientist.co
+m/article/2479545-ai-hallucinations-are-getting-worse-and-theyre-here-to-stay/). New
+Scientist. May 9, 2025. Retrieved January 28, 2026.
+
+194. Metz, Cade; Weise, Karen (May 5, 2025). "A.I. Is Getting More Powerful, but Its
+Hallucinations Are Getting Worse" (https://www.nytimes.com/2025/05/05/technology/ai-hallu
+cinations-chatgpt-google.html). The New York Times.
+
+195. Thompson, Brian; Dhaliwal, Mehak; Frisch, Peter; Domhan, Tobias; Federico, Marcello
+(August 2024). Ku, Lun-Wei; Martins, Andre; Srikumar, Vivek (eds.). "A Shocking Amount of
+the Web is Machine Translated: Insights from Multi-Way Parallelism" (https://aclanthology.or
+g/2024.findings-acl.103/). Findings of the Association for Computational Linguistics ACL
+2024. Bangkok, Thailand and virtual meeting: Association for Computational Linguistics:
+1763–1775. arXiv:2401.05749 (https://arxiv.org/abs/2401.05749).
+doi:10.18653/v1/2024.findings-acl.103 (https://doi.org/10.18653%2Fv1%2F2024.findings-ac
+l.103). Archived (https://web.archive.org/web/20240827052607/https://aclanthology.org/202
+4.findings-acl.103/) from the original on August 27, 2024. Retrieved August 27, 2024.
+
+196. Roscoe, Jules (January 17, 2024). "A 'Shocking' Amount of the Web Is Already AI-
+Translated Trash, Scientists Determine" (https://web.archive.org/web/20240701031513/http
+s://www.vice.com/en/article/y3w4gw/a-shocking-amount-of-the-web-is-already-ai-translated-
+trash-scientists-determine). VICE. Archived from the original (https://www.vice.com/en/articl
+e/a-shocking-amount-of-the-web-is-already-ai-translated-trash-scientists-determine/) on July
+1, 2024. Retrieved August 27, 2024.
+
+197. Koebler, Jason (September 19, 2024). "Project Analyzing Human Language Usage Shuts
+Down Because 'Generative AI Has Polluted the Data' " (https://web.archive.org/web/202409
+19153231/https://www.404media.co/project-analyzing-human-language-usage-shuts-down-
+because-generative-ai-has-polluted-the-data/). 404 Media. Archived from the original (http
+s://www.404media.co/project-analyzing-human-language-usage-shuts-down-because-gener
+ative-ai-has-polluted-the-data/) on September 19, 2024. Retrieved September 20, 2024.
+"While there has always been spam on the internet and in the datasets that Wordfreq used,
+"it was manageable and often identifiable. Large language models generate text that
+masquerades as real language with intention behind it, even though there is none, and their
+output crops up everywhere," she wrote. She gives the example that ChatGPT overuses the
+word "delve," in a way that people do not, which has thrown off the frequency of this specific
+word."
+
+198. Gray, Andrew (March 24, 2024). "ChatGPT "contamination": estimating the prevalence of
+LLMs in the scholarly literature". arXiv:2403.16887 (https://arxiv.org/abs/2403.16887) [cs.DL
+(https://arxiv.org/archive/cs.DL)].
+
+
+
+199. Kannan, Prabha (May 13, 2024). "How Much Research Is Being Written by Large Language
+Models?" (https://hai.stanford.edu/news/how-much-research-being-written-large-language-
+models). Human-Centered Artificial Intelligence. Stanford University. Archived (https://web.ar
+chive.org/web/20240816131304/https://hai.stanford.edu/news/how-much-research-being-wri
+tten-large-language-models) from the original on August 16, 2024. Retrieved August 16,
+2024.
+
+200. Shumailov, Ilia; Shumaylov, Zakhar; Zhao, Yiren; Papernot, Nicolas; Anderson, Ross; Gal,
+Yarin (July 2024). "AI models collapse when trained on recursively generated data" (https://
+www.ncbi.nlm.nih.gov/pmc/articles/PMC11269175). Nature. 631 (8022): 755–759.
+Bibcode:2024Natur.631..755S (https://ui.adsabs.harvard.edu/abs/2024Natur.631..755S).
+doi:10.1038/s41586-024-07566-y (https://doi.org/10.1038%2Fs41586-024-07566-y).
+PMC 11269175 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11269175). PMID 39048682
+(https://pubmed.ncbi.nlm.nih.gov/39048682).
+
+201. Bhatia, Aatish (August 26, 2024). "When A.I.'s Output Is a Threat to A.I. Itself" (https://www.n
+ytimes.com/interactive/2024/08/26/upshot/ai-synthetic-data.html?te=1&nl=the-morning&emc
+=edit_nn_20240826). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/iss
+n/0362-4331). Retrieved August 27, 2024.
+
+202. Kang, James Jin (January 13, 2025). "Tech companies are turning to 'synthetic data' to train
+AI models – but there's a hidden cost" (https://theconversation.com/tech-companies-are-turn
+ing-to-synthetic-data-to-train-ai-models-but-theres-a-hidden-cost-246248). The
+Conversation. Retrieved December 17, 2025.
+
+203. Alilunas, Peter (January 2, 2024). "What we must be: AI and the future of porn studies".
+Porn Studies. 11 (1): 99–112. doi:10.1080/23268743.2024.2312181 (https://doi.org/10.108
+0%2F23268743.2024.2312181).
+
+204. "How AI is being abused to create child sexual abuse material (CSAM) online" (https://www.i
+wf.org.uk/about-us/why-we-exist/our-research/how-ai-is-being-abused-to-create-child-sexual
+-abuse-imagery/). www.iwf.org.uk. Retrieved May 6, 2025.
+
+205. "Ban AI apps creating naked images of children, says children's commissioner" (https://ww
+w.bbc.com/news/articles/cr78pd7p42ro). BBC. April 28, 2025. Retrieved May 6, 2025.
+
+206. Sjouwerman, Stu (December 26, 2022). "Deepfakes: Get ready for phishing 2.0" (https://ww
+w.fastcompany.com/90829233/deepfakes-get-ready-for-phishing-2-0). Fast Company.
+Archived (https://web.archive.org/web/20230731210940/https://www.fastcompany.com/9082
+9233/deepfakes-get-ready-for-phishing-2-0) from the original on July 31, 2023. Retrieved
+July 31, 2023.
+
+207. Sonnemaker, Tyler. "As social media platforms brace for the incoming wave of deepfakes,
+Google's former 'fraud czar' predicts the biggest danger is that deepfakes will eventually
+become boring" (https://www.businessinsider.com/google-ex-fraud-czar-danger-of-deepfake
+s-is-becoming-boring-2020-1). Business Insider. Archived (https://web.archive.org/web/2021
+0414002924/https://www.businessinsider.com/google-ex-fraud-czar-danger-of-deepfakes-is-
+becoming-boring-2020-1) from the original on April 14, 2021. Retrieved July 31, 2023.
+
+208. Collinson, Patrick (July 15, 2023). "Fake reviews: can we trust what we read online as use
+of AI explodes?" (https://www.theguardian.com/money/2023/jul/15/fake-reviews-ai-artificial-i
+ntelligence-hotels-restaurants-products). The Guardian. ISSN 0261-3077 (https://search.wor
+ldcat.org/issn/0261-3077). Archived (https://web.archive.org/web/20231122152136/https://w
+ww.theguardian.com/money/2023/jul/15/fake-reviews-ai-artificial-intelligence-hotels-restaura
+nts-products) from the original on November 22, 2023. Retrieved December 6, 2023.
+
+209. "After WormGPT, FraudGPT Emerges to Help Scammers Steal Your Data" (https://www.pcm
+ag.com/news/after-wormgpt-fraudgpt-emerges-to-help-scammers-steal-your-data). PCMAG.
+July 25, 2023. Archived (https://web.archive.org/web/20230731211723/https://www.pcmag.c
+om/news/after-wormgpt-fraudgpt-emerges-to-help-scammers-steal-your-data) from the
+original on July 31, 2023. Retrieved July 31, 2023.
+
+
+
+210. Gupta, Maanak; Akiri, Charankumar; Aryal, Kshitiz; Parker, Eli; Praharaj, Lopamudra (2023).
+"From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy" (http
+s://doi.org/10.1109%2FACCESS.2023.3300381). IEEE Access. 11: 80218–80245.
+Bibcode:2023IEEEA..1180218G (https://ui.adsabs.harvard.edu/abs/2023IEEEA..1180218G).
+doi:10.1109/ACCESS.2023.3300381 (https://doi.org/10.1109%2FACCESS.2023.3300381).
+
+211. Piper, Kelsey (February 2, 2024). "Should we make our most powerful AI models open
+source to all?" (https://www.vox.com/future-perfect/2024/2/2/24058484/open-source-artificial
+-intelligence-ai-risk-meta-llama-2-chatgpt-openai-deepfake). Vox. Archived (https://web.archi
+ve.org/web/20241005170204/https://www.vox.com/future-perfect/2024/2/2/24058484/open-s
+ource-artificial-intelligence-ai-risk-meta-llama-2-chatgpt-openai-deepfake) from the original
+on October 5, 2024. Retrieved January 13, 2025.
+
+212. Cordall, Simon Speakman. "Spinning genocide: How is Israel using US PR firms to frame its
+Gaza war?" (https://web.archive.org/web/20260112095051/https://www.aljazeera.com/news/
+2025/10/30/spinning-genocide-how-israel-is-using-us-pr-firms-to-frame-its-gaza-war). Al
+Jazeera. Archived from the original (https://www.aljazeera.com/news/2025/10/30/spinning-g
+enocide-how-israel-is-using-us-pr-firms-to-frame-its-gaza-war) on January 12, 2026.
+Retrieved January 14, 2026.
+
+213. "Report: Israel to spend over half a billion shekels turning ChatGPT into public diplomacy
+tool" (https://web.archive.org/web/20260112095040/https://www.ynetnews.com/tech-and-dig
+ital/article/rj00kxqzaxx). ynetglobal. October 6, 2025. Archived from the original (https://www.
+ynetnews.com/tech-and-digital/article/rj00kxqzaxx) on January 12, 2026. Retrieved
+January 14, 2026.
+
+214. Cleveland-Stout, Nick (October 1, 2025). "Israel Has a New $6M Plan to Flood Gen Z
+Platforms With Pro-Israel Content" (https://truthout.org/articles/israel-has-a-new-6m-plan-to-f
+lood-gen-z-platforms-with-pro-israel-content/). Truthout. Retrieved January 14, 2026.
+
+215. "CLOUD Act" (https://www.justice.gov/d9/pages/attachments/2019/04/09/cloud_act.pdf)
+(PDF). www.justice.gov. March 21, 2018. Archived (https://web.archive.org/web/202506081
+85139/https://www.justice.gov/d9/pages/attachments/2019/04/09/cloud_act.pdf) (PDF) from
+the original on June 8, 2025.
+
+216. Collins, Doug (February 6, 2018). "H.R.4943 – 115th Congress (2017–2018): CLOUD Act"
+(https://www.congress.gov/bill/115th-congress/house-bill/4943). www.congress.gov.
+Retrieved December 5, 2025.
+
+217. Berengaut, Alexander (April 6, 2019). "Reaching for the CLOUD" (https://www.insideprivacy.
+com/surveillance-law-enforcement-access/reaching-for-the-cloud/). Inside Privacy.
+Retrieved December 5, 2025.
+
+218. Christakis, Theodore; Terpan, Fabien (April 2021). EU–US negotiations on law enforcement
+access to data: divergences, challenges and EU law procedures and options. International
+Data Privacy Law. 11 (2): 81–106. doi:10.1093/idpl/ipaa022
+
+219. You, Josh (February 7, 2025). "How much energy does ChatGPT use?" (https://epoch.ai/gra
+dient-updates/how-much-energy-does-chatgpt-use). Epoch AI. Retrieved November 11,
+2025.
+
+220. Crownhart, Casey (May 23, 2024). "AI is an energy hog. This is what it means for climate
+change" (https://web.archive.org/web/20240820160720/https://www.technologyreview.com/2
+024/05/23/1092777/ai-is-an-energy-hog-this-is-what-it-means-for-climate-change/). MIT
+Technology Review. Archived from the original (https://www.technologyreview.com/2024/05/
+23/1092777/ai-is-an-energy-hog-this-is-what-it-means-for-climate-change/) on August 20,
+2024. Retrieved August 27, 2024.
+
+
+
+221. Dhar, Payal (August 1, 2020). "The carbon impact of artificial intelligence" (https://web.archi
+ve.org/web/20240814145516/https://www.nature.com/articles/s42256-020-0219-9). Nature
+Machine Intelligence. 2 (8): 423–425. Bibcode:2020NatMI...2..423D (https://ui.adsabs.harva
+rd.edu/abs/2020NatMI...2..423D). doi:10.1038/s42256-020-0219-9 (https://doi.org/10.1038%
+2Fs42256-020-0219-9). ISSN 2522-5839 (https://search.worldcat.org/issn/2522-5839).
+Archived from the original (https://www.nature.com/articles/s42256-020-0219-9) on August
+14, 2024.
+
+222. Crawford, Kate (February 20, 2024). "Generative AI's environmental costs are soaring —
+and mostly secret" (https://web.archive.org/web/20240822050528/https://www.nature.com/a
+rticles/d41586-024-00478-x). Nature. 626 (8000): 693. Bibcode:2024Natur.626..693C (http
+s://ui.adsabs.harvard.edu/abs/2024Natur.626..693C). doi:10.1038/d41586-024-00478-x (htt
+ps://doi.org/10.1038%2Fd41586-024-00478-x). PMID 38378831 (https://pubmed.ncbi.nlm.ni
+h.gov/38378831). Archived from the original (https://www.nature.com/articles/d41586-024-0
+0478-x) on August 22, 2024.
+
+223. Rogers, Reece. "AI's Energy Demands Are Out of Control. Welcome to the Internet's Hyper-
+Consumption Era" (https://web.archive.org/web/20240814171438/https://www.wired.com/sto
+ry/ai-energy-demands-water-impact-internet-hyper-consumption-era/). Wired. ISSN 1059-
+1028 (https://search.worldcat.org/issn/1059-1028). Archived from the original (https://www.wi
+red.com/story/ai-energy-demands-water-impact-internet-hyper-consumption-era/) on August
+14, 2024. Retrieved August 27, 2024.
+
+224. Saenko, Kate (May 23, 2023). "Is generative AI bad for the environment? A computer
+scientist explains the carbon footprint of ChatGPT and its cousins" (https://web.archive.org/
+web/20240701165020/https://theconversation.com/is-generative-ai-bad-for-the-environment-
+a-computer-scientist-explains-the-carbon-footprint-of-chatgpt-and-its-cousins-204096). The
+Conversation. Archived from the original (https://theconversation.com/is-generative-ai-bad-f
+or-the-environment-a-computer-scientist-explains-the-carbon-footprint-of-chatgpt-and-its-co
+usins-204096) on July 1, 2024. Retrieved August 27, 2024.
+
+225. Lohr, Steve (August 26, 2024). "Will A.I. Ruin the Planet or Save the Planet?" (https://web.ar
+chive.org/web/20240826113905/https://www.nytimes.com/2024/08/26/climate/ai-planet-clim
+ate-change.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0
+362-4331). Archived from the original (https://www.nytimes.com/2024/08/26/climate/ai-plane
+t-climate-change.html) on August 26, 2024. Retrieved August 27, 2024.
+
+226. Wang, Peng; Zhang, Ling-Yu; Tzachor, Asaf; Chen, Wei-Qiang (October 28, 2024). "E-waste
+challenges of generative artificial intelligence" (https://www.nature.com/articles/s43588-024-
+00712-6). Nature Computational Science. 4 (11): 818–823. doi:10.1038/s43588-024-00712-
+6 (https://doi.org/10.1038%2Fs43588-024-00712-6). ISSN 2662-8457 (https://search.worldc
+at.org/issn/2662-8457). PMID 39468340 (https://pubmed.ncbi.nlm.nih.gov/39468340).
+
+227. "Data centers - Washington State Department of Ecology" (https://ecology.wa.gov/air-climat
+e/air-quality/data-centers). ecology.wa.gov. Retrieved April 9, 2026.
+
+228. Ding, Zhaohao; Wang, Jianxiao; Song, Yiyang; Zheng, Xiaokang; He, Guannan; Chen,
+Xiupeng; Zhang, Tiance; Lee, Wei-Jen; Song, Jie (May 5, 2025). "Tracking the carbon
+footprint of global generative artificial intelligence" (https://www.ncbi.nlm.nih.gov/pmc/article
+s/PMC12105502). The Innovation. 6 (5) 100866. Bibcode:2025Innov...600866D (https://ui.a
+dsabs.harvard.edu/abs/2025Innov...600866D). doi:10.1016/j.xinn.2025.100866 (https://doi.o
+rg/10.1016%2Fj.xinn.2025.100866). ISSN 2666-6758 (https://search.worldcat.org/issn/2666-
+6758). PMC 12105502 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12105502).
+PMID 40432776 (https://pubmed.ncbi.nlm.nih.gov/40432776).
+
+
+
+229. Pelton, Rylie E. O.; Kazanski, Clare E.; Keerthi, Shamitha; Racette, Kelly A.; Gennet,
+Sasha; Springer, Nathaniel; Yacobson, Eugene; Wironen, Michael; Ray, Deepak; Johnson,
+Kris; Schmitt, Jennifer (September 2024). "Greenhouse gas emissions in US beef
+production can be reduced by up to 30% with the adoption of selected mitigation measures"
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11420059). Nature Food. 5 (9): 787–797.
+Bibcode:2024NatFo...5..787P (https://ui.adsabs.harvard.edu/abs/2024NatFo...5..787P).
+doi:10.1038/s43016-024-01031-9 (https://doi.org/10.1038%2Fs43016-024-01031-9).
+ISSN 2662-1355 (https://search.worldcat.org/issn/2662-1355). PMC 11420059 (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC11420059). PMID 39215094 (https://pubmed.ncbi.nlm.ni
+h.gov/39215094).
+
+230. Metz, Cade (July 10, 2023). "In the Age of A.I., Tech's Little Guys Need Big Friends" (https://
+www.nytimes.com/2023/07/05/business/artificial-intelligence-power-data-centers.html). New
+York Times. Archived (https://web.archive.org/web/20240708214644/https://www.nytimes.co
+m/2023/07/05/business/artificial-intelligence-power-data-centers.html) from the original on
+July 8, 2024. Retrieved July 10, 2024.
+
+231. Holden, Michael (February 25, 2025). "AI-detection software isn't the solution to classroom
+cheating — assessment has to shift" (https://theconversation.com/ai-detection-software-isnt-
+the-solution-to-classroom-cheating-assessment-has-to-shift-246102). The Conversation.
+Retrieved July 29, 2025.
+
+232. Ha, Anthony (August 4, 2024). "OpenAI says it's taking a 'deliberate approach' to releasing
+tools that can detect writing from ChatGPT" (https://techcrunch.com/2024/08/04/openai-says
+-its-taking-a-deliberate-approach-to-releasing-tools-that-can-detect-writing-from-chatgpt/).
+TechCrunch. Retrieved July 29, 2025.
+
+233. Seetharaman, Deepa; Barnum, Matt (August 4, 2024). "Exclusive | There's a Tool to Catch
+Students Cheating With ChatGPT. OpenAI Hasn't Released It" (https://www.wsj.com/tech/ai/
+openai-tool-chatgpt-cheating-writing-135b755a). WSJ. Retrieved July 29, 2025.
+
+234. "Chinese regulators issue requirements for the labeling of AI-generated content" (https://ww
+w.reuters.com/world/asia-pacific/chinese-regulators-issue-requirements-labeling-ai-generate
+d-content-2025-03-14/). Reuters. March 14, 2025. Retrieved July 19, 2026.
+
+235. Peters, Jay (May 21, 2025). "Google has a new tool to help detect AI-generated content" (htt
+ps://www.theverge.com/news/672013/google-synthid-detector-ai-generated-content-waterm
+ark-i-o-2025). The Verge. Retrieved July 29, 2025.
+
+236. Carpenter, Nicole (June 26, 2025). "A real issue: video game developers are being accused
+of using AI – even when they aren't" (https://www.theguardian.com/games/2025/jun/26/video
+-game-developers-using-ai-even-when-they-arent-stamina-zero). The Guardian. ISSN 0261-
+3077 (https://search.worldcat.org/issn/0261-3077). Retrieved July 28, 2025.
+
+Further reading
+He, Ran; Cao, Jie; Tan, Tieniu (2025). "Generative Artificial Intelligence: A Historical
+Perspective" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11970245). National Science
+Review. 12 (5) nwaf050. doi:10.1093/nsr/nwaf050 (https://doi.org/10.1093%2Fnsr%2Fnwaf0
+50). PMC 11970245 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11970245).
+PMID 40191253 (https://pubmed.ncbi.nlm.nih.gov/40191253).
+James Gleick, "The Parrot in the Machine (https://www.nybooks.com/articles/2025/07/24/the
+-parrot-in-the-machine-the-ai-con-bender-hanna/)" (review of Emily M. Bender and Alex
+Hanna, The AI Con: How to Fight Big Tech's Hype and Create the Future We Want, Harper,
+274 pp.; and James Boyle, The Line: AI and the Future of Personhood, MIT Press, 326 pp.),
+The New York Review of Books, vol. LXXII, no. 12 (24 July 2025), pp. 43–46. "[C]hatbox
+'writing' has a bland, regurgitated quality. Textures are flattened, sharp edges are sanded.
+No chatbox could ever have said that April is the cruelest month or that fog comes on little
+cat feet (though they might now, because one of their chief skills is plagiarism). And when
+
+
+
+synthetically extruded text turns out wrong, it can be comically wrong. When a movie fan
+asked Google whether a certain actor was in Heat, he received this 'AI Overview': 'No,
+Angelina Jolie is not in heat.'" (p. 44.)
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Generative_AI&oldid=1382528980"

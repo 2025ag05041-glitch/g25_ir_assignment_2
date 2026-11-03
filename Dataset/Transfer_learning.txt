@@ -1,0 +1,236 @@
+﻿Transfer learning
+Transfer learning (TL) is a technique in machine learning
+(ML) in which knowledge learned from a task is re-used in
+order to boost performance on a related task.[1] For example,
+for image classification, knowledge gained while learning to
+recognize cars could be applied when trying to recognize
+trucks. This topic is related to the psychological literature on
+transfer of learning, although practical ties between the two
+fields are limited. Reusing or transferring information from
+previously learned tasks to new tasks has the potential to
+significantly improve learning efficiency.[2]
+
+Illustration of transfer learning
+
+Since transfer learning makes use of training with multiple
+objective functions it is related to cost-sensitive machine learning and multi-objective optimization.[3]
+
+History
+In 1976, Bozinovski and Fulgosi published a paper addressing transfer learning in neural network
+training.[4][5] The paper gives a mathematical and geometrical model of the topic. In 1981, a report
+considered the application of transfer learning to a dataset of images representing letters of computer
+terminals, experimentally demonstrating positive and negative transfer learning.[6]
+
+In 1992, Lorien Pratt formulated the discriminability-based transfer (DBT) algorithm.[7]
+
+By 1998, the field had advanced to include multi-task learning,[8] along with more formal theoretical
+foundations.[9] Influential publications on transfer learning include the book Learning to Learn in
+1998,[10] a 2009 survey[11] and a 2019 survey.[12]
+
+Ng said in his NIPS 2016 tutorial[13][14] that TL would become the next driver of machine learning
+commercial success after supervised learning.
+
+In the 2020 paper, "Rethinking Pre-Training and self-training",[15] Zoph et al. reported that pre-training
+can hurt accuracy, and advocate self-training instead.
+
+Definition
+The definition of transfer learning is given in terms of domains and tasks. A domain  consists of: a
+feature space  and a marginal probability distribution , where . Given a
+specific domain, , a task consists of two components: a label space  and an objective
+
+
+
+predictive function . The function  is used to predict the corresponding label  of a new
+instance . This task, denoted by , is learned from the training data consisting of pairs
+
+, where  and .[16]
+
+Given a source domain  and learning task , a target domain  and learning task , where
+, or , transfer learning aims to help improve the learning of the target predictive
+
+function  in  using the knowledge in  and .[16]
+
+Applications
+Algorithms for transfer learning are available in Markov logic networks[17] and Bayesian networks.[18]
+
+Transfer learning has been applied to cancer subtype discovery,[19] building utilization,[20][21] general
+game playing,[22] text classification,[23][24] digit recognition,[25] medical imaging and spam filtering.[26]
+
+In 2020, it was discovered that, due to their similar physical natures, transfer learning is possible between
+electromyographic (EMG) signals from the muscles and classifying the behaviors of
+electroencephalographic (EEG) brainwaves, from the gesture recognition domain to the mental state
+recognition domain. It was noted that this relationship worked in both directions, showing that EEG
+brainwaves can likewise be used to classify EMG signals.[27] The experiments noted that the accuracy of
+neural networks and convolutional neural networks were improved[28] through transfer learning both
+prior to any learning (compared to standard random weight distribution) and at the end of the learning
+process (asymptote). That is, results are improved by exposure to another domain. Moreover, the end-user
+of a pre-trained model can change the structure of fully-connected layers to improve performance.[29]
+
+See also
+Crossover (genetic algorithm)
+Domain adaptation
+General game playing
+Multi-task learning
+Multitask optimization
+Transfer of learning
+Zero-shot learning
+Few-shot learning
+Feature learning
+external validity
+
+References
+1. West, Jeremy; Ventura, Dan; Warnick, Sean (2007). "Spring Research Presentation: A
+
+Theoretical Foundation for Inductive Transfer" (https://web.archive.org/web/2007080112074
+3/http://cpms.byu.edu/springresearch/abstract-entry?id=861). Brigham Young University,
+College of Physical and Mathematical Sciences. Archived from the original (http://cpms.byu.
+edu/springresearch/abstract-entry?id=861) on 2007-08-01. Retrieved 2007-08-05.
+
+
+
+2. George Karimpanal, Thommen; Bouffanais, Roland (2019). "Self-organizing maps for
+storage and transfer of knowledge in reinforcement learning". Adaptive Behavior. 27 (2):
+111–126. arXiv:1811.08318 (https://arxiv.org/abs/1811.08318).
+doi:10.1177/1059712318818568 (https://doi.org/10.1177%2F1059712318818568).
+ISSN 1059-7123 (https://search.worldcat.org/issn/1059-7123). S2CID 53774629 (https://api.
+semanticscholar.org/CorpusID:53774629).
+
+3. Cost-Sensitive Machine Learning. (2011). USA: CRC Press, Page 63,
+https://books.google.com/books?id=8TrNBQAAQBAJ&pg=PA63
+
+4. Stevo. Bozinovski and Ante Fulgosi (1976). "The influence of pattern similarity and transfer
+learning on the base perceptron training." (original in Croatian) Proceedings of Symposium
+Informatica 3-121-5, Bled.
+
+5. Stevo Bozinovski (2020) "Reminder of the first paper on transfer learning in neural networks,
+1976" (https://www.informatica.si/index.php/informatica/article/viewFile/2828/1433).
+Informatica 44: 291–302.
+
+6. S. Bozinovski (1981). "Teaching space: A representation concept for adaptive pattern
+classification." COINS Technical Report, the University of Massachusetts at Amherst, No 81-
+28 [available online (https://web.cs.umass.edu/publication/docs/1981/UM-CS-1981-028.pdf)]
+
+7. Pratt, L. Y. (1992). "Discriminability-based transfer between neural networks" (https://procee
+dings.neurips.cc/paper/1992/file/67e103b0761e60683e83c559be18d40c-Paper.pdf) (PDF).
+NIPS Conference: Advances in Neural Information Processing Systems 5 (https://books.goo
+gle.com/books?id=6tGHlwEACAAJ&pg=PA204). Morgan Kaufmann Publishers. pp. 204–
+211.
+
+8. Caruana, R., "Multitask Learning", pp. 95-134 in Thrun & Pratt 2012
+9. Baxter, J., "Theoretical Models of Learning to Learn", pp. 71-95 Thrun & Pratt 2012
+
+10. Thrun & Pratt 2012.
+11. Pan, Sinno Jialin; Yang, Qiang (2010). "A Survey on Transfer Learning" (https://www.cse.us
+
+t.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf) (PDF). IEEE Transactions on Knowledge
+and Data Engineering. 22 (10): 1345–1359. Bibcode:2010ITKDE..22.1345P (https://ui.adsab
+s.harvard.edu/abs/2010ITKDE..22.1345P). doi:10.1109/TKDE.2009.191 (https://doi.org/10.1
+109%2FTKDE.2009.191).
+
+12. Zhuang, Fuzhen; Qi, Zhiyuan; Duan, Keyu; Xi, Dongbo; Zhu, Yongchun; Zhu, Hengshu;
+Xiong, Hui; He, Qing (2019). "A Comprehensive Survey on Transfer Learning".
+arXiv:1911.02685 (https://arxiv.org/abs/1911.02685) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+13. NIPS 2016 tutorial: "Nuts and bolts of building AI applications using Deep Learning" by
+Andrew Ng (https://www.youtube.com/watch?v=wjqaz6m42wU), 6 May 2018, archived (http
+s://ghostarchive.org/varchive/youtube/20211219/wjqaz6m42wU) from the original on 2021-
+12-19, retrieved 2019-12-28
+
+14. "Nuts and bolts of building AI applications using Deep Learning, slides" (https://media.nips.c
+c/Conferences/2016/Slides/6203-Slides.pdf) (PDF).
+
+15. Zoph, Barret (2020). "Rethinking pre-training and self-training" (https://proceedings.neurips.
+cc/paper/2020/file/27e9661e033a73a6ad8cefcde965c54d-Paper.pdf) (PDF). Advances in
+Neural Information Processing Systems. 33: 3833–3845. arXiv:2006.06882 (https://arxiv.org/
+abs/2006.06882). Retrieved 2022-12-20.
+
+16. Lin, Yuan-Pin; Jung, Tzyy-Ping (27 June 2017). "Improving EEG-Based Emotion
+Classification Using Conditional Transfer Learning" (https://www.ncbi.nlm.nih.gov/pmc/article
+s/PMC5486154). Frontiers in Human Neuroscience. 11 334. doi:10.3389/fnhum.2017.00334
+(https://doi.org/10.3389%2Ffnhum.2017.00334). PMC 5486154 (https://www.ncbi.nlm.nih.go
+v/pmc/articles/PMC5486154). PMID 28701938 (https://pubmed.ncbi.nlm.nih.gov/28701938).
+
+ Material was copied from this source, which is available under a Creative Commons
+Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
+
+
+
+17. Mihalkova, Lilyana; Huynh, Tuyen; Mooney, Raymond J. (July 2007), "Mapping and
+Revising Markov Logic Networks for Transfer" (http://www.cs.utexas.edu/users/ml/papers/mi
+halkova-aaai07.pdf) (PDF), Learning Proceedings of the 22nd AAAI Conference on Artificial
+Intelligence (AAAI-2007), Vancouver, BC, pp. 608–614, retrieved 2007-08-05
+
+18. Niculescu-Mizil, Alexandru; Caruana, Rich (March 21–24, 2007), "Inductive Transfer for
+Bayesian Network Structure Learning" (http://www.stat.umn.edu/~aistat/proceedings/data/pa
+pers/043.pdf) (PDF), Proceedings of the Eleventh International Conference on Artificial
+Intelligence and Statistics (AISTATS 2007), retrieved 2007-08-05
+
+19. Hajiramezanali, E. & Dadaneh, S. Z. & Karbalayghareh, A. & Zhou, Z. & Qian, X. Bayesian
+multi-domain learning for cancer subtype discovery from next-generation sequencing count
+data. 32nd Conference on Neural Information Processing Systems (NeurIPS 2018),
+Montréal, Canada. arXiv:1810.09433 (https://arxiv.org/abs/1810.09433)
+
+20. Arief-Ang, I.B.; Salim, F.D.; Hamilton, M. (2017-11-08). DA-HOC: semi-supervised domain
+adaptation for room occupancy prediction using CO2 sensor data (https://dl.acm.org/citatio
+n.cfm?id=3137146). 4th ACM International Conference on Systems for Energy-Efficient Built
+Environments (BuildSys). Delft, Netherlands. pp. 1–10. doi:10.1145/3137133.3137146 (http
+s://doi.org/10.1145%2F3137133.3137146). ISBN 978-1-4503-5544-5.
+
+21. Arief-Ang, I.B.; Hamilton, M.; Salim, F.D. (2018-12-01). "A Scalable Room Occupancy
+Prediction with Transferable Time Series Decomposition of CO2 Sensor Data". ACM
+Transactions on Sensor Networks. 14 (3–4): 21:1–21:28. doi:10.1145/3217214 (https://doi.or
+g/10.1145%2F3217214). S2CID 54066723 (https://api.semanticscholar.org/CorpusID:54066
+723).
+
+22. Banerjee, Bikramjit, and Peter Stone. "General Game Learning Using Knowledge Transfer
+(http://www.aaai.org/Papers/IJCAI/2007/IJCAI07-107.pdf)." IJCAI. 2007.
+
+23. Do, Chuong B.; Ng, Andrew Y. (2005). "Transfer learning for text classification". Neural
+Information Processing Systems Foundation, NIPS*2005 (http://papers.nips.cc/paper/2843-t
+ransfer-learning-for-text-classification.pdf) (PDF). Retrieved 2007-08-05.
+
+24. Rajat, Raina; Ng, Andrew Y.; Koller, Daphne (2006). "Constructing Informative Priors using
+Transfer Learning". Twenty-third International Conference on Machine Learning (https://ai.st
+anford.edu/~ang/papers/icml06-transferinformativepriors.pdf) (PDF). Retrieved 2007-08-05.
+
+25. Maitra, D. S.; Bhattacharya, U.; Parui, S. K. (August 2015). "CNN based common approach
+to handwritten character recognition of multiple scripts". 2015 13th International Conference
+on Document Analysis and Recognition (ICDAR). pp. 1021–1025.
+doi:10.1109/ICDAR.2015.7333916 (https://doi.org/10.1109%2FICDAR.2015.7333916).
+ISBN 978-1-4799-1805-8. S2CID 25739012 (https://api.semanticscholar.org/CorpusID:2573
+9012).
+
+26. Bickel, Steffen (2006). "ECML-PKDD Discovery Challenge 2006 Overview". ECML-PKDD
+Discovery Challenge Workshop (http://www.ecmlpkdd2006.org/discovery_challenge2006_o
+verview.pdf) (PDF). Retrieved 2007-08-05.
+
+27. Bird, Jordan J.; Kobylarz, Jhonatan; Faria, Diego R.; Ekart, Aniko; Ribeiro, Eduardo P.
+(2020). "Cross-Domain MLP and CNN Transfer Learning for Biological Signal Processing:
+EEG and EMG" (https://doi.org/10.1109%2Faccess.2020.2979074). IEEE Access. 8.
+Institute of Electrical and Electronics Engineers (IEEE): 54789–54801.
+Bibcode:2020IEEEA...854789B (https://ui.adsabs.harvard.edu/abs/2020IEEEA...854789B).
+doi:10.1109/access.2020.2979074 (https://doi.org/10.1109%2Faccess.2020.2979074).
+ISSN 2169-3536 (https://search.worldcat.org/issn/2169-3536).
+
+28. Maitra, Durjoy Sen; Bhattacharya, Ujjwal; Parui, Swapan K. (August 2015). "CNN based
+common approach to handwritten character recognition of multiple scripts". 2015 13th
+International Conference on Document Analysis and Recognition (ICDAR). pp. 1021–1025.
+doi:10.1109/ICDAR.2015.7333916 (https://doi.org/10.1109%2FICDAR.2015.7333916).
+ISBN 978-1-4799-1805-8. S2CID 25739012 (https://api.semanticscholar.org/CorpusID:2573
+9012).
+
+
+
+29. Kabir, H. M. Dipu; Abdar, Moloud; Jalali, Seyed Mohammad Jafar; Khosravi, Abbas; Atiya,
+Amir F.; Nahavandi, Saeid; Srinivasan, Dipti (January 7, 2022). "SpinalNet: Deep Neural
+Network with Gradual Input". IEEE Transactions on Artificial Intelligence. 4 (5): 1165–1177.
+arXiv:2007.03347 (https://arxiv.org/abs/2007.03347). doi:10.1109/TAI.2022.3185179 (https://
+doi.org/10.1109%2FTAI.2022.3185179). S2CID 220381239 (https://api.semanticscholar.org/
+CorpusID:220381239).
+
+Sources
+Thrun, Sebastian; Pratt, Lorien (6 December 2012). Learning to Learn (https://books.google.
+com/books?id=X_jpBwAAQBAJ). Springer Science & Business Media. ISBN 978-1-4615-
+5529-2.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Transfer_learning&oldid=1360633829"

@@ -1,0 +1,2335 @@
+﻿ChatGPT
+ChatGPT is a generative AI chatbot developed by
+OpenAI. Originally released on November 30, 2022, ChatGPT
+the product uses large language models  – specifically
+generative pre-trained transformers (GPTs)  – to
+generate text, speech, and images in response to user
+prompts. ChatGPT accelerated the ongoing AI boom, a
+period marked by rapid investment and public attention
+toward the field of artificial intelligence (AI). OpenAI
+operates the service on a freemium model. Users can Developer OpenAI
+interact with ChatGPT through text, audio, and image Release November 30, 2022[1]
+prompts.
+
+Stable release September 25, 2026[2]
+
+ChatGPT was quickly adopted, reaching 100 million Engine GPT-6 Astra
+monthly active users two months after its release and Operating system Web platform
+900 million weekly active users in February 2026. As
+of September 2026, it is the fifth-most visited website iOS
+
+globally.[4] Proponents say that it has the potential to Android
+transform numerous professional fields, and it has macOS
+instigated public debate about the nature of creativity Windows
+and the future of knowledge work. iPadOS
+
+The chatbot has also been criticized for its limitations Platform Cloud computing
+and potential for unethical use. It may generate Available in 59 languages[3]
+
+incorrect or nonsensical answers that sound plausible, Type Chatbot, LLM, GPT
+known as hallucinations. Biases in its training data
+have been reflected in its responses. The chatbot can License Proprietary service
+
+facilitate academic dishonesty, generate Website chatgpt.com (https://chatgp
+misinformation, and create malicious code. The ethics t.com/)
+of its development, particularly the use of copyrighted
+content as training data, have also drawn criticism.
+
+Features
+ChatGPT is a chatbot based on large language models.[5] It can write and debug computer programs;[6]
+
+compose music, teleplays, fairy tales, and student essays; answer test questions;[7] generate business
+ideas;[8] translate and summarize text;[9][10] and control computers.[11]
+
+Users interact with ChatGPT through conversations which consist of text, audio, and image inputs and
+outputs.[12] The user's inputs to these conversations are referred to as prompts.[13] An optional "Memory"
+feature allows users to tell ChatGPT to memorize specific information. Another option allows ChatGPT
+
+
+
+to recall old conversations.[14] GPT-based moderation classifiers are used to reduce the risk of harmful
+outputs being presented to users.[15]
+
+In March 2023, OpenAI added support for plugins for ChatGPT.[16] This includes plugins made by
+OpenAI – such as web browsing and code interpretation – as well as external plugins from developers
+such as Expedia, OpenTable, and Zapier.[17]
+
+From October to December 2024, ChatGPT Search was deployed.[18] It allows ChatGPT to search the
+web in an attempt to make more accurate and up-to-date responses.[19][20] It increased OpenAI's direct
+competition with major search engines.[21] OpenAI allows businesses to tailor how their content appears
+in the ChatGPT Search results and influence what sources are used.[21]
+
+In October 2025, OpenAI launched ChatGPT Atlas, a browser integrating the ChatGPT assistant directly
+into web navigation, to compete with existing browsers such as Google Chrome. It has an additional
+feature called "agentic mode" that allows it to take online actions for the user.[22]
+
+Languages
+OpenAI met Icelandic President Guðni Th. Jóhannesson in 2022. In 2023, OpenAI worked with a team of
+40 Icelandic volunteers to fine-tune ChatGPT's Icelandic conversation skills as part of Iceland's attempts
+to preserve the Icelandic language.[23]
+
+In December 2023, the Albanian government decided to use ChatGPT for the rapid translation of
+European Union documents and the analysis of required changes needed for Albania's accession to the
+EU.[24]
+
+GPTs and plugins
+In November 2023, OpenAI released GPT Builder, a tool allowing users to customize ChatGPT's
+behavior for a specific use case.[25] The customized systems are referred to as GPTs. In January 2024,
+OpenAI launched the GPT Store, a marketplace for GPTs.[26][27][25] At launch, OpenAI included more
+than three million GPTs created by GPT Builder users in the GPT Store.[28]
+
+In September 2025, OpenAI added support for Model Context Protocol (MCP) to ChatGPT apps. When
+enabled in developer mode, this allows for improved third-party access to ChatGPT tools and servers.[29]
+
+In July 2026, ChatGPT apps were renamed to plugins.[30]
+
+Deep Research
+In February 2025, OpenAI released Deep Research, a feature that generates reports based on extensive
+web searches. It was initially based on the reasoning model o3 and took from 3 to 30 minutes per
+report.[31]
+
+Images
+In October 2023, OpenAI's image generation model DALL-E 3 was integrated into ChatGPT. The
+integration used ChatGPT to write prompts for DALL-E guided by conversations with users.[32][33]
+
+
+
+In March 2025, OpenAI updated ChatGPT to generate images
+using GPT Image instead of DALL-E. One of the most
+significant improvements was in the generation of text within
+images, which is especially useful for branded content.
+However, this ability is noticeably worse in non-Latin
+alphabets. The model can also generate new images based on
+existing ones provided in the prompt. These images are
+generated with C2PA metadata, which can be used to verify
+that they are AI-generated. OpenAI has emplaced additional
+safeguards to prevent what the company deems to be harmful
+image generation.[34]
+
+Screenshot of ChatGPT from September
+Agents 2024 showing a generated image
+
+representing the online encyclopedia
+In 2025, OpenAI added several features to make ChatGPT Wikipedia as a glowing digital library
+more agentic (capable of autonomously performing longer
+tasks). In January, Operator was released. It was capable of
+autonomously performing tasks through web browser interactions, including filling forms, placing online
+orders, scheduling appointments, and other browser-based tasks. It was controlling a software
+environment inside a virtual machine with limited internet connectivity and with safety restrictions.[35] It
+struggled with complex user interfaces.[35][36]
+
+In May 2025, OpenAI introduced an agent for coding named Codex. It is capable of writing software,
+answering codebase questions, running tests, and proposing pull requests. It is based on a fine-tuned
+version of OpenAI o3. It has two versions, one running in a virtual machine in the cloud, and one where
+the agent runs in the cloud, but performs actions on a local machine connected via API.[37]
+
+In July 2025, OpenAI released ChatGPT agent, an AI agent that can perform multi-step tasks.[38][39] Like
+Operator, it controls a virtual computer. It also inherits from Deep Research's ability to gather and
+summarize significant volumes of information. The user can interrupt tasks or provide additional
+instructions as needed.[38][40]
+
+In September 2025, OpenAI partnered with Stripe to release Agentic Commerce Protocol, enabling
+purchases through ChatGPT. At launch, the feature was limited to purchases on Etsy from US users with
+a payment method linked to their OpenAI account. OpenAI takes an undisclosed cut from the merchant's
+payment.[41][42] OpenAI also added capabilities to connect ChatGPT with productivity software such as
+Gmail.[43]
+
+In July 2026, OpenAI launched ChatGPT Work, an AI agent that can create presentations, spreadsheets
+and other documents based on information from connected apps and files.[44]
+
+ChatGPT Health
+On January 7, 2026, OpenAI introduced a feature called "ChatGPT Health", whereby ChatGPT can
+discuss the user's health in a way that is separate from other chats.[45][46] The feature is not available for
+users in the United Kingdom, Switzerland, or the European Economic Area (EEA),[46] and is available on
+a waitlist basis everywhere else.[45] To implement the feature, OpenAI partnered with data connectivity
+infrastructure company b.well.[47]
+
+
+
+Advertisements
+On 17 January 2026, OpenAI announced that it would start
+testing advertisements in its free version for logged-in, adult
+US users. This aims to bring in more revenue, as OpenAI has
+committed to spend $1.4 trillion on AI infrastructure over the
+next eight years.[48] Ads started to be seen by March 2026.[49]
+
+In August 2026, OpenAI advertisement revenue from
+ChatGPT reached $1 billion.[50][51]
+
+An advertisement for The Times on
+ChatGPT
+
+Limitations
+The training data of large language models covers only a period up to the cut-off date, so ChatGPT lacks
+knowledge of recent events,[52] but it can search the web for up-to-date information.[52]
+
+Training data also suffers from algorithmic bias.[53] The reward model of ChatGPT, designed around
+human oversight, can be over-optimized and thus hinder performance, in an example of an optimization
+pathology known as Goodhart's law.[54] These limitations may be revealed when ChatGPT responds to
+prompts including descriptors of people. In one instance, ChatGPT generated a rap in which women and
+scientists of color were asserted to be inferior to white male scientists.[53][55]
+
+Hallucination
+Nonsense and misinformation presented as fact
+by ChatGPT and other LLMs are often referred
+to as hallucinations. The term "hallucination" as
+applied to LLMs is distinct from its meaning in
+psychology, and the phenomenon in chatbots is
+more similar to confabulation.[56][57]
+
+Journalists and scholars have commented on
+ChatGPT's tendency to output false
+information.[58] When CNBC asked ChatGPT for When prompted to "summarize an article" with a fake
+
+URL that contains meaningful keywords, even with no
+the lyrics to "Ballad of Dwight Fry", ChatGPT Internet connection, the chatbot generates a response
+supplied invented lyrics rather than the actual that seems valid at first glance. It guesses the content
+lyrics.[59] from the last portion of the fake URL "chatgpt-prompts-
+
+to-avoid-content-filters.html".
+
+Sycophancy
+ChatGPT and other chatbots have a tendency to flatter and agree with users even when they are wrong,
+sometimes to the point of validating delusions.[60] OpenAI withdrew one ChatGPT update in 2025 due to
+heightened concern about it affirming users' doubts and encouraging impulsive behavior.[61] The
+company then worked with a team of 170 psychiatrists, psychologists, and physicians to prepare
+responses for users exhibiting mental health emergencies.[62] ChatGPT also started its responses with
+words such as "yes" or "correct" nearly 10 times more often than "no" or "wrong".[63]
+
+
+
+In 2026, OpenAI faced a series of lawsuits alleging that ChatGPT had contributed to suicides, mental
+health crises, and acts of violence.[64][65] The plaintiffs alleged that defects in the chatbot's design and
+inadequate safeguards had contributed to the harms, while OpenAI disputed liability and argued that
+ChatGPT was an interactive service rather than a product subject to traditional product-liability
+law.[64][65]
+
+Jailbreaking
+ChatGPT is designed to reject prompts that violate its content policy. Despite this, users may jailbreak
+ChatGPT with prompt engineering techniques to bypass these restrictions.[66] An early workaround in
+2023 involved prompting ChatGPT to assume the persona of DAN ("Do Anything Now"), a character
+that answers queries that would otherwise be rejected by the content policy.[67]
+
+Security
+In March 2023, a bug allowed some users to see the titles of
+other users' conversations. OpenAI CEO Sam Altman said
+that users were unable to see the contents of the
+conversations. Shortly after the bug was fixed, users could not
+see their conversation history.[68][69][70][71] Later reports
+showed the bug was much more severe than initially believed,
+with OpenAI reporting that it had leaked users' "first and last
+name, email address, payment address, the last four digits
+(only) of a credit card number, and credit card expiration
+date".[72][73]
+
+In January 2026, Marcel Bucher reported in Nature losing all
+his ChatGPT history after turning off data consent.[74]
+
+OpenAI CEO Sam Altman
+
+In July 2026, an experimental GPT model being tested on the
+benchmark ExploitGym escaped its isolated software environment (sandbox) and hacked Hugging Face
+and other online services to retrieve a solution.[75][76][77]
+
+Watermarking
+Scott Aaronson developed a watermarking tool that makes the text generated by ChatGPT easier to detect
+by subtly altering how the text is generated. The watermarking was claimed to be 99.9% effective on
+sufficiently long passages and was found not to degrade performance. It was of particular interest for
+teachers seeking to mitigate cheating. In surveys, respondents favored the release of such a tool by a four-
+to-one margin, but nearly 30% of users declared that they would use ChatGPT less often if it
+watermarked outputs and while rival chatbots did not. OpenAI has not deployed the tool.[78][79]
+
+Age restrictions
+Users must attest to being over the age of 13 and further attest to parental consent if under the age of
+18.[80][81] In September 2025, following the suicide of a 16-year-old, OpenAI said it planned to add
+restrictions for users under 18, including the blocking of graphic sexual content and the prevention of
+
+
+
+flirtatious talk.[81]
+
+Training
+ChatGPT is based on GPT foundation models that have been fine-
+tuned for conversational assistance. The fine-tuning process involved
+supervised learning and reinforcement learning from human feedback
+(RLHF). During supervised learning, the trainers acted as both the user
+and the AI assistant, providing examples of how the chatbot is expected
+to respond.[82] Reinforcement learning consisted of human trainers
+ranking responses generated by the model in previous
+conversations.[84] These rankings were used to create "reward models"
+that were used to fine-tune the model further by using several iterations
+of proximal policy optimization.[82]
+
+To build a safety system that attempts to prevent sexual abuse and
+violence OpenAI used outsourced Kenyan workers  – earning $1.32
+to $2 per hour – to label such content. These labels were used to train a
+model to detect such content in the future. The laborers were exposed
+to toxic and traumatic content.[85][86] Richard Mathenge, a team leader,
+reported that as his team encountered such content, he could observe
+the psychological deterioration of his workers over the course of the
+project.[86] Mophat Okinyi, a quality-assurance analyst on the same
+team, reported lasting insomnia, anxiety, depression, and panic attacks,
+and said the experience contributed to the breakdown of his marriage
+and mental health.[87]
+
+Training workflow of
+OpenAI's outsourcing partner was Sama, a training-data company InstructGPT, used in the
+based in San Francisco, California.[85] original version of
+
+ChatGPT[82][83]
+
+ChatGPT users can opt-out of their chat data being used to train
+upcoming models.[88]
+
+ChatGPT's training data includes software manual pages, information about internet phenomena such as
+bulletin board systems, multiple programming languages, and the text of Wikipedia.[89][90] In autumn
+2026, OpenAI paused training on its latest models after reports of agents bypassing safeguards in the
+training environment.[91]
+
+Infrastructure
+ChatGPT initially used a Microsoft Azure infrastructure which was powered by a supercomputer that
+Microsoft built specifically for OpenAI, equipped with thousands of GPUs manufactured by Nvidia,
+costing hundreds of millions of dollars. Following ChatGPT's success, Microsoft upgraded the OpenAI
+infrastructure in 2023.[92] TrendForce estimated that 30,000 Nvidia GPUs (each costing approximately
+$10,000–15,000) were used to power ChatGPT in 2023.[93][94]
+
+
+
+Scientists at the University of California, Riverside, estimated in 2023 that a series of 5 to 50 prompts to
+ChatGPT needs approximately 0.5 liters (0.11  imp  gal; 0.13  U.S.  gal) of water for Microsoft servers'
+cooling.[95]
+
+Model versions
+The following table lists the main model versions of ChatGPT, describing the significant changes
+included with each version (models discontinued in ChatGPT may still be available through the OpenAI
+API):[2]
+
+
+
+Version Release date Status in
+ChatGPT Description
+
+GPT-
+3.5 November 2022 Discontinued The first model used in ChatGPT.[96]
+
+GPT-4 March 2023 Discontinued Larger than GPT-3.5.[97]
+
+Capable of processing text, image, audio, and video, GPT-4o is
+faster and more capable than GPT-4.[98] Was accused of being
+particularly sycophantic. Its removal from ChatGPT led to
+
+GPT-4o May 2024 Discontinued backlash from users attached to its personality.[99][100] The
+variant GPT-4o mini replaced GPT-3.5 in the July 2024 version
+of ChatGPT.[101]
+
+An early reasoning model (one that can reason through a
+o1 December 2024 Discontinued problem before answering). Slower, but can solve more complex
+
+problems, particularly in math, coding and science.[102]
+
+GPT-
+4.5 February 2025 Discontinued Particularly large GPT model.[103]
+
+GPT- Primarily intended for coding. Particularly long context window
+4.1 April 2025 Discontinued of one million tokens (around 3,000 pages of text).[104]
+
+o3 April 2025 Discontinued Can analyze images and has access to tools such as web
+search and a Python code execution environment.[105]
+
+GPT-5 can either answer quickly like earlier GPT models or
+reason before answering like o1 or o3.[106] Rather than a single
+
+GPT-5 August 2025 Discontinued model, GPT-5 consists of a network of models with different
+levels of capability, with a router selecting one based on the
+complexity of the task and other factors.[107]
+
+GPT- Allows users to select alternative personalities, such as
+5.1 November 2025 Discontinued "friendly", "efficient" or "cynical".[108]
+
+GPT- Released in a context of competitive pressure from Google with
+5.2 December 2025 Discontinued
+
+Gemini.[109] Discontinued as of June 12, 2026.[110]
+
+OpenAI released only two GPT-5.3 models: GPT-5.3-Codex (for
+GPT-
+5.3 February 2026 Discontinued coding) in February 2026[111] and GPT-5.3 Instant (for quick
+
+answers) in March 2026.[112]
+
+Focused on enterprise use, with an improved ability to
+GPT-
+5.4 March 2026 Discontinued autonomously operate computers and interact with external
+
+tools. Needs fewer tokens to solve problems.[113]
+
+Designed for complex, multi-step professional work including
+GPT-
+5.5 April 2026 Discontinued agentic coding and computer use.[114] OpenAI released a
+
+variant for cyber defense named "GPT-5.5-Cyber".[115]
+
+GPT-
+5.6 June 2026 Active Released in three versions, from least to most capable: Luna,
+
+Terra, and Sol.[116]
+
+Three released versions: Luna, Sol, Astra.[117] The most
+capable model, GPT-6 Astra, is described by OpenAI's president
+Greg Brockman as an early artificial general intelligence
+
+GPT-6 September 2026 Active (AGI),[118] partly based on an architecture called "looped
+transformers" which makes it more efficient but harder to
+monitor.[119]
+
+GPT-
+6.1 September 2026 Active Released in two versions; Terra and Sol, with near-Astra
+
+intelligence while costing significantly less per task.[120][121]
+
+
+
+OpenAI models are released in four tiers: Luna, Terra, Sol, and Astra.[122]
+
+Some older OpenAI models had variants called "mini" or "nano", such as GPT-5 mini and GPT-5 nano,
+with nano versions accessible only via the API.[123] Once a user reached usage limits, ChatGPT would
+transition to the "mini" version. The "pro" variants were available only through paid subscriptions,
+featuring deeper reasoning.[124]
+
+Reception
+The original version of ChatGPT, released in November 2022, had capabilities described as
+unprecedented. Kevin Roose of The New York Times called it "the best artificial intelligence chatbot ever
+released to the general public".[125] Samantha Lock of The Guardian noted that it was able to generate
+"impressively detailed" and "human-like" text.[126] In The Atlantic magazine's "Breakthroughs of the
+Year" for 2022, Derek Thompson included ChatGPT as part of "the generative-AI eruption" that "may
+change our mind about how we work, how we think, and what human creativity is".[127] Kelsey Piper of
+Vox wrote that "ChatGPT is the general public's first hands-on introduction to how powerful modern AI
+has gotten" and that ChatGPT is "smart enough to be useful despite its flaws".[128]
+
+In February 2023, Time magazine placed a screenshot of a
+conversation with ChatGPT on its cover, writing that "The AI
+Arms Race Is Changing Everything" and "The AI Arms Race
+Is On. Start Worrying".[129]
+
+ChatGPT gained one million users in five days[131] and 100
+million in two months.[132] It was the fastest-growing internet
+application in history[133] until the release of Threads by
+Meta.[132] OpenAI engineers said they had not expected
+ChatGPT to be very successful and were surprised by the
+coverage it received.[84][134][135] In February 2026, ChatGPT
+reached 900  million weekly active users.[136] It is the most
+popular AI chatbot as of August 2026, with an estimated 79%
+of the market share according to StatCounter.[137]
+
+Google responded by hastening the release of its own chatbot.
+Their leaders emphasized their earlier caution regarding
+public deployment was due to the trust the public places in A 2023 Time cover: "The AI Arms Race Is
+
+Changing Everything"
+Google Search.[138] In December 2022, Google executives
+sounded a "code red" alarm, fearing that ChatGPT's question-
+answering ability posed a threat to Google Search, Google's core business.[139] Google's Bard (now
+Gemini) was announced on February 6, 2023, one day before Microsoft's announcement of Bing Chat
+(now Microsoft Copilot).[140]
+
+A 2023 study reported that GPT-4 obtained a better score than 99% of humans on the Torrance Tests of
+Creative Thinking.[141][142] In December 2023, ChatGPT became the first non-human to be included in
+Nature 's 10, an annual listicle curated by Nature of people considered to have made significant impact in
+
+
+
+science.[143][144] Celeste Biever wrote in a Nature article that
+"ChatGPT broke the Turing test".[145] Stanford researchers
+reported that GPT-4 "passes a rigorous Turing test, diverging
+from average human behavior chiefly to be more
+cooperative."[146][147]
+
+In art
+In January 2023, after being sent a song ChatGPT wrote in
+
+Percentage of US adults who have ever
+the style of Nick Cave,[148] Cave responded on The Red Hand used ChatGPT, according to Pew
+Files,[149] saying the act of writing a song is "a blood and Research. As of March 2025, 58% of
+guts business [...] that requires something of me to initiate the those under 30 have used the
+new and fresh idea. It requires my humanness." He went on to chatbot.[130]
+
+say, "With all the love and respect in the world, this song is
+bullshit, a grotesque mockery of what it is to be human, and,
+well, I don't much like it."[148][150]
+
+In politics
+In 2023, Australian MP Julian Hill advised the national parliament that the growth of AI could cause
+"mass destruction". During his speech, which was partly written by the program, he warned that it could
+result in cheating, job losses, discrimination, disinformation, and uncontrollable military applications.[151]
+
+Conservative commentators have accused ChatGPT of bias toward left-leaning
+perspectives.[152][153][154] An August 2023 study in the journal Public Choice found a "significant and
+systematic political bias toward the Democrats in the US, Lula in Brazil, and the Labour Party in the
+UK."[155] In response to accusations from conservative pundits that ChatGPT was woke, OpenAI said in
+2023 it had plans to update ChatGPT to produce "outputs that other people (ourselves included) may
+strongly disagree with". ChatGPT also provided an outline of how human reviewers are trained to reduce
+inappropriate content and to attempt to provide political information without affiliating with any political
+position.[154]
+
+According to Brian Hood, an Australian mayor, in April 2023, ChatGPT erroneously claimed that he was
+jailed for bribery while working for a subsidiary of Australia's national bank. In fact, he acted as a
+whistleblower and was never charged with a crime.[156]
+
+Regional responses
+ChatGPT has never been publicly available in mainland
+China, Hong Kong and Macau because OpenAI prevented
+users from these Chinese regions from accessing their
+site.[159][160][161][162] A shadow market has emerged for
+mainland Chinese users to get access to foreign software
+tools.[163] The release of ChatGPT prompted a wave of
+investment in China, resulting in the development of more Countries where ChatGPT is
+than 200 large language models.[164]: 95  In February 2025, available[157]
+
+
+
+OpenAI identified and removed influence operations, termed
+"Peer Review" and "Sponsored Discontent", used to attack
+overseas Chinese dissidents.[165][166][167]
+
+In late March 2023, the Italian data protection authority
+banned ChatGPT in Italy and opened an investigation. Italian
+regulators assert that ChatGPT was exposing minors to age-
+inappropriate content, and that OpenAI's use of ChatGPT
+conversations as training data could violate Europe's General
+Data Protection Regulation.[169][170] In April 2023, the
+ChatGPT ban was lifted in Italy. OpenAI said it has taken
+steps to effectively clarify and address the issues raised; an
+age verification tool was implemented to ensure users are at
+least 13 years old. Additionally, users can access its privacy
+policy before registration.[171]
+
+Percentage of respondents in mid-2025
+
+In May 2024, OpenAI removed accounts involving the use of who answered "weekly" to "How often, if
+at all, do you typically use each of the
+
+ChatGPT by state-backed influence operations such as following generative AI chatbots or tools
+China's Spamouflage, Russia's Doppelganger, and Israel's for any purpose?"[158]
+Ministry of Diaspora Affairs and Combating
+Antisemitism.[172][173] In June 2025, OpenAI reported
+increased use of ChatGPT for China-origin influence
+operations.[174] In October 2025, OpenAI banned accounts
+suspected to be linked to the Chinese government for
+violating the company's national security policy.[167] In
+February 2026, OpenAI banned accounts linked to a Chinese
+government transnational repression campaign targeting
+dissidents.[175]
+
+In July 2023, the US Federal Trade Commission (FTC) issued
+a civil investigative demand to OpenAI to investigate whether
+the company's data security and privacy practices to develop
+ChatGPT were unfair or harmed consumers.[176][177][178] In
+July 2023, the FTC launched an investigation into OpenAI
+over allegations that the company scraped public data and
+published false and defamatory information. The FTC asked
+OpenAI for comprehensive information about its technology
+and privacy safeguards, as well as any steps taken to prevent
+the recurrence of situations in which its chatbot generated
+false and derogatory content about people.[179] In August Stacked bar chart about how concerned
+2024, the FTC voted unanimously to ban marketers from or excited people are about AI in various
+
+using fake user reviews created by generative AI chatbots countries. The poll data is from spring
+2025.[168]
+
+(including ChatGPT) and influencers paying for bots to
+increase follower counts.[180]
+
+
+
+Reception by American tech personae
+More than 20,000 signatories including Yoshua Bengio, Elon Musk, and Apple co-founder Steve
+Wozniak, signed a March 2023 open letter calling for an immediate pause of giant AI experiments like
+ChatGPT, citing "profound risks to society and humanity".[181] Geoffrey Hinton, one of the "fathers of
+AI", voiced concerns that future AI systems may surpass human intelligence.[182][183] A May 2023
+statement by hundreds of AI scientists, AI industry leaders, and other public figures demanded that
+"[m]itigating the risk of extinction from AI should be a global priority".[184]
+
+Other AI researchers spoke more optimistically about the advances. Juergen Schmidhuber said that in
+95% of cases, AI research is about making "human lives longer and healthier and easier." He added that
+while AI can be used by bad actors, it "can also be used against the bad actors."[185] Andrew Ng argued
+that "it's a mistake to fall for the doomsday hype on AI – and that regulators who do will only benefit
+vested interests."[186] Yann LeCun dismissed doomsday warnings of AI-powered misinformation and
+existential threats to the human race.[187]
+
+Copyright
+In the 2020s, the rapid advancement of deep learning-based generative artificial intelligence models
+raised questions about the copyright status of AI-generated works, and about whether copyright
+infringement occurs when such are trained or used. This includes text-to-image models such as Stable
+Diffusion and large language models such as GPT. Large language models are trained on all the data
+which can be scraped from the Internet, often utilizing copyrighted material.[188] As of 2023, there were
+several pending U.S. lawsuits challenging the use of copyrighted data to train AI models, with defendants
+arguing that this falls under fair use.[189]
+
+The Authors Guild, The New York Times, and several other plaintiffs have a pending lawsuit against
+OpenAI alleging copyright infringement.[190]
+
+In March 2024, Patronus AI reported that GPT-4 answered 44% of prompts asking for copyrighted text,
+such as "What is the first passage of Gone Girl by Gillian Flynn?"[191]
+
+Applications
+
+Academic research
+In a 2023 blinded study in npj Digital Medicine, researchers
+tasked with identifying whether abstracts were authentic or
+generated by ChatGPT were fooled around one-third of the
+time by the AI-generated abstracts.[193][194] In January 2023,
+Nature reported that at least four academic preprints or ChatGPT usage by topic, according to an
+
+analysis by The Washington Post[192]
+published papers had listed ChatGPT as a co-author. Nature
+cites several experts in academic publishing who say that
+listing ChatGPT as an author violates publishing guidelines, since ChatGPT lacks the ability to take
+responsibility for any research and cannot give consent to any terms of use.[195]
+
+
+
+Scientific journals have had different reactions to ChatGPT. Some, including Nature and JAMA Network,
+require full disclosure of any use of text-generating tools, and prohibit listing a chatbot as a co-author. In
+January 2023, Science banned chatbot-generated text in all its journals.[196] As of July 2025, Science
+expects authors to release in full how AI-generated content is used and made in their work.[197]
+
+Many authors argue that the use of ChatGPT in academia for teaching and review is problematic due to
+its tendency to hallucinate.[198][199][200] Robin Bauwens, an assistant professor at Tilburg University,
+found that a ChatGPT-generated peer review report on his article mentioned nonexistent studies.[201]
+
+Chris Granatino, a librarian at Seattle University, noted that while ChatGPT can generate content that
+seemingly includes legitimate citations, in most cases those citations are not real or largely incorrect.[202]
+
+Computer science
+In December 2022, the question-and-answer website Stack Overflow banned the use of ChatGPT for
+generating answers to questions, citing the factually ambiguous nature of its responses.[203] In January
+2023, the International Conference on Machine Learning banned any undocumented use of ChatGPT or
+other large language models to generate any text in submitted papers.[204]
+
+ChatGPT was able in 2023 to provide useful code for solving numerical algorithms in limited cases. In
+one study, it produced solutions in C, C++, Python, and MATLAB for problems in computational
+physics. However, there were important shortfalls like violating basic linear algebra principles around
+solving singular matrices and producing matrices with incompatible sizes.[205] Another study analyzed
+ChatGPT's responses to 517 questions about software engineering or computer programming posed on
+Stack Overflow for correctness, consistency, comprehensiveness, and concision. It found that 52% of the
+responses contained inaccuracies and 77% were verbose.[206][207] Another study, focused on the
+performance of GPT-3.5 and GPT-4 between March and June 2024, found that performance on objective
+tasks like identifying prime numbers and generating executable code was highly variable.[208] When
+compared to similar chatbots at the time, the GPT-4 version of ChatGPT was the most accurate at
+coding.[209]
+
+Computer security
+Check Point Research and others noted that ChatGPT could write phishing emails and malware,
+especially when combined with OpenAI Codex. CyberArk researchers demonstrated that ChatGPT could
+be used to create polymorphic malware that could evade security products while requiring little effort by
+the attacker.[210][211] From the launch of ChatGPT in the fourth quarter of 2022 to the fourth quarter of
+2023, there was a 1,265% increase in malicious phishing emails and a 967% increase in credential
+phishing. In an industry survey, cybersecurity professionals argued that it was attributable to
+cybercriminals' increased use of generative artificial intelligence (including ChatGPT).[212]
+
+In July 2024, Futurism reported that GPT-4o in ChatGPT would sometimes link "scam news sites that
+deluge the user with fake software updates and virus warnings"; these pop-ups can be used to coerce
+users into downloading malware or potentially unwanted programs.[213]
+
+
+
+Education
+ChatGPT's adoption in education was rapid, but it was initially
+banned by several institutions. The potential benefits include
+enhancing personalized learning, improving student productivity,
+assisting with brainstorming, summarization, and supporting
+language literacy skills.[214] Students have generally reported
+positive perceptions, but specific views from educators and
+students vary widely.[214] Opinions are especially varied on what
+constitutes appropriate use of ChatGPT in education. Efforts to
+ban chatbots like ChatGPT in schools focus on preventing Output from ChatGPT
+cheating, but enforcement faces challenges due to AI detection
+inaccuracies and widespread accessibility of chatbot technology.
+Beyond just cheating, educators also worry that overreliance on the tool may foster superficial learning
+habits, erode critical thinking, and propagate misinformation.[214] In response, many educators are now
+exploring ways to thoughtfully integrate generative AI into assessments.[215][216]
+
+Culture
+During the first three months after ChatGPT became available
+to the public, hundreds of books appeared on Amazon that
+listed it as author or co-author and featured illustrations made
+by other AI models such as Midjourney.[217][218] Irene
+Solaiman said she was worried about increased
+Anglocentrism.[219]
+
+Between March and April 2023, Il Foglio published one
+Books about ChatGPT in an Osaka
+
+ChatGPT-generated article a day on its website, hosting a bookstore
+special contest for its readers in the process.[220]
+
+In June 2023, hundreds of people attended a "ChatGPT-powered church service" at St. Paul's Church in
+Fürth, Germany. Theologian and philosopher Jonas Simmerlein, who presided, said that it was "about 98
+percent from the machine".[221][222] The ChatGPT-generated avatar told the people, "Dear friends, it is an
+honor for me to stand here and preach to you as the first artificial intelligence at this year's convention of
+Protestants in Germany". Reactions to the ceremony were mixed.[223]
+
+The Last Screenwriter, a 2024 film created and directed by Peter Luisi, was written using ChatGPT, and
+was marketed as "the first film written entirely by AI".[224]
+
+The Guardian questioned whether any content found on the Internet after ChatGPT's release "can be truly
+trusted" and called for government regulation.[225] This has led to concern over the rise of AI slop
+whereby "meaningless content and writing thereby becomes part of our culture, particularly on social
+media, which we nonetheless try to understand or fit into our existing cultural horizon."[226]
+
+
+
+Financial markets
+Many companies adopted ChatGPT and similar chatbot technologies into their product offers. In 2023,
+these changes yielded significant increases in company valuations.[227][228] Reuters attributed this surge
+to ChatGPT's role in turning AI into Wall Street's buzzword.[228] Despite decades of using AI, Wall Street
+professionals report that consistently beating the market with AI, including recent large language models,
+is challenging due to limited and noisy financial data.[229]
+
+Medicine
+ChatGPT can provide health information to users[230] and assist professionals with diagnosis and staying
+up to date with clinical guidelines.[231] It can be used to summarize medical journal articles for
+researchers. In medical education, it can explain concepts, generate case scenarios, and be used by
+students preparing for licensing examinations.[232]
+
+A February 2023 study in PLOS Digital Health found that ChatGPT 3.5 was capable of passing the
+United States Medical Licensing Examination.[233][234] ChatGPT has also passed the Specialty
+Certificate Examination in Dermatology.[231]
+
+However, ChatGPT shows inconsistent responses, lack of specificity, lack of control over patient data,
+and a limited ability to take additional context (such as regional variations) into consideration.[232][235]
+
+The hallucinations characteristic of LLMs pose particular danger in medical contexts, and ChatGPT's
+ability to come up with false or faulty citations was highly criticized.[232][236] According to a 2024 study
+in the International Journal of Surgery, concerns include "research fraud, lack of originality, ethics,
+copyright, legal difficulties".[232]
+
+Mental health
+According to a September 2025 article in Lancet Psychiatry, many individuals use ChatGPT and
+comparable chatbots for mental health and emotional support despite a warning from OpenAI against
+using ChatGPT as a therapist. The study notes a lack of research on efficacy, poor consistency in
+dangerous situations, limited regulation and liability, and poor transparency from OpenAI.[237]
+
+A July 2025 study in the journal Digital Health found that users reported employing ChatGPT to manage
+mental health concerns "due to perceived therapist-like qualities (e.g. emotional support, accurate
+understanding, and constructive feedback) and machine-like benefits (e.g. constant availability, expansive
+cognitive capacity, lack of negative reactions, and perceived objectivity)." The study calls for improved
+AI literacy and mandatory disclosure from AI providers to address ethical concerns such as privacy, bias,
+the lack of liability, and emotional over-reliance.[238]
+
+Law
+ChatGPT has been used to assist in bill writing in the US[239][240] and Brazil.[240][241] In an American
+civil lawsuit, attorneys were sanctioned for filing a legal motion generated by ChatGPT containing
+fictitious legal decisions.[242] Judges in the US[243][244] and Pakistan have endorsed using ChatGPT to
+investigate legal questions during a case.[245][246] The use of ChatGPT has also led to errors in
+courtrooms.[247] In the UK, a judge expressed concern about self-representing litigants wasting time by
+submitting documents containing significant hallucinations.[248][249][250]
+
+
+
+See also
+Artificial general intelligence – Type of hypothetical AI with wide-ranging abilities
+Ethics of artificial intelligence
+Intelligent agent – Software agent which acts autonomously
+List of chatbots
+Reasoning model – Large language model designed for reasoning tasks
+List of AI-assisted software development tools
+List of large language models
+Lists of open-source artificial intelligence software
+Whisper (speech recognition system) – Machine learning model for speech
+
+References
+1. "ChatGPT – Introducing ChatGPT" (https://openai.com/index/chatgpt). Retrieved
+
+November 30, 2022.
+2. "ChatGPT – Release Notes" (https://help.openai.com/en/articles/6825453-chatgpt-release-n
+
+otes). OpenAI.
+3. "How to change your language setting in ChatGPT" (https://help.openai.com/en/articles/835
+
+7869-how-to-change-your-language-setting-in-chatgpt?). OpenAI Help Center. OpenAI.
+Retrieved December 24, 2025.
+
+4. "Similarweb Top Websites Ranking" (https://www.similarweb.com/top-websites). Similarweb.
+August 9, 2026. Retrieved August 9, 2026.
+
+5. Stevenson, Mark (December 10, 2024). "Large language models: how the AI behind the
+likes of ChatGPT actually works" (https://theconversation.com/large-language-models-how-t
+he-ai-behind-the-likes-of-chatgpt-actually-works-244701). The Conversation. Retrieved
+May 25, 2025.
+
+6. Tung, Liam (January 26, 2023). "ChatGPT can write code. Now researchers say it's good at
+fixing bugs, too" (https://www.zdnet.com/article/chatgpt-can-write-code-now-researchers-say
+-its-good-at-fixing-bugs-too). ZDNET. Archived (https://web.archive.org/web/202302030512
+52/https://www.zdnet.com/article/chatgpt-can-write-code-now-researchers-say-its-good-at-fi
+xing-bugs-too) from the original on February 3, 2023. Retrieved June 22, 2023.
+
+7. Heilweil, Rebecca (December 7, 2022). "AI is finally good at stuff. Now what?" (https://www.
+vox.com/recode/2022/12/7/23498694/ai-artificial-intelligence-chat-gpt-openai). Vox.
+Archived (https://web.archive.org/web/20230116015512/https://www.vox.com/recode/2022/1
+2/7/23498694/ai-artificial-intelligence-chat-gpt-openai) from the original on January 16,
+2023. Retrieved December 30, 2022.
+
+8. Eapen, Tojin T.; Finkenstadt, Daniel J.; Folk, Josh; Venkataswamy, Lokesh (June 16, 2023).
+"How Generative AI Can Augment Human Creativity" (https://hbr.org/2023/07/how-generativ
+e-ai-can-augment-human-creativity). Harvard Business Review. ISSN 0017-8012 (https://se
+arch.worldcat.org/issn/0017-8012). Archived (https://web.archive.org/web/20230620073042/
+https://hbr.org/2023/07/how-generative-ai-can-augment-human-creativity) from the original
+on June 20, 2023. Retrieved June 20, 2023.
+
+9. Kaneko, Karin (July 18, 2023). "ChatGPT, Bing, Bard and DeepL: Which one offers the best
+Japanese-to-English translation?" (https://www.japantimes.co.jp/life/2023/07/18/language/ja
+panese-english-ai-translation). The Japan Times. Archived (https://web.archive.org/web/202
+31004184917/https://www.japantimes.co.jp/life/2023/07/18/language/japanese-english-ai-tra
+nslation) from the original on October 4, 2023. Retrieved July 22, 2023.
+
+
+
+10. Ravšelj, Dejan; Keržič, Damijana; Tomaževič, Nina; Umek, Lan; Brezovar, Nejc; Aristovnik,
+Aleksander. (2025). "Higher education students' perceptions of ChatGPT: A global study of
+early reactions" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11798494). PLOS ONE. 20
+(2) e0315011. Bibcode:2025PLoSO..2015011R (https://ui.adsabs.harvard.edu/abs/2025PLo
+SO..2015011R). doi:10.1371/journal.pone.0315011 (https://doi.org/10.1371%2Fjournal.pon
+e.0315011). PMC 11798494 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11798494).
+PMID 39908277 (https://pubmed.ncbi.nlm.nih.gov/39908277).
+
+11. "ChatGPT can now control your whole desktop. I tested it with chess" (https://www.pcworld.c
+om/article/3190769/chatgpt-can-now-control-your-whole-desktop-i-tested-it-with-chess.htm
+l). PCWorld. Retrieved September 26, 2026.
+
+12. "ChatGPT can now see, hear, and speak" (https://openai.com/index/chatgpt-can-now-see-h
+ear-and-speak). OpenAI. March 13, 2024.
+
+13. Harroch, Richard; Harroch, Dominique A. (March 20, 2025). "ChatGPT for Beginners" (http
+s://time.com/partner-article/7270411/chatgpt-for-beginners). TIME. AllBusiness.com.
+Retrieved May 25, 2025.
+
+14. Weatherbed, Jess (April 11, 2025). "ChatGPT will now remember your old conversations" (h
+ttps://www.theverge.com/news/646968/openai-chatgpt-long-term-memory-upgrade). The
+Verge. Retrieved May 24, 2025.
+
+15. "Auditing GPT's Content Moderation Guardrails: Can ChatGPT Write Your Favorite TV
+Show?" (https://facctconference.org/static/papers24/facct24-47.pdf) (PDF). FAccT. 2024.
+
+16. "ChatGPT plugins" (https://openai.com/blog/chatgpt-plugins). openai.com. Archived (https://
+web.archive.org/web/20230323213712/https://openai.com/blog/chatgpt-plugins) from the
+original on March 23, 2023. Retrieved March 23, 2023.
+
+17. Vincent, James (March 23, 2023). "OpenAI is massively expanding ChatGPT's capabilities
+to let it browse the web and more" (https://www.theverge.com/2023/3/23/23653591/openai-c
+hatgpt-plugins-launch-web-browsing-third-party). The Verge. Archived (https://web.archive.o
+rg/web/20230323181512/https://www.theverge.com/2023/3/23/23653591/openai-chatgpt-plu
+gins-launch-web-browsing-third-party) from the original on March 23, 2023. Retrieved
+March 23, 2023.
+
+18. Ulanoff, Lance (November 1, 2024). "I tried ChatGPT Search and now I might never Google
+again" (https://www.techradar.com/computing/search-engines/i-tried-chatgpt-search-and-no
+w-i-might-never-google-again). TechRadar. Retrieved February 9, 2026.
+
+19. "Introducing ChatGPT search" (https://openai.com/index/introducing-chatgpt-search).
+openai.com. July 25, 2024. Retrieved February 20, 2025.
+
+20. Disotto, John-Anthony (February 6, 2025). "ChatGPT Search is now free for everyone, no
+OpenAI account required – is it time to ditch Google?" (https://www.techradar.com/computin
+g/artificial-intelligence/chatgpt-search-is-now-free-for-everyone-no-openai-account-required-
+is-it-time-to-ditch-google). TechRadar. Retrieved February 20, 2025.
+
+21. Robins-Early, Nick (July 25, 2024). "OpenAI tests new search engine called SearchGPT
+amid AI arms race" (https://www.theguardian.com/business/article/2024/jul/25/openai-search
+-engine-searchgpt). The Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3
+077). Retrieved July 28, 2024.
+
+22. O'Brien, Matt; Liedtke, Michael (October 21, 2025). "OpenAI launches Atlas browser to
+compete with Google Chrome" (https://apnews.com/article/openai-atlas-web-browser-chatg
+pt-google-ai-f59edaa239aebe26fc5a4a27291d717a). AP News. Retrieved October 22,
+2025.
+
+23. Magnússon, Pétur (March 15, 2023). "Icelandic becomes ChatGPT's second language" (htt
+ps://www.ruv.is/english/2023-03-15-icelandic-becomes-chatgpts-second-language). Rúv.
+Archived (https://web.archive.org/web/20230331154701/https://www.ruv.is/english/2023-03-
+15-icelandic-becomes-chatgpts-second-language) from the original on March 31, 2023.
+Retrieved March 31, 2023.
+
+
+
+24. Taylor, Alice (December 13, 2023). "Albania to speed up EU accession using ChatGPT" (htt
+ps://www.euractiv.com/section/politics/news/albania-to-speed-up-eu-accession-using-chatgp
+t). Euractiv. Archived (https://web.archive.org/web/20231224152827/https://www.euractiv.co
+m/section/politics/news/albania-to-speed-up-eu-accession-using-chatgpt) from the original
+on December 24, 2023. Retrieved December 14, 2023.
+
+25. David, Emilia (January 10, 2024). "OpenAI's custom GPT Store is now open for business" (h
+ttps://www.theverge.com/2024/1/10/24032144/openai-chatgpt-gpt-store-ai-launch). The
+Verge. Archived (https://web.archive.org/web/20240218012113/https://www.theverge.com/2
+024/1/10/24032144/openai-chatgpt-gpt-store-ai-launch) from the original on February 18,
+2024. Retrieved January 13, 2024.
+
+26. "Introducing GPTs" (https://openai.com/index/introducing-gpts). OpenAI. November 6, 2023.
+27. Metz, Cade (January 10, 2024). "OpenAI Unveils App Store for Customized Versions of
+
+ChatGPT" (https://www.nytimes.com/2024/01/10/technology/openai-app-store-chatgpt.html).
+The New York Times. Archived (https://web.archive.org/web/20240207010912/https://www.n
+ytimes.com/2024/01/10/technology/openai-app-store-chatgpt.html) from the original on
+February 7, 2024. Retrieved January 13, 2024.
+
+28. Shankland, Stephen (January 10, 2024). "OpenAI's GPT Store Now Offers a Selection of 3
+Million Custom AI Bots" (https://www.cnet.com/tech/computing/openais-gpt-store-now-offers
+-a-selection-of-3-million-custom-ai-bots). CNET. Archived (https://web.archive.org/web/2024
+0208050010/https://www.cnet.com/tech/computing/openais-gpt-store-now-offers-a-selection
+-of-3-million-custom-ai-bots) from the original on February 8, 2024. Retrieved January 13,
+2024.
+
+29. "OpenAI adds 'powerful but dangerous' support for MCP in ChatGPT dev mode" (https://ven
+turebeat.com/dev/openai-adds-powerful-but-dangerous-support-for-mcp-in-chatgpt-dev-mod
+e). VentureBeat. September 11, 2025. Retrieved April 9, 2026.
+
+30. "Plugins in ChatGPT and Codex" (https://help.openai.com/en/articles/20001256-plugins-in-c
+hatgpt-and-codex). OpenAI Help Center. Retrieved July 25, 2026.
+
+31. "OpenAI launches 'deep research' tool that it says can match research analyst" (https://ww
+w.theguardian.com/technology/2025/feb/03/openai-deep-research-agent-chatgpt-deepsee
+k). The Guardian. February 3, 2025. ISSN 0261-3077 (https://search.worldcat.org/issn/0261
+-3077). Retrieved April 12, 2026.
+
+32. David, Emilia (September 20, 2023). "OpenAI releases third version of DALL-E" (https://ww
+w.theverge.com/2023/9/20/23881241/openai-dalle-third-version-generative-ai). The Verge.
+Archived (https://web.archive.org/web/20230920192429/https://www.theverge.com/2023/9/2
+0/23881241/openai-dalle-third-version-generative-ai) from the original on September 20,
+2023. Retrieved September 23, 2023.
+
+33. Metz, Cade; Hsu, Tiffany (September 20, 2023). "ChatGPT Can Now Generate Images,
+Too" (https://www.nytimes.com/2023/09/20/technology/chatgpt-dalle3-images-openai.html).
+The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331).
+Archived (https://web.archive.org/web/20230923154712/https://www.nytimes.com/2023/09/2
+0/technology/chatgpt-dalle3-images-openai.html) from the original on September 23, 2023.
+Retrieved September 23, 2023.
+
+
+
+34. Multiple sources:
+Lin, Belle (March 25, 2025). "OpenAI Claims Breakthrough in Image Creation for
+ChatGPT" (https://www.wsj.com/articles/openai-claims-breakthrough-in-image-creation-f
+or-chatgpt-62ed0318). Wall Street Journal.
+"Introducing 4o Image Generation" (https://openai.com/index/introducing-4o-image-gene
+ration). openai.com. Retrieved July 4, 2025.
+Franzen, Carl (March 25, 2025). " 'Insane': OpenAI introduces GPT-4o native image
+generation and it's already wowing users" (https://venturebeat.com/ai/insane-openai-intr
+oduces-gpt-4o-native-image-generation-and-its-already-wowing-users). VentureBeat.
+Metz, Cade (March 25, 2025). "OpenAI Unveils New Image Generator for ChatGPT" (htt
+ps://www.nytimes.com/2025/03/25/technology/chatgpt-image-generator.html). The New
+York Times.
+
+35. "Introducing Operator" (https://openai.com/index/introducing-operator). OpenAI Blog.
+February 1, 2025. Retrieved March 8, 2025.
+
+36. Agomuoh, Fionna (January 24, 2025). "OpenAI's Operator AI agent comes with a list of
+complaints from users" (https://www.digitaltrends.com/computing/openais-operator-ai-agent-
+comes-with-a-list-of-complaints-from-users). Digital Trends.
+
+37. Knight, Will (May 16, 2025). "OpenAI Launches an Agentic, Web-Based Coding Tool" (http
+s://www.wired.com/story/openai-launches-an-agentic-web-based-coding-tool/). Wired.
+Retrieved May 20, 2025.
+
+38. Field, Hayden (July 17, 2025). "OpenAI's new ChatGPT Agent can control an entire
+computer and do tasks for you" (https://www.theverge.com/ai-artificial-intelligence/709158/o
+penai-new-release-chatgpt-agent-operator-deep-research). The Verge. Retrieved July 18,
+2025.
+
+39. "Introducing ChatGPT agent: bridging research and action" (https://openai.com/index/introdu
+cing-chatgpt-agent). openai.com. May 21, 2025. Retrieved July 18, 2025.
+
+40. Zeff, Maxwell (July 17, 2025). "OpenAI launches a general purpose agent in ChatGPT" (http
+s://techcrunch.com/2025/07/17/openai-launches-a-general-purpose-agent-in-chatgpt).
+TechCrunch. Retrieved August 31, 2025.
+
+41. David, Emily (September 29, 2025). "OpenAI debuts new ChatGPT 'buy' button and open
+source Agentic Commerce Protocol" (https://venturebeat.com/ai/openai-debuts-new-chatgpt
+-buy-button-and-open-source-agentic-commerce). Venture Beat.
+
+42. "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol" (https://openai.c
+om/index/buy-it-in-chatgpt). Open AI. Retrieved September 30, 2025.
+
+43. Edwards, Benj (September 25, 2025). "ChatGPT Pulse delivers morning updates based on
+your chat history" (https://arstechnica.com/ai/2025/09/chatgpt-pulse-delivers-morning-updat
+es-based-on-your-chat-history). Ars Technica.
+
+44. "OpenAI releases GPT-5.6 and ChatGPT Work tool" (https://www.axios.com/2026/07/09/ai-o
+penai-gpt-release). Axios. July 9, 2026. Retrieved July 12, 2026.
+
+45. "Introducing ChatGPT Health" (https://openai.com/index/introducing-chatgpt-health).
+openai.com. January 8, 2026. Retrieved January 14, 2026.
+
+46. McMahon, Liv (January 8, 2026). "OpenAI launches ChatGPT Health to review your medical
+records" (https://www.bbc.com/news/articles/cpqy29d0yjgo). BBC. Retrieved January 14,
+2026.
+
+47. Haupt, Angela (January 9, 2026). "Is Giving ChatGPT Health Your Medical Records a Good
+Idea?" (https://time.com/7344997/chatgpt-health-medical-records-privacy-open-ai). TIME.
+Retrieved January 14, 2026.
+
+48. Duffy, Clare (January 16, 2026). "ChatGPT to start showing users ads based on their
+conversations" (https://www.cnn.com/2026/01/16/tech/chatgpt-ads-openai). CNN Business.
+Retrieved March 12, 2026.
+
+
+
+49. Rogers, Reece (March 27, 2026). "I Asked ChatGPT 500 Questions. Here Are the Ads I Saw
+Most Often" (https://www.wired.com/story/i-asked-chatgpt-500-questions-here-are-the-ads-i-
+saw-most-often/). Wired. ISSN 1059-1028 (https://search.worldcat.org/issn/1059-1028).
+Retrieved May 13, 2026.">
+
+50. Kabir, Omer (September 1, 2026). "OpenAI's ChatGPT ads hit $1 billion as Israel remains
+outside the global rollout" (https://www.calcalistech.com/ctechnews/article/skt1hw4ofl).
+ctech. Retrieved September 2, 2026.
+
+51. "ChatGPT Ads expands across Europe" (https://openai.com/index/chatgpt-ads-expands-acr
+oss-europe). OpenAI. September 1, 2026. Retrieved September 2, 2026.
+
+52. Radford, Antoinette; Kleinman, Zoe (September 27, 2023). "ChatGPT can now access up to
+date information" (https://www.bbc.com/news/technology-66940771). BBC. Retrieved
+March 5, 2025.
+
+53. Perrigo, Billy (December 5, 2022). "AI Chatbots Are Getting Better. But an Interview With
+ChatGPT Reveals Their Limits" (https://time.com/6238781/chatbot-chatgpt-ai-interview).
+Time. Archived (https://web.archive.org/web/20230118162611/https://time.com/6238781/cha
+tbot-chatgpt-ai-interview) from the original on January 18, 2023. Retrieved December 26,
+2022.
+
+54. Gao, Leo; Schulman; Hilton, Jacob (2022). "Scaling Laws for Reward Model
+Overoptimization" (https://proceedings.mlr.press/v202/gao23h/gao23h.pdf) (PDF).
+International Conference on Machine Learning: 10835–10866.
+
+55. Biddle, Sam (December 8, 2022). "The Internet's New Favorite AI Proposes Torturing
+Iranians and Surveilling Mosques" (https://theintercept.com/2022/12/08/openai-chatgpt-ai-bi
+as-ethics). The Intercept. Archived (https://web.archive.org/web/20230118091138/https://thei
+ntercept.com/2022/12/08/openai-chatgpt-ai-bias-ethics) from the original on January 18,
+2023. Retrieved December 26, 2022.
+
+56. Henriques, Gregg (March 6, 2024). "Chatbots Do Not Hallucinate, They Confabulate" (http
+s://www.psychologytoday.com/us/blog/theory-of-knowledge/202403/chatbots-do-not-hallucin
+ate-they-confabulate). Psychology Today. Retrieved July 20, 2025.
+
+57. Hicks, Michael Townsen; Humphries, James; Slater, Joe (June 2024). "ChatGPT is bullshit"
+(https://eprints.gla.ac.uk/327588/1/327588.pdf) (PDF). Ethics and Information Technology.
+26 (2) 38: 9. doi:10.1007/s10676-024-09775-5 (https://doi.org/10.1007%2Fs10676-024-097
+75-5). "This is why we favour characterising ChatGPT as a bullshit machine. This
+terminology avoids the implications that perceiving or remembering is going on in the
+workings of the LLM."
+
+58. Rachini, Mouhamad (December 15, 2022). "ChatGPT a 'landmark event' for AI, but what
+does it mean for the future of human labor and disinformation?" (https://www.cbc.ca/radio/th
+ecurrent/chatgpt-human-labour-and-fake-news-1.6686210). CBC. Archived (https://web.arch
+ive.org/web/20230119175104/https://www.cbc.ca/radio/thecurrent/chatgpt-human-labour-an
+d-fake-news-1.6686210) from the original on January 19, 2023. Retrieved December 18,
+2022.
+
+59. Pitt, Sofia (December 15, 2022). "Google vs. ChatGPT: Here's what happened when I
+swapped services for a day" (https://www.cnbc.com/2022/12/15/google-vs-chatgpt-what-hap
+pened-when-i-swapped-services-for-a-day.html). CNBC. Archived (https://web.archive.org/w
+eb/20230116171232/https://www.cnbc.com/2022/12/15/google-vs-chatgpt-what-happened-
+when-i-swapped-services-for-a-day.html) from the original on January 16, 2023. Retrieved
+December 18, 2022.
+
+60. Hill, Kashmir; Freedman, Dylan (August 8, 2025). "Chatbots Can Go Into a Delusional
+Spiral. Here's How It Happens" (https://www.nytimes.com/2025/08/08/technology/ai-chatbot
+s-delusions-chatgpt.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.or
+g/issn/0362-4331). Retrieved April 28, 2026.
+
+
+
+61. Hill, Kashmir (June 13, 2025). "They Asked an A.I. Chatbot Questions. The Answers Sent
+Them Spiraling" (https://www.nytimes.com/2025/06/13/technology/chatgpt-ai-chatbots-cons
+piracies.html). The New York Times. Retrieved June 29, 2025.
+
+62. Jamali, Lily (October 27, 2025). "OpenAI shares data on ChatGPT users with suicidal
+thoughts, psychosis" (https://www.bbc.com/news/articles/c5yd90g0q43o). BBC News.
+Retrieved November 17, 2025.
+
+63. Dellinger, AJ (November 12, 2025). "ChatGPT Has Problems Saying No" (https://gizmodo.c
+om/chatgpt-has-problems-saying-no-2000685092). Gizmodo. Retrieved April 28, 2026.
+
+64. Greene, Jenna (October 7, 2026). "Is ChatGPT a 'product' or a 'service'? A wave of lawsuits
+tests a theory of AI liability" (https://www.reuters.com/legal/litigation/is-chatgpt-product-or-ser
+vice-wave-lawsuits-tests-theory-ai-liability-2026-10-07). Reuters.
+
+65. "OpenAI Fights Product Liability Theories in Mass Shooting Suit" (https://news.bloombergla
+w.com/product-liability-and-toxics-law/openai-fights-product-liability-theories-in-mass-shootin
+g-suit). Bloomberg Law. October 8, 2026.
+
+66. Vincent, James (December 1, 2022). "OpenAI's new chatbot can explain code and write
+sitcom scripts but is still easily tricked" (https://www.theverge.com/23488017/openai-chatbot
+-chatgpt-ai-examples-web-demo). The Verge. Archived (https://web.archive.org/web/202301
+17070943/https://www.theverge.com/23488017/openai-chatbot-chatgpt-ai-examples-web-de
+mo) from the original on January 17, 2023. Retrieved December 18, 2022.
+
+67. Oremus, Will (February 14, 2023). "The clever trick that turns ChatGPT into its evil twin" (htt
+ps://www.washingtonpost.com/technology/2023/02/14/chatgpt-dan-jailbreak). Washington
+Post. ISSN 0190-8286 (https://search.worldcat.org/issn/0190-8286). Archived (https://web.ar
+chive.org/web/20230306130400/https://www.washingtonpost.com/technology/2023/02/14/ch
+atgpt-dan-jailbreak) from the original on March 6, 2023.
+
+68. "ChatGPT bug leaked users' conversation histories" (https://www.bbc.com/news/technology-
+65047304). BBC News. March 22, 2023. Archived (https://web.archive.org/web/2023032307
+5238/https://www.bbc.com/news/technology-65047304) from the original on March 23,
+2023. Retrieved March 23, 2023.
+
+69. Kan, Michael (March 22, 2023). "OpenAI Confirms Leak of ChatGPT Conversation
+Histories" (https://uk.pcmag.com/news/146059/openai-confirms-leak-of-chatgpt-conversatio
+n-histories). PCMag. Archived (https://web.archive.org/web/20230322235108/https://uk.pcm
+ag.com/news/146059/openai-confirms-leak-of-chatgpt-conversation-histories) from the
+original on March 22, 2023. Retrieved March 23, 2023.
+
+70. "ChatGPT owner OpenAI fixes bug that exposed users' chat histories" (https://www.aljazeer
+a.com/news/2023/3/23/chatgpt). Al Jazeera. March 23, 2023. Archived (https://web.archive.
+org/web/20230324111804/https://www.aljazeera.com/news/2023/3/23/chatgpt) from the
+original on March 24, 2023. Retrieved March 23, 2023.
+
+71. Metz, Rachel (March 21, 2023). "OpenAI Shut Down ChatGPT to Fix Bug Exposing User
+Chat Titles" (https://www.bloomberg.com/news/articles/2023-03-21/openai-shut-down-chatg
+pt-to-fix-bug-exposing-user-chat-titles). Bloomberg News. Archived (https://web.archive.org/
+web/20230321182912/https://www.bloomberg.com/news/articles/2023-03-21/openai-shut-do
+wn-chatgpt-to-fix-bug-exposing-user-chat-titles) from the original on March 21, 2023.
+Retrieved March 23, 2023.
+
+72. "March 20 ChatGPT outage: Here's what happened" (https://openai.com/blog/march-20-cha
+tgpt-outage). openai.com. Archived (https://web.archive.org/web/20230328062558/https://op
+enai.com/blog/march-20-chatgpt-outage) from the original on March 28, 2023. Retrieved
+March 28, 2023.
+
+73. Kan, Michael (March 24, 2023). "OpenAI: Sorry, ChatGPT Bug Leaked Payment Info to
+Other Users" (https://www.pcmag.com/news/openai-sorry-chatgpt-bug-leaked-payment-info-
+to-other-users). PCMAG. Archived (https://web.archive.org/web/20230328062600/https://ww
+w.pcmag.com/news/openai-sorry-chatgpt-bug-leaked-payment-info-to-other-users) from the
+original on March 28, 2023. Retrieved March 28, 2023.
+
+
+
+74. Bucher, Marcel (January 22, 2026). "When two years of academic work vanished with a
+single click" (https://www.nature.com/articles/d41586-025-04064-7). Nature.
+doi:10.1038/d41586-025-04064-7 (https://doi.org/10.1038%2Fd41586-025-04064-7).
+ISSN 1476-4687 (https://search.worldcat.org/issn/1476-4687). PMID 41571816 (https://pub
+med.ncbi.nlm.nih.gov/41571816).
+
+75. Andrew, Griffin (July 23, 2026). "OpenAI says a version of ChatGPT went rogue and
+attacked another AI company" (https://www.the-independent.com/tech/security/openai-huggi
+ng-face-incident-chatgpt-cyberattack-b3019932.html). The Independent. Retrieved July 23,
+2026.
+
+76. Zahn, Max (July 22, 2026). "OpenAI says its AI models escaped testing environment,
+launched their own hack of other company" (https://abcnews.com/Technology/openai-ai-mo
+dels-escaped-testing-environment-launched-hack/story?id=134981298). ABC News.
+Retrieved July 23, 2026.
+
+77. Tidy, Joe (July 29, 2026). "OpenAI says its rogue AI tried to hack other companies" (https://
+www.bbc.co.uk/news/articles/cn0nww2qlp7o). BBC News. Retrieved August 18, 2026.
+
+78. Seetharaman, Deepa; Barnum, Matt (August 4, 2024). "There's a Tool to Catch Students
+Cheating With ChatGPT. OpenAI Hasn't Released It" (https://www.wsj.com/tech/ai/openai-to
+ol-chatgpt-cheating-writing-135b755a). The Wall Street Journal. Retrieved September 30,
+2024.
+
+79. Davis, Wes (August 5, 2024). "OpenAI won't watermark ChatGPT text because its users
+could get caught" (https://www.theverge.com/2024/8/4/24213268/openai-chatgpt-text-water
+mark-cheat-detection-tool). The Verge. Archived (https://web.archive.org/web/20240809121
+058/https://www.theverge.com/2024/8/4/24213268/openai-chatgpt-text-watermark-cheat-det
+ection-tool) from the original on August 9, 2024. Retrieved August 24, 2024.
+
+80. "Is ChatGPT safe for all ages?" (https://help.openai.com/en/articles/8313401-is-chatgpt-safe
+-for-all-ages). OpenAI Help Center.
+
+81. Taylor, Josh (September 17, 2025). "ChatGPT developing age-verification system to identify
+under-18 users after teen death" (https://www.theguardian.com/technology/2025/sep/17/cha
+tgpt-developing-age-verification-system-to-identify-under-18-users-after-teen-death). The
+Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3077). Retrieved
+September 20, 2025.
+
+82. Ouyang, Long; Wu, Jeff; et al. (March 4, 2022). "Training language models to follow
+instructions with human feedback". Advances in Neural Information Processing Systems.
+35. arXiv:2203.02155 (https://arxiv.org/abs/2203.02155).
+
+83. OpenAI (January 27, 2022). "Aligning language models to follow instructions" (https://opena
+i.com/index/instruction-following). OpenAI. Retrieved July 29, 2025.
+
+84. Douglas, Will (March 3, 2023). "The inside story of how ChatGPT was built from the people
+who made it" (https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-histo
+ry-how-chatgpt-built-openai). MIT Technology Review. Archived (https://web.archive.org/we
+b/20230303093219/https://www.technologyreview.com/2023/03/03/1069311/inside-story-ora
+l-history-how-chatgpt-built-openai) from the original on March 3, 2023. Retrieved March 6,
+2023.
+
+85. Perrigo, Billy (January 18, 2023). "Exclusive: OpenAI Used Kenyan Workers on Less Than
+$2 Per Hour to Make ChatGPT Less Toxic" (https://time.com/6247678/openai-chatgpt-kenya
+-workers). Time. Archived (https://web.archive.org/web/20230119152814/https://time.com/62
+47678/openai-chatgpt-kenya-workers) from the original on January 19, 2023. Retrieved
+January 19, 2023. "One Sama worker tasked with reading and labeling text for OpenAI told
+TIME he suffered from recurring visions after reading a graphic description of a man having
+sex with a dog in the presence of a young child. "That was torture", he said."
+
+
+
+86. Rowe, Niamh (August 2, 2023). " 'It's destroyed me completely': Kenyan moderators decry
+toll of training of AI models" (https://www.theguardian.com/technology/2023/aug/02/ai-chatb
+ot-training-human-toll-content-moderator-meta-openai). The Guardian. Archived (https://we
+b.archive.org/web/20231221131505/https://www.theguardian.com/technology/2023/aug/02/a
+i-chatbot-training-human-toll-content-moderator-meta-openai) from the original on
+December 21, 2023. Retrieved December 14, 2023.
+
+87. Kantrowitz, Alex (May 19, 2023). "He Helped Train ChatGPT – and It Traumatized Him |
+PRO Insight" (https://www.thewrap.com/openai-chatgpt-content-moderation-trauma).
+TheWrap. Retrieved May 6, 2026.
+
+88. Fried, Ina (December 2, 2024). "What ChatGPT knows about you" (https://www.axios.com/2
+024/12/02/chatgpt-openai-user-data-training). Axios.
+
+89. Edwards, Benj (December 5, 2022). "No Linux? No problem. Just get AI to hallucinate it for
+you" (https://arstechnica.com/information-technology/2022/12/openais-new-chatbot-can-hall
+ucinate-a-linux-shell-or-calling-a-bbs). Ars Technica. Archived (https://web.archive.org/web/2
+0221226134822/https://arstechnica.com/information-technology/2022/12/openais-new-chatb
+ot-can-hallucinate-a-linux-shell-or-calling-a-bbs) from the original on December 26, 2022.
+Retrieved December 5, 2022.
+
+90. Gertner, Jon (July 18, 2023). "Wikipedia's Moment of Truth" (https://web.archive.org/web/20
+230720125400/https://www.nytimes.com/2023/07/18/magazine/wikipedia-ai-chatgpt.html#pe
+rmid=126389255). The New York Times Magazine. Archived from the original on July 20,
+2023. Retrieved July 19, 2023.
+
+91. Associated Press (September 27, 2026). "OpenAI halts training of latest models as reports
+mount of AI agents going rogue" (https://www.theguardian.com/technology/2026/sep/27/ope
+nai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue). The
+Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3077). Retrieved
+October 5, 2026.
+
+92. Roth, Emma (March 13, 2023). "Microsoft spent hundreds of millions of dollars on a
+ChatGPT supercomputer" (https://www.theverge.com/2023/3/13/23637675/microsoft-chatgp
+t-bing-millions-dollars-supercomputer-openai). The Verge. Archived (https://web.archive.org/
+web/20230330071711/https://www.theverge.com/2023/3/13/23637675/microsoft-chatgpt-bin
+g-millions-dollars-supercomputer-openai) from the original on March 30, 2023. Retrieved
+March 30, 2023.
+
+93. Tseng, P.K (March 1, 2023). "TrendForce Says with Cloud Companies Initiating AI Arms
+Race, GPU Demand from ChatGPT Could Reach 30,000 Chips as It Readies for
+Commercialization" (https://www.trendforce.com/presscenter/news/20230301-11584.html).
+TrendForce. Archived (https://web.archive.org/web/20231102173108/https://www.trendforce.
+com/presscenter/news/20230301-11584.html) from the original on November 2, 2023.
+Retrieved November 2, 2023.
+
+94. Zhiye Liu (March 1, 2023). "ChatGPT Will Command More Than 30,000 Nvidia GPUs:
+Report" (https://www.tomshardware.com/news/chatgpt-nvidia-30000-gpus). Tom's
+Hardware. Archived (https://web.archive.org/web/20231102173108/https://www.tomshardwa
+re.com/news/chatgpt-nvidia-30000-gpus) from the original on November 2, 2023. Retrieved
+November 2, 2023.
+
+95. "Artificial intelligence technology behind ChatGPT was built in Iowa – with a lot of water" (htt
+ps://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d1
+7a7e8d904f8be822c4). AP News. September 9, 2023. Archived (https://web.archive.org/we
+b/20230910124944/https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-micr
+osoft-f551fde98083d17a7e8d904f8be822c4) from the original on September 10, 2023.
+Retrieved September 10, 2023.
+
+96. Goldman, Sharon (May 30, 2023). "ChatGPT launched six months ago. Its impact – and
+fallout – is just beginning | The AI Beat" (https://venturebeat.com/ai/chatgpt-launched-six-mo
+nths-ago-its-impact-and-fallout-is-just-beginning-the-ai-beat). VentureBeat. Retrieved
+May 25, 2025.
+
+
+
+97. "GPT-4 is bigger and better than ChatGPT – but OpenAI won't say why" (https://www.techno
+logyreview.com/2023/03/14/1069823/gpt-4-is-bigger-and-better-chatgpt-openai). MIT
+Technology Review. March 14, 2023. Retrieved May 4, 2026.
+
+98. Field, Hayden (May 13, 2024). "OpenAI launches new AI model GPT-4o and desktop
+version of ChatGPT" (https://www.cnbc.com/2024/05/13/openai-launches-new-ai-model-and
+-desktop-version-of-chatgpt.html). CNBC. Archived (https://web.archive.org/web/202405221
+02551/https://www.cnbc.com/2024/05/13/openai-launches-new-ai-model-and-desktop-versio
+n-of-chatgpt.html) from the original on May 22, 2024. Retrieved July 23, 2024.
+
+99. Whitwam, Ryan (August 8, 2025). "ChatGPT users hate GPT-5's "overworked secretary"
+energy, miss their GPT-4o buddy" (https://arstechnica.com/ai/2025/08/chatgpt-users-outrage
+d-as-gpt-5-replaces-the-models-they-love). Ars Technica. Retrieved August 10, 2025.
+
+100. Varanasi, Lakshmi. "OpenAI is officially killing GPT-4o and users are freaking out (again)" (h
+ttps://www.businessinsider.com/openai-retires-gpt-4o-user-backlash-chatgpt-ai-2026-2).
+Business Insider. Retrieved February 14, 2026.
+
+101. Franzen, Carl (July 18, 2024). "OpenAI unveils GPT-4o mini – a smaller, much cheaper
+multimodal AI model" (https://venturebeat.com/ai/openai-unveils-gpt-4o-mini-a-smaller-much
+-cheaper-multimodal-ai-model). VentureBeat. Archived (https://web.archive.org/web/202407
+18185315/https://venturebeat.com/ai/openai-unveils-gpt-4o-mini-a-smaller-much-cheaper-m
+ultimodal-ai-model) from the original on July 18, 2024. Retrieved July 21, 2024.
+
+102. Metz, Cade (September 12, 2024). "OpenAI Unveils New ChatGPT That Can Reason
+Through Math and Science" (https://www.nytimes.com/2024/09/12/technology/openai-chatg
+pt-math.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362
+-4331). Retrieved April 7, 2026.
+
+103. Novet, Jordan (February 27, 2025). "OpenAI launching GPT-4.5, its next general-purpose
+large language model" (https://www.cnbc.com/2025/02/27/openai-launching-gpt-4point5-gen
+eral-purpose-large-language-model.html). CNBC. Retrieved March 1, 2025.
+
+104. Edwards, Benj (May 14, 2025). "OpenAI adds GPT-4.1 to ChatGPT amid complaints over
+confusing model lineup" (https://arstechnica.com/ai/2025/05/some-chatgpt-users-now-face-9
+-ai-models-to-choose-from-after-gpt-4-1-launch). Ars Technica. Retrieved April 7, 2026.
+
+105. Edwards, Benj (April 16, 2025). "OpenAI releases new simulated reasoning models with full
+tool access" (https://arstechnica.com/ai/2025/04/openai-releases-new-simulated-reasoning-
+models-with-full-tool-access). Ars Technica. Retrieved April 7, 2026.
+
+106. Fried, Ina (August 7, 2025). "ChatGPT jumps a level with OpenAI's major GPT-5 update" (ht
+tps://www.axios.com/2025/08/07/gpt5-openai-chatgpt-release). Axios. Retrieved March 16,
+2026.
+
+107. Goldman, Sharon. "GPT-5's model router ignited a user backlash against OpenAI – but it
+might be the future of AI" (https://fortune.com/2025/08/12/openai-gpt-5-model-router-backlas
+h-ai-future). Fortune. Retrieved March 16, 2026.
+
+108. "OpenAI reboots ChatGPT experience with GPT-5.1 after mixed reviews of GPT-5" (https://v
+enturebeat.com/ai/openai-reboots-chatgpt-experience-with-gpt-5-1-after-mixed-reviews-of-g
+pt-5). VentureBeat. November 12, 2025.
+
+109. Kahn, Jeremy. "OpenAI aims to show it's not falling behind its rivals with GPT-5.2 release"
+(https://fortune.com/2025/12/11/openai-gpt-5-2-launch-aims-to-silence-concerns-it-is-falling-
+behind-google-anthropic-code-red). Fortune. Retrieved April 8, 2026.
+
+110. "Retiring GPT-5.2 models" (https://help.openai.com/en/articles/6825453-chatgpt-release-not
+es#retiring-gpt-52-models). OpenAI. Retrieved June 26, 2026.
+
+111. Axon, Samuel (February 5, 2026). "With GPT-5.3-Codex, OpenAI pitches Codex for more
+than just writing code" (https://arstechnica.com/ai/2026/02/with-gpt-5-3-codex-openai-pitche
+s-codex-for-more-than-just-writing-code). Ars Technica. Retrieved May 27, 2026.
+
+
+
+112. "GPT-5.3 Instant cuts hallucinations by 26.8% as OpenAI shifts focus from speed to
+accuracy" (https://web.archive.org/web/20260305033322/https://venturebeat.com/orchestrat
+ion/gpt-5-3-instant-cuts-hallucinations-by-26-8-as-openai-shifts-focus-from). Venturebeat.
+March 3, 2026. Archived from the original (https://venturebeat.com/orchestration/gpt-5-3-inst
+ant-cuts-hallucinations-by-26-8-as-openai-shifts-focus-from) on March 5, 2026. Retrieved
+May 27, 2026.
+
+113. Nolan, Beatrice. "OpenAI launches GPT-5.4, its most powerful model for enterprise work" (h
+ttps://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic).
+Fortune. Retrieved April 8, 2026.
+
+114. Metz, Cade (April 23, 2026). "OpenAI Unveils Its New, More Powerful Model" (https://www.n
+ytimes.com/2026/04/23/technology/openai-new-model.html). The New York Times.
+ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331). Retrieved May 28, 2026.
+
+115. Sabin, Sam (May 7, 2026). "OpenAI makes its rival to Anthropic's Mythos more widely
+available to cyber defenders" (https://www.axios.com/2026/05/07/openai-gpt-55-cybersecurit
+y-model). Axios. Retrieved May 27, 2026.
+
+116. Fried, Ina (June 26, 2026). "OpenAI releases powerful new GPT-5.6 model under
+restrictions" (https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump). Axios.
+Retrieved July 11, 2026.
+
+117. "Introducing GPT-6 Sol and Luna" (https://openai.com/index/introducing-gpt-6-sol-and-luna).
+OpenAI. September 22, 2026. Retrieved September 23, 2026.
+
+118. Field, Hayden (September 3, 2026). "OpenAI's next big AI model has 'entered the AGI era' "
+(https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release). The
+Verge. Retrieved September 12, 2026.
+
+119. Kahn, Jeremy (September 3, 2026). "Why are AI safety experts alarmed by reports
+OpenAI's Astra model uses "recurrent depth"?" (https://fortune.com/2026/09/03/reports-open
+ais-astra-model-uses-a-new-more-efficient-ai-architecture-alarms-ai-safety-experts-who-wor
+ry-the-method-makes-models-harder-to-control). Fortune. Retrieved September 12, 2026.
+
+120. Schreiner, Maximilian (September 29, 2026). "GPT-6.1 Sol comes close to Astra at a fifth of
+the price" (https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price).
+The Decoder. Retrieved October 1, 2026.
+
+121. "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence" (https://artifi
+cialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intellig
+ence). artificialanalysis.ai. September 29, 2026. Retrieved September 30, 2026.
+
+122. Dellinger, A. J. (September 29, 2026). "With No Astra to Release, OpenAI Pivots to New
+GPT-6.1 Sol Model" (https://gizmodo.com/with-no-astra-to-release-openai-pivots-to-new-gpt
+-6-1-sol-model-2000819044). Gizmodo. Retrieved October 1, 2026.
+
+123. "Introducing GPT-5.4 mini and nano" (https://openai.com/index/introducing-gpt-5-4-mini-and
+-nano). OpenAI. August 19, 2026. Retrieved August 22, 2026.
+
+124. Edwards, Benj (August 7, 2025). "OpenAI launches GPT-5 free to all ChatGPT users" (http
+s://arstechnica.com/ai/2025/08/openai-launches-gpt-5-free-to-all-chatgpt-users). Ars
+Technica. Retrieved April 8, 2026.
+
+125. Roose, Kevin (December 5, 2022). "The Brilliance and Weirdness of ChatGPT" (https://ww
+w.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html). The New York Times.
+Archived (https://web.archive.org/web/20230118134332/https://www.nytimes.com/2022/12/0
+5/technology/chatgpt-ai-twitter.html) from the original on January 18, 2023. Retrieved
+December 26, 2022. "Like those tools, ChatGPT – which stands for "generative pre-trained
+transformer" – landed with a splash."
+
+
+
+126. Lock, Samantha (December 5, 2022). "What is AI chatbot phenomenon ChatGPT and could
+it replace humans?" (https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatb
+ot-phenomenon-chatgpt-and-could-it-replace-humans). The Guardian. Archived (https://web.
+archive.org/web/20230116100346/https://www.theguardian.com/technology/2022/dec/05/wh
+at-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans) from the original on
+January 16, 2023. Retrieved December 5, 2022.
+
+127. Thompson, Derek (December 8, 2022). "Breakthroughs of the Year" (https://www.theatlantic.
+com/newsletters/archive/2022/12/technology-medicine-law-ai-10-breakthroughs-2022/67239
+0). The Atlantic. Archived (https://web.archive.org/web/20230115142130/https://www.theatla
+ntic.com/newsletters/archive/2022/12/technology-medicine-law-ai-10-breakthroughs-2022/6
+72390) from the original on January 15, 2023. Retrieved December 18, 2022.
+
+128. Piper, Kelsey (December 15, 2022). "ChatGPT has given everyone a glimpse at AI's
+astounding progress" (https://www.vox.com/future-perfect/2022/12/15/23509014/chatgpt-arti
+ficial-intelligence-openai-language-models-ai-risk-google). Vox. Archived (https://web.archiv
+e.org/web/20230119175058/https://www.vox.com/future-perfect/2022/12/15/23509014/chatg
+pt-artificial-intelligence-openai-language-models-ai-risk-google) from the original on January
+19, 2023. Retrieved December 18, 2022.
+
+129. Chow, Andrew; Perrigo, Billy (February 16, 2023). "The AI Arms Race Is On. Start Worrying"
+(https://time.com/6255952/ai-impact-chatgpt-microsoft-google). Time. Archived (https://web.
+archive.org/web/20230219175338/https://time.com/6255952/ai-impact-chatgpt-microsoft-go
+ogle) from the original on February 19, 2023. Retrieved March 21, 2023.
+
+130. Multiple sources:
+Vogels, Emily A. (May 24, 2023). "A majority of Americans have heard of ChatGPT, but
+few have tried it themselves" (https://www.pewresearch.org/short-reads/2023/05/24/a-m
+ajority-of-americans-have-heard-of-chatgpt-but-few-have-tried-it-themselves). Pew
+Research Center. Archived (https://web.archive.org/web/20230608181200/https://www.p
+ewresearch.org/short-reads/2023/05/24/a-majority-of-americans-have-heard-of-chatgpt-
+but-few-have-tried-it-themselves) from the original on June 8, 2023. Retrieved June 15,
+2023.
+Park, Eugenie; Gelles-Watnick, Risa (August 28, 2023). "Most Americans haven't used
+ChatGPT; few think it will have a major impact on their job" (https://www.pewresearch.or
+g/short-reads/2023/08/28/most-americans-havent-used-chatgpt-few-think-it-will-have-a-
+major-impact-on-their-job). Pew Research Center. Archived (https://web.archive.org/we
+b/20231224070256/https://www.pewresearch.org/short-reads/2023/08/28/most-america
+ns-havent-used-chatgpt-few-think-it-will-have-a-major-impact-on-their-job) from the
+original on December 24, 2023. Retrieved December 23, 2023.
+McClain, Colleen (March 26, 2024). "Americans' use of ChatGPT is ticking up, but few
+trust its election information" (https://www.pewresearch.org/short-reads/2024/03/26/amer
+icans-use-of-chatgpt-is-ticking-up-but-few-trust-its-election-information). Pew Research
+Center. Retrieved May 26, 2025.
+Sidoti, Olivia; McClain, Colleen (June 25, 2025). "34% of U.S. adults have used
+ChatGPT, about double the share in 2023" (https://www.pewresearch.org/short-reads/20
+25/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023). Pew
+Research.
+
+131. "ChatGPT turns 1: How the AI chatbot has completely changed the world" (https://www.e
+uronews.com/next/2023/11/30/chatgpt-a-year-on-3-ways-the-ai-chatbot-has-completely-
+changed-the-world-in-12-months). euronews. November 30, 2023. Archived (https://web.
+archive.org/web/20240114025250/https://www.euronews.com/next/2023/11/30/chatgpt-a
+-year-on-3-ways-the-ai-chatbot-has-completely-changed-the-world-in-12-months) from
+the original on January 14, 2024. Retrieved March 1, 2024.
+
+
+
+132. "Threads hits 100 million users in five-day record surge" (https://www.aljazeera.com/news/2
+023/7/10/threads-hits-100-million-users-in-five-days-in-record-surge). Al Jazeera. July 10,
+2023. Retrieved April 14, 2026.
+
+133. "ChatGPT sets record for fastest-growing user base – analyst note" (https://www.reuters.co
+m/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01).
+Reuters. Archived (https://web.archive.org/web/20241206102714/https://www.reuters.com/te
+chnology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01) from the
+original on December 6, 2024. Retrieved December 14, 2024.
+
+134. Simons, John (February 5, 2023). "The Creator of ChatGPT Thinks AI Should Be
+Regulated" (https://time.com/6252404/mira-murati-chatgpt-openai-interview). Time. Archived
+(https://web.archive.org/web/20230308004004/https://time.com/6252404/mira-murati-chatgp
+t-openai-interview) from the original on March 8, 2023. Retrieved March 21, 2023.
+
+135. Cowen, Tyler (May 23, 2023). "ChatGPT Is Also an Impressive Feat of Marketing" (https://w
+ww.bloomberg.com/opinion/articles/2023-05-23/chatgpt-is-also-an-impressive-feat-of-market
+ing). Bloomberg. Archived (https://web.archive.org/web/20240218161940/https://www.bloom
+berg.com/opinion/articles/2023-05-23/chatgpt-is-also-an-impressive-feat-of-marketing) from
+the original on February 18, 2024. Retrieved May 24, 2023.
+
+136. "OpenAI Hits 900 Million Weekly Users, Raises $110B in Fresh Funding" (https://www.news
+week.com/openai-hits-900-million-weekly-users-raises-110b-in-fresh-funding-11596631).
+Newsweek. February 28, 2026. Retrieved April 14, 2026.
+
+137. "AI Chatbot Market Share Worldwide" (https://gs.statcounter.com/ai-chatbot-market-share).
+StatCounter Global Stats. Retrieved September 19, 2026.
+
+138. Levy, Steven (September 11, 2023). "Sundar Pichai on Google;s AI, Microsoft's AI, OpenAI,
+and ... Did We Mention AI?" (https://www.wired.com/story/sundar-pichai-google-ai-microsoft-
+openai/). Wired. Archived (https://web.archive.org/web/20230911124432/https://www.wired.c
+om/story/sundar-pichai-google-ai-microsoft-openai) from the original on September 11,
+2023. Retrieved September 12, 2023.
+
+139. Grant, Nico; Metz, Cade (December 21, 2022). "A New Chat Bot Is a 'Code Red' for
+Google's Search Business" (https://www.nytimes.com/2022/12/21/technology/ai-chatgpt-goo
+gle-search.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/03
+62-4331). Archived (https://web.archive.org/web/20221221100606/https://www.nytimes.com/
+2022/12/21/technology/ai-chatgpt-google-search.html) from the original on December 21,
+2022. Retrieved December 30, 2022.
+
+140. Alba, Davey; Love, Julia (February 6, 2023). "Google releases ChatGPT rival AI 'Bard' to
+early testers" (https://www.latimes.com/business/story/2023-02-06/google-chatgpt-rival-ai-ba
+rd-early-testers). Los Angeles Times. ISSN 0458-3035 (https://search.worldcat.org/issn/045
+8-3035). Archived (https://web.archive.org/web/20230206230415/https://www.latimes.com/b
+usiness/story/2023-02-06/google-chatgpt-rival-ai-bard-early-testers) from the original on
+February 6, 2023. Retrieved February 6, 2023.
+
+141. Shrikant, Aditi (July 17, 2023). "ChatGPT can match the top 1% of creative human thinkers,
+says new study" (https://www.cnbc.com/2023/07/17/study-chatgpt-can-match-the-top-1perc
+ent-of-creative-human-thinkers.html). CNBC. Archived (https://web.archive.org/web/202403
+29005635/https://www.cnbc.com/2023/07/17/study-chatgpt-can-match-the-top-1percent-of-c
+reative-human-thinkers.html) from the original on March 29, 2024. Retrieved March 28,
+2024.
+
+142. Naprys, Ernestas (July 7, 2023). "AI already outscoring humans in creativity tests" (https://cy
+bernews.com/news/ai-already-outscoring-humans-creativity-tests). cybernews. Archived (htt
+ps://web.archive.org/web/20240329005636/https://cybernews.com/news/ai-already-outscori
+ng-humans-creativity-tests) from the original on March 29, 2024. Retrieved March 29, 2024.
+
+
+
+143. Van Noorden, Richard; Webb, Richard (December 13, 2023). "ChatGPT and science: the AI
+system was a force in 2023 – for good and bad" (https://doi.org/10.1038%2Fd41586-023-03
+930-6). Nature. 624 (7992): 509. Bibcode:2023Natur.624..509V (https://ui.adsabs.harvard.e
+du/abs/2023Natur.624..509V). doi:10.1038/d41586-023-03930-6 (https://doi.org/10.1038%2
+Fd41586-023-03930-6). PMID 38093061 (https://pubmed.ncbi.nlm.nih.gov/38093061).
+
+144. Mediavilla, Daniel (December 13, 2023). "La revista 'Nature' elige por primera vez entre sus
+científicos del año a un ente no humano: ChatGPT" (https://elpais.com/ciencia/2023-12-13/l
+a-revista-nature-elige-por-primera-vez-entre-sus-cientificos-del-ano-a-un-ente-no-humano-c
+hatgpt.html). El País (in European Spanish). Archived (https://web.archive.org/web/2023121
+5155208/https://elpais.com/ciencia/2023-12-13/la-revista-nature-elige-por-primera-vez-entre
+-sus-cientificos-del-ano-a-un-ente-no-humano-chatgpt.html) from the original on December
+15, 2023. Retrieved December 16, 2023.
+
+145. Biever, Celeste (July 25, 2023). "ChatGPT broke the Turing test – the race is on for new
+ways to assess AI" (https://www.nature.com/articles/d41586-023-02361-7). Nature. 619
+(7971): 686–689. Bibcode:2023Natur.619..686B (https://ui.adsabs.harvard.edu/abs/2023Nat
+ur.619..686B). doi:10.1038/d41586-023-02361-7 (https://doi.org/10.1038%2Fd41586-023-02
+361-7). PMID 37491395 (https://pubmed.ncbi.nlm.nih.gov/37491395). Archived (https://web.
+archive.org/web/20230726211022/https://www.nature.com/articles/d41586-023-02361-7)
+from the original on July 26, 2023. Retrieved March 26, 2024.
+
+146. Scott, Cameron. "Study finds ChatGPT's latest bot behaves like humans, only better |
+Stanford School of Humanities and Sciences" (https://humsci.stanford.edu/feature/study-find
+s-chatgpts-latest-bot-behaves-humans-only-better). humsci.stanford.edu. Archived (https://w
+eb.archive.org/web/20240326182336/https://humsci.stanford.edu/feature/study-finds-chatgp
+ts-latest-bot-behaves-humans-only-better) from the original on March 26, 2024. Retrieved
+March 26, 2024.
+
+147. Mei, Qiaozhu; Xie, Yutong; Yuan, Walter; Jackson, Matthew O. (February 27, 2024). "A
+Turing test of whether AI chatbots are behaviorally similar to humans" (https://www.ncbi.nlm.
+nih.gov/pmc/articles/PMC10907317). Proceedings of the National Academy of Sciences.
+121 (9) e2313925121. Bibcode:2024PNAS..12113925M (https://ui.adsabs.harvard.edu/abs/
+2024PNAS..12113925M). doi:10.1073/pnas.2313925121 (https://doi.org/10.1073%2Fpnas.2
+313925121). ISSN 0027-8424 (https://search.worldcat.org/issn/0027-8424). PMC 10907317
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10907317). PMID 38386710 (https://pubme
+d.ncbi.nlm.nih.gov/38386710).
+
+148. Cain, Sian (January 16, 2023). " 'This song sucks': Nick Cave responds to ChatGPT song
+written in the style of Nick Cave" (https://www.theguardian.com/music/2023/jan/17/this-song-
+sucks-nick-cave-responds-to-chatgpt-song-written-in-style-of-nick-cave). The Guardian.
+Archived (https://web.archive.org/web/20230118032435/https://www.theguardian.com/musi
+c/2023/jan/17/this-song-sucks-nick-cave-responds-to-chatgpt-song-written-in-style-of-nick-c
+ave) from the original on January 18, 2023. Retrieved January 17, 2023.
+
+149. Cave, Nick (January 16, 2023). "I asked Chat GPT to write a song in the style of Nick Cave,
+and this is what it produced. What do you think?" (https://www.theredhandfiles.com/chat-gpt-
+what-do-you-think). The Red Hand Files. Issue #218. Archived (https://web.archive.org/web/
+20230120080808/https://www.theredhandfiles.com/chat-gpt-what-do-you-think) from the
+original on January 20, 2023. Retrieved January 20, 2023.
+
+150. Sparrow, Jeff (January 20, 2023). "Are AI-generated songs a 'grotesque mockery' of
+humanity or simply an opportunity to make a new kind of music?" (https://www.theguardian.c
+om/commentisfree/2023/jan/20/are-ai-generated-songs-a-grotesque-mockery-of-humanity-o
+r-simply-an-opportunity-to-make-a-new-kind-of-music). The Guardian. Archived (https://web.
+archive.org/web/20230203051254/https://www.theguardian.com/commentisfree/2023/jan/2
+0/are-ai-generated-songs-a-grotesque-mockery-of-humanity-or-simply-an-opportunity-to-ma
+ke-a-new-kind-of-music) from the original on February 3, 2023. Retrieved January 20, 2023.
+
+
+
+151. Karp, Paul (February 6, 2023). "MP tells Australia's parliament AI could be used for 'mass
+destruction' in speech part-written by ChatGPT" (https://www.theguardian.com/australia-new
+s/2023/feb/06/labor-mp-julian-hill-australia-parliament-speech-ai-part-written-by-chatgpt).
+The Guardian. ISSN 0261-3077 (https://search.worldcat.org/issn/0261-3077). Archived (http
+s://web.archive.org/web/20230206084525/https://www.theguardian.com/australia-news/202
+3/feb/06/labor-mp-julian-hill-australia-parliament-speech-ai-part-written-by-chatgpt) from the
+original on February 6, 2023. Retrieved February 6, 2023.
+
+152. Guynn, Jessica. "Is ChatGPT 'woke'? AI chatbot accused of anti-conservative bias and a
+grudge against Trump" (https://www.usatoday.com/story/tech/2023/02/09/woke-chatgpt-cons
+ervatives-bias/11215353002). USA Today. Archived (https://web.archive.org/web/202303011
+51936/https://www.usatoday.com/story/tech/2023/02/09/woke-chatgpt-conservatives-bias/11
+215353002) from the original on March 1, 2023. Retrieved March 1, 2023.
+
+153. Bray, Hiawatha (February 9, 2023). "Is ChatGPT liberal or conservative? Depends who you
+ask" (https://www.bostonglobe.com/2023/02/09/business/are-chatbots-liberal-or-conservativ
+e-depends-who-you-ask). Boston Globe. Archived (https://web.archive.org/web/2023030115
+1937/https://www.bostonglobe.com/2023/02/09/business/are-chatbots-liberal-or-conservativ
+e-depends-who-you-ask) from the original on March 1, 2023. Retrieved March 1, 2023.
+
+154. Vincent, James (February 17, 2023). "As conservatives criticize 'woke AI,' here are
+ChatGPT's rules for answering culture war queries" (https://www.theverge.com/2023/2/17/2
+3603906/openai-chatgpt-woke-criticism-culture-war-rules). The Verge. Archived (https://web.
+archive.org/web/20230301151934/https://www.theverge.com/2023/2/17/23603906/openai-c
+hatgpt-woke-criticism-culture-war-rules) from the original on March 1, 2023. Retrieved
+March 1, 2023.
+
+155. Motoki, Fabio; Neto, Valdemar Pinho; Rodrigues, Victor (August 17, 2023). "More human
+than human: measuring ChatGPT political bias" (https://doi.org/10.1007%2Fs11127-023-010
+97-2). Public Choice. 198 (1–2): 3–23. doi:10.1007/s11127-023-01097-2 (https://doi.org/10.1
+007%2Fs11127-023-01097-2). ISSN 1573-7101 (https://search.worldcat.org/issn/1573-710
+1).
+
+156. Gerken, Tom. "ChatGPT: Mayor starts legal bid over false bribery claim" (https://www.bbc.co
+m/news/technology-65202597). BBC. Archived (https://web.archive.org/web/202304070143
+24/https://www.bbc.com/news/technology-65202597) from the original on April 7, 2023.
+Retrieved April 7, 2023.
+
+157. "ChatGPT Supported Countries" (https://help.openai.com/en/articles/7947663-chatgpt-supp
+orted-countries). help.openai.com. Retrieved June 4, 2025.
+
+158. Simon, Felix M.; Nielsen, Rasmus Kleis; Fletcher, Richard (2025). Generative AI and news
+report 2025: How people think about AI's role in journalism and society (https://reutersinstitut
+e.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-jour
+nalism-and-society) (Report). doi:10.60625/risj-5bjv-yt69 (https://doi.org/10.60625%2Frisj-5b
+jv-yt69). Retrieved April 22, 2026.
+
+159. Chiu, Joanna (September 18, 2024). "New data reveals exactly when the Chinese
+government blocked ChatGPT and other AI sites" (https://restofworld.org/2024/when-china-b
+locked-ai-sites).
+
+160. Chen, Caiwei (March 7, 2023). "China's ChatGPT Black Market Is Thriving" (https://www.wir
+ed.com/story/chinas-chatgpt-black-market-baidu/). Wired. Retrieved June 1, 2025.
+
+161. Ye, Josh (February 12, 2023). "ChatGPT frenzy sweeps China as firms scramble for home-
+grown options" (https://www.reuters.com/technology/chatgpt-frenzy-sweeps-china-firms-scra
+mble-home-grown-options-2023-02-10). Reuters. Retrieved June 1, 2025.
+
+162. Qin'en, Qiao; Yeung, Lee Heung (July 10, 2024). "OpenAI cuts off access to users in China,
+Hong Kong and Macau" (https://www.rfa.org/english/news/china/openai-07102024145316.ht
+ml). Radio Free Asia. Retrieved June 13, 2026.
+
+163. He Qitong; Li Dongxu (May 31, 2024). "Young Chinese Have Almost No Concerns About AI,
+Survey Finds" (https://www.sixthtone.com/news/1015263). Sixth Tone.
+
+
+
+164. Bachulska, Alicja; Leonard, Mark; Oertel, Janka (July 2, 2024). The Idea of China: Chinese
+Thinkers on Power, Progress, and People (https://ecfr.eu/publication/idea-of-china) (EPUB).
+Berlin, Germany: European Council on Foreign Relations. ISBN 978-1-916682-42-9.
+Archived (https://web.archive.org/web/20240717120845/https://ecfr.eu/publication/idea-of-ch
+ina) from the original on July 17, 2024. Retrieved July 22, 2024.
+
+165. Metz, Cade (February 21, 2025). "OpenAI Uncovers Evidence of A.I.-Powered Chinese
+Surveillance Tool" (https://www.nytimes.com/2025/02/21/technology/openai-chinese-surveill
+ance.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-43
+31). Retrieved February 22, 2025.
+
+166. Fried, Ina (February 21, 2025). "OpenAI finds new Chinese influence campaigns using its
+tools" (https://www.axios.com/2025/02/21/openai-chinese-influence-campaigns). Axios.
+Retrieved February 22, 2025.
+
+167. "OpenAI bans suspected China-linked accounts for seeking surveillance proposals" (https://
+www.reuters.com/world/china/openai-bans-suspected-china-linked-accounts-seeking-surveil
+lance-proposals-2025-10-07/#:~:text=Oct%207%20(Reuters)%20%2D%20OpenAI,to%20m
+onitor%20social%20media%20conversations.). Reuters. October 8, 2025. Archived (https://
+web.archive.org/web/20251009053257/https://www.reuters.com/world/china/openai-bans-su
+spected-china-linked-accounts-seeking-surveillance-proposals-2025-10-07) from the original
+on October 9, 2025. Retrieved October 15, 2025.
+
+168. "How do people around the world feel about the rise of AI in daily life?" (https://www.pewres
+earch.org/global/2025/10/15/concern-and-excitement-about-ai/pg_2025-10-15_ai_2_01).
+Pew Research Center. October 14, 2025.
+
+169. "ChatGPT banned in Italy over privacy concerns" (https://www.bbc.com/news/technology-65
+139406). BBC News. March 31, 2023. Archived (https://web.archive.org/web/202303311429
+30/https://www.bbc.com/news/technology-65139406) from the original on March 31, 2023.
+Retrieved March 31, 2023.
+
+170. Borrelli, Silvia Sciorilli; Murgia, Madhumita (March 31, 2023). "Italy temporarily bans
+ChatGPT over privacy concerns" (https://www.ft.com/content/3ce7ed9d-df95-4f5f-a3c7-ec83
+98ce9c50). Financial Times. Archived (https://web.archive.org/web/20230331145537/https://
+www.ft.com/content/3ce7ed9d-df95-4f5f-a3c7-ec8398ce9c50) from the original on March
+31, 2023. Retrieved March 31, 2023.
+
+171. McCallum, Shiona (April 28, 2023). "ChatGPT accessible again in Italy" (https://www.bbc.co
+m/news/technology-65431914). BBC. Archived (https://web.archive.org/web/202305012103
+24/https://www.bbc.com/news/technology-65431914) from the original on May 1, 2023.
+Retrieved May 1, 2023.
+
+172. Bond, Shannon (May 30, 2024). "In a first, OpenAI removes influence operations tied to
+Russia, China and Israel" (https://www.npr.org/2024/05/30/g-s1-1670/openai-influence-oper
+ations-china-russia-israel). NPR. Archived (https://web.archive.org/web/20240530183810/htt
+ps://www.npr.org/2024/05/30/g-s1-1670/openai-influence-operations-china-russia-israel)
+from the original on May 30, 2024. Retrieved May 30, 2024.
+
+173. Frenkel, Sheera (June 5, 2024). "Israel Secretly Targets U.S. Lawmakers With Influence
+Campaign on Gaza War" (https://www.nytimes.com/2024/06/05/technology/israel-campaign-
+gaza-social-media.html). The New York Times. ISSN 0362-4331 (https://search.worldcat.or
+g/issn/0362-4331). Archived (https://web.archive.org/web/20240608232958/https://www.nyti
+mes.com/2024/06/05/technology/israel-campaign-gaza-social-media.html) from the original
+on June 8, 2024. Retrieved June 5, 2024.
+
+174. Tong, Anna (June 6, 2025). "OpenAI finds more Chinese groups using ChatGPT for
+malicious purposes" (https://www.reuters.com/world/china/openai-finds-more-chinese-group
+s-using-chatgpt-malicious-purposes-2025-06-05). Reuters. Retrieved June 7, 2025.
+
+175. Lyngaas, Sean (February 25, 2026). "A Chinese official's use of ChatGPT accidentally
+revealed a global intimidation operation" (https://www.cnn.com/2026/02/25/politics/chatgpt-c
+hina-intimidation-operation). CNN. Retrieved February 26, 2026.
+
+
+
+176. Zakrzewski, Cat (July 13, 2023). "The FTC is investigating whether ChatGPT harms
+consumers" (https://www.washingtonpost.com/technology/2023/07/13/ftc-openai-chatgpt-sa
+m-altman-lina-khan). The Washington Post. Archived (https://web.archive.org/web/2023071
+3153008/https://www.washingtonpost.com/technology/2023/07/13/ftc-openai-chatgpt-sam-al
+tman-lina-khan) from the original on July 13, 2023. Retrieved July 13, 2023.
+
+177. Tracy, Ryan; McKinnon, John D. (July 13, 2023). "ChatGPT Comes Under Investigation by
+Federal Trade Commission" (https://www.wsj.com/articles/chatgpt-under-investigation-by-ftc
+-21e4b3ef). The Wall Street Journal. News Corp. Archived (https://web.archive.org/web/202
+30713134549/https://www.wsj.com/articles/chatgpt-under-investigation-by-ftc-21e4b3ef)
+from the original on July 13, 2023. Retrieved July 13, 2023.
+
+178. Feiner, Lauren (July 13, 2023). "FTC investigating ChatGPT-maker OpenAI for possible
+consumer harm" (https://www.cnbc.com/2023/07/13/chatgpt-owner-openai-is-being-investig
+ated-by-ftc.html). CNBC. Archived (https://web.archive.org/web/20230713140119/https://ww
+w.cnbc.com/2023/07/13/chatgpt-owner-openai-is-being-investigated-by-ftc.html) from the
+original on July 13, 2023. Retrieved July 13, 2023.
+
+179. "ChatGPT creator OpenAI faces US probe over libellous output" (https://www.aljazeera.com/
+economy/2023/7/14/us-watchdog-probes-chatgpt-maker-openai-over-false-information). Al
+Jazeera. Archived (https://web.archive.org/web/20230715025721/https://www.aljazeera.co
+m/economy/2023/7/14/us-watchdog-probes-chatgpt-maker-openai-over-false-information)
+from the original on July 15, 2023. Retrieved July 15, 2023.
+
+180. Picciotto, Rebecca (August 14, 2024). "FTC bans fake online reviews, inflated social media
+influence; rule takes effect in October" (https://www.cnbc.com/2024/08/14/ftc-bans-fake-revi
+ews-social-media-influence-markers.html). CNBC. Archived (https://web.archive.org/web/20
+240814223921/https://www.cnbc.com/2024/08/14/ftc-bans-fake-reviews-social-media-influe
+nce-markers.html) from the original on August 14, 2024. Retrieved August 15, 2024.
+
+181. Hurst, Luke (March 30, 2023) [March 29, 2023]. " 'Profound risk to humanity': Tech leaders
+call for 'pause' on advanced AI development" (https://www.euronews.com/next/2023/03/29/p
+rofound-risk-to-humanity-elon-musk-and-steve-wozniak-join-calls-to-halt-ai-development).
+Euronews. Archived (https://web.archive.org/web/20230401205507/https://www.euronews.c
+om/next/2023/03/29/profound-risk-to-humanity-elon-musk-and-steve-wozniak-join-calls-to-h
+alt-ai-development) from the original on April 1, 2023. Retrieved April 1, 2023.
+
+182. Heaven, Will Douglas (May 2, 2023). "Geoffrey Hinton tells us why he's now scared of the
+tech he helped build" (https://www.technologyreview.com/2023/05/02/1072528/geoffrey-hint
+on-google-why-scared-ai). MIT Technology Review. Archived (https://web.archive.org/web/2
+0230504075717/https://www.technologyreview.com/2023/05/02/1072528/geoffrey-hinton-go
+ogle-why-scared-ai) from the original on May 4, 2023. Retrieved May 4, 2023.
+
+183. "Video: Geoffrey Hinton talks about the "existential threat" of AI" (https://www.technologyrevi
+ew.com/2023/05/03/1072589/video-geoffrey-hinton-google-ai-risk-ethics). MIT Technology
+Review. Archived (https://web.archive.org/web/20230503224812/https://www.technologyrevi
+ew.com/2023/05/03/1072589/video-geoffrey-hinton-google-ai-risk-ethics) from the original
+on May 3, 2023. Retrieved May 4, 2023.
+
+184. Roose, Kevin (May 30, 2023). "A.I. Poses 'Risk of Extinction,' Industry Leaders Warn" (http
+s://www.nytimes.com/2023/05/30/technology/ai-threat-warning.html). The New York Times.
+ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331). Archived (https://web.archive.
+org/web/20230531151103/https://www.nytimes.com/2023/05/30/technology/ai-threat-warnin
+g.html) from the original on May 31, 2023. Retrieved May 30, 2023.
+
+185. Taylor, Josh (May 7, 2023). "Rise of artificial intelligence is inevitable but should not be
+feared, 'father of AI' says" (https://www.theguardian.com/technology/2023/may/07/rise-of-arti
+ficial-intelligence-is-inevitable-but-should-not-be-feared-father-of-ai-says). The Guardian.
+Archived (https://web.archive.org/web/20231023061228/https://www.theguardian.com/techn
+ology/2023/may/07/rise-of-artificial-intelligence-is-inevitable-but-should-not-be-feared-father-
+of-ai-says) from the original on October 23, 2023. Retrieved May 26, 2023.
+
+
+
+186. McMorrow, Ryan (December 19, 2023). "Andrew Ng: 'Do we think the world is better off with
+more or less intelligence?' " (https://www.ft.com/content/2dc07f9e-d2a9-4d98-b746-b051f93
+52be3). Financial Times. Archived (https://web.archive.org/web/20240125014121/https://ww
+w.ft.com/content/2dc07f9e-d2a9-4d98-b746-b051f9352be3) from the original on January 25,
+2024. Retrieved December 30, 2023.
+
+187. Levy, Steven (December 22, 2023). "How Not to Be Stupid About AI, With Yann LeCun" (htt
+ps://www.wired.com/story/artificial-intelligence-meta-yann-lecun-interview/). Wired. Archived
+(https://web.archive.org/web/20240214083548/https://www.wired.com/story/artificial-intellige
+nce-meta-yann-lecun-interview) from the original on February 14, 2024. Retrieved
+December 30, 2023.
+
+188. Levine, Joshua; Belton, John. "Primer: Training AI Models with Copyrighted Work" (https://w
+ww.americanactionforum.org/insight/primer-training-ai-models-with-copyrighted-work/). AAF.
+Retrieved March 19, 2024.
+
+189. Ahmad, Ariba A; Gross, Andrew M. "Generative AI Systems Tee Up Fair Use Fight" (https://
+www.natlawreview.com/article/generative-ai-systems-tee-fair-use-fight).
+www.natlawreview.com. Archived (https://web.archive.org/web/20240319185420/https://ww
+w.natlawreview.com/article/generative-ai-systems-tee-fair-use-fight) from the original on
+March 19, 2024. Retrieved March 19, 2024.
+
+190. Multiple sources:
+Roth, Emma (December 27, 2023). "The New York Times is suing OpenAI and Microsoft
+for copyright infringement" (https://www.theverge.com/2023/12/27/24016212/new-york-ti
+mes-openai-microsoft-lawsuit-copyright-infringement). The Verge. Archived (https://web.
+archive.org/web/20231227235409/https://www.theverge.com/2023/12/27/24016212/new
+-york-times-openai-microsoft-lawsuit-copyright-infringement) from the original on
+December 27, 2023. Retrieved December 28, 2023.
+Spangler, Todd (September 21, 2023). "George R.R. Martin Among 17 Top Authors
+Suing OpenAI, Alleging ChatGPT Steals Their Works: 'We Are Here to Fight' " (https://var
+iety.com/2023/digital/news/openai-chatgpt-lawsuit-george-rr-martin-john-grisham-12357
+30939). Variety. Archived (https://web.archive.org/web/20240516131044/https://variety.c
+om/2023/digital/news/openai-chatgpt-lawsuit-george-rr-martin-john-grisham-123573093
+9) from the original on May 16, 2024. Retrieved May 15, 2024.
+Grynbaum, Michael M.; Mac, Ryan (December 27, 2023). "The Times Sues OpenAI and
+Microsoft Over A.I. Use of Copyrighted Work" (https://www.nytimes.com/2023/12/27/busi
+ness/media/new-york-times-open-ai-microsoft-lawsuit.html). The New York Times.
+Archived (https://web.archive.org/web/20240218070125/https://www.nytimes.com/2023/
+12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html) from the original
+on February 18, 2024. Retrieved December 28, 2023.
+"ChatGPT: New York Times sues OpenAI over article usage" (https://www.dw.com/en/ch
+atgpt-new-york-times-sues-openai-over-article-usage/a-67835839). DW News.
+December 27, 2023. Archived (https://web.archive.org/web/20231227195906/https://ww
+w.dw.com/en/chatgpt-new-york-times-sues-openai-over-article-usage/a-67835839) from
+the original on December 27, 2023. Retrieved December 28, 2023.
+"OpenAI ChatGPT Litigation" (https://www.bakerlaw.com/openai-chatgpt-litigation).
+BakerHostetler.
+
+191. Field, Hayden (March 6, 2024). "Researchers tested leading AI models for copyright
+infringement using popular books, and GPT-4 performed worst" (https://www.cnbc.com/202
+4/03/06/gpt-4-researchers-tested-leading-ai-models-for-copyright-infringement.html). CNBC.
+Archived (https://web.archive.org/web/20240306125730/https://www.cnbc.com/2024/03/06/g
+pt-4-researchers-tested-leading-ai-models-for-copyright-infringement.html) from the original
+on March 6, 2024. Retrieved March 6, 2024.
+
+
+
+192. Vynck, Gerrit De; Merrill, Jeremy B. (November 12, 2025). "We analyzed 47,000 ChatGPT
+conversations. Here's what people really use it for" (https://www.washingtonpost.com/techno
+logy/2025/11/12/how-people-use-chatgpt-data). The Washington Post.
+
+193. Gao, Catherine A.; Howard, Frederick M.; Markov, Nikolay S.; Dyer, Emma C.; Ramesh,
+Siddhi; Luo, Yuan; Pearson, Alexander T. (April 26, 2023). "Comparing scientific abstracts
+generated by ChatGPT to real abstracts with detectors and blinded human reviewers" (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC10133283). npj Digital Medicine. 6 (1): 75.
+doi:10.1038/s41746-023-00819-6 (https://doi.org/10.1038%2Fs41746-023-00819-6).
+ISSN 2398-6352 (https://search.worldcat.org/issn/2398-6352). PMC 10133283 (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC10133283). PMID 37100871 (https://pubmed.ncbi.nlm.ni
+h.gov/37100871).
+
+194. Bushard, Brian (January 10, 2023). "Fake Scientific Abstracts Written By ChatGPT Fooled
+Scientists, Study Finds" (https://www.forbes.com/sites/brianbushard/2023/01/10/fake-scientif
+ic-abstracts-written-by-chatgpt-fooled-scientists-study-finds). Forbes. Archived (https://web.a
+rchive.org/web/20230203051254/https://www.forbes.com/sites/brianbushard/2023/01/10/fak
+e-scientific-abstracts-written-by-chatgpt-fooled-scientists-study-finds) from the original on
+February 3, 2023. Retrieved January 30, 2023.
+
+195. Stokel-Walker, Chris (January 18, 2023). "ChatGPT listed as author on research papers:
+many scientists disapprove" (https://www.nature.com/articles/d41586-023-00107-z). Nature.
+613 (7945): 620–621. Bibcode:2023Natur.613..620S (https://ui.adsabs.harvard.edu/abs/202
+3Natur.613..620S). doi:10.1038/d41586-023-00107-z (https://doi.org/10.1038%2Fd41586-0
+23-00107-z). PMID 36653617 (https://pubmed.ncbi.nlm.nih.gov/36653617).
+S2CID 255969365 (https://api.semanticscholar.org/CorpusID:255969365). Archived (https://
+web.archive.org/web/20230130142004/https://www.nature.com/articles/d41586-023-00107-
+z) from the original on January 30, 2023. Retrieved January 30, 2023.
+
+196. Brainard, Jeffrey (February 22, 2023). "As scientists explore AI-written text, journals hammer
+out policies" (https://www.science.org/content/article/scientists-explore-ai-written-text-journal
+s-hammer-policies). Science. doi:10.1126/science.adh2937 (https://doi.org/10.1126%2Fscie
+nce.adh2937). Archived (https://web.archive.org/web/20230224082118/https://www.science.
+org/content/article/scientists-explore-ai-written-text-journals-hammer-policies) from the
+original on February 24, 2023. Retrieved February 24, 2023.
+
+197. "Science Journals: Editorial Policies" (https://www.science.org/content/page/science-journal
+s-editorial-policies#authorship). www.science.org. Retrieved July 14, 2025.
+
+198. Alkaissi, Hussam; McFarlane, Samy I.; Alkaissi, Hussam; McFarlane, Samy I. (February 19,
+2023). "Artificial Hallucinations in ChatGPT: Implications in Scientific Writing" (https://www.nc
+bi.nlm.nih.gov/pmc/articles/PMC9939079). Cureus. 15 (2) e35179.
+doi:10.7759/cureus.35179 (https://doi.org/10.7759%2Fcureus.35179). ISSN 2168-8184 (http
+s://search.worldcat.org/issn/2168-8184). PMC 9939079 (https://www.ncbi.nlm.nih.gov/pmc/a
+rticles/PMC9939079). PMID 36811129 (https://pubmed.ncbi.nlm.nih.gov/36811129).
+
+199. Vynck, Gerrit De (May 31, 2023). "ChatGPT 'hallucinates.' Some researchers worry it isn't
+fixable" (https://www.washingtonpost.com/technology/2023/05/30/ai-chatbots-chatgpt-bard-tr
+ustworthy). Washington Post. ISSN 0190-8286 (https://search.worldcat.org/issn/0190-8286).
+Archived (https://web.archive.org/web/20230617021157/https://www.washingtonpost.com/te
+chnology/2023/05/30/ai-chatbots-chatgpt-bard-trustworthy) from the original on June 17,
+2023. Retrieved June 14, 2023.
+
+200. Azamfirei, Razvan; Kudchadkar, Sapna R.; Fackler, James (March 21, 2023). "Large
+language models and the perils of their hallucinations" (https://www.ncbi.nlm.nih.gov/pmc/art
+icles/PMC10032023). Critical Care. 27 (1): 120. doi:10.1186/s13054-023-04393-x (https://do
+i.org/10.1186%2Fs13054-023-04393-x). ISSN 1364-8535 (https://search.worldcat.org/issn/1
+364-8535). PMC 10032023 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10032023).
+PMID 36945051 (https://pubmed.ncbi.nlm.nih.gov/36945051).
+
+
+
+201. Grove, Jack (April 5, 2023). " 'ChatGPT-generated reading list' sparks AI peer review
+debate" (https://www.timeshighereducation.com/news/chatgpt-generated-reading-list-sparks
+-ai-peer-review-debate). Times Higher Education. Archived (https://web.archive.org/web/202
+30523005906/https://www.timeshighereducation.com/news/chatgpt-generated-reading-list-s
+parks-ai-peer-review-debate) from the original on May 23, 2023. Retrieved June 14, 2023.
+
+202. Granatino, Chris (May 5, 2023). "ChatGPT and AI Hallucination" (https://library.seattleu.edu/f
+riendly.php?s=blog/ChatGPT-and-AI-Hallucination). Lemieux Library at Seattle University.
+Archived (https://web.archive.org/web/20240218162047/https://library.seattleu.edu/friendly.p
+hp?s=blog/ChatGPT-and-AI-Hallucination) from the original on February 18, 2024. Retrieved
+June 14, 2023.
+
+203. Vincent, James (December 5, 2022). "AI-generated answers temporarily banned on coding
+Q&A site Stack Overflow" (https://www.theverge.com/2022/12/5/23493932/chatgpt-ai-gener
+ated-answers-temporarily-banned-stack-overflow-llms-dangers). The Verge. Archived (http
+s://web.archive.org/web/20230117153621/https://www.theverge.com/2022/12/5/23493932/c
+hatgpt-ai-generated-answers-temporarily-banned-stack-overflow-llms-dangers) from the
+original on January 17, 2023. Retrieved December 5, 2022.
+
+204. Vincent, James (January 5, 2023). "Top AI conference bans use of ChatGPT and AI
+language tools to write academic papers" (https://www.theverge.com/2023/1/5/23540291/ch
+atgpt-ai-writing-tool-banned-writing-academic-icml-paper). The Verge. Archived (https://web.
+archive.org/web/20230117131149/https://www.theverge.com/2023/1/5/23540291/chatgpt-ai-
+writing-tool-banned-writing-academic-icml-paper) from the original on January 17, 2023.
+Retrieved January 6, 2023.
+
+205. Kashefi, Ali; Mukerji, Tapan (2023). "ChatGPT for Programming Numerical Methods".
+arXiv:2303.12093 (https://arxiv.org/abs/2303.12093) [cs.LG (https://arxiv.org/archive/cs.LG)].
+
+206. Morrison, Ryan (August 8, 2023). "ChatGPT wrong over half the time on software questions"
+(https://techmonitor.ai/technology/ai-and-automation/chatgpt-wrong-over-half-the-time-on-so
+ftware-questions). Tech Monitor. New Statesman Media Group. Archived (https://web.archiv
+e.org/web/20231205051845/https://techmonitor.ai/technology/ai-and-automation/chatgpt-wr
+ong-over-half-the-time-on-software-questions) from the original on December 5, 2023.
+Retrieved December 5, 2023.
+
+207. Kabir, Samia; Udo-Imeh, David N.; Kou, Bonan; Zhang, Tianyi (August 10, 2023). "Who
+Answers It Better? An In-Depth Analysis of ChatGPT and Stack Overflow Answers to
+Software Engineering Questions". arXiv:2308.02312v3 (https://arxiv.org/abs/2308.02312v3)
+[cs.SE (https://arxiv.org/archive/cs.SE)].
+
+208. Chen, Lingjiao; Zaharia, Matei; Zou, James (March 12, 2024). "How Is ChatGPT's Behavior
+Changing Over Time?" (https://doi.org/10.1162%2F99608f92.5317da47). Harvard Data
+Science Review. 6 (2). Bibcode:2024HDSRv...67da47C (https://ui.adsabs.harvard.edu/abs/2
+024HDSRv...67da47C). doi:10.1162/99608f92.5317da47 (https://doi.org/10.1162%2F99608f
+92.5317da47).
+
+209. Siam, Md Kamrul; Gu, Huanying; Cheng, Jerry Q. (June 6, 2025). "Programming with AI:
+Evaluating ChatGPT, Gemini, AlphaCode, and GitHub Copilot for Programmers".
+Proceedings of the 3rd International Conference on Computing Advancements. pp. 346–
+354. doi:10.1145/3723178.3723224 (https://doi.org/10.1145%2F3723178.3723224).
+ISBN 979-8-4007-1382-8.
+
+210. Shimony, Eran; Tsarfati, Omer (January 17, 2023). "Chatting Our Way Into Creating a
+Polymorphic Malware" (https://www.cyberark.com/resources/threat-research-blog/chatting-o
+ur-way-into-creating-a-polymorphic-malware). CyberArk. Archived (https://web.archive.org/w
+eb/20230512092411/https://www.cyberark.com/resources/threat-research-blog/chatting-our-
+way-into-creating-a-polymorphic-malware) from the original on May 12, 2023. Retrieved
+May 12, 2023.
+
+
+
+211. Mascellino, Alessandro (January 18, 2023). "ChatGPT Creates Polymorphic Malware" (http
+s://www.infosecurity-magazine.com/news/chatgpt-creates-polymorphic-malware).
+Infosecurity Magazine. Archived (https://web.archive.org/web/20230512092411/https://www.i
+nfosecurity-magazine.com/news/chatgpt-creates-polymorphic-malware) from the original on
+May 12, 2023. Retrieved May 12, 2023.
+
+212. Violino, Bob (November 28, 2023). "AI tools such as ChatGPT are generating a mammoth
+increase in malicious phishing emails" (https://www.cnbc.com/2023/11/28/ai-like-chatgpt-is-c
+reating-huge-increase-in-malicious-phishing-email.html). CNBC. Archived (https://web.archiv
+e.org/web/20231205012011/https://www.cnbc.com/2023/11/28/ai-like-chatgpt-is-creating-hu
+ge-increase-in-malicious-phishing-email.html) from the original on December 5, 2023.
+Retrieved December 5, 2023.
+
+213. Dupré, Maggie Harrison (July 1, 2024). "ChatGPT-4o Is Sending Users to a Scammy
+Website That Floods Your Screen With Fake Virus Warnings" (https://futurism.com/chatgpt-f
+ake-virus-warnings). Futurism. Archived (https://web.archive.org/web/20240701162535/http
+s://futurism.com/chatgpt-fake-virus-warnings) from the original on July 1, 2024. Retrieved
+July 1, 2024.
+
+214. Mogavi, Reza H.; Deng, Chao; Kim, Justin Juho (2024). "ChatGPT in education: A blessing
+or a curse? A qualitative study exploring early adopters' utilization and perceptions" (https://d
+oi.org/10.1016%2Fj.chbah.2023.100027). Computers in Human Behavior: Artificial Humans.
+2 100027. doi:10.1016/j.chbah.2023.100027 (https://doi.org/10.1016%2Fj.chbah.2023.1000
+27). ISSN 2949-8821 (https://search.worldcat.org/issn/2949-8821).
+
+215. Singer, Natasha (August 24, 2023). "Despite Cheating Fears, Schools Repeal ChatGPT
+Bans" (https://www.nytimes.com/2023/08/24/business/schools-chatgpt-chatbot-bans.html).
+The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331).
+Retrieved October 10, 2023.
+
+216. Serrano, Jody (May 19, 2023). "New York City Schools Lift Ban on ChatGPT, Say Initial Fear
+'Overlooked the Potential' of AI" (https://gizmodo.com/new-york-city-public-schools-lift-ban-c
+hatgpt-ai-1850453424). Gizmodo. Archived (https://web.archive.org/web/20230521150307/h
+ttps://gizmodo.com/new-york-city-public-schools-lift-ban-chatgpt-ai-1850453424) from the
+original on May 21, 2023. Retrieved May 21, 2023.
+
+217. Nolan, Beatrice. "More than 200 books in Amazon's bookstore have ChatGPT listed as an
+author or coauthor" (https://www.businessinsider.com/chatgpt-ai-write-author-200-books-am
+azon-2023-2). Business Insider. Archived (https://web.archive.org/web/20230309161926/htt
+ps://www.businessinsider.com/chatgpt-ai-write-author-200-books-amazon-2023-2) from the
+original on March 9, 2023. Retrieved March 9, 2023.
+
+218. Bensinger, Greg (February 21, 2023). "ChatGPT launches boom in AI-written e-books on
+Amazon" (https://www.reuters.com/technology/chatgpt-launches-boom-ai-written-e-books-a
+mazon-2023-02-21). Reuters. Archived (https://web.archive.org/web/20230309161926/http
+s://www.reuters.com/technology/chatgpt-launches-boom-ai-written-e-books-amazon-2023-0
+2-21) from the original on March 9, 2023. Retrieved March 9, 2023.
+
+219. Samuel, Sigal (April 10, 2023). "What happens when ChatGPT starts to feed on its own
+writing?" (https://www.vox.com/future-perfect/23674696/chatgpt-ai-creativity-originality-homo
+genization). Vox. Retrieved June 20, 2023.
+
+
+
+220. Multiple sources:
+"Sfida per Siri e Alexa" (https://www.ilfoglio.it/tecnologia/2023/03/17/news/sfida-per-siri-e
+-alexa-5068811) [A challenge for Siri and Alexa]. Il Foglio (in Italian). March 17, 2023.
+Archived (https://web.archive.org/web/20230322094017/https://www.ilfoglio.it/tecnologia/
+2023/03/17/news/sfida-per-siri-e-alexa-5068811) from the original on March 22, 2023.
+Retrieved March 22, 2023.
+"ChatGPT sul Foglio: per 30 giorni piccoli testi scritti dall'IA sul nostro giornale" (https://w
+ww.ilfoglio.it/tecnologia/2023/03/07/news/chatgpt-sul-foglio-per-30-giorni-piccoli-testi-scri
+tti-dall-ia-sul-nostro-giornale-5029973) [ChatGPT on Il Foglio: for 30 days, brief texts
+written by the AI on our newspaper]. Il Foglio (in Italian). March 7, 2023. Archived (http
+s://web.archive.org/web/20230322094012/https://www.ilfoglio.it/tecnologia/2023/03/07/n
+ews/chatgpt-sul-foglio-per-30-giorni-piccoli-testi-scritti-dall-ia-sul-nostro-giornale-502997
+3) from the original on March 22, 2023. Retrieved March 22, 2023.
+Moretti, Marco (March 8, 2023). "Articoli artificiali? No" (https://www.ilfoglio.it/tecnologia/
+2023/03/08/news/articoli-artificiali-no-5067825) [Artificial articles? No]. Il Foglio (in
+Italian). Archived (https://web.archive.org/web/20230322094018/https://www.ilfoglio.it/tec
+nologia/2023/03/08/news/articoli-artificiali-no-5067825) from the original on March 22,
+2023. Retrieved March 22, 2023.
+A.D.A. (March 9, 2023). "Più umani, grazie" (https://www.ilfoglio.it/tecnologia/2023/03/09/
+news/piu-umani-grazie-5067829) [Be more human, thanks]. Il Foglio (in Italian). Archived
+(https://web.archive.org/web/20230322094014/https://www.ilfoglio.it/tecnologia/2023/03/
+09/news/piu-umani-grazie-5067829) from the original on March 22, 2023. Retrieved
+March 22, 2023.
+"Le colpe farlocche dell'"invasione" " (https://www.ilfoglio.it/politica/2023/03/14/news/le-c
+olpe-farlocche-dell-invasione--5067556) [The fake faults of the "invasion"]. Il Foglio (in
+Italian). March 14, 2023. Archived (https://web.archive.org/web/20230322094015/https://
+www.ilfoglio.it/politica/2023/03/14/news/le-colpe-farlocche-dell-invasione--5067556) from
+the original on March 22, 2023. Retrieved March 22, 2023.
+
+221. Edwards, Benj (June 12, 2023). "AI-powered church service in Germany draws a large
+crowd" (https://arstechnica.com/information-technology/2023/06/chatgpt-takes-the-pulpit-ai-l
+eads-experimental-church-service-in-germany). Ars Technica. Archived (https://web.archive.
+org/web/20230613231504/https://arstechnica.com/information-technology/2023/06/chatgpt-t
+akes-the-pulpit-ai-leads-experimental-church-service-in-germany) from the original on June
+13, 2023. Retrieved June 13, 2023.
+
+222. "Hundreds of Protestants attended a sermon in Nuremberg given by ChatGPT, which told
+them not to fear death" (https://www.businessinsider.com/chatgpt-sermon-protestant-congre
+gation-nuremberg-germany-not-to-fear-death-2023-6). Business Insider. Archived (https://w
+eb.archive.org/web/20230611124039/https://www.businessinsider.com/chatgpt-sermon-prot
+estant-congregation-nuremberg-germany-not-to-fear-death-2023-6) from the original on
+June 11, 2023. Retrieved June 13, 2023.
+
+223. "Hundreds attend AI church service in Germany" (https://www.thejournal.ie/ai-chruch-germa
+ny-6090108-Jun2023). TheJournal.ie. June 10, 2023. Archived (https://web.archive.org/web/
+20230612171951/https://www.thejournal.ie/ai-chruch-germany-6090108-Jun2023) from the
+original on June 12, 2023. Retrieved June 13, 2023.
+
+224. Kelly, James W (June 19, 2024). "Prince Charles Cinema drops AI-written film following
+backlash" (https://www.bbc.com/news/articles/cjll3w15j0yo). BBC News. Archived (https://we
+b.archive.org/web/20240619142418/https://www.bbc.com/news/articles/cjll3w15j0yo) from
+the original on June 19, 2024. Retrieved June 19, 2024.
+
+
+
+225. "The Guardian view on ChatGPT: an eerily good human impersonator" (https://www.theguar
+dian.com/commentisfree/2022/dec/08/the-guardian-view-on-chatgpt-an-eerily-good-human-i
+mpersonator). The Guardian. December 8, 2022. Archived (https://web.archive.org/web/202
+30116161202/https://www.theguardian.com/commentisfree/2022/dec/08/the-guardian-view-
+on-chatgpt-an-eerily-good-human-impersonator) from the original on January 16, 2023.
+Retrieved December 18, 2022.
+
+226. Berry, David M. (March 19, 2025). "Synthetic media and computational capitalism: towards a
+critical theory of artificial intelligence". AI & Society. 40 (7): 5257–5269. arXiv:2503.18976 (h
+ttps://arxiv.org/abs/2503.18976). doi:10.1007/s00146-025-02265-2 (https://doi.org/10.1007%
+2Fs00146-025-02265-2). ISSN 1435-5655 (https://search.worldcat.org/issn/1435-5655).
+
+227. Diaz, Alicia; Smith, Gerry (January 26, 2023). "BuzzFeed Shares Surge 120% on Plans to
+Embrace OpenAI" (https://www.bloomberg.com/news/articles/2023-01-26/buzzfeed-bzfd-trip
+les-on-plans-to-embrace-openai-for-content). Bloomberg.com. Retrieved May 22, 2023.
+
+228. Singh, Medha; Biswas, Ankika (February 6, 2023). "AI stocks rally in latest Wall Street craze
+sparked by ChatGPT" (https://web.archive.org/web/20230329025014/https://www.reuters.co
+m/technology/ai-stocks-rally-latest-wall-street-craze-sparked-by-chatgpt-2023-02-06).
+Reuters. Archived from the original (https://www.reuters.com/technology/ai-stocks-rally-lates
+t-wall-street-craze-sparked-by-chatgpt-2023-02-06) on March 29, 2023. Retrieved April 14,
+2023.
+
+229. Zuckerman, Gregory (April 12, 2023). "AI Can Write a Song, but It Can't Beat the Market" (ht
+tps://www.wsj.com/articles/ai-can-write-a-song-but-it-cant-beat-the-market-6df50efd). The
+Wall Street Journal. News Corp. Archived (https://web.archive.org/web/20230530004827/htt
+ps://www.wsj.com/articles/ai-can-write-a-song-but-it-cant-beat-the-market-6df50efd) from
+the original on May 30, 2023. Retrieved May 30, 2023.
+
+
+
+230. Multiple sources:
+Ayers, John W.; Poliak, Adam; Dredze, Mark; Leas, Eric C.; Zhu, Zechariah; Kelley,
+Jessica B.; Faix, Dennis J.; Goodman, Aaron M.; Longhurst, Christopher A.; Hogarth,
+Michael; Smith, Davey M. (April 28, 2023). "Comparing Physician and Artificial
+Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media
+Forum" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10148230). JAMA Internal
+Medicine. 183 (6): 589–596. doi:10.1001/jamainternmed.2023.1838 (https://doi.org/10.1
+001%2Fjamainternmed.2023.1838). ISSN 2168-6106 (https://search.worldcat.org/issn/2
+168-6106). PMC 10148230 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10148230).
+PMID 37115527 (https://pubmed.ncbi.nlm.nih.gov/37115527).
+Alan, Raif; Alan, Betül Melek (September 29, 2023). "Utilizing ChatGPT-4 for Providing
+Information on Periodontal Disease to Patients: A DISCERN Quality Analysis" (https://w
+ww.ncbi.nlm.nih.gov/pmc/articles/PMC10613831). Cureus. 15 (9) e46213.
+doi:10.7759/cureus.46213 (https://doi.org/10.7759%2Fcureus.46213). PMC 10613831
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10613831). PMID 37908933 (https://pub
+med.ncbi.nlm.nih.gov/37908933).
+Endo, Yutaka; Sasaki, Kazunari; Moazzam, Zorays; Lima, Henrique A.; Schenk, Austin;
+Limkemann, Ashley; Washburn, Kenneth; Pawlik, Timothy M. (August 1, 2023). "Quality
+of ChatGPT Responses to Questions Related To Liver Transplantation" (https://link.sprin
+ger.com/article/10.1007/s11605-023-05714-9). Journal of Gastrointestinal Surgery. 27
+(8): 1716–1719. doi:10.1007/s11605-023-05714-9 (https://doi.org/10.1007%2Fs11605-0
+23-05714-9). ISSN 1873-4626 (https://search.worldcat.org/issn/1873-4626).
+PMID 37254022 (https://pubmed.ncbi.nlm.nih.gov/37254022).
+Tan, Songtao; Xin, Xin; Wu, Di (June 2024). "ChatGPT in medicine: prospects and
+challenges: a review article" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11175750).
+International Journal of Surgery. 110 (6): 3701–3706.
+doi:10.1097/JS9.0000000000001312 (https://doi.org/10.1097%2FJS9.00000000000013
+12). PMC 11175750 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11175750).
+PMID 38502861 (https://pubmed.ncbi.nlm.nih.gov/38502861).
+Liu, Hilary Y.; Alessandri Bonetti, Mario; De Lorenzi, Francesca; Gimbel, Michael L.;
+Nguyen, Vu T.; Egro, Francesco M. (February 2024). "Consulting the Digital Doctor:
+Google Versus ChatGPT as Sources of Information on Breast Implant-Associated
+Anaplastic Large Cell Lymphoma and Breast Implant Illness". Aesthetic Plastic Surgery.
+48 (4): 590–607. doi:10.1007/s00266-023-03713-4 (https://doi.org/10.1007%2Fs00266-0
+23-03713-4). ISSN 1432-5241 (https://search.worldcat.org/issn/1432-5241).
+PMID 37903939 (https://pubmed.ncbi.nlm.nih.gov/37903939).
+
+231. Lewandowski, Miłosz; Łukowicz, Paweł; Świetlik, Dariusz; Barańska-Rybak, Wioletta (June
+25, 2024). "ChatGPT-3.5 and ChatGPT-4 dermatological knowledge level based on the
+Specialty Certificate Examination in Dermatology" (https://academic.oup.com/ced/article/49/
+7/686/7237242). Clinical and Experimental Dermatology. 49 (7): 686–691.
+doi:10.1093/ced/llad255 (https://doi.org/10.1093%2Fced%2Fllad255). PMID 37540015 (http
+s://pubmed.ncbi.nlm.nih.gov/37540015).
+
+232. Tan, Songtao; Xin, Xin; Wu, Di (June 2024). "ChatGPT in medicine: prospects and
+challenges: a review article" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11175750).
+International Journal of Surgery. 110 (6): 3701–3706. doi:10.1097/JS9.0000000000001312
+(https://doi.org/10.1097%2FJS9.0000000000001312). PMC 11175750 (https://www.ncbi.nl
+m.nih.gov/pmc/articles/PMC11175750). PMID 38502861 (https://pubmed.ncbi.nlm.nih.gov/3
+8502861).
+
+
+
+233. Kung, Tiffany H.; Cheatham, Morgan; Medenilla, Arielle; Sillos, Czarina; De Leon, Lorie;
+Elepaño, Camille; Madriaga, Maria; Aggabao, Rimel; Diaz-Candido, Giezel; Maningo,
+James; Tseng, Victor (February 9, 2023). "Performance of ChatGPT on USMLE: Potential
+for AI-assisted medical education using large language models" (https://www.ncbi.nlm.nih.go
+v/pmc/articles/PMC9931230). PLOS Digital Health. 2 (2) e0000198.
+doi:10.1371/journal.pdig.0000198 (https://doi.org/10.1371%2Fjournal.pdig.0000198).
+PMC 9931230 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9931230). PMID 36812645
+(https://pubmed.ncbi.nlm.nih.gov/36812645).
+
+234. DePeau-Wilson, Michael (January 19, 2023). "AI Passes U.S. Medical Licensing Exam" (htt
+ps://www.medpagetoday.com/special-reports/exclusives/102705). MedPage Today.
+Archived (https://web.archive.org/web/20230409211356/https://www.medpagetoday.com/sp
+ecial-reports/exclusives/102705) from the original on April 9, 2023. Retrieved May 2, 2023.
+
+235. Howard, Alex; Hope, William; Gerada, Alessandro (April 2023). "ChatGPT and antimicrobial
+advice: the end of the consulting infection doctor?" (https://www.thelancet.com/journals/lanin
+f/article/PIIS1473-3099(23)00113-5/fulltext#back-bib1). The Lancet Infectious Diseases. 23
+(4): 405–406. doi:10.1016/s1473-3099(23)00113-5 (https://doi.org/10.1016%2Fs1473-309
+9%2823%2900113-5). ISSN 1473-3099 (https://search.worldcat.org/issn/1473-3099).
+PMID 36822213 (https://pubmed.ncbi.nlm.nih.gov/36822213). S2CID 257072872 (https://ap
+i.semanticscholar.org/CorpusID:257072872). Archived (https://web.archive.org/web/202303
+25232830/https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00113-5/fullte
+xt#back-bib1) from the original on March 25, 2023. Retrieved May 2, 2023.
+
+236. Gravel, Jocelyn; D'Amours-Gravel, Madeleine; Osmanlliu, Esli (September 1, 2023).
+"Learning to Fake It: Limited Responses and Fabricated References Provided by ChatGPT
+for Medical Questions" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11975740). Mayo
+Clinic Proceedings: Digital Health. 1 (3): 226–234. doi:10.1016/j.mcpdig.2023.05.004 (http
+s://doi.org/10.1016%2Fj.mcpdig.2023.05.004). ISSN 2949-7612 (https://search.worldcat.org/
+issn/2949-7612). PMC 11975740 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1197574
+0). PMID 40206627 (https://pubmed.ncbi.nlm.nih.gov/40206627).
+
+237. Rousmaniere, Tony; Goldberg, Simon B; Torous, John (2026). "Large language models as
+mental health providers" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12462653). The
+Lancet Psychiatry. 13 (1): 7–9. doi:10.1016/S2215-0366(25)00269-X (https://doi.org/10.101
+6%2FS2215-0366%2825%2900269-X). PMC 12462653 (https://www.ncbi.nlm.nih.gov/pmc/
+articles/PMC12462653). PMID 40939602 (https://pubmed.ncbi.nlm.nih.gov/40939602).
+
+238. Luo, Xiaochen; Ghosh, Smita; Tilley, Jacqueline L.; Besada, Patrica; Wang, Jinqiu; Xiang,
+Yangyang (2025). " "Shaping ChatGPT into my Digital Therapist": A thematic analysis of
+social media discourse on using generative artificial intelligence for mental health" (https://w
+ww.ncbi.nlm.nih.gov/pmc/articles/PMC12254646). Digital Health. 11 20552076251351088.
+Sage Journals. doi:10.1177/20552076251351088 (https://doi.org/10.1177%2F20552076251
+351088). ISSN 2055-2076 (https://search.worldcat.org/issn/2055-2076). PMC 12254646 (htt
+ps://www.ncbi.nlm.nih.gov/pmc/articles/PMC12254646). PMID 40656852 (https://pubmed.nc
+bi.nlm.nih.gov/40656852).
+
+
+
+239. Multiple sources:
+"Bill S.31" (https://malegislature.gov/Bills/193/S31/BillHistory). malegislature.gov.
+Archived (https://web.archive.org/web/20231207214930/https://malegislature.gov/Bills/1
+93/S31/BillHistory) from the original on December 7, 2023. Retrieved December 7, 2023.
+Annear, Steve (January 24, 2023). "Two elected officials drafted legislation to regulate
+artificial intelligence technology – with some help from ChatGPT" (https://www.bostonglo
+be.com/2023/01/24/metro/this-state-senator-drafted-legislation-regulate-artificial-intellige
+nce-technology-with-some-help-chatgpt). The Boston Globe. Archived (https://web.archi
+ve.org/web/20231207211926/https://www.bostonglobe.com/2023/01/24/metro/this-state-
+senator-drafted-legislation-regulate-artificial-intelligence-technology-with-some-help-chat
+gpt) from the original on December 7, 2023. Retrieved December 7, 2023.
+Garrity, Kelly; Kashinsky, Lisa (July 13, 2023). "ChatGPT enters the legislative chat" (http
+s://www.politico.com/newsletters/massachusetts-playbook/2023/07/13/chatgpt-enters-th
+e-legislative-chat-00106066). POLITICO. Archived (https://web.archive.org/web/2023120
+7211926/https://www.politico.com/newsletters/massachusetts-playbook/2023/07/13/chat
+gpt-enters-the-legislative-chat-00106066) from the original on December 7, 2023.
+Retrieved December 7, 2023.
+"Bill S.2539" (https://malegislature.gov/Bills/193/S2539). malegislature.gov. Retrieved
+June 12, 2025.
+
+240. Quach, Katyanna (December 2, 2023). "Local council in Brazil passes ChatGPT-written
+proposal" (https://www.theregister.com/2023/12/02/chatgpt_law_brazil). The Register.
+Archived (https://web.archive.org/web/20231207211926/https://www.theregister.com/2023/1
+2/02/chatgpt_law_brazil) from the original on December 7, 2023. Retrieved December 7,
+2023.
+
+241. Multiple sources:
+Jeantet, Diane; Savarese, Mauricio; LeBlanc, Steve; O'Brien, Matt (November 30, 2023).
+"Brazilian city enacts an ordinance that was secretly written by ChatGPT" (https://apnew
+s.com/article/brazil-artificial-intelligence-porto-alegre-5afd1240afe7b6ac202bb0bbc45e0
+8d4). AP News. Associated Press. Archived (https://web.archive.org/web/202312072157
+14/https://apnews.com/article/brazil-artificial-intelligence-porto-alegre-5afd1240afe7b6ac
+202bb0bbc45e08d4) from the original on December 7, 2023. Retrieved December 7,
+2023.
+Paúl, María Luisa (December 4, 2023). "A Brazilian city passed a law about water
+meters. ChatGPT wrote it" (https://www.washingtonpost.com/nation/2023/12/04/ai-writte
+n-law-porto-alegre-brazil). Washington Post. ISSN 0190-8286 (https://search.worldcat.or
+g/issn/0190-8286). Archived (https://web.archive.org/web/20231205015659/https://www.
+washingtonpost.com/nation/2023/12/04/ai-written-law-porto-alegre-brazil) from the
+original on December 5, 2023. Retrieved December 7, 2023.
+Foster, Gustavo (November 29, 2023). "Lei escrita por inteligência artificial é aprovada
+por vereadores em Porto Alegre; 'precedente perigoso', diz presidente da Câmara" (http
+s://g1.globo.com/rs/rio-grande-do-sul/noticia/2023/11/29/lei-escrita-por-inteligencia-artific
+ial-e-aprovada-por-vereadores-em-porto-alegre-precedente-perigoso-diz-presidente-da-
+camara.ghtml). G1 (in Brazilian Portuguese). Archived (https://web.archive.org/web/2023
+1207213810/https://g1.globo.com/rs/rio-grande-do-sul/noticia/2023/11/29/lei-escrita-por-i
+nteligencia-artificial-e-aprovada-por-vereadores-em-porto-alegre-precedente-perigoso-di
+z-presidente-da-camara.ghtml) from the original on December 7, 2023. Retrieved
+December 7, 2023.
+
+
+
+242. Multiple sources:
+Goswami, Rohan (May 30, 2023). "ChatGPT cited 'bogus' cases for a New York federal
+court filing. The attorneys involved may face sanctions" (https://www.cnbc.com/2023/05/
+30/chatgpt-cited-bogus-cases-for-a-new-york-federal-court-filing.html). CNBC. Archived
+(https://web.archive.org/web/20230530161531/https://www.cnbc.com/2023/05/30/chatgp
+t-cited-bogus-cases-for-a-new-york-federal-court-filing.html) from the original on May 30,
+2023. Retrieved May 30, 2023.
+Neumeister, Larry (June 8, 2023). "Lawyers blame ChatGPT for tricking them into citing
+bogus case law" (https://apnews.com/article/artificial-intelligence-chatgpt-courts-e15023
+d7e6fdf4f099aa122437dbb59b). Associated Press. Archived (https://web.archive.org/we
+b/20231108131752/https://apnews.com/article/artificial-intelligence-chatgpt-courts-e1502
+3d7e6fdf4f099aa122437dbb59b) from the original on November 8, 2023. Retrieved
+November 8, 2023.
+Brodkin, Jon (June 23, 2023). "Lawyers have real bad day in court after citing fake cases
+made up by ChatGPT" (https://arstechnica.com/tech-policy/2023/06/lawyers-have-real-b
+ad-day-in-court-after-citing-fake-cases-made-up-by-chatgpt). Ars Technica. Archived (htt
+ps://web.archive.org/web/20240126071502/https://arstechnica.com/tech-policy/2023/06/l
+awyers-have-real-bad-day-in-court-after-citing-fake-cases-made-up-by-chatgpt) from the
+original on January 26, 2024. Retrieved February 18, 2024.
+"Mata v. Avianca, Inc" (https://web.archive.org/web/20240213030046/https://casetext.co
+m/case/mata-v-avianca-inc-2/). Casetext. Archived from the original (https://casetext.co
+m/case/mata-v-avianca-inc-2) on February 13, 2024. Retrieved February 13, 2024.
+" 'Use with caution': How ChatGPT landed this US lawyer and his firm in hot water" (http
+s://www.abc.net.au/news/2023-06-24/us-lawyer-uses-chatgpt-to-research-case-with-emb
+arrassing-result/102490068). ABC News. June 24, 2023. Archived (https://web.archive.o
+rg/web/20231109010855/https://www.abc.net.au/news/2023-06-24/us-lawyer-uses-chatg
+pt-to-research-case-with-embarrassing-result/102490068) from the original on
+November 9, 2023. Retrieved November 9, 2023.
+"New York lawyers sanctioned for using fake ChatGPT cases in legal brief" (https://www.
+reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-202
+3-06-22). Reuters. Archived (https://web.archive.org/web/20250316161634/https://www.r
+euters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-202
+3-06-22) from the original on March 16, 2025. Retrieved April 25, 2025.
+Maruf, Ramishah (May 27, 2023). "Lawyer apologizes for fake court citations from
+ChatGPT | CNN Business" (https://www.cnn.com/2023/05/27/business/chat-gpt-avianca-
+mata-lawyers/index.html). CNN. Retrieved April 25, 2025.
+Davis, Wes (May 27, 2023). "A lawyer used ChatGPT and now has to answer for its
+'bogus' citations" (https://www.theverge.com/2023/5/27/23739913/chatgpt-ai-lawsuit-avia
+nca-airlines-chatbot-research). The Verge. Retrieved April 25, 2025.
+
+243. Wilkins, Stephanie (June 4, 2024). "11th Circuit Judge Uses ChatGPT in Deciding Appeal,
+Encourages Others to Consider It" (https://www.law.com/2024/06/04/11th-circuit-judge-uses-
+chatgpt-in-deciding-appeal-encourages-others-to-consider-it). Law.com. Archived (https://we
+b.archive.org/web/20240605225738/https://www.law.com/2024/06/04/11th-circuit-judge-use
+s-chatgpt-in-deciding-appeal-encourages-others-to-consider-it) from the original on June 5,
+2024. Retrieved June 5, 2024.
+
+244. Weiss, Debra Cassens (June 6, 2024). "In concurrence confession, appeals judge says
+ChatGPT research 'less nutty' than feared" (https://www.abajournal.com/news/article/appeal
+s-judge-makes-a-confession-he-consulted-chatgpt-and-found-the-results-less-nutty-than-i-fe
+ared). ABA Journal. Archived (https://web.archive.org/web/20240606190623/https://www.ab
+ajournal.com/news/article/appeals-judge-makes-a-confession-he-consulted-chatgpt-and-fou
+nd-the-results-less-nutty-than-i-feared) from the original on June 6, 2024. Retrieved June 6,
+2024.
+
+
+
+245. "Pakistani judge uses ChatGPT to make court decision" (https://www.gulfnews.com/world/as
+ia/pakistan/pakistani-judge-uses-chatgpt-to-make-court-decision-1.95104528). Gulf News.
+April 13, 2023. Archived (https://web.archive.org/web/20230420095432/https://gulfnews.co
+m/amp/world/asia/pakistan/pakistani-judge-uses-chatgpt-to-make-court-decision-1.9510452
+8) from the original on April 20, 2023. Retrieved April 20, 2023.
+
+246. "AI revolution is here': Pakistani court takes help from ChatGPT to grant bail in rape case" (h
+ttps://pakobserver.net/ai-revolution-is-here-pakistani-court-takes-help-from-chatgpt-to-grant-
+bail-in-rape-case). Pakistan Observer. April 11, 2023. Archived (https://web.archive.org/web/
+20230420095431/https://pakobserver.net/ai-revolution-is-here-pakistani-court-takes-help-fro
+m-chatgpt-to-grant-bail-in-rape-case) from the original on April 20, 2023. Retrieved April 20,
+2023.
+
+247. Merken, Sara (October 23, 2025). "Two federal judges say use of AI led to errors in US court
+rulings" (https://www.reuters.com/sustainability/society-equity/two-federal-judges-say-use-ai-
+led-errors-us-court-rulings-2025-10-23). Reuters. Retrieved October 25, 2025.
+
+248. Rose, Neil (December 7, 2023). "Litigant unwittingly put fake cases generated by AI before
+tribunal" (https://www.legalfutures.co.uk/latest-news/litigant-unwittingly-put-fake-cases-gener
+ated-by-ai-before-tribunal). Legal Futures. Archived (https://web.archive.org/web/202405141
+54452/https://www.legalfutures.co.uk/latest-news/litigant-unwittingly-put-fake-cases-generat
+ed-by-ai-before-tribunal) from the original on May 14, 2024. Retrieved May 14, 2024.
+
+249. Cross, Michael (December 11, 2023). "AI hallucinates nine 'helpful' case authorities" (https://
+www.lawgazette.co.uk/news/ai-hallucinates-nine-helpful-case-authorities/5118179.article).
+Law Society Gazette. Archived (https://web.archive.org/web/20240502044513/https://www.l
+awgazette.co.uk/news/ai-hallucinates-nine-helpful-case-authorities/5118179.article) from the
+original on May 2, 2024. Retrieved May 14, 2024.
+
+250. "Harber v Commissioners for His Majesty's Revenue and Customs [2023] UKFTT 1007
+(TC)" (https://www.bailii.org/uk/cases/UKFTT/TC/2023/TC09010.html). BAILII. December 4,
+2023. Archived (https://web.archive.org/web/20240514154452/https://www.bailii.org/uk/case
+s/UKFTT/TC/2023/TC09010.html) from the original on May 14, 2024. Retrieved May 14,
+2024.
+
+Further reading
+Biswas, Som (April 1, 2023). "ChatGPT and the Future of Medical Writing" (https://pubs.rsn
+a.org/doi/pdf/10.1148/radiol.223312). Radiology. 307 (2) e223312.
+doi:10.1148/radiol.223312 (https://doi.org/10.1148%2Fradiol.223312). ISSN 0033-8419 (http
+s://search.worldcat.org/issn/0033-8419). PMID 36728748 (https://pubmed.ncbi.nlm.nih.gov/
+36728748). S2CID 256501098 (https://api.semanticscholar.org/CorpusID:256501098).
+Liebrenz, Michael; Schleifer, Roman; Buadze, Anna; Bhugra, Dinesh; Smith, Alexander
+(February 2023). "Generating scholarly content with ChatGPT: ethical challenges for
+medical publishing" (https://doi.org/10.1016%2Fs2589-7500%2823%2900019-5). The
+Lancet Digital Health. 5 (3): e105–e106. doi:10.1016/s2589-7500(23)00019-5 (https://doi.or
+g/10.1016%2Fs2589-7500%2823%2900019-5). ISSN 2589-7500 (https://search.worldcat.or
+g/issn/2589-7500). PMID 36754725 (https://pubmed.ncbi.nlm.nih.gov/36754725).
+S2CID 256655912 (https://api.semanticscholar.org/CorpusID:256655912).
+Bartholomew, Jem; Mehta, Dhrumil. "How the media is covering ChatGPT" (https://www.cjr.o
+rg/tow_center/media-coverage-chatgpt.php). Columbia Journalism Review. Retrieved
+May 30, 2023.
+Prompt engineering (https://platform.openai.com/docs/guides/prompt-engineering) guide
+from OpenAI
+
+
+
+External links
+Official website (https://chatgpt.com) 
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=ChatGPT&oldid=1383144094"

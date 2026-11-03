@@ -1,0 +1,477 @@
+﻿Regulation of cryptocurrency
+The regulation of cryptocurrency constitutes regulatory,
+legal and political actions taken by various governments to
+regulate and oversee the development and adoption of bitcoin,
+cryptocurrencies and blockchain technologies. Restrictions on
+cryptocurrency have been motivated by concerns regarding
+financial stability, consumer protection, national security, and
+enforcing laws against money laundering and other illegal
+activity. These actions have drawn criticism from privacy
+advocates, finance companies, and open source code
+developers.
+
+Background Bitcoin, the largest cryptocurrency, is one
+of the primary targets of the regulation of
+
+Following the rise of cryptocurrencies in the 2010s and cryptocurrency
+2020s, governments responded with increased regulatory
+attention alleging concerns regarding consumer protection,
+fraud, and illegal activity. In 2022, the major centralized crypto exchange FTX collapsed, which
+increased the calls for regulation by governments, particularly in the United States.[1]
+
+Critics of cryptocurrency regulation broadly argue that cryptocurrencies empower individuals and
+challenge traditional financial systems so regulations must balance targeting fraud and other illicit
+activity with concerns for individual liberties and innovation.[2]
+
+History
+
+United States
+
+Early regulations, 2013–2017
+In 2013, the U.S. Financial Crimes Enforcement Network (FINCEN) classified certain cryptocurrency
+businesses and projects as money transmitters.[3] This subjected the businesses to anti-money laundering
+(AML) regulations.[3] In 2017, the SEC began declaring some initial coin offerings (ICOs) as
+unregistered securities and taking enforcement action against them.[4] Regulators and some policymakers
+cite concerns about the use of cryptocurrencies in fraud and illegal activity.[5] Some commentators stated
+these regulations failed to balance innovation with regulatory control and led to a chilling of the
+industry.[6][7][8]
+
+
+
+SEC enforcement
+As SEC chair, Gary Gensler filed more than 120 lawsuits against
+cryptocurrency companies and projects.[9][10] Gensler described the market
+as "the Wild West" due to his perception that the industry lacked sufficient
+regulatory oversight.[11][12] The SEC has argued that applying securities
+law is necessary to protect retail investors from speculative projects. In
+2020, the SEC filed a lawsuit against Ripple, claiming the sale of its token
+was tantamount to the sale of unregistered securities. Ripple CEO Brad
+Garlinghouse criticized the SEC for lacking regulatory clarity which he
+believes has hindered innovation using blockchain technology and unfairly
+targeted legitimate projects that did not qualify as securities.[13][9][14] In
+2024, Ripple won a partial legal victory when a court ruled that retail XRP
+sales were not securities transactions.[15]
+
+Gary Gensler, former
+In 2021, the SEC charged LBRY, a blockchain-based video platform with Chair of the SEC has
+selling unregistered digital securities in the form of their LBRY credits been the subject of praise
+(LBC). The claim was litigated in federal court.[16] Similar to Ripple, and criticism for his
+
+LBRY alleged the SEC lacked regulatory clarity in enforcement central role in the
+regulation of
+
+proceedings stating, "Even after five years of fighting and a court ruling, we cryptocurrency.
+still honestly do not know how to legally launch a public blockchain in the
+U.S."[17] In response to the SEC's litigation, Jeremy Kauffman, the founder
+of LBRY, asserted that " the SEC has an agenda out to hurt or destroy the cryptocurrency industry."[18] In
+2022, a federal court ruled in favor of the SEC's determination that the LBC tokens constituted a security
+and must be registered as such with the SEC.[17] In 2023, LBRY shut down operations due to an inability
+to pay the SEC fines, legal costs and private debtors.[19]
+
+In 2023, the SEC began enforcement action against major cryptocurrency exchanges such as Binance and
+Coinbase, alleging operation of unregistered securities platforms.[2] Additionally, the original complaint
+against Binance alleged violations of illegally serving U.S. users and commingling customer funds.[20]
+
+The charges were formally dropped in 2025 in a move that Mackenzie Sigalos, writing for CNBC,
+described "a symbolic end to one of the most aggressive crypto crackdowns in U.S. history."[20]
+
+DOJ criminal prosecutions of privacy tools
+In 2023, the U.S. Department of Justice charged Roman Storm, the developer of the Ethereum-based
+mixing service Tornado Cash, with conspiracy to commit money laundering.[21] In 2024, the DOJ
+arrested Keonne Rodriguez and William Lonergan Hill, developers of Samourai Wallet, a privacy-focused
+bitcoin wallet that uses a Coinjoin tool that mixes a bitcoin transaction with other transactions, also
+alleging money laundering.[22] Critics of the prosecutions described them as attacks on open source
+application development and financial privacy and made parallels to other historical examples of
+prosecution of privacy tools such as encryption software.[23][24] Organizations, such as the Electronic
+Frontier Foundation, argue that these prosecutions constitute an unconstitutional attack on freedom of
+speech, arguing that the writing and development of code is protected by the First Amendment.[25]
+
+
+
+Legislation and political campaigns
+Senator Elizabeth Warren has been a persistent advocate for
+increasing regulations on cryptocurrencies, going so far as to
+create what she called an "anti-crypto army."[26] Warren
+supported legislation to expand anti-money laundering
+compliance and increase federal surveillance on crypto.[27]
+
+Some have described Warren's actions as attacks on user
+privacy, individual custody of money, and the ability to
+securely hold inflation hedges[28] and that these attacks are a
+political miscalculation.[29]
+
+John Deaton, one of Warren's competitors in her 2024 Senate
+race, cited Warren’s support for regulation of cryptocurrencies
+as a primary motivation to run against her.[30] Deaton stated
+"She's always been going to lose the war [on crypto] because
+I think I'm gonna beat her."[28] Some US Democrats are
+supportive of cryptocurrency and have been critical of Elizabeth Warren, a leading advocate of
+proposals to regulate it.[31][32][33] Corey Booker has tighter crypto oversight, whose “anti-
+discussed how he believes crypto is a “democratizing" force crypto army" stance has drawn criticism
+and helps people who have been shut out from traditional from libertarian and crypto-industry
+
+banking receive increased financial access.[34] groups.
+
+In 2023, while running for president, Ron DeSantis claimed
+that the Biden Administration had declared a "war on bitcoin and cryptocurrency" that he claimed he
+would end if elected president.[35]
+
+Shift in U.S. policy
+In the 2024 presidential election, crypto regulation became a wedge issue. Donald Trump, originally a
+critic of cryptocurrency and bitcoin, saying bitcoin was "based on thin air,"[36] reversed his stance in the
+election, stating he would end what he called "Kamala's,"[37] "Biden's,"[38] and the "federal
+bureaucracy's"[39] regulation of cryptocurrencies.[40] He also stated he would fire Gary Gensler.
+Observers noted that Trump's reversal was similar to other populist pivots he has done previously.[40]
+
+As a result, individuals in the crypto industry began to support Trump's campaign. The Winklevoss twins
+donated millions,[41] venture capitalist David Sacks hosted a fundraiser for his campaign,[42] and a
+crypto-focused PAC called Fairshake was created to oppose anti-crypto politicians and support pro-crypto
+politicians.[13][38] Following Trump's electoral victory, Gary Gensler announced that he would step down
+on January 20, 2025.[11] As part of Trump's inauguration, he held a Crypto Ball where David Sacks
+declared that, "The war on crypto is over."[15][43]
+
+In 2025, after returning to office, Trump advanced a series of pro-crypto measures. He signed an
+executive order ordering the creation of a strategic bitcoin reserve.[44] He also hosted a White House
+crypto summit with industry leaders present to discuss regulatory reform and technological
+innovation.[45][46] In February 2025, the SEC dropped its lawsuit against Coinbase and halted
+investigations into Gemini, OpenSea and Uniswap Labs. Following these changes, Cameron Winklevoss
+stated that, “This marks another milestone to the end of the war on crypto.”[47] Other observers said that
+
+
+
+these actions symbolized a political pivot and a de-escalation in the "war on crypto".[48][9][49] The Trump
+administration has not ceased all enforcement actions against cryptocurrency projects. The prosecution of
+Tornado Cash founder Roman Storm continues to be ongoing with chief legal officer of the crypto firm
+Variant stating, "This really is a vestige of the Biden administration’s war on crypto", and that, "It’s
+shocking the case is still moving forward.”[21]
+
+In 2025, the House Committee on Financial Services and Senate Banking Committee started
+investigations into "Operation Chokepoint 2.0", an alleged conspiracy that claims the Federal Deposit
+Insurance Corporation (FDIC) and other regulators coordinated to pressure banks to stop business with all
+crypto-related activity.[50]
+
+China
+In 2017, China banned cryptocurrency exchanges with concerns of "capital outflows" and "financial
+instability."[51] In 2021, China's Inner Mongolia region announced a local "war on cryptocurrency
+mining", to meet energy targets.[52][53] Shortly thereafter, national authorities banned crypto mining
+nationwide.[54] Analysts state that cryptocurrencies are seen as a threat to the use of the digital yuan.[54]
+
+Europe
+In the European Union, management of the crtyptocurrency market has mainly focused on safeguarding
+user privacy and fighting moneylaundering rather than outright bans on sales. In 2018, the Fifth Anti-
+Money Laundering Directive (AMLD5) in Europe began the process of regulating cryptocurrency
+exchanges and self-custodial wallets.[55] In 2021, the European Commission sought to create a
+surveillance system that would collect and share data on millions of crypto users, with the stated
+motivation of "beating financial crime."[56] In 2022, European policymakers have advanced measures
+that some critics argue threaten financial privacy. One of these proposed EU rules targets self-custodial
+bitcoin wallets, which some have claimed would limit an individual's ability to hold crypto outside of
+centralized exchanges.[57] In response, civic initiatives such as the Digital Freedom Declaration have
+called on the EU to establish clearer legal protections for privacy-enhancing technologies, arguing that
+privacy is a human right that should be applicable to digital and financial activity.[58] In 2024, a panel of
+judges in the Netherlands convicted Alexey Pertsev, one of the developers of Tornado Cash, with money
+laundering for developing the code for the open source project.[6] In 2025, the Financial Action Task
+Force Travel Rule, began to require verifying wallet ownership and collect personal data.[59] Additionally,
+financial institutions, including cryptocurrency exchanges must collect know your customer information
+and share it with other institutions involved in the transaction. Critics say that these regulations could
+push users toward centralized custodians, exposing them to risks such as hacking, data breaches, and
+government surveillance of transactions.[59]
+
+See also
+blockchain – Distributed data store for digital transactions
+Ponzi scheme – Type of financial fraud
+Pump and dump – Form of securities fraud
+
+
+
+References
+1. "After FTX collapse, pressure builds for tougher crypto rules" (https://www.reuters.com/busin
+
+ess/finance/after-ftx-collapse-pressure-builds-tougher-crypto-rules-2022-12-02/). Reuters.
+2022-12-02. Retrieved 2025-07-16.
+
+2. "The US government just declared war on crypto" (https://web.archive.org/web/2024011917
+1334/https://www.businessinsider.com/sec-binance-coinbase-crypto-digital-currency-2023-
+6). Business Insider. Archived from the original (https://www.businessinsider.com/sec-binanc
+e-coinbase-crypto-digital-currency-2023-6) on 2024-01-19. Retrieved 2025-07-16.
+
+3. "Banking, Professional Perspective - FinCEN Civil Enforcement and Virtual Currency" (http
+s://www.bloomberglaw.com/external/document/XAHVQ2US000000/banking-professional-pe
+rspective-fincen-civil-enforcement-and-vi). www.bloomberglaw.com. February 2020.
+Retrieved 2025-07-16.
+
+4. Popper, Nathaniel (2017-07-26). "S.E.C. Issues Warning on Initial Coin Offerings" (https://w
+ww.nytimes.com/2017/07/25/business/sec-issues-warning-on-initial-coin-offerings.html). The
+New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331). Retrieved
+2025-07-16.
+
+5. Steve Contorno; Aaron Pellish (2024-07-27). "Trump, who once trashed bitcoin as 'based on
+thin air,' addresses crypto's largest convention" (https://www.cnn.com/2024/07/27/politics/do
+nald-trump-bitcoin-cryptocurrency). CNN. Retrieved 2025-07-16.
+
+6. Khalili, Joel. "Tornado Cash Developer Found Guilty of Laundering $1.2 Billion of Crypto" (ht
+tps://www.wired.com/story/tornado-cash-developer-found-guilty-of-laundering-crypto/).
+Wired. ISSN 1059-1028 (https://search.worldcat.org/issn/1059-1028). Retrieved
+2025-07-16.
+
+7. Nikolaus R. Fahrer; Anne M. Coughlan (2023-06-01). "The (somewhat lively) state of crypto
+regulation" (https://www.thomsonreuters.com/en-us/posts/investigation-fraud-and-risk/crypto
+-regulation/). Thomson Reuters Institute. Retrieved 2025-07-16.
+
+8. Sherlock, Michael. "BitCoin: The Case Against Strict Regulation" (https://www.bu.edu/rbfl/file
+s/2017/09/p991.pdf) (PDF). www.bu.edu. Archived (https://web.archive.org/web/202404061
+72038/https://www.bu.edu/rbfl/files/2017/09/p991.pdf) (PDF) from the original on 2024-04-
+06. Retrieved 2025-07-16.
+
+9. Brennan, Margaret (2024-12-08). "Crypto industry spent big during the 2024 election. How it
+might impact Washington. - CBS News" (https://www.cbsnews.com/news/brad-garlinghouse
+-crypto-election-politics-60-minutes/). www.cbsnews.com. Retrieved 2025-07-16.
+
+10. Harty, Declan (2023-06-12). "The SEC goes to war with crypto" (https://www.politico.com/ne
+wsletters/politico-nightly/2023/06/12/the-secs-war-on-crypto-00101624). POLITICO.
+Retrieved 2025-07-16.
+
+11. "SEC Chair Gary Gensler, who led US crackdown on cryptocurrencies, to step down" (http
+s://apnews.com/article/sec-gensler-trump-bitcoin-12ed7655830172800a4741a6cb39f372).
+AP News. 2024-11-21. Retrieved 2025-07-16.
+
+12. Michaels, Dave. "Big Battles Loom in SEC's War on Crypto" (https://web.archive.org/web/20
+240618105806/https://www.wsj.com/finance/regulation/big-battles-loom-in-secs-war-on-cryp
+to-aeff0d78). WSJ. Archived from the original (https://www.wsj.com/finance/regulation/big-ba
+ttles-loom-in-secs-war-on-crypto-aeff0d78) on 2024-06-18. Retrieved 2025-07-16.
+
+13. Brennan, Margaret (2024-12-06). "Crypto-backed super PAC Fairshake likely wouldn't exist
+if not for SEC Chair Gensler's actions, Ripple CEO says - CBS News" (https://www.cbsnew
+s.com/news/fairshake-super-pac-brad-garlinghouse-sec-gensler-60-minutes/).
+www.cbsnews.com. Retrieved 2025-07-16.
+
+
+
+14. "Ripple Labs CEO Says SEC's Gensler Is at War With Crypto" (https://www.bloomberg.com/
+news/videos/2024-07-17/ripple-labs-ceo-says-sec-s-gensler-is-at-war-with-crypto-video).
+Bloomberg.com. July 17, 2024.
+
+15. Sigalos, MacKenzie; Levy, Ari (2025-03-22). "Crypto's long battle with SEC comes to a close
+with Ripple victory" (https://www.nbcphiladelphia.com/news/business/money-report/cryptos-l
+ong-battle-with-sec-comes-to-a-close-with-ripple-victory/4141098/). NBC10 Philadelphia.
+Retrieved 2025-07-16.
+
+16. "US Securities and Exchange Commission v. LBRY, Inc., No. 1:2021cv00260 - Document 86
+(D.N.H. 2022)" (https://law.justia.com/cases/federal/district-courts/new-hampshire/nhdce/1:2
+021cv00260/56253/86/). Justia Law. Retrieved 2025-07-16.
+
+17. "Until Ripple ruling, crypto industry won't know impact of regulator win over LBRY" (https://w
+eb.archive.org/web/20221108235445/https://www.reuters.com/legal/transactional/until-ripple
+-ruling-crypto-industry-wont-know-impact-regulator-win-over-lbry-2022-11-08/). Reuters.
+Archived from the original (https://www.reuters.com/legal/transactional/until-ripple-ruling-cry
+pto-industry-wont-know-impact-regulator-win-over-lbry-2022-11-08/) on 2022-11-08.
+Retrieved 2025-07-16.
+
+18. Jonathan Phelps (2023-01-30). "LBRY founder decries precedent, likely to pay $50K in SEC
+case" (https://www.unionleader.com/news/courts/lbry-founder-decries-precedent-likely-to-pa
+y-50k-in-sec-case/article_5cf07001-5491-5d84-8d77-735849bc59c0.html).
+UnionLeader.com. Retrieved 2025-07-16.
+
+19. "LBRY shuts down operations" (https://finance.yahoo.com/news/lbry-shuts-down-operations
+-101743562.html). Yahoo Finance. Archived (https://web.archive.org/web/20240930095151/
+https://finance.yahoo.com/news/lbry-shuts-down-operations-101743562.html) from the
+original on 2024-09-30. Retrieved 2025-07-16.
+
+20. Sigalos, MacKenzie (2025-05-29). "SEC drops Binance lawsuit, ending one of last
+remaining crypto enforcement actions" (https://www.cnbc.com/2025/05/29/sec-drops-binanc
+e-lawsuit-ending-one-of-last-remaining-crypto-actions.html). CNBC. Retrieved 2025-07-16.
+
+21. Khalili, Joel. "Tornado Cash Made Crypto Anonymous. Now One of Its Creators Faces Trial"
+(https://www.wired.com/story/roman-storm-tornado-cash-crypto-trial/). Wired. ISSN 1059-
+1028 (https://search.worldcat.org/issn/1059-1028). Retrieved 2025-07-16.
+
+22. "The Arrest of Samourai Wallet Developers Shows the US Government Hates Privacy and
+Freedom | Mises Institute" (https://mises.org/mises-wire/arrest-samourai-wallet-developers-s
+hows-us-government-hates-privacy-and-freedom). mises.org. 2024-05-09. Retrieved
+2025-07-16.
+
+23. "The government fears this privacy tool" (https://reason.com/video/2024/05/09/the-governm
+ent-fears-this-privacy-tool/). Reason.com. 2024-05-09. Retrieved 2025-07-16.
+
+24. Book, Joakim (2024-05-01). "Groundhog Day for the crypto wars: The DOJ on bitcoin prowl"
+(https://reason.com/2024/05/01/groundhog-day-for-the-crypto-wars-the-doj-on-bitcoin-prow
+l/). Reason.com. Retrieved 2025-07-16.
+
+25. Ross Schulman; Cindy Cohn (2023-04-11). "An Update on Tornado Cash" (https://www.eff.o
+rg/deeplinks/2023/04/update-tornado-cash). Electronic Frontier Foundation. Retrieved
+2025-07-16.
+
+26. "Elizabeth Warren is building an anti-crypto army. Some conservatives are on board" (http
+s://www.politico.com/news/2023/02/14/elizabeth-warren-anti-crypto-ftx-00082624).
+POLITICO. Retrieved 2025-07-16.
+
+27. Bambrough, Billy. "Elizabeth Warren Is Building An 'Anti-Crypto Army'—Feeding Serious
+U.S. Bitcoin Ban Warnings" (https://web.archive.org/web/20250227073807/https://www.forb
+es.com/sites/digital-assets/2023/03/30/elizabeth-warren-is-building-an-anti-crypto-army-feed
+ing-serious-us-bitcoin-ban-warnings/). Forbes. Archived from the original (https://www.forbe
+s.com/sites/digital-assets/2023/03/30/elizabeth-warren-is-building-an-anti-crypto-army-feedi
+ng-serious-us-bitcoin-ban-warnings/) on 2025-02-27. Retrieved 2025-07-16.
+
+
+
+28. Huang, Roger. "Resistance Builds Against The Warren "Anti-Crypto" Agenda" (https://web.ar
+chive.org/web/20250425081332/https://www.forbes.com/sites/digital-assets/2024/08/15/resi
+stance-builds-against-the-warren-anti-crypto-agenda/). Forbes. Archived from the original (ht
+tps://www.forbes.com/sites/digital-assets/2024/08/15/resistance-builds-against-the-warren-a
+nti-crypto-agenda/) on 2025-04-25. Retrieved 2025-07-16.
+
+29. "Waging War on Cryptocurrency Would Be a Mistake for Democrats" (https://news.bloomber
+glaw.com/securities-law/waging-war-on-cryptocurrency-would-be-a-mistake-for-democrats).
+Archived (https://web.archive.org/web/20220815030839/https://news.bloomberglaw.com/sec
+urities-law/waging-war-on-cryptocurrency-would-be-a-mistake-for-democrats) from the
+original on 2022-08-15. Retrieved 2025-07-16.
+
+30. Pappas, Alex (2025-07-09). "Warren lays out her own framework for crypto market
+regulation" (https://thehill.com/policy/technology/5391177-warren-framework-crypto-market-
+structure/). The Hill. Retrieved 2025-09-15.
+
+31. Goodman, Jasper; Mueller, Eleanor; Warmbrodt, Zachary (2024-05-17). "Democrats' crypto
+clash" (https://www.politico.com/newsletters/morning-money/2024/05/17/democrats-crypto-c
+lash-00158589). POLITICO. Retrieved 2025-07-16.
+
+32. "Democratic divisions emerge as Congress tackles crypto regulation" (https://www.nbcnews.
+com/politics/congress/democratic-divisions-emerge-congress-tackles-crypto-regulation-rcna
+212886). NBC News. 2025-06-17. Retrieved 2025-07-16.
+
+33. "Trio of House Dems press colleagues to support GOP-led crypto bill" (https://www.politico.c
+om/live-updates/2025/07/14/congress/trio-of-house-dems-press-colleagues-to-support-gop-l
+ed-crypto-bill-00452381). POLITICO. 2025-07-14. Retrieved 2025-07-16.
+
+34. Chow, Andrew R. (2024-05-22). "Why Donald Trump Is Betting on Crypto" (https://time.com/
+6981035/donald-trump-crypto-election-2024/). TIME. Retrieved 2025-07-16.
+
+35. Saul, Derek. "DeSantis Slams Biden's 'War On Bitcoin' That Hasn't Actually Been Declared"
+(https://web.archive.org/web/20240716171926/https://www.forbes.com/sites/dereksaul/202
+3/07/31/desantis-slams-bidens-war-on-bitcoin-that-hasnt-actually-been-declared/). Forbes.
+Archived from the original (https://www.forbes.com/sites/dereksaul/2023/07/31/desantis-sla
+ms-bidens-war-on-bitcoin-that-hasnt-actually-been-declared/) on 2024-07-16. Retrieved
+2025-07-16.
+
+36. Fortson, Danny (2025-03-08). "Trump says 'war on crypto is over' but leaves tech bros
+wanting more" (https://www.thetimes.com/business-money/technology/article/donald-trump-t
+he-war-on-crypto-is-over-pcnp3pvdk). www.thetimes.com. Retrieved 2025-07-16.
+
+37. "Trump Pledges to End 'Kamala's War on Crypto' " (https://web.archive.org/web/202507160
+13018/https://www.wsj.com/livecoverage/harris-trump-election-10-31-24/card/trump-vows-to
+-end-kamala-s-war-on-crypto--S52r64qKzlUHWKAOGwlq). WSJ. Archived from the original
+(https://www.wsj.com/livecoverage/harris-trump-election-10-31-24/card/trump-vows-to-end-k
+amala-s-war-on-crypto--S52r64qKzlUHWKAOGwlq) on 2025-07-16. Retrieved 2025-07-16.
+
+38. Kim, Whizy (2024-09-13). "Crypto is betting it all on the 2024 elections" (https://web.archive.
+org/web/20250603231627/https://www.vox.com/money/371597/crypto-politics-spending-202
+4-elections-trump). Vox. Archived from the original (https://www.vox.com/money/371597/cry
+pto-politics-spending-2024-elections-trump) on 2025-06-03. Retrieved 2025-07-16.
+
+39. "First White House crypto summit leaves some investors unhappy" (https://www.nbcnews.co
+m/business/personal-finance/white-house-crypto-summit-details-what-to-know-rcna195291).
+NBC News. 2025-03-07. Retrieved 2025-07-16.
+
+40. "Why the circumstances surrounding Trump's crypto flip seem familiar" (https://www.msnbc.
+com/rachel-maddow-show/maddowblog/circumstances-surrounding-trumps-crypto-flip-seem
+-familiar-rcna158284). MSNBC.com. 2024-06-21. Retrieved 2025-07-16.
+
+41. Jones, Callum (2024-06-20). "Winklevoss twins donate $1m each to Trump as champion of
+cryptocurrency" (https://www.theguardian.com/us-news/article/2024/jun/20/winklevoss-twins
+-donate-trump-cryptocurrency). The Guardian. ISSN 0261-3077 (https://search.worldcat.org/
+issn/0261-3077). Retrieved 2025-07-16.
+
+
+
+42. "David Sacks' 130-day White House mission to remake crypto and AI" (https://sfstandard.co
+m/2025/07/10/david-sacks-crypto-white-house-donald-trump/). The San Francisco
+Standard. 2025-07-10. Retrieved 2025-07-16.
+
+43. Sigalos, MacKenzie (2025-01-23). "Trump signs executive order promoting crypto, paving
+way for digital asset stockpile" (https://www.cnbc.com/2025/01/23/trump-signs-executive-ord
+er-on-crypto-digital-asset-stockpile.html). CNBC. Retrieved 2025-07-16.
+
+44. "Trump says he's ending the U.S. government's 'war on crypto' " (https://web.archive.org/we
+b/20250308003021/https://www.washingtonpost.com/technology/2025/03/07/trump-crypto-s
+ummit-white-house/). The Washington Post. 2025-03-07. Archived from the original (https://
+www.washingtonpost.com/technology/2025/03/07/trump-crypto-summit-white-house/) on
+2025-03-08. Retrieved 2025-07-16.
+
+45. "First White House crypto summit leaves some investors unhappy" (https://www.nbcnews.co
+m/business/personal-finance/white-house-crypto-summit-details-what-to-know-rcna195291).
+NBC News. 2025-03-07. Retrieved 2025-07-16.
+
+46. Sigalos, MacKenzie (2025-03-07). "Trump's first White House Crypto Summit has VIPs
+pushing for favorable laws" (https://www.cnbc.com/2025/03/07/trumps-first-crypto-summit-h
+as-attendees-ready-to-push-for-regulation.html). CNBC. Retrieved 2025-07-16.
+
+47. "Under Trump, U.S. Increasingly Pulls Back From Crypto Crackdown" (https://web.archive.or
+g/web/20250607172720/https://www.nytimes.com/2025/02/28/technology/crypto-sec-trump.
+html). 2025-02-28. Archived from the original (https://www.nytimes.com/2025/02/28/technolo
+gy/crypto-sec-trump.html) on 2025-06-07. Retrieved 2025-07-16.
+
+48. Blum, Sam (2024-12-09). "The 'War on Crypto' Helped Get Trump Elected, According to
+Ripple's Brad Garlinghouse" (https://www.inc.com/sam-blum/the-war-on-crypto-helped-get-tr
+ump-elected-according-to-ripples-brad-garlinghouse/91062612). Inc. Archived (https://web.a
+rchive.org/web/20250206220447/https://www.inc.com/sam-blum/the-war-on-crypto-helped-g
+et-trump-elected-according-to-ripples-brad-garlinghouse/91062612) from the original on
+2025-02-06. Retrieved 2025-07-16.
+
+49. Giorno, Taylor (2024-12-26). "Crypto readies its wish list for Trump" (https://web.archive.org/
+web/20241226221701/https://thehill.com/business/5054066-crypto-industry-2024-election-le
+gislation/). The Hill. Archived from the original (https://thehill.com/business/5054066-crypto-i
+ndustry-2024-election-legislation/) on 2024-12-26. Retrieved 2025-07-16.
+
+50. Khalili, Joel (Feb 18, 2025). "Chokepoint 2.0: An Investigation Promises the Truth About
+Crypto's Biggest Conspiracy" (https://www.wired.com/story/operation-chokepoint-20-crypto-
+debanking-conspiracy/). wired.com. Retrieved July 17, 2025.
+
+51. "Bitcoin hits $100,000-mark: How China lost crypto race to US and Trump" (https://timesofin
+dia.indiatimes.com/business/cryptocurrency/bitcoin/bitcoin-hits-100000-mark-how-china-lost
+-crypto-race-to-us-and-trump/articleshow/116000932.cms). The Times of India. 5 December
+2024.
+
+52. "China's Inner Mongolia Declares War on Crypto Mining" (https://www.bloomberg.com/news/
+videos/2021-03-04/china-s-inner-mongolia-declares-war-on-crypto-mining-video).
+Bloomberg.com. March 4, 2021.
+
+53. "Bitcoin Rises After China Region Declares War on Crypto Mining" (https://web.archive.org/
+web/20210301101903/https://www.bloomberg.com/news/articles/2021-03-01/bitcoin-rises-af
+ter-china-region-declares-war-on-crypto-mining). Bloomberg.com. Archived from the original
+(https://www.bloomberg.com/news/articles/2021-03-01/bitcoin-rises-after-china-region-decla
+res-war-on-crypto-mining) on 2021-03-01. Retrieved 2025-07-16.
+
+54. John, Alun; Shen, Samuel; Wilson, Tom; Wilson, Tom (2021-09-24). "China's top regulators
+ban crypto trading and mining, sending bitcoin tumbling" (https://www.reuters.com/world/chi
+na/china-central-bank-vows-crackdown-cryptocurrency-trading-2021-09-24/). Reuters.
+Archived (https://web.archive.org/web/20230214061603/https://www.reuters.com/world/chin
+a/china-central-bank-vows-crackdown-cryptocurrency-trading-2021-09-24/) from the original
+on 2023-02-14. Retrieved 2025-07-16.
+
+
+
+55. "Finance, Professional Perspective - EU Regulation of Cryptocurrency Exchanges: 5AMLD
+Ups the Ante" (https://www.bloomberglaw.com/external/document/X4F752K4000000/finance
+-professional-perspective-eu-regulation-of-cryptocurrency). www.bloomberglaw.com. July 1,
+2018. Retrieved 2025-07-16.
+
+56. O'Sullivan, Andrea (2021-07-27). "EU Bureaucrats Seek to Diminish Your Cryptocurrency
+Privacy" (https://reason.com/2021/07/27/eu-bureaucrats-seek-to-diminish-your-cryptocurren
+cy-privacy/). Reason.com. Retrieved 2025-07-16.
+
+57. O'Sullivan, Andrea (2022-04-19). "Europe Targets Self-Hosted Bitcoin Wallets—and
+Financial Privacy" (https://reason.com/2022/04/19/europe-targets-self-hosted-bitcoin-wallets
+-and-financial-privacy/). Reason.com. Retrieved 2025-07-16.
+
+58. Fannizadeh, Fatemeh. "Digital Freedom Declaration Presses EU For Clear Rules On
+Privacy Tech" (https://web.archive.org/web/20250529021959/https://www.forbes.com/sites/d
+igital-assets/2025/05/28/digital-freedom-declaration-presses-eu-for-clear-rules-on-privacy-te
+ch/). Forbes. Archived from the original (https://www.forbes.com/sites/digital-assets/2025/05/
+28/digital-freedom-declaration-presses-eu-for-clear-rules-on-privacy-tech/) on 2025-05-29.
+Retrieved 2025-07-16.
+
+59. Ward, Susie Violet. "New EU Rules Could Threaten Your Security – What You Need To
+Know" (https://web.archive.org/web/20250603044659/https://www.forbes.com/sites/digital-a
+ssets/2025/01/07/new-eu-rules-threaten-your-security--what-you-need-to-know/). Forbes.
+Archived from the original (https://www.forbes.com/sites/digital-assets/2025/01/07/new-eu-ru
+les-threaten-your-security--what-you-need-to-know/) on 2025-06-03. Retrieved 2025-07-16.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Regulation_of_cryptocurrency&oldid=1382599606"

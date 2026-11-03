@@ -1,0 +1,925 @@
+﻿Machine translation
+Machine translation is the use of computational
+techniques to translate text or speech from one
+language to another, including the contextual,
+idiomatic, and pragmatic nuances of both
+languages.
+
+While some language models are capable of
+generating comprehensible results, machine
+translation tools remain limited by the
+complexity of language and emotion, often
+lacking depth and semantic precision. Its quality A mobile phone app translating Spanish text into
+
+English
+is influenced by linguistic, grammatical, tonal,
+and cultural differences, making it inadequate to
+replace real translators fully.[1][2] Effective improvement in translation quality requires understanding of
+target society's customs and historical context, and human intervention and visual cues remain necessary
+in simultaneous interpretation. On the other hand, domain-specific customization, such as for technical
+documentation or official texts, can yield more stable results,[3] and is commonly employed in
+multilingual websites and professional databases.[4][5]
+
+Initial approaches were mostly rule-based or statistical in nature. However, these methods have since
+been superseded by neural machine translation[6] and large language models.[7]
+
+History
+
+Origins
+The origins of machine translation can be traced back to the work of Al-Kindi, a ninth-century Arabic
+cryptographer who developed techniques for systemic language translation, including cryptanalysis,
+frequency analysis, and probability and statistics, which are used in modern machine translation.[8] The
+idea of machine translation later appeared in the 17th century. In 1629, René Descartes proposed a
+universal language, with equivalent ideas in different tongues sharing one symbol.[9]
+
+The idea of using digital computers for translation of natural languages was proposed as early as 1947 by
+England's A. D. Booth[10] and Warren Weaver at Rockefeller Foundation in the same year. "The
+memorandum written by Warren Weaver in 1949 is perhaps the single most influential publication in the
+earliest days of machine translation."[11][12] Others followed. A demonstration was made in 1954 on the
+APEXC machine at Birkbeck College (University of London) of a rudimentary translation of English into
+French. Several papers on the topic were published at the time, and even articles in popular journals (for
+
+
+
+example an article by Cleave and Zacharov in the September 1955 issue of Wireless World). A similar
+application, also pioneered at Birkbeck College at the time, was reading and composing Braille texts by
+computer.
+
+1950s
+Yehoshua Bar-Hillel, began his research at MIT (1951). A Georgetown University MT research team, led
+by Professor Michael Zarechnak, followed (1951) with a public demonstration of its Georgetown-IBM
+experiment system in 1954. MT research programs popped up in Japan[13][14] and Russia (1955), and the
+first MT conference was held in London (1956).[15][16]
+
+David G. Hays "wrote about computer-assisted language processing as early as 1957" and "was project
+leader on computational linguistics at Rand from 1955 to 1968."[17]
+
+1960–1975
+Researchers continued to join the field as the Association for Machine Translation and Computational
+Linguistics was formed in the U.S. (1962) and the National Academy of Sciences formed the Automatic
+Language Processing Advisory Committee (ALPAC) to study MT (1964). Real progress was much
+slower, however, and after the ALPAC report (1966), which found that the ten-year-long research had
+failed to fulfill expectations, funding was greatly reduced.[18] According to a 1972 report by the Director
+of Defense Research and Engineering (DDR&E), the feasibility of large-scale MT was reestablished by
+the success of the Logos MT system in translating military manuals into Vietnamese during that conflict.
+
+The French Textile Institute also used MT to translate abstracts from and into French, English, German
+and Spanish (1970); Brigham Young University started a project to translate Mormon texts by automated
+translation (1971).
+
+1975–1980s
+SYSTRAN, which "pioneered the field under contracts from the U.S. government"[19] in the 1960s, was
+used by Xerox to translate technical manuals (1978). Beginning in the late 1980s, as computational power
+increased and became less expensive, more interest was shown in statistical models for machine
+translation. MT became more popular after the advent of computers.[20] SYSTRAN's first implementation
+system was implemented in 1988 by the online service of the French Postal Service called Minitel.[21]
+
+Various computer based translation companies were also launched, including Trados (1984), which was
+the first to develop and market Translation Memory technology (1989), though this is not the same as
+MT. The first commercial MT system for Russian / English / German-Ukrainian was developed at
+Kharkov State University (1991).
+
+1990s and early 2000s
+By 1998, "for as little as $29.95" one could "buy a program for translating in one direction between
+English and a major European language of your choice" to run on a PC.[19]
+
+MT on the web started with SYSTRAN offering free translation of small texts (1996) and then providing
+this via AltaVista Babelfish,[19] which racked up 500,000 requests a day (1997).[22] The second free
+translation service on the web was Lernout & Hauspie's GlobaLink.[19] Atlantic Magazine wrote in 1998
+
+
+
+that "Systran's Babelfish and GlobaLink's Comprende" handled "Don't bank on it" with a "competent
+performance."[23]
+
+Franz Josef Och (the future head of Translation Development AT Google) won DARPA's speed MT
+competition (2003).[24] More innovations during this time included MOSES, the open-source statistical
+MT engine (2007), a text/SMS translation service for mobiles in Japan (2008), and a mobile phone with
+built-in speech-to-speech translation functionality for English, Japanese and Chinese (2009). In 2012,
+Google announced that Google Translate translates roughly enough text to fill 1 million books in one day.
+
+ANNs and LLMs in 2020s
+
+Approaches
+Before the advent of deep learning methods, statistical methods required a lot of rules accompanied by
+morphological, syntactic, and semantic annotations.
+
+Rule-based
+The rule-based machine translation approach was used mostly in the creation of dictionaries and grammar
+programs. Its biggest downfall was that everything had to be made explicit: orthographical variation and
+erroneous input must be made part of the source language analyser in order to cope with it, and lexical
+selection rules must be written for all instances of ambiguity.
+
+Transfer-based machine translation
+Transfer-based machine translation was similar to interlingual machine translation in that it created a
+translation from an intermediate representation that simulated the meaning of the original sentence.
+Unlike interlingual MT, it depended partially on the language pair involved in the translation.
+
+Interlingual
+Interlingual machine translation was one instance of rule-based machine-translation approaches. In this
+approach, the source language, i.e. the text to be translated, was transformed into an interlingual
+language, i.e. a "language neutral" representation that is independent of any language. The target
+language was then generated out of the interlingua. The only interlingual machine translation system that
+was made operational at the commercial level was the KANT system (Nyberg and Mitamura, 1992),
+which was designed to translate Caterpillar Technical English (CTE) into other languages.
+
+Dictionary-based
+Machine translation used a method based on dictionary entries, which means that the words were
+translated as they are by a dictionary.
+
+Statistical
+
+
+
+Statistical machine translation tried to generate translations using statistical methods based on bilingual
+text corpora, such as the Canadian Hansard corpus, the English-French record of the Canadian parliament
+and EUROPARL, the record of the European Parliament. Where such corpora were available, good
+results were achieved translating similar texts, but such corpora were rare for many language pairs. The
+first statistical machine translation software was CANDIDE from IBM. In 2005, Google improved its
+internal translation capabilities by using approximately 200 billion words from United Nations materials
+to train their system; translation accuracy improved.[25]
+
+SMT's biggest downfall included it being dependent upon huge amounts of parallel texts, its problems
+with morphology-rich languages (especially with translating into such languages), and its inability to
+correct singleton errors.
+
+Some work has been done in the utilization of multiparallel corpora, that is a body of text that has been
+translated into 3 or more languages. Using these methods, a text that has been translated into 2 or more
+languages may be utilized in combination to provide a more accurate translation into a third language
+compared with if just one of those source languages were used alone.[26][27][28]
+
+Neural MT
+A deep learning-based approach to MT, neural machine translation has made rapid progress in recent
+years. However, the current consensus is that the so-called human parity achieved is not real, being based
+wholly on limited domains, language pairs, and certain test benchmarks,[29] i.e., it lacks statistical
+significance power.[30]
+
+Translations by neural MT tools like DeepL Translator, which is thought to usually deliver the best
+machine translation results as of 2022, typically still need post-editing by a human.[31][32][33]
+
+Instead of training specialized translation models on parallel datasets, one can also directly prompt
+generative large language models like GPT to translate a text.[34][35][36] This approach can be
+beneficial,[37] but it is still more resource-intensive than specialized translation models.
+
+Issues
+Studies using human evaluation (e.g. by professional literary
+translators or human readers) have systematically identified
+various issues with the latest advanced MT outputs.[36] Some
+quality evaluation studies have found that, in several
+languages, human translations outperform ChatGPT-produced
+translations in terminological accuracy and clarity of
+expression.[38][39] Common issues include the translation of
+ambiguous parts whose correct translation requires common
+sense-like semantic language processing or context.[36] There A mistranslated menu in Beijing offers
+can also be errors in the source texts, missing high-quality "stir-fried wikipedia with pimientos" and
+training data and the severity of frequency of several types of other nonsensical dishes.
+problems may not get reduced with techniques used to date,
+requiring some level of human active participation.
+
+
+
+Disambiguation
+Word-sense disambiguation concerns finding a suitable
+translation when a word can have more than one meaning.
+The problem was first raised in the 1950s by Yehoshua Bar-
+Hillel.[40] He pointed out that without a "universal
+encyclopedia", a machine would never be able to distinguish
+between the two meanings of a word.[41] Today there are
+numerous approaches designed to overcome this problem.
+They can be approximately divided into "shallow" approaches
+and "deep" approaches.
+
+Shallow approaches assume no knowledge of the text. They
+simply apply statistical methods to the words surrounding the
+ambiguous word. Deep approaches presume a comprehensive
+knowledge of the word. So far, shallow approaches have been
+more successful.[42]
+
+Broken Chinese "沒有進入" from machine
+Claude Piron, a long-time translator for the United Nations translation in Bali, Indonesia. The broken
+and the World Health Organization, wrote that machine Chinese sentence sounds like "there
+translation, at its best, automates the easier part of a does not exist an entry" or "have not
+translator's job; the harder and more time-consuming part entered yet".
+
+usually involves doing extensive research to resolve
+ambiguities in the source text, which the grammatical and
+lexical exigencies of the target language require to be resolved:
+
+Why does a translator need a whole workday to translate five pages, and not an hour or two?
+..... About 90% of an average text corresponds to these simple conditions. But unfortunately,
+there's the other 10%. It's that part that requires six [more] hours of work. There are ambiguities
+one has to resolve. For instance, the author of the source text, an Australian physician, cited the
+example of an epidemic which was declared during World War II in a "Japanese prisoners of
+war camp". Was he talking about an American camp with Japanese prisoners or a Japanese
+camp with American prisoners? The English has two senses. It's necessary therefore to do
+research, maybe to the extent of a phone call to Australia.[43]
+
+The ideal deep approach would require the translation software to do all the research necessary for this
+kind of disambiguation on its own; but this would require a higher degree of artificial intelligence than
+has yet been attained. A shallow approach which simply guessed at the sense of the ambiguous English
+phrase that Piron mentions (based, perhaps, on which kind of prisoner-of-war camp is more often
+mentioned in a given corpus) would have a reasonable chance of guessing wrong fairly often. A shallow
+approach that involves "ask the user about each ambiguity" would, by Piron's estimate, only automate
+about 25% of a professional translator's job, leaving the harder 75% still to be done by a human.
+
+
+
+Non-standard speech
+One of the major pitfalls of MT is its inability to translate non-standard language with the same accuracy
+as standard language. Heuristic or statistical based MT takes input from various sources in standard form
+of a language. Rule-based translation, by nature, does not include common non-standard usages. This
+causes errors in translation from a vernacular source or into colloquial language. Limitations on
+translation from casual speech present issues in the use of machine translation in mobile devices.
+
+Named entities
+In information extraction, named entities, in a narrow sense, refer to concrete or abstract entities in the
+real world such as people, organizations, companies, and places that have a proper name: George
+Washington, Chicago, Microsoft. It also refers to expressions of time, space and quantity such as 1 July
+2011, $500.
+
+In the sentence "Smith is the president of Fabrionix" both Smith and Fabrionix are named entities, and
+can be further qualified via first name or other information; "president" is not, since Smith could have
+earlier held another position at Fabrionix, e.g. Vice President. The term rigid designator is what defines
+these usages for analysis in statistical machine translation.
+
+Named entities must first be identified in the text; if not, they may be erroneously translated as common
+nouns, which would most likely not affect the BLEU rating of the translation but would change the text's
+human readability.[44] They may be omitted from the output translation, which would also have
+implications for the text's readability and message.
+
+Transliteration includes finding the letters in the target language that most closely correspond to the name
+in the source language. This, however, has been cited as sometimes worsening the quality of
+translation.[45] For "Southern California" the first word should be translated directly, while the second
+word should be transliterated. Machines often transliterate both because they treated them as one entity.
+Words like these are hard for machine translators, even those with a transliteration component, to process.
+
+Use of a "do-not-translate" list, which has the same end goal – transliteration as opposed to translation[46]
+
+– still relies on correct identification of named entities.
+
+A third approach is a class-based model. Named entities are replaced with a token to represent their
+"class"; "Ted" and "Erica" would both be replaced with "person" class token. Then the statistical
+distribution and use of person names, in general, can be analyzed instead of looking at the distributions of
+"Ted" and "Erica" individually, so that the probability of a given name in a specific language will not
+affect the assigned probability of a translation. A study by Stanford on improving this area of translation
+gives the examples that different probabilities will be assigned to "David is going for a walk" and "Ankit
+is going for a walk" for English as a target language due to the different number of occurrences for each
+name in the training data. A frustrating outcome of the same study by Stanford (and other attempts to
+improve named recognition translation) is that many times, a decrease in the BLEU scores for translation
+will result from the inclusion of methods for named entity translation.[46]
+
+
+
+Applications
+While no system provides the ideal of fully automatic high-quality machine translation of unrestricted
+text, many fully automated systems produce reasonable output.[47][48][49] The quality of machine
+translation is substantially improved if the domain is restricted and controlled.[50] This enables using
+machine translation as a tool to greatly speed up translations, as well as producing flawed but useful low-
+cost or ad-hoc translations.
+
+Travel
+Machine translation applications have also been released for most mobile devices, including mobile
+telephones, pocket PCs, PDAs, etc. Due to their portability, such instruments have come to be designated
+as mobile translation tools enabling mobile business networking between partners speaking different
+languages, or facilitating both foreign language learning and unaccompanied traveling to foreign
+countries without the need of the intermediation of a human translator.
+
+For example, the Google Translate app allows foreigners to quickly translate text in their surrounding via
+augmented reality using the smartphone camera that overlays the translated text onto the text.[51] It can
+also recognize speech and then translate it.[52]
+
+Public administration
+Despite their inherent limitations, MT programs are used around the world. Probably the largest
+institutional user is the European Commission. In 2012, with an aim to replace a rule-based MT by newer,
+statistical-based MT@EC, The European Commission contributed 3.072 million euros (via its ISA
+programme).[53]
+
+Wikipedia
+Machine translation has also been used for translating Wikipedia articles and could play a larger role in
+creating, updating, expanding, and generally improving articles in the future, especially as the MT
+capabilities may improve. There is a "content translation tool" which allows editors to more easily
+translate articles across several select languages.[54][55][56] English-language articles are thought to
+usually be more comprehensive and less biased than their non-translated equivalents in other
+languages.[57] As of 2022, English Wikipedia has over 6.5 million articles while, for example, the
+German and Swedish Wikipedias each only have over 2.5 million articles,[58] each often far less
+comprehensive.
+
+Surveillance and military
+Following terrorist attacks in Western countries, including 9-11, the U.S. and its allies have been most
+interested in developing Arabic machine translation programs, but also in translating Pashto and Dari
+languages. Within these languages, the focus is on key phrases and quick communication between
+military members and civilians through the use of mobile phone apps.[59] The Information Processing
+Technology Office in DARPA hosted programs like TIDES and Babylon translator. In 2003, the US Air
+Force awarded a $1 million contract to develop a language translation technology.[60]
+
+
+
+Social media
+The notable rise of social networking on the web in recent years has created yet another niche for the
+application of machine translation software on platforms such as Facebook or instant messaging clients
+such as Skype, Google Talk, and MSN Messenger.
+
+Online games
+Lineage W gained popularity in Japan because of its machine translation features allowing players from
+different countries to communicate.[61]
+
+Medicine
+Despite being labelled as an unworthy competitor to human translation in 1966 by the Automated
+Language Processing Advisory Committee put together by the United States government,[62] the quality
+of machine translation has now been improved to such levels that its applications in online collaboration
+and in the medical field are being investigated. The application of this technology in medical settings
+where human translators are absent is another topic of research, but difficulties arise due to the
+importance of accurate translations in medical diagnoses.[63]
+
+Researchers caution that the use of machine translation in medicine could risk mistranslations that can be
+dangerous in critical situations.[64][65] Machine translation can make it easier for doctors to communicate
+with their patients in day-to-day activities, but it is recommended to only use machine translation when
+there is no other alternative, and that translated medical texts should be reviewed by human translators for
+accuracy.[66][67]
+
+Law
+Legal language poses a significant challenge to machine translation tools due to its precise nature and
+atypical use of normal words. For this reason, specialized algorithms have been developed for use in legal
+contexts.[68] Due to the risk of mistranslations arising from machine translators, researchers recommend
+that machine translations should be reviewed by human translators for accuracy, and some courts prohibit
+its use in formal proceedings.[69]
+
+The use of machine translation in law has raised concerns about translation errors and client
+confidentiality. Lawyers who use free translation tools such as Google Translate may accidentally violate
+client confidentiality by exposing private information to the providers of the translation tools.[68] In
+addition, there have been arguments that consent for a police search that is obtained with machine
+translation is invalid, with different courts issuing different verdicts over whether or not these arguments
+are valid.[64]
+
+Ancient languages
+The advancements in convolutional neural networks in recent years and in low resource machine
+translation (when only a very limited amount of data and examples are available for training) enabled
+machine translation for ancient languages, such as Akkadian and its dialects Babylonian and Assyrian.[70]
+
+
+
+Evaluation
+There are many factors that affect how machine translation systems are evaluated. These factors include
+the intended use of the translation, the nature of the machine translation software, and the nature of the
+translation process.
+
+Different programs may work well for different purposes. For example, statistical machine translation
+(SMT) typically outperforms example-based machine translation (EBMT), but researchers found that
+when evaluating English to French translation, EBMT performs better.[71] The same concept applies for
+technical documents, which can be more easily translated by SMT because of their formal language.
+
+In certain applications, however, e.g., product descriptions written in a controlled language, a dictionary-
+based machine-translation system has produced satisfactory translations that require no human
+intervention save for quality inspection.[72]
+
+There are various means for evaluating the output quality of machine translation systems. The oldest is
+the use of human judges[73] to assess a translation's quality. Even though human evaluation is time-
+consuming, it is still the most reliable method to compare different systems such as rule-based and
+statistical systems.[74] Automated means of evaluation include BLEU, NIST, METEOR, and LEPOR.[75]
+
+Relying exclusively on unedited machine translation ignores the fact that communication in human
+language is context-embedded and that it takes a person to comprehend the context of the original text
+with a reasonable degree of probability. It is certainly true that even purely human-generated translations
+are prone to error. Therefore, to ensure that a machine-generated translation will be useful to a human
+being and that publishable-quality translation is achieved, such translations must be reviewed and edited
+by a human.[76] The late Claude Piron wrote that machine translation, at its best, automates the easier part
+of a translator's job; the harder and more time-consuming part usually involves doing extensive research
+to resolve ambiguities in the source text, which the grammatical and lexical exigencies of the target
+language require to be resolved. Such research is a necessary prelude to the pre-editing necessary in order
+to provide input for machine-translation software such that the output will not be meaningless.[77]
+
+In addition to disambiguation problems, decreased accuracy can occur due to varying levels of training
+data for machine translating programs. Both example-based and statistical machine translation rely on a
+vast array of real example sentences as a base for translation, and when too many or too few sentences are
+analyzed accuracy is jeopardized. Researchers found that when a program is trained on 203,529 sentence
+pairings, accuracy actually decreases.[71] The optimal level of training data seems to be just over 100,000
+sentences, possibly because as training data increases, the number of possible sentences increases,
+making it harder to find an exact translation match.
+
+Flaws in machine translation have been noted for their entertainment value. Two videos uploaded to
+YouTube in April 2017 involve two Japanese hiragana characters えぐ (e and gu) being repeatedly pasted
+into Google Translate, with the resulting translations quickly degrading into nonsensical phrases such as
+"DECEARING EGG" and "Deep-sea squeeze trees", which are then read in increasingly absurd
+voices;[78][79] the full-length version of the video currently has 7.1 million views as of August 2025.[80]
+
+
+
+Machine translation and signed languages
+In the early 2000s, options for machine translation between spoken and signed languages were severely
+limited. It was a common belief that deaf individuals could use traditional translators. However, stress,
+intonation, pitch, and timing are conveyed much differently in spoken languages compared to signed
+languages. Therefore, a deaf individual may misinterpret or become confused about the meaning of
+written text that is based on a spoken language.[81]
+
+Researchers Zhao, et al. (2000), developed a prototype called TEAM (translation from English to ASL by
+machine) that completed English to American Sign Language (ASL) translations. The program would
+first analyze the syntactic, grammatical, and morphological aspects of the English text. Following this
+step, the program accessed a sign synthesizer, which acted as a dictionary for ASL. This synthesizer
+housed the process one must follow to complete ASL signs, as well as the meanings of these signs. Once
+the entire text is analyzed and the signs necessary to complete the translation are located in the
+synthesizer, a computer generated human appeared and would use ASL to sign the English text to the
+user.[81]
+
+Copyright
+Only works that are original are subject to copyright protection, so some scholars claim that machine
+translation results are not entitled to copyright protection because MT does not involve creativity.[82] The
+copyright at issue is for a derivative work; the author of the original work in the original language does
+not lose his rights when a work is translated: a translator must have permission to publish a
+translation.[83]
+
+See also
+AI-complete Language and Communication
+Cache language model Technologies
+Comparison of machine translation Language barrier
+applications List of emerging technologies
+Comparison of different machine List of research laboratories for machine
+translation approaches translation
+Computational linguistics OpenLogos
+Computer-assisted translation Phraselator
+Controlled language in machine translation Postediting
+Controlled natural language Pseudo-translation
+Foreign language writing aid Round-trip translation
+Fuzzy matching (computer-assisted Translation § Machine translation
+translation) Translation memory
+History of machine translation ULTRA (machine translation system)
+Human language technology Universal Networking Language
+Humour in translation ("howlers") Universal translator
+
+
+
+Notes
+1. "Can Machine Translation Replace Human Translation In The Future?" (https://www.linkedi
+
+n.com/pulse/can-machine-translation-replace-human-future-gte-localize-6petc).
+www.linkedin.com. Retrieved 9 October 2025.
+
+2. Mohammed H. Al Aqad (25 April 2025). Role of AI in Translation and Interpretation. IGI
+global. p. 454. ISBN 9798337300603.
+
+3. Anichini, Nicole (25 January 2024). "The Pros and Cons of Machine Translation" (https://ma
+stertcloc.unistra.fr/2024/01/25/the-pros-and-cons-of-machine-translation/). TCLoc Master's.
+Retrieved 9 October 2025.
+
+4. Magdalena Cieślak. "THE SCOPE AND LIMITS OF MACHINE TRANSLATION" (https://we
+b.archive.org/web/20210627185058/https://ojs.letras.up.pt/index.php/elingUP/article/downlo
+ad/2528/2316/6148). ojs.letras.up.pt. Archived from the original (https://ojs.letras.up.pt/inde
+x.php/elingUP/article/download/2528/2316/6148) on 27 June 2021. Retrieved 9 October
+2025.
+
+5. Naveen, Palanichamy; Trojovský, Pavel (18 October 2024). "Overview and challenges of
+machine translation for contextually appropriate translations" (https://www.ncbi.nlm.nih.gov/p
+mc/articles/PMC11465115). iScience. 27 (10) 110878. Bibcode:2024iSci...27k0878N (https://
+ui.adsabs.harvard.edu/abs/2024iSci...27k0878N). doi:10.1016/j.isci.2024.110878 (https://do
+i.org/10.1016%2Fj.isci.2024.110878). ISSN 2589-0042 (https://search.worldcat.org/issn/258
+9-0042). PMC 11465115 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11465115).
+PMID 39391737 (https://pubmed.ncbi.nlm.nih.gov/39391737).
+
+6. "Google Translate Gets a Deep-Learning Upgrade" (https://spectrum.ieee.org/google-transla
+te-gets-a-deep-learning-upgrade). IEEE Spectrum. 3 October 2016. Retrieved 7 July 2024.
+
+7. "Google Translate vs. ChatGPT: Which One Is the Best Language Translator?" (https://uk.pc
+mag.com/ai/151950/google-translate-vs-chatgpt-which-one-is-the-best-language-translator).
+PCMag UK. 23 February 2024. Retrieved 7 July 2024.
+
+8. DuPont, Quinn (January 2018). "The Cryptological Origins of Machine Translation: From al-
+Kindi to Weaver" (https://web.archive.org/web/20190814061915/http://amodern.net/article/cr
+yptological-origins-machine-translation/). Amodern. Archived from the original (http://amoder
+n.net/article/cryptological-origins-machine-translation/) on 14 August 2019. Retrieved
+2 September 2019.
+
+9. Knowlson, James (1975). Universal Language Schemes in England and France, 1600-
+1800. Toronto: University of Toronto Press. ISBN 0-8020-5296-7.
+
+10. Booth, Andrew D. (1 May 1953). "MECHANICAL TRANSLATION". Computers and
+Automation 1953-05: Vol 2 Iss 4 (https://archive.org/details/sim_computers-and-people_195
+3-05_2_4/page/n8/). Berkeley Enterprises. p. 6.
+
+11. J. Hutchins (2000). "Warren Weaver and the launching of MT". Early Years in Machine
+Translation (https://web.archive.org/web/20200228015454/https://pdfs.semanticscholar.org/
+eaa9/ccf94b4d129c26faf45a1353ffcbbe9d4fda.pdf) (PDF). Studies in the History of the
+Language Sciences. Vol. 97. p. 17. doi:10.1075/sihols.97.05hut (https://doi.org/10.1075%2F
+sihols.97.05hut). ISBN 978-90-272-4586-1. S2CID 163460375 (https://api.semanticscholar.o
+rg/CorpusID:163460375). Archived from the original (https://pdfs.semanticscholar.org/eaa9/c
+cf94b4d129c26faf45a1353ffcbbe9d4fda.pdf) (PDF) on 28 February 2020 – via Semantic
+Scholar.
+
+12. "Warren Weaver, American mathematician" (https://www.britannica.com/biography/Warren-
+Weaver). Encyclopedia Britannica. 13 July 2020. Archived (https://web.archive.org/web/202
+10306061225/https://www.britannica.com/biography/Warren-Weaver) from the original on 6
+March 2021. Retrieved 7 August 2020.
+
+
+
+13. 上野, 俊夫 (13 August 1986). パーソナルコンピュータによる機械翻訳プログラムの制作 (in
+Japanese). Tokyo: (株)ラッセル社. p. 16. ISBN 4-947627-00-X. "わが国では1956年、当時の
+電気試験所が英和翻訳専用機「ヤマト」を実験している。この機械は1962年頃には中学1年
+の教科書で90点以上の能力に達したと報告されている。(translation (assisted by Google
+Translate): In 1959 Japan, the National Institute of Advanced Industrial Science and
+Technology(AIST) tested the proper English-Japanese translation machine Yamato, which
+reported in 1964 as that reached the power level over the score of 90-point on the textbook
+of first grade of junior hi-school.)"
+
+14. "機械翻訳専用機「やまと」-コンピュータ博物館" (http://museum.ipsj.or.jp/computer/dawn/
+0027.html). Archived (https://web.archive.org/web/20161019171540/http://museum.ipsj.or.j
+p/computer/dawn/0027.html) from the original on 19 October 2016. Retrieved 4 April 2017.
+
+15. Nye, Mary Jo (2016). "Speaking in Tongues: Science's centuries-long hunt for a common
+language" (https://www.sciencehistory.org/distillations/magazine/speaking-in-tongues).
+Distillations. 2 (1): 40–43. Archived (https://web.archive.org/web/20200803130801/https://w
+ww.sciencehistory.org/distillations/magazine/speaking-in-tongues) from the original on 3
+August 2020. Retrieved 20 March 2018.
+
+16. Gordin, Michael D. (2015). Scientific Babel: How Science Was Done Before and After
+Global English. Chicago, Illinois: University of Chicago Press. ISBN 978-0-226-00029-9.
+
+17. Wolfgang Saxon (28 July 1995). "David G. Hays, 66, a Developer Of Language Study by
+Computer" (https://www.nytimes.com/1995/07/28/obituaries/david-g-hays-66-a-developer-of-
+language-study-by-computer.html). The New York Times. Archived (https://web.archive.org/
+web/20200207035914/https://www.nytimes.com/1995/07/28/obituaries/david-g-hays-66-a-d
+eveloper-of-language-study-by-computer.html) from the original on 7 February 2020.
+Retrieved 7 August 2020. "wrote about computer-assisted language processing as early as
+1957.. was project leader on computational linguistics at Rand from 1955 to 1968."
+
+18. 上野, 俊夫 (13 August 1986). パーソナルコンピュータによる機械翻訳プログラムの制作 (in
+Japanese). Tokyo: (株)ラッセル社. p. 16. ISBN 4-947627-00-X.
+
+19. Budiansky, Stephen (December 1998). "Lost in Translation". Atlantic Magazine. pp. 81–84.
+20. Schank, Roger C. (2014). Conceptual Information Processing. New York: Elsevier. p. 5.
+
+ISBN 978-1-4832-5879-9.
+21. Farwell, David; Gerber, Laurie; Hovy, Eduard (29 June 2003). Machine Translation and the
+
+Information Soup: Third Conference of the Association for Machine Translation in the
+Americas, AMTA'98, Langhorne, PA, USA, October 28–31, 1998 Proceedings. Berlin:
+Springer. p. 276. ISBN 3-540-65259-0.
+
+22. Barron, Brenda (18 November 2019). "Babel Fish: What Happened To The Original
+Translation Application?: We Investigate" (https://digital.com/about/babel-fish/). Digital.com.
+Archived (https://web.archive.org/web/20191120032732/https://digital.com/about/babel-fish/)
+from the original on 20 November 2019. Retrieved 22 November 2019.
+
+23. and gave other examples too
+24. Chan, Sin-Wai (2015). Routledge Encyclopedia of Translation Technology. Oxon:
+
+Routledge. p. 385. ISBN 978-0-415-52484-1.
+25. "Google Translator: The Universal Language" (http://blog.outer-court.com/archive/2005-05-2
+
+2-n83.html). Blog.outer-court.com. 25 January 2007. Archived (https://web.archive.org/web/
+20081120030225/http://blog.outer-court.com/archive/2005-05-22-n83.html) from the original
+on 20 November 2008. Retrieved 12 June 2012.
+
+26. Schwartz, Lane (2008). Multi-Source Translation Methods (https://dowobeha.github.io/paper
+s/amta08.pdf) (PDF). Paper presented at the 8th Biennial Conference of the Association for
+Machine Translation in the Americas. Archived (https://web.archive.org/web/2016062917194
+4/http://dowobeha.github.io/papers/amta08.pdf) (PDF) from the original on 29 June 2016.
+Retrieved 3 November 2017.
+
+
+
+27. Cohn, Trevor; Lapata, Mirella (2007). Machine Translation by Triangulation: Making Effective
+Use of Multi-Parallel Corpora (http://homepages.inf.ed.ac.uk/mlap/Papers/acl07.pdf) (PDF).
+Paper presented at the 45th Annual Meeting of the Association for Computational
+Linguistics, June 23–30, 2007, Prague, Czech Republic. Archived (https://web.archive.org/w
+eb/20151010171334/http://homepages.inf.ed.ac.uk/mlap/Papers/acl07.pdf) (PDF) from the
+original on 10 October 2015. Retrieved 3 February 2015.
+
+28. Nakov, Preslav; Ng, Hwee Tou (2012). "Improving Statistical Machine Translation for a
+Resource-Poor Language Using Related Resource-Rich Languages" (https://jair.org/index.p
+hp/jair/article/view/10764). Journal of Artificial Intelligence Research. 44: 179–222.
+arXiv:1401.6876 (https://arxiv.org/abs/1401.6876). doi:10.1613/jair.3540 (https://doi.org/10.1
+613%2Fjair.3540).
+
+29. Antonio Toral, Sheila Castilho, Ke Hu, and Andy Way. 2018. Attaining the unattainable?
+reassessing claims of human parity in neural machine translation. CoRR, abs/1808.10432.
+
+30. Yvette, Graham; Barry, Haddow; Koehn, Philipp (2019). "Translationese in Machine
+Translation Evaluation". arXiv:1906.09833 (https://arxiv.org/abs/1906.09833) [cs.CL (https://
+arxiv.org/archive/cs.CL)].
+
+31. Katsnelson, Alla (29 August 2022). "Poor English skills? New AIs help researchers to write
+better" (https://doi.org/10.1038%2Fd41586-022-02767-9). Nature. 609 (7925): 208–209.
+Bibcode:2022Natur.609..208K (https://ui.adsabs.harvard.edu/abs/2022Natur.609..208K).
+doi:10.1038/d41586-022-02767-9 (https://doi.org/10.1038%2Fd41586-022-02767-9).
+PMID 36038730 (https://pubmed.ncbi.nlm.nih.gov/36038730). S2CID 251931306 (https://ap
+i.semanticscholar.org/CorpusID:251931306).
+
+32. Korab, Petr (18 February 2022). "DeepL: An Exceptionally Magnificent Language
+Translator" (https://towardsdatascience.com/deepl-an-exceptionally-magnificent-language-tr
+anslator-78e86d8062d3). Medium. Retrieved 9 January 2023.
+
+33. "DeepL outperforms Google Translate – DW – 12/05/2018" (https://www.dw.com/en/deepl-c
+ologne-based-startup-outperforms-google-translate/a-46581948). Deutsche Welle.
+Retrieved 9 January 2023.
+
+34. Hendy, Amr; Abdelrehim, Mohamed; Sharaf, Amr; Raunak, Vikas; Gabr, Mohamed;
+Matsushita, Hitokazu; Kim, Young Jin; Afify, Mohamed; Awadalla, Hany (18 February 2023).
+"How Good Are GPT Models at Machine Translation? A Comprehensive Evaluation".
+arXiv:2302.09210 (https://arxiv.org/abs/2302.09210) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+35. Fadelli, Ingrid. "Study assesses the quality of AI literary translations by comparing them with
+human translations" (https://techxplore.com/news/2022-11-quality-ai-literary-human.html).
+techxplore.com. Retrieved 18 December 2022.
+
+36. Thai, Katherine; Karpinska, Marzena; Krishna, Kalpesh; Ray, Bill; Inghilleri, Moira; Wieting,
+John; Iyyer, Mohit (25 October 2022). "Exploring Document-Level Literary Machine
+Translation with Parallel Paragraphs from World Literature". arXiv:2210.14250 (https://arxiv.
+org/abs/2210.14250) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+37. Kocmi, Tom; Avramidis, Eleftherios; Bawden, Rachel; Bojar, Ondřej; Dvorkovich, Anton;
+Federmann, Christian; Fishel, Mark; Freitag, Markus; Gowda, Thamme; Grundkiewicz,
+Roman; Haddow, Barry; Koehn, Philipp; Marie, Benjamin; Monz, Christof; Morishita, Makoto
+(2023). Koehn, Philipp; Haddow, Barry; Kocmi, Tom; Monz, Christof (eds.). Findings of the
+2023 Conference on Machine Translation (WMT23): LLMs Are Here but Not Quite There Yet
+(https://aclanthology.org/2023.wmt-1.1). Proceedings of the Eighth Conference on Machine
+Translation. Singapore: Association for Computational Linguistics. pp. 1–42.
+doi:10.18653/v1/2023.wmt-1.1 (https://doi.org/10.18653%2Fv1%2F2023.wmt-1.1).
+
+38. Al Rousan, Rafat; Jaradat, Raghad; Malkawi, Mona (31 December 2025). "ChatGPT
+translation vs. human translation: an examination of a literary text" (https://doi.org/10.1080%
+2F23311886.2025.2472916). Cogent Social Sciences. 11 (1) 2472916.
+doi:10.1080/23311886.2025.2472916 (https://doi.org/10.1080%2F23311886.2025.2472916).
+
+
+
+39. Altakhaineh, Abdel Rahman Mitib; Alghathian, Ghazi Ayed; Jarrah, Mashal Mufleh (5 April
+2025). "A Comparative Study of Accuracy in Human vs. AI Translation of Legal Documents
+into Arabic" (https://www.languageandlaw.eu/jll/article/view/190). International Journal of
+Language & Law. 14: 63–80. ISSN 2194-7414 (https://search.worldcat.org/issn/2194-7414).
+
+40. Milestones in machine translation – No.6: Bar-Hillel and the nonfeasibility of FAHQT (http://o
+urworld.compuserve.com/homepages/WJHutchins/Miles-6.htm) Archived (https://web.archiv
+e.org/web/20070312062051/http://ourworld.compuserve.com/homepages/WJHutchins/Miles
+-6.htm) 12 March 2007 at the Wayback Machine by John Hutchins
+
+41. Bar-Hillel (1960), "Automatic Translation of Languages". Available online at http://www.mt-
+archive.info/Bar-Hillel-1960.pdf Archived (https://web.archive.org/web/20110928112348/htt
+p://www.mt-archive.info/Bar-Hillel-1960.pdf) 28 September 2011 at the Wayback Machine
+
+42. Costa-jussà, Marta R.; Rapp, Reinhard; Lambert, Patrik; Eberle, Kurt; Banchs, Rafael E.;
+Babych, Bogdan (21 July 2016). Hybrid approaches to machine translation. Switzerland:
+Springer International Publishing. ISBN 978-3-319-21310-1. OCLC 953581497 (https://sear
+ch.worldcat.org/oclc/953581497).
+
+43. Claude Piron, Le défi des langues (The Language Challenge), Paris, L'Harmattan, 1994.
+44. Babych, Bogdan; Hartley, Anthony (2003). Improving Machine Translation Quality with
+
+Automatic Named Entity Recognition (https://web.archive.org/web/20060514031411/http://w
+ww.cl.cam.ac.uk/~ar283/eacl03/workshops03/W03-w1_eacl03babych.local.pdf) (PDF).
+Paper presented at the 7th International EAMT Workshop on MT and Other Language
+Technology Tools... Archived from the original (http://www.cl.cam.ac.uk/~ar283/eacl03/works
+hops03/W03-w1_eacl03babych.local.pdf) (PDF) on 14 May 2006. Retrieved 4 November
+2013.
+
+45. Hermajakob, U., Knight, K., & Hal, D. (2008). Name Translation in Statistical Machine
+Translation Learning When to Transliterate (http://www.aclweb.org/old_anthology/P/P08/P08
+-1.pdf#page=433) Archived (https://web.archive.org/web/20180104073326/http://www.aclwe
+b.org/old_anthology/P/P08/P08-1.pdf#page=433) 4 January 2018 at the Wayback Machine.
+Association for Computational Linguistics. 389–397.
+
+46. Neeraj Agrawal; Ankush Singla. Using Named Entity Recognition to improve Machine
+Translation (http://nlp.stanford.edu/courses/cs224n/2010/reports/singla-nirajuec.pdf) (PDF).
+Archived (https://web.archive.org/web/20130521075940/http://nlp.stanford.edu/courses/cs2
+24n/2010/reports/singla-nirajuec.pdf) (PDF) from the original on 21 May 2013. Retrieved
+4 November 2013.
+
+47. Melby, Alan. The Possibility of Language (Amsterdam:Benjamins, 1995, 27–41) (http://www.
+benjamins.com/cgi-bin/t_bookview.cgi?bookid=BTL%2014). Benjamins.com. 1995.
+ISBN 978-90-272-1614-4. Archived (https://web.archive.org/web/20110525234319/http://ww
+w.benjamins.com/cgi-bin/t_bookview.cgi?bookid=BTL%2014) from the original on 25 May
+2011. Retrieved 12 June 2012.
+
+48. Wooten, Adam (14 February 2006). "A Simple Model Outlining Translation Technology" (http
+s://tandibusiness.blogspot.com/2006/02/simple-model-outlining-translation.html). T&I
+Business. Retrieved 12 June 2012.
+
+49. "Appendix III of 'The present status of automatic translation of languages', Advances in
+Computers, vol.1 (1960), p.158-163. Reprinted in Y.Bar-Hillel: Language and information
+(Reading, Mass.: Addison-Wesley, 1964), p.174-179" (https://web.archive.org/web/2018092
+8203641/http://www.mt-archive.info/Bar-Hillel-1960-App3.pdf) (PDF). Archived from the
+original (http://www.mt-archive.info/Bar-Hillel-1960-App3.pdf) (PDF) on 28 September 2018.
+Retrieved 12 June 2012.
+
+50. "Human quality machine translation solution by Ta with you" (http://tauyou.com/blog/?p=47)
+(in Spanish). Tauyou.com. 15 April 2009. Archived (https://web.archive.org/web/2009092209
+4140/http://tauyou.com/blog/?p=47) from the original on 22 September 2009. Retrieved
+12 June 2012.
+
+
+
+51. "Google Translate Adds 20 Languages To Augmented Reality App" (https://www.popsci.com/
+google-translate-adds-augmented-reality-translation-app/). Popular Science. 30 July 2015.
+Retrieved 9 January 2023.
+
+52. Whitney, Lance. "Google Translate app update said to make speech-to-text even easier" (htt
+ps://www.cnet.com/tech/services-and-software/google-translation-app-may-better-recognize
+-certain-languages/). CNET. Retrieved 9 January 2023.
+
+53. "Machine Translation Service" (http://ec.europa.eu/isa/actions/02-interoperability-architectur
+e/2-8action_en.htm). 5 August 2011. Archived (https://web.archive.org/web/2013090823221
+2/http://ec.europa.eu/isa/actions/02-interoperability-architecture/2-8action_en.htm) from the
+original on 8 September 2013. Retrieved 13 September 2013.
+
+54. Wilson, Kyle (8 May 2019). "Wikipedia has a Google Translate problem" (https://www.thever
+ge.com/2019/5/8/18526739/wikipedia-translation-tool-machine-learning-ai-english). The
+Verge. Retrieved 9 January 2023.
+
+55. "Wikipedia taps Google to help editors translate articles" (https://venturebeat.com/ai/wikipedi
+a-taps-google-to-help-editors-translate-articles/). VentureBeat. 9 January 2019. Retrieved
+9 January 2023.
+
+56. "Content translation tool helps create over half a million Wikipedia articles" (https://wikimedi
+afoundation.org/news/2019/09/23/content-translation-tool-helps-create-over-half-a-million-wi
+kipedia-articles/). Wikimedia Foundation. 23 September 2019. Retrieved 10 January 2023.
+
+57. Magazine, Undark (12 August 2021). "Wikipedia Has a Language Problem. Here's How To
+Fix It" (https://undark.org/2021/08/12/wikipedia-has-a-language-problem-heres-how-to-fix-i
+t/). Undark Magazine. Retrieved 9 January 2023.
+
+58. "List of Wikipedias - Meta" (https://meta.wikimedia.org/wiki/List_of_Wikipedias).
+meta.wikimedia.org. Retrieved 9 January 2023.
+
+59. Gallafent, Alex (26 April 2011). "Machine Translation for the Military" (http://www.theworld.or
+g/2011/04/machine-translation-military/). PRI's the World. Archived (https://web.archive.org/
+web/20130509171415/http://www.theworld.org/2011/04/machine-translation-military/) from
+the original on 9 May 2013. Retrieved 17 September 2013.
+
+60. Jackson, William (9 September 2003). "GCN – Air force wants to build a universal translator"
+(http://gcn.com/articles/2003/09/09/air-force-wants-to-build-a-universal-translator.aspx).
+Gcn.com. Archived (https://web.archive.org/web/20110616052943/http://gcn.com/articles/20
+03/09/09/air-force-wants-to-build-a-universal-translator.aspx) from the original on 16 June
+2011. Retrieved 12 June 2012.
+
+61. Young-sil, Yoon (26 June 2023). "Korean Games Growing in Popularity in Tough Japanese
+Game Market" (http://www.businesskorea.co.kr/news/articleView.html?idxno=117105).
+BusinessKorea. Retrieved 8 August 2023.
+
+62. Automatic Language Processing Advisory Committee, Division of Behavioral Sciences,
+National Academy of Sciences, National Research Council (1966). Language and
+Machines: Computers in Translation and Linguistics (http://www.nap.edu/html/alpac_lm/ARC
+000005.pdf) (PDF) (Report). Washington, D. C.: National Research Council, National
+Academy of Sciences. Archived (https://web.archive.org/web/20131021044934/http://www.n
+ap.edu/html/alpac_lm/ARC000005.pdf) (PDF) from the original on 21 October 2013.
+Retrieved 21 October 2013.
+
+63. Randhawa, Gurdeeshpal; Ferreyra, Mariella; Ahmed, Rukhsana; Ezzat, Omar; Pottie, Kevin
+(April 2013). "Using machine translation in clinical practice" (http://www.cfp.ca/content/59/4/
+382.full). Canadian Family Physician. 59 (4): 382–383. PMC 3625087 (https://www.ncbi.nlm.
+nih.gov/pmc/articles/PMC3625087). PMID 23585608 (https://pubmed.ncbi.nlm.nih.gov/2358
+5608). Archived (https://web.archive.org/web/20130504040732/http://www.cfp.ca/content/5
+9/4/382.full) from the original on 4 May 2013. Retrieved 21 October 2013.
+
+
+
+64. Vieira, Lucas Nunes; O'Hagan, Minako; O'Sullivan, Carol (18 August 2021). "Understanding
+the societal impacts of machine translation: a critical review of the literature on medical and
+legal use cases" (https://doi.org/10.1080%2F1369118X.2020.1776370). Information,
+Communication & Society. 24 (11): 1515–1532. doi:10.1080/1369118X.2020.1776370 (http
+s://doi.org/10.1080%2F1369118X.2020.1776370). hdl:1983/29727bd1-a1ae-4600-9e8e-
+018f11ec75fb (https://hdl.handle.net/1983%2F29727bd1-a1ae-4600-9e8e-018f11ec75fb).
+ISSN 1369-118X (https://search.worldcat.org/issn/1369-118X). S2CID 225694304 (https://ap
+i.semanticscholar.org/CorpusID:225694304).
+
+65. Khoong, Elaine C.; Steinbrook, Eric; Brown, Cortlyn; Fernandez, Alicia (1 April 2019).
+"Assessing the Use of Google Translate for Spanish and Chinese Translations of
+Emergency Department Discharge Instructions" (https://www.ncbi.nlm.nih.gov/pmc/articles/
+PMC6450297). JAMA Internal Medicine. 179 (4): 580–582.
+doi:10.1001/jamainternmed.2018.7653 (https://doi.org/10.1001%2Fjamainternmed.2018.765
+3). ISSN 2168-6106 (https://search.worldcat.org/issn/2168-6106). PMC 6450297 (https://ww
+w.ncbi.nlm.nih.gov/pmc/articles/PMC6450297). PMID 30801626 (https://pubmed.ncbi.nlm.ni
+h.gov/30801626).
+
+66. Piccoli, Vanessa (5 July 2022). "Plurilingualism, multimodality and machine translation in
+medical consultations: A case study" (http://www.jbe-platform.com/content/journals/10.1075/t
+is.21012.pic). Translation and Interpreting Studies. 17 (1): 42–65. doi:10.1075/tis.21012.pic
+(https://doi.org/10.1075%2Ftis.21012.pic). ISSN 1932-2798 (https://search.worldcat.org/iss
+n/1932-2798). S2CID 246780731 (https://api.semanticscholar.org/CorpusID:246780731).
+
+67. Herrera-Espejel, Paula Sofia; Rach, Stefan (20 November 2023). "The Use of Machine
+Translation for Outreach and Health Communication in Epidemiology and Public Health:
+Scoping Review" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10696499). JMIR Public
+Health and Surveillance. 9 e50814. doi:10.2196/50814 (https://doi.org/10.2196%2F50814).
+ISSN 2369-2960 (https://search.worldcat.org/issn/2369-2960). PMC 10696499 (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC10696499). PMID 37983078 (https://pubmed.ncbi.nlm.ni
+h.gov/37983078).
+
+68. Quirk, Cecilia (2023). "Man v. Machine: Social and Legal Implications of Machine
+Translation" (https://legaljournal.princeton.edu/man-v-machine-social-and-legal-implications-
+of-machine-translation/). Princeton Legal Journal. 3 (1): 8. Retrieved 7 October 2026.
+
+69. Chavez, Edward L. (2008). "New Mexico's Success with Non-English Speaking Jurors" (http
+s://heinonline.org/HOL/Page?handle=hein.journals/jrlci1&id=307&div=&collection=). Journal
+of Court Innovation. 1: 303.
+
+70. Gutherz, Gai; Gordin, Shai; Sáenz, Luis; Levy, Omer; Berant, Jonathan (2 May 2023).
+Kearns, Michael (ed.). "Translating Akkadian to English with neural machine translation" (htt
+ps://academic.oup.com/pnasnexus/article/doi/10.1093/pnasnexus/pgad096/7147349).
+PNAS Nexus. 2 (5) pgad096. doi:10.1093/pnasnexus/pgad096 (https://doi.org/10.1093%2F
+pnasnexus%2Fpgad096). ISSN 2752-6542 (https://search.worldcat.org/issn/2752-6542).
+PMC 10153418 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10153418).
+PMID 37143863 (https://pubmed.ncbi.nlm.nih.gov/37143863).
+
+71. Way, Andy; Nano Gough (20 September 2005). "Comparing Example-Based and Statistical
+Machine Translation". Natural Language Engineering. 11 (3): 295–309.
+doi:10.1017/S1351324905003888 (https://doi.org/10.1017%2FS1351324905003888).
+S2CID 3242163 (https://api.semanticscholar.org/CorpusID:3242163).
+
+72. Muegge (2006), "Fully Automatic High Quality Machine Translation of Restricted Text: A
+Case Study (http://www.mt-archive.info/Aslib-2006-Muegge.pdf) Archived (https://web.archiv
+e.org/web/20111017043848/http://www.mt-archive.info/Aslib-2006-Muegge.pdf) 17 October
+2011 at the Wayback Machine," in Translating and the computer 28. Proceedings of the
+twenty-eighth international conference on translating and the computer, 16–17 November
+2006, London, London: Aslib. ISBN 978-0-85142-483-5.
+
+
+
+73. "Comparison of MT systems by human evaluation, May 2008" (https://web.archive.org/web/
+20120419072313/http://www.morphologic.hu/public/mt/2008/compare12.htm).
+Morphologic.hu. Archived from the original (http://www.morphologic.hu/public/mt/2008/comp
+are12.htm) on 19 April 2012. Retrieved 12 June 2012.
+
+74. Anderson, D.D. (1995). Machine translation as a tool in second language learning (http://cite
+seerx.ist.psu.edu/viewdoc/download?doi=10.1.1.961.5377&rep=rep1&type=pdf) Archived (ht
+tps://web.archive.org/web/20180104073518/http://citeseerx.ist.psu.edu/viewdoc/download?
+doi=10.1.1.961.5377&rep=rep1&type=pdf) 4 January 2018 at the Wayback Machine.
+CALICO Journal. 13(1). 68–96.
+
+75. Han et al. (2012), "LEPOR: A Robust Evaluation Metric for Machine Translation with
+Augmented Factors (http://repository.umac.mo/jspui/bitstream/10692/1747/1/10205_0_%5B
+2012-12-08~15%5D%20C.%20%28COLING2012%29%20LEPOR.pdf) Archived (https://we
+b.archive.org/web/20180104073506/http://repository.umac.mo/jspui/bitstream/10692/1747/
+1/10205_0_%5B2012-12-08~15%5D%20C.%20%28COLING2012%29%20LEPOR.pdf) 4
+January 2018 at the Wayback Machine," in Proceedings of the 24th International
+Conference on Computational Linguistics (COLING 2012): Posters, pages 441–450,
+Mumbai, India.
+
+76. J.M. Cohen observes (p.14): "Scientific translation is the aim of an age that would reduce all
+activities to techniques. It is impossible however to imagine a literary-translation machine
+less complex than the human brain itself, with all its knowledge, reading, and
+discrimination."
+
+77. See the annually performed NIST tests since 2001 (https://www.nist.gov/speech/tests/mt/)
+Archived (https://web.archive.org/web/20090322202656/http://nist.gov/speech/tests/mt/) 22
+March 2009 at the Wayback Machine and Bilingual Evaluation Understudy
+
+78. Abadi, Mark. "4 times Google Translate totally dropped the ball" (https://www.businessinside
+r.com/google-translate-fails-2017-11). Business Insider.
+
+79. "回数を重ねるほど狂っていく Google翻訳で「えぐ」を英訳すると奇妙な世界に迷い込むと
+話題に" (https://nlab.itmedia.co.jp/nl/articles/1704/16/news013.html). ねとらぼ. 16 April
+2017.
+
+80. "えぐ" (https://www.youtube.com/watch?v=3-rfBsWmo0M). 12 April 2017 – via
+www.youtube.com.
+
+81. Zhao, L., Kipper, K., Schuler, W., Vogler, C., & Palmer, M. (2000). A Machine Translation
+System from English to American Sign Language (http://repository.upenn.edu/cgi/viewconte
+nt.cgi?article=1043&context=hms) Archived (https://web.archive.org/web/20180720012839/
+https://repository.upenn.edu/cgi/viewcontent.cgi?article=1043&context=hms) 20 July 2018 at
+the Wayback Machine. Lecture Notes in Computer Science, 1934: 54–67.
+
+82. "Machine Translation: No Copyright On The Result?" (http://www.seo-translator.com/machin
+e-translation-no-copyright-on-the-result/). SEO Translator, citing Zimbabwe Independent.
+Archived (https://web.archive.org/web/20121129042959/http://www.seo-translator.com/mach
+ine-translation-no-copyright-on-the-result/) from the original on 29 November 2012.
+Retrieved 24 November 2012.
+
+83. "translation | UCL Copyright Queries" (https://blogs.ucl.ac.uk/copyright/tag/translation/).
+blogs.ucl.ac.uk. Retrieved 18 August 2025.
+
+Further reading
+Nirenburg, Sergei; Somers, Harold L.; Wilks, Yorick A., eds. (2003). Readings in Machine
+Translation. Cambridge, MA: The MIT Press. ISBN 9780262140744.
+Cohen, J. M. (1986), "Translation", Encyclopedia Americana, vol. 27, pp. 12–15
+
+
+
+Hutchins, W. John; Somers, Harold L. (1992). An Introduction to Machine Translation (http
+s://archive.org/details/introductiontoma0000hutc). London: Academic Press. ISBN 0-12-
+362830-X.
+Lewis-Kraus, Gideon (7 June 2015). "Tower of Babble". New York Times Magazine. pp. 48–
+52.
+Weber, Steven; Mehandru, Nikita (2022). "The 2020s Political Economy of Machine
+Translation". Business and Politics. 24 (1): 96–112. arXiv:2011.01007 (https://arxiv.org/abs/2
+011.01007). doi:10.1017/bap.2021.17 (https://doi.org/10.1017%2Fbap.2021.17).
+S2CID 226236853 (https://api.semanticscholar.org/CorpusID:226236853).
+Eisenstein, Jacob (1 October 2019). "Machine translation". Introduction to Natural Language
+Processing (https://mitpress.mit.edu/9780262042840/introduction-to-natural-language-proce
+ssing/). The MIT Press. pp. 431–456. ISBN 978-0-262-04284-0.
+
+External links
+International Association for Machine Translation (IAMT) (http://www.eamt.org/iamt.php)
+Archived (https://web.archive.org/web/20100624162302/http://www.eamt.org/iamt.php) 24
+June 2010 at the Wayback Machine
+Machine Translation Archive (http://www.mt-archive.info) Archived (https://web.archive.org/w
+eb/20190401232615/http://www.mt-archive.info/) 1 April 2019 at the Wayback Machine by
+John Hutchins. An electronic repository (and bibliography) of articles, books and papers in
+the field of machine translation and computer-based translation technology
+Machine translation (computer-based translation) (http://www.hutchinsweb.me.uk/) –
+Publications by John Hutchins (includes PDFs of several books on machine translation)
+Machine Translation and Minority Languages (https://web.archive.org/web/2008012019225
+9/http://bowland-files.lancs.ac.uk/monkey/ihe/mille/paper2.htm)
+John Hutchins 1999 (http://www.foreignword.com/Technology/art/Hutchins/hutchins99.htm)
+Archived (https://web.archive.org/web/20070907182416/http://www.foreignword.com/Techno
+logy/art/Hutchins/hutchins99.htm) 7 September 2007 at the Wayback Machine
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Machine_translation&oldid=1381969024"

@@ -1,0 +1,1544 @@
+{
+ "corpus": {
+  "documents": 73,
+  "categories": 6,
+  "total_words": 491271,
+  "total_mb": 3.9103927612304688,
+  "avg_words": 6729.739726027397,
+  "min_words": 39,
+  "max_words": 17957,
+  "empty_documents": 0
+ },
+ "category_counts": {
+  "Machine Learning": 22,
+  "Language & Search Technology": 18,
+  "AI Systems & Cognition": 11,
+  "Finance & Economics": 11,
+  "Computing & Infrastructure": 9,
+  "General (Off-domain)": 2
+ },
+ "vocabulary": {
+  "raw_vocabulary": 92721,
+  "raw_tokens": 491271,
+  "raw_avg_doc_length": 6729.739726027397,
+  "processed_vocabulary": 13081,
+  "processed_tokens": 191513,
+  "processed_avg_doc_length": 2623.4657534246576,
+  "tfidf_features": 5446,
+  "index": {
+   "terms": 5446,
+   "postings": 54210,
+   "avg_postings_length": 9.954094748439221,
+   "max_postings_length": 71
+  },
+  "top_raw_terms": [
+   [
+    "the",
+    18500
+   ],
+   [
+    "of",
+    12977
+   ],
+   [
+    "and",
+    9967
+   ],
+   [
+    "to",
+    8234
+   ],
+   [
+    "a",
+    7166
+   ],
+   [
+    "in",
+    6681
+   ],
+   [
+    "on",
+    4554
+   ],
+   [
+    "is",
+    4446
+   ],
+   [
+    "for",
+    3871
+   ],
+   [
+    "from",
+    3180
+   ],
+   [
+    "that",
+    3153
+   ],
+   [
+    "The",
+    2862
+   ],
+   [
+    "as",
+    2818
+   ],
+   [
+    "Retrieved",
+    2532
+   ],
+   [
+    "by",
+    2366
+   ]
+  ],
+  "top_processed_terms": [
+   [
+    "use",
+    2083
+   ],
+   [
+    "data",
+    1486
+   ],
+   [
+    "model",
+    1412
+   ],
+   [
+    "learn",
+    1313
+   ],
+   [
+    "network",
+    1244
+   ],
+   [
+    "gener",
+    1101
+   ],
+   [
+    "comput",
+    1018
+   ],
+   [
+    "system",
+    832
+   ],
+   [
+    "train",
+    830
+   ],
+   [
+    "one",
+    769
+   ],
+   [
+    "machin",
+    717
+   ],
+   [
+    "also",
+    702
+   ],
+   [
+    "inform",
+    695
+   ],
+   [
+    "may",
+    694
+   ],
+   [
+    "ai",
+    680
+   ]
+  ]
+ },
+ "classification": {
+  "train_docs": 50,
+  "test_docs": 21,
+  "metrics": {
+   "accuracy": 0.8571428571428571,
+   "macro_precision": 0.9055555555555556,
+   "macro_recall": 0.8266666666666665,
+   "macro_f1": 0.8442063492063493,
+   "weighted_precision": 0.8902116402116401,
+   "weighted_recall": 0.8571428571428571,
+   "weighted_f1": 0.8543272864701437,
+   "per_class": [
+    {
+     "class": "AI Systems & Cognition",
+     "precision": 0.75,
+     "recall": 1.0,
+     "f1": 0.8571428571428571,
+     "support": 3
+    },
+    {
+     "class": "Computing & Infrastructure",
+     "precision": 1.0,
+     "recall": 0.6666666666666666,
+     "f1": 0.8,
+     "support": 3
+    },
+    {
+     "class": "Finance & Economics",
+     "precision": 1.0,
+     "recall": 0.6666666666666666,
+     "f1": 0.8,
+     "support": 3
+    },
+    {
+     "class": "Language & Search Technology",
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.888888888888889,
+     "support": 5
+    },
+    {
+     "class": "Machine Learning",
+     "precision": 0.7777777777777778,
+     "recall": 1.0,
+     "f1": 0.8750000000000001,
+     "support": 7
+    }
+   ],
+   "confusion_matrix": [
+    [
+     3,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     4,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     7
+    ]
+   ],
+   "labels": [
+    "AI Systems & Cognition",
+    "Computing & Infrastructure",
+    "Finance & Economics",
+    "Language & Search Technology",
+    "Machine Learning"
+   ]
+  },
+  "cv_metrics": {
+   "accuracy": 0.8309859154929577,
+   "macro_precision": 0.8338924233661077,
+   "macro_recall": 0.7727272727272727,
+   "macro_f1": 0.7771171171171172,
+   "weighted_precision": 0.8451600289999103,
+   "weighted_recall": 0.8309859154929577,
+   "weighted_f1": 0.8170029184113692,
+   "per_class": [
+    {
+     "class": "AI Systems & Cognition",
+     "precision": 0.7142857142857143,
+     "recall": 0.9090909090909091,
+     "f1": 0.8,
+     "support": 11
+    },
+    {
+     "class": "Computing & Infrastructure",
+     "precision": 0.7142857142857143,
+     "recall": 0.5555555555555556,
+     "f1": 0.6250000000000001,
+     "support": 9
+    },
+    {
+     "class": "Finance & Economics",
+     "precision": 1.0,
+     "recall": 0.45454545454545453,
+     "f1": 0.625,
+     "support": 11
+    },
+    {
+     "class": "Language & Search Technology",
+     "precision": 0.8947368421052632,
+     "recall": 0.9444444444444444,
+     "f1": 0.918918918918919,
+     "support": 18
+    },
+    {
+     "class": "Machine Learning",
+     "precision": 0.8461538461538461,
+     "recall": 1.0,
+     "f1": 0.9166666666666666,
+     "support": 22
+    }
+   ],
+   "confusion_matrix": [
+    [
+     10,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     2,
+     5,
+     0,
+     0,
+     2
+    ],
+    [
+     2,
+     2,
+     5,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     17,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     22
+    ]
+   ],
+   "labels": [
+    "AI Systems & Cognition",
+    "Computing & Infrastructure",
+    "Finance & Economics",
+    "Language & Search Technology",
+    "Machine Learning"
+   ],
+   "fold_accuracy": [
+    0.7333333333333333,
+    0.9285714285714286,
+    0.8571428571428571,
+    0.7857142857142857,
+    0.8571428571428571
+   ]
+  },
+  "predictions": [
+   {
+    "doc_id": "DOC002",
+    "title": "Amazon Web Services",
+    "actual": "Computing & Infrastructure",
+    "predicted": "Computing & Infrastructure"
+   },
+   {
+    "doc_id": "DOC006",
+    "title": "ChatGPT",
+    "actual": "AI Systems & Cognition",
+    "predicted": "AI Systems & Cognition"
+   },
+   {
+    "doc_id": "DOC014",
+    "title": "Data center",
+    "actual": "Computing & Infrastructure",
+    "predicted": "Computing & Infrastructure"
+   },
+   {
+    "doc_id": "DOC015",
+    "title": "Data structure",
+    "actual": "Computing & Infrastructure",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC017",
+    "title": "Deep learning",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC018",
+    "title": "Financial crisis",
+    "actual": "Finance & Economics",
+    "predicted": "Finance & Economics"
+   },
+   {
+    "doc_id": "DOC020",
+    "title": "Generative adversarial network",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC027",
+    "title": "Information retrieval",
+    "actual": "Language & Search Technology",
+    "predicted": "Language & Search Technology"
+   },
+   {
+    "doc_id": "DOC030",
+    "title": "Intelligent agent",
+    "actual": "AI Systems & Cognition",
+    "predicted": "AI Systems & Cognition"
+   },
+   {
+    "doc_id": "DOC033",
+    "title": "Lemmatization",
+    "actual": "Language & Search Technology",
+    "predicted": "Language & Search Technology"
+   },
+   {
+    "doc_id": "DOC037",
+    "title": "Markov decision process",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC038",
+    "title": "Money market fund",
+    "actual": "Finance & Economics",
+    "predicted": "Finance & Economics"
+   },
+   {
+    "doc_id": "DOC041",
+    "title": "Neural machine translation",
+    "actual": "Language & Search Technology",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC042",
+    "title": "Neural network (machine learning)",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC051",
+    "title": "Representative agent",
+    "actual": "Finance & Economics",
+    "predicted": "AI Systems & Cognition"
+   },
+   {
+    "doc_id": "DOC056",
+    "title": "Speaker recognition",
+    "actual": "Language & Search Technology",
+    "predicted": "Language & Search Technology"
+   },
+   {
+    "doc_id": "DOC059",
+    "title": "Statistical classification",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC064",
+    "title": "Support vector machine",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC069",
+    "title": "Turing test",
+    "actual": "AI Systems & Cognition",
+    "predicted": "AI Systems & Cognition"
+   },
+   {
+    "doc_id": "DOC070",
+    "title": "Unsupervised learning",
+    "actual": "Machine Learning",
+    "predicted": "Machine Learning"
+   },
+   {
+    "doc_id": "DOC073",
+    "title": "Word-sense disambiguation",
+    "actual": "Language & Search Technology",
+    "predicted": "Language & Search Technology"
+   }
+  ],
+  "top_terms": {
+   "AI Systems & Cognition": [
+    "llm",
+    "hallucin",
+    "iq",
+    "gpt",
+    "conscious",
+    "chatgpt",
+    "assist",
+    "chatbot"
+   ],
+   "Computing & Infrastructure": [
+    "packet",
+    "india",
+    "cloud",
+    "ethernet",
+    "cyberattack",
+    "html",
+    "hyderabad",
+    "tech"
+   ],
+   "Finance & Economics": [
+    "telugu",
+    "tamil",
+    "currenc",
+    "cryptocurr",
+    "trade",
+    "stock",
+    "exchang",
+    "bhojpuri"
+   ],
+   "Language & Search Technology": [
+    "sentiment",
+    "page",
+    "stem",
+    "text",
+    "phrase",
+    "translat",
+    "tag",
+    "search"
+   ],
+   "Machine Learning": [
+    "gradient",
+    "forest",
+    "descent",
+    "regress",
+    "backpropag",
+    "tree",
+    "convolut",
+    "neuron"
+   ]
+  }
+ },
+ "clustering": {
+  "k": 5,
+  "purity": 0.6056338028169014,
+  "rand_index": 0.7565392354124748,
+  "pair_counts": {
+   "TP": 275,
+   "FP": 350,
+   "FN": 255,
+   "TN": 1605
+  },
+  "n_iter": 2,
+  "converged": true,
+  "sse": 56.30894275101925,
+  "history": [
+   {
+    "iteration": 1,
+    "sse": 56.30894275101925,
+    "changed": 71,
+    "max_centroid_shift": 0.8789348386263824,
+    "sizes": [
+     18,
+     7,
+     8,
+     10,
+     28
+    ]
+   },
+   {
+    "iteration": 2,
+    "sse": 56.30894275101925,
+    "changed": 0,
+    "max_centroid_shift": 0.0,
+    "sizes": [
+     18,
+     7,
+     8,
+     10,
+     28
+    ]
+   }
+  ],
+  "best_run": 9,
+  "initial_seeds": [
+   "Amazon Web Services",
+   "Long short-term memory",
+   "Financial crisis",
+   "Philosophy of artificial intelligence",
+   "Autoencoder"
+  ],
+  "sizes": [
+   18,
+   7,
+   8,
+   10,
+   28
+  ],
+  "top_terms": [
+   [
+    "servic",
+    "websit",
+    "legal",
+    "site",
+    "privaci",
+    "web",
+    "secur",
+    "host"
+   ],
+   [
+    "token",
+    "lexic",
+    "segment",
+    "lstm",
+    "architectur",
+    "rnn",
+    "transform",
+    "index"
+   ],
+   [
+    "macroeconom",
+    "economi",
+    "econom",
+    "buyer",
+    "economist",
+    "microfound",
+    "heterogen",
+    "equilibrium"
+   ],
+   [
+    "philosophi",
+    "fiction",
+    "ture",
+    "mind",
+    "mental",
+    "scientist",
+    "russel",
+    "norvig"
+   ],
+   [
+    "vector",
+    "regress",
+    "linear",
+    "bayesian",
+    "kernel",
+    "supervis",
+    "unsupervis",
+    "discrimin"
+   ]
+  ],
+  "contingency": {
+   "2": {
+    "Finance & Economics": 8
+   },
+   "0": {
+    "Computing & Infrastructure": 6,
+    "AI Systems & Cognition": 4,
+    "Finance & Economics": 3,
+    "Language & Search Technology": 5
+   },
+   "4": {
+    "Machine Learning": 18,
+    "Computing & Infrastructure": 2,
+    "Language & Search Technology": 8
+   },
+   "3": {
+    "Computing & Infrastructure": 1,
+    "AI Systems & Cognition": 7,
+    "Language & Search Technology": 2
+   },
+   "1": {
+    "Machine Learning": 4,
+    "Language & Search Technology": 3
+   }
+  },
+  "membership": [
+   {
+    "doc_id": "DOC001",
+    "title": "Agent (economics)",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC002",
+    "title": "Amazon Web Services",
+    "label": "Computing & Infrastructure",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC003",
+    "title": "Autoencoder",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC004",
+    "title": "Backpropagation",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC006",
+    "title": "ChatGPT",
+    "label": "AI Systems & Cognition",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC007",
+    "title": "Cloud computing",
+    "label": "Computing & Infrastructure",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC008",
+    "title": "Computer network",
+    "label": "Computing & Infrastructure",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC009",
+    "title": "Computer science",
+    "label": "Computing & Infrastructure",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC010",
+    "title": "Conversation",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC011",
+    "title": "Convolutional neural network",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC012",
+    "title": "Cryptocurrency and crime",
+    "label": "Finance & Economics",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC013",
+    "title": "Cyberattack",
+    "label": "Computing & Infrastructure",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC014",
+    "title": "Data center",
+    "label": "Computing & Infrastructure",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC015",
+    "title": "Data structure",
+    "label": "Computing & Infrastructure",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC016",
+    "title": "Decision tree learning",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC017",
+    "title": "Deep learning",
+    "label": "Machine Learning",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC018",
+    "title": "Financial crisis",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC019",
+    "title": "Foreign exchange market",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC020",
+    "title": "Generative adversarial network",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC021",
+    "title": "Generative AI",
+    "label": "AI Systems & Cognition",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC022",
+    "title": "Goldmines Telefilms",
+    "label": "Finance & Economics",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC023",
+    "title": "Gradient descent",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC024",
+    "title": "Hallucination (artificial intelligence)",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC026",
+    "title": "Human intelligence",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC027",
+    "title": "Information retrieval",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC028",
+    "title": "Information technology in India",
+    "label": "Computing & Infrastructure",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC029",
+    "title": "Information theory",
+    "label": "Computing & Infrastructure",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC030",
+    "title": "Intelligent agent",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC031",
+    "title": "Large language model",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC032",
+    "title": "Layoff",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC033",
+    "title": "Lemmatization",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC034",
+    "title": "Long short-term memory",
+    "label": "Machine Learning",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC035",
+    "title": "Machine learning",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC036",
+    "title": "Machine translation",
+    "label": "Language & Search Technology",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC037",
+    "title": "Markov decision process",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC038",
+    "title": "Money market fund",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC039",
+    "title": "Named-entity recognition",
+    "label": "Language & Search Technology",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC040",
+    "title": "Natural language processing",
+    "label": "Language & Search Technology",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC041",
+    "title": "Neural machine translation",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC042",
+    "title": "Neural network (machine learning)",
+    "label": "Machine Learning",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC043",
+    "title": "Part-of-speech tagging",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC044",
+    "title": "Pattern recognition",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC045",
+    "title": "Philosophy of artificial intelligence",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC046",
+    "title": "Random forest",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC047",
+    "title": "Recurrent neural network",
+    "label": "Machine Learning",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC048",
+    "title": "Regression analysis",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC049",
+    "title": "Regulation of cryptocurrency",
+    "label": "Finance & Economics",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC050",
+    "title": "Reinforcement learning",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC051",
+    "title": "Representative agent",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC052",
+    "title": "Search engine",
+    "label": "Language & Search Technology",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC053",
+    "title": "Search engine optimization",
+    "label": "Language & Search Technology",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC054",
+    "title": "Sentiment analysis",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC055",
+    "title": "Software agent",
+    "label": "AI Systems & Cognition",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC056",
+    "title": "Speaker recognition",
+    "label": "Language & Search Technology",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC057",
+    "title": "Speech recognition",
+    "label": "Language & Search Technology",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC058",
+    "title": "Speech translation",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC059",
+    "title": "Statistical classification",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC060",
+    "title": "Statistical machine translation",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC061",
+    "title": "Stemming",
+    "label": "Language & Search Technology",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC062",
+    "title": "Stock market",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC063",
+    "title": "Supervised learning",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC064",
+    "title": "Support vector machine",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC065",
+    "title": "Technical analysis",
+    "label": "Finance & Economics",
+    "cluster": 2
+   },
+   {
+    "doc_id": "DOC066",
+    "title": "Text mining",
+    "label": "Language & Search Technology",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC067",
+    "title": "Tokenization",
+    "label": "Language & Search Technology",
+    "cluster": 1
+   },
+   {
+    "doc_id": "DOC068",
+    "title": "Transfer learning",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC069",
+    "title": "Turing test",
+    "label": "AI Systems & Cognition",
+    "cluster": 3
+   },
+   {
+    "doc_id": "DOC070",
+    "title": "Unsupervised learning",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC071",
+    "title": "Virtual assistant",
+    "label": "AI Systems & Cognition",
+    "cluster": 0
+   },
+   {
+    "doc_id": "DOC072",
+    "title": "Weak supervision",
+    "label": "Machine Learning",
+    "cluster": 4
+   },
+   {
+    "doc_id": "DOC073",
+    "title": "Word-sense disambiguation",
+    "label": "Language & Search Technology",
+    "cluster": 4
+   }
+  ],
+  "explained_variance_2d": [
+   0.04452373279325944,
+   0.029551249745458672
+  ],
+  "runs": [
+   {
+    "sse": 56.4365381778324,
+    "n_iter": 2
+   },
+   {
+    "sse": 56.70845128017315,
+    "n_iter": 2
+   },
+   {
+    "sse": 56.74361014108898,
+    "n_iter": 2
+   },
+   {
+    "sse": 56.42961958602972,
+    "n_iter": 3
+   },
+   {
+    "sse": 57.350095700895366,
+    "n_iter": 2
+   },
+   {
+    "sse": 57.39274765313066,
+    "n_iter": 2
+   },
+   {
+    "sse": 56.426566464223534,
+    "n_iter": 2
+   },
+   {
+    "sse": 56.7224512110806,
+    "n_iter": 2
+   },
+   {
+    "sse": 57.01278881490161,
+    "n_iter": 2
+   },
+   {
+    "sse": 56.30894275101925,
+    "n_iter": 2
+   }
+  ]
+ },
+ "recommendation": {
+  "p_at_5": 0.7211267605633804,
+  "examples": {
+   "Long short-term memory": {
+    "doc_id": "DOC034",
+    "category": "Machine Learning",
+    "recommendations": [
+     {
+      "rank": 1,
+      "doc_id": "DOC047",
+      "title": "Recurrent neural network",
+      "category": "Machine Learning",
+      "similarity": 0.29146712241244155,
+      "same_category": true,
+      "shared_terms": "rnn, lstm, gru, gate, ctc, forget"
+     },
+     {
+      "rank": 2,
+      "doc_id": "DOC017",
+      "title": "Deep learning",
+      "category": "Machine Learning",
+      "similarity": 0.2527060814738918,
+      "same_category": true,
+      "shared_terms": "lstm, timit, rnn, forget, grave, highway"
+     },
+     {
+      "rank": 3,
+      "doc_id": "DOC042",
+      "title": "Neural network (machine learning)",
+      "category": "Machine Learning",
+      "similarity": 0.2350612312741998,
+      "same_category": true,
+      "shared_terms": "neuroevolut, rnn, highway, schmidhub, lstm, forget"
+     },
+     {
+      "rank": 4,
+      "doc_id": "DOC057",
+      "title": "Speech recognition",
+      "category": "Language & Search Technology",
+      "similarity": 0.18946918178388103,
+      "same_category": false,
+      "shared_terms": "ctc, grave, lstm, rnn, switchboard, fred"
+     },
+     {
+      "rank": 5,
+      "doc_id": "DOC011",
+      "title": "Convolutional neural network",
+      "category": "Machine Learning",
+      "similarity": 0.18032201461162642,
+      "same_category": true,
+      "shared_terms": "hyperbol, explod, rnn, vanish, convolut, tangent"
+     }
+    ]
+   },
+   "Stock market": {
+    "doc_id": "DOC062",
+    "category": "Finance & Economics",
+    "recommendations": [
+     {
+      "rank": 1,
+      "doc_id": "DOC019",
+      "title": "Foreign exchange market",
+      "category": "Finance & Economics",
+      "similarity": 0.38802739588028073,
+      "same_category": true,
+      "shared_terms": "forex, trader, fx, currenc, otc, bid"
+     },
+     {
+      "rank": 2,
+      "doc_id": "DOC018",
+      "title": "Financial crisis",
+      "category": "Finance & Economics",
+      "similarity": 0.36965479975825816,
+      "same_category": true,
+      "shared_terms": "crash, recess, debt, investor, herd, panic"
+     },
+     {
+      "rank": 3,
+      "doc_id": "DOC038",
+      "title": "Money market fund",
+      "category": "Finance & Economics",
+      "similarity": 0.33265687554399476,
+      "same_category": true,
+      "shared_terms": "sec, debt, banker, investor, dividend, bond"
+     },
+     {
+      "rank": 4,
+      "doc_id": "DOC065",
+      "title": "Technical analysis",
+      "category": "Finance & Economics",
+      "similarity": 0.3163480060826601,
+      "same_category": true,
+      "shared_terms": "emh, dow, trader, investor, stock, irrat"
+     },
+     {
+      "rank": 5,
+      "doc_id": "DOC014",
+      "title": "Data center",
+      "category": "Computing & Infrastructure",
+      "similarity": 0.22934404206427147,
+      "same_category": false,
+      "shared_terms": "floor, indirect, household, tax, ownership, retir"
+     }
+    ]
+   },
+   "Agent (economics)": {
+    "doc_id": "DOC001",
+    "category": "Finance & Economics",
+    "recommendations": [
+     {
+      "rank": 1,
+      "doc_id": "DOC051",
+      "title": "Representative agent",
+      "category": "Finance & Economics",
+      "similarity": 0.2869081500264101,
+      "same_category": true,
+      "shared_terms": "macroeconom, microfound, heterogen, equilibrium, economist, economi"
+     },
+     {
+      "rank": 2,
+      "doc_id": "DOC062",
+      "title": "Stock market",
+      "category": "Finance & Economics",
+      "similarity": 0.1622929790601099,
+      "same_category": true,
+      "shared_terms": "taxat, household, pension, seller, macroeconom, redistribut"
+     },
+     {
+      "rank": 3,
+      "doc_id": "DOC055",
+      "title": "Software agent",
+      "category": "AI Systems & Cognition",
+      "similarity": 0.11495646069034134,
+      "same_category": false,
+      "shared_terms": "behalf, deleg, heterogen, agent, buyer, persist"
+     },
+     {
+      "rank": 4,
+      "doc_id": "DOC019",
+      "title": "Foreign exchange market",
+      "category": "Finance & Economics",
+      "similarity": 0.11292032675331247,
+      "same_category": true,
+      "shared_terms": "macroeconom, pension, seller, economi, behalf, maker"
+     },
+     {
+      "rank": 5,
+      "doc_id": "DOC018",
+      "title": "Financial crisis",
+      "category": "Finance & Economics",
+      "similarity": 0.09901780468190377,
+      "same_category": true,
+      "shared_terms": "economi, incent, economist, equilibrium, econom, oblig"
+     }
+    ]
+   },
+   "Information retrieval": {
+    "doc_id": "DOC027",
+    "category": "Language & Search Technology",
+    "recommendations": [
+     {
+      "rank": 1,
+      "doc_id": "DOC052",
+      "title": "Search engine",
+      "category": "Language & Search Technology",
+      "similarity": 0.23492004540900166,
+      "same_category": true,
+      "shared_terms": "pagerank, hyperlink, bush, boolean, vannevar, altavista"
+     },
+     {
+      "rank": 2,
+      "doc_id": "DOC009",
+      "title": "Computer science",
+      "category": "Computing & Infrastructure",
+      "similarity": 0.20553130371753917,
+      "same_category": false,
+      "shared_terms": "punch, jacquard, tabul, hollerith, emphasi, acm"
+     },
+     {
+      "rank": 3,
+      "doc_id": "DOC035",
+      "title": "Machine learning",
+      "category": "Machine Learning",
+      "similarity": 0.17871667258769033,
+      "same_category": false,
+      "shared_terms": "interdepend, spars, disappoint, emphasi, punch, fusion"
+     },
+     {
+      "rank": 4,
+      "doc_id": "DOC053",
+      "title": "Search engine optimization",
+      "category": "Language & Search Technology",
+      "similarity": 0.16822216531900067,
+      "same_category": true,
+      "shared_terms": "pagerank, brin, hyperlink, hummingbird, keyword, bert"
+     },
+     {
+      "rank": 5,
+      "doc_id": "DOC017",
+      "title": "Deep learning",
+      "category": "Machine Learning",
+      "similarity": 0.160914394058834,
+      "same_category": false,
+      "shared_terms": "boolean, karen, dens, ms, thesi, bidirect"
+     }
+    ]
+   },
+   "Cloud computing": {
+    "doc_id": "DOC007",
+    "category": "Computing & Infrastructure",
+    "recommendations": [
+     {
+      "rank": 1,
+      "doc_id": "DOC014",
+      "title": "Data center",
+      "category": "Computing & Infrastructure",
+      "similarity": 0.3086601103464151,
+      "same_category": true,
+      "shared_terms": "migrat, workload, latenc, infrastructur, downtim, instal"
+     },
+     {
+      "rank": 2,
+      "doc_id": "DOC002",
+      "title": "Amazon Web Services",
+      "category": "Computing & Infrastructure",
+      "similarity": 0.3069238951394418,
+      "same_category": true,
+      "shared_terms": "aw, elast, migrat, iaa, complianc, cloud"
+     },
+     {
+      "rank": 3,
+      "doc_id": "DOC013",
+      "title": "Cyberattack",
+      "category": "Computing & Infrastructure",
+      "similarity": 0.24064241007368045,
+      "same_category": true,
+      "shared_terms": "hacker, vendor, malwar, breach, unus, instal"
+     },
+     {
+      "rank": 4,
+      "doc_id": "DOC008",
+      "title": "Computer network",
+      "category": "Computing & Infrastructure",
+      "similarity": 0.23825080448927577,
+      "same_category": true,
+      "shared_terms": "latenc, firewal, ip, router, vlan, dropbox"
+     },
+     {
+      "rank": 5,
+      "doc_id": "DOC021",
+      "title": "Generative AI",
+      "category": "AI Systems & Cognition",
+      "similarity": 0.2156087637745043,
+      "same_category": false,
+      "shared_terms": "gdpr, gartner, setup, extraterritori, unmet, nondisclosur"
+     }
+    ]
+   }
+  },
+  "query": "How do recurrent neural networks handle long sequences in speech recognition?",
+  "query_results": [
+   {
+    "rank": 1,
+    "doc_id": "DOC047",
+    "title": "Recurrent neural network",
+    "category": "Machine Learning",
+    "similarity": 0.08902383533516986,
+    "shared_terms": "recurr, sequenc, recognit, neural, speech, handl"
+   },
+   {
+    "rank": 2,
+    "doc_id": "DOC034",
+    "title": "Long short-term memory",
+    "category": "Machine Learning",
+    "similarity": 0.08600469213839862,
+    "shared_terms": "recurr, recognit, sequenc, speech, neural, long"
+   },
+   {
+    "rank": 3,
+    "doc_id": "DOC041",
+    "title": "Neural machine translation",
+    "category": "Language & Search Technology",
+    "similarity": 0.08368182631641671,
+    "shared_terms": "recurr, neural, sequenc, handl, network, long"
+   },
+   {
+    "rank": 4,
+    "doc_id": "DOC044",
+    "title": "Pattern recognition",
+    "category": "Machine Learning",
+    "similarity": 0.07057191597530396,
+    "shared_terms": "recurr, recognit, sequenc, speech, neural, long"
+   },
+   {
+    "rank": 5,
+    "doc_id": "DOC057",
+    "title": "Speech recognition",
+    "category": "Language & Search Technology",
+    "similarity": 0.06303194051217004,
+    "shared_terms": "recurr, recognit, speech, sequenc, neural, handl"
+   }
+  ]
+ },
+ "duplicates": {
+  "pairs_compared": 2628,
+  "exact": 0,
+  "near": 0,
+  "top_pairs": [
+   {
+    "doc_a": "DOC017",
+    "title_a": "Deep learning",
+    "doc_b": "DOC042",
+    "title_b": "Neural network (machine learning)",
+    "jaccard": 0.05843686469392365,
+    "cosine": 0.5029310873585315
+   },
+   {
+    "doc_a": "DOC034",
+    "title_a": "Long short-term memory",
+    "doc_b": "DOC047",
+    "title_b": "Recurrent neural network",
+    "jaccard": 0.052105321630929895,
+    "cosine": 0.29146712241244155
+   },
+   {
+    "doc_a": "DOC024",
+    "title_a": "Hallucination (artificial intelligence)",
+    "doc_b": "DOC035",
+    "title_b": "Machine learning",
+    "jaccard": 0.028579305274765668,
+    "cosine": 0.25397053660371477
+   },
+   {
+    "doc_a": "DOC011",
+    "title_a": "Convolutional neural network",
+    "doc_b": "DOC017",
+    "title_b": "Deep learning",
+    "jaccard": 0.024338723683901706,
+    "cosine": 0.3657692019513552
+   },
+   {
+    "doc_a": "DOC017",
+    "title_a": "Deep learning",
+    "doc_b": "DOC047",
+    "title_b": "Recurrent neural network",
+    "jaccard": 0.023140354381259453,
+    "cosine": 0.3091511494787135
+   },
+   {
+    "doc_a": "DOC011",
+    "title_a": "Convolutional neural network",
+    "doc_b": "DOC042",
+    "title_b": "Neural network (machine learning)",
+    "jaccard": 0.022856328256789186,
+    "cosine": 0.3272236791211908
+   },
+   {
+    "doc_a": "DOC044",
+    "title_a": "Pattern recognition",
+    "doc_b": "DOC059",
+    "title_b": "Statistical classification",
+    "jaccard": 0.022819631134729602,
+    "cosine": 0.3686199305889948
+   },
+   {
+    "doc_a": "DOC001",
+    "title_a": "Agent (economics)",
+    "doc_b": "DOC051",
+    "title_b": "Representative agent",
+    "jaccard": 0.02247191011235955,
+    "cosine": 0.2869081500264101
+   }
+  ],
+  "max_cosine_pair": [
+   {
+    "title_a": "Deep learning",
+    "title_b": "Neural network (machine learning)",
+    "jaccard": 0.05843686469392365,
+    "cosine": 0.5029310873585315
+   },
+   {
+    "title_a": "Foreign exchange market",
+    "title_b": "Stock market",
+    "jaccard": 0.00105967920620394,
+    "cosine": 0.38802739588028073
+   },
+   {
+    "title_a": "Financial crisis",
+    "title_b": "Stock market",
+    "jaccard": 0.0017563467986587897,
+    "cosine": 0.36965479975825816
+   },
+   {
+    "title_a": "Pattern recognition",
+    "title_b": "Statistical classification",
+    "jaccard": 0.022819631134729602,
+    "cosine": 0.3686199305889948
+   },
+   {
+    "title_a": "Convolutional neural network",
+    "title_b": "Deep learning",
+    "jaccard": 0.024338723683901706,
+    "cosine": 0.3657692019513552
+   }
+  ]
+ }
+}

@@ -1,0 +1,1201 @@
+﻿Foreign exchange market
+
+The foreign exchange market (forex, FX, or
+currency market) is a global decentralized or
+over-the-counter (OTC) market for the trading of
+currencies. This market determines foreign
+exchange rates for every currency. By trading
+volume, it is by far the largest market in the
+world, followed by the credit market.[1]
+
+US Dollar Index DXY
+
+The main participants are the larger international    US Dollar Index (DXY)
+
+banks. Financial centres function as anchors of  USD/GBP exchange rate
+   USD/Canadian dollar exchange rate
+
+trading between a range of multiple types of    EUR/USD (inverted) exchange rate
+buyers and sellers around the clock, with the    USD/JPY exchange rate
+exception of weekends. As currencies are always    USD/SEK exchange rate
+traded in pairs, the market does not set a    USD/CHF exchange rate
+
+ 
+currency's absolute value, but rather determines
+its relative value by setting the market price of
+one currency if paid for with another. Example: 1 USD is worth 1.1 Euros or 1.2 Swiss Francs etc. The
+market works through financial institutions and operates on several levels. Behind the scenes, banks turn
+to a smaller number of financial firms known as "dealers", who are involved in large quantities of trading.
+Most foreign exchange dealers are banks, so this behind-the-scenes market is sometimes called the
+"interbank market". Trades between dealers can be very large, involving hundreds of millions of dollars.
+Because of the sovereignty issue when involving two currencies, Forex has little supervisory entity
+regulating its actions. In a typical foreign exchange transaction, a party purchases some quantity of one
+currency by paying with some quantity of another currency.
+
+The foreign exchange market assists international trade and investments by enabling currency conversion.
+For example, it permits a business in the US to import goods from European Union member states, and
+pay Euros, even though its income is in United States dollars. It also supports direct speculation and
+evaluation relative to the value of currencies and the carry trade speculation, based on the differential
+interest rate between two currencies.[2]
+
+The modern foreign exchange market began forming during the 1970s. This followed three decades of
+government restrictions on foreign exchange transactions under the Bretton Woods system of monetary
+management, which set out the rules for commercial and financial relations among major industrial states
+after World War II. Countries gradually switched to floating exchange rates from the previous exchange
+rate regime, which remained fixed per the Bretton Woods system. The foreign exchange market is unique
+because of the following characteristics:
+
+huge trading volume, representing the largest asset class in the world leading to high
+liquidity;
+geographical dispersion;
+
+
+
+continuous operation: 24 hours a day except weekends, i.e., trading from 22:00 UTC on
+Sunday (Sydney) until 22:00 UTC Friday (New York);
+variety of factors that affect exchange rates;
+low profit margins compared with other markets of fixed income; and
+use of leverage to enhance profit and loss margins and with respect to account size.
+
+As such, it has been referred to as the market closest to the ideal of perfect competition, notwithstanding
+currency intervention by central banks.
+
+Trading in foreign exchange markets averaged US$9.6 trillion per day in April 2025, up from
+US$7.5 trillion in 2022. Measured by value, foreign exchange swaps were traded more than any other
+instrument in 2025, at US$4 trillion per day, followed by spot trading at US$3 trillion.[3]
+
+History
+
+Ancient
+Currency trading and exchange first occurred in ancient times.[4] Money-changers (people helping others
+to change money and also taking a commission or charging a fee) were living in the Holy Land in the
+times of the Talmudic writings (Biblical times). These people (sometimes called "kollybistẻs") used city
+stalls, and at feast times the Temple's Court of the Gentiles instead.[5] Money-changers were also the
+silversmiths and/or goldsmiths[6] of more recent ancient times.
+
+During the 4th century AD, the Byzantine government kept a monopoly on the exchange of currency.[7]
+
+Papyri PCZ I 59021 (c.259/8 BC), shows the occurrences of exchange of coinage in Ancient Egypt.[8]
+
+Currency and exchange were important elements of trade in the ancient world, enabling people to buy
+and sell items like food, pottery, and raw materials.[9] If a Greek coin held more gold than an Egyptian
+coin due to its size or content, then a merchant could barter fewer Greek gold coins for more Egyptian
+ones, or for more material goods. This is why, at some point in their history, most world currencies in
+circulation today had a value fixed to a specific quantity of a recognized standard like silver and gold.
+
+Medieval and later
+During the 15th century, the Medici family were required to open banks at foreign locations in order to
+exchange currencies to act on behalf of textile merchants.[10][11] To facilitate trade, the bank created the
+nostro (from Italian, this translates to "ours") account book which contained two columned entries
+showing amounts of foreign and local currencies; information pertaining to the keeping of an account
+with a foreign bank.[12][13][14][15] During the 17th (or 18th) century, Amsterdam maintained an active
+Forex market.[16] In 1704, foreign exchange took place between agents acting in the interests of the
+Kingdom of England and the County of Holland.[17]
+
+
+
+Early modern
+Alex. Brown & Sons traded foreign currencies around 1850 and was a leading currency trader in the
+USA.[18] In 1880, J.M. do Espírito Santo de Silva (Banco Espírito Santo) applied for and was given
+permission to engage in a foreign exchange trading business.[19][20]
+
+The year 1880 is considered by at least one source to be the beginning of modern foreign exchange: the
+gold standard began in that year.[21]
+
+Prior to the First World War, there was a much more limited control of international trade. Motivated by
+the onset of war, countries abandoned the gold standard monetary system.[22]
+
+Modern to post-modern
+From 1899 to 1913, holdings of countries' foreign exchange increased at an annual rate of 10.8%, while
+holdings of gold increased at an annual rate of 6.3% between 1903 and 1913.[23]
+
+At the end of 1913, nearly half of the world's foreign exchange was conducted using the pound
+sterling.[24] The number of foreign banks operating within the boundaries of London increased from 3 in
+1860, to 71 in 1913. In 1902, there were just two London foreign exchange brokers.[25] At the start of the
+20th century, trades in currencies was most active in Paris, New York City and Berlin; Britain remained
+largely uninvolved until 1914. Between 1919 and 1922, the number of foreign exchange brokers in
+London increased to 17; and in 1924, there were 40 firms operating for the purposes of exchange.[26]
+
+During the 1920s, the Kleinwort family were known as the leaders of the foreign exchange market, while
+Japheth, Montagu & Co. and Seligman still warrant recognition as significant FX traders.[27] The trade in
+London began to resemble its modern manifestation. By 1928, Forex trade was integral to the financial
+functioning of the city. However, during the 1930s, London's pursuit of widespread trade prosperity was
+hindered by continental exchange controls and additional factors in Europe and Latin America.[28] Some
+of these additional factors include tariff rates and quota,[29] protectionist policies, trade barriers and taxes,
+economic depression and agricultural overproduction, and impact of protection on trade.
+
+After World War II
+In 1944, the Bretton Woods Accord was signed, allowing currencies to fluctuate within a range of ±1%
+from the currency's par exchange rate.[30] In Japan, the Foreign Exchange Bank Law was introduced in
+1954. As a result, the Bank of Tokyo became a center of foreign exchange by September 1954. Between
+1954 and 1959, Japanese law was changed to allow foreign exchange dealings in many more Western
+currencies.[31]
+
+U.S. President Richard Nixon is credited with ending the Bretton Woods Accord and fixed rates of
+exchange, eventually resulting in a free-floating currency system. After the Accord ended in 1971,[32] the
+Smithsonian Agreement allowed rates to fluctuate by up to ±2%. In 1961–62, the volume of foreign
+operations by the U.S. Federal Reserve was relatively low.[33][34] Those responsible for managing
+exchange rates then found the boundaries of the Agreement unrealistic. As a result, it led to its
+discontinuation in March 1973. Afterwards, none of the major currencies (such as the US dollar, the
+British pound, or the Japanese yen) were maintained with a capacity for conversion to gold. Instead,
+organizations relied on reserves of currency to facilitate international trade and back the value of their
+own currency.[35][36] From 1970 to 1973, the volume of trading in the market increased three-
+
+
+
+fold.[37][38][39] At some time (according to Gandolfo during February–March 1973) some of the markets
+were "split", and a two-tier currency market was subsequently introduced, with dual currency rates. This
+was abolished in March 1974.[40][41][42]
+
+Reuters introduced computer monitors during June 1973, replacing the telephones and telex used
+previously for trading quotes.[43]
+
+Markets close
+Due to the ultimate ineffectiveness of the Bretton Woods Accord and the European Joint Float, the forex
+markets were forced to close sometime during 1972 and March 1973.[44] This was a result of the collapse
+of the Bretton Woods System, as major currencies began to float against each other, ultimately leading to
+the abandonment of the fixed exchange rate system.[45][46] Meanwhile, the largest purchase of US dollars
+in the history of 1976[47] was when the West German government achieved an almost 3 billion dollar
+acquisition (a figure is given as 2.75 billion in total by The Statesman: Volume 18 1974). This event
+indicated the impossibility of balancing of exchange rates by the measures of control used at the time, and
+the monetary system and the foreign exchange markets in West Germany and other countries within
+Europe closed for two weeks (during February and, or, March 1973. Giersch, Paqué, & Schmieding state
+closed after purchase of "7.5 million Dmarks" Brawley states "... Exchange markets had to be closed.
+When they re-opened ... March 1 " that is a large purchase occurred after the close).[48][41][49][50]
+
+After 1973
+In developed nations, state control of foreign exchange trading ended in 1973 when complete floating and
+relatively free market conditions of modern times began.[51] Other sources claim that the first time a
+currency pair was traded by U.S. retail customers was during 1982, with additional currency pairs
+becoming available by the next year.[52][53]
+
+On 1 January 1981, as part of changes beginning during 1978, the People's Bank of China allowed certain
+domestic "enterprises" to participate in foreign exchange trading.[54][55] Sometime during 1981, the South
+Korean government ended Forex controls and allowed free trade to occur for the first time. During 1988,
+the country's government accepted the IMF quota for international trade.[56]
+
+Intervention by European banks (especially the Bundesbank) influenced the Forex market on 27 February
+1985.[57] The greatest proportion of all trades worldwide during 1987 were within the United Kingdom
+(slightly over one quarter). The United States had the second highest involvement in trading.[58]
+
+During 1991, Iran changed international agreements with some countries from oil-barter to foreign
+exchange.[59]
+
+Market size and liquidity
+The foreign exchange market is the most liquid financial market in the world. Traders include
+governments and central banks, commercial banks, other institutional investors and financial institutions,
+currency speculators, other commercial corporations, and individuals. According to the 2025 Triennial
+
+
+
+Central Bank Survey, coordinated by the Bank
+for International Settlements, average daily
+turnover was $9.6 trillion in April 2025
+(compared to $4 trillion in 2010).[3] Of this
+$9.6 trillion, $3 trillion was spot transactions
+and $6.6 trillion was traded in outright
+forwards, swaps, and other derivatives.
+
+Foreign exchange is traded in an over-the-
+counter market where brokers/dealers negotiate
+directly with one another, so there is no central
+exchange or clearing house. The biggest
+geographic trading center is the United Main foreign exchange market turnover, 1988–2007,
+Kingdom, primarily London. In April 2025, measured in billions of USD
+
+trading in the United Kingdom accounted for
+37.8% of the total, making it by far the most
+important center for foreign exchange trading in the world. Owing to London's dominance in the market,
+a particular currency's quoted price is usually the London market price. For instance, when the
+International Monetary Fund calculates the value of its special drawing rights every day, they use the
+London market prices at noon that day. Trading in the United States accounted for 18.6%, Singapore and
+Hong Kong account for 11.8% and 7.0%, respectively, and Japan accounted for 3.5%.[3]
+
+Turnover of exchange-traded foreign exchange futures and options was growing rapidly in 2004–2013,
+reaching $145 billion in April 2013 (double the turnover recorded in April 2007).[60] As of April 2025,
+exchange-traded currency derivatives represent 2% of OTC foreign exchange turnover. Foreign exchange
+futures contracts were introduced in 1972 at the Chicago Mercantile Exchange and are traded more than
+to most other futures contracts.
+
+Most developed countries permit the trading of derivative products (such as futures and options on
+futures) on their exchanges. All these developed countries already have fully convertible capital accounts.
+Some governments of emerging markets do not allow foreign exchange derivative products on their
+exchanges because they have capital controls. The use of derivatives is growing in many emerging
+economies.[61] Countries such as South Korea, South Africa, and India have established currency futures
+exchanges, despite having some capital controls.
+
+Foreign exchange trading increased by 20% between April 2007 and April 2010 and has more than
+doubled since 2004.[62] The increase in turnover is due to a number of factors: the growing importance of
+foreign exchange as an asset class, the increased trading activity of high-frequency traders, and the
+emergence of retail investors as an important market segment. The growth of electronic execution and the
+diverse selection of execution venues has lowered transaction costs, increased market liquidity, and
+attracted greater participation from many customer types. In particular, electronic trading via online
+portals has made it easier for retail traders to trade in the foreign exchange market. By 2010, retail trading
+was estimated to account for up to 10% of spot turnover, or $150 billion per day (see below: Retail
+foreign exchange traders).
+
+Market participants
+
+
+
+Unlike a stock market, the foreign Top 10 currency traders[63]
+
+exchange market is divided into % of overall volume, June 2020
+
+levels of access. At the top is the Rank Name Market share
+interbank foreign exchange market,
+which is made up of the largest 1  JPMorgan Chase 10.78%
+commercial banks and securities 2  UBS 8.13%
+dealers. Within the interbank
+market, spreads represent the gap 3  XTX Markets 7.58%
+between the bid (the highest price a 4  Deutsche Bank 7.38%
+buyer is willing to pay) and ask (the
+lowest price a seller is willing to 5  Citi 5.50%
+
+accept) prices in trading.[64] 6  HSBC 5.33%
+Relationships play a role in a bank's
+access to interbank market liquidity. 7  Jump Trading 5.23%
+
+Banks with reserve imbalances may 8  Goldman Sachs 4.62%
+prefer to borrow from banks with
+
+9  State Street Corporation 4.61%
+established relationships and can
+sometimes secure loans at more 10  Bank of America Merrill Lynch 4.50%
+favorable interest rates compared to
+other sources.[64]
+
+The difference between the bid and ask prices widens (for example from 0 to 1 pip to 1–2 pips for
+currencies such as the EUR) as you go down the levels of access. This is due to volume. If a trader can
+guarantee large numbers of transactions for large amounts, they can demand a smaller difference between
+the bid and ask price, which is referred to as a better spread. The levels of access that make up the foreign
+exchange market are determined by the size of the "line" (the amount of money with which they are
+trading). The top-tier interbank market accounts for 51% of all transactions.[65] After that, smaller banks,
+large multinational corporations (requiring risk hedging and cross-border payroll), major hedge funds,
+and even a few retail market makers come into play. According to Galati and Melvin, “Pension funds,
+insurance companies, mutual funds, and other institutional investors have played an increasingly
+important role in financial markets in general, and in FX markets in particular, since the early 2000s.”
+(2004) In addition, he notes, “Hedge funds have grown markedly over the 2001–2004 period in terms of
+both number and overall size”.[66] Central banks also participate in the foreign exchange market to align
+currencies to their economic needs.
+
+Commercial companies
+An important part of the foreign exchange market comes from the financial activities of companies
+seeking foreign exchange to pay for goods or services. Commercial companies often trade fairly small
+amounts compared to those of banks or speculators, and their trades often have a little short-term impact
+on market rates. Nevertheless, trade flows are an important factor in the long-term direction of a
+currency's exchange rate. Some multinational corporations (MNCs) can have an unpredictable impact
+when very large positions are covered due to exposures that are not widely known by other market
+participants.
+
+
+
+Central banks
+National central banks play an important role in the foreign exchange markets. They try to control the
+money supply, inflation, and/or interest rates and often have official or unofficial target rates for their
+currencies. They can use their often substantial foreign exchange reserves to stabilize the market.
+Nevertheless, the effectiveness of central bank "stabilizing speculation" is doubtful because central banks
+do not go bankrupt if they make large losses as other traders would. There is also no convincing evidence
+that they actually make a profit from trading.
+
+Foreign exchange fixing
+Foreign exchange fixing is the daily monetary exchange rate fixed by the national bank of each country.
+The idea is that central banks use the fixing time and exchange rate to evaluate the behavior of their
+currency. Fixing exchange rates reflect the real value of equilibrium in the market. Banks, dealers, and
+traders use fixing rates as a market trend indicator.
+
+The mere expectation or rumor of a central bank foreign exchange intervention might be enough to
+stabilize the currency. However, aggressive intervention might be used several times each year in
+countries with a dirty float currency regime. Central banks do not always achieve their objectives. The
+combined resources of the market can easily overwhelm any central bank.[67] Several scenarios of this
+nature were seen in the 1992–93 European Exchange Rate Mechanism collapse, and in more recent times
+in Asia.
+
+Investment management firms
+Investment management firms (who typically manage large accounts on behalf of customers such as
+pension funds and endowments) use the foreign exchange market to facilitate transactions in foreign
+securities. For example, an investment manager bearing an international equity portfolio needs to
+purchase and sell several pairs of foreign currencies to pay for foreign securities purchases.
+
+Some investment management firms also have more speculative specialist currency overlay operations,
+which manage clients' currency exposures with the aim of generating profits as well as limiting risk.
+While the number of this type of specialist firms is quite small, many have a large value of assets under
+management and can, therefore, generate large trades.
+
+Retail foreign exchange traders
+Individual retail speculative traders constitute a growing segment of this market. Currently, they
+participate indirectly through brokers or banks. Retail brokers, while largely controlled and regulated in
+the US by the Commodity Futures Trading Commission and National Futures Association, have
+previously been subjected to periodic foreign exchange fraud.[68][69] To deal with the issue, in 2010 the
+NFA required its members that deal in the Forex markets to register as such (i.e., Forex CTA instead of a
+CTA). Those NFA members that would traditionally be subject to minimum net capital requirements,
+FCMs and IBs, are subject to greater minimum net capital requirements if they deal in Forex. A number
+of the foreign exchange brokers operate from the UK under Financial Services Authority regulations
+where foreign exchange trading using margin is part of the wider over-the-counter derivatives trading
+industry that includes contracts for difference and financial spread betting.
+
+
+
+There are two main types of retail FX brokers offering the opportunity for speculative currency trading:
+brokers and dealers or market makers. Brokers serve as an agent of the customer in the broader FX
+market, by seeking the best price in the market for a retail order and dealing on behalf of the retail
+customer. They charge a commission or "mark-up" in addition to the price obtained in the market.
+Dealers or market makers, by contrast, typically act as principals in the transaction versus the retail
+customer, and quote a price they are willing to deal at.
+
+Non-bank foreign exchange companies
+Non-bank foreign exchange companies offer currency exchange and international payments to private
+individuals and companies. These are also known as "foreign exchange brokers" but are distinct in that
+they do not offer speculative trading but rather currency exchange with payments (i.e., there is usually a
+physical delivery of currency to a bank account).
+
+It is estimated that in the UK, 14% of currency transfers/payments are made via Foreign Exchange
+Companies.[70] These companies' selling point is usually that they will offer better exchange rates or
+cheaper payments than the customer's bank.[71] These companies differ from Money Transfer/Remittance
+Companies in that they generally offer higher-value services. The volume of transactions done through
+Foreign Exchange Companies in India amounts to about US$2 billion[72] per day. This does not compete
+favorably with any well developed foreign exchange market of international repute, but with the entry of
+online Foreign Exchange Companies the market is steadily growing. Around 25% of currency
+transfers/payments in India are made via non-bank Foreign Exchange Companies.[73] Most of these
+companies use the USP of better exchange rates than the banks. They are regulated by FEDAI and any
+transaction in foreign Exchange is governed by the Foreign Exchange Management Act, 1999 (FEMA).
+
+Money transfer/remittance companies and bureaux de change
+Money transfer companies/remittance companies perform high-volume low-value transfers generally by
+economic migrants back to their home country. In 2007, the Aite Group estimated that there were $369
+billion of remittances (an increase of 8% on the previous year). The four largest foreign markets (India,
+China, Mexico, and the Philippines) receive $95 billion. The largest and best-known provider is Western
+Union with 345,000 agents globally, followed by UAE Exchange.[74]
+
+Bureaux de change or currency transfer companies provide low-value foreign exchange services for
+travelers. These are typically located at airports and stations or at tourist locations and allow physical
+notes to be exchanged from one currency to another. They access foreign exchange markets via banks or
+non-bank foreign exchange companies.
+
+Most traded currencies by value
+
+
+
+Most traded currencies by value
+Currency distribution of global foreign exchange market turnover[75]
+
+Proportion of daily volume
+Currency ISO 4217 Change
+
+code April 2022 April 2025 (2022–2025)
+
+1 United States dollar USD 88.4% 89.2%  0.8pp
+
+2 Euro EUR 30.6% 28.9%  1.7pp
+
+3 Japanese yen JPY 16.7% 16.8%  0.1pp
+
+4 Pound sterling GBP 12.9% 10.2%  2.7pp
+
+5 Renminbi CNY 7.0% 8.5%  1.5pp
+
+6 Swiss franc CHF 5.2% 6.4%  1.2pp
+
+7 Australian dollar AUD 6.4% 6.1%  0.3pp
+
+8 Canadian dollar CAD 6.2% 5.8%  0.4pp
+
+9 Hong Kong dollar HKD 2.6% 3.8%  1.2pp
+
+10 Singapore dollar SGD 2.4% 2.4%
+
+11 Indian rupee INR 1.6% 1.9%  0.3pp
+
+12 South Korean won KRW 1.8% 1.8%
+
+13 Swedish krona SEK 2.2% 1.6%  0.6pp
+
+14 Mexican peso MXN 1.5% 1.6%  0.1pp
+
+15 New Zealand dollar NZD 1.7% 1.5%  0.2pp
+
+16 Norwegian krone NOK 1.7% 1.3%  0.4pp
+
+17 New Taiwan dollar TWD 1.1% 1.2%  0.1pp
+
+18 Brazilian real BRL 0.9% 0.9%
+
+19 South African rand ZAR 1.0% 0.8%  0.2pp
+
+20 Polish złoty PLN 0.7% 0.8%  0.1pp
+
+21 Danish krone DKK 0.7% 0.7%
+
+22 Indonesian rupiah IDR 0.4% 0.7%  0.3pp
+
+23 Turkish lira TRY 0.4% 0.5%  0.1pp
+
+24 Thai baht THB 0.4% 0.5%  0.1pp
+
+25 Israeli new shekel ILS 0.4% 0.4%
+
+26 Hungarian forint HUF 0.3% 0.4%  0.1pp
+
+27 Czech koruna CZK 0.4% 0.4%
+
+28 Chilean peso CLP 0.3% 0.3%
+
+29 Philippine peso PHP 0.2% 0.2%
+
+30 Colombian peso COP 0.2% 0.2%
+
+31 Malaysian ringgit MYR 0.2% 0.2%
+
+32 UAE dirham AED 0.4% 0.1%  0.3pp
+
+33 Saudi riyal SAR 0.2% 0.1%  0.1pp
+
+34 Romanian leu RON 0.1% 0.1%
+
+
+
+35 Peruvian sol PEN 0.1% 0.1%
+
+36 Other currencies 2.6% 3.4%  0.8pp
+
+37 Total[a] 200.0% 200.0%
+
+There is no unified or centrally cleared market for the majority of trades, and there is very little cross-
+border regulation. Due to the over-the-counter (OTC) nature of currency markets, there are rather a
+number of interconnected marketplaces, where different currencies instruments are traded. This implies
+that there is not a single exchange rate but rather a number of different rates (prices), depending on what
+bank or market maker is trading, and where it is. In practice, the rates are quite close due to arbitrage.
+Due to London's dominance in the market, a particular currency's quoted price is usually the London
+market price. Major trading exchanges include Electronic Broking Services (EBS) and Thomson Reuters
+Dealing, while major banks also offer trading systems. A joint venture of the Chicago Mercantile
+Exchange and Reuters, called Fxmarketspace opened in 2007 and aspired but failed to the role of a
+central market clearing mechanism.[76]
+
+The main trading centers are London and New York City, though Tokyo, Hong Kong, and Singapore are
+all important centers as well. Banks throughout the world participate. Currency trading happens
+continuously throughout the day; as the Asian trading session ends, the European session begins,
+followed by the North American session and then back to the Asian session.
+
+Fluctuations in exchange rates are usually caused by actual monetary flows as well as by expectations of
+changes in monetary flows. These are caused by changes in gross domestic product (GDP) growth,
+inflation (purchasing power parity theory), interest rates (interest rate parity, Domestic Fisher effect,
+International Fisher effect), budget and trade deficits or surpluses, large cross-border M&A deals and
+other macroeconomic conditions. Major news is released publicly, often on scheduled dates, so many
+people have access to the same news at the same time. However, large banks have an important
+advantage; they can see their customers' order flow.
+
+Currencies are traded against one another in pairs. Each currency pair thus constitutes an individual
+trading product and is traditionally noted XXXYYY or XXX/YYY, where XXX and YYY are the ISO
+4217 international three-letter code of the currencies involved. The first currency (XXX) is the base
+currency that is quoted relative to the second currency (YYY), called the counter currency (or quote
+currency). For instance, the quotation EURUSD (EUR/USD) 1.5465 is the price of the Euro expressed in
+US dollars, meaning 1 euro = 1.5465 dollars. The market convention is to quote most exchange rates
+against the USD with the US dollar as the base currency (e.g. USDJPY, USDCAD, USDCHF). The
+exceptions are the British pound (GBP), Australian dollar (AUD), the New Zealand dollar (NZD) and the
+euro (EUR) where the USD is the counter currency (e.g. GBPUSD, AUDUSD, NZDUSD, EURUSD).
+
+The factors affecting XXX will affect both XXXYYY and XXXZZZ. This causes a positive currency
+correlation between XXXYYY and XXXZZZ.
+
+On the spot market, according to the 2025 Triennial Survey, the most heavily traded bilateral currency
+pairs were:
+
+EURUSD: 21.2%
+USDJPY: 14.3%
+USDCNY: 8.1%
+
+
+
+The U.S. currency was involved in 89.2% of transactions, followed by the euro (28.9%), the yen (16.8%),
+and sterling (10.2%) (see table). Volume percentages for all individual currencies should add up to 200%,
+as each transaction involves two currencies.
+
+Trading in the euro has grown considerably since the currency's creation in January 1999, and how long
+the foreign exchange market will remain dollar-centered is open to debate. Until recently, trading the euro
+versus a non-European currency ZZZ would have usually involved two trades: EURUSD and USDZZZ.
+The exception to this is EURJPY, which is an established traded currency pair in the interbank spot
+market.
+
+Determinants of exchange rates
+In a fixed exchange rate regime, exchange rates are decided by the government, while a number of
+theories have been proposed to explain (and predict) the fluctuations in exchange rates in a floating
+exchange rate regime, including:
+
+International parity conditions: Relative purchasing power parity, interest rate parity,
+Domestic Fisher effect, International Fisher effect. To some extent the above theories
+provide logical explanation for the fluctuations in exchange rates, yet these theories falter as
+they are based on challengeable assumptions (e.g., free flow of goods, services, and
+capital) which seldom hold true in the real world.
+Balance of payments model: This model, however, focuses largely on tradable goods and
+services, ignoring the increasing role of global capital flows. It failed to provide any
+explanation for the continuous appreciation of the US dollar during the 1980s and most of
+the 1990s, despite the soaring US current account deficit.
+Asset market model: views currencies as an important asset class for constructing
+investment portfolios. Asset prices are influenced mostly by people's willingness to hold the
+existing quantities of assets, which in turn depends on their expectations on the future worth
+of these assets. The asset market model of exchange rate determination states that “the
+exchange rate between two currencies represents the price that just balances the relative
+supplies of, and demand for, assets denominated in those currencies.”
+
+None of the models developed so far succeed to explain exchange rates and volatility in the longer time
+frames. For shorter time frames (less than a few days), algorithms can be devised to predict prices. It is
+understood from the above models that many macroeconomic factors affect the exchange rates and in the
+end currency prices are a result of dual forces of supply and demand. The world's currency markets can
+be viewed as a huge melting pot: in a large and ever-changing mix of current events, supply and demand
+factors are constantly shifting, and the price of one currency in relation to another shifts accordingly. No
+other market encompasses (and distills) as much of what is going on in the world at any given time as
+foreign exchange.[77]
+
+Supply and demand for any given currency, and thus its value, are not influenced by any single element,
+but rather by several. These elements generally fall into three categories: economic factors, political
+conditions, and market psychology.
+
+Economic factors
+Economic factors include: (a) economic policy, disseminated by government agencies and central banks,
+(b) economic conditions, generally revealed through economic reports, and other economic indicators.
+
+
+
+Economic policy comprises government fiscal policy (budget/spending practices) and
+monetary policy (the means by which a government's central bank influences the supply and
+"cost" of money, which is reflected by the level of interest rates).
+Government budget deficits or surpluses: The market usually reacts negatively to widening
+government budget deficits, and positively to narrowing budget deficits. The impact is
+reflected in the value of a country's currency.
+Balance of trade levels and trends: The trade flow between countries illustrates the demand
+for goods and services, which in turn indicates demand for a country's currency to conduct
+trade. Surpluses and deficits in trade of goods and services reflect the competitiveness of a
+nation's economy. For example, trade deficits may have a negative impact on a nation's
+currency.
+Inflation levels and trends: Typically a currency will lose value if there is a high level of
+inflation in the country or if inflation levels are perceived to be rising. This is because
+inflation erodes purchasing power, thus demand, for that particular currency. However, a
+currency may sometimes strengthen when inflation rises because of expectations that the
+central bank will raise short-term interest rates to combat rising inflation.
+Economic growth and health: Reports such as GDP, employment levels, retail sales,
+capacity utilization and others, detail the levels of a country's economic growth and health.
+Generally, the more healthy and robust a country's economy, the better its currency will
+perform, and the more demand for it there will be.
+Productivity of an economy: Increasing productivity in an economy should positively
+influence the value of its currency. Its effects are more prominent if the increase is in the
+traded sector.[78]
+
+Political conditions
+Internal, regional, and international political conditions and events can have a profound effect on
+currency markets.
+
+All exchange rates are susceptible to political instability and anticipations about the new ruling party.
+Political upheaval and instability can have a negative impact on a nation's economy. For example,
+destabilization of coalition governments in Pakistan and Thailand can negatively affect the value of their
+currencies. Similarly, in a country experiencing financial difficulties, the rise of a political faction that is
+perceived to be fiscally responsible can have the opposite effect. Also, events in one country in a region
+may spur positive/negative interest in a neighboring country and, in the process, affect its currency.
+
+Market psychology
+Market psychology and trader perceptions influence the foreign exchange market in a variety of ways:
+
+Flights to quality: Unsettling international events can lead to a "flight-to-quality", a type of
+capital flight whereby investors move their assets to a perceived "safe haven". There will be
+a greater demand, thus a higher price, for currencies perceived as stronger over their
+relatively weaker counterparts. The US dollar, Swiss franc and gold have been traditional
+safe havens during times of political or economic uncertainty.[79]
+
+Long-term trends: Currency markets often move in visible long-term trends. Although
+currencies do not have an annual growing season like physical commodities, business
+cycles do make themselves felt. Cycle analysis looks at longer-term price trends that may
+rise from economic or political trends.[80]
+
+"Buy the rumor, sell the fact": This market truism can apply to many currency situations. It is
+the tendency for the price of a currency to reflect the impact of a particular action before it
+
+
+
+occurs and, when the anticipated event comes to pass, react in exactly the opposite
+direction. This may also be referred to as a market being "oversold" or "overbought". To buy
+the rumor or sell the fact can also be an example of the cognitive bias known as Anchoring,
+when investors focus too much on the relevance of outside events to currency prices.
+Economic numbers: While economic numbers can certainly reflect economic policy, some
+reports and numbers take on a talisman-like effect: the number itself becomes important to
+market psychology and may have an immediate impact on short-term market moves. "What
+to watch" can change over time. In recent years, for example, money supply, employment,
+trade balance figures and inflation numbers have all taken turns in the spotlight.
+Technical trading considerations: As in other markets, the accumulated price movements in
+a currency pair such as EUR/USD can form apparent patterns that traders may attempt to
+use. Many traders study price charts in order to identify such patterns.[81]
+
+Financial instruments
+
+Spot
+A spot transaction is a two-day delivery transaction (except in the case of trades between the US dollar,
+Canadian dollar, Turkish lira, euro and Russian ruble, which settle the next business day), as opposed to
+the futures contracts, which are usually three months. This trade represents a “direct exchange” between
+two currencies, has the shortest time frame, involves cash rather than a contract, and interest is not
+included in the agreed-upon transaction. Spot trading is one of the most common types of forex trading.
+Often, a forex broker will charge a small fee to the client to roll-over the expiring transaction into a new
+identical transaction for a continuation of the trade. This roll-over fee is known as the "swap" fee.
+
+Forward
+One way to deal with the foreign exchange risk is to engage in a forward transaction. In this transaction,
+money does not actually change hands until some agreed upon future date. A buyer and seller agree on an
+exchange rate for any date in the future, and the transaction occurs on that date, regardless of what the
+market rates are then. The duration of the trade can be one day, a few days, months or years. Usually the
+date is decided by both parties. Then the forward contract is negotiated and agreed upon by both parties.
+
+Non-deliverable forward (NDF)
+Forex banks, ECNs, and prime brokers offer NDF contracts, which are derivatives that have no real
+deliver-ability. NDFs are popular for currencies with restrictions such as the Argentinian peso. In fact, a
+forex hedger can only hedge such risks with NDFs, as currencies such as the Argentinian peso cannot be
+traded on open markets like major currencies.[82]
+
+Swap
+The most common type of forward transaction is the foreign exchange swap. In a swap, two parties
+exchange currencies for a certain length of time and agree to reverse the transaction at a later date. These
+are not standardized contracts and are not traded through an exchange. A deposit is often required in order
+to hold the position open until the transaction is completed.
+
+
+
+Futures
+Futures are standardized forward contracts and are usually traded on an exchange created for this
+purpose. The average contract length is roughly 3 months. Futures contracts are usually inclusive of any
+interest amounts.
+
+Currency futures contracts are contracts specifying a standard volume of a particular currency to be
+exchanged on a specific settlement date. Thus the currency futures contracts are similar to forward
+contracts in terms of their obligation, but differ from forward contracts in the way they are traded. In
+addition, Futures are daily settled removing credit risk that exist in Forwards.[83] They are commonly
+used by MNCs to hedge their currency positions. In addition they are traded by speculators who hope to
+capitalize on their expectations of exchange rate movements.
+
+Option
+A foreign exchange option (commonly shortened to just FX option) is a derivative where the owner has
+the right but not the obligation to exchange money denominated in one currency into another currency at
+a pre-agreed exchange rate on a specified date. The FX options market is the deepest, largest and most
+liquid market for options of any kind in the world.
+
+Speculation
+Controversy about currency speculators and their effect on currency devaluations and national economies
+recurs regularly. Economists, such as Milton Friedman, have argued that speculators ultimately are a
+stabilizing influence on the market, and that stabilizing speculation performs the important function of
+providing a market for hedgers and transferring risk from those people who don't wish to bear it, to those
+who do.[84] Other economists, such as Joseph Stiglitz, consider this argument to be based more on
+politics and a free market philosophy than on economics.[85]
+
+Large hedge funds and other well capitalized "position traders" are the main professional speculators.
+According to some economists, individual traders could act as "noise traders" and have a more
+destabilizing role than larger and better informed actors.[86]
+
+Currency speculation is considered a highly suspect activity in many countries, such as Thailand.[87]
+
+While investment in traditional financial instruments like bonds or stocks often is considered to
+contribute positively to economic growth by providing capital, currency speculation does not; according
+to this view, it is simply gambling that often interferes with economic policy. For example, in 1992,
+currency speculation forced Sweden's central bank, the Riksbank, to raise interest rates for a few days to
+500% per annum, and later to devalue the krona.[88] Mahathir Mohamad, one of the former Prime
+Ministers of Malaysia, is one well-known proponent of this view. He blamed the devaluation of the
+Malaysian ringgit in 1997 on George Soros and other speculators.
+
+Gregory Millman reports on an opposing view, comparing speculators to "vigilantes" who simply help
+"enforce" international agreements and anticipate the effects of basic economic "laws" in order to
+profit.[89] In this view, countries may develop unsustainable economic bubbles or otherwise mishandle
+their national economies, and foreign exchange speculators made the inevitable collapse happen sooner.
+
+
+
+A relatively quick collapse might even be preferable to continued economic mishandling, followed by an
+eventual, larger, collapse. Mahathir Mohamad and other critics of speculation are viewed as trying to
+deflect the blame from themselves for having caused the unsustainable economic conditions.
+
+Risk aversion
+In order to mitigate risk, traders may liquidate their positions in
+various currencies to take up positions in safe-haven currencies, such
+as the US dollar.[90] Sometimes, the choice of a safe haven currency
+is more of a choice based on prevailing sentiments rather than one of
+economic statistics. An example would be the 2008 financial crisis,
+where value of equities across the world fell while the US dollar
+
+The MSCI World Index of
+strengthened (see Fig.1). This happened despite the strong focus of Equities fell while the US dollar
+the crisis in the US.[91]
+
+index rose.
+
+Carry trade
+Currency carry trade refers to the act of borrowing one currency that has a low interest rate in order to
+purchase another with a higher interest rate. A large difference in rates can be highly profitable for the
+trader, especially if high leverage is used. However, with all levered investments this is a double edged
+sword, and large exchange rate price fluctuations can suddenly swing trades into huge losses.
+
+Further reading
+A user's guide to the Triennial Central Bank Survey of foreign exchange market activity (http
+s://www.bis.org/publ/qtrpdf/r_qt1012h.pdf)  – Bank for International Settlements
+National Futures Association (2010), Trading in the Retail Off-Exchange Foreign Currency
+Market (https://www.nfa.futures.org/investors/investor-resources/files/forex.pdf). Chicago,
+Illinois.
+
+Current exchange rates
+AUD (https://www.google.com/finance/quote/AUD-) CAD (https://www.google.com/fi
+
+From nance/quote/CAD-) CHF (https://www.google.com/finance/quote/CHF-) CNY (http
+Google s://www.google.com/finance/quote/CNY-) EUR (https://www.google.com/finance/quo
+
+Finance: te/EUR-) GBP (https://www.google.com/finance/quote/GBP-) HKD (https://www.goo
+gle.com/finance/quote/HKD-) JPY (https://www.google.com/finance/quote/JPY-)
+
+USD (https://www.google.com/finance/quote/USD-)
+AUD (https://finance.yahoo.com/quote/AUD=X) CAD (https://finance.yahoo.com/quo
+
+From te/CAD=X) CHF (https://finance.yahoo.com/quote/CHF=X) CNY (https://finance.yah
+Yahoo! oo.com/quote/CNY=X) EUR (https://finance.yahoo.com/quote/EUR=X) GBP (https://
+
+Finance: finance.yahoo.com/quote/GBP=X) HKD (https://finance.yahoo.com/quote/HKD=X)
+JPY (https://finance.yahoo.com/quote/JPY=X) USD (https://finance.yahoo.com/quot
+
+e/USD=X)
+From AUD (https://www.xe.com/currencyconverter/convert/?Amount=1&From=AUD&To=)
+
+XE.com: CAD (https://www.xe.com/currencyconverter/convert/?Amount=1&From=CAD&To=)
+CHF (https://www.xe.com/currencyconverter/convert/?Amount=1&From=CHF&To=)
+
+
+
+CNY (https://www.xe.com/currencyconverter/convert/?Amount=1&From=CNY&To=)
+EUR (https://www.xe.com/currencyconverter/convert/?Amount=1&From=EUR&To=)
+GBP (https://www.xe.com/currencyconverter/convert/?Amount=1&From=GBP&To=)
+HKD (https://www.xe.com/currencyconverter/convert/?Amount=1&From=HKD&To=)
+JPY (https://www.xe.com/currencyconverter/convert/?Amount=1&From=JPY&To=)
+
+USD (https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=)
+AUD (https://www.oanda.com/currency-converter/en/?amount=1&from=AUD&to=)
+CAD (https://www.oanda.com/currency-converter/en/?amount=1&from=CAD&to=)
+CHF (https://www.oanda.com/currency-converter/en/?amount=1&from=CHF&to=)
+
+From CNY (https://www.oanda.com/currency-converter/en/?amount=1&from=CNY&to=)
+OANDA: EUR (https://www.oanda.com/currency-converter/en/?amount=1&from=EUR&to=)
+
+GBP (https://www.oanda.com/currency-converter/en/?amount=1&from=GBP&to=)
+HKD (https://www.oanda.com/currency-converter/en/?amount=1&from=HKD&to=)
+JPY (https://www.oanda.com/currency-converter/en/?amount=1&from=JPY&to=)
+
+USD (https://www.oanda.com/currency-converter/en/?amount=1&from=USD&to=)
+
+See also
+Balance of trade
+Currency codes
+Currency strength
+Dual exchange rate
+Effective exchange rate
+Foreign currency mortgage
+Foreign exchange controls
+Foreign exchange derivative
+Foreign exchange hedge
+Foreign exchange option
+Foreign exchange regulation
+Foreign exchange reserves
+Foreign exchange risk
+Leads and lags
+List of circulating currencies
+List of countries by exchange rate regime
+List of electronic trading platforms
+Money market
+Nonfarm payrolls
+Tobin tax
+World currency
+
+Notes
+a. The total sum is 200% because each currency trade is counted twice: once for the currency
+
+being bought and once for the currency being sold. The percentages above represent the
+proportion of all trades involving a given currency, regardless of which side of the
+transaction it is on.
+
+
+
+References
+1. Record, Neil, Currency Overlay (Wiley Finance Series)
+2. Global imbalances and destabilizing speculation (http://vi.unctad.org/uwist08/sessions/tue05
+
+13/flassbeckglobimb.pdf) Archived (https://web.archive.org/web/20161017100209/http://vi.u
+nctad.org/uwist08/sessions/tue0513/flassbeckglobimb.pdf) 17 October 2016 at the Wayback
+Machine (2007), UNCTAD Trade and development report 2007 (Chapter 1B).
+
+3. "Triennial Central Bank Survey of foreign exchange and OTC derivatives markets in 2025"
+(https://www.bis.org/statistics/rpfx25_fx.htm). 30 September 2025.
+
+4. CR Geisst – Encyclopedia of American Business History (https://books.google.com/books?i
+d=5dGig0fYlj8C&dq=ancient+history+foreign+exchange&pg=PA169) Infobase Publishing, 1
+January 2009 Retrieved 14 July 2012 ISBN 1438109873
+
+5. GW Bromiley – International Standard Bible Encyclopedia: A–D (https://books.google.com/b
+ooks?id=wo8csizDv0gC&dq=money+changers+bible&pg=PA408) William B. Eerdmans
+Publishing Company, 13 February 1995 Retrieved 14 July 2012 ISBN 0802837816
+
+6. T Crump – The Phenomenon of Money (Routledge Revivals) (https://books.google.com/boo
+ks?id=Qt3mrYvhOJkC&dq=ancient+foreign+exchanges&pg=PA146) Taylor & Francis US,
+14 January 2011 Retrieved 14 July 2012 ISBN 0415611873
+
+7. J Hasebroek – Trade and Politics in Ancient Greece (https://books.google.com/books?id=74
+3zWquWmesC&dq=ancient+foreign+exchanges&pg=PA156) Biblo & Tannen Publishers, 1
+March 1933 Retrieved 14 July 2012 ISBN 0819601500
+
+8. S von Reden (2007 Senior Lecturer in Ancient History and Classics at the University of
+Bristol, UK) - Money in Ptolemaic Egypt: From the Macedonian Conquest to the End of the
+Third Century BC (p.48) (https://books.google.com/books?id=zIVw7l34fHkC&q=PCZ+I+590
+21) Cambridge University Press, 6 December 2007 ISBN 0521852641 [Retrieved 25 March
+2015]
+
+9. Mark Cartwright. "Trade in Ancient Greece" (https://www.worldhistory.org/article/115/). World
+History Encyclopedia.
+
+10. RC Smith, I Walter, G DeLong – Global Banking (https://books.google.com/books?id=V05oV
+TC2cFMC&dq=history+of+foreign+exchange&pg=PA3) Oxford University Press, 17 January
+2012 Retrieved 13 July 2012 ISBN 0195335937
+
+11. (tertiary) – G Vasari – The Lives of the Artists Retrieved 13 July 2012 ISBN 019283410X
+12. (page 130 of ) Raymond de Roover – The Rise and Decline of the Medici Bank: 1397–94 (ht
+
+tps://books.google.com/books?id=3ptzaUifK2AC&dq=foreign+exchange+Medici&pg=PA13
+2) Beard Books, 1999 Retrieved 14 July 2012 ISBN 1893122328
+
+13. RA De Roover – The Medici Bank: its organization, management, operations and decline (ht
+tps://books.google.com/books?id=Or0WAQAAMAAJ&q=Medici+Nostro+accounts) New York
+University Press, 1948 Retrieved 14 July 2012
+
+14. Cambridge dictionaries online – "nostro account"
+15. Oxford dictionaries online – "nostro account"
+16. S Homer, Richard E Sylla A History of Interest Rates (https://books.google.com/books?id=a
+
+ASnQujNgzoC&dq=foreign+exchange+history+London&pg=PT153) John Wiley & Sons, 29
+August 2005 Retrieved 14 July 2012 ISBN 0471732834
+
+17. T Southcliffe Ashton – An Economic History of England: The 18th Century, Volume 3 (https://
+books.google.com/books?id=zjkOAAAAQAAJ&dq=history+of+foreign+exchange&pg=PA16
+7) Taylor & Francis, 1955 Retrieved 13 July 2012
+
+18. (page 196 of) JW Markham A Financial History of the United States, Volumes 1–2 (https://bo
+oks.google.com/books?id=Uazpff00Y5EC&dq=history+of+Foreign+exchange&pg=PA196)
+M.E. Sharpe, 2002 Retrieved 14 July 2012 ISBN 0765607301
+
+
+
+19. (page 847) of M Pohl, European Association for Banking History – Handbook on the History
+of European Banks (https://books.google.com/books?id=eXvfNDHpfWwC&dq=history+of+fo
+reign+exchange+1983&pg=PA845) Edward Elgar Publishing, 1994 Retrieved 14 July 2012
+
+20. Habakkuk, H. J. (1987). Cambridge Economic History of Europe: Vol. 2: Trade and Industry
+in the Middle Ages (https://books.google.com/books?id=cHRvtwTLcMAC&dq=The+Commer
+cial+Revolution&pg=PA330). Cambridge University Press. ISBN 978-0-521-08709-4.
+
+21. S Shamah – A Foreign Exchange Primer (https://books.google.com/books?id=2xwPXhbXD
+O4C&q=foreign+exchange) ["1880" is within 1.2 Value Terms] John Wiley & Sons, 22
+November 2011 Retrieved 27 July 2102 ISBN 1119994896
+
+22. T Hong – Foreign Exchange Control in China: First Edition (Asia Business Law Series
+Volume 4) (https://books.google.com/books?id=iS1R27V7WUkC&dq=history+of+foreign+ex
+change&pg=PA4) Kluwer Law International, 2004 ISBN 9041124268 Retrieved 12 January
+2013
+
+23. P Mathias, S Pollard – The Cambridge Economic History of Europe: The industrial
+economies : the development of economic and social policies (https://books.google.com/boo
+ks?id=VZKkCLs3f90C&dq=history+of+foreign+exchange&pg=PA205) Cambridge University
+Press, 1989 Retrieved 13 July 2012 ISBN 0521225043
+
+24. S Misra, PK Yadav International Business: Text And Cases (https://books.google.com/book
+s?id=gIhOOU1_gGUC&dq=history+of+foreign+exchange+1880&pg=PA171) PHI Learning
+Pvt. Ltd. 2009 Retrieved 27 July 2012 ISBN 8120336526
+
+25. P. L. Cottrell – Centres and Peripheries in Banking: The Historical Development of Financial
+Markets (https://books.google.com/books?id=1ZTIm_h0qdEC&dq=history+of+foreign+excha
+nge&pg=PA41) Ashgate Publishing, Ltd., 2007 Retrieved 13 July 2012 ISBN 0754661210
+
+26. P. L. Cottrell (p. 75)
+27. J Wake – Kleinwort, Benson: The History of Two Families in Banking (https://books.google.c
+
+om/books?id=Qm1fHrcgZuoC&dq=history+of+forex&pg=PA213) Oxford University Press,
+27 February 1997 Retrieved 13 July 2012 ISBN 0198282990
+
+28. J Atkin – The Foreign Exchange Market Of London: Development Since 1900 (https://books.
+google.com/books?id=ZGRAn2J5whQC&dq=Kleinwort+foreign+exchange&pg=PA32)
+Psychology Press, 2005 Retrieved 13 July 2012 ISBN 041534901X
+
+29. Miller, Siobhan (25 October 2018). "The impact of protection on trade: lessons from Britain's
+1930s policy shift" (https://microeconomicinsights.org/impact-protection-trade-lessons-britain
+s-1930s-policy-shift/). Microeconomic Insights. Retrieved 4 July 2024.
+
+30. Laurence S. Copeland – Exchange Rates and International Finance (https://books.google.c
+om/books?id=AL7TsSY5KZUC&dq=Bretton+woods+currencies+fluctuate+1%25+either+sid
+e&pg=PA444) Pearson Education, 2008 Retrieved 15 July 2012 ISBN 0273710273
+
+31. M Sumiya – A History of Japanese Trade and Industry Policy (https://books.google.com/boo
+ks?id=mVN_OTa_KCYC&dq=history+of+foreign+exchange&pg=PA357) Oxford University
+Press, 2000 Retrieved 13 July 2012 ISBN 0198292511
+
+32. RC Smith, I Walter, G DeLong (p.4)
+33. AH Meltzer – A History of the Federal Reserve, Volume 2, Book 1; Books 1951–1969 (http
+
+s://books.google.com/books?id=8peFljjm5CQC&dq=history+of+foreign+exchange&pg=PA3
+54) University of Chicago Press, 1 February 2010 Retrieved 14 July 2012
+ISBN 0226520013
+
+34. (page 7 "fixed exchange rates" of) DF DeRosa –Options on Foreign Exchange (https://book
+s.google.com/books?id=zYTlYowJ_QMC&dq=Bretton+woods+accord+foreign+exchange&p
+g=PT22) Retrieved 15 July 2012
+
+35. K Butcher – Forex Made Simple: A Beginner's Guide to Foreign Exchange Success (https://
+books.google.com/books?id=91lFR1KM4nEC&dq=history+of+forex&pg=PR3) John Wiley
+and Sons, 18 February 2011 Retrieved 13 July 2012 ISBN 0730375250
+
+
+
+36. J Madura – International Financial Management (https://books.google.com/books?id=t6gLA
+hWXv5gC&dq=foreign+exchange+history+London&pg=PA58), Cengage Learning, 12
+October 2011 Retrieved 14 July 2012 ISBN 0538482966
+
+37. N DraKoln – Forex for Small Speculators (https://books.google.com/books?id=SJ8Q7SvWH
+68C&dq=history+of+forex&pg=PA11) Enlightened Financial Press, 1 April 2004 Retrieved 13
+July 2012 ISBN 0966624580
+
+38. SFO Magazine, RR Wasendorf, Jr.) (INT) – Forex Trading PA Rosenstreich – The Evolution
+of FX and Emerging Markets (https://books.google.com/books?id=Tylr_ua-XKgC&dq=histor
+y+of+forex&pg=PT42) Traders Press, 30 June 2009 Retrieved 13 July 2012
+ISBN 1934354104
+
+39. J Jagerson, SW Hansen – All About Forex Trading (https://books.google.com/books?id=CC2
+p5Jsg3icC&dq=history+of+forex&pg=PA16) McGraw-Hill Professional, 17 June 2011
+Retrieved 13 July 2012 ISBN 007176822X
+
+40. Franz Pick Pick's currency yearbook 1977 – Retrieved 15 July 2012
+41. Haberler, Gottfried (1976). "The Case Against Capital Controls for Balance of Payments
+
+Reasons". Capital Movements and Their Control. pp. 63–82.
+doi:10.1163/9789004634350_007 (https://doi.org/10.1163%2F9789004634350_007).
+ISBN 978-90-04-63435-0.
+
+42. "Page 283" (https://books.google.com/books?id=F9Xr1_MXjwkC&pg=PA283). in: Gandolfo,
+Giancarlo (2016). "Portfolio and Macroeconomic Equilibrium in an Open Economy".
+International Finance and Open-Economy Macroeconomics. Springer Texts in Business and
+Economics. pp. 265–310. doi:10.1007/978-3-662-49862-0_13 (https://doi.org/10.1007%2F9
+78-3-662-49862-0_13). ISBN 978-3-662-49860-6.
+
+43. City of London: The History (https://books.google.com/books?id=zhb9sEwQFZMC&dq=the+
+foreign+exchange+markets+were+forced+to+close+from+February+of+1972+to+March+of+
+1973&pg=PT594) Random House, 31 December 2011 Retrieved 15 July 2012
+ISBN 1448114721
+
+44. "Technical rally is about due" (https://books.google.com/books?id=poHPAAAAIAAJ&pg=PA8
+86&q=%22Thursday+was+aborted+by+news+of+a+record+assault+on+the+dollar+that+for
+ced+the+closing+of+most+foreign+exchange+markets.%22). The Outlook. Vol. 45.
+Standard & Poor's Corporation. 1972. p. 886. "Thursday was aborted by news of a record
+assault on the dollar that forced the closing of most foreign exchange markets."
+
+45. "1973: The end of Bretton Woods When exchange rates learned to float" (https://www.bunde
+sbank.de/en/tasks/topics/1973-the-end-of-bretton-woods-when-exchange-rates-learned-to-fl
+oat-666280). Bundesbank Magazine. 14 October 2013.
+
+46. "About the IMF: History: The end of the Bretton Woods System (1972–81)" (https://www.imf.
+org/external/about/histend.htm). www.imf.org. Retrieved 4 July 2024.
+
+47. International Monetary Fund Annual Report 1976. 1976. doi:10.5089/9781616351885.011 (h
+ttps://doi.org/10.5089%2F9781616351885.011). ISBN 978-1-61635-188-5.
+OCLC 951623357 (https://search.worldcat.org/oclc/951623357).
+
+48. Giersch, Herbert; Paqué, Karl-Heinz; Schmieding, Holger (1992). The Fading Miracle.
+doi:10.1017/CBO9780511628542 (https://doi.org/10.1017%2FCBO9780511628542).
+ISBN 978-0-521-35869-9.
+
+49. Brawley, Mark R. (2005). Power, Money, and Trade: Decisions that Shape Global Economic
+Relations (https://archive.org/details/powermoneytraded00mark/page/332). University of
+Toronto Press. p. 332. ISBN 978-1-55111-683-9. "the foreign exchange markets were forced
+to close from February of 1972 to March of 1973."
+
+50. Rüstow, Hanns-Joachim (1991). New Paths to Full Employment: The Failure of Orthodox
+Economic Theory. Macmillan. p. 84. ISBN 978-0-333-54179-1. "…forced to close for several
+days in mid-1972, …The foreign exchange markets were closed again on two occasions at
+the beginning of 1973"
+
+
+
+51. Chen, James (2009). Essentials of Foreign Exchange Trading (https://books.google.com/bo
+oks?id=8zTsnBYiDGkC). John Wiley & Sons. ISBN 978-0470464007. Retrieved
+15 November 2016.
+
+52. Hicks, Alan (2000). Managing Currency Risk Using Foreign Exchange Options (https://book
+s.google.com/books?id=vIuavf6a1R8C). Elsevier Science. ISBN 1855734915. Retrieved
+15 November 2016.
+
+53. Johnson, G. G. (1985). Formulation of Exchange Rate Policies in Adjustment Programs (htt
+ps://books.google.com/books?id=8FQWkffo7wwC). International Monetary Fund.
+ISBN 0939934507. Retrieved 15 November 2016.
+
+54. JA Dorn – China in the New Millennium: Market Reforms and Social Development (https://b
+ooks.google.com/books?id=BIGnLYA4PtsC&dq=foreign+exchange+in+1981&pg=PA208)
+Cato Institute, 1998 Retrieved 14 July 2012 ISBN 1882577612
+
+55. B Laurens, H Mehran, M Quintyn, T Nordman – Monetary and Exchange System Reforms in
+China: An Experiment in Gradualism (https://books.google.com/books?id=PJwCbEC9lJYC&
+dq=foreign+exchange+in+1981&pg=PT131) International Monetary Fund, 26 September
+1996 Retrieved 14 July 2012 ISBN 1452766126
+
+56. Y-I Chung – South Korea in the Fast Lane: Economic Development and Capital Formation
+(https://books.google.com/books?id=-0n9n3vNMeYC&dq=foreign+exchange+in+1981&pg=
+PA106) Oxford University Press, 20 July 2007 Retrieved 14 July 2012 ISBN 0195325451
+
+57. KM Dominguez, JA Frankel – Does Foreign Exchange Intervention Work? (https://books.goo
+gle.com/books?id=i6QViZToLTIC&dq=history+of+foreign+exchange+1983&pg=PA9)
+Peterson Institute for International Economics, 1993 Retrieved 14 July 2012
+ISBN 0881321044
+
+58. (page 211 – [source BIS 2007]) H Van Den Berg – International Finance and Open-
+Economy Macroeconomics: Theory, History, and Policy (https://books.google.com/books?id
+=1Qhfgvkf4S0C&dq=foreign+exchange+history&pg=PA210) World Scientific, 31 August
+2010 Retrieved 14 July 2012 ISBN 9814293512
+
+59. PJ Quirk Issues in International Exchange and Payments Systems (https://books.google.co
+m/books?id=fcUjRujvzt4C&dq=foreign+exchange+in+1981&pg=PA26) International
+Monetary Fund, 13 April 1995 Retrieved 14 July 2012 ISBN 1557754802
+
+60. "Report on global foreign exchange market activity in 2013" (http://www.bis.org/publ/rpfx13f
+x.pdf) (PDF). Triennial Central Bank Survey. Basel, Switzerland: Bank for International
+Settlements. September 2013. p. 12. Retrieved 22 October 2013.
+
+61. "Derivatives in emerging markets" (http://www.bis.org/publ/qtrpdf/r_qt1012f.htm), the Bank
+for International Settlements, 13 December 2010
+
+62. "The $4 trillion question: what explains FX growth since the 2007 survey?" (http://www.bis.or
+g/publ/qtrpdf/r_qt1012e.htm), the Bank for International Settlements, 13 December 2010
+
+63. Lilley, Mark (25 June 2020). "Euromoney FX Survey 2020 – results released" (https://www.e
+uromoney.com/article/b1lp5n97k4v6j0/fx-survey-2020-press-release).
+
+64. Cocco, João F.; Gomes, Francisco J.; Martins, Nuno C. (January 2009). "Lending
+relationships in the interbank market". Journal of Financial Intermediation. 18 (1): 24–48.
+doi:10.1016/j.jfi.2008.06.003 (https://doi.org/10.1016%2Fj.jfi.2008.06.003).
+
+65. "Triennial Central Bank Survey Foreign exchange turnover in April 2016" (http://www.bis.org/
+publ/rpfx16fx.pdf) (PDF). Triennial Central Bank Survey. Basel, Switzerland: Bank for
+International Settlements. September 2016. Retrieved 1 September 2016.
+
+66. Gabriele Galati, Michael Melvin (December 2004). "Why has FX trading surged? Explaining
+the 2004 triennial survey" (http://www.bis.org/publ/qtrpdf/r_qt0412f.pdf) (PDF). Bank for
+International Settlements.
+
+67. Alan Greenspan, The Roots of the Mortgage Crisis: Bubbles cannot be safely defused by
+monetary policy before the speculative fever breaks on its own. (http://opinionjournal.com/ed
+itorial/feature.html?id=110010981), the Wall Street Journal, 12 December 2007
+
+
+
+68. McKay, Peter A. (26 July 2005). "Scammers Operating on Periphery Of CFTC's Domain
+Lure Little Guy With Fantastic Promises of Profits" (https://www.wsj.com/articles/SB1122338
+50336095645?mod=Markets-Main). The Wall Street Journal. Retrieved 31 October 2007.
+
+69. Egan, Jack (19 June 2005). "Check the Currency Risk. Then Multiply by 100" (https://www.n
+ytimes.com/2005/06/19/business/yourmoney/19fore.html?_r=2&adxnnl=1&oref=slogin&adxn
+nlx=1191337503-g1yHfewhqPWye0XtI+Eq0A&oref=slogin). The New York Times. Retrieved
+30 October 2007.
+
+70. The Sunday Times (London), 16 July 2006
+71. Andy Kollmorgen (16 August 2021). "Overseas money transfers" (http://www.choice.com.au/
+
+reviews-and-tests/money/banking/travel-money/overseas-money-transfers/page.aspx).
+choice.com.au.
+
+72. "Info" (http://www.pondiuni.edu.in/storage/dde/downloads/ibiv_forex.pdf) (PDF).
+www.pondiuni.edu.in.
+
+73. "Data" (https://web.archive.org/web/20140912212131/http://nptel.ac.in/courses/110105031/p
+r_pdf/Module5-5.pdf) (PDF). nptel.ac.in. Archived from the original (http://nptel.ac.in/course
+s/110105031/pr_pdf/Module5-5.pdf) (PDF) on 12 September 2014.
+
+74. "Money transfer/remittance companies and bureaux de change" (https://web.archive.org/we
+b/20180622022215/https://www.opentextbooks.org.hk/ditatopic/12239). Open Textbooks for
+Hong Kong. 29 April 2015. Archived from the original (https://www.opentextbooks.org.hk/dita
+topic/12239) on 22 June 2018. Retrieved 4 July 2024.
+
+75. Triennial Central Bank Survey Foreign exchange turnover in April 2025 (https://www.bis.org/
+statistics/rpfx25_fx.pdf) (PDF) (Report). Bank for International Settlements. 30 September
+2025. p. 14. Archived (https://web.archive.org/web/20251012053635/https://www.bis.org/stat
+istics/rpfx25_fx.pdf) (PDF) from the original on 12 October 2025.
+
+76. "Reuters, CME launch global forex market platform" (https://www.reuters.com/article/us-reut
+ers-fxmarketspace-idUSL265765820070325/). Reuters. 10 August 2007.
+
+77. The Microstructure Approach to Exchange Rates, Richard Lyons, MIT Press (http://faculty.h
+aas.berkeley.edu/lyons/docs/bookch1.pdf) Archived (https://web.archive.org/web/201806262
+21203/http://faculty.haas.berkeley.edu/lyons/docs/bookch1.pdf) 26 June 2018 at the
+Wayback Machine (pdf chapter 1)
+
+78. Tille, Cédric; Stoffels, Nicolas; Gorbachev, Olga (2001). "To What Extent Does Productivity
+Drive the Dollar?" (https://www.newyorkfed.org/research/current_issues/ci7-8.html). Current
+Issues in Economics and Finance. 7 (8). Federal Reserve Bank of New York. SSRN 711362
+(https://papers.ssrn.com/sol3/papers.cfm?abstract_id=711362).
+
+79. "Safe Haven Currency" (https://web.archive.org/web/20130627165049/http://glossary.reuter
+s.com/index.php?title=Safe_Haven_Currency). Financial Glossary. Reuters. Archived from
+the original (http://glossary.reuters.com/index.php?title=Safe_Haven_Currency) on 27 June
+2013. Retrieved 22 April 2013.
+
+80. Murphy, John J. (1999). "Time Cycles" (https://books.google.com/books?id=teitAAAAQBAJ&
+pg=PA343). Technical Analysis of the Financial Markets: A Comprehensive Guide to Trading
+Methods and Applications. Penguin. pp. 343–375. ISBN 978-1-101-65919-9.
+
+81. Sam Y. Cross, All About the Foreign Exchange Market in the United States (http://www.newy
+orkfed.org/education/addpub/usfxm/), Federal Reserve Bank of New York (1998), chapter
+11, pp. 113–115.
+
+82. Gelet, Joseph (2016). Splitting Pennies: Understanding Forex. CreateSpace Independent
+Publishing Platform. ISBN 978-1-5333-3109-0.
+
+83. Arlie O. Petters; Xiaoying Dong (17 June 2016). An Introduction to Mathematical Finance
+with Applications: Understanding and Building Financial Intuition (https://books.google.com/
+books?id=V-F6DAAAQBAJ&pg=PA345). Springer. pp. 345–. ISBN 978-1-4939-3783-7.
+
+
+
+84. Michael A. S. Guth, "Profitable Destabilizing Speculation (http://michaelguth.com/economist/
+chap1.htm) Archived (https://web.archive.org/web/20130728011135/http://michaelguth.com/
+economist/chap1.htm) 28 July 2013 at the Wayback Machine," Chapter 1 in Michael A. S.
+Guth, Speculative behavior and the operation of competitive markets under uncertainty,
+Avebury Ashgate Publishing, Aldorshot, England (1994), ISBN 1-85628-985-0.
+
+85. What I Learned at the World Economic Crisis (http://www.globalpolicy.org/socecon/bwi-wto/c
+ritics/2000/whatilearned.htm) Joseph Stiglitz, The New Republic, 17 April 2000, reprinted at
+GlobalPolicy.org
+
+86. Summers, Lawrence H.; Summers, Victoria P. (December 1989). "When financial markets
+work too well: A cautious case for a securities transactions tax". Journal of Financial
+Services Research. 3 (2–3): 261–286. doi:10.1007/BF00122806 (https://doi.org/10.1007%2
+FBF00122806).
+
+87. Bloomfield, Robert; O’Hara, Maureen; Saar, Gideon (June 2009). "How Noise Trading
+Affects Markets: An Experimental Analysis". Review of Financial Studies. 22 (6): 2275–
+2302. doi:10.1093/rfs/hhn102 (https://doi.org/10.1093%2Frfs%2Fhhn102). SSRN 994379 (h
+ttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=994379).
+
+88. Redburn, Tom (17 September 1992). "But Don't Rush Out to Buy Kronor: Sweden's 500%
+Gamble" (https://www.nytimes.com/1992/09/17/news/17iht-perc.html). The New York Times.
+Retrieved 18 April 2015.
+
+89. Gregory J. Millman, Around the World on a Trillion Dollars a Day, Bantam Press, New York,
+1995.
+
+90. Moon, Angela (5 February 2010). "Global markets – US stocks rebound, dollar gains on risk
+aversion" (https://www.reuters.com/article/idUSN0515775320100205). Reuters. Retrieved
+27 February 2010.
+
+91. Stewart, Heather (9 April 2008). "IMF says US crisis is 'largest financial shock since Great
+Depression' " (https://www.theguardian.com/business/2008/apr/09/useconomy.subprimecrisi
+s). The Guardian. London. Retrieved 27 February 2010.
+
+External links
+London Foreign Exchange Committee with links (on right) to committees in NY, Tokyo,
+Canada, Australia, HK, Singapore (https://www.bankofengland.co.uk/markets/london-foreign
+-exchange-joint-standing-committee) on the website of Bank of England
+Daily update of exchange rates (https://www.federalreserve.gov/releases/h10/current/)
+published by US Federal Reserve
+Historical (10-year) currency converter and data download (https://www.bankofcanada.ca/rat
+es/exchange/) provided by Bank of Canada
+OECD Exchange rate statistics (monthly averages) (http://stats.oecd.org/Index.aspx?QueryI
+d=169) published by OECD.org
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Foreign_exchange_market&oldid=1376667604"

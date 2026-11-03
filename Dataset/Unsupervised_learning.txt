@@ -1,0 +1,413 @@
+﻿Unsupervised learning
+Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled
+data.[1] Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision.
+Some researchers consider self-supervised learning a form of unsupervised learning.[2]
+
+Conceptually, unsupervised learning divides into the aspects of data, training, algorithm, and downstream applications. Typically, the dataset is harvested
+cheaply "in the wild", such as massive text corpus obtained by web crawling, with only minor filtering (such as Common Crawl). This compares favorably to
+supervised learning, where the dataset (such as the ImageNet1000) is typically constructed manually, which is much more expensive.
+
+There are algorithms designed specifically for unsupervised learning, such as clustering algorithms like k-means, dimensionality reduction techniques like
+principal component analysis (PCA), Boltzmann machine learning, and autoencoders. After the rise of deep learning, most large-scale unsupervised learning has
+been done by training general-purpose neural network architectures by gradient descent, adapted to performing unsupervised learning by designing an
+appropriate training procedure.
+
+Sometimes a trained model can be used as-is, but more often they are modified for downstream applications. For example, the generative pretraining method
+trains a model to generate a textual dataset, before finetuning it for other applications, such as text classification.[3][4] As another example, autoencoders are
+trained to produce good features, which can then be used as a module for other models, such as in a latent diffusion model.
+
+Tasks
+Tasks are often categorized as discriminative (recognition) or generative (imagination). Often but not
+always, discriminative tasks use supervised methods and generative tasks use unsupervised (see Venn
+diagram); however, the separation is very hazy. For example, object recognition favors supervised learning
+but unsupervised learning can also cluster objects into groups. Furthermore, as progress marches onward,
+some tasks employ both methods, and some tasks swing from one to another. For example, image
+recognition started off as heavily supervised, but became hybrid by employing unsupervised pre-training,
+and then moved towards supervision again with the advent of dropout, ReLU, and adaptive learning rates.
+
+A typical generative task is as follows. At each step, a datapoint is sampled from the dataset, and part of the
+data is removed, and the model must infer the removed part. This is particularly clear for the denoising
+autoencoders and BERT.
+
+Tendency for a task to employ supervised vs.
+unsupervised methods. Task names straddling
+circle boundaries is intentional. It shows that the
+classical division of imaginative tasks (left)
+employing unsupervised methods is blurred in Neural network architectures
+today's learning schemes.
+
+Training
+During the learning phase, an unsupervised network tries to mimic the data it is given and uses the error in its mimicked output to correct itself (i.e. correct its
+weights and biases). Sometimes the error is expressed as a low probability that the erroneous output occurs, or it might be expressed as an unstable high energy
+state in the network.
+
+In contrast to supervised methods' dominant use of backpropagation, unsupervised learning also employs other methods including: Hopfield learning rule,
+Boltzmann learning rule, Contrastive Divergence, Wake Sleep, Variational Inference, Maximum Likelihood, Maximum A Posteriori, Gibbs Sampling, and
+backpropagating reconstruction errors or hidden state reparameterizations. See the table below for more details.
+
+Energy
+An energy function is a macroscopic measure of a network's activation state. In Boltzmann machines, it plays the role of the Cost function. This analogy with
+physics is inspired by Ludwig Boltzmann's analysis of a gas' macroscopic energy from the microscopic probabilities of particle motion , where k is
+the Boltzmann constant and T is temperature. In the RBM network the relation is ,[5] where  and  vary over every possible activation pattern and
+
+. To be more precise, , where  is an activation pattern of all neurons (visible and hidden). Hence, some early
+neural networks bear the name Boltzmann Machine. Paul Smolensky calls  the Harmony. A network seeks low energy which is high Harmony.
+
+Networks
+This table shows connection diagrams of various unsupervised networks, the details of which will be given in the section Comparison of Networks. Circles are
+neurons and edges between them are connection weights. As network design changes, features are added on to enable new capabilities or removed to make
+learning faster. For instance, neurons change between deterministic (Hopfield) and stochastic (Boltzmann) to allow robust output, weights are removed within a
+layer (RBM) to hasten learning, or connections are allowed to become asymmetric (Helmholtz).
+
+
+
+Hopfield Boltzmann RBM Stacked Bo
+
+Network is separated into 2 layers This network has mu
+(hidden vs. visible), but still using encode a hierarchy o
+
+A network based on magnetic domains in symmetric 2-way weights. Following Restricted Boltzmann Machine. This is a After a single RBM is
+Boltzmann machine where lateral
+
+iron with a single self-connected layer. It Boltzmann's thermodynamics, individual blue hidden layer (se
+can be used as a content addressable probabilities give rise to macroscopic connections within a layer are prohibited added, and the top 2 
+memory. energies. to make analysis tractable. as a red & blue RBM
+
+layers of an RBM act
+visible, depending on
+is in.
+
+Helmholtz Autoencoder VAE
+
+Applies Variational Inference to the
+A feed forward network that aims to find a
+
+Autoencoder. The middle layer is a set of
+good middle layer representation of its
+
+Instead of the bidirectional symmetric means & variances for Gaussian
+input world. This network is deterministic,
+
+connection of the stacked Boltzmann distributions. The stochastic nature
+so it is not as robust as its successor the
+
+machines, we have separate one-way allows for more robust imagination than
+VAE.
+
+connections to form a loop. It does both the deterministic autoencoder.
+
+generation and discrimination.
+
+Of the networks bearing people's names, only Hopfield worked directly with neural networks. Boltzmann and Helmholtz came before artificial neural networks,
+but their work in physics and physiology inspired the analytical methods that were used.
+
+History
+
+1974 Ising magnetic model proposed by WA Little for cognition
+
+1980 Kunihiko Fukushima introduces the neocognitron, which is later called a convolutional neural network. It is mostly used in SL, but deserves a mention here.
+
+1982 Ising variant Hopfield net described as CAMs and classifiers by John Hopfield.
+
+1983 Ising variant Boltzmann machine with probabilistic neurons described by Hinton & Sejnowski following Sherington & Kirkpatrick's 1975 work.
+
+1986 Paul Smolensky publishes Harmony Theory, which is an RBM with practically the same Boltzmann energy function. Smolensky did not give a practical training
+scheme. Hinton did in mid-2000s.
+
+1995 Hochreiter and Schmidhuber introduce the LSTM neuron for languages.
+
+1995 Dayan & Hinton introduces Helmholtz machine
+
+2013 Kingma, Rezende, & co. introduced Variational Autoencoders as Bayesian graphical probability network, with neural nets as components.
+
+Specific networks
+Here, we highlight some characteristics of select networks. The details of each are given in the comparison table below.
+
+Hopfield Network
+
+
+
+Ferromagnetism inspired Hopfield networks. A neuron corresponds to an iron domain with binary magnetic moments Up and Down, and
+neural connections correspond to the domain's influence on each other. Symmetric connections enable a global energy formulation. During
+inference the network updates each state using the standard activation step function. Symmetric weights and the right energy functions
+guarantees convergence to a stable activation pattern. Asymmetric weights are difficult to analyze. Hopfield nets are used as Content
+Addressable Memories (CAM).
+
+Boltzmann Machine
+These are stochastic Hopfield nets. Their state value is sampled from this pdf as follows: suppose a binary neuron fires with the Bernoulli
+probability p(1) = 1/3 and rests with p(0) = 2/3. One samples from it by taking a uniformly distributed random number y, and plugging it into
+the inverted cumulative distribution function, which in this case is the step function thresholded at 2/3. The inverse function = { 0 if x <= 2/3,
+1 if x > 2/3 }.
+
+Sigmoid Belief Net
+Introduced by Radford Neal in 1992, this network applies ideas from probabilistic graphical models to neural networks. A key difference is
+that nodes in graphical models have pre-assigned meanings, whereas Belief Net neurons' features are determined after training. The
+network is a sparsely connected directed acyclic graph composed of binary stochastic neurons. The learning rule comes from Maximum
+Likelihood on p(X): Δwij  sj * (si - pi), where pi = 1 / ( 1 + eweighted inputs into neuron i ). sj's are activations from an unbiased sample of the
+posterior distribution and this is problematic due to the Explaining Away problem raised by Judea Perl. Variational Bayesian methods uses a
+surrogate posterior and blatantly disregard this complexity.
+
+Deep Belief Network
+Introduced by Hinton, this network is a hybrid of RBM and Sigmoid Belief Network. The top 2 layers is an RBM and the second layer
+downwards form a sigmoid belief network. One trains it by the stacked RBM method and then throw away the recognition weights below the
+top RBM. As of 2009, 3-4 layers seems to be the optimal depth.[6]
+
+Helmholtz machine
+These are early inspirations for the Variational Auto Encoders. Its 2 networks combined into one—forward weights operates recognition and
+backward weights implements imagination. It is perhaps the first network to do both. Helmholtz did not work in machine learning but he
+inspired the view of "statistical inference engine whose function is to infer probable causes of sensory input".[7] the stochastic binary neuron
+outputs a probability that its state is 0 or 1. The data input is normally not considered a layer, but in the Helmholtz machine generation
+mode, the data layer receives input from the middle layer and has separate weights for this purpose, so it is considered a layer. Hence this
+network has 3 layers.
+
+Variational autoencoder
+These are inspired by Helmholtz machines and combines probability network with neural networks. An Autoencoder is a 3-layer CAM
+network, where the middle layer is supposed to be some internal representation of input patterns. The encoder neural network is a
+probability distribution qφ(z given x) and the decoder network is pθ(x given z). The weights are named phi & theta rather than W and V as in
+Helmholtz—a cosmetic difference. These 2 networks here can be fully connected, or use another NN scheme.
+
+
+
+Comparison of networks
+
+Hopfield Boltzmann RBM Stacked RBM Helmholtz Autoencoder VAE
+recognition &
+
+CAM. The freedom pattern imagination.
+recognition. trained with language: creative
+
+Usage & CAM, traveling salesman of connections g, translation. generate realistic
+notables problem makes this used in MNIST unsupervised imagination, writin
+
+network difficult to digits and pre-training mimicry vision: enhancing data
+analyze. speech. and/or blurry images
+
+supervised fine
+tuning.
+
+middle layer
+neurons encode
+means & variances
+for Gaussians. In
+
+deterministic binary state. ← same. language: LSTM.
+
+Neuron Activation = { 0 (or -1) if x is stochastic binary (extended to vision: local run mode
+(inference), the
+
+negative, 1 otherwise } Hopfield neuron real-valued in ← same ← same receptive fields.
+mid 2000s) usually real valued output of the
+
+relu activation. middle layer are
+sampled values
+from the
+Gaussians.
+
+3-layers. The input
+is considered a
+layer even though
+
+top layer is 3-layers: it has no inbound 3-layers: input,
+2-layers. 1-hidden ← same. undirected, asymmetric weights. recurrent encoder,
+
+Connections 1-layer with symmetric weights. & 1-visible. no lateral symmetric. weights. 2 layers for NLP. distribution
+No self-connections. symmetric connections other layers are networks feedforward sampler decoder.
+
+weights. within a layer. 2-way, combined convolutions for the sampler is not
+asymmetric. into 1. vision. input & considered a layer
+
+output have the
+same neuron
+counts.
+
+inference is only
+Energy is given by Gibbs feed-forward.
+
+Inference & probability measure :
+energy ← same ← same minimize KL previous UL minimize error =
+
+divergence networks ran reconstruction
+forwards AND error - KLD
+backwards
+
+Δwij = e*( < vi hj ← similar. train
+Δw >data - < vi hj
+
+ij = e*(pij - p'ij). 1-layer at a
+This is derived >equilibrium ). time.
+from minimizing This is a form of approximate wake-sleep 2 back propagate reparameterize
+
+Training Δwij = si*sj, for +1/-1 neuron KLD. e = learning contrastive equilibrium phase the reconstruction hidden state for
+rate, p' = predicted divergence w/ state with a 3- training error backprop
+and p = actual Gibbs segment pass.
+distribution. Sampling. "<>" no back
+
+are propagation.
+expectations.
+
+mildly
+← same. hidden faster more trains quickly. anatomical.
+
+Strength resembles physical systems so neurons act as practical training gives analyzable w/
+it inherits their equations internal scheme than hierarchical information
+
+representatation of Boltzmann layer of theory &
+the external world machines features statistical
+
+mechanics
+
+integer & real-
+Weakness hard to train due to equilibrium valued neurons
+
+lateral connections requires too
+many iterations are more
+
+complicated.
+
+Hebbian Learning, ART, SOM
+The classical example of unsupervised learning in the study of neural networks is Donald Hebb's principle, that is, neurons that fire together wire together.[8] In
+Hebbian learning, the connection is reinforced irrespective of an error, but is exclusively a function of the coincidence between action potentials between the
+two neurons.[9] A similar version that modifies synaptic weights takes into account the time between the action potentials (spike-timing-dependent plasticity or
+STDP). Hebbian Learning has been hypothesized to underlie a range of cognitive functions, such as pattern recognition and experiential learning.
+
+Among neural network models, the self-organizing map (SOM) and adaptive resonance theory (ART) are commonly used in unsupervised learning algorithms.
+The SOM is a topographic organization in which nearby locations in the map represent inputs with similar properties. The ART model allows the number of
+clusters to vary with problem size and lets the user control the degree of similarity between members of the same clusters by means of a user-defined constant
+called the vigilance parameter. ART networks are used for many pattern recognition tasks, such as automatic target recognition and seismic signal
+processing.[10]
+
+Probabilistic methods
+Two of the main methods used in unsupervised learning are principal component and cluster analysis. Cluster analysis is used in unsupervised learning to group,
+or segment, datasets with shared attributes in order to extrapolate algorithmic relationships.[11] Cluster analysis is a branch of machine learning that groups the
+data that has not been labelled, classified or categorized. Instead of responding to feedback, cluster analysis identifies commonalities in the data and reacts
+based on the presence or absence of such commonalities in each new piece of data. This approach helps detect anomalous data points that do not fit into either
+group.
+
+
+
+A central application of unsupervised learning is in the field of density estimation in statistics,[12] though unsupervised learning encompasses many other
+domains involving summarizing and explaining data features. It can be contrasted with supervised learning by saying that whereas supervised learning intends
+to infer a conditional probability distribution conditioned on the label of input data; unsupervised learning intends to infer an a priori probability distribution .
+
+Approaches
+Some of the most common algorithms used in unsupervised learning include: (1) Clustering, (2) Anomaly detection, (3) Approaches for learning latent variable
+models. Each approach uses several methods as follows:
+
+Clustering methods include: hierarchical clustering,[13] k-means,[14] mixture models, model-based clustering, DBSCAN, and OPTICS
+algorithm
+Anomaly detection methods include: local outlier factor, and isolation forest
+Approaches for learning latent variable models such as expectation–maximization algorithm (EM), method of moments, and blind signal
+separation techniques (principal component analysis, independent component analysis, non-negative matrix factorization, singular value
+decomposition)
+
+Method of moments
+One of the statistical approaches for unsupervised learning is the method of moments. In the method of moments, the unknown parameters (of interest) in the
+model are related to the moments of one or more random variables, and thus, these unknown parameters can be estimated given the moments. The moments are
+usually estimated from samples empirically. The basic moments are first and second order moments. For a random vector, the first order moment is the mean
+vector, and the second order moment is the covariance matrix (when the mean is zero). Higher order moments are usually represented using tensors which are
+the generalization of matrices to higher orders as multi-dimensional arrays.
+
+In particular, the method of moments is shown to be effective in learning the parameters of latent variable models. Latent variable models are statistical models
+where in addition to the observed variables, a set of latent variables also exists which is not observed. A highly practical example of latent variable models in
+machine learning is the topic modeling which is a statistical model for generating the words (observed variables) in the document based on the topic (latent
+variable) of the document. In the topic modeling, the words in the document are generated according to different statistical parameters when the topic of the
+document is changed. It is shown that method of moments (tensor decomposition techniques) consistently recover the parameters of a large class of latent
+variable models under some assumptions.[15]
+
+The Expectation–maximization algorithm (EM) is also one of the most practical methods for learning latent variable models. However, it can get stuck in local
+optima, and it is not guaranteed that the algorithm will converge to the true unknown parameters of the model. In contrast, for the method of moments, the
+global convergence is guaranteed under some conditions.
+
+See also
+Automated machine learning
+Cluster analysis
+Model-based clustering
+Anomaly detection
+Expectation–maximization algorithm
+Generative topographic map
+Meta-learning (computer science)
+Multivariate analysis
+Radial basis function network
+Weak supervision
+
+References
+1. Wu, Wei. "Unsupervised Learning" (https://na.uni-tuebingen.de/ex/ 4. Li, Zhuohan; Wallace, Eric; Shen, Sheng; Lin, Kevin; Keutzer, Kurt;
+
+ml_seminar_ss2022/Unsupervised_Learning%20Final.pdf) (PDF). Klein, Dan; Gonzalez, Joey (2020-11-21). "Train Big, Then
+Archived (https://web.archive.org/web/20240414213810/https://na.u Compress: Rethinking Model Size for Efficient Training and
+ni-tuebingen.de/ex/ml_seminar_ss2022/Unsupervised_Learning%2 Inference of Transformers" (https://proceedings.mlr.press/v119/li20
+0Final.pdf) (PDF) from the original on 14 April 2024. Retrieved m.html). Proceedings of the 37th International Conference on
+26 April 2024. Machine Learning. PMLR: 5958–5968.
+
+2. Liu, Xiao; Zhang, Fanjin; Hou, Zhenyu; Mian, Li; Wang, Zhaoyu; 5. Hinton, G. (2012). "A Practical Guide to Training Restricted
+Zhang, Jing; Tang, Jie (2021). "Self-supervised Learning: Boltzmann Machines" (http://www.cs.utoronto.ca/~hinton/absps/gui
+Generative or Contrastive". IEEE Transactions on Knowledge and deTR.pdf) (PDF). Neural Networks: Tricks of the Trade. Lecture
+Data Engineering: 1. arXiv:2006.08218 (https://arxiv.org/abs/2006.0 Notes in Computer Science. Vol. 7700. Springer. pp. 599–619.
+8218). doi:10.1109/TKDE.2021.3090866 (https://doi.org/10.1109%2 doi:10.1007/978-3-642-35289-8_32 (https://doi.org/10.1007%2F978
+FTKDE.2021.3090866). ISSN 1041-4347 (https://search.worldcat.or -3-642-35289-8_32). ISBN 978-3-642-35289-8. Archived (https://we
+g/issn/1041-4347). b.archive.org/web/20220903215809/http://www.cs.utoronto.ca/~hint
+
+3. Radford, Alec; Narasimhan, Karthik; Salimans, Tim; Sutskever, Ilya on/absps/guideTR.pdf) (PDF) from the original on 2022-09-03.
+(11 June 2018). "Improving Language Understanding by Generative Retrieved 2022-11-03.
+Pre-Training" (https://cdn.openai.com/research-covers/language-un 6. "Deep Belief Nets" (https://videolectures.net/mlss09uk_hinton_dbn)
+supervised/language_understanding_paper.pdf) (PDF). OpenAI. (video). September 2009. Archived (https://web.archive.org/web/20
+p. 12. Archived (https://web.archive.org/web/20210126024542/http 220308022539/http://videolectures.net/mlss09uk_hinton_dbn/) from
+s://cdn.openai.com/research-covers/language-unsupervised/langua the original on 2022-03-08. Retrieved 2022-03-27.
+ge_understanding_paper.pdf) (PDF) from the original on 26
+January 2021. Retrieved 23 January 2021.
+
+
+
+7. Peter, Dayan; Hinton, Geoffrey E.; Neal, Radford M.; Zemel, 11. Roman, Victor (2019-04-21). "Unsupervised Machine Learning:
+Richard S. (1995). "The Helmholtz machine" (https://archive.org/det Clustering Analysis" (https://towardsdatascience.com/unsupervised-
+ails/sim_neural-computation_1995-09_7_5/page/889). Neural machine-learning-clustering-analysis-d40f2b34ae7e). Medium.
+Computation. 7 (5): 889–904. doi:10.1162/neco.1995.7.5.889 (http Archived (https://web.archive.org/web/20200821132257/https://tow
+s://doi.org/10.1162%2Fneco.1995.7.5.889). hdl:21.11116/0000- ardsdatascience.com/unsupervised-machine-learning-clustering-an
+0002-D6D3-E (https://hdl.handle.net/21.11116%2F0000-0002-D6D3 alysis-d40f2b34ae7e) from the original on 2020-08-21. Retrieved
+-E). PMID 7584891 (https://pubmed.ncbi.nlm.nih.gov/7584891). 2019-10-01.
+S2CID 1890561 (https://api.semanticscholar.org/CorpusID:189056 12. Jordan, Michael I.; Bishop, Christopher M. (2004). "7. Intelligent
+1). Systems §Neural Networks". In Tucker, Allen B. (ed.). Computer
+
+8. Buhmann, J.; Kuhnel, H. (1992). "Unsupervised and supervised Science Handbook (https://www.taylorfrancis.com/books/mono/10.1
+data clustering with competitive neural networks". [Proceedings 201/9780203494455/computer-science-handbook-allen-tucker)
+1992] IJCNN International Joint Conference on Neural Networks. (2nd ed.). Chapman & Hall/CRC Press.
+Vol. 4. IEEE. pp. 796–801. doi:10.1109/ijcnn.1992.227220 (https://d doi:10.1201/9780203494455 (https://doi.org/10.1201%2F97802034
+oi.org/10.1109%2Fijcnn.1992.227220). ISBN 0780305590. 94455). ISBN 1-58488-360-X. Archived (https://web.archive.org/we
+S2CID 62651220 (https://api.semanticscholar.org/CorpusID:626512 b/20221103234201/https://www.taylorfrancis.com/books/mono/10.1
+20). 201/9780203494455/computer-science-handbook-allen-tucker)
+
+9. Comesaña-Campos, Alberto; Bouza-Rodríguez, José Benito (June from the original on 2022-11-03. Retrieved 2022-11-03.
+2016). "An application of Hebbian learning in the design process 13. Hastie, Tibshirani & Friedman 2009, pp. 485–586
+decision-making". Journal of Intelligent Manufacturing. 27 (3): 487– 14. Garbade, Dr Michael J. (2018-09-12). "Understanding K-means
+506. doi:10.1007/s10845-014-0881-z (https://doi.org/10.1007%2Fs Clustering in Machine Learning" (https://towardsdatascience.com/u
+10845-014-0881-z). ISSN 0956-5515 (https://search.worldcat.org/is nderstanding-k-means-clustering-in-machine-learning-6a6e67336a
+sn/0956-5515). S2CID 207171436 (https://api.semanticscholar.org/ a1). Medium. Archived (https://web.archive.org/web/201905281839
+CorpusID:207171436). 13/https://towardsdatascience.com/understanding-k-means-clusteri
+
+10. Carpenter, G.A. & Grossberg, S. (1988). "The ART of adaptive ng-in-machine-learning-6a6e67336aa1) from the original on 2019-
+pattern recognition by a self-organizing neural network" (https://we 05-28. Retrieved 2019-10-31.
+b.archive.org/web/20180516131553/http://www.cns.bu.edu/Profiles/ 15. Anandkumar, Animashree; Ge, Rong; Hsu, Daniel; Kakade, Sham;
+Grossberg/CarGro1988Computer.pdf) (PDF). Computer. 21 (3): Telgarsky, Matus (2014). "Tensor Decompositions for Learning
+77–88. doi:10.1109/2.33 (https://doi.org/10.1109%2F2.33). Latent Variable Models" (http://www.jmlr.org/papers/volume15/anan
+S2CID 14625094 (https://api.semanticscholar.org/CorpusID:146250 dkumar14b/anandkumar14b.pdf) (PDF). Journal of Machine
+94). Archived from the original (http://www.cns.bu.edu/Profiles/Gros Learning Research. 15: 2773–2832. arXiv:1210.7559 (https://arxiv.o
+sberg/CarGro1988Computer.pdf) (PDF) on 2018-05-16. Retrieved rg/abs/1210.7559). Bibcode:2012arXiv1210.7559A (https://ui.adsab
+2013-09-16. s.harvard.edu/abs/2012arXiv1210.7559A). Archived (https://web.arc
+
+hive.org/web/20150320201108/http://jmlr.org/papers/volume15/ana
+ndkumar14b/anandkumar14b.pdf) (PDF) from the original on 2015-
+03-20. Retrieved 2015-04-10.
+
+Further reading
+Bousquet, O.; von Luxburg, U.; Raetsch, G., eds. (2004). Advanced Lectures on Machine Learning (https://archive.org/details/advancedlectur
+es0000mach). Springer. ISBN 978-3540231226.
+Duda, Richard O.; Hart, Peter E.; Stork, David G. (2001). "Unsupervised Learning and Clustering". Pattern classification (2nd ed.). Wiley.
+ISBN 0-471-05669-3.
+Hastie, Trevor; Tibshirani, Robert; Friedman, Jerome (2009). "Unsupervised Learning" (https://link.springer.com/chapter/10.1007/978-0-387-8
+4858-7_14). The Elements of Statistical Learning: Data mining, Inference, and Prediction. Springer. pp. 485–586. doi:10.1007/978-0-387-
+84858-7_14 (https://doi.org/10.1007%2F978-0-387-84858-7_14). ISBN 978-0-387-84857-0. Archived (https://web.archive.org/web/202211032
+34204/https://link.springer.com/chapter/10.1007/978-0-387-84858-7_14) from the original on 2022-11-03. Retrieved 2022-11-03.
+Hinton, Geoffrey; Sejnowski, Terrence J., eds. (1999). Unsupervised Learning: Foundations of Neural Computation. MIT Press. ISBN 0-262-
+58168-X.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Unsupervised_learning&oldid=1364965375"

@@ -1,0 +1,471 @@
+﻿Neural machine translation
+Neural machine translation (NMT) is an approach to machine translation that uses an artificial neural
+network to predict the likelihood of a sequence of words, typically modeling entire sentences in a single
+integrated model.
+
+It is the dominant approach today[1]: 293 [2]: 1  and can produce translations that rival human translations
+when translating between high-resource languages under specific conditions.[3] However, there still
+remain challenges, especially with languages that have less high-quality data available,[4][5][1]: 293  and
+with domain shift between the data a system was trained on and the texts it is supposed to translate.[1]: 293 
+
+NMT systems also tend to produce fairly literal translations.[5]
+
+Overview
+In the translation task, a sentence  (consisting of  tokens ) in the source language is to be
+translated into a sentence  (consisting of  tokens ) in the target language. The source and
+target tokens (which in the simple event are used for each other in order for a particular game ] vectors, so
+they can be processed mathematically.
+
+NMT models assign a probability  to potential translations y and then search a subset of potential
+translations for the one with the highest probability. Most NMT models are auto-regressive: They model
+the probability of each target token as a function of the source sentence and the previously predicted
+target tokens. The probability of the whole translation then is the product of the probabilities of the
+individual predicted tokens:[2]: 5 [6]: 2 
+
+NMT models differ in how exactly they model this function , but most use some variation of the
+encoder-decoder architecture:[7]: 469  They first use an encoder network to process  and encode it into a
+vector or matrix representation of the source sentence. Then they use a decoder network that usually
+produces one target word at a time, taking into account the source representation and the tokens it
+previously produced. As soon as the decoder produces a special end of sentence token, the decoding
+process is finished. Since the decoder refers to its own previous outputs during, this way of decoding is
+called auto-regressive.
+
+
+
+History
+
+Early approaches
+In 1987, Robert B. Allen demonstrated the use of feed-forward neural networks for translating auto-
+generated English sentences with a limited vocabulary of 31 words into Spanish. In this experiment, the
+size of the network's input and output layers was chosen to be just large enough for the longest sentences
+in the source and target language, respectively, because the network did not have any mechanism to
+encode sequences of arbitrary length into a fixed-size representation. In his summary, Allen also already
+hinted at the possibility of using auto-associative models, one for encoding the source and one for
+decoding the target.[8]
+
+Lonnie Chrisman built upon Allen's work in 1991 by training separate recursive auto-associative memory
+(RAAM) networks (developed by Jordan B. Pollack[9]) for the source and the target language. Each of
+the RAAM networks is trained to encode an arbitrary-length sentence into a fixed-size hidden
+representation and to decode the original sentence again from that representation. Additionally, the two
+networks are also trained to share their hidden representation; this way, the source encoder can produce a
+representation that the target decoder can decode.[10] Forcada and Ñeco simplified this procedure in 1997
+to directly train a source encoder and a target decoder in what they called a recursive hetero-associative
+memory.[11]
+
+Also in 1997, Castaño and Casacuberta employed an Elman's recurrent neural network in another
+machine translation task with very limited vocabulary and complexity.[12][13]
+
+Even though these early approaches were already similar to modern NMT, the computing resources of the
+time were not sufficient to process datasets large enough for the computational complexity of the machine
+translation problem on real-world texts.[1]: 39 [14]: 2  Instead, other methods like statistical machine
+translation rose to become the state of the art of the 1990s and 2000s.
+
+Hybrid approaches
+During the time when statistical machine translation was prevalent, some works used neural methods to
+replace various parts in the statistical machine translation while still using the log-linear approach to tie
+them together.[1]: 39 [2]: 1  For example, in various works together with other researchers, Holger Schwenk
+replaced the usual n-gram language model with a neural one[15][16] and estimated phrase translation
+probabilities using a feed-forward network.[17]
+
+seq2seq
+In 2013 and 2014, end-to-end neural machine translation had their breakthrough with Kalchbrenner &
+Blunsom using a convolutional neural network (CNN) for encoding the source[18] and both Cho et al. and
+Sutskever et al. using a recurrent neural network (RNN) instead.[19][20] All three used an RNN
+conditioned on a fixed encoding of the source as their decoder to produce the translation. However, these
+models performed poorly on longer sentences.[21]: 107 [1]: 39 [2]: 7  This problem was addressed when
+Bahdanau et al. introduced attention to their encoder-decoder architecture: At each decoding step, the
+state of the decoder is used to calculate a source representation that focuses on different parts of the
+
+
+
+source and uses that representation in the calculation of the probabilities for the next token.[22] Based on
+these RNN-based architectures, Baidu launched the "first large-scale NMT system"[23]: 144  in 2015,
+followed by Google Neural Machine Translation in 2016.[23]: 144 [24] From that year on, neural models
+also became the prevailing choice in the main machine translation conference Workshop on Statistical
+Machine Translation.[25]
+
+Gehring et al. combined a CNN encoder with an attention mechanism in 2017, which handled long-range
+dependencies in the source better than previous approaches and also increased translation speed because a
+CNN encoder is parallelizable, whereas an RNN encoder has to encode one token at a time due to its
+recurrent nature.[26]: 230  In the same year, “Microsoft Translator released AI-powered online neural
+machine translation (NMT).[27] DeepL Translator, which was at the time based on a CNN encoder, was
+also released in the same year and was judged by several news outlets to outperform its
+competitors.[28][29][30] It has also been seen that OpenAI's GPT-3 released in 2020 can function as a
+neural machine translation system. Some other machine translation systems, such as Microsoft translator
+and SYSTRAN can be also seen to have integrated neural networks into their operations.
+
+Transformer
+Another network architecture that lends itself to parallelization is the transformer, which was introduced
+by Vaswani et al. also in 2017.[31] Like previous models, the transformer still uses the attention
+mechanism for weighting encoder output for the decoding steps. However, the transformer's encoder and
+decoder networks themselves are also based on attention instead of recurrence or convolution: Each layer
+weighs and transforms the previous layer's output in a process called self-attention. Since the attention
+mechanism does not have any notion of token order, but the order of words in a sentence is obviously
+relevant, the token embeddings are combined with an explicit encoding of their position in the
+sentence.[2]: 15 [6]: 7  Since both the transformer's encoder and decoder are free from recurrent elements,
+they can both be parallelized during training. However, the original transformer's decoder is still auto-
+regressive, which means that decoding still has to be done one token at a time during inference.
+
+The transformer model quickly became the dominant choice for machine translation systems[2]: 44  and
+was still by far the most-used architecture in the Workshop on Statistical Machine Translation in 2022
+and 2023.[32]: 35–40 [33]: 28–31 
+
+Usually, NMT models’ weights are initialized randomly and then learned by training on parallel datasets.
+However, since using large language models (LLMs) such as BERT pre-trained on large amounts of
+monolingual data as a starting point for learning other tasks has proven very successful in wider NLP, this
+paradigm is also becoming more prevalent in NMT. This is especially useful for low-resource languages,
+where large parallel datasets do not exist.[4]: 689–690  An example of this is the mBART model, which first
+trains one transformer on a multilingual dataset to recover masked tokens in sentences, and then fine-
+tunes the resulting autoencoder on the translation task.[34]
+
+Generative LLMs
+Instead of fine-tuning a pre-trained language model on the translation task, sufficiently large generative
+models can also be directly prompted to translate a sentence into the desired language. This approach was
+first comprehensively tested and evaluated for GPT 3.5 in 2023 by Hendy et al. They found that "GPT
+systems can produce highly fluent and competitive translation outputs even in the zero-shot setting
+especially for the high-resource language translations".[35]: 22 
+
+
+
+The 2023 Conference on Machine Translation tested a variety of LLMs for their translation capabilities
+and found that machine translations were almost all on par with manual translation.[33]: 16–17 
+
+Comparison with statistical machine translation
+NMT has overcome several challenges that were present in statistical machine translation (SMT):
+
+NMT's full reliance on continuous representation of tokens overcame sparsity issues caused
+by rare words or phrases. Models were able to generalize more effectively.[18]: 1 [36]: 900–901 
+
+The limited n-gram length used in SMT's n-gram language models caused a loss of context.
+NMT systems overcome this by not having a hard cut-off after a fixed number of tokens and
+by using attention to choosing which tokens to focus on when generating the next
+token.[36]: 900–901 
+
+End-to-end training of a single model improved translation performance and also simplified
+the whole process.
+The huge n-gram models (up to 7-gram) used in SMT required large amounts of
+memory,[37]: 88  whereas NMT requires less.
+
+Training procedure
+
+Cross-entropy loss
+NMT models are usually trained to maximize the likelihood of observing the training data. I.e., for a
+dataset of  source sentences  and corresponding target sentences
+
+, the goal is finding the model parameters  that maximize the sum of the likelihood
+of each target sentence in the training data given the corresponding source sentence:
+
+Expanding to token level yields:
+
+Since we are only interested in the maximum, we can just as well search for the maximum of the
+logarithm instead (which has the advantage that it avoids floating point underflow that could happen with
+the product of low probabilities).
+
+
+
+Using the fact that the logarithm of a product is the sum of the factors’ logarithms and flipping the sign
+yields the classic cross-entropy loss:
+
+In practice, this minimization is done iteratively on small subsets (mini-batches) of the training set using
+stochastic gradient descent.
+
+Teacher forcing
+During inference, auto-regressive decoders use the token generated in the previous step as the input
+token. However, the vocabulary of target tokens is usually very large. So, at the beginning of the training
+phase, untrained models will pick the wrong token almost always; and subsequent steps would then have
+to work with wrong input tokens, which would slow down training considerably. Instead, teacher forcing
+is used during the training phase: The model (the “student” in the teacher forcing metaphor) is always fed
+the previous ground-truth tokens as input for the next token, regardless of what it predicted in the
+previous step.
+
+Translation by prompt engineering LLMs
+As outlined in the history section above, instead of using an NMT system that is trained on parallel text,
+one can also prompt a generative LLM to translate a text. These models differ from an encoder-decoder
+NMT system in a number of ways:[35]: 1 
+
+Generative language models are not trained on the translation task, let alone on a parallel
+dataset. Instead, they are trained on a language modeling objective, such as predicting the
+next word in a sequence drawn from a large dataset of text. This dataset can contain
+documents in many languages, but is in practice dominated by English text.[38] After this
+pre-training, they are fine-tuned on another task, usually to follow instructions.[39]
+
+Since they are not trained on translation, they also do not feature an encoder-decoder
+architecture. Instead, they just consist of a transformer's decoder.
+In order to be competitive on the machine translation task, LLMs need to be much larger
+than other NMT systems. E.g., GPT-3 has 175 billion parameters,[40]: 5  while mBART has
+680 million[34]: 727  and the original transformer-big has “only” 213 million.[31]: 9  This means
+that they are computationally more expensive to train and use.
+
+A generative LLM can be prompted in a zero-shot fashion by just asking it to translate a text into another
+language without giving any further examples in the prompt. Or one can include one or several example
+translations in the prompt before asking to translate the text in question. This is then called one-shot or
+
+
+
+few-shot learning, respectively. For example, the following prompts were used by Hendy et al. (2023) for
+zero-shot and one-shot translation:[35]
+
+### Translate this sentence from [source language] to [target language], Source:
+
+[source sentence]
+
+### Target:
+
+Translate this into 1. [target language]:
+
+[shot 1 source]
+
+1. [shot 1 reference]
+
+Translate this into 1. [target language]:
+
+[input]
+
+1.
+
+Literature
+Koehn, Philipp (2020). Neural machine translation. Cambridge University Press.
+arXiv:1709.07809 (https://arxiv.org/abs/1709.07809). doi:10.1017/9781108608480 (https://d
+oi.org/10.1017%2F9781108608480). ISBN 9781108608480.
+Stahlberg, Felix (2019). "Neural Machine Translation: A Review and Survey".
+arXiv:1912.02047 (https://arxiv.org/abs/1912.02047) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+See also
+Attention (machine learning)
+Transformer (machine learning model)
+Seq2seq
+
+References
+1. Koehn, Philipp (2020). Neural Machine Translation (http://www2.statmt.org/nmt-book/).
+
+Cambridge University Press.
+2. Stahlberg, Felix (2020-09-29). "Neural Machine Translation: A Review and Survey".
+
+arXiv:1912.02047v2 (https://arxiv.org/abs/1912.02047v2) [cs.CL (https://arxiv.org/archive/cs.
+CL)].
+
+3. Popel, Martin; Tomkova, Marketa; Tomek, Jakub; Kaiser, Łukasz; Uszkoreit, Jakob; Bojar,
+Ondřej; Žabokrtský, Zdeněk (2020-09-01). "Transforming machine translation: a deep
+learning system reaches news translation quality comparable to human professionals" (http
+s://www.ncbi.nlm.nih.gov/pmc/articles/PMC7463233). Nature Communications. 11 (1): 4381.
+Bibcode:2020NatCo..11.4381P (https://ui.adsabs.harvard.edu/abs/2020NatCo..11.4381P).
+doi:10.1038/s41467-020-18073-9 (https://doi.org/10.1038%2Fs41467-020-18073-9).
+hdl:11346/BIBLIO@id=368112263610994118 (https://hdl.handle.net/11346%2FBIBLIO%40i
+d%3D368112263610994118). ISSN 2041-1723 (https://search.worldcat.org/issn/2041-172
+3). PMC 7463233 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7463233).
+PMID 32873773 (https://pubmed.ncbi.nlm.nih.gov/32873773).
+
+4. Haddow, Barry; Bawden, Rachel; Miceli Barone, Antonio Valerio; Helcl, Jindřich; Birch,
+Alexandra (2022). "Survey of Low-Resource Machine Translation" (https://aclanthology.org/2
+022.cl-3.6). Computational Linguistics. 48 (3): 673–732. arXiv:2109.00486 (https://arxiv.org/
+abs/2109.00486). doi:10.1162/coli_a_00446 (https://doi.org/10.1162%2Fcoli_a_00446).
+
+
+
+5. Poibeau, Thierry (2022). Calzolari, Nicoletta; Béchet, Frédéric; Blache, Philippe; Choukri,
+Khalid; Cieri, Christopher; Declerck, Thierry; Goggi, Sara; Isahara, Hitoshi; Maegaard, Bente
+(eds.). "On "Human Parity" and "Super Human Performance" in Machine Translation
+Evaluation" (https://aclanthology.org/2022.lrec-1.647). Proceedings of the Thirteenth
+Language Resources and Evaluation Conference. Marseille, France: European Language
+Resources Association: 6018–6023.
+
+6. Tan, Zhixing; Wang, Shuo; Yang, Zonghan; Chen, Gang; Huang, Xuancheng; Sun,
+Maosong; Liu, Yang (2020-12-31). "Neural Machine Translation: A Review of Methods,
+Resources, and Tools". arXiv:2012.15515 (https://arxiv.org/abs/2012.15515) [cs.CL (https://a
+rxiv.org/archive/cs.CL)].
+
+7. Goodfellow, Ian; Bengio, Yoshua; Courville, Aaron (2016). "12.4.5 Neural Machine
+Translation" (https://www.deeplearningbook.org/contents/applications.html). Deep Learning
+(https://www.deeplearningbook.org/). MIT Press. pp. 468–471. Retrieved 2022-12-29.
+
+8. Allen, Robert B. (1987). Several Studies on Natural Language and Back-Propagation (http
+s://www.researchgate.net/publication/243614356). IEEE First International Conference on
+Neural Networks. Vol. 2. San Diego. pp. 335–341. Retrieved 2022-12-30.
+
+9. Chrisman, Lonnie (1991). "Learning Recursive Distributed Representations for Holistic
+Computation" (https://figshare.com/articles/journal_contribution/6606899). Connection
+Science. 3 (4): 345–366. doi:10.1080/09540099108946592 (https://doi.org/10.1080%2F095
+40099108946592). ISSN 0954-0091 (https://search.worldcat.org/issn/0954-0091).
+
+10. Pollack, Jordan B. (1990). "Recursive distributed representations" (https://dx.doi.org/10.101
+6/0004-3702%2890%2990005-K). Artificial Intelligence. 46 (1): 77–105. doi:10.1016/0004-
+3702(90)90005-K (https://doi.org/10.1016%2F0004-3702%2890%2990005-K).
+
+11. Forcada, Mikel L.; Ñeco, Ramón P. (1997). "Recursive hetero-associative memories for
+translation". Biological and Artificial Computation: From Neuroscience to Technology.
+Lecture Notes in Computer Science. Vol. 1240. pp. 453–462. doi:10.1007/BFb0032504 (http
+s://doi.org/10.1007%2FBFb0032504). ISBN 978-3-540-63047-0.
+
+12. Castaño, Asunción; Casacuberta, Francisco (1997). A connectionist approach to machine
+translation (https://www.isca-speech.org/archive/eurospeech_1997/castano97_eurospeech.
+html). 5th European Conference on Speech Communication and Technology (Eurospeech
+1997). Rhodes, Greece. pp. 91–94. doi:10.21437/Eurospeech.1997-50 (https://doi.org/10.21
+437%2FEurospeech.1997-50).
+
+13. Castaño, Asunción; Casacuberta, Francisco; Vidal, Enrique (1997-07-23). Machine
+translation using neural networks and finite-state models (https://aclanthology.org/1997.tmi-
+1.19). Proceedings of the 7th Conference on Theoretical and Methodological Issues in
+Machine Translation of Natural Languages. St John's College, Santa Fe.
+
+14. Yang, Shuoheng; Wang, Yuxin; Chu, Xiaowen (2020-02-18). "A Survey of Deep Learning
+Techniques for Neural Machine Translation". arXiv:2002.07526 (https://arxiv.org/abs/2002.0
+7526) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+15. Schwenk, Holger; Dechelotte, Daniel; Gauvain, Jean-Luc (2006). Continuous Space
+Language Models for Statistical Machine Translation (https://aclanthology.org/P06-2093).
+Proceedings of the COLING/ACL 2006 Main Conference Poster Sessions. Sydney,
+Australia. pp. 723–730.
+
+16. Schwenk, Holger (2007). "Contiuous space language models". Computer Speech and
+Language. 3 (21): 492–518. doi:10.1016/j.csl.2006.09.003 (https://doi.org/10.1016%2Fj.csl.
+2006.09.003).
+
+17. Schwenk, Holger (2012). Continuous Space Translation Models for Phrase-Based Statistical
+Machine Translation (https://aclanthology.org/C12-2104). Proceedings of COLING 2012:
+Posters. Mumbai, India. pp. 1071–1080.
+
+18. Kalchbrenner, Nal; Blunsom, Philip (2013). "Recurrent Continuous Translation Models" (htt
+p://www.aclweb.org/anthology/D13-1176). Proceedings of the Association for Computational
+Linguistics: 1700–1709.
+
+
+
+19. Cho, Kyunghyun; van Merriënboer, Bart; Gulcehre, Caglar; Bahdanau, Dzmitry; Bougares,
+Fethi; Schwenk, Holger; Bengio, Yoshua (2014). Learning Phrase Representations using
+RNN Encoder–Decoder for Statistical Machine Translation. Proceedings of the 2014
+Conference on Empirical Methods in Natural Language Processing (EMNLP). Doha, Qatar:
+Association for Computational Linguistics. pp. 1724–1734. arXiv:1406.1078 (https://arxiv.or
+g/abs/1406.1078). doi:10.3115/v1/D14-1179 (https://doi.org/10.3115%2Fv1%2FD14-1179).
+
+20. Sutskever, Ilya; Vinyals, Oriol; Le, Quoc V. (2014). "Sequence to Sequence Learning with
+Neural Networks" (https://web.archive.org/web/20250127094117/https://proceedings.neurip
+s.cc/paper/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html). Advances in
+Neural Information Processing Systems. 27. Curran Associates, Inc. arXiv:1409.3215 (http
+s://arxiv.org/abs/1409.3215). Archived from the original (https://proceedings.neurips.cc/pape
+r/2014/hash/a14ac55a4f27472c5d894ec1c3c743d2-Abstract.html) on 2025-01-27.
+Retrieved 2023-12-26.
+
+21. Cho, Kyunghyun; van Merriënboer, Bart; Bahdanau, Dzmitry; Bengio, Yoshua (2014). On
+the Properties of Neural Machine Translation: Encoder–Decoder Approaches. Proceedings
+of SSST-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation.
+Doha, Qatar: Association for Computational Linguistics. pp. 103–111. arXiv:1409.1259 (http
+s://arxiv.org/abs/1409.1259). doi:10.3115/v1/W14-4012 (https://doi.org/10.3115%2Fv1%2F
+W14-4012).
+
+22. Bahdanau, Dzmitry; Cho, Kyunghyun; Bengio, Yoshua (2014). "Neural Machine Translation
+by Jointly Learning to Align and Translate". arXiv:1409.0473 (https://arxiv.org/abs/1409.047
+3) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+23. Wang, Haifeng; Wu, Hua; He, Zhongjun; Huang, Liang; Church, Kenneth Ward (2022-11-
+01). "Progress in Machine Translation" (https://doi.org/10.1016%2Fj.eng.2021.03.023).
+Engineering. 18: 143–153. Bibcode:2022Engin..18..143W (https://ui.adsabs.harvard.edu/ab
+s/2022Engin..18..143W). doi:10.1016/j.eng.2021.03.023 (https://doi.org/10.1016%2Fj.eng.2
+021.03.023).
+
+24. Wu, Yonghui; Schuster, Mike; Chen, Zhifeng; Le, Quoc V.; Norouzi, Mohammad; Macherey,
+Wolfgang; Krikun, Maxim; Cao, Yuan; Gao, Qin; Macherey, Klaus; Klingner, Jeff; Shah,
+Apurva; Johnson, Melvin; Liu, Xiaobing; Kaiser, Łukasz (2016). "Google's Neural Machine
+Translation System: Bridging the Gap between Human and Machine Translation".
+arXiv:1609.08144 (https://arxiv.org/abs/1609.08144) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+25. Bojar, Ondrej; Chatterjee, Rajen; Federmann, Christian; Graham, Yvette; Haddow, Barry;
+Huck, Matthias; Yepes, Antonio Jimeno; Koehn, Philipp; Logacheva, Varvara; Monz,
+Christof; Negri, Matteo; Névéol, Aurélie; Neves, Mariana; Popel, Martin; Post, Matt; Rubino,
+Raphael; Scarton, Carolina; Specia, Lucia; Turchi, Marco; Verspoor, Karin; Zampieri,
+Marcos (2016). "Findings of the 2016 Conference on Machine Translation" (https://web.archi
+ve.org/web/20180127202851/https://cris.fbk.eu/retrieve/handle/11582/307240/14326/W16-2
+301.pdf) (PDF). ACL 2016 First Conference on Machine Translation (WMT16). The
+Association for Computational Linguistics: 131–198. Archived from the original (https://cris.fb
+k.eu/retrieve/handle/11582/307240/14326/W16-2301.pdf) (PDF) on 2018-01-27. Retrieved
+2018-01-27.
+
+26. Gehring, Jonas; Auli, Michael; Grangier, David; Dauphin, Yann (2017). A Convolutional
+Encoder Model for Neural Machine Translation (https://aclanthology.org/P17-1012).
+Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics
+(Volume 1: Long Papers). Vancouver, Canada: Association for Computational Linguistics.
+pp. 123–135. arXiv:1611.02344 (https://arxiv.org/abs/1611.02344). doi:10.18653/v1/P17-
+1012 (https://doi.org/10.18653%2Fv1%2FP17-1012).
+
+27. "Microsoft brings AI-powered translation to end users and developers, whether you're online
+or offline" (https://www.microsoft.com/en-us/translator/blog/2018/04/18/microsoft-brings-ai-p
+owered-translation-to-end-users-and-developers-whether-youre-online-or-offline/). Microsoft
+Translator Blog. 2018-04-18. Retrieved 2024-04-19.
+
+
+
+28. Coldewey, Devin (2017-08-29). "DeepL schools other online translators with clever machine
+learning" (https://techcrunch.com/2017/08/29/deepl-schools-other-online-translators-with-cle
+ver-machine-learning/). TechCrunch. Retrieved 2023-12-26.
+
+29. Leloup, Damien; Larousserie, David (2022-08-29). "Quel est le meilleur service de
+traduction en ligne?" (https://www.lemonde.fr/pixels/article/2017/08/29/quel-est-le-meilleur-s
+ervice-de-traduction-en-ligne_5177956_4408996.html). Le Monde. Retrieved 2023-01-10.
+
+30. Pakalski, Ingo (2017-08-29). "DeepL im Hands On: Neues Tool übersetzt viel besser als
+Google und Microsoft" (https://www.golem.de/news/deepl-im-hands-on-neues-tool-ueberset
+zt-viel-besser-als-google-und-microsoft-1708-129715.html). Golem. Retrieved 2023-01-10.
+
+31. Vaswani, Ashish; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Gomez, Aidan N.; Kaiser,
+Łukasz; Polosukhin, Illia (2017). Attention Is All You Need (https://papers.nips.cc/paper_file
+s/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html). Advances in
+Neural Information Processing Systems 30 (NIPS 2017). pp. 5998–6008.
+
+32. Kocmi, Tom; Bawden, Rachel; Bojar, Ondřej; Dvorkovich, Anton; Federmann, Christian;
+Fishel, Mark; Gowda, Thamme; Graham, Yvette; Grundkiewicz, Roman; Haddow, Barry;
+Knowles, Rebecca; Koehn, Philipp; Monz, Christof; Morishita, Makoto; Nagata, Masaaki
+(2022). Koehn, Philipp; Barrault, Loïc; Bojar, Ondřej; Bougares, Fethi; Chatterjee, Rajen;
+Costa-jussà, Marta R.; Federmann, Christian; Fishel, Mark; Fraser, Alexander (eds.).
+Findings of the 2022 Conference on Machine Translation (WMT22) (https://aclanthology.org/
+2022.wmt-1.1). Proceedings of the Seventh Conference on Machine Translation (WMT).
+Abu Dhabi, United Arab Emirates (Hybrid): Association for Computational Linguistics. pp. 1–
+45.
+
+33. Kocmi, Tom; Avramidis, Eleftherios; Bawden, Rachel; Bojar, Ondřej; Dvorkovich, Anton;
+Federmann, Christian; Fishel, Mark; Freitag, Markus; Gowda, Thamme; Grundkiewicz,
+Roman; Haddow, Barry; Koehn, Philipp; Marie, Benjamin; Monz, Christof; Morishita, Makoto
+(2023). Koehn, Philipp; Haddow, Barry; Kocmi, Tom; Monz, Christof (eds.). Findings of the
+2023 Conference on Machine Translation (WMT23): LLMs Are Here but Not Quite There Yet
+(https://aclanthology.org/2023.wmt-1.1). Proceedings of the Eighth Conference on Machine
+Translation. Singapore: Association for Computational Linguistics. pp. 1–42.
+doi:10.18653/v1/2023.wmt-1.1 (https://doi.org/10.18653%2Fv1%2F2023.wmt-1.1).
+
+34. Liu, Yinhan; Gu, Jiatao; Goyal, Naman; Li, Xian; Edunov, Sergey; Ghazvininejad, Marjan;
+Lewis, Mike; Zettlemoyer, Luke (2020). "Multilingual Denoising Pre-training for Neural
+Machine Translation" (https://doi.org/10.1162/tacl_a_00343). Transactions of the Association
+for Computational Linguistics. 8: 726–742. arXiv:2001.08210 (https://arxiv.org/abs/2001.082
+10). doi:10.1162/tacl_a_00343 (https://doi.org/10.1162%2Ftacl_a_00343).
+
+35. Hendy, Amr; Abdelrehim, Mohamed; Sharaf, Amr; Raunak, Vikas; Gabr, Mohamed;
+Matsushita, Hitokazu; Kim, Young Jin; Afify, Mohamed; Awadalla, Hany (2023-02-18). "How
+Good Are GPT Models at Machine Translation? A Comprehensive Evaluation".
+arXiv:2302.09210 (https://arxiv.org/abs/2302.09210) [cs.CL (https://arxiv.org/archive/cs.CL)].
+
+36. Russell, Stuart; Norvig, Peter. Artificial Intelligence: A Modern Approach (http://aima.cs.berk
+eley.edu/global-index.html) (4th, global ed.). Pearson.
+
+37. Federico, Marcello; Cettolo, Mauro (2007). Callison-Burch, Chris; Koehn, Philipp; Fordyce,
+Cameron Shaw; Monz, Christof (eds.). "Efficient Handling of N-gram Language Models for
+Statistical Machine Translation" (https://aclanthology.org/W07-0712). Proceedings of the
+Second Workshop on Statistical Machine Translation. Prague, Czech Republic: Association
+for Computational Linguistics: 88–95. doi:10.3115/1626355.1626367 (https://doi.org/10.311
+5%2F1626355.1626367).
+
+38. "GPT 3 dataset statistics: languages by character count" (https://github.com/openai/gpt-3/bl
+ob/master/dataset_statistics/languages_by_character_count.csv). OpenAI. 2020-06-01.
+Retrieved 2023-12-23.
+
+
+
+39. Radford, Alec; Narasimhan, Karthik; Salimans, Tim; Sutskever, Ilya (2018). Improving
+Language Understanding by Generative Pre-Training (https://cdn.openai.com/research-cove
+rs/language-unsupervised/language_understanding_paper.pdf) (PDF) (Technical report).
+OpenAI. Retrieved 2023-12-26.
+
+40. Brown, Tom; Mann, Benjamin; Ryder, Nick; Subbiah, Melanie; Kaplan, Jared D; Dhariwal,
+Prafulla; Neelakantan, Arvind; Shyam, Pranav; Sastry, Girish; Askell, Amanda; Agarwal,
+Sandhini; Herbert-Voss, Ariel; Krueger, Gretchen; Henighan, Tom; Child, Rewon (2020).
+"Language Models are Few-Shot Learners" (https://proceedings.neurips.cc/paper/2020/has
+h/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html). Advances in Neural Information
+Processing Systems. 33. Curran Associates, Inc.: 1877–1901.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Neural_machine_translation&oldid=1381663222"

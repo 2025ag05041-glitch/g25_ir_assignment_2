@@ -1,0 +1,14 @@
+﻿Tokenization
+Tokenization may refer to:
+
+Tokenization (lexical analysis) in processing of computer languages
+Tokenization in large language models
+Tokenization in search engine indexing
+Tokenization (data security)
+Word segmentation
+A procedure during the Transformer architecture
+
+See also
+Tokenism of minorities
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Tokenization&oldid=1380787624"

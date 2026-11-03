@@ -1,0 +1,87 @@
+﻿Agent (economics)
+In economics, an agent is an actor (more specifically, a decision maker) in a model of some aspect of the
+economy. Typically, every agent makes decisions by solving a well- or ill-defined optimization or choice
+problem.
+
+For example, buyers (consumers) and sellers (producers) are two common types of agents in partial
+equilibrium models of a single market. Macroeconomic models, especially dynamic stochastic general
+equilibrium models that are explicitly based on microfoundations, often distinguish households, firms,
+and governments or central banks as the main types of agents in the economy. Each of these agents may
+play multiple roles in the economy; households, for example, might act as consumers, as workers, and as
+voters in the model. Some macroeconomic models distinguish even more types of agents, such as
+workers and shoppers[1] or commercial banks.[2]
+
+The term agent is also used in relation to principal–agent models; in this case, it refers specifically to
+someone delegated to act on behalf of a principal.[3]
+
+In agent-based computational economics, corresponding agents are "computational objects modeled as
+interacting according to rules" over space and time, not real people. The rules are formulated to model
+behavior and social interactions based on stipulated incentives and information.[4] The concept of an
+agent may be broadly interpreted to be any persistent individual, social, biological, or physical entity
+interacting with other such entities in the context of a dynamic multi-agent economic system.
+
+Representative vs. heterogenous agents
+An economic model in which all agents of a given type (such as all consumers, or all firms) are assumed
+to be exactly identical is called a representative agent model. A model which recognizes differences
+among agents is called a heterogeneous agent model. Economists often use representative agent models
+when they want to describe the economy in the simplest terms possible. In contrast, they may be obliged
+to use heterogeneous agent models when differences among agents are directly relevant for the question
+at hand.[5] For example, considering heterogeneity in age is likely to be necessary in a model used to
+study the economic effects of pensions;[6] considering heterogeneity in wealth is likely to be necessary in
+a model used to study precautionary saving[7] or redistributive taxation.[8]
+
+See also
+Agency (law)
+Demand set
+Homo economicus
+Market consumer
+
+
+
+References
+1. Lucas, Robert Jr. (1980). "Equilibrium in a pure currency economy". Economic Inquiry. 18
+
+(2): 203–220. doi:10.1111/j.1465-7295.1980.tb00570.x (https://doi.org/10.1111%2Fj.1465-72
+95.1980.tb00570.x).
+
+2. Fuerst, Timothy S. (1992). "Liquidity, loanable funds, and real activity". Journal of Monetary
+Economics. 29 (1): 3–24. doi:10.1016/0304-3932(92)90021-S (https://doi.org/10.1016%2F0
+304-3932%2892%2990021-S).
+
+3. Stiglitz, Joseph E. (1987). "Principal and Agent". The New Palgrave: A Dictionary of
+Economics. Vol. 3. pp. 966–971.
+
+4. Page, Scott E. (2008). "Agent-based models" (http://www.dictionaryofeconomics.com/articl
+e?id=pde2008_A000218&edition=current&q=agent-based%20computational%20modeling&t
+opicid=&result_number=1). The New Palgrave Dictionary of Economics (2nd ed.).
+
+5. Ríos-Rull, José-Víctor (1995). "Models with Heterogeneous Agents". In Cooley, T. (ed.).
+Frontiers of Business Cycle Theory. Princeton University Press. ISBN 978-0-691-04323-4.
+
+6. Altig, David; Auerbach, Alan; Kotlikoff, Laurence; Smetters, Kent; Walliser, Jan (2001).
+"Simulating Fundamental Tax Reform in the United States". American Economic Review. 91
+(3): 574–595. doi:10.1257/aer.91.3.574 (https://doi.org/10.1257%2Faer.91.3.574).
+JSTOR 2677880 (https://www.jstor.org/stable/2677880).
+
+7. Carroll, Christopher (1997). "Buffer-Stock Saving and the Life Cycle/Permanent Income
+Hypothesis" (http://www.nber.org/papers/w5788.pdf) (PDF). Quarterly Journal of Economics.
+112 (1): 1–55. doi:10.1162/003355397555109 (https://doi.org/10.1162%2F00335539755510
+9). S2CID 14047708 (https://api.semanticscholar.org/CorpusID:14047708).
+
+8. Bénabou, Roland (2002). "Tax and Education Policy in a Heterogeneous-Agent Economy:
+What Levels of Redistribution Maximize Growth and Efficiency?" (http://archive.nyu.edu/bitst
+ream/2451/27361/2/S-MF-99-03.pdf) (PDF). Econometrica. 70 (2): 481–517.
+doi:10.1111/1468-0262.00293 (https://doi.org/10.1111%2F1468-0262.00293).
+
+Further reading
+Hartley, James E. (1997). "Retrospectives: The Origins of the Representative Agent" (https://
+doi.org/10.1257%2Fjep.10.2.169). Journal of Economic Perspectives. 10 (2): 169–177.
+doi:10.1257/jep.10.2.169 (https://doi.org/10.1257%2Fjep.10.2.169). JSTOR 2138488 (http
+s://www.jstor.org/stable/2138488). S2CID 154459239 (https://api.semanticscholar.org/Corpu
+sID:154459239).
+Kirman, Alan P. (1992). "Whom or What Does the Representative Individual Represent?" (htt
+ps://doi.org/10.1257%2Fjep.6.2.117). Journal of Economic Perspectives. 6 (2): 117–136.
+doi:10.1257/jep.6.2.117 (https://doi.org/10.1257%2Fjep.6.2.117). JSTOR 2138411 (https://w
+ww.jstor.org/stable/2138411).
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Agent_(economics)&oldid=1375861756"

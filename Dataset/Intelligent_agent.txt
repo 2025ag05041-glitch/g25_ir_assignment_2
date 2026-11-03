@@ -1,0 +1,593 @@
+﻿Intelligent agent
+An intelligent agent is an entity that
+perceives its environment, takes
+actions autonomously to achieve
+goals, and may improve its
+performance through by acquiring
+knowledge. Intelligent agents can
+range from simple to highly
+complex. A basic thermostat or
+control system is considered an
+intelligent agent, as is a human
+being, or any other system that meets
+the same criteria—such as a firm, a
+state, or a biome.[1]
+
+In artificial intelligence, a specialized
+subset of intelligent agents, AI agents Simple reflex agent diagram
+(also known as agentic AI) expand
+this concept by proactively pursuing
+goals, making decisions, and taking actions over extended periods.
+
+Intelligent agents operate based on an objective function, which encapsulates their goals. They are
+designed to create and execute plans that maximize the expected value of this function upon
+completion.[2] For example, a reinforcement learning agent has a reward function, which allows
+programmers to shape its desired behavior.[3] Similarly, an evolutionary algorithm's behavior is guided by
+a fitness function.[4]
+
+Intelligent agents in artificial intelligence are closely related to agents in economics, and versions of the
+intelligent agent paradigm are studied in cognitive science, ethics, and the philosophy of practical reason,
+as well as in many interdisciplinary socio-cognitive modeling and computer social simulations.
+
+Intelligent agents are often described schematically as abstract functional systems similar to computer
+programs.[5] To distinguish theoretical models from real-world implementations, abstract descriptions of
+intelligent agents are called abstract intelligent agents. Intelligent agents are also closely related to
+software agents—autonomous computer programs that carry out tasks on behalf of users. They are also
+referred to using a term borrowed from economics: a "rational agent".[1]
+
+Agent-based definition of artificial intelligence
+Russell and Norvig describe artificial intelligence as the study of agents that receive percepts from an
+environment and perform actions. In this framework, an agent is anything that perceives its environment
+through sensors and acts upon that environment through actuators. A rational agent selects the action
+
+
+
+expected to maximize its performance measure, given its percept sequence, prior knowledge, and
+available actions.[6] Rationality in this sense does not require an agent to be omniscient or always
+successful; it concerns the expected outcome of an action on the basis of the information available to the
+agent.[6]
+
+In agent-oriented computing, agents are also commonly characterized by properties such as autonomy,
+responsiveness to changes in their environment, and goal-directed or proactive behavior.[7] One approach
+to modeling practical reasoning is the belief–desire–intention (BDI) architecture, which represents an
+agent in terms of its information about the world, its objectives, and the courses of action to which it has
+committed.[8]
+
+Objective function
+An objective function (or goal function) specifies the goals of an intelligent agent. An agent is deemed
+more intelligent if it consistently selects actions that yield outcomes better aligned with its objective
+function. In effect, the objective function serves as a measure of success.
+
+The objective function may be:
+
+Simple: For example, in a game of Go, the objective function might assign a value of 1 for a
+win and 0 for a loss.
+Complex: It might require the agent to evaluate and learn from past actions, adapting its
+behavior based on patterns that have proven effective.
+
+The objective function encapsulates all of the goals the agent is designed to achieve. For rational agents,
+it also incorporates the trade-offs between potentially conflicting goals. For instance, a self-driving car's
+objective function might balance factors such as safety, speed, and passenger comfort.
+
+Different terms are used to describe this concept, depending on the context. These include:
+
+Utility function: Often used in economics and decision theory, representing the desirability of
+a state.
+Objective function: A general term used in optimization.
+Loss function: Typically used in machine learning, where the goal is to minimize the loss
+(error).
+Reward function: Used in reinforcement learning.
+Fitness function: Used in evolutionary systems.
+
+Goals, and therefore the objective function, can be:
+
+Explicitly defined: Programmed directly into the agent.
+Induced: Learned or evolved over time.
+
+In reinforcement learning, a "reward function" provides feedback, encouraging desired
+behaviors and discouraging undesirable ones. The agent learns to maximize its
+cumulative reward.
+In evolutionary systems, a "fitness function" determines which agents are more likely to
+reproduce. This is analogous to natural selection, where organisms evolve to maximize
+their chances of survival and reproduction.[9]
+
+
+
+Some AI systems, such as nearest-neighbor, reason by analogy rather than being explicitly goal-driven.
+However, even these systems can have goals implicitly defined within their training data.[10] Such
+systems can still be benchmarked by framing the non-goal system as one whose "goal" is to accomplish
+its narrow classification task.[11]
+
+Systems not traditionally considered agents, like knowledge-representation systems, are sometimes
+included in the paradigm by framing them as agents with a goal of, for example, answering questions
+accurately. Here, the concept of an "action" is extended to encompass the "act" of providing an answer.
+As a further extension, mimicry-driven systems can be framed as agents optimizing a "goal function"
+based on how closely the agent mimics the desired behavior.[2] In generative adversarial networks
+(GANs) of the 2010s, an "encoder"/"generator" component attempts to mimic and improvise human text
+composition. The generator tries to maximize a function representing how well it can fool an antagonistic
+"predictor"/"discriminator" component.[12]
+
+While symbolic AI systems often use an explicit goal function, the paradigm also applies to neural
+networks and evolutionary computing. Reinforcement learning can generate intelligent agents that appear
+to act in ways intended to maximize a "reward function".[13] Sometimes, instead of setting the reward
+function directly equal to the desired benchmark evaluation function, machine learning programmers use
+reward shaping to initially give the machine rewards for incremental progress.[14] Yann LeCun stated in
+2018, "Most of the learning algorithms that people have come up with essentially consist of minimizing
+some objective function."[15] AlphaZero chess had a simple objective function: +1 point for each win, and
+-1 point for each loss. A self-driving car's objective function would be more complex.[16] Evolutionary
+computing can evolve intelligent agents that appear to act in ways intended to maximize a "fitness
+function" influencing how many descendants each agent is allowed to leave.[4]
+
+The mathematical formalism of AIXI was proposed as a maximally intelligent agent in this paradigm.[17]
+
+However, AIXI is uncomputable. In the real world, an intelligent agent is constrained by finite time and
+hardware resources, and scientists compete to produce algorithms that achieve progressively higher
+scores on benchmark tests with existing hardware.[18]
+
+Agent function
+An intelligent agent's behavior can be described mathematically by an agent function. This function
+determines what the agent does based on what it has seen.
+
+A percept refers to the agent's sensory inputs at a single point in time. For example, a self-driving car's
+percepts might include camera images, lidar data, GPS coordinates, and speed readings at a specific
+instant. The agent uses these percepts, and potentially its history of percepts, to decide on its next action
+(e.g., accelerate, brake, turn).
+
+The agent function, often denoted as f, maps the agent's entire history of percepts to an action.[19]
+
+Mathematically, this can be represented as
+
+where:
+
+
+
+ represents the set of all possible percept sequences (the agent's entire perceptual
+history). The asterisk (*) indicates a sequence of zero or more percepts.
+
+ represents the set of all possible actions the agent can take.
+ is the agent function that maps a percept sequence to an action.
+
+It is crucial to distinguish between the agent function (an abstract mathematical concept) and the agent
+program (the concrete implementation of that function).
+
+The agent function is a theoretical description.
+The agent program is the actual code that runs on the agent. The agent program takes the
+current percept as input and produces an action as output.
+
+The agent function can incorporate a wide range of decision-making approaches, including:[20]
+
+Calculating the utility (desirability) of different actions.
+Using logical rules and deduction.
+Employing fuzzy logic.
+Other methods.
+
+Classes of intelligent agents
+
+Russell and Norvig's classification
+Russell & Norvig (2003) group agents into five classes based on their degree of perceived intelligence
+and capability:[21]
+
+Simple reflex agents
+Simple reflex agents act only on the
+basis of the current percept, ignoring
+the rest of the percept history. The
+agent function is based on the
+condition-action rule: "if condition,
+then action".
+
+This agent function only succeeds
+when the environment is fully
+observable. Some reflex agents can Simple reflex agent
+also contain information on their
+current state which allows them to
+disregard conditions whose actuators are already triggered.
+
+Infinite loops are often unavoidable for simple reflex agents operating in partially observable
+environments. If the agent can randomize its actions, it may be possible to escape from infinite loops.
+
+A home thermostat, which turns on or off when the temperature drops below a certain point, is an
+example of a simple reflex agent.[22][23]
+
+
+
+Model-based reflex agents
+A model-based agent can handle
+partially observable environments.
+Its current state is stored inside the
+agent, maintaining a structure that
+describes the part of the world which
+cannot be seen. This knowledge
+about "how the world works" is
+referred to as a model of the world,
+hence the name "model-based
+agent". Model-based reflex agent
+
+A model-based reflex agent should
+maintain some sort of internal model that depends on the percept history and thereby reflects at least
+some of the unobserved aspects of the current state. Percept history and impact of action on the
+environment can be determined by using the internal model. It then chooses an action in the same way as
+reflex agent.
+
+An agent may also use models to describe and predict the behaviors of other agents in the
+environment.[24]
+
+Goal-based agents
+Goal-based agents further expand on
+the capabilities of the model-based
+agents, by using "goal" information.
+Goal information describes situations
+that are desirable. This provides the
+agent a way to choose among
+multiple possibilities, selecting the
+one which reaches a goal state.
+Search and planning are the subfields
+of artificial intelligence devoted to
+finding action sequences that achieve
+the agent's goals.
+
+Model-based, goal-based agent
+
+ChatGPT and the Roomba vacuum
+are examples of goal-based agents.[25]
+
+Utility-based agents
+Goal-based agents only distinguish between goal states and non-goal states. It is also possible to define a
+measure of how desirable a particular state is. This measure can be obtained through the use of a utility
+function which maps a state to a measure of the utility of the state. A more general performance measure
+should allow a comparison of different world states according to how well they satisfied the agent's goals.
+The term utility can be used to describe how "happy" the agent is.
+
+
+
+A rational utility-based agent
+chooses the action that maximizes
+the expected utility of the action
+outcomes - that is, what the agent
+expects to derive, on average, given
+the probabilities and utilities of each
+outcome. A utility-based agent has to
+model and keep track of its
+environment, tasks that have
+involved a great deal of research on
+perception, representation, reasoning,
+and learning.
+
+Learning agents
+Learning lets agents begin in
+
+Model-based, utility-based agent
+unknown environments and
+gradually surpass the bounds of their
+initial knowledge. A key distinction
+in such agents is the separation
+between a "learning element,"
+responsible for improving
+performance, and a "performance
+element," responsible for choosing
+external actions.
+
+The learning element gathers
+feedback from a "critic" to assess the
+agent's performance and decides how
+the performance element—also
+called the "actor"—can be adjusted A general learning agent
+to yield better outcomes. The
+performance element, once
+considered the entire agent, interprets percepts and takes actions.
+
+The final component, the "problem generator," suggests new and informative experiences that encourage
+exploration and further improvement.
+
+Weiss's classification
+According to Weiss (2013), agents can be categorized into four classes:
+
+Logic-based agents, where decisions about actions are derived through logical deduction.
+Reactive agents, where decisions occur through a direct mapping from situation to action.
+Belief–desire–intention agents, where decisions depend on manipulating data structures
+that represent the agent's beliefs, desires, and intentions.
+Layered architectures, where decision-making takes place across multiple software layers,
+each of which reasons about the environment at a different level of abstraction.
+
+
+
+Other
+In 2013, Alexander Wissner-Gross published a theory exploring the relationship between freedom and
+intelligence in intelligent agents.[26][27]
+
+Hierarchies of agents
+Intelligent agents can be organized hierarchically into multiple "sub-agents." These sub-agents handle
+lower-level functions, and together with the main agent, they form a complete system capable of
+executing complex tasks and achieving challenging goals.
+
+Typically, an agent is structured by dividing it into sensors and actuators. The perception system gathers
+input from the environment via the sensors and feeds this information to a central controller, which then
+issues commands to the actuators. Often, a multilayered hierarchy of controllers is necessary to balance
+the rapid responses required for low-level tasks with the more deliberative reasoning needed for high-
+level objectives.[28]
+
+Alternative definitions and uses
+"Intelligent agent" is also often used as a vague term, sometimes synonymous with "virtual personal
+assistant".[29] Some 20th-century definitions characterize an agent as a program that aids a user or that
+acts on behalf of a user.[30] These examples are known as software agents, and sometimes an "intelligent
+software agent" (that is, a software agent with intelligence) is referred to as an "intelligent agent".
+
+According to Nikola Kasabov in 1998, intelligent agent systems should exhibit the following
+characteristics:[31]
+
+Accommodate new problem solving rules incrementally.
+Adapt online and in real time.
+Are able to analyze themselves in terms of behavior, error and success.
+Learn and improve through interaction with the environment (embodiment).
+Learn quickly from large amounts of data.
+Have memory-based exemplar storage and retrieval capacities.
+Have parameters to represent short- and long-term memory, age, forgetting, etc.
+
+Agentic AI
+AI agents do not have a standard definition.[32][33][34] In the context of generative AI, AI agents (also
+called compound AI systems) are a class of intelligent agents distinguished by their ability to operate
+autonomously in complex environments. Agentic AI tools prioritize decision-making over content
+creation and do not require human prompts or continuous oversight.[35] Agents may include memory
+systems for remembering previous user-agent interactions and orchestration software for organizing agent
+components.[36]
+
+The concept of agentic AI has been compared to the fictional character J.A.R.V.I.S..[37]
+
+
+
+A common application of AI agents is the automation of tasks—for example, booking travel plans based
+on a user's prompted request.[38][39]
+
+Applications
+The concept of agent-based modeling for self-driving cars was discussed as early as 2003.[40] Hallerbach
+et al. explored the use of agent-based approaches for developing and validating automated driving
+systems. Their method involved a digital twin of the vehicle under test and microscopic traffic
+simulations using independent agents.[41] Waymo developed a multi-agent simulation environment called
+Carcraft, to test algorithms for self-driving cars.[42][43] This system simulates interactions between human
+drivers, pedestrians, and automated vehicles. Artificial agents replicate human behavior using real-world
+data.
+
+Salesforce's Agentforce is an agentic AI platform that allows for the building of autonomous agents to
+perform tasks.[44][45] The Transport Security Administration is integrating agentic AI into new
+technologies, including machines to authenticate passenger identities using biometrics and photos, and
+also for incident response.[46] In March 2026, Amazon Web Services launched Amazon Connect Health,
+its first HIPAA-eligible AI agent platform for healthcare, designed to automate administrative workflows
+including appointment scheduling, clinical documentation, and patient verification for healthcare
+providers.[47]
+
+See also
+AI agent
+AI effect
+Ambient intelligence
+Artificial conversational entity
+Artificial intelligence systems integration
+Autonomous agent
+Cognitive architectures
+Cognitive radio – a practical field for implementation
+Cybernetics
+DAYDREAMER
+Embodied agent
+Federated search – the ability for agents to search heterogeneous data sources using a
+single vocabulary
+Friendly artificial intelligence
+Fuzzy agents – IA implemented with adaptive fuzzy logic
+GOAL agent programming language
+Hybrid intelligent system
+Intelligent control
+JACK Intelligent Agents
+Reinforcement learning
+Semantic Web – making data on the Web available for automated processing by agents
+
+
+
+Social simulation
+Software bot
+Software agent
+
+References
+1. Russell & Norvig 2003, chpt. 2.
+2. Bringsjord, Selmer; Govindarajulu, Naveen Sundar (12 July 2018). "Artificial Intelligence" (ht
+
+tps://plato.stanford.edu/archives/sum2020/entries/artificial-intelligence/). In Edward N. Zalta
+(ed.). The Stanford Encyclopedia of Philosophy (Summer 2020 Edition).
+
+3. Wolchover, Natalie (30 January 2020). "Artificial Intelligence Will Do What We Ask. That's a
+Problem" (https://www.quantamagazine.org/artificial-intelligence-will-do-what-we-ask-thats-a
+-problem-20200130/). Quanta Magazine. Retrieved 21 June 2020.
+
+4. Bull, Larry (1999). "On model-based evolutionary computation". Soft Computing. 3 (2): 76–
+82. doi:10.1007/s005000050055 (https://doi.org/10.1007%2Fs005000050055).
+S2CID 9699920 (https://api.semanticscholar.org/CorpusID:9699920).
+
+5. Mishra, Vivek (2025). Design Patterns for AI Agents (https://www.amazon.in/dp/B0FX3GND
+69). Amazon KDP. p. XX. ISBN 979-8268912371.
+
+6. Russell, Stuart J.; Norvig, Peter (2021). "Intelligent Agents". Artificial Intelligence: A Modern
+Approach (4th ed.). Pearson. ISBN 978-0-13-461099-3.
+
+7. Padgham, Lin; Winikoff, Michael (2004). Developing Intelligent Agent Systems: A Practical
+Guide. John Wiley & Sons. ISBN 978-0-470-86120-2.
+
+8. Rao, Anand S.; Georgeff, Michael P. (1995). "BDI Agents: From Theory to Practice" (https://c
+dn.aaai.org/ICMAS/1995/ICMAS95-042.pdf) (PDF). Proceedings of the First International
+Conference on Multiagent Systems. AAAI Press. pp. 312–319.
+
+9. Domingos 2015, Chapter 5.
+10. Domingos 2015, Chapter 7.
+11. Lindenbaum, M., Markovitch, S., & Rusakov, D. (2004). Selective sampling for nearest
+
+neighbor classifiers. Machine learning, 54(2), 125–152.
+12. "Generative adversarial networks: What GANs are and how they've evolved" (https://web.ar
+
+chive.org/web/20200620231042/https://venturebeat.com/2019/12/26/gan-generative-advers
+arial-network-explainer-ai-machine-learning/). VentureBeat. 26 December 2019. Archived
+from the original (https://venturebeat.com/2019/12/26/gan-generative-adversarial-network-e
+xplainer-ai-machine-learning/) on 20 June 2020. Retrieved 18 June 2020.
+
+13. Wolchover, Natalie (January 2020). "Artificial Intelligence Will Do What We Ask. That's a
+Problem" (https://www.quantamagazine.org/artificial-intelligence-will-do-what-we-ask-thats-a
+-problem-20200130/). Quanta Magazine. Retrieved 18 June 2020.
+
+14. Andrew Y. Ng, Daishi Harada, and Stuart Russell. "Policy invariance under reward
+transformations: Theory and application to reward shaping." In ICML, vol. 99, pp. 278-287.
+1999.
+
+15. Martin Ford. Architects of Intelligence: The truth about AI from the people building it. Packt
+Publishing Ltd, 2018.
+
+16. "Why AlphaZero's Artificial Intelligence Has Trouble With the Real World" (https://www.quant
+amagazine.org/why-alphazeros-artificial-intelligence-has-trouble-with-the-real-world-201802
+21/). Quanta Magazine. 2018. Retrieved 18 June 2020.
+
+17. Adams, Sam; Arel, Itmar; Bach, Joscha; Coop, Robert; Furlan, Rod; Goertzel, Ben; Hall, J.
+Storrs; Samsonovich, Alexei; Scheutz, Matthias; Schlesinger, Matthew; Shapiro, Stuart C.;
+Sowa, John (15 March 2012). "Mapping the Landscape of Human-Level Artificial General
+Intelligence" (https://doi.org/10.1609%2Faimag.v33i1.2322). AI Magazine. 33 (1): 25.
+doi:10.1609/aimag.v33i1.2322 (https://doi.org/10.1609%2Faimag.v33i1.2322).
+
+
+
+18. Hutson, Matthew (27 May 2020). "Eye-catching advances in some AI fields are not real" (htt
+ps://www.science.org/content/article/eye-catching-advances-some-ai-fields-are-not-real).
+Science | AAAS. Retrieved 18 June 2020.
+
+19. Russell & Norvig 2003, p. 33
+20. Salamon, Tomas (2011). Design of Agent-Based Models (http://www.designofagentbasedmo
+
+dels.info/). Repin: Bruckner Publishing. pp. 42–59. ISBN 978-80-904661-1-1.
+21. Russell & Norvig 2003, pp. 46–54
+22. Thakur, Shreeya. "AI Agents: 5 Key Types Explained With Examples // Unstop" (https://unst
+
+op.com/blog/types-of-agents-in-artificial-intelligence). unstop.com. Retrieved 2025-04-24.
+23. "Types of AI Agents | IBM" (https://www.ibm.com/think/topics/ai-agent-types). www.ibm.com.
+
+2025-03-17. Retrieved 2025-04-24.
+24. Stefano Albrecht and Peter Stone (2018). Autonomous Agents Modelling Other Agents: A
+
+Comprehensive Survey and Open Problems. Artificial Intelligence, Vol. 258, pp. 66-95.
+https://doi.org/10.1016/j.artint.2018.01.002
+
+25. "What is an AI agent? A computer scientist explains the next wave of artificial intelligence
+tools" (https://www.inverse.com/tech/ai-agents-roomba-and-artificial-intelligence). Inverse.
+2024-12-24. Retrieved 2025-04-24.
+
+26. "A Universal Formula for Intelligence" (https://geeksoutofthebox.com/2019/12/04/a-universal
+-formula-for-intelligence/). Geeks out of the box. 2019-12-04. Retrieved 2022-10-11.
+
+27. Wissner-Gross, A. D.; Freer, C. E. (2013-04-19). "Causal Entropic Forces" (https://doi.org/1
+0.1103%2FPhysRevLett.110.168702). Physical Review Letters. 110 (16) 168702.
+Bibcode:2013PhRvL.110p8702W (https://ui.adsabs.harvard.edu/abs/2013PhRvL.110p8702
+W). doi:10.1103/PhysRevLett.110.168702 (https://doi.org/10.1103%2FPhysRevLett.110.168
+702). hdl:1721.1/79750 (https://hdl.handle.net/1721.1%2F79750). PMID 23679649 (https://p
+ubmed.ncbi.nlm.nih.gov/23679649).
+
+28. Poole, David; Mackworth, Alan. "1.3 Agents Situated in Environments‣ Chapter 2 Agent
+Architectures and Hierarchical Control‣ Artificial Intelligence: Foundations of Computational
+Agents, 2nd Edition" (https://artint.info/2e/html/ArtInt2e.Ch2.S3.html). artint.info. Retrieved
+28 November 2018.
+
+29. Fingar, Peter (2018). "Competing For The Future With Intelligent Agents... And A
+Confession" (https://www.forbes.com/sites/cognitiveworld/2018/11/11/competing-for-the-futur
+e-with-intelligent-agents-and-a-confession/). Forbes Sites. Retrieved 18 June 2020.
+
+30. Burgin, Mark; Dodig-Crnkovic, Gordana (2009). "A Systematic Approach to Artificial Agents".
+arXiv:0902.3513 (https://arxiv.org/abs/0902.3513) [cs.AI (https://arxiv.org/archive/cs.AI)].
+
+31. Kasabov 1998.
+32. Zeff, Maxwell; Wiggers, Kyle (2025-03-14). "No one knows what the hell an AI agent is" (http
+
+s://web.archive.org/web/20250318134231/https://techcrunch.com/2025/03/14/no-one-knows
+-what-the-hell-an-ai-agent-is/). TechCrunch. Archived from the original (https://techcrunch.co
+m/2025/03/14/no-one-knows-what-the-hell-an-ai-agent-is/) on 2025-03-18. Retrieved
+2025-05-15.
+
+33. Varanasi, Lakshmi. "AI agents are all the rage. But no one can agree on what they do" (http
+s://web.archive.org/web/20250411143511/https://www.businessinsider.com/what-is-an-ai-ag
+ent-depends-who-you-ask-2025-3). Business Insider. Archived from the original (https://ww
+w.businessinsider.com/what-is-an-ai-agent-depends-who-you-ask-2025-3) on 2025-04-11.
+Retrieved 2025-05-15.
+
+34. Bort, Julie (2025-05-12). "Even a16z VCs say no one really knows what an AI agent is" (http
+s://web.archive.org/web/20250512184704/https://techcrunch.com/2025/05/12/even-a16z-vc
+s-say-no-one-really-knows-what-an-ai-agent-is/). TechCrunch. Archived from the original (htt
+ps://techcrunch.com/2025/05/12/even-a16z-vcs-say-no-one-really-knows-what-an-ai-agent-i
+s/) on 2025-05-12. Retrieved 2025-05-15.
+
+
+
+35. Purdy, Mark (2024-12-12). "What Is Agentic AI, and How Will It Change Work?" (https://hbr.o
+rg/2024/12/what-is-agentic-ai-and-how-will-it-change-work). Harvard Business Review.
+ISSN 0017-8012 (https://search.worldcat.org/issn/0017-8012). Retrieved 2025-04-24.
+
+36. Holmes, Aaron (2025-07-07). "The Seven Kinds of AI Agents" (https://www.theinformation.co
+m/articles/seven-kinds-ai-agents). The Information. Retrieved 2025-11-09.
+
+37. Field, Hayden (2025-08-31). "AI agents are science fiction not yet ready for primetime" (http
+s://web.archive.org/web/20250915055451/https://www.theverge.com/the-stepback-newslett
+er/767376/ai-agents-jarvis-what-can-they-do). The Verge. Archived from the original (https://
+www.theverge.com/the-stepback-newsletter/767376/ai-agents-jarvis-what-can-they-do) on
+2025-09-15. Retrieved 2025-11-09.
+
+38. "AI Agents: The Next Generation of Artificial Intelligence" (https://web.archive.org/web/20250
+111192703/https://natlawreview.com/article/next-generation-ai-here-come-agents). The
+National Law Review. 2024-12-30. Archived from the original (https://natlawreview.com/articl
+e/next-generation-ai-here-come-agents) on 2025-01-11. Retrieved 2025-01-14.
+
+39. "What are the risks and benefits of 'AI agents'?" (https://web.archive.org/web/202412280138
+35/https://www.weforum.org/stories/2024/12/ai-agents-risks-artificial-intelligence/). World
+Economic Forum. 2024-12-16. Archived from the original (https://www.weforum.org/stories/2
+024/12/ai-agents-risks-artificial-intelligence/) on 2024-12-28. Retrieved 2025-01-14.
+
+40. Yang, Guoqing; Wu, Zhaohui; Li, Xiumei; Chen, Wei (2003). "SVE: embedded agent-based
+smart vehicle environment". Proceedings of the 2003 IEEE International Conference on
+Intelligent Transportation Systems. Vol. 2. pp. 1745–1749. doi:10.1109/ITSC.2003.1252782
+(https://doi.org/10.1109%2FITSC.2003.1252782). ISBN 0-7803-8125-4. S2CID 110177067
+(https://api.semanticscholar.org/CorpusID:110177067).
+
+41. Hallerbach, S.; Xia, Y.; Eberle, U.; Koester, F. (2018). "Simulation-Based Identification of
+Critical Scenarios for Cooperative and Automated Vehicles" (https://www.researchgate.net/p
+ublication/324194968). SAE International Journal of Connected and Automated Vehicles. 1
+(2). SAE International: 93. doi:10.4271/2018-01-1066 (https://doi.org/10.4271%2F2018-01-1
+066).
+
+42. Madrigal, Story by Alexis C. "Inside Waymo's Secret World for Training Self-Driving Cars" (ht
+tps://www.theatlantic.com/technology/archive/2017/08/inside-waymos-secret-testing-and-si
+mulation-facilities/537648/). The Atlantic. Retrieved 14 August 2020.
+
+43. Connors, J.; Graham, S.; Mailloux, L. (2018). "Cyber Synthetic Modeling for Vehicle-to-
+Vehicle Applications". In International Conference on Cyber Warfare and Security. Academic
+Conferences International Limited: 594-XI.
+
+44. Nuñez, Michael (2025-03-05). "Salesforce launches Agentforce 2dx, letting AI run
+autonomously across enterprise systems" (https://venturebeat.com/ai/salesforce-launches-a
+gentforce-2dx-pushing-autonomous-ai-deep-into-enterprise-workflows/). VentureBeat.
+Retrieved 2025-04-24.
+
+45. "Salesforce unveils Agentforce to help create autonomous AI bots" (https://www.cio.com/arti
+cle/3518646/salesforce-unveils-agentforce-to-help-create-autonomous-ai-bots.html). CIO.
+Retrieved 2025-04-24.
+
+46. "TSA Showcase Biometric AI-powered Airport Immigration Security" (https://techinformed.co
+m/tsa-ces-2025-biometric-ai-security-innovations-immigration/). techinformed.com. 2025-01-
+23. Retrieved 2025-04-24.
+
+47. Rebecca Szkutak (2026-03-05). "AWS launches a new AI agent platform specifically for
+healthcare" (https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platfo
+rm-health-care-providers/). TechCrunch. Retrieved 2026-03-07.
+
+
+
+Sources
+Domingos, Pedro (September 22, 2015). The Master Algorithm: How the Quest for the
+Ultimate Learning Machine Will Remake Our World. Basic Books. ISBN 978-0-465-06570-7.
+Russell, Stuart J.; Norvig, Peter (2003). Artificial Intelligence: A Modern Approach (2nd ed.).
+Upper Saddle River, New Jersey: Prentice Hall. Chapter 2. ISBN 0-13-790395-2.
+Kasabov, N. (1998). "Introduction: Hybrid intelligent adaptive systems" (https://doi.org/10.10
+02%2F%28SICI%291098-111X%28199806%2913%3A6%3C453%3A%3AAID-INT1%3E3.
+0.CO%3B2-K). International Journal of Intelligent Systems. 13 (6): 453–454.
+doi:10.1002/(SICI)1098-111X(199806)13:6<453::AID-INT1>3.0.CO;2-K (https://doi.org/10.10
+02%2F%28SICI%291098-111X%28199806%2913%3A6%3C453%3A%3AAID-INT1%3E3.
+0.CO%3B2-K). S2CID 120318478 (https://api.semanticscholar.org/CorpusID:120318478).
+Weiss, G. (2013). Multiagent systems (2nd ed.). Cambridge, MA: MIT Press. ISBN 978-0-
+262-01889-0.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Intelligent_agent&oldid=1382429285"

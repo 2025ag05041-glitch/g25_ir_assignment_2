@@ -1,0 +1,1776 @@
+﻿Cryptocurrency and crime
+Cryptocurrency has been used extensively in criminal activities, such as investment and romance scams
+(often called "pig-butchering"), ransomware payments, thefts and exchange hacks, money laundering and
+sanctions evasion, darknet-market transactions, and off-chain coercion to obtain private keys. Law
+enforcement notes that investment fraud and laundering are frequent criminal uses of cryptocurrencies,
+while noting that public blockchains can also aid law enforcement in tracing, seizures, and arrests.[1][2]
+
+Background
+Cryptocurrencies are digital assets transferred on distributed ledgers without a central administrator.
+Transfers are borderless, typically irreversible, and control depends on possession of private keys rather
+than accounts held by a single intermediary.[3]
+
+Criminals use cryptocurrencies when they make certain offences easier than traditional methods. This
+ease is due, for example, to the ability to move funds quickly across borders, take payment without going
+through banks, and launder proceeds through lightly regulated services. These traits suit offences such as
+theft, investment fraud and "pig-butchering," ransomware payments, darknet-market trade, money
+laundering and sanctions evasion.[4][5][6]
+
+Since 2019, authorities have tried to limit the criminal misuse of crypto by bringing "virtual assets" and
+virtual-asset service providers (VASPs) into anti-money-laundering and counter-terrorist-financing
+(AML/CFT) rules. The standards require licensing or registration, customer due diligence, and the "travel
+rule" for originator/beneficiary information. Governments pair these with supervision and enforcement
+(including asset seizures, sanctions, and joint takedowns) and with more cross-border information-sharing
+among financial-intelligence units and police.[7][8][9][10][11]
+
+However, offenders still work around these controls. Common methods include routing funds through
+non-compliant or offshore providers; peer-to-peer transfers and OTC brokers; mixers/tumblers, peel-
+chain transactions, and cross-chain "hops" via bridges; and other anonymity-enhancing tools, sometimes
+combined with stolen or synthetic identities at compliant platforms. Uneven implementation of
+AML/CFT standards (including the travel rule) across jurisdictions remains a widely noted gap, and
+decentralised or extra-jurisdictional services can be harder to disrupt; many investigations therefore still
+focus on identifying fiat on-/off-ramps and coordinating across borders.[12][5][13][9]
+
+Scope and impact
+The overall scale of crypto-related crime is difficult to measure and figures below are not directly
+comparable, due to the differences in geographies, methodologies, and crime types. Still, recent indicators
+give a sense of order of magnitude.
+
+
+
+Indicator Latest figure (year) Scope / coverage / source
+U.S. consumer fraud where Consumer Sentinel Data Book 2024;
+cryptocurrency was the payment US$1.42 billion FTC 
+method (2024) payment-method breakdown (crypto subtotal).[14]
+
+U.S. investment-fraud losses US$9.27 billion FBI Internet Crime Report 2024 (cryptocurrency
+involving cryptocurrency (IC3) (2024) investment fraud).[15]
+
+U.S. complaints referencing US$11.366 billion in FBI Internet Crime Report 2025; covers every
+cryptocurrency reported to the FBI losses; 181,565 complaint flagged with the cryptocurrency
+(IC3) complaints (2025) descriptor, across all crime types.[16]
+
+Estimated global ransomware ~US$813–814 Chainalysis 2025 reporting on 2024 payouts
+payments million (2024) (covered by reliable outlets).[17][18]
+
+Chainalysis year-end estimate for 2024 hacking
+Crypto stolen in hacks (global) ~US$2.2 billion
+
+(2024) losses, reported by Reuters.[19]
+
+Chainalysis Crypto Crime report series (value
+Value received by identified illicit US$40.9 billion
+
+ived by addresses classified as illicit; subject
+crypto addresses (global) (2024) (lower- rece
+
+bound) to revision as new clusters are identified).[20]
+
+Sanctions-related crypto flows Chainalysis estimate for 2024 (≈39% of illicit
+(value received by sanctioned ≈US$15.8 billion transactions), reported by AP; see also TRM Labs
+jurisdictions / actors) (2024) analysis of sanctions-linked activity.[21][22]
+
+Financial Times, reporting Yield Sec's estimate of
+Illegal online gambling via crypto ~US$81.4 billion gross gaming revenue at crypto casinos
+(GGR) (2024) (methodology and inference debated).[23]
+
+Chainalysis estimate for annual darknet revenue
+Darknet-market revenue (global, ~US$1.5 billion after the Hydra takedown; provided for scale and
+all goods/services) (2022) historical context.[24][25]
+
+Elliptic estimates that >US$21.8 billion of illicit and
+Illicit/high-risk funds obfuscated via US$21.8 billion "high-risk" crypto has been moved via DEXs,
+cross-chain swaps/DEXs/bridges (cumulative since cross-chain bridges, and swap services;
+(proxy for laundering) 2020; as of May cumulative and may double-count multi-hop
+
+2025) paths.[26]
+
+Methods
+
+Fraud
+
+Exit scams and Ponzi schemes through initial coin offerings (ICOs)
+Most exit scams (or rugpulls), as well as many ponzi schemes involving cryptocurrencies, are performed
+through Initial Coin Offerings (ICOs),[27] and Satis Group has reported that almost 80% of all projects
+launched through an ICO in 2017 were scams.[28] These scams usually involve the perpetrators attracting
+investments from mostly retail investors, inflating the price and subsequently abandoning the project in
+question after selling off their own shares.[29]
+
+The novelty of ICOs accounts for the current lack of governmental regulation.[30] This lack of regulatory
+measures, as well as the pseudonymity of cryptocurrency transactions and their international nature
+across countless jurisdictions in many different countries, can make it much more difficult to identify and
+
+
+
+take legal action against perpetrators involved in these scams.[31][32] Since 2017, the SEC has been
+actively pursuing groups and individuals responsible for ICO-related scams.[33]
+
+Ponzi schemes
+Ponzi schemes are another common method of utilizing blockchain-based technologies to commit fraud.
+Most schemes of this sort use multi-level marketing schemes to encourage investors to conduct risky
+investments.[34] Onecoin is one of the more notable examples of cryptocurrency-ponzi schemes: founded
+in 2014 by Ruja Ignatova, OneCoin is estimated to have generated US$4 billion in income.[35] While, at
+least in China, some of the investors' funds have been recovered and several members of the organisation
+arrested in the U.S., Ignatova herself is still at large.[36] Quadriga was another cryptocurrency ponzi
+scheme--this time in Canada--which involved $190 million US dollars or $250 million Canadian dollars
+and was investigated by both the Royal Canadian Mounted Police and the Federal Bureau of
+Investigation after the death of its owner, Gerald William Cotten, in December 2018.[37][38]
+
+Money laundering
+Due to the inability of third parties to de-pseudonymize crypto transactions, criminal entities have often
+resorted to using cryptocurrency to conduct money laundering.[39] ICOs lacking KYC guidelines and
+anti-money laundering procedures are often used to launder illicit funds, due to the pseudonymity they
+offer.[40] By using ICOs, criminals launder these funds by buying tokens off of legitimate investors and
+selling them. This issue is intensified by the lack of measures against money laundering implemented by
+centralized cryptocurrency exchanges.[40]
+
+A well-known early example of money laundering using cryptocurrencies is Silk Road. Shut down in
+2013, with its founder Ross Ulbricht indicted for a money laundering conspiracy among other counts, the
+website was used for several illicit activities including money laundering solely using bitcoin as a form of
+payment.[41]
+
+Apart from traditional cryptocurrencies, Non-Fungible Tokens (NFTs) are also commonly used as part of
+money laundering activities.[42] NFTs are often used to perform Wash Trading by creating several
+different wallets for one individual, generating several fictitious sales and consequently selling the
+respective NFT to a third party.[43] According to a report by Chainalysis, these types of wash trades are
+becoming increasingly popular among money launderers due to the largely anonymous nature of
+transactions on NFT marketplaces.[44][45] Auction platforms for NFT sales may face regulatory pressure
+to comply with anti-money laundering legislation.[46]
+
+Regulatory measures
+Canada is generally regarded as the first state actor to implement regulatory measures dealing with
+money laundering conducted by the usage of cryptocurrencies.[47] By 2013, the Financial Crimes
+Enforcement Network (FinCEN) — in direct reference to the centralized exchange Mt. Gox — issued
+regulations making it clear that all crypto-to-fiat exchangers had to apply KYC- as well as anti-money
+laundering methods.[48] Any suspicious transactions, therefore, have to be reported to the authorities.[49]
+
+Centralized exchanges have to register as money transmitters, with the exact definition of who and what
+constitutes a money transmitter in the crypto sphere being somewhat blurred and regulations differing
+between the different states of the U.S.[50] An important exemption from these regulations is
+decentralized exchanges, due to the fact that they do not hold any fiat currency.[51]
+
+
+
+As part of the Fifth Anti-Money Laundering Directive of 2018 and in an effort to combat money
+laundering and the financing of terrorism, the European Union has issued a directive that all member-
+states must make sure that crypto exchanges are licensed and registered.[52] The EU is furthermore
+planning to take measures to ensure that all customers of cryptocurrency exchanges must verify their
+identity as part of the registration process.[53]
+
+Regarding NFTs
+Auction platforms for NFT sales may face regulatory pressure to comply with anti-money laundering
+legislation. A February 2022 study from the United States Treasury assessed that there was "some
+evidence of money laundering risk in the high-value art market," including through "the emerging digital
+art market, such as the use of non-fungible tokens (NFTs)".[54] The study considered how NFT
+transactions may be a simpler option for laundering money through art by avoiding transportation or
+insurance complications in trading physical art. Several NFT exchanges were labeled as virtual asset
+service providers that may be subject to Financial Crimes Enforcement Network regulations.[55]
+
+The European Union has yet to establish specific regulations to combat money laundering through NFTs.
+The European Commission announced in July 2022 that it was planning to establish regulations by
+2024.[56][53]
+
+Giveaway scam
+A cryptocurrency giveaway scam involves scammers compromising or impersonating celebrities,
+influencers, or well-known companies to falsely claim they are multiplying cryptocurrency or giving
+away free cryptocurrency via airdrop. A variety of methods are used to promote these scams, primarily
+through posts and livestreams on social media.[57]
+
+YouTube is commonly used to promote this scam. Popular accounts are hacked to stream pre-recorded
+videos of the impersonated figure, overlaid with fake giveaway announcements that often encourage
+viewers to visit the scammer's website.[58] In July 2020, Apple co-founder Steve Wozniak and 17 other
+victims filed a lawsuit against YouTube and its parent company, Google, alleging that the platform
+allowed scammers to use their name, image and likeness in cryptocurrency giveaway scams.[59] After
+earlier dismissals based on Section 230, a 2024 California Court of Appeal ruling allowed the case to
+proceed, finding that YouTube's role may fall outside those legal protections, with the case now pending
+further proceedings in the lower court.[60]
+
+In the 2020 Twitter account hijacking, 130 high-profile accounts, including those of multi-billionaire Elon
+Musk and then U.S. president Joe Biden, were used to promote a bitcoin giveaway scam. Within minutes
+of the initial tweets, more than 320 transactions had been sent to one of the wallet addresses, and over
+US$110,000 worth of bitcoin had been deposited before the scam messages were removed by Twitter.[61]
+
+Coinbase blacklisted the bitcoin address and said they stopped over 1,000 transactions, totaling over
+US$280,000, from being sent.[62]
+
+Paper wallet generators
+Paper wallet generators allow users to create a wallet address and corresponding private key. While not
+dubious in itself, fraudsters can create infected generators that secretly communicate the generated keys
+to the creator, giving them control of the wallet.[63]
+
+
+
+In August 2017, a bad actor began advertising an online IOTA wallet seed generator. To gain the victim's
+trust, they linked to a legitimate GitHub repository, claiming that their website used the same code. In
+reality, the website used an intentionally predictable random number generator, resulting in the same
+IOTA wallet seeds being generated. Each of these seeds was logged.[64] On January 19, 2018, the attacker
+drained approximately US$3.94 million from wallets created during the six-month period. Profiles
+associated with the website on GitHub, Reddit, and Quora that had provided support to users were
+deleted, and the website was updated to display the message: "Taken down. Apologies."[65] In January
+2019, Europol arrested a 36-year-old man from Oxford, England believed to be behind the attack.[66]
+
+Pig butchering
+A pig-butchering scam or romance baiting scam is a form of online relationship and investment fraud in
+which perpetrators cultivate fake romantic or social relationships with victims before persuading them to
+invest money, often in fraudulent cryptocurrency schemes. Such scams are common on social media and
+dating apps, and often involve catfishing, investment fraud, and romance scams.[67]
+
+Malware
+
+Malware attacks
+In February 2014, the Pony virus, which spread to between 100,000 and 200,000 computers through a
+botnet, was reported to have stolen up to US$220,000 in cryptocurrency from 85 wallets.[68] Researchers
+later discovered updated versions with the ability to steal 30 types of cryptocurrencies.[69]
+
+A type of Mac malware active in August 2013, Bitvanity posed as a vanity wallet address generator and
+stole addresses and private keys from other bitcoin client software.[70] A different trojan for macOS,
+called CoinThief, was reported, in February 2014, to be responsible for multiple bitcoin thefts.[70] The
+software was hidden in versions of some cryptocurrency apps on Download.com and MacUpdate.[70]
+
+Stealers and drainers
+A stealer, also known as a drainer or infostealer, is a type of malware designed to steal private
+information, including private keys from cryptocurrency wallets, enabling attackers to access and transfer
+the funds to their wallet. The most common infections scan computers for wallet files and upload them to
+a remote server, where they can be cracked.[71] Many stealers also incorporate keyloggers to record
+keystrokes, thus bypassing the need to crack the keys.[72]
+
+Clipboard hijacking
+Clipboard hijacking involves a malware that detects when a cryptocurrency address is copied to the
+clipboard, and quickly replaces it, in order to trick victims into sending their cryptocurrency to the
+attacker's address. The method is especially effective due to the difficulty of memorizing or manually
+typing wallet addresses and the irreversible nature of cryptocurrency transactions.[73]
+
+
+
+Ransomware
+Cryptocurrency is considered to be the "near-universal form of payment" for ransomware,[74] a type of
+malware that encrypts a victim's data until a ransom is paid. Ransomware attacks are estimated to have
+generated US$1.1 billion in 2019, US$999 million in 2020, a record US$1.25 billion in 2023, and
+US$813 million in 2024.[17] In 2024, a record breaking US$75 million ransom was paid to the Dark
+Angels ransomware group by an undisclosed Fortune 500 company.[75]
+
+Cryptojacking
+Cryptojacking is the act of exploiting a computer to mine cryptocurrencies, often through
+websites,[76][77][78] against the user's will or while the user is unaware.[79] One notable piece of software
+used for cryptojacking was Coinhive, which was used in over two-thirds of cryptojacks before its March
+2019 shutdown.[80] The cryptocurrencies mined the most often are privacy coins—coins with hidden
+transaction histories—such as Monero and Zcash.[77][81]
+
+Like most malicious attacks on the computing public, the motive is profit, but unlike other threats, it is
+designed to remain completely hidden from the user. Cryptojacking malware can lead to slowdowns and
+crashes due to straining of computational resources.[82]
+
+Bitcoin mining by personal computers infected with malware is being challenged by dedicated hardware,
+such as FPGA and ASIC platforms, which are more efficient in terms of power consumption and thus
+may have lower costs than theft of computing resources.[83]
+
+Off-chain
+
+Violent crime
+Some mainstream news outlets have described cases in which kidnappers have targeted cryptocurrency
+holders in order to compel them to turn over access to their digital wallets. According to reporting citing
+data from blockchain analysis firm Chainalysis, more than 30 such "wrench attacks" were recorded in
+2025, though the firm noted that many crimes may go unreported. One widely reported case involved a
+cryptocurrency investor who escaped from an apartment in Manhattan after allegedly being held captive
+for weeks, during which he was beaten and threatened with death in an attempt to force the transfer of
+digital assets.[84][85]
+
+Energy theft
+Electricity theft associated with proof-of-work cryptocurrency mining has been reported in multiple
+countries, with operators illegally bypassing or tampering with meters and power lines to reduce
+operating costs. In Malaysia, Reuters reported that the national utility company, Tenaga Nasional Bhd,
+estimated electricity losses of about 4.6 billion ringgit (US$1.11 billion) from power theft linked to illegal
+cryptocurrency mining between 2020 and August 2025, citing a parliamentary reply from the energy
+ministry.[86]
+
+Fraud factories
+Fraud factories in Asia traffic workers to scam Westerners into buying cryptocurrencies online.[87]
+
+
+
+Law-enforcement use
+Law-enforcement agencies and financial-intelligence units report using public-blockchain records to trace
+illicit flows, identify counterparties at service providers, and recover assets through seizure and
+forfeiture.[88][4] In recent operations, tracing supported large seizures linked to investment-fraud schemes;
+seized assets are typically managed and disposed of by custodial authorities such as the U.S. Marshals
+Service.[89][90] Regulators and standard-setters note that FATF Recommendation 15 and related guidance
+shape cooperation with virtual-asset service providers, while also acknowledging barriers from privacy-
+enhancing techniques such as mixers and privacy coins.[13][91] U.S. oversight bodies have likewise
+highlighted both the promise of on-chain transparency and persistent challenges in sanctions and AML
+enforcement.[92]
+
+Notable cases
+In 2018, around US$1.7 billion in cryptocurrency was lost to scams, theft and fraud. In the first quarter of
+2019, such losses rose to US$1.2 billion.[93] 2022 was a record year for cryptocurrency theft, according to
+Chainalysis, with US$3.8 billion[94] stolen worldwide during 125 system hacks,[95] including
+US$1.7 billion stolen by "North Korea-linked hackers".[94]
+
+ICO-related scams
+AriseCoin (AriseBank): AriseBank marketed itself as the world's first decentralized bank,
+falsely claiming to be able to offer FDIC-insured accounts, VISA cards, and services related
+to cryptocurrency, amongst other false statements.[96] AriseBank promoted its AriseCoin
+through celebrity endorsement and social media in order to raise the US$1 billion the
+company was aiming for.[40] Their ICO was halted by the SEC in early 2018, with their CEO
+and COO receiving a fine of US$2.7 million.[97]
+
+BitConnect: Bitconnect was among the highest-performing cryptocurrencies in 2017,
+promising investors enormous returns through a trading bot.[35] At its height, it reached a
+market capitalization of US$3.4 billion.[98] In early 2018, the exchange ceased to operate,
+with investors losing a total of US$14.5 million.[99] It later turned out that the initial profits
+were generated through a Ponzi scheme by paying earlier customers with money made
+through newer customers.[100] Legal action against the perpetrators was taken on an
+international scale.[101]
+
+Centra: Centra was a Miami-based company that claimed to offer a cryptocurrency-based
+debit card backed by a VISA and Mastercard. The company raised US$32 million by
+October 2017 through an ICO and, a few months later, performed an exit scam. In April
+2018, two of the founders were arrested. It was soon revealed that neither Mastercard nor
+VISA backed the company in their alleged efforts.[99]
+
+Modern Tech (PinCoin/iFan): Based in Vietnam, Modern Tech hosted two separate ICOs for
+PinCoin and iFan, promising monthly returns of 48%.[99] After the initial success, the
+founders ran off with approximately US$660 million raised from 32,000 investors.[102] The
+founders are still at large and none of the funds have been retrieved.[103]
+
+PlexCoin: The of PlexCoin, Dominic Lacroix and Sabrina Paradis-Rogers, had officy raised
+around US$15 million through a fraudulent ICO in August 2017 while promising a return of
+1,354 % within a month, the SEC. Thed a cthen ivil complaint in December of the same year
+
+
+
+against them and sought an injunction to cease those sales, freeze the assets involved, pay
+civil penalties and prohibit the ones responsible behind the token launch from participating
+in any future offerings of cryptocurrency.[104] Shortly afterwards, Lacroix was sentenced to
+two months in prison and fined CA$110,000 by the Quebec Superior Court.[105] The SEC's
+proceedings led to seven-figure fines for the defendants in 2019 and a retrieval of the
+investors' funds.[106] During the proceedings, the SEC was able to prove that the success of
+the ICO was inflated by the founders, who in fact had raised US$8.5 million instead of the
+US$15 million they had announced.[107]
+
+Exchanges
+Notable cryptocurrency exchange compromises resulting in the loss of cryptocurrencies include:
+
+Between 2011 and 2014, US$350 million worth of bitcoin was stolen from Mt. Gox.[108]
+
+In 2016, US$72 million was stolen through exploiting Bitfinex's exchange wallet. Users were
+refunded.[109]
+
+On December 7, 2017, Slovenian cryptocurrency exchange NiceHash reported that hackers
+had stolen over $70 million using a hijacked company computer.[110][111]
+
+On December 19, 2017, Yapian, the owner of South Korean exchange Youbit, filed for
+bankruptcy after suffering two hacks that year.[112][113] Customers were still granted access
+to 75% of their assets.[114]
+
+In 2018, cryptocurrencies worth US$400 million were stolen from Coincheck.[115]
+
+In May 2018, Bitcoin Gold had its transactions hijacked and abused by unknown
+hackers.[116] Exchanges lost an estimated $18 m and Bitcoin Gold was delisted from Bittrex
+after it refused to pay its share of the damages.
+In June 2018, South Korean exchange Coinrail was hacked, losing over $37M worth of
+crypto.[117] The hack worsened an already ongoing cryptocurrency selloff by an additional
+$42 billion.[118]
+
+On July 9, 2018, the exchange Bancor, whose code and fundraising had been subjects of
+controversy, had $23.5 million in cryptocurrency stolen.[119][120]
+
+In September 2018, US$60 million in Bitcoin, Bitcoin Cash and Monacoin was stolen from
+Zaif, a Japanese exchange.[121]
+
+In May 2019, cryptocurrencies worth US$40 million were stolen from Binance.[115][122]
+
+In June 2021, the founders of Africrypt absconded with US$3.6 billion worth of Bitcoin.[123]
+
+In August 2021, PolyNetwork (DeFi) suffered a loss of US$611 million in a theft.[124]
+
+In August 2021, Japanese cryptocurrency exchange Liquid was compromised, resulting in a
+loss of US$97 million worth of digital coins.[125]
+
+In August 2021, Cream Finance was subject to a US$29 million theft,[126] followed by $130
+million on October 28, 2021.[127]
+
+On December 2, 2021, users of the BadgerDAO DeFi lost around $118,500,000 worth of
+Bitcoin and $679,000 worth of Ethereum tokens in a front-end attack. A compromised API
+key of the Cloudflare content delivery network account allowed the injecting of a malicious
+script into the web interface. BadgerDAO "paused" all smart contracts due to user
+complaints.[128]
+
+On December 6, 2021, the cryptocurrency exchange Bitmart lost around $135M worth of
+Ethereum and an estimated $46 million in other cryptocurrencies, due to a breach of two of
+its wallets.[129] Although BitMart stated that it would reimburse its clients, many BitMart
+clients have not received any money from the exchange as of January 2022.[130]
+
+
+
+On December 12, 2021, users of VulcanForge lost around $135M worth of PYR due to
+breaches of multiple wallets. Partnering centralized exchanges had been notified of the hack
+and they have pledged to seize any stolen funds upon deposit.[131]
+
+On January 27, 2022, Qubit Finance (DeFi) lost around $80M worth of Binance Coin due to
+a flaw in the smart contract that enabled the withdrawal of the said amount in exchange for
+a deposit of 0 ETH.[132]
+
+In March 2022,[133] the largest cryptocurrency theft of the year occurred, when
+US$625 million in ether and USDC was stolen from the Ronin Network. Hacked nodes were
+finally discovered when a user reported being unable to withdraw funds. The heist was later
+linked to Lazarus Group, a North Korean state-backed hacking collective, by the U.S.
+Treasury Department.[95]
+
+On September 20, 2022, Wintermute was hacked, resulting in theft of US$160 million. The
+company attributed the vulnerability to a service used by the platform that generates vanity
+addresses for digital accounts.[95]
+
+On September 25, 2023, it was reported that $200 million was stolen by hackers from Hong
+Kong-based crypto firm Mixin Network. The company suspended deposits and withdrawals,
+stating that the database of its network's cloud service provider was attacked by hackers,
+resulting in the loss of the assets.[134][135]
+
+On February 21, 2025 the exchange Bybit reported the theft of $1.5 billion in ether,
+estimated at the time to be the largest crypto heist in history. A blockchain analysis firm
+linked the attack to the Lazarus Group, which had exploited security features in order to
+transfer the money to multiple unidentified addresses.[136]
+
+On June 17, 2025 it was reported that there was cyberattack on Iran's biggest
+cryptocurrency exchange, Nobitex. The attack occurred during the Twelve-Day War. The
+attack, blamed on the Israel-linked hacker group Gonjeshke Darande, also called "Predatory
+Sparrow", led to the theft of more than $90 million in digital assets, mostly Tether (USDT),
+on the Tron network.[137]
+
+25 June 2025, law enforcement officials from the Spanish Guardia Civil, Europol and other
+European countries identified and arrested perpetrators of a cryptocurrency scheme that
+had laundered EUR 460 million in illicit profits stolen from over 5 000 victims.[138] Leaders of
+the scam reportedly used a net of associates spread around the world to raise funds
+through cash withdrawals, bank transfers and crypto-transfers.[139]
+
+Wallets
+The Parity Wallet has had two security incidents, amounting to 666,773 ETH lost or stolen.[140] In July
+2017, due to a bug in the multi-signature code, 153,037 ETH (approximately US$32 million at the time)
+was stolen.[141][142] In November 2017, a subsequent multisignature flaw in Parity made 513,774 ETH
+(about US$150 million) unreachable;[143][144] as of March 2019, the funds were still frozen.[145]
+
+Energy
+Notable cases of electricity theft to mine proof-of-work cryptocurrencies include:
+
+In February 2021, Malaysian police arrested six men involved in a bitcoin mining operation
+which had stolen US$2 million in electricity.[146]
+
+In July 2021, Ukrainian authorities shut down an underground gaming and cryptocurrency
+farm accused of stealing $259,300 of electricity each month.[147]
+
+
+
+In July 2021, Malaysian authorities destroyed 1,069 cryptocurrency mining systems accused
+of stealing electricity from the grid.[148]
+
+In May 2021, UK authorities closed a suspected bitcoin mine after Western Power
+Distribution found an illegal connection to the electricity supply.[149]
+
+Blockchains
+
+Bitcoin
+There have been many cases of bitcoin theft.[150] As of December 2017, around 980,000 bitcoins—over
+five percent of all bitcoin in circulation[a]—had been lost on cryptocurrency exchanges.[151]
+
+One type of theft involves a third party accessing the private key to a victim's bitcoin address,[152] or an
+online wallet.[153] If the private key is stolen, all the bitcoins from the compromised address can be
+transferred. In that case, the network does not have any provisions to identify the thief, block further
+transactions of those stolen bitcoins, or return them to the legitimate owner.[154]
+
+Theft also occurs at sites where bitcoins are used to purchase illicit goods. In late November 2013, an
+estimated US$100 million in bitcoins were allegedly stolen from the online illicit goods marketplace
+Sheep Marketplace, which immediately closed.[155] Users tracked the coins as they were processed and
+converted to cash, but no funds were recovered and no culprits were identified.[155] A different black
+market, Silk Road 2, stated that, during a February 2014 hack, bitcoins valued at $2.7 million were taken
+from escrow accounts.[156]
+
+Sites where users exchange bitcoins for cash or store them in "wallets" are also targets for theft. Inputs.io,
+an Australian wallet service, was hacked twice in October 2013 and lost more than $1 million in
+bitcoins.[157] GBL, a Chinese bitcoin trading platform, suddenly shut down on 26 October 2013;
+subscribers, unable to log in, lost up to $5 million worth of bitcoin.[158] In late February 2014, Mt. Gox,
+one of the largest virtual currency exchanges, filed for bankruptcy in Tokyo amid reports that bitcoins
+worth US$350 million had been stolen.[159] Flexcoin, a bitcoin storage specialist based in Alberta,
+Canada, shut down in March 2014 after saying it discovered a theft of about $650,000 in bitcoins.[160]
+
+Poloniex, a digital currency exchange, reported in March 2014 that it had lost bitcoins valued at around
+$50,000.[161] In January 2015, the UK-based bitstamp, the third busiest bitcoin exchange globally, was
+hacked and US$5 million in bitcoins were stolen.[108] In February 2015, a Chinese exchange named
+BTER lost bitcoins worth nearly $2 million to hackers.[162]
+
+A major bitcoin exchange, Bitfinex, was compromised by the 2016 Bitfinex hack, when nearly 120,000
+bitcoins (around US$71 million) were stolen.[163] Bitfinex was forced to suspend its trading. The theft
+was the second-largest bitcoin heist ever, dwarfed only by the Mt. Gox theft in 2014. According to
+Forbes, "All of Bitfinex's customers... will stand to lose money. The company has announced a cut of
+36.067% across the board."[164] Following the hack, the company failed to refund customers, though
+efforts are continuing.[165] In 2022, the US government recovered 94,636 bitcoin (worth approximately
+$3.6 billion at the time of recovery) from the 2016 thefts of the Bitfinex exchange, reported as the "largest
+financial seizure" in U.S. history.[166] By February 2022, the amount of bitcoin stolen in 2016 had
+increased in value to $4.5 billion. Two people were arrested for the thefts in 2022:[167] married couple
+Ilya "Dutch" Lichtenstein and rapper Heather "Razzlekhan" Morgan were charged with conspiracy to
+commit money laundering and conspiracy to defraud the United States.[166]
+
+
+
+On May 7, 2019, hackers stole over 7000 Bitcoins from the Binance Cryptocurrency Exchange, at a value
+of over 40 million US dollars. Binance CEO Zhao Changpeng stated: "The hackers used a variety of
+techniques, including phishing, viruses, and other attacks... The hackers had the patience to wait, and
+execute well-orchestrated actions through multiple seemingly independent accounts at the most
+opportune time."[168]
+
+Thefts have raised safety concerns. Charles Hayter, founder of the digital currency comparison website
+CryptoCompare, described cryptocurrency theft as "a reminder of the fragility of the infrastructure in
+such a nascent industry."[169] According to the hearing of the U.S. House of Representatives Committee
+on Small Business on April 2, 2014, "these vendors lack regulatory oversight, minimum capital standards
+and don't provide consumer protection against loss or theft."[170]
+
+Japan and the United States have accused North Korean hackers of stealing cryptocurrency worth over
+$300 million from the Japan-based exchange DMM Bitcoin. The theft was attributed to the TraderTraitor
+group, believed to be part of the Lazarus Group, which is allegedly linked to North Korean authorities.
+The incident occurred in late May 2024, involving the theft of 4,502.9 bitcoin. The theft involved the
+hackers using social engineering tactics to impersonate a recruiter on LinkedIn and send a malicious pre-
+employment test to an employee at a crypto wallet software company. This allowed them to compromise
+the employee's system and manipulate a legitimate transaction request from DMM, resulting in the loss.
+The FBI and Japan's National Police Agency are collaborating to combat North Korea's cybercrime
+activities, which date back to the mid-1990s and include a cyber-warfare unit known as Bureau 121. The
+Lazarus Group has previously gained notoriety for its involvement in high-profile hacks, including the
+attack on Sony Pictures in retaliation for the film "The Interview."
+
+Ethereum
+In June 2016, hackers exploited a vulnerability in The DAO to steal US$50 million. Subsequently, the
+currency was forked into Ethereum Classic, and Ethereum, with the latter continuing with the new
+blockchain without the exploited translations.[171][172]
+
+On November 21, 2017, Tether announced that it had been hacked, losing $31 million in USDT from its
+core treasury wallet.[173] The company has 'tagged' the stolen currency, hoping to 'lock' them in the
+hacker's wallet, thus making them unspendable.[174]
+
+In 2022, hackers created a signature account on a blockchain bridge called "Wormhole" and stole more
+than $300 million worth of ether.[175]
+
+Other incidents
+In 2015, two members of the Silk Road Task Force—a multi-agency federal task force that carried out the
+U.S. investigation of Silk Road—were convicted over charges pertaining to corruption.[176] Former DEA
+agent, Carl Mark Force, had attempted to extort Silk Road founder Ross Ulbricht ("Dread Pirate
+Roberts") by faking the murder of an informant. He pleaded guilty to money laundering, obstruction of
+justice, and extortion under color of official right, and was sentenced to 6.5 years in federal prison.[176]
+
+Former U.S. Secret Service agent, Shaun Bridges, pleaded guilty to crimes relating to his diversion of
+$800,000 worth of bitcoins to his personal account during the investigation, and separately pleaded guilty
+to money laundering in connection to another cryptocurrency theft. Bridges was sentenced to almost eight
+years in federal prison.[177]
+
+
+
+Gerald Cotten founded QuadrigaCX in 2013, after graduating from the Schulich School of Business in
+Toronto. Cotten acted as the sole curator of the exchange. Quadriga had no official bank accounts, since
+banks at the time had no method of managing cryptocurrency. In late 2018, QuadrigaCX, which was, by
+then, Canada's largest crypto exchange, lost US$190 million in cryptocurrency when the owner died; he
+was the only one with knowledge of the password to a storage wallet. The exchange filed for bankruptcy
+in 2019.[178]
+
+In 2018, Ellis Pinsky, 15 years old, was accused of orchestrating a scheme to steal millions of dollars'
+worth of cryptocurrencies from Michael Terpin, a prominent cryptocurrency investor. The scheme
+involved a social engineering technique known as a SIM swap attack. The case attracted significant
+attention due to Pinsky's young age and the substantial amount of money involved. It raised questions
+about the security of digital assets and the challenges in regulating and prosecuting crimes in the rapidly
+evolving world of cryptocurrencies. Pinsky later reached a settlement to return $22 million in
+cryptocurrency to Terpin.[179][180][181][182][183] In May 2020, Pinsky experienced a home invasion by
+intruders searching for remaining stolen assets.[180] Michael Terpin, the founder and chief executive
+officer of Transform Group, a San Juan, Puerto Rico-based company that advises blockchain businesses
+on public relations and communications, sued Ellis Pinsky in New York on May 7, 2020, for leading a
+"sophisticated cybercrime spree" that stole US$24 million in cryptocurrency by hacking into Terpin's
+phone.[184][185] Terpin also sued Nicholas Truglia and won a $75.8 million judgment against Truglia in
+2019 in California state court.[185]
+
+On July 15, 2020, the Twitter accounts of prominent personalities and firms, including Joe Biden, Barack
+Obama, Bill Gates, Elon Musk, Jeff Bezos, Apple, Kanye West, Michael Bloomberg and Uber were
+hacked. Twitter confirmed that it was a coordinated social engineering attack on their own employees.
+Twitter released its statement six hours after the attack took place. Hackers posted messages encouraging
+users to transfer Bitcoin to a Bitcoin wallet, which would then double the amount. The wallet's balance
+was expected to increase to more than $100,000 as the message spread among Twitter followers.[186]
+
+In 2021, US authorities carried out a raid on James Zhong's home in Gainesville, Georgia. Authorities
+found over 51,000 bitcoin that Zhong had stolen from Silk Road between 2012 and 2013. Through an
+error on Silk Road, Zhong was able to withdraw more bitcoin than was initially deposited. He concealed
+his identity and was able to evade authorities for nearly a decade. Zhong ended up pleading guilty to wire
+fraud and was sentenced to 1 year and 1 day in prison along with a forfeiture of all bitcoin.[187]
+
+In 2022, the Federal Trade Commission reported that $139 million in cryptocurrency had been stolen by
+romance scammers in 2020.[188] Some scammers target dating apps with fake profiles.[189]
+
+In early 2022, the Beanstalk cryptocurrency was stripped of its reserves, which were valued at more than
+US$180 million, after attackers had managed to use borrowed US$80 million in cryptocurrency to buy
+enough voting rights to transfer the reserves to their own accounts outside the system. It was initially
+unclear if such an exploit of governance procedures was illegal.[190]
+
+In 2025, a Nigerian scammer impersonated Trump ally Steve Witkoff by creating a nearly identical email
+address to solicit a $250,000 cryptocurrency donation from a political donor intended for the Trump-
+Vance Inaugural Committee. The donor, deceived by the subtle change in the email domain, transferred
+250,300 USDT.ETH, which was quickly laundered through multiple wallets. The FBI, with help from
+
+
+
+Tether and Binance, managed to recover and freeze about $40,300 of the stolen funds, but over $210,000
+remains missing. Officials warn that the complexity of blockchain transactions makes recovering stolen
+crypto extremely difficult.[191]
+
+Josh Garza, who founded the cryptocurrency startups GAW Miners and ZenMiner in 2014, acknowledged
+in a plea agreement that the companies were part of a pyramid scheme, and pleaded guilty to wire fraud
+in 2015. The U.S. Securities and Exchange Commission separately brought a civil enforcement action
+against Garza, who was eventually ordered to pay a judgment of US$9.1 million plus $700,000 in
+interest. The SEC's complaint stated that Garza, through his companies, had fraudulently sold
+"investment contracts representing shares in the profits they claimed would be generated" from
+mining.[192] Garza was later found guilty of fraud, and was ordered by the U.S. Attorney's Office District
+of Connecticut to pay US$9 million and begin serving a 21-month sentence, commencing January 2019
+.[193]
+
+The cryptocurrency community refers to pre-mining, hidden launches, ICO or extreme rewards for the
+altcoin founders as "deceptive practices".[194] This is, at times, an inherent part of the cryptocurrency's
+design.[195] Pre-mining refers to the practice of generating the currency before its released to the
+public.[196]
+
+FTX and Alameda Research founder and CEO Sam Bankman-Fried was indicted by the U.S. District
+Court for the Southern District of New York in December 2022 and charged with commodities and wire
+fraud, securities fraud and money laundering, as well as violating campaign finance laws.[197][198]
+
+In 2025, U.S. authorities led by the Department of Justice and the FBI's San Diego Field Office have
+seized approximately $2.5 million in cryptocurrency linked to a series of sophisticated fraud schemes.
+The forfeiture, approved by U.S. District Court, targets criminals who exploited digital financial
+platforms to defraud victims, often through so-called "confidence schemes." The crackdown involved
+collaboration with various agencies and support from Tether, a crypto industry company, and aims to both
+compensate victims and deter future online fraud.[199]
+
+See also
+Bitcoin network § Alleged criminal activity
+Computer security
+Cryptocurrency bubble
+Terrorism financing
+
+Notes
+a. As of supply count of Bitcoin, 2021-09-23
+
+References
+1. Internet Organised Crime Threat Assessment (IOCTA) 2024 (https://www.europol.europa.e
+
+u/publications-events/main-reports/iocta-report) (Report). Europol. 2024. Retrieved
+
+
+
+October 30, 2025.
+2. Cryptocurrencies: Tracing the evolution of criminal finances (https://www.europol.europa.eu/
+
+cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20
+Tracing%20the%20evolution%20of%20criminal%20finances.pdf) (PDF) (Report). Europol.
+2021. Retrieved October 30, 2025.
+
+3. "Updated Guidance for a Risk-Based Approach to Virtual Assets and Virtual Asset Service
+Providers" (https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virt
+ual-assets-2021.html). Financial Action Task Force. 28 October 2021. Retrieved 31 October
+2025.
+
+4. Internet Organised Crime Threat Assessment (IOCTA) 2024 (https://www.europol.europa.e
+u/publication-events/main-reports/internet-organised-crime-threat-assessment-iocta-2024)
+(Report). Europol. 22 July 2024. Retrieved 31 October 2025.
+
+5. "Money laundering through cryptocurrencies" (https://syntheticdrugs.unodc.org/syntheticdru
+gs/en/cybercrime/launderingproceeds/moneylaundering.html). United Nations Office on
+Drugs and Crime. Retrieved 31 October 2025.
+
+6. "A race against time: Recommendations from the 7th Global Conference on Criminal
+Finances and Cryptoassets" (https://baselgovernance.org/sites/default/files/2024-05/240506
+_Crypto-7th%20conference-recommendations.pdf) (PDF). Basel Institute on Governance
+and Europol. 2024. Retrieved 31 October 2025.
+
+7. "Virtual assets" (https://www.fatf-gafi.org/en/topics/virtual-assets.html). Financial Action Task
+Force. Retrieved 31 October 2025.
+
+8. "Virtual Assets: Targeted update on implementation of the FATF Standards on VAs and
+VASPs" (https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/2024-Targeted-Up
+date-VA-VASP.pdf.coredownload.inline.pdf) (PDF). Financial Action Task Force. 9 July 2024.
+Retrieved 31 October 2025.
+
+9. "Targeted Update on Implementation of the FATF Standards on Virtual Assets and Virtual
+Asset Service Providers" (https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/2
+025-Targeted-Upate-VA-VASPs.pdf.coredownload.pdf) (PDF). Financial Action Task Force.
+June 2025. Retrieved 31 October 2025.
+
+10. "2024 National Strategy for Combating Terrorist and Other Illicit Financing" (https://home.tre
+asury.gov/system/files/136/2024-Illicit-Finance-Strategy.pdf) (PDF). U.S. Department of the
+Treasury. 16 May 2024. Retrieved 31 October 2025.
+
+11. "One of the darkweb's largest cryptocurrency "laundromats" washed out" (https://www.europ
+ol.europa.eu/media-press/newsroom/news/one-of-darkwebs-largest-cryptocurrency-laundro
+mats-washed-out). Europol. 15 March 2023. Retrieved 31 October 2025.
+
+12. "Cryptocurrencies – Tracing the evolution of criminal finances" (https://www.europol.europa.
+eu/publications-events/publications/cryptocurrencies-tracing-evolution-of-criminal-finances).
+Europol. 26 January 2022. Retrieved 31 October 2025.
+
+13. Virtual Assets: Targeted update on implementation of the FATF Standards on VAs and
+VASPs (https://www.fatf-gafi.org/en/publications/Fatfrecommendations/targeted-update-virtu
+al-assets-vasps-2024.html) (Report). Financial Action Task Force. 9 July 2024. Retrieved
+31 October 2025.
+
+14. "Consumer Sentinel Network Data Book 2024" (https://www.ftc.gov/system/files/ftc_gov/pdf/
+CSN-Data-Book-2024.pdf) (PDF). Federal Trade Commission. 2025. p. 8. Retrieved
+November 1, 2026.
+
+15. "2024 Internet Crime Report" (https://www.ic3.gov/Media/PDF/AnnualReport/2024_IC3Repo
+rt.pdf) (PDF). Federal Bureau of Investigation (IC3). 2025. p. 34. Retrieved November 1,
+2026.
+
+16. 2025 Internet Crime Report (https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pd
+f) (PDF) (Report). Federal Bureau of Investigation, Internet Crime Complaint Center. April
+2026. p. 52. Retrieved 17 October 2026.
+
+
+
+17. Milmo, Dan (2025-02-05). "Global ransomware payments plunge by a third amid
+crackdown" (https://www.theguardian.com/technology/2025/feb/05/global-ransomware-paym
+ents-plunge-by-a-third-amid-crackdown). The Guardian. ISSN 0261-3077 (https://search.wo
+rldcat.org/issn/0261-3077). Retrieved November 1, 2026.
+
+18. "Ransomware Payments Hit a Record $1.1 Billion in 2023" (https://www.wired.com/story/ran
+somware-payments-2023-breaks-record). Wired. 2024-02-07. Retrieved November 1, 2026.
+
+19. "Losses from crypto hacks jump to $2.2 bln in 2024, report says" (https://www.reuters.com/t
+echnology/losses-crypto-hacks-jump-22-bln-2024-report-says-2024-12-19/). Reuters. 2024-
+12-19. Retrieved November 1, 2026.
+
+20. "2025 Crypto Crime Trends" (https://www.chainalysis.com/blog/2025-crypto-crime-report-intr
+oduction/). Chainalysis. 2025-01-15. Retrieved November 1, 2026.
+
+21. "US weighs lifting sanctions on Tornado Cash privacy tool as it seeks new crypto rules" (http
+s://apnews.com/article/crypto-sanctions-treasury-tornado-cash-4cec9bbdee5a6a3eb0d98e6
+d30b344f7). Associated Press. 2025-02-05. Retrieved November 1, 2026.
+
+22. "Illicit finance increasingly turns to stablecoins" (https://www.trmlabs.com/post/illicit-crypto-tr
+ansactions-increasingly-shift-to-stablecoins). TRM Labs. 2025-05-07. Retrieved
+November 1, 2026.
+
+23. Nilsson, Pamela (2025-02-27). "Crypto casinos are the fastest growing sector of online
+gambling" (https://www.ft.com/content/1e28862c-058d-4f4a-9a5e-1ea2adff2b3f). Financial
+Times. Retrieved November 1, 2026.
+
+24. "Crypto Crime Trends for 2023: Darknet markets after Hydra" (https://www.chainalysis.com/
+blog/crypto-crime-trends-2023/). Chainalysis. 2023-01-12. Retrieved November 1, 2026.
+
+25. "U.S. Treasury Sanctions Russia-Based Hydra Market" (https://home.treasury.gov/news/pre
+ss-releases/jy0705). U.S. Department of the Treasury. 2022-04-05. Retrieved November 1,
+2026.
+
+26. "Cross-chain money laundering reaches $22 billion" (https://www.elliptic.co/blog/cross-chain
+-money-laundering-reaches-22-billion). Elliptic. Elliptic Enterprises Limited. 17 July 2025.
+Retrieved November 1, 2026.
+
+27. Hou, Greg (2022). "Cryptocurrency money laundering and exit scams: Cases, regulatory
+responses and issue". In Corbet, Shaen (ed.). Understanding Cryptocurrency Fraud. The
+challenges and headwinds to regulate digital currencies. Boston/Berlin: De Gruyter. p. 83.
+ISBN 978-3-11-071688-7.
+
+28. Cryptoasset Market Coverage Initiation: Network Creation (https://research.bloomberg.com/
+pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ) (Report). Satis Group. 11 July 2018. p. 24.
+Archived (https://web.archive.org/web/20230216090001/https://research.bloomberg.com/pu
+b/res/d28giW28tf6G7T_Wr77aU0gDgFQ) from the original on 16 February 2023. Retrieved
+15 February 2023. See Nestarcova, Dominika (2019). A Critical Appraisal of Initial Coin
+Offerings. Lifting the "Digital Token's Veil". Leiden/Boston: Brill. p. 43. ISBN 978-90-04-
+41657-4.
+
+29. This phenomenon is described in detail at the hand of several examples in Hou, Greg
+(2022). "Cryptocurrency money laundering and exit scams: Cases, regulatory responses
+and issue". In Corbet, Shaen (ed.). Understanding Cryptocurrency Fraud. The challenges
+and headwinds to regulate digital currencies. Boston/Berlin: De Gruyter. pp. 85–87.
+ISBN 978-3-11-071688-7. See also the sources cited there.
+
+30. Nestarcova, Dominika (2019). A Critical Appraisal of Initial Coin Offerings. Lifting the "Digital
+Token's Veil". Leiden/Boston: Brill. pp. 43 f. ISBN 978-90-04-41657-4.
+
+31. Rao, Sandeep (2022). "Mt. Gox – The fall of a giant". In Corbet, Shaen (ed.). Understanding
+Cryptocurrency Fraud. The challenges and headwinds to regulate digital currencies.
+Boston/Berlin: De Gruyter. p. 80. ISBN 978-3-11-071688-7.
+
+
+
+32. Nestarcova, Dominika (2019). A Critical Appraisal of Initial Coin Offerings. Lifting the "Digital
+Token's Veil". Leiden/Boston: Brill. pp. 43 f. ISBN 978-90-04-41657-4. Cf. Clayton, Jay (11
+December 2017). "Statement on Cryptocurrencies and Initial Coin Offerings" (https://www.se
+c.gov/news/public-statement/statement-clayton-2017-12-11). U.S. Securities and Exchange
+Commission (SEC). Archived (https://web.archive.org/web/20230131105924/https://www.se
+c.gov/news/public-statement/statement-clayton-2017-12-11) from the original on 31 January
+2023. Retrieved 15 February 2023. "Please also recognize that these markets span national
+borders and that significant trading may occur on systems and platforms outside the United
+States. Your invested funds may quickly travel overseas without your knowledge. As a
+result, risks can be amplified, including the risk that market regulators, such as the SEC,
+may not be able to effectively pursue bad actors or recover funds."
+
+33. Johnstone, Syren (2021). Rethinking the Regulation of Cryptoassets. Cryptographic
+Consensus Technology and the New Prospect. Cheltenham/Northampton: Edward Elgar.
+pp. 61 f. ISBN 9781800886780.
+
+34. Mukherjee, Sanmoy; Larkin, Charles; Corbet, Shaen (2022). "Cryptocurrency Ponzi
+schemes". In Corbet, Shaen (ed.). Understanding Cryptocurrency Fraud. The challenges
+and headwinds to regulate digital currencies. Boston/Berlin: De Gruyter. p. 118. ISBN 978-3-
+11-071688-7.
+
+35. Conlon, Thomas; McGee, Richard J. (2022). "ICO fraud and regulation". In Corbet, Shaen
+(ed.). Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate
+digital currencies. Boston/Berlin: De Gruyter. p. 46. ISBN 978-3-11-071688-7.
+
+36. See Mukherjee, Sanmoy; Larkin, Charles; Corbet, Shaen (2022). "Cryptocurrency Ponzi
+schemes". In Corbet, Shaen (ed.). Understanding Cryptocurrency Fraud. The challenges
+and headwinds to regulate digital currencies. Boston/Berlin: De Gruyter. p. 112. ISBN 978-3-
+11-071688-7. as well as Bartlett, Jamie (24 November 2019). "Cryptoqueen: How this
+woman scammed the world, then vanished" (https://www.bbc.com/news/stories-50435014).
+BBC News. Archived (https://web.archive.org/web/20201221235010/https://www.bbc.com/n
+ews/stories-50435014) from the original on 21 December 2020. Retrieved 15 February
+2023.
+
+37. Deschamps, Tara (2020-06-11). "Crypto exchange Quadriga was a fraud and founder was
+running Ponzi scheme, OSC report finds" (https://www.cbc.ca/news/business/osc-quadriga-
+gerald-cotten-1.5607990). CBC.
+
+38. Ligaya, Armina (4 February 2019). "Canada's largest cryptocurrency exchange Quadriga
+seeks creditor protection" (https://www.ctvnews.ca/business/article/canadas-largest-cryptoc
+urrency-exchange-quadriga-seeks-creditor-protection/). CTV News. BellMedia. Archived (htt
+ps://web.archive.org/web/20190205145700/https://www.ctvnews.ca/business/canada-s-larg
+est-cryptocurrency-exchange-quadriga-seeks-creditor-protection-1.4282216) from the
+original on 5 February 2019. Retrieved 5 February 2019.
+
+39. Albrecht, Chad; Duffin, Kristopher McKay; Hawkins, Steven; Rocha, Victor Manuel Morales
+(2019). "The use of cryptocurrencies in the money laundering process". Journal of Money
+Laundering Control. 22 (2): 213. doi:10.1108/JMLC-12-2017-0074 (https://doi.org/10.1108%
+2FJMLC-12-2017-0074). S2CID 159087019 (https://api.semanticscholar.org/CorpusID:1590
+87019).
+
+40. Nestarcova, Dominika (2019). A Critical Appraisal of Initial Coin Offerings. Lifting the "Digital
+Token's Veil". Leiden/Boston: Brill. p. 44. ISBN 978-90-04-41657-4.
+
+41. Stabile, Daniel T.; Prior, Kimberly A.; Hinkes, Andrew M. (2020). Digital Assets and
+Blockchain Technology. US Law and Regulation. Cheltenham/Northampton: Edward Elgar
+Publishing. pp. 299–301. ISBN 978-1-78990-743-8.
+
+
+
+42. Owen, Allison; Chase, Isabella (December 2, 2021). NFTs: A New Frontier for Money
+Laundering? (https://rusi.org/explore-our-research/publications/commentary/nfts-new-frontie
+r-money-laundering) (Report). Royal United Services Institute. Archived (https://web.archive.
+org/web/20220116131322/https://rusi.org/explore-our-research/publications/commentary/nft
+s-new-frontier-money-laundering/) from the original on 16 January 2022. Retrieved
+15 February 2023.
+
+43. Study of the Facilitation of Money Laundering and Terror Finance Through the Trade in
+Works of Art (https://home.treasury.gov/system/files/136/Treasury_Study_WoA.pdf) (PDF)
+(Report). United States Department of the Treasury. 2022. p. 27. Archived (https://web.archi
+ve.org/web/20220413071205/https://home.treasury.gov/system/files/136/Treasury_Study_W
+oA.pdf) (PDF) from the original on 13 April 2022. Retrieved 15 February 2023.
+
+44. Quiroz-Gutierrez, Marco (February 4, 2022). "A handful of NFT users are making big money
+off of a stealth scam. Here's how 'wash trading' works" (https://fortune.com/2022/02/04/nft-w
+ash-trade-scam-millions/). Fortune. Archived (https://web.archive.org/web/20221215090338/
+https://fortune.com/2022/02/04/nft-wash-trade-scam-millions/) from the original on 15
+December 2022. Retrieved 15 February 2023.
+
+45. "Crime and NFTs: Chainalysis Detects Significant Wash Trading and Some NFT Money
+Laundering In this Emerging Asset Class" (https://blog.chainalysis.com/reports/2022-crypto-
+crime-report-preview-nft-wash-trading-money-laundering/). Chainalysis. February 2, 2022.
+Archived (https://web.archive.org/web/20221206010533/https://blog.chainalysis.com/report
+s/2022-crypto-crime-report-preview-nft-wash-trading-money-laundering/) from the original
+on 6 December 2022. Retrieved 15 February 2023.
+
+46. Cf. Study of the Facilitation of Money Laundering and Terror Finance Through the Trade in
+Works of Art (https://home.treasury.gov/system/files/136/Treasury_Study_WoA.pdf) (PDF)
+(Report). United States Department of the Treasury. 2022. p. 26. Archived (https://web.archi
+ve.org/web/20220413071205/https://home.treasury.gov/system/files/136/Treasury_Study_W
+oA.pdf) (PDF) from the original on 13 April 2022. Retrieved 15 February 2023.
+
+47. Johnstone, Syren (2021). Rethinking the Regulation of Cryptoassets. Cryptographic
+Consensus Technology and the New Prospect. Cheltenham/Northampton: Edward Elgar.
+p. 61. ISBN 9781800886780.
+
+48. Dwyer, Gerald P. (2022). "Regulation of cryptocurrencies". In Corbet, Shaen (ed.).
+Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate digital
+currencies. Boston/Berlin: De Gruyter. pp. 201 f. ISBN 978-3-11-071688-7.
+
+49. Dwyer, Gerald P. (2022). "Regulation of cryptocurrencies". In Corbet, Shaen (ed.).
+Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate digital
+currencies. Boston/Berlin: De Gruyter. p. 202. ISBN 978-3-11-071688-7.
+
+50. Dwyer, Gerald P. (2022). "Regulation of cryptocurrencies". In Corbet, Shaen (ed.).
+Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate digital
+currencies. Boston/Berlin: De Gruyter. pp. 202–204. ISBN 978-3-11-071688-7.
+
+51. Dwyer, Gerald P. (2022). "Regulation of cryptocurrencies". In Corbet, Shaen (ed.).
+Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate digital
+currencies. Boston/Berlin: De Gruyter. pp. 204 f. ISBN 978-3-11-071688-7.
+
+52. "Directive - 2018/843 - EN - aml directive - EUR-Lex" (https://eur-lex.europa.eu/eli/dir/2018/8
+43/oj/eng).
+
+53. Schickler, Jack (September 2, 2022). "Money Laundering via Metaverse, DeFi, NFTs
+Targeted by EU Lawmakers' Latest Draft" (https://finance.yahoo.com/news/money-launderin
+g-via-metaverse-defi-134732625.html). Yahoo Finance. Archived (https://web.archive.org/we
+b/20221215091828/https://finance.yahoo.com/news/money-laundering-via-metaverse-defi-1
+34732625.html) from the original on 15 December 2022. Retrieved 15 February 2023.
+
+
+
+54. "Treasury Releases Study on Illicit Finance in the High-Value Art Market" (https://home.treas
+ury.gov/news/press-releases/jy0588). U.S. Department of the Treasury. Archived (https://we
+b.archive.org/web/20220204234141/https://home.treasury.gov/news/press-releases/jy0588)
+from the original on 4 February 2022. Retrieved 15 February 2023.
+
+55. Study of the Facilitation of Money Laundering and Terror Finance Through the Trade in
+Works of Art (https://home.treasury.gov/system/files/136/Treasury_Study_WoA.pdf) (PDF)
+(Report). United States Department of the Treasury. 2022. p. 26. Archived (https://web.archi
+ve.org/web/20220413071205/https://home.treasury.gov/system/files/136/Treasury_Study_W
+oA.pdf) (PDF) from the original on 13 April 2022. Retrieved 15 February 2023.
+
+56. Reiche, Matthias (July 12, 2022). "Umgang mit Bitcoin & Co. Wie die EU den Kryptomarkt
+reguliert" (https://www.tagesschau.de/wirtschaft/finanzen/eu-kryptomarkt-101.html) (in
+German). Archived (https://web.archive.org/web/20221214152120/https://www.tagesschau.d
+e/wirtschaft/finanzen/eu-kryptomarkt-101.html) from the original on 14 December 2022.
+Retrieved 15 February 2023.
+
+57. Karahan, UKDr Stephanie J. Blackmonand Dr Saltuk (2025-04-20). Proceedings of the 19th
+International Conference on Cyber Warfare and Security (https://www.google.com/books/edi
+tion/Proceedings_of_the_19th_International_Co/ZjtaEQAAQBAJ?hl=en&gbpv=1&dq=crypto
+currency+giveaway+scam&pg=PA197&printsec=frontcover). Academic Conferences and
+publishing limited. p. 197. ISBN 978-1-917204-32-3.
+
+58. Vakilinia, Iman (29 October 2022). "Cryptocurrency Giveaway Scam with YouTube Live
+Stream". 2022 IEEE 13th Annual Ubiquitous Computing, Electronics & Mobile
+Communication Conference (UEMCON). pp. 0195–0200.
+doi:10.1109/UEMCON54665.2022.9965686 (https://doi.org/10.1109%2FUEMCON54665.20
+22.9965686). ISBN 978-1-6654-9299-7.
+
+59. Chin, Monica (2020-07-23). "Steve Wozniak sues YouTube over ongoing bitcoin scams" (htt
+ps://www.theverge.com/2020/7/23/21335554/steve-wozniak-youtube-lawsuit-bitcoin-scam-cr
+yptocurrency-apple). The Verge. Retrieved 2025-07-18.
+
+60. "Bitcoin Youtube Scam Around Steve Wozniak Sees Apple Co-Founder Win Legal Victory
+Against Google" (https://www.ccn.com/news/crypto/steve-wozniak-bitcoin-youtube-scam-vict
+ory-against-google/). CCN.com. 2024-03-21. Retrieved 2025-07-18.
+
+61. "Biden, Obama, tech moguls' Twitter accounts hacked in apparent bitcoin scam" (https://ww
+w.cbc.ca/news/world/twitter-hack-bitcoin-scam-1.5651296). CBC News. Jul 15, 2020.
+
+62. Kelly, Makena (2020-07-20). "Coinbase says it halted more than $280,000 in bitcoin
+transactions during Twitter hack" (https://www.theverge.com/2020/7/20/21331499/coinbase-t
+witter-hack-elon-musk-bill-gates-joe-biden-bitcoin-scam). The Verge. Retrieved 2025-07-18.
+
+63. "Redditor's hacked Bitcoin is a lesson on the hidden dangers of paper wallets" (https://cointe
+legraph.com/news/redditor-gets-lesson-after-bitcoin-paper-wallet-hacked). Cointelegraph.
+2023-07-27. Retrieved 2025-07-21.
+
+64. "iotaseed.io - How a Scammer stole more than $11m from IOTA Investors" (https://iotaseed.i
+o/iota-seed-generator-scam/). IOTA Seed Generator. Retrieved 2025-07-21.
+
+65. "IOTA Cryptocurrency Users Lose $4 Million in Clever Phishing Attack" (https://www.bleepin
+gcomputer.com/news/security/iota-cryptocurrency-users-lose-4-million-in-clever-phishing-att
+ack/). BleepingComputer. Retrieved 2025-07-21.
+
+66. "Europol arrests UK man for stealing €10 million worth of IOTA cryptocurrency" (https://www.
+zdnet.com/article/europol-arrests-uk-man-for-stealing-eur10-million-worth-of-iota-cryptocurre
+ncy/). ZDNET. Retrieved 2025-07-21.
+
+67. "The Pig Butchering Scam: 10 Common Warning Signs" (https://www.aura.com/learn/the-pig
+-butchering-scam). www.aura.com. Archived (https://web.archive.org/web/20240527073856/
+https://www.aura.com/learn/the-pig-butchering-scam) from the original on 2024-05-27.
+Retrieved 2023-11-03.
+
+
+
+68. Zach Miners (24 February 2014). "Bitcoins, other digital currencies stolen in massive 'Pony'
+botnet attack" (http://www.pcworld.com/article/2101260/bitcoins-other-digital-currencies-stol
+en-in-massive-pony-botnet-attack.html). Archived (https://web.archive.org/web/2017070215
+3029/http://www.pcworld.com/article/2101260/bitcoins-other-digital-currencies-stolen-in-mas
+sive-pony-botnet-attack.html) from the original on 2 July 2017. Retrieved 8 January 2015.
+
+69. Finkle, Jim (24 February 2014). " 'Pony' botnet steals bitcoins, digital currencies: Trustwave"
+(https://www.reuters.com/article/us-bitcoin-security-idUSBREA1N1JO20140224). Reuters.
+Archived (https://web.archive.org/web/20211023055704/https://www.reuters.com/article/us-b
+itcoin-security-idUSBREA1N1JO20140224) from the original on 23 October 2021. Retrieved
+7 March 2014.
+
+70. "Watch out! Mac malware spread disguised as cracked versions of Angry Birds, Pixelmator
+and other top apps" (https://web.archive.org/web/20160412180102/http://www.eset.com/int/
+about/press/articles/article/watch-out-mac-malware-spread-disguised-as-cracked-versions-o
+f-angry-birds-pixelmator-and-other-top-apps/). ESET. 26 February 2014. Archived from the
+original (http://www.eset.com/int/about/press/articles/article/watch-out-mac-malware-spread-
+disguised-as-cracked-versions-of-angry-birds-pixelmator-and-other-top-apps/) on 12 April
+2016. Retrieved 20 November 2015.
+
+71. Scharfman, Jason (2024). "Wallet Drainers, Crypto Stealers and Cryptojacking" (https://doi.o
+rg/10.1007/978-3-031-60836-0_10). In Scharfman, Jason (ed.). The Cryptocurrency and
+Digital Asset Fraud Casebook, Volume II: DeFi, NFTs, DAOs, Meme Coins, and Other
+Digital Asset Hacks. Cham: Springer Nature Switzerland. pp. 271–306. doi:10.1007/978-3-
+031-60836-0_10 (https://doi.org/10.1007%2F978-3-031-60836-0_10). ISBN 978-3-031-
+60836-0. Retrieved 2025-07-19.
+
+72. Microsoft Threat Intelligence (2022-05-17). "In hot pursuit of 'cryware': Defending hot wallets
+from attacks" (https://www.microsoft.com/en-us/security/blog/2022/05/17/in-hot-pursuit-of-cr
+yware-defending-hot-wallets-from-attacks/). Microsoft Security Blog. Retrieved 2025-07-19.
+
+73. "Clipboard hacking | MetaMask Help Center" (https://support.metamask.io/stay-safe/protect-
+yourself/wallet-and-hardware/clipboard-hacking/). support.metamask.io. Retrieved
+2025-07-19.
+
+74. "Use of Cryptocurrency in Ransomware Attacks, Available Data, and National Security
+Concerns" (https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/HSGAC%20
+Majority%20Cryptocurrency%20Ransomware%20Report_Executive%20Summary.pdf)
+(PDF). United States Senate Committee on Homeland Security & Governmental Affairs: 2.
+
+75. "Roundup: The top ransomware stories of 2024 | IBM" (https://www.ibm.com/think/insights/r
+oundup-the-top-ransomware-stories-of-2024). www.ibm.com. 2024-12-05. Retrieved
+2025-07-19.
+
+76. Larson, Selena (2018-02-22). "Cryptojackers are hacking websites to mine
+cryptocurrencies" (https://web.archive.org/web/20221209040241/https://money.cnn.com/201
+8/02/22/technology/cryptojacking-mining-tesla-websites/index.html). CNNMoney. Archived
+from the original (https://money.cnn.com/2018/02/22/technology/cryptojacking-mining-tesla-
+websites/index.html) on 2022-12-09. Retrieved 2021-04-17.
+
+77. Hatmaker, Taylor (8 May 2018). "Cryptojacking malware was secretly mining Monero on
+many government and university websites" (https://techcrunch.com/2018/05/08/coinhive-mal
+ware-may-troy-mursch/). TechCrunch. Archived (https://web.archive.org/web/202307090852
+26/https://techcrunch.com/2018/05/08/coinhive-malware-may-troy-mursch/) from the original
+on 2023-07-09. Retrieved 2023-07-09.
+
+78. Lachtar, Nada; Elkhail, Abdulrahman Abu; Bacha, Anys; Malik, Hafiz (2020-07-01). "A Cross-
+Stack Approach Towards Defending Against Cryptojacking" (https://doi.org/10.1109%2FLC
+A.2020.3017457). IEEE Computer Architecture Letters. 19 (2): 126–129.
+Bibcode:2020ICAL...19..126L (https://ui.adsabs.harvard.edu/abs/2020ICAL...19..126L).
+doi:10.1109/LCA.2020.3017457 (https://doi.org/10.1109%2FLCA.2020.3017457).
+ISSN 1556-6056 (https://search.worldcat.org/issn/1556-6056). S2CID 222070383 (https://ap
+i.semanticscholar.org/CorpusID:222070383).
+
+
+
+79. Caprolu, Maurantonio; Raponi, Simone; Oligeri, Gabriele; Di Pietro, Roberto (2021-04-01).
+"Cryptomining makes noise: Detecting cryptojacking via Machine Learning" (https://doi.org/1
+0.1016%2Fj.comcom.2021.02.016). Computer Communications. 171: 126–139.
+arXiv:1910.09272 (https://arxiv.org/abs/1910.09272). doi:10.1016/j.comcom.2021.02.016 (ht
+tps://doi.org/10.1016%2Fj.comcom.2021.02.016). S2CID 233402711 (https://api.semanticsc
+holar.org/CorpusID:233402711).
+
+80. "Coinhive domain repurposed to warn visitors of hacked sites, routers" (https://www.bleepin
+gcomputer.com/news/security/coinhive-domain-repurposed-to-warn-visitors-of-hacked-sites-
+routers/). BleepingComputer. Archived (https://web.archive.org/web/20221209040222/http
+s://www.bleepingcomputer.com/news/security/coinhive-domain-repurposed-to-warn-visitors-
+of-hacked-sites-routers/) from the original on 2022-12-09. Retrieved 2021-04-17.
+
+81. Hwang, Inyoung (7 May 2021). "What is cryptojacking? How to detect mining malware -
+MediaFeed" (https://mediafeed.org/what-is-cryptojacking-how-to-detect-mining-malware/).
+mediafeed.org. Archived (https://web.archive.org/web/20221209040220/https://mediafeed.or
+g/what-is-cryptojacking-how-to-detect-mining-malware/) from the original on 2022-12-09.
+Retrieved 2021-05-11.
+
+82. "Brutal cryptocurrency mining malware crashes your PC when discovered" (https://www.zdn
+et.com/article/brutal-cryptominer-crashes-your-pc-when-discovered/). ZDNet. Archived (http
+s://web.archive.org/web/20221209042118/https://www.zdnet.com/article/brutal-cryptominer-
+crashes-your-pc-when-discovered/) from the original on 2022-12-09.
+
+83. "Bitcoin's Computing Crisis" (https://spectrum.ieee.org/bitcoins-computing-crisis). 31
+October 2013. Archived (https://web.archive.org/web/20210514134058/https://spectrum.iee
+e.org/computing/networks/bitcoins-computing-crisis) from the original on 14 May 2021.
+Retrieved 8 July 2023.
+
+84. Morrow, Allison (December 18, 2025). "Crypto slump may point to a cultural problem" (http
+s://www.cnn.com/2025/12/18/business/crypto-bitcoin-slump-nightcap). CNN. Retrieved
+December 20, 2025.
+
+85. Suderman, Alan (May 28, 2025). "Why 'wrench attacks' on wealthy crypto holders are on the
+rise" (https://apnews.com/article/crypto-bitcoin-kidnapping-wrench-attack-ddc7263c25ba590
+f85648e1682576971). Associated Press. Retrieved December 20, 2025.
+
+86. "Malaysia's Tenaga Nasional incurs losses of more than $1 billion from crypto power theft"
+(https://www.reuters.com/sustainability/boards-policy-regulation/malaysias-tenaga-nasional-i
+ncurs-losses-more-than-1-billion-crypto-power-theft-2025-11-19/). Reuters. November 19,
+2025. Retrieved December 20, 2025.
+
+87. "The Kenyans lured to become unwitting 'love' fraudsters" (https://www.bbc.com/news/world
+-africa-63654637). BBC News. 2022-11-26. Archived (https://web.archive.org/web/20221126
+003608/https://www.bbc.com/news/world-africa-63654637) from the original on 2022-11-26.
+Retrieved 2022-11-26.
+
+88. "United States Files Civil Forfeiture Complaint Against $225M in Funds Involved in
+Cryptocurrency Investment Scams" (https://www.justice.gov/opa/pr/united-states-files-civil-fo
+rfeiture-complaint-against-225m-funds-involved-cryptocurrency) (Press release). U.S.
+Department of Justice. 18 June 2025.
+
+89. "Largest Ever Seizure of Funds Related to Crypto Confidence Scams" (https://www.justice.g
+ov/usao-dc/pr/largest-ever-seizure-funds-related-crypto-confidence-scams) (Press release).
+USAO-DC/DOJ. 18 June 2025.
+
+90. Asset Forfeiture Program: FY2023 At-a-Glance (https://www.usmarshals.gov/sites/default/fil
+es/media/document/2024-Asset-Forfeiture.pdf) (PDF) (Report). U.S. Marshals Service.
+2023.
+
+91. IOCTA 2024 (PDF) (https://www.europol.europa.eu/cms/sites/default/files/documents/IOCT
+A%202024%20-%20EN_0.pdf) (PDF) (Report). Europol. 2024.
+
+
+
+92. Economic Sanctions: Agency Efforts Help Mitigate Some of the Challenges of Emerging
+Risks (https://www.gao.gov/products/gao-24-106178) (Report). U.S. Government
+Accountability Office. 13 December 2023.
+
+93. Chavez-Dreyfuss, Gertrude (30 April 2019). "Cryptocurrency thefts, fraud hit $1.2 billion in
+first quarter: report" (https://www.reuters.com/article/us-crypto-currency-fraud/cryptocurrency
+-thefts-fraud-hit-1-2-billion-in-first-quarter-report-idUSKCN1S62P3). Reuters. Archived (http
+s://web.archive.org/web/20190730092755/https://www.reuters.com/article/us-crypto-currenc
+y-fraud/cryptocurrency-thefts-fraud-hit-1-2-billion-in-first-quarter-report-idUSKCN1S62P3)
+from the original on 30 July 2019. Retrieved 8 June 2019. Original reports: Schlabach,
+Adam (2019-01-29). "Cryptocurrency Anti-Money Laundering Report – Q4 2018" (https://cip
+hertrace.com/crypto-aml-report-2018q4/). CipherTrace. Archived (https://web.archive.org/we
+b/20190528171452/https://ciphertrace.com/crypto-aml-report-2018q4/) from the original on
+2019-05-28. Retrieved 2019-06-08., Schlabach, Adam (2019-05-01). "Q1 2019
+Cryptocurrency Anti-Money Laundering Report" (https://ciphertrace.com/articles/q1-2019-cry
+ptocurrency-anti-money-laundering-report/). CipherTrace. Archived (https://web.archive.org/
+web/20211127101851/https://www.reuters.com/article/us-crypto-currency-fraud/cryptocurren
+cy-thefts-fraud-hit-1-2-billion-in-first-quarter-report-idUSKCN1S62P3) from the original on
+2021-11-27. Retrieved 2019-06-08.
+
+94. Lyngaas, Sean (2023-04-09). "Inside the international sting operation to catch North Korean
+crypto hackers | CNN Politics" (https://www.cnn.com/2023/04/09/politics/north-korean-crypto
+-hackers-crackdown/index.html). CNN. Archived (https://web.archive.org/web/20230421031
+458/https://www.cnn.com/2023/04/09/politics/north-korean-crypto-hackers-crackdown/index.
+html/) from the original on 2023-04-21. Retrieved 2023-04-21.
+
+95. Bambysheva, Nina. "Over $3 Billion Stolen In Crypto Heists: Here Are The Eight Biggest" (ht
+tps://web.archive.org/web/20260130031756/https://www.forbes.com/sites/ninabambysheva/
+2022/12/28/over-3-billion-stolen-in-crypto-heists-here-are-the-eight-biggest/?sh=542777db6
+99f). Forbes. Archived from the original (https://www.forbes.com/sites/ninabambysheva/202
+2/12/28/over-3-billion-stolen-in-crypto-heists-here-are-the-eight-biggest/?sh=542777db699f)
+on 2026-01-30. Retrieved 2026-09-16.
+
+96. See Girasa, Rosario (2018). Regulation of Cryptocurrencies and Blockchain Technologies.
+National and International Perspectives. Pleasantville: Palgrave. pp. 156 f. ISBN 978-3-319-
+78508-0.
+
+97. Conlon, Thomas; McGee, Richard J. (2022). "ICO fraud and regulation". In Corbet, Shaen
+(ed.). Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate
+digital currencies. Boston/Berlin: De Gruyter. p. 47. ISBN 978-3-11-071688-7. Cf. "SEC
+Halts Alleged Initial Coin Offering Scam" (https://www.sec.gov/news/press-release/2018-8).
+U.S. Securities and Exchange Commission (SEC). 30 January 2018. Archived (https://web.a
+rchive.org/web/20230310081000/https://www.sec.gov/news/press-release/2018-8) from the
+original on 10 March 2023. Retrieved 15 February 2023.
+
+98. Girasa, Rosario (2022). "Criminal Prosecutions and Civil Litigation Concerning Blockchain
+Technologies". Regulation of Cryptocurrencies and Blockchain Technologies. National and
+International Perspectives. Pleasantville: Palgrave. p. 184. doi:10.1007/978-3-319-78509-7
+(https://doi.org/10.1007%2F978-3-319-78509-7). ISBN 978-3-319-78508-0.
+
+99. Hou, Greg (2022). "Cryptocurrency money laundering and exit scams: Cases, regulatory
+responses and issue". In Corbet, Shaen (ed.). Understanding Cryptocurrency Fraud. The
+challenges and headwinds to regulate digital currencies. Boston/Berlin: De Gruyter. p. 86.
+ISBN 978-3-11-071688-7.
+
+100. Girasa, Rosario (2022). "Criminal Prosecutions and Civil Litigation Concerning Blockchain
+Technologies". Regulation of Cryptocurrencies and Blockchain Technologies. National and
+International Perspectives. Pleasantville: Palgrave. p. 185. doi:10.1007/978-3-319-78509-7
+(https://doi.org/10.1007%2F978-3-319-78509-7). ISBN 978-3-319-78508-0.
+
+
+
+101. See Conlon, Thomas; McGee, Richard J. (2022). "ICO fraud and regulation". In Corbet,
+Shaen (ed.). Understanding Cryptocurrency Fraud. The challenges and headwinds to
+regulate digital currencies. Boston/Berlin: De Gruyter. p. 46. ISBN 978-3-11-071688-7. Cf.
+Michaels, Dave (1 September 2021). "SEC Sues BitConnect and Founder, Alleging Massive
+Cryptocurrency Scam of World-Wide Investors" (https://www.wsj.com/articles/sec-sues-bitco
+nnect-and-founder-alleging-massive-cryptocurrency-scam-of-world-wide-investors-1163053
+5853). The Wall Street Journal. Archived (https://web.archive.org/web/20230306215912/http
+s://www.wsj.com/articles/sec-sues-bitconnect-and-founder-alleging-massive-cryptocurrency-
+scam-of-world-wide-investors-11630535853) from the original on 6 March 2023. Retrieved
+15 February 2023.
+
+102. Nestarcova, Dominika (2019). A Critical Appraisal of Initial Coin Offerings. Lifting the "Digital
+Token's Veil". Leiden/Boston: Brill. p. 43. ISBN 978-90-04-41657-4.
+
+103. Conlon, Thomas; McGee, Richard J. (2022). "ICO fraud and regulation". In Corbet, Shaen
+(ed.). Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate
+digital currencies. Boston/Berlin: De Gruyter. pp. 45 f. ISBN 978-3-11-071688-7.
+
+104. Girasa, Rosario (2022). "Criminal Prosecutions and Civil Litigation Concerning Blockchain
+Technologies". Regulation of Cryptocurrencies and Blockchain Technologies. National and
+International Perspectives. Pleasantville: Palgrave. p. 212. doi:10.1007/978-3-319-78509-7
+(https://doi.org/10.1007%2F978-3-319-78509-7). ISBN 978-3-319-78508-0. Cf. "SEC v.
+PlexCorps, Dominic LaCroix, and Sabrina Paradis-Royer Case No. 17-cv-7007 (CBA)
+(RML) (E.D.N.Y.)" (https://www.sec.gov/enforcement/information-for-harmed-investors/plexc
+orps). U.S. Securities and Exchange Commission (SEC). Archived (https://web.archive.org/
+web/20230210095234/https://www.sec.gov/enforcement/information-for-harmed-investors/pl
+excorps) from the original on 10 February 2023. Retrieved 15 February 2023.
+
+105. Girasa, Rosario (2022). "Criminal Prosecutions and Civil Litigation Concerning Blockchain
+Technologies". Regulation of Cryptocurrencies and Blockchain Technologies. National and
+International Perspectives. Pleasantville: Palgrave. p. 212. doi:10.1007/978-3-319-78509-7
+(https://doi.org/10.1007%2F978-3-319-78509-7). ISBN 978-3-319-78508-0.
+
+106. Girasa, Rosario (2022). "Criminal Prosecutions and Civil Litigation Concerning Blockchain
+Technologies". Regulation of Cryptocurrencies and Blockchain Technologies. National and
+International Perspectives. Pleasantville: Palgrave. p. 213. doi:10.1007/978-3-319-78509-7
+(https://doi.org/10.1007%2F978-3-319-78509-7). ISBN 978-3-319-78508-0.
+
+107. Conlon, Thomas; McGee, Richard J. (2022). "ICO fraud and regulation". In Corbet, Shaen
+(ed.). Understanding Cryptocurrency Fraud. The challenges and headwinds to regulate
+digital currencies. Boston/Berlin: De Gruyter. p. 47. ISBN 978-3-11-071688-7.
+
+108. Whittaker, Zack (5 January 2015). "Bitstamp exchange hacked, $5M worth of bitcoin stolen"
+(https://www.zdnet.com/article/bitstamp-bitcoin-exchange-suspended-amid-hack-concerns-h
+eres-what-we-know/). Zdnet. CBS Interactive. Archived (https://web.archive.org/web/201610
+16122825/http://www.zdnet.com/article/bitstamp-bitcoin-exchange-suspended-amid-hack-co
+ncerns-heres-what-we-know/) from the original on 16 October 2016. Retrieved 6 January
+2015.
+
+109. "Bitcoin Worth $72M Was Stolen in Bitfinex Exchange Hack in Hong Kong" (http://fortune.co
+m/2016/08/03/bitcoin-stolen-bitfinex-hack-hong-kong/). Fortune. Archived (https://web.archiv
+e.org/web/20161120085013/http://fortune.com/2016/08/03/bitcoin-stolen-bitfinex-hack-hong-
+kong/) from the original on November 20, 2016. Retrieved October 26, 2016.
+
+110. Iyengar, Rishi (2017-12-07). "More than $70 million stolen in bitcoin hack" (https://web.archi
+ve.org/web/20220920091520/https://money.cnn.com/2017/12/07/technology/nicehash-bitcoi
+n-theft-hacking/index.html). CNNMoney. Archived from the original (https://money.cnn.com/2
+017/12/07/technology/nicehash-bitcoin-theft-hacking/index.html) on 2022-09-20. Retrieved
+2022-03-02.
+
+
+
+111. Browne, Ryan (2017-12-07). "More than $60 million worth of bitcoin potentially stolen after
+hack on cryptocurrency site" (https://www.cnbc.com/2017/12/07/bitcoin-stolen-in-hack-on-ni
+cehash-cryptocurrency-mining-marketplace.html). CNBC. Archived (https://web.archive.org/
+web/20171212031526/https://www.cnbc.com/2017/12/07/bitcoin-stolen-in-hack-on-nicehash
+-cryptocurrency-mining-marketplace.html) from the original on 2017-12-12. Retrieved
+2022-03-03.
+
+112. Haselton, Todd (2017-12-19). "A South Korean cryptocurrency exchange files for bankruptcy
+after hack, says users will get 75% of assets for now" (https://www.cnbc.com/2017/12/19/ya
+pian-youbit-exchange-files-bankruptcy.html). CNBC. Archived (https://web.archive.org/web/2
+0220906124744/https://www.cnbc.com/2017/12/19/yapian-youbit-exchange-files-bankruptc
+y.html) from the original on 2022-09-06. Retrieved 2022-03-02.
+
+113. "South Korean cryptocurrency exchange to file for bankruptcy after hacking" (https://www.re
+uters.com/article/us-bitcoin-exchange-southkorea-idUSKBN1ED0NJ). Reuters. 2017-12-19.
+Archived (https://web.archive.org/web/20220528053057/https://www.reuters.com/article/us-
+bitcoin-exchange-southkorea-idUSKBN1ED0NJ) from the original on 2022-05-28. Retrieved
+2022-03-02.
+
+114. "Bitcoin exchange Youbit shuts after second hack attack" (https://www.bbc.com/news/techno
+logy-42409815). BBC. 19 December 2017. Archived (https://web.archive.org/web/20240506
+164410/https://www.bbc.com/news/technology-42409815) from the original on 6 May 2024.
+Retrieved 6 May 2024.
+
+115. "Coincheck Says It Lost Crypto Coins Valued at About $400 Million" (https://www.bloomberg.
+com/news/articles/2018-01-26/cryptocurrencies-drop-after-japanese-exchange-halts-withdra
+wals). Bloomberg L.P. January 26, 2018. Archived (https://web.archive.org/web/2022082310
+5444/https://www.bloomberg.com/news/articles/2018-01-26/cryptocurrencies-drop-after-japa
+nese-exchange-halts-withdrawals) from the original on 2022-08-23. Retrieved 2018-01-27.
+
+116. Cimpanu, Catalin (4 September 2018). "Bitcoin Gold delisted from major cryptocurrency
+exchange after refusing to pay hack damages" (https://www.zdnet.com/article/bitcoin-gold-d
+elisted-from-major-cryptocurrency-exchange-after-refusing-to-pay-hack-damages/). ZDNet.
+Archived (https://web.archive.org/web/20220524122220/https://www.zdnet.com/article/bitcoi
+n-gold-delisted-from-major-cryptocurrency-exchange-after-refusing-to-pay-hack-damages/)
+from the original on 24 May 2022. Retrieved 3 March 2022.
+
+117. Shane, Daniel (2018-06-11). "Billions in cryptocurrency wealth wiped out after hack" (https://
+web.archive.org/web/20180711032051/https://money.cnn.com/2018/06/11/investing/coinrail-
+hack-bitcoin-exchange/index.html). CNNMoney. Archived from the original (https://money.cn
+n.com/2018/06/11/investing/coinrail-hack-bitcoin-exchange/index.html) on 2018-07-11.
+Retrieved 2022-03-02.
+
+118. Lam, Eric; Lee, Jiyeun; Robertson, Jordan (10 June 2018), Cryptocurrencies Lose $42
+Billion After South Korean Bourse Hack (https://www.bloomberg.com/news/articles/2018-06-
+10/bitcoin-tumbles-most-in-two-weeks-amid-south-korea-exchange-hack), Bloomberg News,
+archived (https://web.archive.org/web/20180612005144/https://www.bloomberg.com/news/a
+rticles/2018-06-10/bitcoin-tumbles-most-in-two-weeks-amid-south-korea-exchange-hack)
+from the original on 12 June 2018, retrieved 12 June 2018
+
+119. Roberts, Jeff John (9 July 2018). "Another Crypto Fail: Hackers Steal $23.5 Million from
+Token Service Bancor" (http://fortune.com/2018/07/09/bancor-hack/). Fortune. Archived (http
+s://web.archive.org/web/20180710013104/http://fortune.com/2018/07/09/bancor-hack/) from
+the original on 10 July 2018. Retrieved 10 July 2018.
+
+120. Young, Joseph (2017-06-24). "Cornell Professor: $150 Million Bancor is Flawed" (https://ww
+w.ccn.com/cornell-professor-150-million-bancor-flawed/). CCN.com. Archived (https://web.ar
+chive.org/web/20220302134252/https://www.ccn.com/cornell-professor-150-million-bancor-fl
+awed/) from the original on 2022-03-02. Retrieved 2022-03-02.
+
+
+
+121. Reidy, Gearoid (2018-09-19). "Hackers Steal $60 Million From Japanese Crypto Exchange
+Zaif" (https://www.bloomberg.com/news/articles/2018-09-19/tech-bureau-says-6-7b-yen-in-c
+ryptocurrency-lost-in-zaif-hack). Bloomberg.com. Archived (https://web.archive.org/web/202
+10526040323/https://www.bloomberg.com/news/articles/2018-09-19/tech-bureau-says-6-7b-
+yen-in-cryptocurrency-lost-in-zaif-hack) from the original on 2021-05-26. Retrieved
+2018-09-20.
+
+122. "Hackers Stole $40 Million from Binance Crypto Exchange" (https://www.wired.com/story/ha
+ck-binance-cryptocurrency-exchange/). Wired. Archived (https://web.archive.org/web/20221
+012140114/https://www.wired.com/story/hack-binance-cryptocurrency-exchange/) from the
+original on 2022-10-12. Retrieved 2019-05-08.
+
+123. "South African brothers disappear along with $3.6 billion in Bitcoin" (https://web.archive.org/
+web/20211129124602/https://fortune.com/2021/06/24/bitcoin-ameer-raees-cajee-theft-south
+-africa/). Fortune. Archived from the original (https://fortune.com/2021/06/24/bitcoin-ameer-r
+aees-cajee-theft-south-africa/) on 2021-11-29. Retrieved 2021-08-31.
+
+124. Sullivan, Arthur (2021-08-11). "Hackers steal $600 million in record-breaking cryptocurrency
+heist" (https://www.dw.com/en/hackers-steal-600-million-in-record-breaking-cryptocurrency-
+heist/a-58828959). DW.COM. Archived (https://web.archive.org/web/20220308204124/http
+s://www.dw.com/en/hackers-steal-600-million-in-record-breaking-cryptocurrency-heist/a-588
+28959) from the original on 2022-03-08. Retrieved 2021-08-31.
+
+125. Browne, Ryan (2021-08-19). "More than $90 million in cryptocurrency stolen after a top
+Japanese exchange is hacked" (https://www.cnbc.com/2021/08/19/liquid-cryptocurrency-exc
+hange-hack.html). CNBC. Archived (https://web.archive.org/web/20220826083445/https://w
+ww.cnbc.com/2021/08/19/liquid-cryptocurrency-exchange-hack.html) from the original on
+2022-08-26. Retrieved 2021-08-31.
+
+126. "Hackers steal $29 million from crypto-platform Cream Finance" (https://therecord.media/ha
+ckers-steal-29-million-from-crypto-platform-cream-finance/). The Record by Recorded
+Future. 2021-08-30. Archived (https://web.archive.org/web/20220531021620/https://therecor
+d.media/hackers-steal-29-million-from-crypto-platform-cream-finance/) from the original on
+2022-05-31. Retrieved 2021-08-31.
+
+127. Ongweso Jr., Edward. "Cryptocurrency Loan Platform Implodes In $130 Million Hack" (http
+s://www.vice.com/en/article/cryptocurrency-loan-platform-implodes-in-dollar130-million-hac
+k/). Vice. Archived (https://web.archive.org/web/20221220194238/https://www.vice.com/en/a
+rticle/m7vjjy/cryptocurrency-loan-platform-implodes-in-dollar130-million-hack) from the
+original on 2022-12-20. Retrieved 2022-12-20.
+
+128. "Hackers Steal $119M From 'Web3' Crypto Project With Old School Attack" (https://www.vic
+e.com/en/article/hackers-steal-dollar119m-from-web3-crypto-project-with-old-school-attack/).
+The Verge. 2022-03-23. Archived (https://web.archive.org/web/20221008231722/https://ww
+w.vice.com/en/article/pkpp4n/hackers-steal-dollar119m-from-web3-crypto-project-with-old-sc
+hool-attack) from the original on 2022-10-08. Retrieved 2021-12-09.
+
+129. "Hackers Steal $150M From Crypto Exchange Billed as 'Most Trusted' " (https://www.vice.co
+m/en/article/hackers-steal-dollar150m-from-crypto-exchange-billed-as-most-trusted/). The
+Verge. 2021-12-06. Archived (https://web.archive.org/web/20220601010838/https://www.vic
+e.com/en/article/akvewk/hackers-steal-dollar150m-from-crypto-exchange-billed-as-most-trus
+ted) from the original on 2022-06-01. Retrieved 2021-12-14.
+
+130. Sigalos, MacKenzie (2022-01-07). "Iranian immigrant lost $53,000 in crypto hack, says he
+faces ruin if BitMart doesn't pay him back" (https://www.cnbc.com/2022/01/07/cryptocurrenc
+y-theft-bitmart-still-owes-victims-of-200-million-hack.html). CNBC. Archived (https://web.arch
+ive.org/web/20220924165218/https://www.cnbc.com/2022/01/07/cryptocurrency-theft-bitmar
+t-still-owes-victims-of-200-million-hack.html) from the original on 2022-09-24. Retrieved
+2022-01-08.
+
+
+
+131. "Hackers Steal $140 Million From Users of Crypto Gaming Company" (https://www.vice.co
+m/en/article/hackers-steal-dollar140-million-from-users-of-crypto-gaming-company/). The
+Verge. 2021-12-13. Archived (https://web.archive.org/web/20220805234054/http://www.vice.
+com/en/article/4awxep/hackers-steal-dollar140-million-from-users-of-crypto-gaming-compan
+y) from the original on 2022-08-05. Retrieved 2021-12-14.
+
+132. "Hackers have stolen $80 million in cryptocurrency from the Qubit DeFi platform" (https://ww
+w.theverge.com/2022/1/28/22906366/cryptocurrency-hackers-steal-qubit-binance-ethereu
+m). The Verge. 2021-01-28. Archived (https://web.archive.org/web/20220828081341/https://
+www.theverge.com/2022/1/28/22906366/cryptocurrency-hackers-steal-qubit-binance-ethere
+um) from the original on 2022-08-28. Retrieved 2022-01-29.
+
+133. "Crypto Year Ender: Here's A Look At Major Crypto Scams Of 2022" (https://web.archive.or
+g/web/20231101152810/https://www.outlookindia.com/business/crypto-year-ender-here-s-a-l
+ook-at-major-crypto-scams-of-2022-news-249348). Outlook India. 2022-12-30. Archived
+from the original (https://www.outlookindia.com/business/crypto-year-ender-here-s-a-look-at-
+major-crypto-scams-of-2022-news-249348) on 2023-11-01. Retrieved 2026-09-16.
+
+134. Howcroft, Elizabeth (2023-09-25). "Hong Kong crypto firm hit by $200 million hack" (https://
+www.reuters.com/technology/hong-kong-crypto-firm-hit-by-200-million-hack-2023-09-25/).
+Reuters. Archived (https://web.archive.org/web/20230925215122/https://www.reuters.com/te
+chnology/hong-kong-crypto-firm-hit-by-200-million-hack-2023-09-25/) from the original on
+2023-09-25. Retrieved 2023-09-25.
+
+135. Hardcastle, Jessica Lyons. "Mixin suspends some crypto services after $200m heist" (http
+s://www.theregister.com/2023/09/25/mixin_200m_heist/). www.theregister.com. Archived (htt
+ps://web.archive.org/web/20230925193204/https://www.theregister.com/2023/09/25/mixin_2
+00m_heist/) from the original on 2023-09-25. Retrieved 2023-09-25.
+
+136. Sigalos, MacKenzie (2025-02-21). "Hackers steal $1.5 billion from exchange Bybit in
+biggest-ever crypto heist" (https://www.cnbc.com/2025/02/21/hackers-steal-1point5-billion-fr
+om-exchange-bybit-biggest-crypto-heist.html). CNBC. Retrieved 2025-02-22.
+
+137. Levin, Gabe (June 19, 2025). "Hackers say they wiped out $90 million from Iran
+cryptocurrency exchange" (https://apnews.com/article/iran-israel-cryptocurrency-hack-data-l
+eak-8febb3c9c2acf4de2894a7a8a92aa88c). AP News. Retrieved June 23, 2025.
+
+138. "Crypto investment fraud ring dismantled in Spain after defrauding 5 000 victims worldwide"
+(https://www.europol.europa.eu/media-press/newsroom/news/crypto-investment-fraud-ring-d
+ismantled-in-spain-after-defrauding-5-000-victims-worldwide). Europol Press Service.
+Retrieved 11 February 2026.
+
+139. "Europol Dismantles $540 Million Cryptocurrency Fraud Network, Arrests Five Suspects" (htt
+ps://thehackernews.com/2025/06/europol-dismantles-540-million.html). Hacker News.
+Retrieved 11 February 2026.
+
+140. "Major issues resulting in lost or stuck funds" (https://eth.wiki/faqs/major-issues-resulting-in-l
+ost-or-stuck-funds). Ethereum Wiki. Archived (https://web.archive.org/web/20211018033815/
+https://eth.wiki/faqs/major-issues-resulting-in-lost-or-stuck-funds) from the original on 2021-
+10-18. Retrieved 2021-03-07.
+
+141. Hern, Alex (8 November 2017). " '$300m in cryptocurrency' accidentally lost forever due to
+bug" (https://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-st
+olen-bug-ether). The Guardian. Archived (https://web.archive.org/web/20220917014109/http
+s://www.theguardian.com/technology/2017/nov/08/cryptocurrency-300m-dollars-stolen-bug-
+ether) from the original on 17 September 2022. Retrieved 7 March 2021.
+
+142. "The Multi-sig Hack: A Postmortem" (https://web.archive.org/web/20210227150251/https://w
+ww.parity.io/the-multi-sig-hack-a-postmortem/). Blockchain Infrastructure for the
+Decentralised Web. Parity. 20 July 2017. Archived from the original (https://www.parity.io/the
+-multi-sig-hack-a-postmortem/) on 27 February 2021.
+
+
+
+143. Destefanis, Giuseppe; Marchesi, M.; Ortu, Marco; Tonelli, R.; Bracciali, A.; Hierons, R.
+(2018). "Smart contracts vulnerabilities: A call for blockchain software engineering?". 2018
+International Workshop on Blockchain Oriented Software Engineering (IWBOSE). pp. 19–
+25. doi:10.1109/IWBOSE.2018.8327567 (https://doi.org/10.1109%2FIWBOSE.2018.832756
+7). hdl:1893/27135 (https://hdl.handle.net/1893%2F27135). ISBN 978-1-5386-5986-1.
+S2CID 4569204 (https://api.semanticscholar.org/CorpusID:4569204).
+
+144. "A Postmortem on the Parity Multi-Sig Library Self-Destruct" (https://www.parity.io/a-postmor
+tem-on-the-parity-multi-sig-library-self-destruct/). Blockchain Infrastructure for the
+Decentralised Web. 15 November 2017. Archived (https://web.archive.org/web/2021012001
+3147/https://www.parity.io/a-postmortem-on-the-parity-multi-sig-library-self-destruct/) from
+the original on 20 January 2021.
+
+145. Wieczner, Jen (4 March 2019). "Ethereum Fork Could Help Restore Frozen Parity
+Cryptocurrency" (https://web.archive.org/web/20220125151249/https://fortune.com/2019/03/
+04/ethereum-fork-parity-frozen-cryptocurrency/). Fortune. Archived from the original (https://f
+ortune.com/2019/03/04/ethereum-fork-parity-frozen-cryptocurrency/) on 25 January 2022.
+Retrieved 7 March 2021.
+
+146. Tan, Ben (17 February 2021). "Johor police chief: TNB lost RM8.6m to alleged electricity
+theft by bitcoin mining syndicate | Malay Mail" (https://www.malaymail.com/news/malaysia/2
+021/02/17/johor-police-chief-tnb-lost-rm8.6m-to-alleged-electricity-theft-by-bitcoin/1950571).
+www.malaymail.com. Archived (https://web.archive.org/web/20220820033232/https://www.m
+alaymail.com/news/malaysia/2021/02/17/johor-police-chief-tnb-lost-rm8.6m-to-alleged-electr
+icity-theft-by-bitcoin/1950571) from the original on 2022-08-20. Retrieved 2021-08-31.
+
+147. "Take a look inside this underground crypto mining farm in Ukraine with its 3,800
+PlayStations and 5,000 computers" (https://news.yahoo.com/look-inside-underground-crypto
+-mining-090129713.html). news.yahoo.com. 11 July 2021. Archived (https://web.archive.org/
+web/20211027144349/https://news.yahoo.com/look-inside-underground-crypto-mining-0901
+29713.html) from the original on 2021-10-27. Retrieved 2021-08-31.
+
+148. "Police steamroll 1,000 bitcoin mines after 'electricity theft' prompts power outages" (https://fi
+nance.yahoo.com/news/police-steamroll-1-000-bitcoin-181547805.html).
+finance.yahoo.com. 20 July 2021. Archived (https://web.archive.org/web/20220902213617/h
+ttps://finance.yahoo.com/news/police-steamroll-1-000-bitcoin-181547805.html) from the
+original on 2022-09-02. Retrieved 2021-08-31.
+
+149. "Sandwell Bitcoin mine found stealing electricity" (https://www.bbc.com/news/uk-england-bir
+mingham-57280115). BBC News. 2021-05-28. Archived (https://web.archive.org/web/20220
+624011200/https://www.bbc.com/news/uk-england-birmingham-57280115) from the original
+on 2022-06-24. Retrieved 2021-08-31.
+
+150. "Bitcoin: Bitcoin under pressure" (https://www.economist.com/news/technology-quarterly/21
+590766-virtual-currency-it-mathematically-elegant-increasingly-popular-and-highly). The
+Economist. 30 November 2013. Archived (https://web.archive.org/web/20131130032403/htt
+p://www.economist.com/news/technology-quarterly/21590766-virtual-currency-it-mathematic
+ally-elegant-increasingly-popular-and-highly) from the original on 30 November 2013.
+Retrieved 30 November 2013.
+
+151. Harney, Alexandra; Stecklow, Steve (2017-11-16). "Twice burned - How Mt. Gox's bitcoin
+customers could lose again" (https://www.reuters.com/investigates/special-report/bitcoin-go
+x/). Reuters. Archived (https://web.archive.org/web/20190829052101/https://www.reuters.co
+m/investigates/special-report/bitcoin-gox/) from the original on 2019-08-29. Retrieved
+2018-09-06.
+
+152. Jeffries, Adrianne (19 December 2013). "How to steal Bitcoin in three easy steps" (https://w
+ww.theverge.com/2013/12/19/5183356/how-to-steal-bitcoin-in-three-easy-steps). The Verge.
+Archived (https://web.archive.org/web/20210510195348/https://www.theverge.com/2013/12/
+19/5183356/how-to-steal-bitcoin-in-three-easy-steps) from the original on 10 May 2021.
+Retrieved 17 January 2014.
+
+
+
+153. Everett, David (April 2012). "So how can you steal Bitcoins" (https://web.archive.org/web/20
+161018080331/http://www.smartcard.co.uk/articles/so_how_can_you_steal_bitcoins.php).
+Smartcard & Identity News. Archived from the original (http://www.smartcard.co.uk/articles/s
+o_how_can_you_steal_bitcoins.php) on 18 October 2016. Retrieved 17 January 2014.
+
+154. Grocer, Stephen (2 July 2013). "Beware the Risks of the Bitcoin: Winklevii Outline the
+Downside" (https://blogs.wsj.com/moneybeat/2013/07/02/beware-the-risks-of-the-bitcoin-win
+klevii-outline-the-downside/). The Wall Street Journal (Moneybeat). Archived (https://web.arc
+hive.org/web/20210131152320/https://blogs.wsj.com/moneybeat/2013/07/02/beware-the-ris
+ks-of-the-bitcoin-winklevii-outline-the-downside/) from the original on 31 January 2021.
+Retrieved 21 October 2013.
+
+155. Hern, Alex (9 December 2013). "Recovering stolen bitcoin: a digital wild goose chase" (http
+s://www.theguardian.com/technology/2013/dec/09/recovering-stolen-bitcoin-sheep-marketpl
+ace-trading-digital-currency-money). The Guardian. Archived (https://web.archive.org/web/2
+0190709185910/https://www.theguardian.com/technology/2013/dec/09/recovering-stolen-bit
+coin-sheep-marketplace-trading-digital-currency-money) from the original on 9 July 2019.
+Retrieved 6 March 2014.
+
+156. "Silk Road 2 loses $2.7m in bitcoins in alleged hack" (https://www.bbc.co.uk/news/technolog
+y-26187725). BBC News. 14 February 2014. Archived (https://web.archive.org/web/2022101
+5160521/https://www.bbc.co.uk/news/technology-26187725) from the original on 15 October
+2022. Retrieved 15 February 2014.
+
+157. Hern, Alex (8 November 2013). "Bitcoin site Inputs.io loses £1m after hackers strike twice"
+(https://www.theguardian.com/technology/2013/nov/08/hackers-steal-1m-from-bitcoin-tradef
+ortress-site). The Guardian. Archived (https://web.archive.org/web/20190726122329/https://
+www.theguardian.com/technology/2013/nov/08/hackers-steal-1m-from-bitcoin-tradefortress-
+site) from the original on 26 July 2019. Retrieved 18 September 2015.
+
+158. "When bitcoins go bad: 4 stories of fraud, hacking, and digital currencies" (https://www.wash
+ingtonpost.com/blogs/the-switch/wp/2013/11/26/when-bitcoins-go-bad-4-stories-of-fraud-and
+-hacking/). The Washington Post. Archived (https://web.archive.org/web/20150101090127/h
+ttp://www.washingtonpost.com/blogs/the-switch/wp/2013/11/26/when-bitcoins-go-bad-4-stori
+es-of-fraud-and-hacking/) from the original on 1 January 2015. Retrieved 6 March 2015.
+
+159. "MtGox bitcoin exchange files for bankruptcy" (https://www.bbc.com/news/technology-25233
+230). bbc.com. BBC. 28 February 2014. Archived (https://web.archive.org/web/2019060605
+1848/https://www.bbc.com/news/technology-25233230) from the original on 6 June 2019.
+Retrieved 18 April 2014.
+
+160. Ligaya, Armina (5 March 2014). "After Alberta's Flexcoin, Mt. Gox hacked, Bitcoin
+businesses face sting of free-wheeling ways" (http://business.financialpost.com/2014/03/05/
+after-albertas-flexcoin-mt-gox-hacked-bitcoin-businesses-face-sting-of-free-wheeling-ways/).
+Financial Post. Archived (https://web.archive.org/web/20140307072707/http://business.finan
+cialpost.com/2014/03/05/after-albertas-flexcoin-mt-gox-hacked-bitcoin-businesses-face-stin
+g-of-free-wheeling-ways/) from the original on 7 March 2014. Retrieved 7 March 2014.
+
+161. Truong, Alice (6 March 2014). "Another Bitcoin exchange, another heist" (http://www.fastco
+mpany.com/3027373/fast-feed/another-bitcoin-exchange-another-heist). Fast Company.
+Archived (https://web.archive.org/web/20170710130104/https://www.fastcompany.com/3027
+373/fast-feed/another-bitcoin-exchange-another-heist) from the original on 10 July 2017.
+Retrieved 7 March 2014.
+
+162. Millward, Steven (16 February 2015). "Nearly $2M in bitcoins feared lost after Chinese
+cryptocurrency exchange hack" (https://www.techinasia.com/bitcoins-lost-after-china-cryptoc
+urrency-exchange-hack-bter/). techinasia.com. Tech In Asia. Archived (https://web.archive.or
+g/web/20190530190912/https://www.techinasia.com/bitcoins-lost-after-china-cryptocurrency
+-exchange-hack-bter) from the original on 30 May 2019. Retrieved 18 February 2015.
+
+
+
+163. Samira Sadeque and agencies (February 8, 2022). "US married couple arrested for
+allegedly conspiring to launder $4.5bn in bitcoin" (https://www.theguardian.com/technology/2
+022/feb/08/us-married-couple-arrested-allegedly-conspiring-launder-45bn-bitcoin).
+www.theguardian.com. Archived (https://web.archive.org/web/20220629213659/https://www.
+theguardian.com/technology/2022/feb/08/us-married-couple-arrested-allegedly-conspiring-la
+under-45bn-bitcoin) from the original on June 29, 2022. Retrieved February 9, 2022.
+
+164. Coppola, Frances (6 August 2016). "Theft And Mayhem In The Bitcoin World" (https://www.f
+orbes.com/sites/francescoppola/2016/08/06/theft-and-mayhem-in-the-bitcoin-world/#3adc93
+c251ae). Forbes. Archived (https://web.archive.org/web/20160807023213/http://www.forbes.
+com/sites/francescoppola/2016/08/06/theft-and-mayhem-in-the-bitcoin-world/#3adc93c251a
+e) from the original on 7 August 2016. Retrieved 15 August 2016.
+
+165. Kharif, Olga (10 February 2022). "Who will get crypto back after arrests in $3.6-billion bitcoin
+hack?" (https://www.latimes.com/business/story/2022-02-09/bitfinex-who-will-get-crypto-bac
+k-after-arrests-in-3-6-billion-bitcoin-hack). LA Times. Archived (https://web.archive.org/web/2
+0240506164646/https://www.latimes.com/business/story/2022-02-09/bitfinex-who-will-get-cr
+ypto-back-after-arrests-in-3-6-billion-bitcoin-hack) from the original on 2024-05-06.
+Retrieved 2024-05-06.
+
+166. "The Ballad of Razzlekhan and Dutch, Bitcoin's Bonnie and Clyde" (https://www.vanityfair.co
+m/news/2022/08/the-ballad-of-razzlekhan-and-dutch-bitcoins-bonnie-and-clyde). Vanity Fair.
+2022-08-16. Archived (https://web.archive.org/web/20230524172356/https://www.vanityfair.c
+om/news/2022/08/the-ballad-of-razzlekhan-and-dutch-bitcoins-bonnie-and-clyde) from the
+original on 2023-05-24. Retrieved 2023-06-04.
+
+167. Vigna, Paul (9 February 2022). "How the Feds Tracked Down $3.6 Billion in Stolen Bitcoin"
+(https://www.wsj.com/articles/how-the-feds-tracked-down-3-6-billion-in-stolen-bitcoin-116444
+47110). The Wall Street Journal. Archived (https://web.archive.org/web/20220911090407/htt
+ps://www.wsj.com/articles/how-the-feds-tracked-down-3-6-billion-in-stolen-bitcoin-11644447
+110) from the original on 11 September 2022. Retrieved 3 March 2022.
+
+168. Barrett, Brian (2019-05-08). "Hack Brief: Hackers Stole $40 Million from Binance
+Cryptocurrency Exchange" (https://www.wired.com/story/hack-binance-cryptocurrency-exch
+ange/). Wired. Archived (https://web.archive.org/web/20221012140114/https://www.wired.co
+m/story/hack-binance-cryptocurrency-exchange/) from the original on 2022-10-12. Retrieved
+2019-05-08.
+
+169. Heller, Matthew (4 August 2016). "Bitfinex Hack Fuels Bitcoin Security Concerns -" (http://w
+w2.cfo.com/cyber-security-technology/2016/08/bitfinex-hack-fuels-bitcoin-security-concern
+s/). CFO. Archived (https://web.archive.org/web/20170129130817/http://ww2.cfo.com/cyber-
+security-technology/2016/08/bitfinex-hack-fuels-bitcoin-security-concerns/) from the original
+on 29 January 2017. Retrieved 11 January 2017.
+
+170. "Testimony of Mark T. Williams Bitcoin: Examining the Benefits and Risks for Small
+Business" (https://web.archive.org/web/20180923065035/https://smallbusiness.house.gov/u
+ploadedfiles/4-2-2014_williams_final_testimony.pdf) (PDF). U.S. House of Representatives
+Committee on Small Business Hearing. 2 April 2014. Archived from the original (http://smallb
+usiness.house.gov/uploadedfiles/4-2-2014_williams_final_testimony.pdf) (PDF) on 23
+September 2018. Retrieved 10 January 2017.
+
+171. Popper, Nathaniel (2016-06-17). "A Hacking of More Than $50 Million Dashes Hopes in the
+World of Virtual Currency" (https://www.nytimes.com/2016/06/18/business/dealbook/hacker-
+may-have-removed-more-than-50-million-from-experimental-cybercurrency-project.html).
+The New York Times. ISSN 0362-4331 (https://search.worldcat.org/issn/0362-4331).
+Retrieved 2026-09-16.
+
+172. "Digital currency Ethereum is cratering because of a $50 million hack" (https://web.archive.o
+rg/web/20170611195628/http://uk.businessinsider.com/dao-hacked-ethereum-crashing-in-va
+lue-tens-of-millions-allegedly-stolen-2016-6). Business Insider. Archived from the original (ht
+tp://uk.businessinsider.com/dao-hacked-ethereum-crashing-in-value-tens-of-millions-alleged
+ly-stolen-2016-6) on 2017-06-11. Retrieved 2026-09-16.
+
+
+
+173. Russell, Jon. "Tether, a startup that works with bitcoin exchanges, claims a hacker
+stole $31M" (https://techcrunch.com/2017/11/20/tether-claims-a-hacker-stole-31m/).
+TechCrunch. Archived (https://web.archive.org/web/20171121105158/https://techcrunch.co
+m/2017/11/20/tether-claims-a-hacker-stole-31m/) from the original on 21 November 2017.
+Retrieved 22 November 2017.
+
+174. "Tether Hacked — Attacker Steals $31 Million of Digital Tokens" (https://thehackernews.com/
+2017/11/tether-bitcoin-hacked.html). 2017-11-20. Retrieved 2025-10-03. "The unknown
+hacker stole the tokens worth $30,950,010 from the Tether Treasury wallet. The stolen
+tokens will not be redeemed; the company is attempting token recovery to prevent them
+from entering the broader cryptocurrency market."
+
+175. Goodin, Dan (2022-02-04). "How $323M in crypto was stolen from a blockchain bridge
+called Wormhole" (https://arstechnica.com/information-technology/2022/02/how-323-million-i
+n-crypto-was-stolen-from-a-blockchain-bridge-called-wormhole/). Ars Technica. Archived (htt
+ps://web.archive.org/web/20221009104040/https://arstechnica.com/information-technology/
+2022/02/how-323-million-in-crypto-was-stolen-from-a-blockchain-bridge-called-wormhole/)
+from the original on 2022-10-09. Retrieved 2022-03-03.
+
+176. Jeong, Sarah (2015-10-20). "DEA Agent Who Faked a Murder and Took Bitcoins from Silk
+Road Explains Himself" (https://www.vice.com/en/article/dea-agent-who-faked-a-murder-and
+-took-bitcoins-from-silk-road-explains-himself/). VICE. Retrieved 2026-09-16.
+
+177. Raymond, Nate (2017-11-08). "Ex-agent in Silk Road probe gets more prison time for bitcoin
+theft" (https://www.reuters.com/article/world/asia-pacific/ex-agent-in-silk-road-probe-gets-mo
+re-prison-time-for-bitcoin-theft-idUSKBN1D804Y/). Reuters. Retrieved 2026-09-16.
+
+178. Rich, Nathaniel (22 November 2019). "Ponzi Schemes, Private Yachts, and a Missing $250
+Million in Crypto: The Strange Tale of Quadriga" (https://www.vanityfair.com/news/2019/11/th
+e-strange-tale-of-quadriga-gerald-cotten). Vanity Fair. Archived (https://web.archive.org/web/
+20221022002537/https://www.vanityfair.com/news/2019/11/the-strange-tale-of-quadriga-ger
+ald-cotten) from the original on 22 October 2022. Retrieved 13 February 2020.
+
+179. "How 'Baby Al Capone' Pulled Off a $24 Million Crypto Heist" (https://www.rollingstone.com/
+culture/culture-features/crypto-heist-teenage-hacker-ellis-pinsky-1367400/). Rolling Stone. 8
+July 2022.
+
+180. "The 15-year-old boy who stole $24 million in cryptocurrency" (https://english.elpais.com/sci
+ence-tech/2022-07-30/the-15-year-old-boy-who-stole-24-million-dollars-in-cryptocurrency.ht
+ml). El País. 31 July 2022.
+
+181. "When Crypto Scammers Stole $23 Million, This Victim Found Them" (https://www.bloomber
+g.com/news/newsletters/2022-12-07/when-crypto-scammers-stole-23-million-this-victim-fou
+nd-them). Bloomberg. 7 December 2022.
+
+182. " 'Evil mastermind of cyberscam was Ellis Pinsky, 15' " (https://www.thetimes.co.uk/article/evi
+l-mastermind-of-cyberscam-was-ellis-pinsky-15-xdt9nbs7j). The Times (Archived). 25 May
+2020. Retrieved 2023-09-08.
+
+183. Barr, Kyle (2022-10-14). "SIM Card Swindler 'Baby Al Capone' Agrees to Pay Back $22
+Million to Hacked Crypto Investor" (https://gizmodo.com/ellis-pinsky-crypto-hack-michael-ter
+pin-1849658068). Gizmodo.
+
+184. Kaplan, Michael (2019-04-13). "Hackers are stealing millions in Bitcoin — and living like big
+shots" (https://nypost.com/2019/04/13/hackers-are-stealing-millions-in-bitcoin-and-living-like
+-big-shots/). New York Post. Archived (https://web.archive.org/web/20220820032716/https://
+nypost.com/2019/04/13/hackers-are-stealing-millions-in-bitcoin-and-living-like-big-shots/)
+from the original on 2022-08-20. Retrieved 2020-05-08.
+
+
+
+185. "Teen Hacker and Crew of 'Evil Geniuses' Accused of $24 Million Crypto Theft" (https://www.
+msn.com/en-us/money/markets/teen-hacker-and-crew-of-evil-geniuses-accused-of-dollar24-
+million-crypto-theft/ar-BB13KJxd?ocid=spartandhp). www.msn.com. Archived (https://web.ar
+chive.org/web/20221018151958/https://www.msn.com/en-us/money/markets/teen-hacker-a
+nd-crew-of-evil-geniuses-accused-of-dollar24-million-crypto-theft/ar-BB13KJxd?ocid=sparta
+ndhp) from the original on 2022-10-18. Retrieved 2020-05-08.
+
+186. "Twitter hack: accounts of prominent figures, including Biden, Musk, Obama, Gates, and
+Kanye compromised" (https://www.theguardian.com/technology/2020/jul/15/twitter-elon-mus
+k-joe-biden-hacked-bitcoin). The Guardian. 16 July 2020. Archived (https://web.archive.org/
+web/20220714110619/https://www.theguardian.com/technology/2020/jul/15/twitter-elon-mus
+k-joe-biden-hacked-bitcoin) from the original on 14 July 2022. Retrieved 16 July 2020.
+
+187. "Southern District of New York | Silk Road Dark Web Fraud Defendant Sentenced Following
+Seizure And Forfeiture Of Over $3.4 Billion In Cryptocurrency | United States Department of
+Justice" (https://www.justice.gov/usao-sdny/pr/silk-road-dark-web-fraud-defendant-sentence
+d-following-seizure-and-forfeiture-over-34). www.justice.gov. 14 April 2023. Archived (https://
+web.archive.org/web/20230810034942/https://www.justice.gov/usao-sdny/pr/silk-road-dark-
+web-fraud-defendant-sentenced-following-seizure-and-forfeiture-over-34) from the original
+on 10 August 2023. Retrieved 12 July 2023.
+
+188. Roth, Emma (14 February 2022). "Romance scammers collected $139 million in crypto last
+year" (https://www.theverge.com/2022/2/14/22933056/crypto-romance-scammers-139-millio
+n-fraud). The Verge. Archived (https://web.archive.org/web/20220901154345/https://www.th
+everge.com/2022/2/14/22933056/crypto-romance-scammers-139-million-fraud) from the
+original on 1 September 2022. Retrieved 2 March 2022.
+
+189. Roose, Kevin (21 February 2022). "Crypto Scammers' New Target: Dating Apps" (https://ww
+w.nytimes.com/2022/02/21/technology/crypto-scammers-new-target-dating-apps.html). The
+New York Times. Archived (https://web.archive.org/web/20221012192619/https://www.nytim
+es.com/2022/02/21/technology/crypto-scammers-new-target-dating-apps.html) from the
+original on 12 October 2022. Retrieved 2 March 2022.
+
+190. Hern, Alex (18 April 2022). "Beanstalk cryptocurrency loses $182m of reserves in a flash
+'attack' " (https://www.theguardian.com/technology/2022/apr/18/beanstalk-cryptocurrency-lo
+ses-182m-of-reserves-in-flash-attack). The Guardian. Archived (https://web.archive.org/web/
+20221015012911/https://www.theguardian.com/technology/2022/apr/18/beanstalk-cryptocur
+rency-loses-182m-of-reserves-in-flash-attack) from the original on 15 October 2022.
+Retrieved 18 April 2022.
+
+191. Brains, Trade (2025-07-08). "Fake Email Scam: Nigerian Fraudster Tricks Trump Donor,
+Steals $250,000" (https://tradebrains.in/fake-email-scam-nigerian-fraudster-tricks-trump-don
+or-steals-250000/). Trade Brains. Retrieved 2025-07-08.
+
+192. Farivar, Cyris (October 5, 2017). "GW Miners founder owes nearly $10 million to SEC over
+Bitcoin fraud]" (https://web.archive.org/web/20171229112405/https://arstechnica.com/tech-p
+olicy/2017/10/bitcoin-fraudster-hit-with-9-1m-civil-judgment-on-top-of-criminal-guilty-plea/).
+Ars Technica. Archived from the original (https://arstechnica.com/tech-policy/2017/10/bitcoin
+-fraudster-hit-with-9-1m-civil-judgment-on-top-of-criminal-guilty-plea/) on 2017-12-29.
+
+193. "Former Virtual Currency CEO Involved in $9 Million Fraud Scheme Sentenced to Prison" (h
+ttps://www.justice.gov/usao-ct/pr/former-virtual-currency-ceo-involved-9-million-fraud-schem
+e-sentenced-prison). United States Department of Justice, District of Connecticut. 2018-09-
+12. Retrieved 2025-10-17. "Homero Joshua Garza, 33, of Bloomfield, was sentenced by
+U.S. District Judge Robert N. Chatigny in Hartford to 21 months of imprisonment followed by
+three years of supervised release. He was ordered to pay restitution of approximately $9.2
+million and to report to prison on January 4, 2019."
+
+194. "Scamcoins" (http://altcoins.com/scamcoins). August 2013. Archived (https://web.archive.or
+g/web/20140201051133/http://altcoins.com/scamcoins) from the original on 1 February
+2014.
+
+
+
+195. Bradbury, Danny (25 June 2013). "Bitcoin's successors: from Litecoin to Freicoin and
+onwards" (https://www.theguardian.com/technology/2013/jun/25/bitcoin-successors-litecoin-f
+reicoin). The Guardian. Archived (https://web.archive.org/web/20140110172029/http://www.t
+heguardian.com/technology/2013/jun/25/bitcoin-successors-litecoin-freicoin) from the
+original on 10 January 2014. Retrieved 15 February 2023.
+
+196. Morris, David Z (24 December 2013). "Beyond bitcoin: Inside the cryptocurrency ecosystem"
+(http://fortune.com/2013/12/24/beyond-bitcoin-inside-the-cryptocurrency-ecosystem/).
+Fortune. Archived (https://web.archive.org/web/20180127202338/http://fortune.com/2013/1
+2/24/beyond-bitcoin-inside-the-cryptocurrency-ecosystem/) from the original on 27 January
+2018. Retrieved 15 February 2023.
+
+197. Department of Justice, Office of Public Affairs (December 13, 2022). "FTX Founder Indicted
+for Fraud, Money Laundering, and Campaign Finance Offenses" (https://www.justice.gov/op
+a/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses). Archived
+(https://web.archive.org/web/20221228003609/https://www.justice.gov/opa/pr/ftx-founder-ind
+icted-fraud-money-laundering-and-campaign-finance-offenses) from the original on 28
+December 2022. Retrieved 15 February 2023.
+
+198. "The SBF indictment in full" (https://www.ft.com/content/b3d3da64-3560-4eda-ba99-991d0e
+cff794). Financial Times. December 13, 2022. Archived (https://web.archive.org/web/202212
+23080644/https://www.ft.com/content/b3d3da64-3560-4eda-ba99-991d0ecff794) from the
+original on 23 December 2022. Retrieved 15 February 2023.
+
+199. "U.S. Authorities Seize $2.5 Million in Cryptocurrency Linked to Fraud Schemes, San Diego
+FBI Aids in Crackdown" (https://hoodline.com/2025/05/u-s-authorities-seize-2-5-million-in-cr
+yptocurrency-linked-to-fraud-schemes-san-diego-fbi-aids-in-crackdown/). Hoodline. 2025-
+05-25. Retrieved 2025-05-25.
+
+External links
+Zandt, Florian (31 March 2022). "Infographic: The Biggest Crypto Heists" (https://www.statist
+a.com/chart/12707/largest-known-crypto-currency-thefts/). Statista.
+Wallet-Watch.org (https://wallet-watch.org): Non-profit database providing real-time
+intelligence against crypto fraud and illicit activity.
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Cryptocurrency_and_crime&oldid=1380781033"

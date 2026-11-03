@@ -1,0 +1,74 @@
+file_name,category,rationale
+Agent_(economics).txt,Finance & Economics,Economic decision makers in market models
+Amazon_Web_Services.txt,Computing & Infrastructure,Cloud service provider and its products
+Autoencoder.txt,Machine Learning,Neural network model for representation learning
+Backpropagation.txt,Machine Learning,Gradient computation algorithm for training neural networks
+Carlos_Lehder.txt,General (Off-domain),Biography of a drug trafficker; outside the analysed domains
+ChatGPT.txt,AI Systems & Cognition,Generative AI chatbot product and its impact
+Cloud_computing.txt,Computing & Infrastructure,Cloud service and deployment models
+Computer_network.txt,Computing & Infrastructure,Network hardware protocols and topologies
+Computer_science.txt,Computing & Infrastructure,Overview of the computing discipline
+Conversation.txt,AI Systems & Cognition,Human dialogue; discussed with chatbots and conversational agents
+Convolutional_neural_network.txt,Machine Learning,Neural network architecture for images
+Cryptocurrency_and_crime.txt,Finance & Economics,Financial crime involving crypto assets
+Cyberattack.txt,Computing & Infrastructure,Attacks on computer systems and networks
+Data_center.txt,Computing & Infrastructure,Facilities housing computing infrastructure
+Data_structure.txt,Computing & Infrastructure,Data organisation in computer science
+Decision_tree_learning.txt,Machine Learning,Tree-based supervised learning algorithm
+Deep_learning.txt,Machine Learning,Multi-layer neural network learning
+Financial_crisis.txt,Finance & Economics,Banking crises and market crashes
+Foreign_exchange_market.txt,Finance & Economics,Currency trading market
+Generative_AI.txt,AI Systems & Cognition,Generative AI systems and their societal use
+Generative_adversarial_network.txt,Machine Learning,Generator/discriminator neural network model
+Goldmines_Telefilms.txt,Finance & Economics,Company profile (business/media firm)
+Gradient_descent.txt,Machine Learning,Optimisation algorithm used to train models
+Hallucination_(artificial_intelligence).txt,AI Systems & Cognition,Failure behaviour of generative AI systems
+Hippopotamuses_in_Colombia.txt,General (Off-domain),Invasive animal population; outside the analysed domains
+Human_intelligence.txt,AI Systems & Cognition,Cognition and intelligence in humans
+Information_retrieval.txt,Language & Search Technology,Retrieval of relevant documents for queries
+Information_technology_in_India.txt,Computing & Infrastructure,IT industry and infrastructure in India
+Information_theory.txt,Computing & Infrastructure,Theory of information coding and communication
+Intelligent_agent.txt,AI Systems & Cognition,Autonomous AI agents
+Large_language_model.txt,AI Systems & Cognition,Large generative language models
+Layoff.txt,Finance & Economics,Employment termination for business reasons
+Lemmatization.txt,Language & Search Technology,Text normalisation technique in NLP
+Long_short-term_memory.txt,Machine Learning,Recurrent neural network architecture
+Machine_learning.txt,Machine Learning,Overview of machine learning
+Machine_translation.txt,Language & Search Technology,Automatic translation between languages
+Markov_decision_process.txt,Machine Learning,Decision model used in reinforcement learning
+Money_market_fund.txt,Finance & Economics,Short-term investment fund
+Named-entity_recognition.txt,Language & Search Technology,NLP information extraction task
+Natural_language_processing.txt,Language & Search Technology,Overview of natural language processing
+Neural_machine_translation.txt,Language & Search Technology,Neural approach to machine translation
+Neural_network_(machine_learning).txt,Machine Learning,Artificial neural network models
+Part-of-speech_tagging.txt,Language & Search Technology,NLP word-class tagging task
+Pattern_recognition.txt,Machine Learning,Automatic recognition of patterns in data
+Philosophy_of_artificial_intelligence.txt,AI Systems & Cognition,Philosophical questions about machine intelligence
+Random_forest.txt,Machine Learning,Ensemble of decision trees
+Recurrent_neural_network.txt,Machine Learning,Neural network for sequence data
+Regression_analysis.txt,Machine Learning,Statistical modelling of variable relationships
+Regulation_of_cryptocurrency.txt,Finance & Economics,Legal and financial regulation of crypto assets
+Reinforcement_learning.txt,Machine Learning,Reward-based learning paradigm
+Representative_agent.txt,Finance & Economics,Macroeconomic modelling concept
+Search_engine.txt,Language & Search Technology,Web search systems
+Search_engine_optimization.txt,Language & Search Technology,Improving visibility in search engine results
+Sentiment_analysis.txt,Language & Search Technology,Opinion mining from text
+Software_agent.txt,AI Systems & Cognition,Autonomous software programs acting for users
+Speaker_recognition.txt,Language & Search Technology,Identifying speakers from voice
+Speech_recognition.txt,Language & Search Technology,Converting speech to text
+Speech_translation.txt,Language & Search Technology,Translating spoken language
+Statistical_classification.txt,Machine Learning,Assigning observations to classes
+Statistical_machine_translation.txt,Language & Search Technology,Statistical approach to machine translation
+Stemming.txt,Language & Search Technology,Reducing words to their stems in NLP and IR
+Stock_market.txt,Finance & Economics,Equity trading markets
+Supervised_learning.txt,Machine Learning,Learning from labelled examples
+Support_vector_machine.txt,Machine Learning,Maximum-margin classifier
+Technical_analysis.txt,Finance & Economics,Price-chart based market analysis
+Text_mining.txt,Language & Search Technology,Extracting information from text
+Tokenization.txt,Language & Search Technology,Disambiguation page for tokenization (very short stub)
+Transfer_learning.txt,Machine Learning,Reusing learned knowledge across tasks
+Turing_test.txt,AI Systems & Cognition,Test of machine intelligence
+Unsupervised_learning.txt,Machine Learning,Learning from unlabelled data
+Virtual_assistant.txt,AI Systems & Cognition,Conversational assistants such as Siri and Alexa
+Weak_supervision.txt,Machine Learning,Learning from noisy or limited labels
+Word-sense_disambiguation.txt,Language & Search Technology,Identifying word meanings in context

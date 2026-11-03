@@ -1,0 +1,692 @@
+﻿Search engine optimization
+Search engine optimization (SEO) is the practice of improving the visibility and overall performance of
+websites and web pages in search engine results pages (SERPs).[1] It focuses on increasing the quantity
+and quality of traffic from unpaid (organic) search results rather than paid advertising.[2] SEO applies to
+multiple search formats, including web, image, video, news, academic, and vertical search engines, as
+well as AI-assisted search interfaces.
+
+SEO is commonly used as part of a broader digital marketing strategy and involves optimizing technical
+infrastructure, content relevance, and authority signals to improve rankings for user queries.[3] The
+objective of SEO is to attract users who are actively searching for information, products, or services,
+thereby improving brand visibility, user engagement, and conversions.[4]
+
+History
+Webmasters and content providers began optimizing websites for search engines in the mid-1990s as the
+first search engines were cataloging the early Web. Search engine users would query the URL of a page,
+and then receive information found on the page, if it existed in the search engine's index.
+
+ALIWEB and the earliest versions of search engines required website developers to manually upload
+website index files in order to be searchable and widely did not utilize any form of ranking algorithm for
+user queries.[1] The emergence of automated web crawlers would later be used to proactively discover
+and index websites. This led to website developers to optimize their website’s search signals, including
+the use of meta tags, to achieve greater visibility in search results.
+
+According to a 2004 article by former industry analyst and current Google employee Danny Sullivan, the
+phrase "search engine optimization" came into use in 1997. Sullivan credits SEO practitioner Bruce Clay
+as one of the first people to popularize the term.[5]
+
+In some cases, early search algorithms weighted particular HTML attributes in ways that could be
+leveraged by web content providers to manipulate their search rankings.[6] As early as 1997, search
+engine providers began adjusting their algorithms to prevent these actions.[3] Eventually, search engines
+would incorporate more meaningful measures of page purpose, including the more recent development of
+semantic search.[7]
+
+Some search engines frequently sponsor SEO conferences, webchats, and seminars. Major search engines
+provide information and guidelines to help with website optimization.[8][4] Google has a Sitemaps
+program to help webmasters learn if Google is having any problems indexing their website and also
+provides data on Google traffic to the website.[2] Bing Webmaster Tools provides a way for webmasters
+to submit a sitemap and web feeds, allows users to determine the "crawl rate", and track the web pages
+index status.
+
+
+
+In 2015, it was reported that Google was developing and promoting mobile search as a key feature within
+future products, resulting in brands and marketers shifting toward mobile-first experiences.[9]
+
+Relationship between SEO and large language models
+In the 2020s in response to the AI boom, digital marketers developed new optimization approaches for
+LLM-based search, referred to as answer engine optimization (AEO) or generative engine optimization
+(GEO).[10][11] These terms are often used interchangeably,[12][13] and other related terms exist, such as AI
+engine optimization (AIEO).[14]
+
+Digital marketers optimizing for GEO tend to focus on content structure, authority signals, and structured
+data, with the goal of becoming a trusted, citable source in AI-generated responses.[15][11]
+
+However, Google states that its AI Overviews and AI Mode do not require additional technical
+optimization beyond the existing requirements for appearing in Google Search. Pages must be indexed
+and eligible to appear in Search, while established SEO practices such as allowing crawling, using
+internal links, providing accessible textual content, and maintaining useful, reliable, people-first content
+remain applicable to these AI features.[16]
+
+Relationship between Google and SEO industry
+In 1998, two graduate students at Stanford University, Larry Page and Sergey Brin, developed "Backrub",
+a search engine that relied on a mathematical algorithm to rate the prominence of web pages. The number
+calculated by the algorithm, PageRank, is a function of the quantity and strength of inbound links.[17]
+
+PageRank estimates the likelihood that a given page will be reached by a web user who randomly surfs
+the web and follows links from one page to another. In effect, this means that some links are stronger than
+others, as a higher PageRank page is more likely to be reached by the random web surfer.
+
+Page and Brin founded Google in 1998.[18] Google attracted a loyal following among the growing
+number of Internet users, who liked its simple design.[19] Off-page factors (such as PageRank and
+hyperlink analysis) were considered as well as on-page factors (such as keyword frequency, meta tags,
+headings, links and site structure) to enable Google to avoid the kind of manipulation seen in search
+engines that only considered on-page factors for their rankings. Although PageRank was more difficult to
+game, webmasters had already developed link-building tools and schemes to influence the Inktomi search
+engine, and these methods proved similarly applicable to gaming PageRank. Many sites focus on
+exchanging, buying, and selling links, often on a massive scale. Some of these schemes involved the
+creation of thousands of sites for the sole purpose of link spamming.[20]
+
+By 2004, search engines had incorporated a wide range of undisclosed factors in their ranking algorithms
+to reduce the impact of link manipulation.[21] The leading search engines, Google, Bing, and Yahoo, do
+not disclose the algorithms they use to rank pages. Some SEO practitioners have studied different
+approaches to search engine optimization and have shared their personal opinions.[22] Patents related to
+search engines can provide information to better understand search engines.[23] In 2005, Google began
+personalizing search results for each user. Depending on their history of previous searches, Google
+crafted results for logged in users.[24]
+
+
+
+In 2007, Google announced a campaign against paid links that transfer PageRank.[25] On June 15, 2009,
+Google disclosed that they had taken measures to mitigate the effects of PageRank sculpting by use of the
+nofollow attribute on links. Matt Cutts, a well-known software engineer at Google, announced that
+Google Bot would no longer treat any no follow links, in the same way, to prevent SEO service providers
+from using no follow for PageRank sculpting.[26] As a result of this change, the usage of no follow led to
+evaporation of PageRank. In order to avoid the above, SEO engineers developed alternative techniques
+that replace no followed tags with obfuscated JavaScript and thus permit PageRank sculpting.
+Additionally, several solutions have been suggested that include the usage of iframes, Flash, and
+JavaScript.[27] As a response, in 2019, Google would change its position and started using these tags as
+hints as a way to better understand how to appropriately analyze and use links within their systems".[28]
+
+In December 2009, Google announced it would be using the web search history of all its users in order to
+populate search results.[29] On June 8, 2010 a new web indexing system called Google Caffeine was
+announced. Designed to allow users to find news results, forum posts, and other content much sooner
+after publishing than before, Google Caffeine was a change to the way Google updated its index in order
+to make things show up quicker on Google than before. According to Carrie Grimes, the software
+engineer who announced Caffeine for Google, "Caffeine provides 50 percent fresher results for web
+searches than our last index..."[30] Google Instant, a real-time search feature, was introduced in late 2010
+to deliver more timely and relevant results. Historically, site administrators often spent months or years
+optimizing websites to improve their search rankings. With the rise of social media platforms and blogs,
+major search engines adjusted their algorithms to enable fresh content to rank more quickly in search
+results.[31]
+
+Google has implemented numerous algorithm updates to improve search quality, including Panda (2011)
+for content quality, Penguin (2012) for link spam, Hummingbird (2013) for natural language processing,
+and BERT (2019) for query understanding. These updates reflect the ongoing evolution of search
+technology and Google's efforts to combat spam while improving user experience.
+
+Legal disclosures during the United States v. Google antitrust trial, which began in 2020, as well as the
+2024 Google Search documentation leak, revealed more details on how Google's SEO system operated,
+including the usage of click-based metrics and Chrome browser data, which Google had previously
+denied.
+
+On May 20, 2025, Google announced that AI Mode would be released to all U.S. users. AI Mode uses
+what Google calls a "query fan-out technique" which breaks down the search query into multiple sub-
+topics which generates additional search queries for the user.[32]
+
+Methods
+
+Getting indexed
+The leading search engines, such as Google, Bing and Yahoo!, use crawlers to find pages for their
+algorithmic search results. Pages that are linked from other search engine-indexed pages do not need to
+be submitted because they are found automatically. The Yahoo! Directory and DMOZ, two major
+directories which closed in 2014 and 2017 respectively, both required manual submission and human
+editorial review.[33] Google offers Google Search Console, for which an XML Sitemap feed can be
+
+
+
+created and submitted for free to ensure that all pages are
+found, especially pages that are not discoverable by
+automatically following links[34] in addition to their URL
+submission console.[35] Yahoo! formerly operated a paid
+submission service that guaranteed to crawl for a cost per
+click;[36] however, this practice was discontinued in 2009.
+Nevertheless, SEO tools such as Semrush enable analysis of
+both paid and organic traffic by providing insights into cost
+per click and keyword performance.[37]
+
+Search engine crawlers may look at a number of different A simple illustration of the Pagerank
+factors when crawling a site. Not every page is indexed by algorithm. Percentage shows the
+search engines. The distance of pages from the root directory perceived importance.
+of a site may also be a factor in whether or not pages get
+crawled.[38]
+
+Mobile devices are used for the majority of Google searches.[39] In November 2016, Google announced a
+major change to the way they are crawling websites and started to make their index mobile-first, which
+means the mobile version of a given website becomes the starting point for what Google includes in their
+index.[40]
+
+Preventing crawling
+To avoid undesirable content in the search indexes, webmasters can instruct spiders not to crawl certain
+files or directories through the standard robots.txt file in the root directory of the domain. Additionally, a
+page can be explicitly excluded from a search engine's database by using a meta tag specific to robots
+(usually <meta name="robots" content="noindex"> ). When a search engine visits a site, the robots.txt
+located in the root directory is the first file crawled. The robots.txt file is then parsed and will instruct the
+robot as to which pages are not to be crawled. As a search engine crawler may keep a cached copy of this
+file, it may on occasion crawl pages a webmaster does not wish to crawl. Pages typically prevented from
+being crawled include login-specific pages such as shopping carts and user-specific content such as
+search results from internal searches. In March 2007, Google warned webmasters that they should
+prevent indexing of internal search results because those pages are considered search spam.[41]
+
+In 2020, Google sunsetted the standard (and open-sourced their code) and now treats it as a hint rather
+than a directive. To adequately ensure that pages are not indexed, a page-level robot's meta tag should be
+included.[42]
+
+Increasing prominence
+A variety of methods can increase the prominence of a webpage within the search results. Cross linking
+between pages of the same website to provide more links to important pages may improve its visibility.
+Page design makes users trust a site and want to stay once they find it. When people bounce off a site, it
+counts against the site and affects its credibility.[43]
+
+Writing content that includes frequently searched keyword phrases so as to be relevant to a wide variety
+of search queries will tend to increase traffic. Updating content so as to keep search engines crawling
+back frequently can give additional weight to a site. Adding relevant keywords to a web page's metadata,
+
+
+
+including the title tag and meta description, will tend to improve the relevancy of a site's search listings,
+thus increasing traffic. URL canonicalization of web pages accessible via multiple URLs, using the
+canonical link element[44] or via 301 redirects can help make sure links to different versions of the URL
+all count towards the page's link popularity score. These are known as incoming links, which point to the
+URL and can count towards the page link's popularity score, impacting the credibility of a website.[43]
+
+White hat versus black hat techniques
+SEO techniques are often classified
+into two broad categories: techniques
+that search engine companies
+recommend ("white hat"), and those
+techniques of which search engines do
+not approve ("black hat").
+
+Search engines attempt to minimize
+the effect of the latter, among them
+spamdexing. Industry commentators
+have classified these methods and the
+practitioners who employ them as
+either white hat SEO or black hat
+SEO.[45]
+
+A white hat SEO technique conforms Common white-hat methods of search engine optimization
+to the search engines' guidelines. It's
+been compared to web development
+that promotes accessibility,[46] although the two are not identical.
+
+Black hat SEO attempts to improve rankings in ways that are disapproved of by the search engines or
+involve deception. A dated black hat technique involves using hidden text, either as text colored similar to
+the background, in an invisible div, or positioned off-screen. Search engines like Google have strong
+policies against many of these tactics[47].
+
+White hat tactics tend to produce long-lasting results, whereas black hat tactics carry the risk that
+websites may eventually be penalized once search engines discover what they are doing.[48]
+
+Another category sometimes used is grey hat SEO. This is in between the black hat and white hat
+approaches, where the methods employed avoid the site being penalized but do not act in producing the
+best content for users.
+
+Search engines may penalize sites they discover using black or grey hat methods, either by reducing their
+rankings or eliminating their listings from their databases altogether. Such penalties can be applied either
+automatically by the search engines' algorithms or by a manual site review. One example was the
+February 2006 Google removal of both BMW Germany and Ricoh Germany for the use of deceptive
+practices.[49] Both companies subsequently apologized, fixed the offending pages, and were restored to
+Google's search engine results page.[50]
+
+
+
+Companies that employ black hat techniques or other spammy tactics can get their client websites banned
+from the search results. In 2005, the Wall Street Journal reported on a company, Traffic Power, which
+allegedly used high-risk techniques and failed to disclose those risks to its clients.[51] Wired magazine
+reported that the same company sued blogger and SEO Aaron Wall for writing about the ban.[52] Google's
+Matt Cutts later confirmed that Google had banned Traffic Power and some of its clients.[53]
+
+As marketing strategy
+SEO is one approach within digital marketing, alongside other strategies such as pay-per-click advertising
+and social media marketing. Search engine marketing (SEM) is the practice of designing, running, and
+optimizing search engine ad campaigns. Its difference from SEO is most simply depicted as the
+difference between paid and unpaid priority ranking in search results. SEM focuses on prominence more
+so than relevance; website developers should regard SEM with the utmost importance with consideration
+to visibility as most navigate to the primary listings of their search.[54] A successful Internet marketing
+campaign may also depend upon building high-quality web pages to engage and persuade internet users,
+setting up analytics programs to enable site owners to measure results, and improving a site's conversion
+rate.[55][56]
+
+In November 2015, Google released a full 160-page version of its Search Quality Rating Guidelines to
+the public,[57] which revealed a shift in their focus towards "usefulness" and mobile local search. In
+recent years the mobile market has exploded, overtaking the use of desktops, as shown in by StatCounter
+in October 2016, where they analyzed 2.5 million websites and found that 51.3% of the pages were
+loaded by a mobile device.[58] Google has been one of the companies that are utilizing the popularity of
+mobile usage by encouraging websites to use their Google Search Console, the Mobile-Friendly Test,
+which allows companies to measure up their website to the search engine results and determine how user-
+friendly their websites are. The closer the keywords are together their ranking will improve based on key
+terms.[43]
+
+SEO may generate an adequate return on investment. However, search engines are not paid for organic
+search traffic, their algorithms change, and there are no guarantees of continued referrals. Due to this lack
+of guarantee and uncertainty, a business that relies heavily on search engine traffic can suffer major losses
+if the search engines stop sending visitors.[59] Search engines can change their algorithms, impacting a
+website's search engine ranking, possibly resulting in a serious loss of traffic. According to Google's
+CEO, Eric Schmidt, in 2010, Google made over 500 algorithm changes – almost 1.5 per day.[60] Industry
+analysts note that websites may face risks from algorithm changes that can significantly impact organic
+traffic. In addition to accessibility in terms of web crawlers (addressed above), user web accessibility has
+become increasingly important for SEO.
+
+International markets and SEO
+Optimization techniques are highly tailored to the dominant search engines in the target market. Search
+engine market shares vary from one market to another, as does the level of competition. Google has
+maintained a dominant market share in most regions, although its share varies by market.[61] In markets
+
+
+
+outside the United States, Google's share is often larger, and data showed Google was the dominant
+search engine worldwide as of 2007.[62] As of 2006, Google had an 85–90% market share in
+Germany.[63]
+
+By the early 2000s, businesses began using SEO to target multilingual customers.[64]
+
+Legal cases
+On October 17, 2002, SearchKing filed suit in the United States District Court, Western District of
+Oklahoma, against the search engine Google. SearchKing's claim was that Google's tactics to prevent
+spamdexing constituted a tortious interference with contractual relations. On May 27, 2003, the court
+granted Google's motion to dismiss the complaint because SearchKing "failed to state a claim upon which
+relief may be granted."[65][66]
+
+In March 2006, KinderStart filed a lawsuit against Google over search engine rankings. KinderStart's
+website was removed from Google's index prior to the lawsuit, and the amount of traffic to the site
+dropped by 70%. On March 16, 2007, the United States District Court for the Northern District of
+California (San Jose Division) dismissed KinderStart's complaint without leave to amend and partially
+granted Google's motion for Rule 11 sanctions against KinderStart's attorney, requiring him to pay part of
+Google's legal expenses.[67][68]
+
+See also
+Competitor backlinking
+Generative engine optimization
+List of search engines
+Search engine marketing
+Search neutrality, the opposite of search manipulation
+User intent
+Website promotion
+Search engine results page
+Search engine scraping
+
+References
+1. Hendy, Carl (July 3, 2024). "The History of Search Engines" (https://audits.com/seo/insights/
+
+history-of-search-engines/#:~:text=WebCrawler%20was%20the%20first%20search,build%2
+0any%20significant%20new%20technology.). audits. Retrieved September 17, 2025.
+
+2. "Sitemaps" (https://developers.google.com/search/docs/crawling-indexing/sitemaps/overvie
+w). Archived (https://web.archive.org/web/20230622175619/https://developers.google.com/s
+earch/docs/crawling-indexing/sitemaps/overview) from the original on June 22, 2023.
+Retrieved July 4, 2012.
+
+
+
+3. Laurie J. Flynn (November 11, 1996). "Desperately Seeking Surfers" (https://query.nytimes.c
+om/gst/fullpage.html?res=940DE0DF123BF932A25752C1A960958260). New York Times.
+Archived (https://web.archive.org/web/20071030131226/http://query.nytimes.com/gst/fullpag
+e.html?res=940DE0DF123BF932A25752C1A960958260) from the original on October 30,
+2007. Retrieved May 9, 2007.
+
+4. "Bing Webmaster Guidelines" (https://www.bing.com/webmaster/help/webmaster-guidelines-
+30fba23a). bing.com. Archived (https://web.archive.org/web/20140909120222/http://www.bi
+ng.com/webmaster/help/webmaster-guidelines-30fba23a) from the original on September 9,
+2014. Retrieved September 11, 2014.
+
+5. Danny Sullivan (June 14, 2004). "Who Invented the Term "Search Engine Optimization"?" (h
+ttps://web.archive.org/web/20100423051708/http://forums.searchenginewatch.com/showpos
+t.php?p=2119). Search Engine Watch. Search Engine Watch. Archived from the original (htt
+p://forums.searchenginewatch.com/showpost.php?p=2119&postcount=10) on April 23,
+2010. Retrieved May 14, 2007. See Google groups thread (https://groups.google.com/grou
+p/alt.current-events.net-abuse.spam/browse_thread/thread/6fee2777dc17b8ab/3858bff94e5
+6aff3?lnk=st&q=%22search+engine+optimization%22&rnum=1#3858bff94e56aff3) Archived
+(https://web.archive.org/web/20130617012709/http://groups.google.com/group/alt.current-ev
+ents.net-abuse.spam/browse_thread/thread/6fee2777dc17b8ab/3858bff94e56aff3?lnk=st&q
+=%22search+engine+optimization%22&rnum=1#3858bff94e56aff3) June 17, 2013, at the
+Wayback Machine.
+
+6. "What Is Black-Hat SEO? Definition, Techniques, and Why To Avoid It" (https://www.seo.co
+m/basics/glossary/black-hat-seo/). SEO.com. Retrieved September 17, 2025.
+
+7. "What is semantic search, and how does it work?" (https://cloud.google.com/discover/what-i
+s-semantic-search). Google Cloud. Retrieved September 17, 2025.
+
+8. "Google's Guidelines on Site Design" (http://www.google.com/webmasters/guidelines.html).
+Archived (https://web.archive.org/web/20090109073316/http://www.google.com./webmaster
+s/guidelines.html) from the original on January 9, 2009. Retrieved April 18, 2007.
+
+9. " "By the Data: For Consumers, Mobile is the Internet" Google for Entrepreneurs Startup
+Grind September 20, 2015" (https://www.startupgrind.com/blog/mobile-is-the-internet-for-co
+nsumers/). Archived (https://web.archive.org/web/20160106040341/https://www.startupgrin
+d.com/blog/mobile-is-the-internet-for-consumers/) from the original on January 6, 2016.
+Retrieved January 8, 2016.
+
+10. Karamuk, Hidayet (December 2025). "From SEO to Answer Engine Optimization (AEO):
+Generative AI and the Transformation of Search Visibility". Pazarlamanın Genişleyen
+Ufukları: Dijitalleşme, Tüketici ve Stratejik Dönüşümler (https://avesis.kocaeli.edu.tr/publicati
+on/details/d484d872-4228-4b17-b048-56365f8c55bf/oai). Bidge Publishing. pp. 278–295.
+doi:10.70269/10.70269/7348479369 (https://doi.org/10.70269%2F10.70269%2F734847936
+9). ISBN 978-625-8567-74-8.
+
+11. Aggarwal, Pranjal; Murahari, Vishvak; Rajpurohit, Tanmay; Kalyan, Ashwin; Narasimhan,
+Karthik; Deshpande, Ameet (August 2024). GEO: Generative Engine Optimization.
+Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data
+Mining. doi:10.1145/3637528.3671900 (https://doi.org/10.1145%2F3637528.3671900).
+
+12. Griffith, Erin (February 17, 2026). "Chatbots Are the New Influencers Brands Must Woo" (htt
+ps://www.nytimes.com/2026/02/17/technology/chatbots-influencers-brands-marketing.html).
+The New York Times.
+
+13. Herrman, John (August 4, 2025). "SEO Is Dead. Say Hello to GEO" (https://nymag.com/intel
+ligencer/article/seo-is-dead-say-hello-to-geo.html). New York Magazine Intelligencer.
+
+14. Barnard, Jason (February 24, 2026). "AAO: Why assistive agent optimization is the next
+evolution of SEO" (https://searchengineland.com/aao-assistive-agent-optimization-469919).
+Search Engine Land.
+
+
+
+15. McKenzie, Leigh (February 11, 2026). "Generative engine optimization (GEO): How to win
+AI mentions" (https://searchengineland.com/what-is-generative-engine-optimization-geo-444
+418). Search Engine Land.
+
+16. "AI features and your website" (https://developers.google.com/search/docs/appearance/ai-fe
+atures). Google Search Central. Google. Retrieved September 26, 2026.
+
+17. Brin, Sergey & Page, Larry (1998). "The Anatomy of a Large-Scale Hypertextual Web
+Search Engine" (http://www-db.stanford.edu/~backrub/google.html). Proceedings of the
+seventh international conference on World Wide Web. pp. 107–117. Archived (https://web.ar
+chive.org/web/20061010084452/http://www-db.stanford.edu/~backrub/google.html) from the
+original on October 10, 2006. Retrieved May 8, 2007.
+
+18. "Co-founders of Google - Google's co-founders may not have the name recognition of say,
+Bill Gates, but give them time: Google hasn't been around nearly as long as Microsoft" (htt
+p://www.entrepreneur.com/article/197848). Entrepreneur. October 15, 2008. Archived (http
+s://web.archive.org/web/20140531124147/http://www.entrepreneur.com/article/197848) from
+the original on May 31, 2014. Retrieved May 30, 2014.
+
+19. Thompson, Bill (December 19, 2003). "Is Google good for you?" (https://news.bbc.co.uk/2/h
+i/technology/3334531.stm). BBC News. Archived (https://web.archive.org/web/20090125130
+328/http://news.bbc.co.uk/1/hi/technology/3334531.stm) from the original on January 25,
+2009. Retrieved May 16, 2007.
+
+20. Zoltan Gyongyi & Hector Garcia-Molina (2005). "Link Spam Alliances" (http://infolab.stanfor
+d.edu/~zoltan/publications/gyongyi2005link.pdf) (PDF). Proceedings of the 31st VLDB
+Conference, Trondheim, Norway. Archived (https://web.archive.org/web/20070612023948/ht
+tp://infolab.stanford.edu/~zoltan/publications/gyongyi2005link.pdf) (PDF) from the original on
+June 12, 2007. Retrieved May 9, 2007.
+
+21. Hansell, Saul (June 3, 2007). "Google Keeps Tweaking Its Search Engine" (https://www.nyti
+mes.com/2007/06/03/business/yourmoney/03google.html). New York Times. Archived (http
+s://web.archive.org/web/20171110133529/https://www.nytimes.com/2007/06/03/business/yo
+urmoney/03google.html) from the original on November 10, 2017. Retrieved June 6, 2007.
+
+22. Sullivan, Danny (September 29, 2005). "Rundown On Search Ranking Factors" (https://ww
+w.searchenginewatch.com/2005/09/29/rundown-on-search-ranking-factors/). Search Engine
+Watch. Search Engine Watch. Archived (https://web.archive.org/web/20070528133132/htt
+p://blog.searchenginewatch.com/blog/050929-072711) from the original on May 28, 2007.
+Retrieved May 8, 2007.
+
+23. Christine Churchill (November 23, 2005). "Understanding Search Engine Patents" (https://w
+eb.archive.org/web/20070207222630/http://searchenginewatch.com/showPage.html?page=
+3564261). Search Engine Watch. Archived from the original (http://searchenginewatch.com/
+showPage.html?page=3564261) on February 7, 2007. Retrieved May 8, 2007.
+
+24. "Google Personalized Search Leaves Google Labs" (https://web.archive.org/web/20090125
+065500/https://www.searchenginewatch.com/3563036). searchenginewatch.com. Search
+Engine Watch. Archived from the original (http://searchenginewatch.com/3563036) on
+January 25, 2009. Retrieved September 5, 2009.
+
+25. "8 Things We Learned About Google PageRank" (https://www.searchenginejournal.com/8-th
+ings-we-learned-about-google-pagerank/5897/). www.searchenginejournal.com. October 25,
+2007. Archived (https://web.archive.org/web/20090819080745/http://www.searchenginejour
+nal.com/8-things-we-learned-about-google-pagerank/5897/) from the original on August 19,
+2009. Retrieved August 17, 2009.
+
+26. "PageRank sculpting" (https://www.mattcutts.com/blog/pagerank-sculpting/). Matt Cutts.
+Archived (https://web.archive.org/web/20100106120723/http://www.mattcutts.com/blog/page
+rank-sculpting/) from the original on January 6, 2010. Retrieved January 12, 2010.
+
+
+
+27. "Google Loses "Backwards Compatibility" On Paid Link Blocking & PageRank Sculpting" (htt
+p://searchengineland.com/google-loses-backwards-compatibility-on-paid-link-blocking-pager
+ank-sculpting-20408). searchengineland.com. June 3, 2009. Archived (https://web.archive.or
+g/web/20090814212229/http://searchengineland.com/google-loses-backwards-compatibility-
+on-paid-link-blocking-pagerank-sculpting-20408/) from the original on August 14, 2009.
+Retrieved August 17, 2009.
+
+28. Sullivan, Danny; Illyes, Gary. "Evolving "nofollow" – new ways to identify the nature of links |
+Google Search Central Blog" (https://developers.google.com/search/blog/2019/09/evolving-
+nofollow-new-ways-to-identify). Google for Developers. Retrieved March 19, 2026.
+
+29. "Personalized Search for everyone" (https://googleblog.blogspot.com/2009/12/personalized-
+search-for-everyone.html). Archived (https://web.archive.org/web/20091208140917/http://go
+ogleblog.blogspot.com/2009/12/personalized-search-for-everyone.html) from the original on
+December 8, 2009. Retrieved December 14, 2009.
+
+30. "Our new search index: Caffeine" (https://googleblog.blogspot.com/2010/06/our-new-search
+-index-caffeine.html). Google: Official Blog. Archived (https://web.archive.org/web/20100618
+160021/http://googleblog.blogspot.com/2010/06/our-new-search-index-caffeine.html) from
+the original on June 18, 2010. Retrieved May 10, 2014.
+
+31. "Relevance Meets Real-Time Web" (https://googleblog.blogspot.com/2009/12/relevance-me
+ets-real-time-web.html). Google Blog. Archived (https://web.archive.org/web/201904072214
+54/http://googleblog.blogspot.com/2009/12/relevance-meets-real-time-web.html) from the
+original on April 7, 2019. Retrieved January 4, 2010.
+
+32. "AI in Search: Going beyond information to intelligence" (https://blog.google/products/searc
+h/google-search-ai-mode-update/). blog.google.com. May 20, 2025. Retrieved June 23,
+2025.
+
+33. "Submitting To Directories: Yahoo & The Open Directory" (https://web.archive.org/web/2007
+0519052103/http://searchenginewatch.com/showPage.html?page=2167881). Search
+Engine Watch. March 12, 2007. Archived from the original (http://searchenginewatch.com/sh
+owPage.html?page=2167881) on May 19, 2007. Retrieved May 15, 2007.
+
+34. "What is a Sitemap file and why should I have one?" (http://www.google.com/support/webm
+asters/bin/answer.py?answer=40318&topic=8514). Archived (https://web.archive.org/web/20
+070701232719/http://www.google.com/support/webmasters/bin/answer.py?answer=40318&t
+opic=8514) from the original on July 1, 2007. Retrieved March 19, 2007.
+
+35. "Search Console - Crawl URL" (https://www.google.com/webmasters/tools/submit-url).
+Archived (https://web.archive.org/web/20220814100500/https://accounts.google.com/_/bscfr
+ame) from the original on August 14, 2022. Retrieved December 18, 2015.
+
+36. Sullivan, Danny (March 12, 2007). "Submitting To Search Crawlers: Google, Yahoo, Ask &
+Microsoft's Live Search" (https://web.archive.org/web/20070510090932/http://searchengine
+watch.com/showPage.html?page=2167871#Teoma). Search Engine Watch. Archived from
+the original (http://searchenginewatch.com/showPage.html?page=2167871) on May 10,
+2007. Retrieved May 15, 2007.
+
+37. Erdmann, Anett; Arilla, Ramón; Ponzoa, José M. (May 2022). "Search engine optimization:
+The long-term strategy of keyword choice". Journal of Business Research. 144: 650–662.
+doi:10.1016/j.jbusres.2022.01.065 (https://doi.org/10.1016%2Fj.jbusres.2022.01.065).
+
+38. Cho, J.; Garcia-Molina, H.; Page, L. (1998). "Efficient crawling through URL ordering" (http
+s://web.archive.org/web/20190714141416/http://ilpubs.stanford.edu:8090/347/). Seventh
+International World-Wide Web Conference. Brisbane, Australia: Stanford InfoLab Publication
+Server. Archived from the original (http://ilpubs.stanford.edu:8090/347/) on July 14, 2019.
+Retrieved May 9, 2007.
+
+39. "Mobile-first Index" (https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html).
+Archived (https://web.archive.org/web/20190222000527/https://webmasters.googleblog.co
+m/2016/11/mobile-first-indexing.html) from the original on February 22, 2019. Retrieved
+March 19, 2018.
+
+
+
+40. Phan, Doantam (November 4, 2016). "Mobile-first Indexing" (https://webmasters.googleblog.
+com/2016/11/mobile-first-indexing.html). Official Google Webmaster Central Blog. Archived
+(https://web.archive.org/web/20190222000527/https://webmasters.googleblog.com/2016/11/
+mobile-first-indexing.html) from the original on February 22, 2019. Retrieved January 16,
+2019.
+
+41. "Newspapers Amok! New York Times Spamming Google? LA Times Hijacking Cars.com?"
+(http://searchengineland.com/newspapers-amok-new-york-times-spamming-google-la-times
+-hijacking-carscom-11169). Search Engine Land. May 8, 2007. Archived (https://web.archiv
+e.org/web/20081226161450/http://searchengineland.com/newspapers-amok-new-york-time
+s-spamming-google-la-times-hijacking-carscom-11169) from the original on December 26,
+2008. Retrieved May 9, 2007.
+
+42. Jill Kocher Brown (February 24, 2020). "Google Downgrades Nofollow Directive. Now
+What?" (https://www.practicalecommerce.com/google-downgrades-nofollow-directive-now-w
+hat). Practical Ecommerce. Archived (https://web.archive.org/web/20210125080754/https://
+www.practicalecommerce.com/google-downgrades-nofollow-directive-now-what) from the
+original on January 25, 2021. Retrieved February 11, 2021.
+
+43. Morey, Sean (2008). The Digital Writer. Fountainhead Press. pp. 171–187.
+44. "Bing – Partnering to help solve duplicate content issues – Webmaster Blog – Bing
+
+Community" (https://blogs.bing.com/webmaster/2009/02/12/partnering-to-help-solve-duplicat
+e-content-issues). www.bing.com. February 12, 2009. Archived (https://web.archive.org/we
+b/20140607164839/http://blogs.bing.com/webmaster/2009/02/12/partnering-to-help-solve-d
+uplicate-content-issues/) from the original on June 7, 2014. Retrieved October 30, 2009.
+
+45. Andrew Goodman. "Search Engine Showdown: Black hats vs. White hats at SES" (https://w
+eb.archive.org/web/20070222004138/http://searchenginewatch.com/showPage.html?page=
+3483941). SearchEngineWatch. Archived from the original (http://searchenginewatch.com/s
+howPage.html?page=3483941) on February 22, 2007. Retrieved May 9, 2007.
+
+46. Andy Hagans (November 8, 2005). "High Accessibility Is Effective Search Engine
+Optimization" (https://alistapart.com/articles/accessibilityseo). A List Apart. Archived (https://
+web.archive.org/web/20070504054044/http://www.alistapart.com/articles/accessibilityseo/)
+from the original on May 4, 2007. Retrieved May 9, 2007.
+
+47. "Spam Policies for Google Web Search | Google Search Central | Documentation" (https://d
+evelopers.google.com/search/docs/essentials/spam-policies). Google for Developers.
+Retrieved April 28, 2026.
+
+48. Jill Whalen (November 16, 2004). "Black Hat/White Hat Search Engine Optimization" (http
+s://web.archive.org/web/20041117131237/http://www.searchengineguide.com/whalen/2004/
+1116_jw1.html). searchengineguide.com. Archived from the original (http://www.searchengin
+eguide.com/whalen/2004/1116_jw1.html) on November 17, 2004. Retrieved May 9, 2007.
+
+49. Matt Cutts (February 4, 2006). "Ramping up on international webspam" (http://www.mattcutt
+s.com/blog/ramping-up-on-international-webspam/). mattcutts.com/blog. Archived (https://w
+eb.archive.org/web/20120629051407/http://www.mattcutts.com/blog/ramping-up-on-internati
+onal-webspam/) from the original on June 29, 2012. Retrieved May 9, 2007.
+
+50. Matt Cutts (February 7, 2006). "Recent reinclusions" (http://www.mattcutts.com/blog/recent-r
+einclusions/). mattcutts.com/blog. Archived (https://web.archive.org/web/20070522130714/h
+ttp://www.mattcutts.com/blog/recent-reinclusions/) from the original on May 22, 2007.
+Retrieved May 9, 2007.
+
+51. David Kesmodel (September 22, 2005). "Sites Get Dropped by Search Engines After Trying
+to 'Optimize' Rankings" (https://www.wsj.com/articles/SB112714166978744925?apl=y&r=94
+7596). Wall Street Journal. Archived (https://web.archive.org/web/20200804125356/https://w
+ww.wsj.com/articles/SB112714166978744925?apl=y&r=947596) from the original on August
+4, 2020. Retrieved July 30, 2008.
+
+
+
+52. Adam L. Penenberg (September 8, 2005). "Legal Showdown in Search Fracas" (http://archi
+ve.wired.com/culture/lifestyle/news/2005/09/68799?currentPage=all). Wired Magazine.
+Archived (https://web.archive.org/web/20160304055056/http://archive.wired.com/culture/life
+style/news/2005/09/68799?currentPage=all) from the original on March 4, 2016. Retrieved
+August 11, 2016.
+
+53. Matt Cutts (February 2, 2006). "Confirming a penalty" (http://www.mattcutts.com/blog/confir
+ming-a-penalty/). mattcutts.com/blog. Archived (https://web.archive.org/web/201206260938
+28/http://www.mattcutts.com/blog/confirming-a-penalty/) from the original on June 26, 2012.
+Retrieved May 9, 2007.
+
+54. Tapan, Panda (2013). "Search Engine Marketing: Does the Knowledge Discovery Process
+Help Online Retailers?". IUP Journal of Knowledge Management. 11 (3): 56–66.
+ProQuest 1430517207 (https://www.proquest.com/docview/1430517207).
+
+55. Melissa Burdon (March 13, 2007). "The Battle Between Search Engine Optimization and
+Conversion: Who Wins?" (https://web.archive.org/web/20080315221733/http://www.grokdot
+com.com/2007/03/13/the-battle-between-search-engine-optimization-and-conversion-who-w
+ins). Grok.com. Archived from the original (http://www.grokdotcom.com/2007/03/13/the-battl
+e-between-search-engine-optimization-and-conversion-who-wins/) on March 15, 2008.
+Retrieved April 10, 2017.
+
+56. "SEO Tips and Marketing Strategies" (https://skyrocketresultsseo.com/hvac/seo/). Archived
+(https://web.archive.org/web/20221030122434/https://skyrocketresultsseo.com/hvac/seo/)
+from the original on October 30, 2022. Retrieved October 30, 2022.
+
+57. " "Search Quality Evaluator Guidelines" How Search Works November 12, 2015" (http://stati
+c.googleusercontent.com/media/www.google.com/en//insidesearch/howsearchworks/assets/
+searchqualityevaluatorguidelines.pdf) (PDF). Archived (https://web.archive.org/web/2019032
+9234138/http://static.googleusercontent.com/media/www.google.com/en//insidesearch/hows
+earchworks/assets/searchqualityevaluatorguidelines.pdf) (PDF) from the original on March
+29, 2019. Retrieved January 11, 2016.
+
+58. Titcomb, James (November 2016). "Mobile web usage overtakes desktop for first time" (http
+s://www.telegraph.co.uk/technology/2016/11/01/mobile-web-usage-overtakes-desktop-for-fir
+st-time/). The Telegraph. Archived (https://ghostarchive.org/archive/20220110/https://www.te
+legraph.co.uk/technology/2016/11/01/mobile-web-usage-overtakes-desktop-for-first-time/)
+from the original on January 10, 2022. Retrieved March 17, 2018.
+
+59. Andy Greenberg (April 30, 2007). "Condemned To Google Hell" (https://web.archive.org/we
+b/20070502074629/http://www.forbes.com/technology/2007/04/29/sanar-google-skyfacet-te
+ch-cx_ag_0430googhell.html?partner=rss). Forbes. Archived from the original (https://www.f
+orbes.com/technology/2007/04/29/sanar-google-skyfacet-tech-cx_ag_0430googhell.html?pa
+rtner=rss) on May 2, 2007. Retrieved May 9, 2007.
+
+60. Matt McGee (September 21, 2011). "Schmidt's testimony reveals how Google tests
+algorithm changes" (http://searchengineland.com/13000-precision-evaluations-schmidts-test
+imony-reveals-how-google-tests-algorithm-changes-93740). Archived (https://web.archive.or
+g/web/20120117152309/http://searchengineland.com/13000-precision-evaluations-schmidts
+-testimony-reveals-how-google-tests-algorithm-changes-93740) from the original on January
+17, 2012. Retrieved January 4, 2012.
+
+61. Graham, Jefferson (August 26, 2003). "The search engine that could" (https://www.usatoda
+y.com/tech/news/2003-08-25-google_x.htm). USA Today. Archived (https://web.archive.org/
+web/20070517051318/http://www.usatoday.com/tech/news/2003-08-25-google_x.htm) from
+the original on May 17, 2007. Retrieved May 15, 2007.
+
+62. Greg Jarboe (February 22, 2007). "Stats Show Google Dominates the International Search
+Landscape" (http://searchenginewatch.com/article/2066064/Stats-Show-Google-Dominates-
+the-International-Search-Landscape). Search Engine Watch. Search Engine Watch.
+Archived (https://web.archive.org/web/20110523154641/http://searchenginewatch.com/articl
+e/2066064/Stats-Show-Google-Dominates-the-International-Search-Landscape) from the
+original on May 23, 2011. Retrieved May 15, 2007.
+
+
+
+63. Mike Grehan (April 3, 2006). "Search Engine Optimizing for Europe" (https://web.archive.or
+g/web/20101106014727/http://www.clickz.com/clickz/column/1702507/search-engine-optimi
+zing-europe). Click. Archived from the original (http://www.clickz.com/clickz/column/170250
+7/search-engine-optimizing-europe) on November 6, 2010. Retrieved May 14, 2007.
+
+64. Bento, Fabio; Tagliabue, Marco; Lorenzo, Flora (July 24, 2020). "Organizational Silos: A
+Scoping Review Informed by a Behavioral Perspective on Systems and Networks" (https://d
+oi.org/10.3390%2Fsoc10030056). Societies. 10 (3): 56. doi:10.3390/soc10030056 (https://d
+oi.org/10.3390%2Fsoc10030056). hdl:10642/8939 (https://hdl.handle.net/10642%2F8939).
+
+65. "Search King, Inc. v. Google Technology, Inc., CIV-02-1457-M" (http://www.docstoc.com/doc
+s/618281/Order-(Granting-Googles-Motion-to-Dismiss-Search-Kings-Complaint)) (PDF).
+docstoc.com. May 27, 2003. Archived (https://web.archive.org/web/20080527012138/http://
+www.docstoc.com/docs/618281/Order-(Granting-Googles-Motion-to-Dismiss-Search-Kings-
+Complaint)) from the original on May 27, 2008. Retrieved May 23, 2008.
+
+66. Stefanie Olsen (May 30, 2003). "Judge dismisses suit against Google" (https://news.cnet.co
+m/2100-1032_3-1011740.html). CNET. Archived (https://web.archive.org/web/20101201180
+530/http://news.cnet.com/2100-1032_3-1011740.html) from the original on December 1,
+2010. Retrieved May 10, 2007.
+
+67. "Technology & Marketing Law Blog: KinderStart v. Google Dismissed—With Sanctions
+Against KinderStart's Counsel" (http://blog.ericgoldman.org/archives/2007/03/kinderstart_v_
+g_2.htm). blog.ericgoldman.org. March 20, 2007. Archived (https://web.archive.org/web/200
+80511162049/http://blog.ericgoldman.org/archives/2007/03/kinderstart_v_g_2.htm) from the
+original on May 11, 2008. Retrieved June 23, 2008.
+
+68. "Technology & Marketing Law Blog: Google Sued Over Rankings—KinderStart.com v.
+Google" (http://blog.ericgoldman.org/archives/2006/03/google_sued_ove.htm).
+blog.ericgoldman.org. Archived (https://web.archive.org/web/20080622152019/http://blog.eri
+cgoldman.org/archives/2006/03/google_sued_ove.htm) from the original on June 22, 2008.
+Retrieved June 23, 2008.
+
+External links
+Webmaster Guidelines (https://support.google.com/webmasters/bin/answer.py?hl=en&answ
+er=35769) from Google
+Google Search Quality Evaluators Guidelines (PDF) (https://static.googleusercontent.com/m
+edia/www.google.com/en//insidesearch/howsearchworks/assets/searchqualityevaluatorguid
+elines.pdf)
+Webmaster resources (https://help.yahoo.com/kb/search/SLN2245.html) from Yahoo!
+Webmaster Guidelines (https://www.bing.com/webmaster/help/webmaster-guidelines-30fba
+23a) from Microsoft Bing
+The Dirty Little Secrets of Search (https://www.nytimes.com/2011/02/13/business/13search.
+html) in The New York Times (February 12, 2011)
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Search_engine_optimization&oldid=1376765228"
